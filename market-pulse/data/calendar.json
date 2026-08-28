@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-28T13:10:00Z",
+  "month": "2026-09",
+  "note": "confirmed=true means the date was verified against a cited source. confirmed=false is the company's typical reporting slot and must be re-verified before trading around it.",
+  "events": [
+    {"date":"2026-08-28","type":"macro","title":"Jackson Hole — Fed Chair Warsh speech","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":true},
+    {"date":"2026-09-01","type":"macro","title":"ISM Manufacturing PMI","tickers":["SPY","IWM"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-03","type":"earnings","title":"Broadcom (AVGO) Q3 FY26","tickers":["AVGO"],"importance":"high","confirmed":false},
+    {"date":"2026-09-04","type":"macro","title":"August Jobs Report (BLS Employment Situation), 8:30 ET","tickers":["SPY","IWM","TLT"],"importance":"high","confirmed":false},
+    {"date":"2026-09-10","type":"earnings","title":"Adobe (ADBE) Q3 FY26","tickers":["ADBE"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-11","type":"macro","title":"CPI inflation report, 8:30 ET","tickers":["SPY","QQQ","TLT","IWM"],"importance":"high","confirmed":true},
+    {"date":"2026-09-14","type":"earnings","title":"Oracle (ORCL) Q1 FY27 — AI backlog in focus","tickers":["ORCL"],"importance":"high","confirmed":true},
+    {"date":"2026-09-15","type":"macro","title":"FOMC meeting begins (day 1 of 2)","tickers":["SPY","TLT"],"importance":"high","confirmed":true},
+    {"date":"2026-09-16","type":"macro","title":"FOMC rate decision 2:00 ET + Warsh press conference","tickers":["SPY","QQQ","IWM","TLT","JPM","GS"],"importance":"high","confirmed":true},
+    {"date":"2026-09-16","type":"macro","title":"August Retail Sales","tickers":["WMT","COST","TGT"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-17","type":"earnings","title":"FedEx (FDX) Q1 FY27 — global freight bellwether","tickers":["FDX"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-23","type":"earnings","title":"Micron (MU) Q4 FY26 — HBM pricing","tickers":["MU"],"importance":"high","confirmed":false},
+    {"date":"2026-09-24","type":"earnings","title":"Costco (COST) Q4 FY26","tickers":["COST"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-24","type":"earnings","title":"Nike (NKE) Q1 FY27","tickers":["NKE"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-24","type":"earnings","title":"Accenture (ACN) Q4 FY26","tickers":["ACN"],"importance":"medium","confirmed":false},
+    {"date":"2026-09-25","type":"macro","title":"August PCE price index — Fed's preferred gauge","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false},
+    {"date":"2026-09-30","type":"macro","title":"Quarter end — index rebalance / window dressing","tickers":["SPY","QQQ","IWM"],"importance":"medium","confirmed":false}
+  ]
+}
