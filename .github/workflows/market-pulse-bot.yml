@@ -74,17 +74,17 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
         run: python3 market-pulse/telegram/bot.py setup
 
-      - name: Persist offset and sent ledger
+      - name: Persist ledger and holdings
         if: steps.gate.outputs.ready == 'true'
         run: |
           set -euo pipefail
-          if git diff --quiet -- market-pulse/data/telegram.json; then
+          if git diff --quiet -- market-pulse/data/telegram.json market-pulse/data/holdings.json; then
             echo "no ledger change"; exit 0
           fi
           git config user.name  "market-pulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add market-pulse/data/telegram.json
-          git commit -m "chore(bot): telegram offset + sent ledger [skip ci]"
+          git add market-pulse/data/telegram.json market-pulse/data/holdings.json
+          git commit -m "chore(bot): telegram ledger + holdings [skip ci]"
           # The Claude scan pushes to this branch too; rebase and retry on races.
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:"$DATA_BRANCH"; then
