@@ -1,69 +1,47 @@
 {
-  "generated_at": "2026-08-28T13:10:00Z",
+  "generated_at": "2026-08-28T15:30:02Z",
   "session_date": "2026-08-28",
   "items": [
     {
-      "id": "20260828-warsh-jacksonhole",
-      "time": "2026-08-28T12:00:00Z",
-      "headline": "Fed Chair Kevin Warsh delivers Jackson Hole debut speech; futures slip as traders wait",
-      "impact": 9,
-      "direction": "uncertain",
+      "id": "20260828-warsh-speech-inflation-concerning",
+      "time": "2026-08-28T14:00:00Z",
+      "headline": "Warsh's Jackson Hole debut: inflation trends have not \"meaningfully improved,\" declines to rule out hikes",
+      "impact": 8,
+      "direction": "bearish",
       "scope": "macro",
-      "tickers": ["SPY","QQQ","IWM","TLT","JPM","GS","BAC"],
-      "why": "First Jackson Hole address from a new Fed chair is the single largest rate-path repricing event of the quarter. A hawkish read compresses multiples on long-duration tech; a dovish read is a broad risk-on trigger. Positioning is defensive into it.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
-      "alerted": true
+      "tickers": [
+        "BAC",
+        "C",
+        "GS",
+        "IWM",
+        "JPM",
+        "QQQ",
+        "SPY",
+        "TLT",
+        "UUP",
+        "WFC"
+      ],
+      "why": "Warsh said inflation trends have not \"meaningfully improved\" \u2014 a direct rejection of the near-term cut case from the new chair himself. The reaction is a rotation, not a selloff: Nasdaq -0.33% while the Dow holds +0.06% and the S&P is flat. Money is leaving long-duration tech for defensives and value; the index level hides that split, which is the actual signal.",
+      "source": "CNBC / CNN Business",
+      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+      "alerted": false
     },
     {
       "id": "20260828-core-pce-33",
       "time": "2026-08-28T12:30:00Z",
-      "headline": "Core PCE stuck at 3.3% — disinflation has stalled, not reversed",
+      "headline": "Core PCE stuck at 3.3% \u2014 disinflation has stalled, not reversed",
       "impact": 9,
       "direction": "bearish",
       "scope": "macro",
-      "tickers": ["SPY","QQQ","TLT","IWM","XLF"],
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT",
+        "IWM",
+        "XLF"
+      ],
       "why": "The Fed's preferred gauge holding at 3.3% removes the case for a near-term cut. Rate-cut odds for the Sept 15-16 FOMC have already collapsed to ~33%. Directly negative for long-duration growth and small caps; supportive for the dollar.",
       "source": "TradingKey / CNBC",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
-      "alerted": true
-    },
-    {
-      "id": "20260827-nvda-q2",
-      "time": "2026-08-27T20:30:00Z",
-      "headline": "Nvidia annual revenue doubles, guides solidly into 2028 — stock +6%",
-      "impact": 10,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": ["NVDA","AVGO","TSM","MU","AMD","ANET","SMCI","LRCX","KLAC","AMAT"],
-      "why": "A guide that extends visibility to 2028 is the strongest possible signal that AI capex is not rolling over. This is the anchor datapoint for the entire semi and AI-infrastructure complex, and it re-rates the supply chain, not just NVDA.",
-      "source": "TheStreet",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
-      "alerted": true
-    },
-    {
-      "id": "20260827-mrvl-miss",
-      "time": "2026-08-27T20:15:00Z",
-      "headline": "Marvell tumbles 14% — adjusted EPS of $0.67 on $2.01B revenue only matched estimates",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": ["MRVL","AVGO","AMD"],
-      "why": "Revenue rose 58% on strong AI demand for custom silicon, yet an in-line print was punished with a 14% drawdown. The read-through: the bar for AI-adjacent names is now a beat-and-raise, not a beat. Watch for the same setup in other custom-ASIC names.",
-      "source": "TheStreet / Bloomberg",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
-      "alerted": true
-    },
-    {
-      "id": "20260827-crm-okta-crwd",
-      "time": "2026-08-27T20:00:00Z",
-      "headline": "Software rips: Salesforce +20%, Okta +26%, CrowdStrike results bolster the sector",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": ["CRM","NOW","ADBE","PANW","INTU","MSFT"],
-      "why": "A 20% move in a mega-cap like CRM is a violent sentiment reset for enterprise software, which had been the market's funding source all summer. Suggests AI monetization is finally showing up in seat-based and consumption revenue.",
-      "source": "TheStreet",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
       "alerted": true
     },
@@ -74,10 +52,163 @@
       "impact": 7,
       "direction": "bearish",
       "scope": "macro",
-      "tickers": ["SPY","IWM","TLT","JPM","GS","BAC","WFC","C"],
+      "tickers": [
+        "SPY",
+        "IWM",
+        "TLT",
+        "JPM",
+        "GS",
+        "BAC",
+        "WFC",
+        "C"
+      ],
       "why": "Traders have sharply pulled back easing expectations. Small caps and regional-rate-sensitive financials carry the most downside if this drifts toward zero; a Warsh surprise today is the main upside risk to this pricing.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
+      "alerted": false
+    },
+    {
+      "id": "20260828-pypl-stripe-collapse",
+      "time": "2026-08-28T10:00:00Z",
+      "headline": "PayPal slides as much as 17% after Advent/Stripe consortium abandons its ~$53B buyout pursuit",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MA",
+        "PYPL",
+        "V"
+      ],
+      "why": "PayPal's board rejected the consortium's $60.50/share bid in July as inadequate; with the buyers now formally walking away, the stock loses the entire takeout premium that had built up since talks emerged, wiping out roughly $8B of implied equity value. Nothing about the underlying payments business changed \u2014 this is a permanent repricing of the standalone equity story, not an earnings reset.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal",
+      "alerted": true
+    },
+    {
+      "id": "20260828-adsk-beat",
+      "time": "2026-08-27T20:45:00Z",
+      "headline": "Autodesk jumps 10.6% to $318.96 after Q2 beat and raised full-year guidance",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ADSK",
+        "CRM",
+        "NOW",
+        "ADBE"
+      ],
+      "why": "A raised full-year number, not just a quarterly beat, is what moves a software multiple \u2014 it resets the base for every forward estimate. Third confirmation this week that enterprise software demand is holding, after Salesforce and Okta.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
+      "alerted": false
+    },
+    {
+      "id": "20260828-dell-beat",
+      "time": "2026-08-27T20:40:00Z",
+      "headline": "Dell beats on Q2 and guides Q3 revenue to $26.5-27.5B against $26.05B consensus",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "DELL",
+        "NVDA",
+        "SMCI",
+        "AVGO"
+      ],
+      "why": "Dell and Super Micro are the two channels AI servers actually ship through, so a guide above consensus from both in the same week corroborates the Nvidia demand signal from the systems side rather than the silicon side. Hard to dismiss as one company's optimism.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
+      "alerted": false
+    },
+    {
+      "id": "20260827-nvda-q2",
+      "time": "2026-08-27T20:30:00Z",
+      "headline": "Nvidia annual revenue doubles, guides solidly into 2028 \u2014 stock +6%",
+      "impact": 10,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "AMD",
+        "ANET",
+        "SMCI",
+        "LRCX",
+        "KLAC",
+        "AMAT"
+      ],
+      "why": "A guide that extends visibility to 2028 is the strongest possible signal that AI capex is not rolling over. This is the anchor datapoint for the entire semi and AI-infrastructure complex, and it re-rates the supply chain, not just NVDA.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
+      "alerted": true
+    },
+    {
+      "id": "20260827-mrvl-miss",
+      "time": "2026-08-27T20:15:00Z",
+      "headline": "Marvell tumbles 14% \u2014 adjusted EPS of $0.67 on $2.01B revenue only matched estimates",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "AMD"
+      ],
+      "why": "Revenue rose 58% on strong AI demand for custom silicon, yet an in-line print was punished with a 14% drawdown. The read-through: the bar for AI-adjacent names is now a beat-and-raise, not a beat. Watch for the same setup in other custom-ASIC names.",
+      "source": "TheStreet / Bloomberg",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
+      "alerted": true
+    },
+    {
+      "id": "20260827-afrm-q4-beat",
+      "time": "2026-08-27T20:05:00Z",
+      "headline": "Affirm's Q4 revenue and guidance beat; shares +9%",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AFRM"
+      ],
+      "why": "Q4 revenue of $1.17B beat consensus of $1.11B and GMV grew 36% YoY to $14.1B, the company's 11th straight quarter of 30%+ GMV growth. Next-quarter revenue guidance of $1.19-1.22B cleared Street numbers \u2014 a genuine beat-and-raise showing BNPL adoption is still compounding, not just cycling existing merchants.",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/earnings/affirm-shares-jump-9-on-earnings-beat-strong-guidance-93CH-4880215",
+      "alerted": false
+    },
+    {
+      "id": "20260827-crm-okta-crwd",
+      "time": "2026-08-27T20:00:00Z",
+      "headline": "Software rips: Salesforce +20%, Okta +26%, CrowdStrike results bolster the sector",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "CRM",
+        "NOW",
+        "ADBE",
+        "PANW",
+        "INTU",
+        "MSFT"
+      ],
+      "why": "A 20% move in a mega-cap like CRM is a violent sentiment reset for enterprise software, which had been the market's funding source all summer. Suggests AI monetization is finally showing up in seat-based and consumption revenue.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
+      "alerted": true
+    },
+    {
+      "id": "20260827-gps-q2-beat",
+      "time": "2026-08-27T11:00:00Z",
+      "headline": "Gap raises operating-margin and EPS guidance, names new Old Navy CEO \u2014 shares +12%",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "GPS"
+      ],
+      "why": "Gap raised its adjusted operating-margin outlook to ~7.4-7.6% and EPS guidance to $2.35-2.45, even as it narrowed the top end of its full-year sales-growth range and replaced the Old Navy CEO after that brand's first negative comp in nearly three years. The market is rewarding margin execution at the namesake brand over top-line growth.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
       "alerted": false
     },
     {
@@ -87,7 +218,11 @@
       "impact": 7,
       "direction": "bullish",
       "scope": "company",
-      "tickers": ["SMCI","NVDA","AVGO"],
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AVGO"
+      ],
       "why": "A ~30% revenue guide-above-consensus from the primary AI server integrator corroborates the Nvidia demand signal from the systems side. EPS guided $1.01-1.10 vs $0.76 consensus.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
@@ -100,7 +235,14 @@
       "impact": 7,
       "direction": "bullish",
       "scope": "macro",
-      "tickers": ["XOM","CVX","COP","SLB","OXY","USO"],
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP",
+        "SLB",
+        "OXY",
+        "USO"
+      ],
       "why": "A sustained Hormuz disruption is a structural bid under crude and a tax on goods inflation. Energy majors are the direct beneficiary; it simultaneously worsens the core-PCE problem the Fed is already stuck on.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
@@ -113,8 +255,12 @@
       "impact": 6,
       "direction": "bullish",
       "scope": "company",
-      "tickers": ["TEAM","NOW","CRM"],
-      "why": "Part of the same software re-rating as CRM/OKTA. Notable that the market looked through a slight full-year growth miss — sentiment, not fundamentals, was the constraint.",
+      "tickers": [
+        "TEAM",
+        "NOW",
+        "CRM"
+      ],
+      "why": "Part of the same software re-rating as CRM/OKTA. Notable that the market looked through a slight full-year growth miss \u2014 sentiment, not fundamentals, was the constraint.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
       "alerted": false
@@ -126,8 +272,13 @@
       "impact": 5,
       "direction": "bullish",
       "scope": "company",
-      "tickers": ["ROST","TJX","WMT","COST"],
-      "why": "Off-price retail outperforming is a classic late-cycle tell — the consumer is trading down but still spending. Mildly supportive for TJX and WMT, mildly negative for full-price discretionary.",
+      "tickers": [
+        "ROST",
+        "TJX",
+        "WMT",
+        "COST"
+      ],
+      "why": "Off-price retail outperforming is a classic late-cycle tell \u2014 the consumer is trading down but still spending. Mildly supportive for TJX and WMT, mildly negative for full-price discretionary.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
       "alerted": false
