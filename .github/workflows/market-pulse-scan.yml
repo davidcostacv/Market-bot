@@ -45,22 +45,37 @@ jobs:
 
       # Same guard as the bot workflow: without the key, skip quietly rather than
       # failing on every scheduled run and mailing a notice each time.
+      # Accepts the key under any of the names people reasonably reach for, and
+      # says which names are populated (by length — never a value) so a mismatch
+      # is one log line rather than a guessing game.
       - name: Check the API key is configured
         id: gate
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          A: ${{ secrets.ANTHROPIC_API_KEY }}
+          B: ${{ secrets.CLAUDE_API_KEY }}
+          C: ${{ secrets.ANTHROPIC_KEY }}
+          D: ${{ secrets.CLAUDE_KEY }}
+          E: ${{ secrets.ANTHROPIC_TOKEN }}
         run: |
-          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+          echo "secret names visible to this workflow (length only):"
+          echo "  ANTHROPIC_API_KEY -> ${#A}"
+          echo "  CLAUDE_API_KEY    -> ${#B}"
+          echo "  ANTHROPIC_KEY     -> ${#C}"
+          echo "  CLAUDE_KEY        -> ${#D}"
+          echo "  ANTHROPIC_TOKEN   -> ${#E}"
+          KEY="${A:-${B:-${C:-${D:-${E:-}}}}}"
+          if [ -z "$KEY" ]; then
             echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::ANTHROPIC_API_KEY is not set — skipping. Add it under Settings > Secrets and variables > Actions."
+            echo "::notice::No Anthropic key found under any accepted name — skipping. Add one under Settings > Secrets and variables > Actions."
           else
             echo "ready=true" >> "$GITHUB_OUTPUT"
+            echo "::add-mask::$KEY"
+            echo "ANTHROPIC_API_KEY=$KEY" >> "$GITHUB_ENV"
+            echo "found a key (${#KEY} chars)"
           fi
 
       - name: Scan the wires and score
         if: steps.gate.outputs.ready == 'true'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 market-pulse/scan.py
 
       - name: Rebuild the dashboard
