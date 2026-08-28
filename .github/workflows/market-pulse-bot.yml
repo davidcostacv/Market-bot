@@ -39,12 +39,15 @@ jobs:
         with:
           python-version: '3.12'
 
+      # The secret is accepted under either name: TELEGRAM_BOT_TOKEN preferred,
+      # TELEGRAM_TOKEN as a fallback. GitHub's `||` yields the first non-empty.
+      #
       # Without this guard the schedule fails every 5 minutes until the secret
       # exists, mailing a failure notice each time. Skip quietly instead.
       - name: Check the bot token is configured
         id: gate
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
         run: |
           if [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then
             echo "ready=false" >> "$GITHUB_OUTPUT"
@@ -80,19 +83,19 @@ jobs:
       - name: Answer incoming commands
         if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'poll')
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
         run: python3 market-pulse/telegram/bot.py poll
 
       - name: Push new alert-grade items
         if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'alerts')
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
         run: python3 market-pulse/telegram/bot.py alerts
 
       - name: Register the command menu
         if: steps.gate.outputs.ready == 'true' && inputs.mode == 'setup'
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
         run: python3 market-pulse/telegram/bot.py setup
 
       - name: Persist offset and sent ledger
