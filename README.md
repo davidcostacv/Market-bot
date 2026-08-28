@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://davidcostacv.github.io/odin-recipes/)
+[Live Demo Link](https://davidcostacv.github.io/market-bot/)
 
 
 ## Getting Started
