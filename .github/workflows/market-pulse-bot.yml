@@ -48,6 +48,7 @@ jobs:
         id: gate
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
           if [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then
             echo "ready=false" >> "$GITHUB_OUTPUT"
@@ -60,12 +61,14 @@ jobs:
         if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'poll')
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python3 market-pulse/telegram/bot.py poll
 
       - name: Push new alert-grade items
         if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'alerts')
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python3 market-pulse/telegram/bot.py alerts
 
       # Health check for the quote source. Prices come from a free endpoint
@@ -73,16 +76,17 @@ jobs:
       # leaving /stocks mysteriously empty.
       - name: Check the quote source
         if: inputs.mode == 'prices'
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
           cd market-pulse/telegram
-          python3 quotes.py --probe
-          echo '================ resolved quotes ================'
           python3 quotes.py AAPL NVDA MSFT SPY BRK.B
 
       - name: Register the command menu
         if: steps.gate.outputs.ready == 'true' && inputs.mode == 'setup'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python3 market-pulse/telegram/bot.py setup
 
       - name: Persist ledger and holdings

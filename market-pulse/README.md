@@ -71,10 +71,23 @@ Change the bar by editing `alert_threshold` in `state.json`.
 
 ## Where prices come from, and where they don't
 
-**The Telegram bot has live prices.** `/stocks` and `/holdings` fetch from
-Yahoo's v8 chart endpoint at the moment you ask — no API key, no crumb (the v7
-quote endpoint has needed auth since 2024). This works because the bot runs on
-GitHub Actions, which has open outbound internet.
+**The Telegram bot can have live prices, with one free API key.** `/stocks` and
+`/holdings` fetch at the moment you ask.
+
+Free keyless sources do not work from a GitHub Actions runner. Probed directly
+rather than assumed:
+
+| Source | Result from a runner |
+|---|---|
+| Yahoo v8 chart | HTTP 429, rate-limits datacenter IP ranges |
+| Stooq `q/l` | HTTP 404, endpoint retired |
+| Stooq `q/d/l` | HTTP 200 but a JavaScript bot-verification challenge |
+
+Neither is fixable with headers or retries. Finnhub's free tier does work from a
+runner, returns the previous close directly, and allows 60 calls/minute — ample
+for a 19-ticker watchlist. Get a key at finnhub.io/register and store it as the
+`FINNHUB_API_KEY` repository secret. Without it, `/stocks` says exactly that
+instead of failing silently; every news command works regardless.
 
 **The dashboard and the scan do not.** They run in the Claude container, whose
 network policy returns 403 on CONNECT to finance hosts. So the catalyst board

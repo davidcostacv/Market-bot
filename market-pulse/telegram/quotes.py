@@ -1,93 +1,58 @@
 #!/usr/bin/env python3
 """Live quote fetching for the Telegram bot.
 
-Runs on GitHub Actions. The Claude container cannot reach finance hosts (its
-network policy 403s them), so this module is verified by running the workflow
-with mode=prices, never locally.
+Runs on GitHub Actions. Verified with `mode=prices`, never locally — the Claude
+container 403s finance hosts.
 
-Source order matters. Yahoo's v8 chart endpoint returns HTTP 429 for GitHub
-Actions runners — it rate-limits datacenter IP ranges — so Stooq is primary and
-Yahoo is only a fallback for symbols Stooq does not carry.
+Source history, established by probing rather than assuming:
+  Yahoo v8 chart   HTTP 429, rate-limits datacenter IP ranges
+  Stooq q/l        HTTP 404, endpoint retired
+  Stooq q/d/l      HTTP 200 but a JavaScript bot-verification challenge
 
-Stooq needs two endpoints to produce a day change:
-  q/l    last price, intraday, many symbols in one request
-  q/d/l  daily history, for the previous session's close
-Day change is measured against the previous close, per convention, not against
-today's open.
+Both free no-key sources block cloud runners, and neither is fixable with
+headers or retries. Finnhub's free tier does work from a runner and returns the
+previous close directly, so it is the source. It needs a free API key in the
+FINNHUB_API_KEY secret; without one, quotes are unavailable and say so plainly
+rather than failing mysteriously.
 """
-import csv, datetime, io, json, urllib.request, urllib.error
+import json, os, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
-TIMEOUT = 15
-STOOQ_LAST = "https://stooq.com/q/l/?s={}&f=sd2t2ohlcv&h&e=csv"
-STOOQ_HIST = "https://stooq.com/q/d/l/?s={}&i=d&d1={}&d2={}"
-YAHOO = "https://query1.finance.yahoo.com/v8/finance/chart/{}?range=5d&interval=1d"
+UA = "market-pulse-bot/1.0"
+TIMEOUT = 12
+KEY = os.environ.get("FINNHUB_API_KEY", "").strip()
+FINNHUB = "https://finnhub.io/api/v1/quote?symbol={}&token={}"
+
+NO_KEY = "no API key"
 
 
-def _get(url):
+def _symbol(t):
+    """BRK.B -> BRK.B ; Finnhub uses dots for share classes, unlike Yahoo."""
+    return t.upper().strip()
+
+
+def _one(ticker):
+    if not KEY:
+        return {"ticker": ticker, "error": NO_KEY}
+    url = FINNHUB.format(urllib.parse.quote(_symbol(ticker)), KEY)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return r.read().decode("utf-8", "replace")
-
-
-def _stooq_symbol(t):
-    """AAPL -> aapl.us ; BRK.B -> brk-b.us"""
-    return t.replace(".", "-").lower() + ".us"
-
-
-def _f(v):
     try:
-        return float(v)
-    except (TypeError, ValueError):
-        return None
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            d = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        return {"ticker": ticker, "error": "http %s" % e.code}
+    except Exception as e:                                        # noqa: BLE001
+        return {"ticker": ticker, "error": type(e).__name__}
 
-
-def _stooq_last(tickers):
-    """One request for every symbol's latest price. {ticker: price}."""
-    syms = ",".join(_stooq_symbol(t) for t in tickers)
-    out = {}
-    try:
-        text = _get(STOOQ_LAST.format(syms))
-    except Exception:                                             # noqa: BLE001
-        return out
-    back = {_stooq_symbol(t): t for t in tickers}
-    for row in csv.DictReader(io.StringIO(text)):
-        t = back.get((row.get("Symbol") or "").lower())
-        price = _f(row.get("Close"))
-        if t and price:
-            out[t] = price
-    return out
-
-
-def _stooq_prev_close(ticker):
-    """Previous session's close, from daily history."""
-    today = datetime.date.today()
-    d1 = (today - datetime.timedelta(days=14)).strftime("%Y%m%d")
-    d2 = today.strftime("%Y%m%d")
-    try:
-        text = _get(STOOQ_HIST.format(_stooq_symbol(ticker), d1, d2))
-    except Exception:                                             # noqa: BLE001
-        return None
-    closes = [_f(r.get("Close")) for r in csv.DictReader(io.StringIO(text))]
-    closes = [c for c in closes if c]
-    # last row is the current/most recent session; the one before it is the base
-    return closes[-2] if len(closes) >= 2 else (closes[-1] if closes else None)
-
-
-def _yahoo(ticker):
-    """Fallback for symbols Stooq lacks. Often 429s from a runner."""
-    try:
-        payload = json.loads(_get(YAHOO.format(ticker.replace(".", "-").upper())))
-        meta = payload["chart"]["result"][0]["meta"]
-        price = meta.get("regularMarketPrice")
-        prev = meta.get("chartPreviousClose") or meta.get("previousClose")
-        if price and prev:
-            return float(price), float(prev), meta.get("marketState", "")
-    except Exception:                                             # noqa: BLE001
-        pass
-    return None
+    price, prev = d.get("c"), d.get("pc")
+    # Finnhub returns c=0 for an unknown symbol rather than an error
+    if not price or not prev:
+        return {"ticker": ticker, "error": "unknown symbol"}
+    pct = d.get("dp")
+    if pct is None:
+        pct = (price - prev) / prev * 100.0
+    return {"ticker": ticker, "price": float(price), "prev": float(prev),
+            "pct": float(pct), "source": "finnhub"}
 
 
 def fetch(tickers, workers=8):
@@ -95,73 +60,32 @@ def fetch(tickers, workers=8):
     tickers = list(dict.fromkeys(t for t in tickers if t))
     if not tickers:
         return {}
-
-    last = _stooq_last(tickers)
+    if not KEY:                       # one shared reason, no pointless requests
+        return {t: {"ticker": t, "error": NO_KEY} for t in tickers}
     with ThreadPoolExecutor(max_workers=min(workers, len(tickers))) as ex:
-        prevs = dict(zip(tickers, ex.map(_stooq_prev_close, tickers)))
+        return {q["ticker"]: q for q in ex.map(_one, tickers)}
 
-    out = {}
-    missing = []
-    for t in tickers:
-        p, pc = last.get(t), prevs.get(t)
-        if p and pc:
-            out[t] = {"ticker": t, "price": p, "prev": pc,
-                      "pct": (p - pc) / pc * 100.0, "source": "stooq"}
-        else:
-            missing.append(t)
 
-    if missing:                       # try Yahoo only for what Stooq missed
-        with ThreadPoolExecutor(max_workers=min(workers, len(missing))) as ex:
-            for t, y in zip(missing, ex.map(_yahoo, missing)):
-                if y:
-                    p, pc, state = y
-                    out[t] = {"ticker": t, "price": p, "prev": pc,
-                              "pct": (p - pc) / pc * 100.0,
-                              "source": "yahoo", "state": state}
-                else:
-                    out[t] = {"ticker": t, "error": "no quote"}
-    return out
+def configured():
+    return bool(KEY)
 
 
 def market_state(quotes):
-    for q in quotes.values():
-        s = q.get("state")
-        if s:
-            return {"PRE": "pre-market", "REGULAR": "market open",
-                    "POST": "after hours", "POSTPOST": "after hours",
-                    "CLOSED": "market closed"}.get(s, s.lower())
     return ""
 
 
-def _probe(url, label):
-    """Print what a source actually returns. Guessing costs more than looking."""
-    print("\n--- %s ---\n%s" % (label, url))
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-            body = r.read().decode("utf-8", "replace")
-        print("HTTP %s, %d bytes" % (r.status, len(body)))
-        print(repr(body[:300]))
-    except urllib.error.HTTPError as e:
-        print("HTTPError %s" % e.code)
-        print(repr(e.read()[:300]))
-    except Exception as e:                                        # noqa: BLE001
-        print("%s: %s" % (type(e).__name__, e))
+import urllib.parse  # noqa: E402  (used by _one)
 
 
 if __name__ == "__main__":
     import sys
-    args = sys.argv[1:]
-    if args and args[0] == "--probe":
-        today = datetime.date.today()
-        d1 = (today - datetime.timedelta(days=14)).strftime("%Y%m%d")
-        d2 = today.strftime("%Y%m%d")
-        _probe(STOOQ_LAST.format("aapl.us,nvda.us"), "stooq q/l (batch)")
-        _probe(STOOQ_LAST.format("aapl.us"), "stooq q/l (single)")
-        _probe(STOOQ_HIST.format("aapl.us", d1, d2), "stooq q/d/l (history)")
-        _probe(YAHOO.format("AAPL"), "yahoo v8 chart")
+    args = [a for a in sys.argv[1:] if a != "--probe"]
+    if not KEY:
+        print("FINNHUB_API_KEY is not set — quotes are unavailable.")
+        print("Add a free key at https://finnhub.io/register, then store it as")
+        print("the FINNHUB_API_KEY repository secret.")
         sys.exit(0)
-    got = fetch(args or ["AAPL", "NVDA"])
+    got = fetch(args or ["AAPL", "NVDA", "MSFT", "SPY"])
     for t, q in got.items():
         print(t, q)
     ok = sum(1 for q in got.values() if "error" not in q)

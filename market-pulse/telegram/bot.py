@@ -212,7 +212,14 @@ def cmd_stocks(args=None):
     if state:
         head += "\n<i>%s</i>" % esc(state)
     if not ok:
-        return head + "\n\nNo quotes came back. The price source may be rate-limiting; try again shortly."
+        if not quotes_mod.configured():
+            return (head + "\n\nLive prices need a free API key.\n\n"
+                    "Free sources that need no key (Yahoo, Stooq) block GitHub's "
+                    "servers outright, so this uses Finnhub instead.\n\n"
+                    "1. Get a free key at finnhub.io/register\n"
+                    "2. Add it as the <code>FINNHUB_API_KEY</code> repository secret\n\n"
+                    "News commands work without it: /report /top /board /calendar")
+        return head + "\n\nNo quotes came back. Try again shortly."
     body = _price_table(rows)
     up = sum(1 for _, x in ok if x["pct"] > 0)
     foot = "<i>%d up · %d down · %d of %d quoted</i>" % (
