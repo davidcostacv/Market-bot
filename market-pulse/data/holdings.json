@@ -1,0 +1,4 @@
+{
+  "note": "Positions you hold. Managed from Telegram with /hold and /unhold, or edit here. avg_cost may be null if you only want price tracking without P&L.",
+  "positions": []
+}

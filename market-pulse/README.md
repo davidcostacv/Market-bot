@@ -69,17 +69,25 @@ The scheduled Routine fires hourly on weekdays, 08:00–17:00 ET.
 Notifications fire at **>= 8** only, once per item ever (`state.json.alerted_ids`).
 Change the bar by editing `alert_threshold` in `state.json`.
 
-## Known limit: no live price feed
+## Where prices come from, and where they don't
 
-This environment's network policy returns 403 on CONNECT to finance hosts, so
-the shell cannot reach a quote API. Everything here is news-derived: the
-catalyst board shows a percentage **only** where a cited article reported one,
-and blank otherwise, rather than inventing a number.
+**The Telegram bot has live prices.** `/stocks` and `/holdings` fetch from
+Yahoo's v8 chart endpoint at the moment you ask — no API key, no crumb (the v7
+quote endpoint has needed auth since 2024). This works because the bot runs on
+GitHub Actions, which has open outbound internet.
 
-To add real quotes, allow a data host in the environment's network policy, put
-the key in an environment variable, and add a fetch step to `build.py` that
-writes a `quotes.json` the template can read. The dashboard already reserves the
-slot — `observed_move` on each board card.
+**The dashboard and the scan do not.** They run in the Claude container, whose
+network policy returns 403 on CONNECT to finance hosts. So the catalyst board
+shows a percentage only where a cited article reported one, and blank
+otherwise, rather than inventing a number.
+
+That asymmetry is deliberate rather than an oversight: ask the bot for prices,
+read the dashboard for what the news means. If the container's network policy
+ever allows a data host, `market-pulse/telegram/quotes.py` is importable as-is
+and `observed_move` on each board card is the slot to fill.
+
+Quote failures degrade rather than break: a ticker that will not resolve shows
+`—` with the reason, and the rest of the table still renders.
 
 ## Watchlist
 
@@ -107,6 +115,10 @@ GitHub Actions (5 min) ->  reads that JSON, answers commands, pushes alerts
 
 | Command | Does |
 |---|---|
+| `/stocks` | Day % change across your watchlist. `/stocks AAPL NVDA` for ad-hoc tickers |
+| `/holdings` | Your positions: live price, day move, value, P/L |
+| `/hold TICKER SHARES [COST]` | Add or update a position, e.g. `/hold NVDA 25 178.40` |
+| `/unhold TICKER` | Remove a position |
 | `/report` | Full scored report from the newest scan |
 | `/top` | Only alert-grade items (>= 8/10) |
 | `/board` | Likely up / likely down |

@@ -12,6 +12,8 @@ is sent once (sent ledger). Reads TELEGRAM_BOT_TOKEN from the environment.
 """
 import json, os, sys, pathlib, urllib.request, urllib.error, urllib.parse
 
+import quotes as quotes_mod
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 REPO = ROOT.parent
@@ -106,7 +108,7 @@ def fmt_item(i, brief=False):
     return "\n".join(out)
 
 
-def cmd_report():
+def cmd_report(args=None):
     news = load("news.json", {"items": [], "session_date": "?"})
     state = load("state.json", {"alert_threshold": 8})
     items = sorted(news["items"], key=lambda x: (-x["impact"], x["time"]))
@@ -119,7 +121,7 @@ def cmd_report():
     return head + "\n\n" + body
 
 
-def cmd_top():
+def cmd_top(args=None):
     news = load("news.json", {"items": []})
     thr = load("state.json", {"alert_threshold": 8}).get("alert_threshold", 8)
     hits = [i for i in sorted(news["items"], key=lambda x: -x["impact"])
@@ -130,7 +132,7 @@ def cmd_top():
         "\n\n".join(fmt_item(i) for i in hits)
 
 
-def cmd_board():
+def cmd_board(args=None):
     m = load("movers.json", {"board": []})
     up = [b for b in m["board"] if b["signal"] == "bullish"]
     dn = [b for b in m["board"] if b["signal"] == "bearish"]
@@ -149,7 +151,7 @@ def cmd_board():
         esc("News-derived, not a price feed. Moves shown only where a source reported one."))
 
 
-def cmd_calendar():
+def cmd_calendar(args=None):
     cal = load("calendar.json", {"events": []})
     today = load("news.json", {"session_date": "0000-00-00"})["session_date"]
     ev = sorted([e for e in cal["events"] if e["date"] >= today],
@@ -164,7 +166,7 @@ def cmd_calendar():
     return "\U0001F5D3 <b>Upcoming catalysts</b>\n\n" + "\n".join(rows)
 
 
-def cmd_watchlist():
+def cmd_watchlist(args=None):
     wl = load("watchlist.json", {"tickers": []})["tickers"]
     news = load("news.json", {"items": []})["items"]
     rows = []
@@ -176,19 +178,145 @@ def cmd_watchlist():
     return "⭐ <b>Watchlist</b> (%d)\n\n" % len(wl) + "\n".join(rows)
 
 
+# ---------- live prices ----------
+
+def _pct(v):
+    """Signed percent with a colour marker, padded so columns line up."""
+    arrow = "\U0001F53A" if v > 0 else ("\U0001F53B" if v < 0 else "\u25AB")
+    return "%s %+6.2f%%" % (arrow, v)
+
+
+def _price_table(rows):
+    """rows: list of (ticker, quote). Returns a monospace aligned block."""
+    out = []
+    for t, q in rows:
+        if "error" in q:
+            out.append("%-6s      —  (%s)" % (t, q["error"]))
+        else:
+            out.append("%-6s %9.2f  %s" % (t, q["price"], _pct(q["pct"])))
+    return "<pre>" + esc("\n".join(out)) + "</pre>"
+
+
+def cmd_stocks(args=None):
+    wl = [w["ticker"] for w in load("watchlist.json", {"tickers": []})["tickers"]]
+    if args:
+        wl = [a.upper() for a in args]
+    if not wl:
+        return "Watchlist is empty. Add tickers in the dashboard, or /stocks AAPL NVDA."
+    q = quotes_mod.fetch(wl)
+    rows = [(t, q.get(t, {"error": "missing"})) for t in wl]
+    ok = [r for r in rows if "error" not in r[1]]
+    rows.sort(key=lambda r: r[1].get("pct", -1e9), reverse=True)
+    state = quotes_mod.market_state(q)
+    head = "\U0001F4C8 <b>Watchlist — day change</b>"
+    if state:
+        head += "\n<i>%s</i>" % esc(state)
+    if not ok:
+        return head + "\n\nNo quotes came back. The price source may be rate-limiting; try again shortly."
+    body = _price_table(rows)
+    up = sum(1 for _, x in ok if x["pct"] > 0)
+    foot = "<i>%d up · %d down · %d of %d quoted</i>" % (
+        up, len(ok) - up, len(ok), len(rows))
+    return head + "\n\n" + body + "\n" + foot
+
+
+def cmd_holdings(args=None):
+    pos = load("holdings.json", {"positions": []})["positions"]
+    if not pos:
+        return ("You have no positions yet.\n\n"
+                "Add one:  <code>/hold AAPL 10 195.50</code>\n"
+                "(ticker, shares, average cost — cost is optional)\n"
+                "Remove:  <code>/unhold AAPL</code>")
+    q = quotes_mod.fetch([p["ticker"] for p in pos])
+    lines, tot_val, tot_cost, tot_day = [], 0.0, 0.0, 0.0
+    for p in pos:
+        t = p["ticker"]
+        quote = q.get(t, {"error": "missing"})
+        if "error" in quote:
+            lines.append("%-6s  —  (%s)" % (t, quote["error"]))
+            continue
+        sh = float(p.get("shares") or 0)
+        val = quote["price"] * sh
+        day = (quote["price"] - quote["prev"]) * sh
+        tot_val += val
+        tot_day += day
+        line = "%-6s %8.2f  %s" % (t, quote["price"], _pct(quote["pct"]))
+        if sh:
+            line += "\n       %.4g sh  =  %s%.2f" % (sh, "$", val)
+        cost = p.get("avg_cost")
+        if cost and sh:
+            tot_cost += cost * sh
+            pl = (quote["price"] - cost) * sh
+            plp = (quote["price"] - cost) / cost * 100.0
+            line += "\n       P/L %s%+.2f (%+.2f%%)" % ("$", pl, plp)
+        lines.append(line)
+    head = "\U0001F4BC <b>Holdings</b>"
+    state = quotes_mod.market_state(q)
+    if state:
+        head += "\n<i>%s</i>" % esc(state)
+    foot = "\n<b>Value</b> $%.2f · <b>Today</b> %s%+.2f" % (tot_val, "$", tot_day)
+    if tot_cost:
+        foot += "\n<b>Total P/L</b> $%+.2f (%+.2f%%)" % (
+            tot_val - tot_cost, (tot_val - tot_cost) / tot_cost * 100.0)
+    return head + "\n\n<pre>" + esc("\n".join(lines)) + "</pre>" + foot
+
+
+def cmd_hold(args=None):
+    """/hold TICKER SHARES [AVG_COST]"""
+    if not args:
+        return ("Usage: <code>/hold TICKER SHARES [AVG_COST]</code>\n"
+                "e.g. <code>/hold NVDA 25 178.40</code>")
+    d = load("holdings.json", {"positions": []})
+    t = args[0].upper().lstrip("$")
+    try:
+        sh = float(args[1]) if len(args) > 1 else 0.0
+        cost = float(args[2]) if len(args) > 2 else None
+    except ValueError:
+        return "Shares and cost must be numbers. e.g. <code>/hold NVDA 25 178.40</code>"
+    d["positions"] = [p for p in d["positions"] if p["ticker"] != t]
+    d["positions"].append({"ticker": t, "shares": sh, "avg_cost": cost})
+    d["positions"].sort(key=lambda p: p["ticker"])
+    (DATA / "holdings.json").write_text(json.dumps(d, indent=2) + "\n")
+    msg = "Saved <b>%s</b>: %g shares" % (esc(t), sh)
+    if cost:
+        msg += " @ $%.2f" % cost
+    return msg + "\n\nSee /holdings"
+
+
+def cmd_unhold(args=None):
+    if not args:
+        return "Usage: <code>/unhold TICKER</code>"
+    d = load("holdings.json", {"positions": []})
+    t = args[0].upper().lstrip("$")
+    before = len(d["positions"])
+    d["positions"] = [p for p in d["positions"] if p["ticker"] != t]
+    if len(d["positions"]) == before:
+        return "%s is not in your holdings." % esc(t)
+    (DATA / "holdings.json").write_text(json.dumps(d, indent=2) + "\n")
+    return "Removed <b>%s</b>." % esc(t)
+
+
 HELP = ("\U0001F4C8 <b>Market Pulse bot</b>\n\n"
+        "<b>Prices</b>\n"
+        "/stocks — day % change across your watchlist\n"
+        "/holdings — your positions, value and P/L\n"
+        "/hold TICKER SHARES [COST] — add or update a position\n"
+        "/unhold TICKER — remove a position\n\n"
+        "<b>News</b>\n"
         "/report — full scored report, newest scan\n"
         "/top — only alert-grade items (≥8/10)\n"
         "/board — likely up / likely down\n"
         "/calendar — upcoming earnings &amp; macro events\n"
         "/watchlist — your tracked tickers\n"
         "/help — this message\n\n"
-        "<i>Scans run hourly on weekdays, 08:00–17:00 ET. "
-        "High-impact items are pushed here automatically.</i>")
+        "<i>Scans run every 2h on weekdays. High-impact items are pushed "
+        "here automatically. Prices are fetched live when you ask.</i>")
 
 COMMANDS = {"report": cmd_report, "top": cmd_top, "board": cmd_board,
             "calendar": cmd_calendar, "watchlist": cmd_watchlist,
-            "help": lambda: HELP, "start": lambda: HELP}
+            "stocks": cmd_stocks, "holdings": cmd_holdings,
+            "hold": cmd_hold, "unhold": cmd_unhold,
+            "help": lambda a=None: HELP, "start": lambda a=None: HELP}
 
 
 # ---------- modes ----------
@@ -208,9 +336,10 @@ def poll():
             continue
         if chat not in tg["chat_ids"]:
             tg["chat_ids"].append(chat)              # register for alerts
-        name = text[1:].split()[0].split("@")[0].lower()
+        parts = text[1:].split()
+        name = parts[0].split("@")[0].lower()
         fn = COMMANDS.get(name)
-        send(chat, fn() if fn else "Unknown command. Try /help")
+        send(chat, fn(parts[1:]) if fn else "Unknown command. Try /help")
         print("answered /%s for chat %s" % (name, chat))
     save_tg(tg)
     return 0
@@ -242,6 +371,10 @@ def alerts():
 def register_commands():
     """Populate the blue command menu in the Telegram UI. Run once."""
     cmds = [{"command": c, "description": d} for c, d in [
+        ("stocks", "Watchlist day % change"),
+        ("holdings", "Your positions, value and P/L"),
+        ("hold", "Add a position: /hold NVDA 25 178.40"),
+        ("unhold", "Remove a position: /unhold NVDA"),
         ("report", "Full scored market report"),
         ("top", "Only alert-grade items"),
         ("board", "Likely up / likely down"),
