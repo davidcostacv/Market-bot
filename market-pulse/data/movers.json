@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-08-28T15:30:02Z",
+  "basis": "news-catalyst ranking",
+  "disclaimer": "Directional reads derived from scored news catalysts, not from a live price feed. 'observed_move' is populated only where a move was reported by a cited source; blank means no verified quote. See README for wiring a real-time quote feed.",
+  "board": [
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "signal": "bullish",
+      "conviction": "high",
+      "observed_move": "+6.0%",
+      "catalyst": "Annual revenue doubled; guidance extended into 2028",
+      "horizon": "multi-week",
+      "news_id": "20260827-nvda-q2"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "signal": "bullish",
+      "conviction": "high",
+      "observed_move": "+20.0%",
+      "catalyst": "Blowout print resets enterprise-software sentiment",
+      "horizon": "multi-week",
+      "news_id": "20260827-crm-okta-crwd"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "signal": "bullish",
+      "conviction": "high",
+      "observed_move": "+6.0%",
+      "catalyst": "Q1 revenue guide ~30% above consensus",
+      "horizon": "multi-week",
+      "news_id": "20260826-smci-guide"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Direct read-through from NVDA 2028 guide; custom-ASIC demand intact",
+      "horizon": "into Sept earnings",
+      "news_id": "20260827-nvda-q2"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Sole-source leading-edge beneficiary of the AI capex extension",
+      "horizon": "multi-week",
+      "news_id": "20260827-nvda-q2"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "AI datacenter networking attach rate follows NVDA shipments",
+      "horizon": "multi-week",
+      "news_id": "20260827-nvda-q2"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "HBM demand tied to the same capex cycle; reports late Sept",
+      "horizon": "into Sept earnings",
+      "news_id": "20260827-nvda-q2"
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Hormuz blockade keeps a structural bid under crude",
+      "horizon": "multi-week",
+      "news_id": "20260825-maersk-hormuz"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Same crude supply-disruption premium as XOM",
+      "horizon": "multi-week",
+      "news_id": "20260825-maersk-hormuz"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "signal": "bullish",
+      "conviction": "low",
+      "observed_move": "",
+      "catalyst": "Sector sympathy from CRM/OKTA/TEAM re-rating",
+      "horizon": "days",
+      "news_id": "20260827-crm-okta-crwd"
+    },
+    {
+      "ticker": "AFRM",
+      "name": "Affirm",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "+9.0%",
+      "catalyst": "Beat-and-raise; 11th straight quarter of 30%+ GMV growth",
+      "horizon": "multi-week",
+      "news_id": "20260827-afrm-q4-beat"
+    },
+    {
+      "ticker": "GPS",
+      "name": "Gap",
+      "signal": "bullish",
+      "conviction": "low",
+      "observed_move": "+12.0%",
+      "catalyst": "Margin and EPS guidance raised despite Old Navy weakness and CEO change",
+      "horizon": "days",
+      "news_id": "20260827-gps-q2-beat"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell",
+      "signal": "bearish",
+      "conviction": "high",
+      "observed_move": "-14.0%",
+      "catalyst": "In-line print punished; bar is now beat-and-raise",
+      "horizon": "days",
+      "news_id": "20260827-mrvl-miss"
+    },
+    {
+      "ticker": "IWM",
+      "name": "Russell 2000 ETF",
+      "signal": "bearish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Sticky 3.3% core PCE + 33% cut odds; small caps are the most rate-sensitive expression",
+      "horizon": "into Sept FOMC",
+      "news_id": "20260828-core-pce-33"
+    },
+    {
+      "ticker": "TLT",
+      "name": "20+ Yr Treasury ETF",
+      "signal": "bearish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Stalled disinflation pushes the cut out; duration takes the hit",
+      "horizon": "into Sept FOMC",
+      "news_id": "20260828-core-pce-33"
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "signal": "bullish",
+      "conviction": "high",
+      "observed_move": "+10.6%",
+      "catalyst": "Q2 beat plus raised full-year guide",
+      "horizon": "multi-week",
+      "news_id": "20260828-adsk-beat"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell",
+      "signal": "bullish",
+      "conviction": "medium",
+      "observed_move": "",
+      "catalyst": "Q3 guide ~$1B above consensus on AI servers",
+      "horizon": "multi-week",
+      "news_id": "20260828-dell-beat"
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "signal": "bearish",
+      "conviction": "medium",
+      "observed_move": "-0.33%",
+      "catalyst": "Warsh inflation focus drives rotation out of long-duration tech",
+      "horizon": "days",
+      "news_id": "20260828-warsh-jacksonhole"
+    },
+    {
+      "ticker": "PYPL",
+      "name": "PayPal",
+      "signal": "bearish",
+      "conviction": "high",
+      "observed_move": "-17.0%",
+      "catalyst": "Advent/Stripe consortium abandons ~$53B buyout",
+      "horizon": "days",
+      "news_id": "20260828-pypl-stripe-collapse"
+    }
+  ]
+}

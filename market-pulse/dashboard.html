@@ -1,0 +1,539 @@
+<title>Market Pulse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#EFF1F0; --surface:#FFFFFF; --surface-2:#E7EAE9; --line:#D4D9D8; --line-soft:#E2E6E5;
+  --ink:#14181C; --ink-2:#3D4750; --muted:#5E6B72;
+  --accent:#0E6E6E; --accent-soft:#D6E8E6; --accent-ink:#0A5252; --on-accent:#FFFFFF;
+  --up:#1B7F4B; --up-soft:#DCEDE3; --down:#B4322B; --down-soft:#F3DEDC;
+  --warn:#B0700A; --warn-soft:#F5E7CE;
+  --sev-10:#B4322B; --sev-8:#C97A0E; --sev-6:#0E6E6E; --sev-4:#8A959B;
+  --shadow:0 1px 2px rgba(20,24,28,.06),0 4px 14px rgba(20,24,28,.05);
+  --r:7px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#12161A; --surface:#1A2028; --surface-2:#222A33; --line:#2E3841; --line-soft:#252E36;
+    --ink:#E8EDF0; --ink-2:#B6C2CA; --muted:#8494A0;
+    --accent:#3FC7C2; --accent-soft:#153436; --accent-ink:#6FDDD8; --on-accent:#0B1417;
+    --up:#46D18A; --up-soft:#12301F; --down:#FF6B5E; --down-soft:#361A17;
+    --warn:#F0A93B; --warn-soft:#332512;
+    --sev-10:#FF6B5E; --sev-8:#F0A93B; --sev-6:#3FC7C2; --sev-4:#6E7D88;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12161A; --surface:#1A2028; --surface-2:#222A33; --line:#2E3841; --line-soft:#252E36;
+  --ink:#E8EDF0; --ink-2:#B6C2CA; --muted:#8494A0;
+  --accent:#3FC7C2; --accent-soft:#153436; --accent-ink:#6FDDD8; --on-accent:#0B1417;
+  --up:#46D18A; --up-soft:#12301F; --down:#FF6B5E; --down-soft:#361A17;
+  --warn:#F0A93B; --warn-soft:#332512;
+  --sev-10:#FF6B5E; --sev-8:#F0A93B; --sev-6:#3FC7C2; --sev-4:#6E7D88;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif;text-wrap:balance;margin:0}
+
+/* ---------- header ---------- */
+header{border-bottom:1px solid var(--line);background:var(--surface)}
+.head-top{display:flex;align-items:baseline;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:20px 0 14px}
+.brand{display:flex;align-items:baseline;gap:12px}
+.brand h1{font-size:25px;font-weight:800;letter-spacing:-.022em}
+.brand .beat{width:8px;height:8px;border-radius:50%;background:var(--up);align-self:center;box-shadow:0 0 0 3px var(--up-soft)}
+@media (prefers-reduced-motion:no-preference){.brand .beat{animation:beat 2.6s ease-in-out infinite}}
+@keyframes beat{0%,100%{opacity:1}50%{opacity:.35}}
+.stamp{font-size:11.5px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.statline{display:flex;gap:0;flex-wrap:wrap;border-top:1px solid var(--line-soft);
+  padding:11px 0 13px;font-size:12.5px;color:var(--ink-2)}
+.stat{padding-right:26px;margin-right:26px;border-right:1px solid var(--line-soft)}
+.stat:last-child{border-right:0;margin-right:0;padding-right:0}
+.stat b{display:block;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.stat span{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:14px;color:var(--ink)}
+
+/* ---------- tabs ---------- */
+nav{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;cursor:pointer;
+  font-family:Archivo,sans-serif;font-size:13px;font-weight:600;letter-spacing:.02em;
+  color:var(--muted);padding:13px 16px;white-space:nowrap;display:flex;align-items:center;gap:7px}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tab .n{font-family:"IBM Plex Mono",monospace;font-size:10.5px;background:var(--surface-2);
+  color:var(--ink-2);border-radius:20px;padding:1px 7px;font-weight:500}
+.tab[aria-selected="true"] .n{background:var(--accent-soft);color:var(--accent-ink)}
+
+main{padding:26px 0 70px}
+.panel[hidden]{display:none}
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.sechead h2{font-size:15px;font-weight:700;letter-spacing:.01em}
+.sechead p{margin:0;font-size:12.5px;color:var(--muted);max-width:62ch}
+
+/* ---------- filter chips ---------- */
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px}
+.chip{appearance:none;cursor:pointer;font-family:"IBM Plex Mono",monospace;font-size:11.5px;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink-2);
+  border-radius:20px;padding:5px 13px;letter-spacing:.02em}
+.chip:hover{border-color:var(--accent);color:var(--accent-ink)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* ---------- news rows ---------- */
+.feed{display:flex;flex-direction:column;gap:9px}
+.item{display:grid;grid-template-columns:44px 1fr;gap:0;background:var(--surface);
+  border:1px solid var(--line-soft);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.sev{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  padding:14px 0;gap:6px;border-right:1px solid var(--line-soft)}
+.item[data-sev="10"] .sev{background:color-mix(in srgb,var(--sev-10) 11%,var(--surface))}
+.item[data-sev="8"] .sev{background:color-mix(in srgb,var(--sev-8) 11%,var(--surface))}
+.item[data-sev="6"] .sev{background:color-mix(in srgb,var(--sev-6) 9%,var(--surface))}
+.item[data-sev="4"] .sev{background:var(--surface-2)}
+.sevnum{font-family:"IBM Plex Mono",monospace;font-size:15px;font-weight:600;line-height:1}
+.item[data-sev="10"] .sevnum{color:var(--sev-10)} .item[data-sev="8"] .sevnum{color:var(--sev-8)}
+.item[data-sev="6"] .sevnum{color:var(--sev-6)}  .item[data-sev="4"] .sevnum{color:var(--sev-4)}
+.sevlab{font-size:8.5px;letter-spacing:.09em;color:var(--muted);text-transform:uppercase}
+.body{padding:13px 16px 14px;min-width:0}
+.meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:5px;
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted);letter-spacing:.03em}
+.dir{font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.dir.bullish{color:var(--up)} .dir.bearish{color:var(--down)} .dir.uncertain{color:var(--warn)}
+.scope{border:1px solid var(--line);border-radius:3px;padding:0 5px;text-transform:uppercase}
+.alerted{color:var(--down);font-weight:600}
+h3.hl{font-size:16px;font-weight:600;letter-spacing:-.012em;line-height:1.35;margin-bottom:7px;color:var(--ink)}
+.why{font-size:13.5px;color:var(--ink-2);margin:0 0 10px;max-width:70ch}
+.foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.tick{font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:500;letter-spacing:.03em;
+  background:var(--surface-2);color:var(--ink-2);border-radius:3px;padding:2px 6px}
+.tick.watched{background:var(--accent-soft);color:var(--accent-ink);font-weight:600}
+.src{margin-left:auto;font-size:11.5px;color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.src:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.src:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* ---------- catalyst board ---------- */
+.board{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:760px){.board{grid-template-columns:1fr}}
+.col h3{font-family:Archivo,sans-serif;font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  padding-bottom:9px;margin-bottom:12px;border-bottom:2px solid currentColor}
+.col.up h3{color:var(--up)} .col.down h3{color:var(--down)}
+.cards{display:flex;flex-direction:column;gap:9px}
+.card{background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--r);
+  padding:13px 15px;box-shadow:var(--shadow);border-left:3px solid var(--line)}
+.col.up .card{border-left-color:var(--up)} .col.down .card{border-left-color:var(--down)}
+.card-top{display:flex;align-items:baseline;gap:9px;margin-bottom:4px}
+.card-top .sym{font-family:Archivo,sans-serif;font-size:17px;font-weight:700;letter-spacing:.01em}
+.card-top .nm{font-size:12px;color:var(--muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mv{font-family:"IBM Plex Mono",monospace;font-size:13.5px;font-weight:600;font-variant-numeric:tabular-nums}
+.col.up .mv{color:var(--up)} .col.down .mv{color:var(--down)}
+.card p{margin:0 0 8px;font-size:13px;color:var(--ink-2)}
+.conv{display:flex;align-items:center;gap:6px;font-family:"IBM Plex Mono",monospace;
+  font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.pips{display:flex;gap:2.5px}
+.pip{width:13px;height:3px;border-radius:1px;background:var(--line)}
+.col.up .pip.on{background:var(--up)} .col.down .pip.on{background:var(--down)}
+.note{font-size:12px;color:var(--muted);background:var(--surface-2);border-radius:var(--r);
+  padding:11px 14px;margin-bottom:18px;border-left:3px solid var(--warn);max-width:78ch}
+
+/* ---------- calendar ---------- */
+.monthnav{display:flex;align-items:center;gap:10px}
+.mbtn{appearance:none;cursor:pointer;background:var(--surface);border:1px solid var(--line);
+  color:var(--ink-2);border-radius:var(--r);width:28px;height:26px;font-size:13px;line-height:1;padding:0}
+.mbtn:hover:not(:disabled){border-color:var(--accent);color:var(--accent-ink)}
+.mbtn:disabled{opacity:.35;cursor:default}
+.mbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.crow .nt{display:block;font-size:12px;color:var(--muted);font-style:italic;margin-top:2px}
+.cal{background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--r);
+  overflow:hidden;box-shadow:var(--shadow);margin-bottom:22px}
+.dow{display:grid;grid-template-columns:repeat(7,1fr);background:var(--surface-2);border-bottom:1px solid var(--line-soft)}
+.dow div{padding:8px 9px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);text-align:left}
+.grid{display:grid;grid-template-columns:repeat(7,1fr)}
+.day{min-height:96px;padding:7px 8px 9px;border-right:1px solid var(--line-soft);
+  border-bottom:1px solid var(--line-soft);display:flex;flex-direction:column;gap:4px}
+.day:nth-child(7n){border-right:0}
+.day.pad{background:var(--surface-2);opacity:.5}
+.day.wknd{background:color-mix(in srgb,var(--surface-2) 55%,var(--surface))}
+.dnum{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.day.today .dnum{background:var(--accent);color:var(--on-accent);border-radius:3px;padding:0 5px;font-weight:600}
+.ev{font-size:10.5px;line-height:1.3;border-radius:3px;padding:3px 5px;border-left:2px solid;
+  background:var(--surface-2);color:var(--ink-2);cursor:default}
+.ev.high{border-left-color:var(--down);background:var(--down-soft);color:var(--ink)}
+.ev.medium{border-left-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.ev .sym{font-family:"IBM Plex Mono",monospace;font-weight:600;letter-spacing:.02em}
+.est{color:var(--muted);font-style:italic}
+@media (max-width:700px){.cal{display:none}}
+.callist{display:flex;flex-direction:column;gap:1px;background:var(--line-soft);
+  border:1px solid var(--line-soft);border-radius:var(--r);overflow:hidden}
+.crow{display:grid;grid-template-columns:104px 74px 1fr;gap:14px;background:var(--surface);
+  padding:11px 15px;align-items:baseline}
+@media (max-width:620px){.crow{grid-template-columns:1fr;gap:3px}}
+.crow .d{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.crow .t{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.crow .ti{font-size:13.5px}
+.crow.high .d{color:var(--down);font-weight:600}
+
+/* ---------- watchlist ---------- */
+.wl-add{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+input[type=text]{font-family:"IBM Plex Mono",monospace;font-size:13px;padding:8px 11px;
+  border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--ink)}
+input[type=text]:focus-visible{outline:2px solid var(--accent);outline-offset:-1px;border-color:var(--accent)}
+input#wl-sym{width:110px;text-transform:uppercase}
+input#wl-name{flex:1;min-width:170px;font-family:"IBM Plex Sans",sans-serif}
+.btn{appearance:none;cursor:pointer;font-family:Archivo,sans-serif;font-size:13px;font-weight:600;
+  padding:8px 16px;border-radius:var(--r);border:1px solid var(--accent);background:var(--accent);color:var(--on-accent)}
+.btn:hover{background:var(--accent-ink);border-color:var(--accent-ink)}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:none;color:var(--accent-ink)}
+.btn.ghost:hover{background:var(--accent-soft)}
+.wl{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line-soft);
+  border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.wl th{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);text-align:left;padding:9px 14px;background:var(--surface-2);border-bottom:1px solid var(--line-soft);font-weight:500}
+.wl td{padding:10px 14px;border-bottom:1px solid var(--line-soft);font-size:13.5px;vertical-align:middle}
+.wl tr:last-child td{border-bottom:0}
+.wl .sym{font-family:Archivo,sans-serif;font-size:15px;font-weight:700}
+.wl .grp{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted)}
+.wl .hits{font-family:"IBM Plex Mono",monospace;font-size:11px;text-align:center}
+.wl .hits a{text-decoration:none;background:var(--accent-soft);color:var(--accent-ink);
+  border-radius:20px;padding:2px 9px;font-weight:600}
+.wl .hits .zero{color:var(--muted)}
+.rm{appearance:none;background:none;border:0;cursor:pointer;color:var(--muted);font-size:16px;line-height:1;padding:3px 7px;border-radius:4px}
+.rm:hover{color:var(--down);background:var(--down-soft)}
+.rm:focus-visible{outline:2px solid var(--down);outline-offset:1px}
+.wl-foot{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.wl-foot span{font-size:12px;color:var(--muted)}
+.empty{padding:34px 20px;text-align:center;color:var(--muted);font-size:13.5px}
+footer{border-top:1px solid var(--line);padding:18px 0 30px;font-size:11.5px;color:var(--muted)}
+footer p{margin:0 0 5px;max-width:80ch}
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="head-top">
+      <div class="brand">
+        <span class="beat" aria-hidden="true"></span>
+        <h1>Market Pulse</h1>
+        <span class="stamp" id="sessdate"></span>
+      </div>
+      <span class="stamp" id="built"></span>
+    </div>
+    <div class="statline" id="statline"></div>
+  </div>
+</header>
+
+<nav><div class="wrap"><div class="tabs" role="tablist">
+  <button class="tab" role="tab" id="t-feed" aria-controls="p-feed" aria-selected="true">Live Feed <span class="n" id="n-feed"></span></button>
+  <button class="tab" role="tab" id="t-board" aria-controls="p-board" aria-selected="false">Catalyst Board <span class="n" id="n-board"></span></button>
+  <button class="tab" role="tab" id="t-cal" aria-controls="p-cal" aria-selected="false">Calendar <span class="n" id="n-cal"></span></button>
+  <button class="tab" role="tab" id="t-wl" aria-controls="p-wl" aria-selected="false">Watchlist <span class="n" id="n-wl"></span></button>
+</div></div></nav>
+
+<main class="wrap">
+  <section class="panel" id="p-feed" role="tabpanel" aria-labelledby="t-feed">
+    <div class="sechead">
+      <h2>Scored headlines</h2>
+      <p>Impact 1&ndash;10 scores what changes the earnings path or the multiple &mdash; not how loud the headline is. Direction is for the <em>stock</em>.</p>
+    </div>
+    <div class="chips" id="feed-chips"></div>
+    <div class="feed" id="feed"></div>
+  </section>
+
+  <section class="panel" id="p-board" role="tabpanel" aria-labelledby="t-board" hidden>
+    <div class="sechead">
+      <h2>Directional read by catalyst</h2>
+      <p>Ranked by conviction from the scored feed, with the read-through names included &mdash; not just the subject of the headline.</p>
+    </div>
+    <div class="note" id="board-note"></div>
+    <div class="board">
+      <div class="col up"><h3>Likely up</h3><div class="cards" id="bull"></div></div>
+      <div class="col down"><h3>Likely down</h3><div class="cards" id="bear"></div></div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-cal" role="tabpanel" aria-labelledby="t-cal" hidden>
+    <div class="sechead">
+      <div class="monthnav">
+        <button class="mbtn" id="m-prev" aria-label="Previous month">&#8592;</button>
+        <h2 id="cal-title"></h2>
+        <button class="mbtn" id="m-next" aria-label="Next month">&#8594;</button>
+      </div>
+      <p>Red = high importance. Italic dates are the company&rsquo;s typical slot and still need confirming; upright dates are source-verified.</p>
+    </div>
+    <div class="cal"><div class="dow" id="dow"></div><div class="grid" id="grid"></div></div>
+    <div class="callist" id="callist"></div>
+  </section>
+
+  <section class="panel" id="p-wl" role="tabpanel" aria-labelledby="t-wl" hidden>
+    <div class="sechead">
+      <h2>Your watchlist</h2>
+      <p>Edits save in this browser and survive dashboard updates. <b>Hits</b> counts how many headlines in the current feed touch that ticker.</p>
+    </div>
+    <div class="wl-add">
+      <input type="text" id="wl-sym" placeholder="TICKER" maxlength="6" aria-label="Ticker symbol">
+      <input type="text" id="wl-name" placeholder="Company name (optional)" aria-label="Company name">
+      <button class="btn" id="wl-add">Add</button>
+      <button class="btn ghost" id="wl-reset">Reset to seed</button>
+    </div>
+    <table class="wl"><thead><tr>
+      <th style="width:88px">Symbol</th><th>Name</th><th style="width:130px">Group</th>
+      <th style="width:66px;text-align:center">Hits</th><th style="width:44px"></th>
+    </tr></thead><tbody id="wl-body"></tbody></table>
+    <div class="wl-foot">
+      <button class="btn ghost" id="wl-copy">Copy list for the agent</button>
+      <span id="wl-msg"></span>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>How this updates.</b> A scheduled agent scans the news wires, scores each item, and republishes this page. Directional reads come from those scored catalysts, not from a live price feed &mdash; percentage moves appear only where a cited source reported one.</p>
+  <p>Informational only. Not investment advice.</p>
+</div></footer>
+
+<script id="payload" type="application/json">{"news":{"generated_at":"2026-08-28T15:30:02Z","session_date":"2026-08-28","items":[{"id":"20260828-warsh-speech-inflation-concerning","time":"2026-08-28T14:00:00Z","headline":"Warsh's Jackson Hole debut: inflation trends have not \"meaningfully improved,\" declines to rule out hikes","impact":8,"direction":"bearish","scope":"macro","tickers":["BAC","C","GS","IWM","JPM","QQQ","SPY","TLT","UUP","WFC"],"why":"Warsh said inflation trends have not \"meaningfully improved\" \u2014 a direct rejection of the near-term cut case from the new chair himself. The reaction is a rotation, not a selloff: Nasdaq -0.33% while the Dow holds +0.06% and the S&P is flat. Money is leaving long-duration tech for defensives and value; the index level hides that split, which is the actual signal.","source":"CNBC / CNN Business","url":"https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html","alerted":false},{"id":"20260828-core-pce-33","time":"2026-08-28T12:30:00Z","headline":"Core PCE stuck at 3.3% \u2014 disinflation has stalled, not reversed","impact":9,"direction":"bearish","scope":"macro","tickers":["SPY","QQQ","TLT","IWM","XLF"],"why":"The Fed's preferred gauge holding at 3.3% removes the case for a near-term cut. Rate-cut odds for the Sept 15-16 FOMC have already collapsed to ~33%. Directly negative for long-duration growth and small caps; supportive for the dollar.","source":"TradingKey / CNBC","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026","alerted":true},{"id":"20260828-fed-cut-odds","time":"2026-08-28T11:00:00Z","headline":"Futures price just 32.6% odds of a cut at the September 15-16 FOMC","impact":7,"direction":"bearish","scope":"macro","tickers":["SPY","IWM","TLT","JPM","GS","BAC","WFC","C"],"why":"Traders have sharply pulled back easing expectations. Small caps and regional-rate-sensitive financials carry the most downside if this drifts toward zero; a Warsh surprise today is the main upside risk to this pricing.","source":"CNBC","url":"https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html","alerted":false},{"id":"20260828-pypl-stripe-collapse","time":"2026-08-28T10:00:00Z","headline":"PayPal slides as much as 17% after Advent/Stripe consortium abandons its ~$53B buyout pursuit","impact":9,"direction":"bearish","scope":"company","tickers":["MA","PYPL","V"],"why":"PayPal's board rejected the consortium's $60.50/share bid in July as inadequate; with the buyers now formally walking away, the stock loses the entire takeout premium that had built up since talks emerged, wiping out roughly $8B of implied equity value. Nothing about the underlying payments business changed \u2014 this is a permanent repricing of the standalone equity story, not an earnings reset.","source":"Bloomberg","url":"https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal","alerted":true},{"id":"20260828-adsk-beat","time":"2026-08-27T20:45:00Z","headline":"Autodesk jumps 10.6% to $318.96 after Q2 beat and raised full-year guidance","impact":7,"direction":"bullish","scope":"company","tickers":["ADSK","CRM","NOW","ADBE"],"why":"A raised full-year number, not just a quarterly beat, is what moves a software multiple \u2014 it resets the base for every forward estimate. Third confirmation this week that enterprise software demand is holding, after Salesforce and Okta.","source":"CNBC","url":"https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html","alerted":false},{"id":"20260828-dell-beat","time":"2026-08-27T20:40:00Z","headline":"Dell beats on Q2 and guides Q3 revenue to $26.5-27.5B against $26.05B consensus","impact":7,"direction":"bullish","scope":"company","tickers":["DELL","NVDA","SMCI","AVGO"],"why":"Dell and Super Micro are the two channels AI servers actually ship through, so a guide above consensus from both in the same week corroborates the Nvidia demand signal from the systems side rather than the silicon side. Hard to dismiss as one company's optimism.","source":"CNBC","url":"https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html","alerted":false},{"id":"20260827-nvda-q2","time":"2026-08-27T20:30:00Z","headline":"Nvidia annual revenue doubles, guides solidly into 2028 \u2014 stock +6%","impact":10,"direction":"bullish","scope":"company","tickers":["NVDA","AVGO","TSM","MU","AMD","ANET","SMCI","LRCX","KLAC","AMAT"],"why":"A guide that extends visibility to 2028 is the strongest possible signal that AI capex is not rolling over. This is the anchor datapoint for the entire semi and AI-infrastructure complex, and it re-rates the supply chain, not just NVDA.","source":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026","alerted":true},{"id":"20260827-mrvl-miss","time":"2026-08-27T20:15:00Z","headline":"Marvell tumbles 14% \u2014 adjusted EPS of $0.67 on $2.01B revenue only matched estimates","impact":8,"direction":"bearish","scope":"company","tickers":["MRVL","AVGO","AMD"],"why":"Revenue rose 58% on strong AI demand for custom silicon, yet an in-line print was punished with a 14% drawdown. The read-through: the bar for AI-adjacent names is now a beat-and-raise, not a beat. Watch for the same setup in other custom-ASIC names.","source":"TheStreet / Bloomberg","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026","alerted":true},{"id":"20260827-afrm-q4-beat","time":"2026-08-27T20:05:00Z","headline":"Affirm's Q4 revenue and guidance beat; shares +9%","impact":7,"direction":"bullish","scope":"company","tickers":["AFRM"],"why":"Q4 revenue of $1.17B beat consensus of $1.11B and GMV grew 36% YoY to $14.1B, the company's 11th straight quarter of 30%+ GMV growth. Next-quarter revenue guidance of $1.19-1.22B cleared Street numbers \u2014 a genuine beat-and-raise showing BNPL adoption is still compounding, not just cycling existing merchants.","source":"Investing.com","url":"https://www.investing.com/news/earnings/affirm-shares-jump-9-on-earnings-beat-strong-guidance-93CH-4880215","alerted":false},{"id":"20260827-crm-okta-crwd","time":"2026-08-27T20:00:00Z","headline":"Software rips: Salesforce +20%, Okta +26%, CrowdStrike results bolster the sector","impact":8,"direction":"bullish","scope":"sector","tickers":["CRM","NOW","ADBE","PANW","INTU","MSFT"],"why":"A 20% move in a mega-cap like CRM is a violent sentiment reset for enterprise software, which had been the market's funding source all summer. Suggests AI monetization is finally showing up in seat-based and consumption revenue.","source":"TheStreet","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026","alerted":true},{"id":"20260827-gps-q2-beat","time":"2026-08-27T11:00:00Z","headline":"Gap raises operating-margin and EPS guidance, names new Old Navy CEO \u2014 shares +12%","impact":6,"direction":"bullish","scope":"company","tickers":["GPS"],"why":"Gap raised its adjusted operating-margin outlook to ~7.4-7.6% and EPS guidance to $2.35-2.45, even as it narrowed the top end of its full-year sales-growth range and replaced the Old Navy CEO after that brand's first negative comp in nearly three years. The market is rewarding margin execution at the namesake brand over top-line growth.","source":"CNBC","url":"https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html","alerted":false},{"id":"20260826-smci-guide","time":"2026-08-26T20:30:00Z","headline":"Super Micro rallies 6% on Q1 guidance far above consensus ($14.5-15.5B rev vs $11.7B est.)","impact":7,"direction":"bullish","scope":"company","tickers":["SMCI","NVDA","AVGO"],"why":"A ~30% revenue guide-above-consensus from the primary AI server integrator corroborates the Nvidia demand signal from the systems side. EPS guided $1.01-1.10 vs $0.76 consensus.","source":"CNBC","url":"https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html","alerted":false},{"id":"20260825-maersk-hormuz","time":"2026-08-25T09:00:00Z","headline":"Maersk hikes 2026 guidance a second time as Strait of Hormuz blockade snarls global trade; shares +7%","impact":7,"direction":"bullish","scope":"macro","tickers":["XOM","CVX","COP","SLB","OXY","USO"],"why":"A sustained Hormuz disruption is a structural bid under crude and a tax on goods inflation. Energy majors are the direct beneficiary; it simultaneously worsens the core-PCE problem the Fed is already stuck on.","source":"CNBC","url":"https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html","alerted":false},{"id":"20260821-team-q4","time":"2026-08-21T20:30:00Z","headline":"Atlassian +29% on Q4 revenue and earnings beat, though FY growth of 13% just missed","impact":6,"direction":"bullish","scope":"company","tickers":["TEAM","NOW","CRM"],"why":"Part of the same software re-rating as CRM/OKTA. Notable that the market looked through a slight full-year growth miss \u2014 sentiment, not fundamentals, was the constraint.","source":"CNBC","url":"https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html","alerted":false},{"id":"20260821-rost-beat","time":"2026-08-21T12:00:00Z","headline":"Ross Stores +8% premarket on Q2 beat and above-consensus Q3 guidance","impact":5,"direction":"bullish","scope":"company","tickers":["ROST","TJX","WMT","COST"],"why":"Off-price retail outperforming is a classic late-cycle tell \u2014 the consumer is trading down but still spending. Mildly supportive for TJX and WMT, mildly negative for full-price discretionary.","source":"CNBC","url":"https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html","alerted":false}]},"movers":{"generated_at":"2026-08-28T15:30:02Z","basis":"news-catalyst ranking","disclaimer":"Directional reads derived from scored news catalysts, not from a live price feed. 'observed_move' is populated only where a move was reported by a cited source; blank means no verified quote. See README for wiring a real-time quote feed.","board":[{"ticker":"NVDA","name":"Nvidia","signal":"bullish","conviction":"high","observed_move":"+6.0%","catalyst":"Annual revenue doubled; guidance extended into 2028","horizon":"multi-week","news_id":"20260827-nvda-q2"},{"ticker":"CRM","name":"Salesforce","signal":"bullish","conviction":"high","observed_move":"+20.0%","catalyst":"Blowout print resets enterprise-software sentiment","horizon":"multi-week","news_id":"20260827-crm-okta-crwd"},{"ticker":"SMCI","name":"Super Micro","signal":"bullish","conviction":"high","observed_move":"+6.0%","catalyst":"Q1 revenue guide ~30% above consensus","horizon":"multi-week","news_id":"20260826-smci-guide"},{"ticker":"AVGO","name":"Broadcom","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"Direct read-through from NVDA 2028 guide; custom-ASIC demand intact","horizon":"into Sept earnings","news_id":"20260827-nvda-q2"},{"ticker":"TSM","name":"TSMC","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"Sole-source leading-edge beneficiary of the AI capex extension","horizon":"multi-week","news_id":"20260827-nvda-q2"},{"ticker":"ANET","name":"Arista","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"AI datacenter networking attach rate follows NVDA shipments","horizon":"multi-week","news_id":"20260827-nvda-q2"},{"ticker":"MU","name":"Micron","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"HBM demand tied to the same capex cycle; reports late Sept","horizon":"into Sept earnings","news_id":"20260827-nvda-q2"},{"ticker":"XOM","name":"Exxon Mobil","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"Hormuz blockade keeps a structural bid under crude","horizon":"multi-week","news_id":"20260825-maersk-hormuz"},{"ticker":"CVX","name":"Chevron","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"Same crude supply-disruption premium as XOM","horizon":"multi-week","news_id":"20260825-maersk-hormuz"},{"ticker":"NOW","name":"ServiceNow","signal":"bullish","conviction":"low","observed_move":"","catalyst":"Sector sympathy from CRM/OKTA/TEAM re-rating","horizon":"days","news_id":"20260827-crm-okta-crwd"},{"ticker":"AFRM","name":"Affirm","signal":"bullish","conviction":"medium","observed_move":"+9.0%","catalyst":"Beat-and-raise; 11th straight quarter of 30%+ GMV growth","horizon":"multi-week","news_id":"20260827-afrm-q4-beat"},{"ticker":"GPS","name":"Gap","signal":"bullish","conviction":"low","observed_move":"+12.0%","catalyst":"Margin and EPS guidance raised despite Old Navy weakness and CEO change","horizon":"days","news_id":"20260827-gps-q2-beat"},{"ticker":"MRVL","name":"Marvell","signal":"bearish","conviction":"high","observed_move":"-14.0%","catalyst":"In-line print punished; bar is now beat-and-raise","horizon":"days","news_id":"20260827-mrvl-miss"},{"ticker":"IWM","name":"Russell 2000 ETF","signal":"bearish","conviction":"medium","observed_move":"","catalyst":"Sticky 3.3% core PCE + 33% cut odds; small caps are the most rate-sensitive expression","horizon":"into Sept FOMC","news_id":"20260828-core-pce-33"},{"ticker":"TLT","name":"20+ Yr Treasury ETF","signal":"bearish","conviction":"medium","observed_move":"","catalyst":"Stalled disinflation pushes the cut out; duration takes the hit","horizon":"into Sept FOMC","news_id":"20260828-core-pce-33"},{"ticker":"ADSK","name":"Autodesk","signal":"bullish","conviction":"high","observed_move":"+10.6%","catalyst":"Q2 beat plus raised full-year guide","horizon":"multi-week","news_id":"20260828-adsk-beat"},{"ticker":"DELL","name":"Dell","signal":"bullish","conviction":"medium","observed_move":"","catalyst":"Q3 guide ~$1B above consensus on AI servers","horizon":"multi-week","news_id":"20260828-dell-beat"},{"ticker":"QQQ","name":"Nasdaq 100 ETF","signal":"bearish","conviction":"medium","observed_move":"-0.33%","catalyst":"Warsh inflation focus drives rotation out of long-duration tech","horizon":"days","news_id":"20260828-warsh-jacksonhole"},{"ticker":"PYPL","name":"PayPal","signal":"bearish","conviction":"high","observed_move":"-17.0%","catalyst":"Advent/Stripe consortium abandons ~$53B buyout","horizon":"days","news_id":"20260828-pypl-stripe-collapse"}]},"calendar":{"generated_at":"2026-08-28T13:10:00Z","month":"2026-09","months":["2026-08","2026-09","2026-10","2026-11","2026-12"],"note":"confirmed=true means the date was verified against a cited source. confirmed=false is the company's typical reporting slot and must be re-verified before trading around it.","events":[{"date":"2026-08-28","type":"macro","title":"Jackson Hole \u2014 Fed Chair Warsh speech","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":true,"note":""},{"date":"2026-09-01","type":"macro","title":"ISM Manufacturing PMI","tickers":["SPY","IWM"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-02","type":"earnings","title":"Broadcom (AVGO) Q3 FY26 \u2014 AI custom-ASIC orders","tickers":["AVGO"],"importance":"high","confirmed":true,"note":"First big AI read after the Nvidia guide"},{"date":"2026-09-04","type":"macro","title":"August Jobs Report (BLS), 8:30 ET","tickers":["SPY","IWM","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-09-10","type":"earnings","title":"Adobe (ADBE) Q3 FY26 \u2014 AI monetization","tickers":["ADBE"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-11","type":"macro","title":"CPI inflation report, 8:30 ET","tickers":["SPY","QQQ","TLT","IWM"],"importance":"high","confirmed":true,"note":""},{"date":"2026-09-14","type":"earnings","title":"Oracle (ORCL) Q1 FY27 \u2014 RPO / AI backlog","tickers":["ORCL"],"importance":"high","confirmed":true,"note":"Backlog number is the single most watched AI datapoint of the month"},{"date":"2026-09-15","type":"macro","title":"FOMC meeting begins (day 1 of 2)","tickers":["SPY","TLT"],"importance":"high","confirmed":true,"note":""},{"date":"2026-09-16","type":"macro","title":"August Retail Sales","tickers":["WMT","COST","TGT"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-16","type":"macro","title":"FOMC decision 2:00 ET + Warsh press conference","tickers":["SPY","QQQ","IWM","TLT","JPM","GS"],"importance":"high","confirmed":true,"note":""},{"date":"2026-09-17","type":"earnings","title":"FedEx (FDX) Q1 FY27 \u2014 freight bellwether","tickers":["FDX"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-24","type":"earnings","title":"Accenture (ACN) Q4 FY26 \u2014 IT services demand","tickers":["ACN"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-24","type":"earnings","title":"Costco (COST) Q4 FY26","tickers":["COST"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-24","type":"earnings","title":"Micron (MU) Q4 FY26 \u2014 HBM pricing","tickers":["MU"],"importance":"high","confirmed":true,"note":"Memory is the tightest link in the AI chain"},{"date":"2026-09-24","type":"earnings","title":"Nike (NKE) Q1 FY27","tickers":["NKE"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-09-25","type":"macro","title":"August PCE price index \u2014 Fed's preferred gauge","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-09-30","type":"macro","title":"Quarter end \u2014 index rebalance","tickers":["SPY","QQQ","IWM"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-10-02","type":"macro","title":"September Jobs Report (BLS), 8:30 ET","tickers":["SPY","IWM","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-13","type":"macro","title":"CPI inflation report","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-14","type":"earnings","title":"ASML Q3 \u2014 EUV order book","tickers":["ASML"],"importance":"high","confirmed":false,"note":"Reports within days of TSMC; orders lead the whole cycle"},{"date":"2026-10-15","type":"earnings","title":"TSMC (TSM) Q3 \u2014 leading-edge capacity","tickers":["TSM"],"importance":"high","confirmed":false,"note":"Sole-source foundry; guides the entire supply chain"},{"date":"2026-10-27","type":"earnings","title":"Intel (INTC) Q3 \u2014 foundry losses","tickers":["INTC"],"importance":"medium","confirmed":false,"note":""},{"date":"2026-10-28","type":"macro","title":"FOMC decision + press conference","tickers":["SPY","QQQ","IWM","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-28","type":"earnings","title":"Microsoft (MSFT) FY27 Q1 \u2014 Azure AI + capex","tickers":["MSFT"],"importance":"high","confirmed":false,"note":"Capex guide moves the entire semi complex"},{"date":"2026-10-28","type":"earnings","title":"Tesla (TSLA) Q3","tickers":["TSLA"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-29","type":"earnings","title":"Alphabet (GOOGL) Q3 \u2014 cloud + capex guide","tickers":["GOOGL"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-29","type":"earnings","title":"Meta (META) Q3 \u2014 capex guide","tickers":["META"],"importance":"high","confirmed":false,"note":"Highest warning risk of the megacaps: spending up, monetization unproven"},{"date":"2026-10-29","type":"earnings","title":"Samsung / SK Hynix Q3 \u2014 memory pricing","tickers":["MU"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-30","type":"earnings","title":"Amazon (AMZN) Q3 \u2014 AWS growth + capex","tickers":["AMZN"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-30","type":"earnings","title":"Apple (AAPL) FY26 Q4 + holiday guide","tickers":["AAPL"],"importance":"high","confirmed":false,"note":""},{"date":"2026-10-30","type":"macro","title":"September PCE price index","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-11-06","type":"macro","title":"October Jobs Report (BLS), 8:30 ET","tickers":["SPY","IWM","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-11-09","type":"earnings","title":"Palantir (PLTR) Q3 \u2014 US commercial growth","tickers":["PLTR"],"importance":"high","confirmed":true,"note":"Confirmed, after close. Priced for perfection \u2014 highest de-rating risk in AI software"},{"date":"2026-11-12","type":"macro","title":"CPI inflation report","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-11-17","type":"earnings","title":"NVIDIA (NVDA) Q3 FY27","tickers":["NVDA","AVGO","TSM","MU","ANET","SMCI"],"importance":"high","confirmed":true,"note":"Confirmed, after market. The single most market-moving print of the quarter"},{"date":"2026-11-25","type":"macro","title":"October PCE price index","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-04","type":"macro","title":"November Jobs Report (BLS), 8:30 ET","tickers":["SPY","IWM","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-09","type":"macro","title":"FOMC decision + Summary of Economic Projections","tickers":["SPY","QQQ","IWM","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-10","type":"macro","title":"CPI inflation report","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-10","type":"earnings","title":"Oracle (ORCL) Q2 FY27 \u2014 backlog follow-up","tickers":["ORCL"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-11","type":"earnings","title":"Broadcom (AVGO) Q4 FY26 + FY27 guide","tickers":["AVGO"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-17","type":"earnings","title":"Micron (MU) Q1 FY27 \u2014 memory shortage","tickers":["MU"],"importance":"high","confirmed":false,"note":""},{"date":"2026-12-18","type":"earnings","title":"Nike (NKE) / FedEx (FDX) Q2","tickers":["NKE","FDX"],"importance":"medium","confirmed":false,"note":""}]},"watchlist":{"updated":"2026-08-28","note":"Seeded from the four groups selected at setup. Edit in the dashboard Watchlist tab \u2014 changes persist across viewers.","tickers":[{"ticker":"NVDA","name":"Nvidia","group":"Semis & AI","note":"Anchor of the AI complex"},{"ticker":"AAPL","name":"Apple","group":"Mega-cap tech","note":""},{"ticker":"MSFT","name":"Microsoft","group":"Mega-cap tech","note":""},{"ticker":"GOOGL","name":"Alphabet","group":"Mega-cap tech","note":""},{"ticker":"AMZN","name":"Amazon","group":"Mega-cap tech","note":""},{"ticker":"META","name":"Meta Platforms","group":"Mega-cap tech","note":""},{"ticker":"TSLA","name":"Tesla","group":"Mega-cap tech","note":""},{"ticker":"AVGO","name":"Broadcom","group":"Semis & AI","note":"Reports early Sept"},{"ticker":"AMD","name":"AMD","group":"Semis & AI","note":""},{"ticker":"TSM","name":"TSMC","group":"Semis & AI","note":""},{"ticker":"MU","name":"Micron","group":"Semis & AI","note":"HBM pricing, reports late Sept"},{"ticker":"SMCI","name":"Super Micro","group":"Semis & AI","note":"High beta to NVDA"},{"ticker":"JPM","name":"JPMorgan Chase","group":"Financials","note":"Rate sensitive"},{"ticker":"GS","name":"Goldman Sachs","group":"Financials","note":""},{"ticker":"XOM","name":"Exxon Mobil","group":"Energy","note":"Hormuz crude premium"},{"ticker":"CVX","name":"Chevron","group":"Energy","note":""},{"ticker":"SPY","name":"S&P 500 ETF","group":"Broad market","note":""},{"ticker":"QQQ","name":"Nasdaq 100 ETF","group":"Broad market","note":""},{"ticker":"IWM","name":"Russell 2000 ETF","group":"Broad market","note":"Most rate-sensitive"}]},"state":{"last_run":"2026-08-28T15:30:02Z","alert_threshold":8,"alerted_ids":["20260827-crm-okta-crwd","20260827-mrvl-miss","20260827-nvda-q2","20260828-core-pce-33","20260828-pypl-dealbreak","20260828-pypl-stripe-collapse","20260828-warsh-jacksonhole"],"runs":5},"universe":{"updated":"2026-08-28","note":"Monitored universe: S&P 500 largest by market cap + user-selected groups. Edit here or in the dashboard Watchlist tab.","groups":{"megacap_tech":["AAPL","MSFT","NVDA","GOOGL","AMZN","META","TSLA"],"broad_macro":["SPY","QQQ","IWM","TLT","UUP","USO"],"semis_ai":["NVDA","AMD","AVGO","TSM","MU","ASML","SMCI","ANET","LRCX","KLAC","AMAT","MRVL","QCOM","TXN","ADI","INTC","PLTR"],"financials_energy":["JPM","GS","BAC","MS","WFC","C","BRK.B","SCHW","BLK","XOM","CVX","COP","SLB","OXY"],"sp500_megacap":["AAPL","MSFT","NVDA","GOOGL","AMZN","META","AVGO","TSLA","BRK.B","JPM","WMT","LLY","ORCL","V","MA","NFLX","XOM","COST","JNJ","HD","PG","ABBV","BAC","PLTR","AMD","CVX","KO","GE","TMUS","CSCO","WFC","CRM","PM","IBM","MS","ABT","GS","MCD","LIN","DIS","MRK","INTU","AXP","NOW","T","RTX","ISRG","PEP","QCOM","BKNG","UBER","ADBE","TXN","CAT","VZ","AMGN","SPGI","BSX","PGR","BLK","UNH","PFE","LOW","HON","DE","MU","PANW","ANET","VRTX","GILD","CMCSA","NEE","SO","LMT","ELV","MDT","C","ADP"]}},"built_at":"2026-08-28T15:30:02Z"}</script>
+<script>
+(function(){
+"use strict";
+var P = JSON.parse(document.getElementById("payload").textContent);
+var LS = "marketpulse.watchlist.v1";
+var $ = function(id){ return document.getElementById(id); };
+var esc = function(s){ return String(s==null?"":s).replace(/[&<>"']/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); };
+
+/* ---- watchlist state (localStorage, falls back to the seed) ---- */
+function loadWL(){
+  try { var r = localStorage.getItem(LS); if(r){ var p = JSON.parse(r); if(Array.isArray(p) && p.length) return p; } }
+  catch(e){}
+  return P.watchlist.tickers.slice();
+}
+function saveWL(){ try { localStorage.setItem(LS, JSON.stringify(WL)); } catch(e){} }
+var WL = loadWL();
+function watched(){ var s={}; WL.forEach(function(w){ s[w.ticker]=1; }); return s; }
+
+/* ---- header ---- */
+var items = P.news.items.slice().sort(function(a,b){ return b.impact - a.impact || (a.time < b.time ? 1 : -1); });
+var thr = P.state.alert_threshold;
+var fmtTime = function(iso){
+  var d = new Date(iso);
+  return d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"});
+};
+$("sessdate").textContent = "Session " + P.news.session_date;
+$("built").textContent = "Updated " + fmtTime(P.built_at);
+
+var uni = {}; Object.keys(P.universe.groups).forEach(function(g){ P.universe.groups[g].forEach(function(t){ uni[t]=1; }); });
+var alertCount = items.filter(function(i){ return i.impact >= thr; }).length;
+var nextEv = P.calendar.events.filter(function(e){ return e.date >= P.news.session_date; })
+                              .sort(function(a,b){ return a.date < b.date ? -1 : 1; })[0];
+$("statline").innerHTML = [
+  ["Alert-grade today", alertCount + " of " + items.length],
+  ["Alert threshold", thr + "/10"],
+  ["Tickers monitored", Object.keys(uni).length],
+  ["Next catalyst", nextEv ? nextEv.date.slice(5) + "  " + nextEv.title.split("—")[0].trim() : "—"],
+  ["Scan cadence", "Hourly, 9–17 ET"]
+].map(function(s){
+  return '<div class="stat"><b>'+esc(s[0])+'</b><span>'+esc(s[1])+'</span></div>';
+}).join("");
+
+/* ---- tabs ---- */
+var TABS = [["t-feed","p-feed"],["t-board","p-board"],["t-cal","p-cal"],["t-wl","p-wl"]];
+function show(id){
+  TABS.forEach(function(p){
+    var on = p[0] === id;
+    $(p[0]).setAttribute("aria-selected", on ? "true" : "false");
+    $(p[1]).hidden = !on;
+  });
+  if(id === "t-wl") renderWL();
+}
+TABS.forEach(function(p){ $(p[0]).addEventListener("click", function(){ show(p[0]); }); });
+
+/* ---- live feed ---- */
+var FILTERS = [
+  ["all","All","function"],
+  ["alert","Alert-grade ≥" + thr,"f"],
+  ["macro","Macro","f"],
+  ["company","Company","f"],
+  ["bull","Bullish","f"],
+  ["bear","Bearish","f"]
+];
+var active = "all";
+function matches(i){
+  if(active === "all") return true;
+  if(active === "alert") return i.impact >= thr;
+  if(active === "macro") return i.scope === "macro";
+  if(active === "company") return i.scope === "company" || i.scope === "sector";
+  if(active === "bull") return i.direction === "bullish";
+  if(active === "bear") return i.direction === "bearish";
+  return true;
+}
+$("feed-chips").innerHTML = FILTERS.map(function(f){
+  return '<button class="chip" data-f="'+f[0]+'" aria-pressed="'+(f[0]===active)+'">'+esc(f[1])+'</button>';
+}).join("");
+$("feed-chips").addEventListener("click", function(e){
+  var b = e.target.closest(".chip"); if(!b) return;
+  active = b.dataset.f;
+  [].forEach.call($("feed-chips").children, function(c){
+    c.setAttribute("aria-pressed", c.dataset.f === active ? "true" : "false"); });
+  renderFeed();
+});
+function sevBucket(n){ return n >= 9 ? 10 : n >= 7 ? 8 : n >= 5 ? 6 : 4; }
+var ARROW = { bullish:"▲", bearish:"▼", uncertain:"◆" };
+function renderFeed(){
+  var w = watched();
+  var list = items.filter(matches);
+  if(!list.length){ $("feed").innerHTML = '<div class="empty">No headlines match this filter.</div>'; return; }
+  $("feed").innerHTML = list.map(function(i){
+    var ticks = (i.tickers||[]).map(function(t){
+      return '<span class="tick'+(w[t]?" watched":"")+'">'+esc(t)+'</span>'; }).join("");
+    return '<article class="item" data-sev="'+sevBucket(i.impact)+'">'
+      + '<div class="sev"><span class="sevnum">'+i.impact+'</span><span class="sevlab">impact</span></div>'
+      + '<div class="body">'
+      + '<div class="meta"><span>'+esc(fmtTime(i.time))+'</span>'
+      + '<span class="dir '+esc(i.direction)+'">'+ARROW[i.direction]+' '+esc(i.direction)+'</span>'
+      + '<span class="scope">'+esc(i.scope)+'</span>'
+      + (i.alerted ? '<span class="alerted">● pushed</span>' : '')
+      + '</div>'
+      + '<h3 class="hl">'+esc(i.headline)+'</h3>'
+      + '<p class="why">'+esc(i.why)+'</p>'
+      + '<div class="foot">'+ticks
+      + '<a class="src" href="'+esc(i.url)+'" target="_blank" rel="noopener noreferrer">'+esc(i.source)+' ↗</a>'
+      + '</div></div></article>';
+  }).join("");
+}
+
+/* ---- catalyst board ---- */
+$("board-note").textContent = P.movers.disclaimer;
+var CONV = { high:3, medium:2, low:1 };
+function renderBoard(){
+  ["bull","bear"].forEach(function(side){
+    var want = side === "bull" ? "bullish" : "bearish";
+    var rows = P.movers.board.filter(function(m){ return m.signal === want; })
+      .sort(function(a,b){ return CONV[b.conviction] - CONV[a.conviction]; });
+    $(side).innerHTML = rows.length ? rows.map(function(m){
+      var pips = [1,2,3].map(function(n){
+        return '<span class="pip'+(n <= CONV[m.conviction] ? " on":"")+'"></span>'; }).join("");
+      return '<article class="card">'
+        + '<div class="card-top"><span class="sym">'+esc(m.ticker)+'</span>'
+        + '<span class="nm">'+esc(m.name)+'</span>'
+        + (m.observed_move ? '<span class="mv">'+esc(m.observed_move)+'</span>' : '')
+        + '</div><p>'+esc(m.catalyst)+'</p>'
+        + '<div class="conv"><span class="pips">'+pips+'</span>'+esc(m.conviction)+' conviction · '+esc(m.horizon)+'</div>'
+        + '</article>';
+    }).join("") : '<div class="empty">Nothing on this side right now.</div>';
+  });
+}
+
+/* ---- calendar ---- */
+var MON = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var MONTHS = P.calendar.months || [P.calendar.month];
+var mIdx = Math.max(0, MONTHS.indexOf(P.calendar.month));
+function renderCal(){
+  var ym = MONTHS[mIdx].split("-"), Y = +ym[0], M = +ym[1] - 1;
+  $("m-prev").disabled = mIdx <= 0;
+  $("m-next").disabled = mIdx >= MONTHS.length - 1;
+  $("cal-title").textContent = MON[M] + " " + Y;
+  $("dow").innerHTML = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].map(function(d){ return "<div>"+d+"</div>"; }).join("");
+  var byDay = {};
+  P.calendar.events.forEach(function(e){
+    if(e.date.slice(0,7) !== MONTHS[mIdx]) return;
+    (byDay[e.date] = byDay[e.date] || []).push(e); });
+  var first = new Date(Y, M, 1).getDay(), days = new Date(Y, M + 1, 0).getDate();
+  var cells = "";
+  for(var i = 0; i < first; i++) cells += '<div class="day pad"></div>';
+  for(var d = 1; d <= days; d++){
+    var iso = Y + "-" + String(M+1).padStart(2,"0") + "-" + String(d).padStart(2,"0");
+    var dow = new Date(Y, M, d).getDay();
+    var evs = (byDay[iso] || []).map(function(e){
+      var label = e.type === "earnings" && e.tickers.length
+        ? '<span class="sym">'+esc(e.tickers[0])+'</span> earnings'
+        : esc(e.title.split("—")[0].trim());
+      return '<div class="ev '+esc(e.importance)+'" title="'+esc(e.title)+'">'+label+'</div>';
+    }).join("");
+    cells += '<div class="day'+(dow===0||dow===6?" wknd":"")+(iso===P.news.session_date?" today":"")+'">'
+           + '<span class="dnum">'+d+'</span>'+evs+'</div>';
+  }
+  var trail = (7 - ((first + days) % 7)) % 7;
+  for(var t = 0; t < trail; t++) cells += '<div class="day pad"></div>';
+  $("grid").innerHTML = cells;
+
+  $("callist").innerHTML = P.calendar.events
+    .filter(function(e){ return e.date >= P.news.session_date; })
+    .sort(function(a,b){ return a.date < b.date ? -1 : 1; })
+    .map(function(e){
+      var dt = new Date(e.date + "T12:00:00");
+      var ds = dt.toLocaleDateString(undefined,{month:"short",day:"numeric"});
+      return '<div class="crow '+esc(e.importance)+'">'
+        + '<span class="d'+(e.confirmed?"":" est")+'">'+esc(ds)+'</span>'
+        + '<span class="t">'+esc(e.type)+'</span>'
+        + '<span class="ti">'+esc(e.title)+(e.confirmed?"":' <span class="est">· date unconfirmed</span>')
+        + (e.note ? '<span class="nt">'+esc(e.note)+'</span>' : '')+'</span>'
+        + '</div>';
+    }).join("");
+}
+
+/* ---- watchlist ---- */
+function hits(sym){ return items.filter(function(i){ return (i.tickers||[]).indexOf(sym) >= 0; }).length; }
+function renderWL(){
+  $("wl-body").innerHTML = WL.length ? WL.map(function(w, idx){
+    var h = hits(w.ticker);
+    return '<tr><td class="sym">'+esc(w.ticker)+'</td>'
+      + '<td>'+esc(w.name || "")+(w.note ? ' <span class="grp">· '+esc(w.note)+'</span>' : '')+'</td>'
+      + '<td class="grp">'+esc(w.group || "—")+'</td>'
+      + '<td class="hits">'+(h ? '<a href="#" data-jump="'+esc(w.ticker)+'">'+h+'</a>' : '<span class="zero">0</span>')+'</td>'
+      + '<td><button class="rm" data-i="'+idx+'" aria-label="Remove '+esc(w.ticker)+'">×</button></td></tr>';
+  }).join("") : '<tr><td colspan="5" class="empty">Watchlist is empty. Add a ticker above.</td></tr>';
+  $("n-wl").textContent = WL.length;
+  renderFeed();
+}
+$("wl-body").addEventListener("click", function(e){
+  var rm = e.target.closest(".rm");
+  if(rm){ WL.splice(+rm.dataset.i, 1); saveWL(); renderWL(); return; }
+  var j = e.target.closest("[data-jump]");
+  if(j){ e.preventDefault(); active = "all";
+    [].forEach.call($("feed-chips").children, function(c){
+      c.setAttribute("aria-pressed", c.dataset.f === "all" ? "true":"false"); });
+    renderFeed(); show("t-feed"); window.scrollTo({top:0,behavior:"smooth"}); }
+});
+function addWL(){
+  var s = $("wl-sym").value.trim().toUpperCase();
+  if(!s) return;
+  if(WL.some(function(w){ return w.ticker === s; })){ msg("Already on the list."); return; }
+  WL.unshift({ ticker:s, name:$("wl-name").value.trim(), group:"Added", note:"" });
+  $("wl-sym").value = ""; $("wl-name").value = "";
+  saveWL(); renderWL(); msg(s + " added.");
+}
+$("wl-add").addEventListener("click", addWL);
+$("wl-sym").addEventListener("keydown", function(e){ if(e.key === "Enter") addWL(); });
+$("wl-name").addEventListener("keydown", function(e){ if(e.key === "Enter") addWL(); });
+$("wl-reset").addEventListener("click", function(){
+  WL = P.watchlist.tickers.slice(); saveWL(); renderWL(); msg("Reset to the seeded list.");
+});
+var msgT;
+function msg(t){ $("wl-msg").textContent = t; clearTimeout(msgT);
+  msgT = setTimeout(function(){ $("wl-msg").textContent = ""; }, 2600); }
+$("wl-copy").addEventListener("click", function(){
+  var txt = WL.map(function(w){ return w.ticker; }).join(", ");
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){ msg("Copied — paste it to the agent."); },
+                                            function(){ msg(txt); });
+  } else { msg(txt); }
+});
+
+/* ---- go ---- */
+$("n-feed").textContent = items.length;
+$("n-board").textContent = P.movers.board.length;
+$("n-cal").textContent = P.calendar.events.length;
+$("n-wl").textContent = WL.length;
+$("m-prev").addEventListener("click", function(){ if(mIdx > 0){ mIdx--; renderCal(); } });
+$("m-next").addEventListener("click", function(){ if(mIdx < MONTHS.length-1){ mIdx++; renderCal(); } });
+renderFeed(); renderBoard(); renderCal();
+})();
+</script>

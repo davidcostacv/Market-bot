@@ -1,0 +1,96 @@
+name: Market Pulse Telegram bot
+
+# NOTE: GitHub only fires `schedule` from the repository's DEFAULT branch.
+# This file must be merged to `main` for the 5-minute cadence to start.
+# It reads market data from DATA_BRANCH, so the Claude scan can keep pushing
+# to the feature branch.
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'poll | alerts | setup'
+        required: false
+        default: 'poll'
+
+concurrency:
+  group: market-pulse-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  DATA_BRANCH: claude/realtime-market-news-agent-w50nuu
+
+jobs:
+  bridge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.DATA_BRANCH }}
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Without this guard the schedule fails every 5 minutes until the secret
+      # exists, mailing a failure notice each time. Skip quietly instead.
+      - name: Check the bot token is configured
+        id: gate
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::TELEGRAM_BOT_TOKEN is not set — skipping. Add it under Settings > Secrets and variables > Actions."
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Answer incoming commands
+        if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'poll')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 market-pulse/telegram/bot.py poll
+
+      - name: Push new alert-grade items
+        if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'alerts')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 market-pulse/telegram/bot.py alerts
+
+      - name: Register the command menu
+        if: steps.gate.outputs.ready == 'true' && inputs.mode == 'setup'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 market-pulse/telegram/bot.py setup
+
+      - name: Persist offset and sent ledger
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- market-pulse/data/telegram.json; then
+            echo "no ledger change"; exit 0
+          fi
+          git config user.name  "market-pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add market-pulse/data/telegram.json
+          git commit -m "chore(bot): telegram offset + sent ledger [skip ci]"
+          # The Claude scan pushes to this branch too; rebase and retry on races.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:"$DATA_BRANCH"; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git fetch origin "$DATA_BRANCH"
+            git rebase "origin/$DATA_BRANCH" || { git rebase --abort; exit 1; }
+            sleep $((attempt * 3))
+          done
+          echo "could not push ledger after 5 attempts" >&2
+          exit 1
