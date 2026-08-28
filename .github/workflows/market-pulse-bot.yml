@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'poll | alerts | setup'
+        description: 'poll | alerts | setup | prices'
         required: false
         default: 'poll'
 
@@ -67,6 +67,15 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
         run: python3 market-pulse/telegram/bot.py alerts
+
+      # Health check for the quote source. Prices come from a free endpoint
+      # that can rate-limit or change shape; this says so plainly instead of
+      # leaving /stocks mysteriously empty.
+      - name: Check the quote source
+        if: inputs.mode == 'prices'
+        run: |
+          cd market-pulse/telegram
+          python3 quotes.py AAPL NVDA MSFT SPY BRK.B
 
       - name: Register the command menu
         if: steps.gate.outputs.ready == 'true' && inputs.mode == 'setup'
