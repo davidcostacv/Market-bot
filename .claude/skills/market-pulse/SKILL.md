@@ -77,7 +77,40 @@ Example: `NVDA ^ revenue doubles, guides to 2028 — 10/10`
 If several fire at once, send one combined line. If none qualify, send nothing —
 silence is the correct output for a quiet session.
 
-### 6. Publish
+### 6. Commit and push — do this BEFORE publishing
+
+**Git is the source of truth, not the artifact.** The next scan and the Telegram
+bot both read `market-pulse/data/*.json` from the branch. An artifact republish
+alone is a dead end: your findings vanish on the next run, which re-derives from
+whatever the branch still says.
+
+```
+git add market-pulse/data
+git commit -m "Scan <UTC time>: <n> new items, <n> alerts"
+git push origin HEAD:claude/realtime-market-news-agent-w50nuu
+```
+
+If the push is rejected, another writer got there first — do not discard your
+work and do not force:
+
+```
+git pull --rebase origin claude/realtime-market-news-agent-w50nuu
+# resolve by UNION: keep every item from both sides, dedupe by event not by id
+git push origin HEAD:claude/realtime-market-news-agent-w50nuu
+```
+
+Then verify it actually landed. A silent push failure is the exact bug this
+step exists to prevent:
+
+```
+git fetch -q origin claude/realtime-market-news-agent-w50nuu
+git log --oneline -1 origin/claude/realtime-market-news-agent-w50nuu
+```
+
+If your commit is not the tip, the run has failed. Say so in your final message
+rather than reporting success.
+
+### 7. Publish
 
 ```
 cd market-pulse && python3 build.py
@@ -88,9 +121,20 @@ read the artifact first (`action: "read"`), carry over any watchlist the viewer
 edited in the page, then publish with `url` set to that URL. Never publish
 without `url` — that creates a duplicate dashboard at a new link.
 
+If the publish is refused because a newer version is live, that is another
+writer, not an error. Read the live version, take the **union** of its items and
+yours, rebuild, and publish again. Never resend your own content unchanged over
+someone else's newer scan.
+
 ## Judgment guardrails
 
 - A stalled disinflation print outranks any single company's earnings.
 - Two sources agreeing is worth more than one source being emphatic.
 - If a claim appears only in aggregator content with no primary attribution, drop it.
 - Contradicting your own earlier item is fine — say so in `why` and rescore.
+- Dedupe by **event**, never by id. Two scans will give the same story different
+  ids. When you find a duplicate, keep the better-sourced version (the one with
+  a figure, a named party, or a direct quote) and fold the other's read-through
+  tickers into it.
+- When sources conflict on a number, say they conflict in `why` rather than
+  silently picking the one you found first.
