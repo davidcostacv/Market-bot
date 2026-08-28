@@ -1,2 +1,7 @@
 __pycache__/
 *.py[cod]
+
+# Never commit real secrets. This repository is public.
+.env
+.env.*
+!.env.example

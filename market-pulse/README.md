@@ -131,6 +131,29 @@ The token is never committed; `bot.py` reads it from the environment. Until the
 secret exists the scheduled run skips quietly with a notice rather than failing,
 so you do not get a failure email every five minutes while setup is pending.
 
+### Running it from your own machine
+
+`.env` is for local runs only. **GitHub Actions cannot read it** — the runner
+receives only committed files, and this repository is public so a committed
+token would be world-readable. Actions reads the `TELEGRAM_BOT_TOKEN`
+repository secret; the two are separate and you need the secret regardless.
+
+```bash
+cp .env.example .env          # then paste your token into .env
+python3 market-pulse/telegram/bot.py poll     # answer pending commands
+python3 market-pulse/telegram/bot.py alerts   # push new alert-grade items
+python3 market-pulse/telegram/bot.py setup    # register the command menu
+```
+
+A real environment variable always beats `.env`, so CI is never overridden by a
+stray file. `.env` is gitignored and must stay that way — if you ever commit
+one, revoke the token in BotFather immediately, because rewriting history does
+not un-publish it.
+
+This is also the quickest way to prove a token is valid, independently of
+whether the Actions secret is wired: if `setup` works locally, the token is
+good and the problem is the secret.
+
 ### Cost
 
 Free. Telegram's Bot API has no fee, and Actions minutes are unlimited on

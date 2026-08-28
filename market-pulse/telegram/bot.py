@@ -14,6 +14,30 @@ import json, os, sys, pathlib, urllib.request, urllib.error, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+REPO = ROOT.parent
+
+
+def _load_dotenv():
+    """Read KEY=VALUE lines from a .env at the repo root, for local runs.
+
+    A real environment variable always wins, so CI (which sets the variable
+    from the Actions secret) is never overridden by a stray file. No
+    dependency — python-dotenv is not worth one for six lines.
+    """
+    f = REPO / ".env"
+    if not f.exists():
+        return
+    for raw in f.read_text().splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key, val = key.strip(), val.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = val
+
+
+_load_dotenv()
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 API = "https://api.telegram.org/bot" + TOKEN
 MAXLEN = 3900          # Telegram hard-caps a message at 4096 chars
