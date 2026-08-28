@@ -155,8 +155,27 @@ def main():
     existing = {i["id"]: i for i in news.get("items", [])}
     prompt = build_prompt(universe, watchlist, list(existing)[:40], today)
 
-    client = anthropic.Anthropic()
-    text = run_scan(client, prompt)
+    # An identity-linked API key must name the workspace it acts in, or the API
+    # returns 400 invalid_request_error. A plain workspace key needs no header.
+    workspace = (os.environ.get("ANTHROPIC_WORKSPACE_ID")
+                 or os.environ.get("CLAUDE_WORKSPACE_ID") or "").strip()
+    headers = {"anthropic-workspace-id": workspace} if workspace else None
+    if workspace:
+        print("using workspace %s" % workspace)
+    client = anthropic.Anthropic(default_headers=headers)
+
+    try:
+        text = run_scan(client, prompt)
+    except anthropic.BadRequestError as e:
+        if "workspace-id" in str(e):
+            sys.exit(
+                "This API key is identity-linked and needs a workspace id.\n"
+                "Add the workspace id as the ANTHROPIC_WORKSPACE_ID repository "
+                "secret. Find it in the Anthropic Console under Settings > "
+                "Workspaces — it looks like wrkspc_01ABC...\n"
+                "Alternatively create a plain workspace API key, which needs no "
+                "workspace header.")
+        raise
     found = extract_json(text).get("items", [])
     print("model returned %d item(s)" % len(found))
 

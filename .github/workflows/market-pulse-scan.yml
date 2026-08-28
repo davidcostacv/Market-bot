@@ -76,6 +76,9 @@ jobs:
 
       - name: Scan the wires and score
         if: steps.gate.outputs.ready == 'true'
+        env:
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+          CLAUDE_WORKSPACE_ID: ${{ secrets.CLAUDE_WORKSPACE_ID }}
         run: python3 market-pulse/scan.py
 
       - name: Rebuild the dashboard
