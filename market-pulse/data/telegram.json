@@ -1,5 +1,7 @@
 {
-  "chat_ids": [],
-  "offset": 0,
+  "chat_ids": [
+    8417304533
+  ],
+  "offset": 544634483,
   "sent_ids": []
 }
