@@ -1,0 +1,97 @@
+name: Market Pulse scan
+
+# The scan runs here, not in a Claude session. Scheduled Claude sessions can read
+# the repo but have no git push access, so every scan they ran was discarded.
+# Actions can push — its own commits are in this repo's history.
+
+on:
+  schedule:
+    - cron: '30 13 * * 1-5'   # 09:30 ET, at the open
+    - cron: '0 17 * * 1-5'    # 13:00 ET, midday
+    - cron: '30 20 * * 1-5'   # 16:30 ET, just after the close
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Scan and print, but do not commit or alert'
+        type: boolean
+        default: false
+
+concurrency:
+  group: market-pulse-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  DATA_BRANCH: claude/realtime-market-news-agent-w50nuu
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.DATA_BRANCH }}
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install the Anthropic SDK
+        run: pip install --quiet --upgrade anthropic
+
+      # Same guard as the bot workflow: without the key, skip quietly rather than
+      # failing on every scheduled run and mailing a notice each time.
+      - name: Check the API key is configured
+        id: gate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::ANTHROPIC_API_KEY is not set — skipping. Add it under Settings > Secrets and variables > Actions."
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Scan the wires and score
+        if: steps.gate.outputs.ready == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 market-pulse/scan.py
+
+      - name: Rebuild the dashboard
+        if: steps.gate.outputs.ready == 'true'
+        run: python3 market-pulse/build.py
+
+      - name: Push alert-grade items to Telegram
+        if: steps.gate.outputs.ready == 'true' && !inputs.dry_run
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
+        run: python3 market-pulse/telegram/bot.py alerts
+
+      - name: Commit the scan
+        if: steps.gate.outputs.ready == 'true' && !inputs.dry_run
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- market-pulse/; then
+            echo "nothing new this scan"; exit 0
+          fi
+          git config user.name  "market-pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add market-pulse/
+          git commit -m "scan: $(date -u '+%Y-%m-%d %H:%M')Z [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:"$DATA_BRANCH"; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git fetch origin "$DATA_BRANCH"
+            git rebase "origin/$DATA_BRANCH" || { git rebase --abort; exit 1; }
+            sleep $((attempt * 3))
+          done
+          echo "could not push after 5 attempts" >&2
+          exit 1
