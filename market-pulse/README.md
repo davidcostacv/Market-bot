@@ -127,7 +127,9 @@ GitHub Actions (5 min) ->  reads that JSON, answers commands, pushes alerts
 5. Optional: Actions tab -> Market Pulse Telegram bot -> Run workflow ->
    mode `setup`, to populate the blue command menu.
 
-The token is never committed; `bot.py` reads it from the environment.
+The token is never committed; `bot.py` reads it from the environment. Until the
+secret exists the scheduled run skips quietly with a notice rather than failing,
+so you do not get a failure email every five minutes while setup is pending.
 
 ### Cost
 
