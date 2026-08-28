@@ -87,3 +87,51 @@ Edits in the Watchlist tab save to that browser's `localStorage` and survive
 dashboard republishes. **Copy list for the agent** puts the symbols on your
 clipboard; paste them back here and they get written into `watchlist.json` as
 the new seed.
+
+## Telegram bot
+
+`t.me/Marketnews_catalystbot` — free, no paid tier needed.
+
+The bot **cannot run in the Claude container**: that environment's network
+policy returns 403 on CONNECT to `api.telegram.org`, and the container is
+reclaimed when the session ends. It runs on GitHub Actions instead
+(`.github/workflows/market-pulse-bot.yml`), which reaches Telegram fine and is
+free for public repositories.
+
+```
+Claude scan (hourly)  ->  commits scored JSON to this branch
+GitHub Actions (5 min) ->  reads that JSON, answers commands, pushes alerts
+```
+
+### Commands
+
+| Command | Does |
+|---|---|
+| `/report` | Full scored report from the newest scan |
+| `/top` | Only alert-grade items (>= 8/10) |
+| `/board` | Likely up / likely down |
+| `/calendar` | Next 14 earnings and macro events |
+| `/watchlist` | Tracked tickers, with feed hit counts |
+| `/help` | Command list |
+
+### Setup
+
+1. **Rotate the token.** BotFather -> `/revoke` -> pick the bot. The old token
+   was shared in plain text and must be considered burned.
+2. Repo **Settings -> Secrets and variables -> Actions -> New secret**,
+   named `TELEGRAM_BOT_TOKEN`, value = the new token.
+3. Merge this branch to `main`. GitHub only fires `schedule` from the default
+   branch, so the workflow will not run on a feature branch. It reads market
+   data from `DATA_BRANCH`, so the Claude scan can keep pushing here.
+4. Message the bot `/start` — that registers your chat id for alerts.
+5. Optional: Actions tab -> Market Pulse Telegram bot -> Run workflow ->
+   mode `setup`, to populate the blue command menu.
+
+The token is never committed; `bot.py` reads it from the environment.
+
+### Cost
+
+Free. Telegram's Bot API has no fee, and Actions minutes are unlimited on
+public repositories. On a private repo the 5-minute cadence would exceed the
+2,000 free minutes/month — drop to `*/15` during market hours if you ever make
+this repo private.

@@ -1,24 +1,535 @@
 {
   "generated_at": "2026-08-28T13:10:00Z",
   "month": "2026-09",
+  "months": [
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11",
+    "2026-12"
+  ],
   "note": "confirmed=true means the date was verified against a cited source. confirmed=false is the company's typical reporting slot and must be re-verified before trading around it.",
   "events": [
-    {"date":"2026-08-28","type":"macro","title":"Jackson Hole — Fed Chair Warsh speech","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":true},
-    {"date":"2026-09-01","type":"macro","title":"ISM Manufacturing PMI","tickers":["SPY","IWM"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-03","type":"earnings","title":"Broadcom (AVGO) Q3 FY26","tickers":["AVGO"],"importance":"high","confirmed":false},
-    {"date":"2026-09-04","type":"macro","title":"August Jobs Report (BLS Employment Situation), 8:30 ET","tickers":["SPY","IWM","TLT"],"importance":"high","confirmed":false},
-    {"date":"2026-09-10","type":"earnings","title":"Adobe (ADBE) Q3 FY26","tickers":["ADBE"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-11","type":"macro","title":"CPI inflation report, 8:30 ET","tickers":["SPY","QQQ","TLT","IWM"],"importance":"high","confirmed":true},
-    {"date":"2026-09-14","type":"earnings","title":"Oracle (ORCL) Q1 FY27 — AI backlog in focus","tickers":["ORCL"],"importance":"high","confirmed":true},
-    {"date":"2026-09-15","type":"macro","title":"FOMC meeting begins (day 1 of 2)","tickers":["SPY","TLT"],"importance":"high","confirmed":true},
-    {"date":"2026-09-16","type":"macro","title":"FOMC rate decision 2:00 ET + Warsh press conference","tickers":["SPY","QQQ","IWM","TLT","JPM","GS"],"importance":"high","confirmed":true},
-    {"date":"2026-09-16","type":"macro","title":"August Retail Sales","tickers":["WMT","COST","TGT"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-17","type":"earnings","title":"FedEx (FDX) Q1 FY27 — global freight bellwether","tickers":["FDX"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-23","type":"earnings","title":"Micron (MU) Q4 FY26 — HBM pricing","tickers":["MU"],"importance":"high","confirmed":false},
-    {"date":"2026-09-24","type":"earnings","title":"Costco (COST) Q4 FY26","tickers":["COST"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-24","type":"earnings","title":"Nike (NKE) Q1 FY27","tickers":["NKE"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-24","type":"earnings","title":"Accenture (ACN) Q4 FY26","tickers":["ACN"],"importance":"medium","confirmed":false},
-    {"date":"2026-09-25","type":"macro","title":"August PCE price index — Fed's preferred gauge","tickers":["SPY","QQQ","TLT"],"importance":"high","confirmed":false},
-    {"date":"2026-09-30","type":"macro","title":"Quarter end — index rebalance / window dressing","tickers":["SPY","QQQ","IWM"],"importance":"medium","confirmed":false}
+    {
+      "date": "2026-08-28",
+      "type": "macro",
+      "title": "Jackson Hole \u2014 Fed Chair Warsh speech",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": ""
+    },
+    {
+      "date": "2026-09-01",
+      "type": "macro",
+      "title": "ISM Manufacturing PMI",
+      "tickers": [
+        "SPY",
+        "IWM"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-02",
+      "type": "earnings",
+      "title": "Broadcom (AVGO) Q3 FY26 \u2014 AI custom-ASIC orders",
+      "tickers": [
+        "AVGO"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": "First big AI read after the Nvidia guide"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "macro",
+      "title": "August Jobs Report (BLS), 8:30 ET",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-10",
+      "type": "earnings",
+      "title": "Adobe (ADBE) Q3 FY26 \u2014 AI monetization",
+      "tickers": [
+        "ADBE"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-11",
+      "type": "macro",
+      "title": "CPI inflation report, 8:30 ET",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT",
+        "IWM"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": ""
+    },
+    {
+      "date": "2026-09-14",
+      "type": "earnings",
+      "title": "Oracle (ORCL) Q1 FY27 \u2014 RPO / AI backlog",
+      "tickers": [
+        "ORCL"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": "Backlog number is the single most watched AI datapoint of the month"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "macro",
+      "title": "FOMC meeting begins (day 1 of 2)",
+      "tickers": [
+        "SPY",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": ""
+    },
+    {
+      "date": "2026-09-16",
+      "type": "macro",
+      "title": "August Retail Sales",
+      "tickers": [
+        "WMT",
+        "COST",
+        "TGT"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-16",
+      "type": "macro",
+      "title": "FOMC decision 2:00 ET + Warsh press conference",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "TLT",
+        "JPM",
+        "GS"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": ""
+    },
+    {
+      "date": "2026-09-17",
+      "type": "earnings",
+      "title": "FedEx (FDX) Q1 FY27 \u2014 freight bellwether",
+      "tickers": [
+        "FDX"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-24",
+      "type": "earnings",
+      "title": "Accenture (ACN) Q4 FY26 \u2014 IT services demand",
+      "tickers": [
+        "ACN"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-24",
+      "type": "earnings",
+      "title": "Costco (COST) Q4 FY26",
+      "tickers": [
+        "COST"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-24",
+      "type": "earnings",
+      "title": "Micron (MU) Q4 FY26 \u2014 HBM pricing",
+      "tickers": [
+        "MU"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": "Memory is the tightest link in the AI chain"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "earnings",
+      "title": "Nike (NKE) Q1 FY27",
+      "tickers": [
+        "NKE"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-25",
+      "type": "macro",
+      "title": "August PCE price index \u2014 Fed's preferred gauge",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-09-30",
+      "type": "macro",
+      "title": "Quarter end \u2014 index rebalance",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-02",
+      "type": "macro",
+      "title": "September Jobs Report (BLS), 8:30 ET",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-13",
+      "type": "macro",
+      "title": "CPI inflation report",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-14",
+      "type": "earnings",
+      "title": "ASML Q3 \u2014 EUV order book",
+      "tickers": [
+        "ASML"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": "Reports within days of TSMC; orders lead the whole cycle"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "earnings",
+      "title": "TSMC (TSM) Q3 \u2014 leading-edge capacity",
+      "tickers": [
+        "TSM"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": "Sole-source foundry; guides the entire supply chain"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
+      "title": "Intel (INTC) Q3 \u2014 foundry losses",
+      "tickers": [
+        "INTC"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-28",
+      "type": "macro",
+      "title": "FOMC decision + press conference",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-28",
+      "type": "earnings",
+      "title": "Microsoft (MSFT) FY27 Q1 \u2014 Azure AI + capex",
+      "tickers": [
+        "MSFT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": "Capex guide moves the entire semi complex"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "earnings",
+      "title": "Tesla (TSLA) Q3",
+      "tickers": [
+        "TSLA"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "title": "Alphabet (GOOGL) Q3 \u2014 cloud + capex guide",
+      "tickers": [
+        "GOOGL"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "title": "Meta (META) Q3 \u2014 capex guide",
+      "tickers": [
+        "META"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": "Highest warning risk of the megacaps: spending up, monetization unproven"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "title": "Samsung / SK Hynix Q3 \u2014 memory pricing",
+      "tickers": [
+        "MU"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-30",
+      "type": "earnings",
+      "title": "Amazon (AMZN) Q3 \u2014 AWS growth + capex",
+      "tickers": [
+        "AMZN"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-30",
+      "type": "earnings",
+      "title": "Apple (AAPL) FY26 Q4 + holiday guide",
+      "tickers": [
+        "AAPL"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-10-30",
+      "type": "macro",
+      "title": "September PCE price index",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-11-06",
+      "type": "macro",
+      "title": "October Jobs Report (BLS), 8:30 ET",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "title": "Palantir (PLTR) Q3 \u2014 US commercial growth",
+      "tickers": [
+        "PLTR"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": "Confirmed, after close. Priced for perfection \u2014 highest de-rating risk in AI software"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "macro",
+      "title": "CPI inflation report",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-11-17",
+      "type": "earnings",
+      "title": "NVIDIA (NVDA) Q3 FY27",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ANET",
+        "SMCI"
+      ],
+      "importance": "high",
+      "confirmed": true,
+      "note": "Confirmed, after market. The single most market-moving print of the quarter"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "macro",
+      "title": "October PCE price index",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-04",
+      "type": "macro",
+      "title": "November Jobs Report (BLS), 8:30 ET",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-09",
+      "type": "macro",
+      "title": "FOMC decision + Summary of Economic Projections",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-10",
+      "type": "macro",
+      "title": "CPI inflation report",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "TLT"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-10",
+      "type": "earnings",
+      "title": "Oracle (ORCL) Q2 FY27 \u2014 backlog follow-up",
+      "tickers": [
+        "ORCL"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-11",
+      "type": "earnings",
+      "title": "Broadcom (AVGO) Q4 FY26 + FY27 guide",
+      "tickers": [
+        "AVGO"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-17",
+      "type": "earnings",
+      "title": "Micron (MU) Q1 FY27 \u2014 memory shortage",
+      "tickers": [
+        "MU"
+      ],
+      "importance": "high",
+      "confirmed": false,
+      "note": ""
+    },
+    {
+      "date": "2026-12-18",
+      "type": "earnings",
+      "title": "Nike (NKE) / FedEx (FDX) Q2",
+      "tickers": [
+        "NKE",
+        "FDX"
+      ],
+      "importance": "medium",
+      "confirmed": false,
+      "note": ""
+    }
   ]
 }

@@ -144,6 +144,13 @@ h3.hl{font-size:16px;font-weight:600;letter-spacing:-.012em;line-height:1.35;mar
   padding:11px 14px;margin-bottom:18px;border-left:3px solid var(--warn);max-width:78ch}
 
 /* ---------- calendar ---------- */
+.monthnav{display:flex;align-items:center;gap:10px}
+.mbtn{appearance:none;cursor:pointer;background:var(--surface);border:1px solid var(--line);
+  color:var(--ink-2);border-radius:var(--r);width:28px;height:26px;font-size:13px;line-height:1;padding:0}
+.mbtn:hover:not(:disabled){border-color:var(--accent);color:var(--accent-ink)}
+.mbtn:disabled{opacity:.35;cursor:default}
+.mbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.crow .nt{display:block;font-size:12px;color:var(--muted);font-style:italic;margin-top:2px}
 .cal{background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--r);
   overflow:hidden;box-shadow:var(--shadow);margin-bottom:22px}
 .dow{display:grid;grid-template-columns:repeat(7,1fr);background:var(--surface-2);border-bottom:1px solid var(--line-soft)}
@@ -254,7 +261,11 @@ footer p{margin:0 0 5px;max-width:80ch}
 
   <section class="panel" id="p-cal" role="tabpanel" aria-labelledby="t-cal" hidden>
     <div class="sechead">
-      <h2 id="cal-title"></h2>
+      <div class="monthnav">
+        <button class="mbtn" id="m-prev" aria-label="Previous month">&#8592;</button>
+        <h2 id="cal-title"></h2>
+        <button class="mbtn" id="m-next" aria-label="Next month">&#8594;</button>
+      </div>
       <p>Red = high importance. Italic dates are the company&rsquo;s typical slot and still need confirming; upright dates are source-verified.</p>
     </div>
     <div class="cal"><div class="dow" id="dow"></div><div class="grid" id="grid"></div></div>
@@ -422,12 +433,18 @@ function renderBoard(){
 
 /* ---- calendar ---- */
 var MON = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var MONTHS = P.calendar.months || [P.calendar.month];
+var mIdx = Math.max(0, MONTHS.indexOf(P.calendar.month));
 function renderCal(){
-  var ym = P.calendar.month.split("-"), Y = +ym[0], M = +ym[1] - 1;
+  var ym = MONTHS[mIdx].split("-"), Y = +ym[0], M = +ym[1] - 1;
+  $("m-prev").disabled = mIdx <= 0;
+  $("m-next").disabled = mIdx >= MONTHS.length - 1;
   $("cal-title").textContent = MON[M] + " " + Y;
   $("dow").innerHTML = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].map(function(d){ return "<div>"+d+"</div>"; }).join("");
   var byDay = {};
-  P.calendar.events.forEach(function(e){ (byDay[e.date] = byDay[e.date] || []).push(e); });
+  P.calendar.events.forEach(function(e){
+    if(e.date.slice(0,7) !== MONTHS[mIdx]) return;
+    (byDay[e.date] = byDay[e.date] || []).push(e); });
   var first = new Date(Y, M, 1).getDay(), days = new Date(Y, M + 1, 0).getDate();
   var cells = "";
   for(var i = 0; i < first; i++) cells += '<div class="day pad"></div>';
@@ -447,14 +464,17 @@ function renderCal(){
   for(var t = 0; t < trail; t++) cells += '<div class="day pad"></div>';
   $("grid").innerHTML = cells;
 
-  $("callist").innerHTML = P.calendar.events.slice().sort(function(a,b){ return a.date < b.date ? -1 : 1; })
+  $("callist").innerHTML = P.calendar.events
+    .filter(function(e){ return e.date >= P.news.session_date; })
+    .sort(function(a,b){ return a.date < b.date ? -1 : 1; })
     .map(function(e){
       var dt = new Date(e.date + "T12:00:00");
-      var ds = dt.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+      var ds = dt.toLocaleDateString(undefined,{month:"short",day:"numeric"});
       return '<div class="crow '+esc(e.importance)+'">'
         + '<span class="d'+(e.confirmed?"":" est")+'">'+esc(ds)+'</span>'
         + '<span class="t">'+esc(e.type)+'</span>'
-        + '<span class="ti">'+esc(e.title)+(e.confirmed?"":' <span class="est">· date unconfirmed</span>')+'</span>'
+        + '<span class="ti">'+esc(e.title)+(e.confirmed?"":' <span class="est">· date unconfirmed</span>')
+        + (e.note ? '<span class="nt">'+esc(e.note)+'</span>' : '')+'</span>'
         + '</div>';
     }).join("");
 }
@@ -512,6 +532,8 @@ $("n-feed").textContent = items.length;
 $("n-board").textContent = P.movers.board.length;
 $("n-cal").textContent = P.calendar.events.length;
 $("n-wl").textContent = WL.length;
+$("m-prev").addEventListener("click", function(){ if(mIdx > 0){ mIdx--; renderCal(); } });
+$("m-next").addEventListener("click", function(){ if(mIdx < MONTHS.length-1){ mIdx++; renderCal(); } });
 renderFeed(); renderBoard(); renderCal();
 })();
 </script>
