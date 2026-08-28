@@ -133,9 +133,35 @@ def market_state(quotes):
     return ""
 
 
+def _probe(url, label):
+    """Print what a source actually returns. Guessing costs more than looking."""
+    print("\n--- %s ---\n%s" % (label, url))
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            body = r.read().decode("utf-8", "replace")
+        print("HTTP %s, %d bytes" % (r.status, len(body)))
+        print(repr(body[:300]))
+    except urllib.error.HTTPError as e:
+        print("HTTPError %s" % e.code)
+        print(repr(e.read()[:300]))
+    except Exception as e:                                        # noqa: BLE001
+        print("%s: %s" % (type(e).__name__, e))
+
+
 if __name__ == "__main__":
     import sys
-    got = fetch(sys.argv[1:] or ["AAPL", "NVDA"])
+    args = sys.argv[1:]
+    if args and args[0] == "--probe":
+        today = datetime.date.today()
+        d1 = (today - datetime.timedelta(days=14)).strftime("%Y%m%d")
+        d2 = today.strftime("%Y%m%d")
+        _probe(STOOQ_LAST.format("aapl.us,nvda.us"), "stooq q/l (batch)")
+        _probe(STOOQ_LAST.format("aapl.us"), "stooq q/l (single)")
+        _probe(STOOQ_HIST.format("aapl.us", d1, d2), "stooq q/d/l (history)")
+        _probe(YAHOO.format("AAPL"), "yahoo v8 chart")
+        sys.exit(0)
+    got = fetch(args or ["AAPL", "NVDA"])
     for t, q in got.items():
         print(t, q)
     ok = sum(1 for q in got.values() if "error" not in q)

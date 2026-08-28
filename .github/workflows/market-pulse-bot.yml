@@ -75,6 +75,8 @@ jobs:
         if: inputs.mode == 'prices'
         run: |
           cd market-pulse/telegram
+          python3 quotes.py --probe
+          echo '================ resolved quotes ================'
           python3 quotes.py AAPL NVDA MSFT SPY BRK.B
 
       - name: Register the command menu
