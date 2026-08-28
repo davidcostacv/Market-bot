@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://davidcostacv.github.io/market-bot/)
+[Live Demo Link](https://davidcostacv.github.io/Market-bot/)
 
 
 ## Getting Started

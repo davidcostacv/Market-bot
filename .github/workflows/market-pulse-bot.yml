@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'poll | alerts | setup'
+        description: 'poll | alerts | setup | diagnose'
         required: false
         default: 'poll'
 
@@ -52,6 +52,30 @@ jobs:
           else
             echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Reports which candidate secret NAMES are populated, by length only.
+      # Never prints a value. Run with mode=diagnose when the token appears unset.
+      - name: Diagnose secret wiring
+        if: inputs.mode == 'diagnose'
+        env:
+          A: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          B: ${{ secrets.TELEGRAM_TOKEN }}
+          C: ${{ secrets.BOT_TOKEN }}
+          D: ${{ secrets.TELEGRAM_API_TOKEN }}
+          E: ${{ secrets.MARKET_BOT_TOKEN }}
+        run: |
+          echo "Which secret names are visible to this workflow (length only):"
+          echo "  TELEGRAM_BOT_TOKEN  -> ${#A} chars"
+          echo "  TELEGRAM_TOKEN      -> ${#B} chars"
+          echo "  BOT_TOKEN           -> ${#C} chars"
+          echo "  TELEGRAM_API_TOKEN  -> ${#D} chars"
+          echo "  MARKET_BOT_TOKEN    -> ${#E} chars"
+          echo ""
+          echo "A valid Telegram token is ~46 chars. 0 means that name is not a"
+          echo "repository Actions secret in this repo."
+          echo ""
+          echo "Repo:  ${GITHUB_REPOSITORY}"
+          echo "Event: ${GITHUB_EVENT_NAME}   Ref: ${GITHUB_REF}"
 
       - name: Answer incoming commands
         if: steps.gate.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.mode == 'poll')
