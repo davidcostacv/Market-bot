@@ -167,6 +167,14 @@ def main():
     try:
         text = run_scan(client, prompt)
     except anthropic.BadRequestError as e:
+        if "credit balance" in str(e).lower():
+            # Out of credits is an account state, not a code fault. Exit 0 with a
+            # notice so three scheduled scans a day do not each mail a failure.
+            print("::notice::Anthropic credit balance is too low, so this scan "
+                  "was skipped. Add credits at console.anthropic.com under "
+                  "Plans & Billing. Scans resume automatically once funded.")
+            print("out of credits — skipping this scan")
+            return
         if "workspace-id" in str(e):
             # A missing workspace id is a configuration gap, not a fault. Exit 0
             # with a notice so three scheduled scans a day do not each mail a
