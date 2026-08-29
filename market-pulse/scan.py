@@ -16,11 +16,14 @@ import os
 import pathlib
 import re
 import sys
+import time
 
 import urllib.error
 import urllib.request
 
 import anthropic
+
+import feeds
 
 ROOT = pathlib.Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -33,11 +36,15 @@ def load(name, default=None):
     return json.loads(p.read_text()) if p.exists() else default
 
 
-def build_prompt(universe, watchlist, recent_ids, today):
+def build_prompt(universe, watchlist, recent_ids, today, headlines_block=""):
     focus = ", ".join(universe["groups"]["focus"])
     broad = ", ".join(universe["groups"]["sp500_megacap"][:40])
     wl = ", ".join(w["ticker"] for w in watchlist["tickers"])
-    return f"""Today is {today}. Search the financial news wires for market-moving news from the last 24 hours.
+    feed_section = (
+        "\n\nHEADLINES PULLED FROM THE WIRES JUST NOW — score these. They are the\n"
+        "primary input. Use the exact URL given for each item you keep:\n\n"
+        + headlines_block + "\n") if headlines_block else ""
+    return f"""Today is {today}. Identify the market-moving news from the last 24 hours.{feed_section}
 
 PRIMARY FOCUS — these matter most:
 {focus}
@@ -120,15 +127,19 @@ GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 def _gemini_request(model, key, prompt):
     """One grounded generateContent call. Returns the reply text."""
-    url = "%s/models/%s:generateContent?key=%s" % (GEMINI_BASE, model, key)
+    url = "%s/models/%s:generateContent" % (GEMINI_BASE, model)
     body = json.dumps({
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        # Google Search grounding is Gemini's equivalent of the web_search tool
-        "tools": [{"google_search": {}}],
+        # No google_search tool: the free tier has no grounding quota and
+        # returns 429 on every grounded call. Headlines arrive via RSS instead.
         "generationConfig": {"temperature": 0.2, "maxOutputTokens": 32000},
     }).encode()
-    req = urllib.request.Request(
-        url, data=body, headers={"Content-Type": "application/json"})
+    req = urllib.request.Request(url, data=body, headers={
+        # X-goog-api-key, not ?key= — the query form does not work with the
+        # newer AQ.* key format.
+        "Content-Type": "application/json",
+        "X-goog-api-key": key,
+    })
     with urllib.request.urlopen(req, timeout=180) as r:
         payload = json.loads(r.read())
     cands = payload.get("candidates") or []
@@ -136,46 +147,95 @@ def _gemini_request(model, key, prompt):
         raise RuntimeError("gemini returned no candidates: %s"
                            % json.dumps(payload)[:300])
     parts = cands[0].get("content", {}).get("parts", [])
-    return "".join(p.get("text", "") for p in parts)
+    return "".join(p.get("text", "") for p in parts if not p.get("thought"))
+
+
+# Proven working with a free-tier key. Discovery is only a fallback: the model
+# list is full of image, TTS, embedding and preview entries whose names contain
+# "pro" or "flash", and a naive match lands on something like an image model
+# with no text quota.
+# Probed against a real free-tier key: the 2.5 line returns 404 (retired) and
+# the "-latest" aliases can sit at 503 for long stretches, so pinned 3.x models
+# come first and the aliases are only a backstop.
+GEMINI_CANDIDATES = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3.7-flash",
+                     "gemini-flash-latest", "gemini-pro-latest"]
+GEMINI_DEFAULT = GEMINI_CANDIDATES[0]
+_BAD = ("image", "vision", "embed", "aqa", "tts", "audio", "live", "banana",
+        "nano", "veo", "imagen", "learnlm", "gemma", "thinking-exp")
 
 
 def _gemini_pick_model(key):
-    """Ask the API which models exist rather than trusting a hardcoded name."""
-    url = "%s/models?key=%s&pageSize=200" % (GEMINI_BASE, key)
+    """Fallback model discovery, filtered to plain text-generation Gemini."""
+    req = urllib.request.Request("%s/models?pageSize=200" % GEMINI_BASE,
+                                 headers={"X-goog-api-key": key})
     try:
-        with urllib.request.urlopen(url, timeout=30) as r:
+        with urllib.request.urlopen(req, timeout=30) as r:
             models = json.loads(r.read()).get("models", [])
     except Exception as e:                                        # noqa: BLE001
-        print("could not list gemini models (%s); using the default" % e)
+        print("could not list gemini models (%s)" % e)
         return None
-    usable = [m["name"].split("/")[-1] for m in models
-              if "generateContent" in m.get("supportedGenerationMethods", [])]
-    # newest-looking pro first, then flash; both handle this task
-    for want in ("pro", "flash"):
-        hits = sorted((m for m in usable if want in m and "vision" not in m),
-                      reverse=True)
+    usable = []
+    for m in models:
+        name = m["name"].split("/")[-1]
+        if "generateContent" not in m.get("supportedGenerationMethods", []):
+            continue
+        low = name.lower()
+        if not low.startswith("gemini-") or any(b in low for b in _BAD):
+            continue
+        usable.append(name)
+    if not usable:
+        return None
+    # flash before pro: on the free tier flash carries the usable quota
+    for want in ("flash-latest", "flash", "pro-latest", "pro"):
+        hits = [m for m in usable if want in m and "preview" not in m]
         if hits:
-            print("gemini models available: %d; chose %s" % (len(usable), hits[0]))
-            return hits[0]
-    return usable[0] if usable else None
+            pick = sorted(hits, key=len)[0]
+            print("gemini text models: %d; chose %s" % (len(usable), pick))
+            return pick
+    return sorted(usable, key=len)[0]
 
 
 def run_scan_gemini(prompt):
+    """Try each candidate model, retrying transient failures with backoff.
+
+    Free-tier Gemini returns 503 (overloaded) and 429 (quota) routinely, and a
+    model that answered yesterday can 404 tomorrow, so neither a single name nor
+    a single attempt is enough.
+    """
     key = os.environ["GEMINI_API_KEY"]
-    model = os.environ.get("GEMINI_MODEL", "").strip() or _gemini_pick_model(key)
-    if not model:
-        raise RuntimeError("no usable Gemini model found")
-    try:
-        return _gemini_request(model, key, prompt)
-    except urllib.error.HTTPError as e:
-        detail = e.read().decode("utf-8", "replace")[:300]
-        if e.code in (400, 404):
-            # the chosen name may be retired; re-resolve once and retry
-            alt = _gemini_pick_model(key)
-            if alt and alt != model:
-                print("retrying with %s after HTTP %s" % (alt, e.code))
-                return _gemini_request(alt, key, prompt)
-        raise RuntimeError("gemini HTTP %s: %s" % (e.code, detail))
+    pinned = os.environ.get("GEMINI_MODEL", "").strip()
+    candidates = [pinned] if pinned else list(GEMINI_CANDIDATES)
+    last = None
+
+    for model in candidates:
+        for attempt, wait in enumerate([5, 20, 45, None], 1):
+            try:
+                text = _gemini_request(model, key, prompt)
+                print("scored with %s" % model)
+                return text
+            except urllib.error.HTTPError as e:
+                detail = e.read().decode("utf-8", "replace")[:160]
+                last = "%s HTTP %s: %s" % (model, e.code, detail)
+                if e.code in (400, 404):
+                    print("%s unavailable (%s) — next model" % (model, e.code))
+                    break                       # a retry will not fix a 404
+                if wait is None:
+                    print("%s still failing after retries — next model" % model)
+                    break
+                print("%s HTTP %s, retrying in %ss" % (model, e.code, wait))
+                time.sleep(wait)
+            except (urllib.error.URLError, TimeoutError) as e:
+                last = "%s %s" % (model, type(e).__name__)
+                if wait is None:
+                    break
+                print("%s %s, retrying in %ss" % (model, type(e).__name__, wait))
+                time.sleep(wait)
+
+    discovered = _gemini_pick_model(key)         # last resort
+    if discovered and discovered not in candidates:
+        print("falling back to discovered model %s" % discovered)
+        return _gemini_request(discovered, key, prompt)
+    raise RuntimeError("every Gemini model failed; last error: %s" % last)
 
 
 def run_scan(client, prompt):
@@ -264,7 +324,14 @@ def main():
     today = now.strftime("%Y-%m-%d")
 
     existing = {i["id"]: i for i in news.get("items", [])}
-    prompt = build_prompt(universe, watchlist, list(existing)[:40], today)
+    focus = universe["groups"]["focus"]
+    try:
+        headlines = feeds.gather(focus)
+    except Exception as e:                                        # noqa: BLE001
+        print("headline gathering failed (%s) — continuing without" % e)
+        headlines = []
+    block = feeds.as_prompt_block(headlines) if headlines else ""
+    prompt = build_prompt(universe, watchlist, list(existing)[:40], today, block)
 
     text = scan_with_available_provider(prompt)
     if text is None:
