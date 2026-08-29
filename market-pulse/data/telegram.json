@@ -2,6 +2,13 @@
   "chat_ids": [
     8417304533
   ],
-  "offset": 544634484,
-  "sent_ids": []
+  "offset": 544634486,
+  "sent_ids": [
+    "20260827-nvda-q2",
+    "20260828-core-pce-33",
+    "20260828-pypl-stripe-collapse",
+    "20260828-warsh-speech-inflation-concerning",
+    "20260827-mrvl-miss",
+    "20260827-crm-okta-crwd"
+  ]
 }
