@@ -77,7 +77,10 @@ jobs:
       - name: Scan the wires and score
         if: steps.gate.outputs.ready == 'true'
         env:
-          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+          # An identifier, not a credential — it is useless without the API key,
+          # and it appears in the console URL. Inlined so the scan works without
+          # a fourth secret; a secret of the same name still overrides it.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID || 'wrkspc_015aj4TLt7DTweVzLPSUynaL' }}
           CLAUDE_WORKSPACE_ID: ${{ secrets.CLAUDE_WORKSPACE_ID }}
         run: python3 market-pulse/scan.py
 
