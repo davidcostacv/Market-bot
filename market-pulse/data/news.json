@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-08-28T15:30:02Z",
-  "session_date": "2026-08-28",
+  "generated_at": "2026-08-29T22:04:59Z",
+  "session_date": "2026-08-29",
   "items": [
+    {
+      "id": "20260829-nvda-us-export-controls-remote-ai",
+      "time": "2026-08-29T00:00:00Z",
+      "headline": "New US export controls reportedly target Chinese access to remote AI servers \u2014 Trump admin's cut-down AI diffusion rule could be shared with industry as soon as September",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "The U.S. government is drafting new export controls to close a loophole that allows Chinese entities to access advanced AI chips remotely via U.S. cloud providers. This restriction could significantly impact cloud infrastructure revenues for major hyperscalers and reduce overall demand for high-end AI chips from Nvidia and AMD. The rule is expected to be shared with the industry as early as September.",
+      "source": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNV3RGYmw3MU9Ua3ltUW91dXBjSURjWlhYcnIxZ3A0Nkx5cVJJUEZtam1hak8zazhDeS1jRExGYzhvcHVTUmNRT3AzV2JnVjh1R09GdUlRaXgwbElHdHdxRWZ3RUREbDVHSVpYVjZOVXV3SENsWFpqSG9PQ1h0b1dVT19CaEdhbHpDSklSbmRmNC1KeWJ3Z1ZtaFhWekhpY0pBTGFPSGtmbDFqenFNVmF2NThpNm9lMWtDdmU0UHFtcEhFUnRjTmw4U1RvdVFDWVdsNTZmcmljdGlMbHB6bmM4QUJ6OXJ3VlNabU04MmVzMlUtck52ZlhFdF9CTFI0aTVTU0xNQXpKVmlwMVEzdy1pYUhBb2YyZmFBY2NTTHBaR1lfM0RwQ3gwY0NGZHc2TVBTbzFqRXdFaFgtclVpTUE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260829-nvda-singapore-smuggling-probe",
+      "time": "2026-08-29T00:00:00Z",
+      "headline": "US probes Singapore firm over alleged Nvidia chip smuggling",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM"
+      ],
+      "why": "U.S. authorities are investigating a Singapore-based firm and logistics networks for allegedly smuggling restricted Nvidia AI chips into China. Tighter regulatory enforcement and potential penalties could disrupt distribution channels, increase compliance costs, and restrict indirect sales volumes for Nvidia and its manufacturing partner TSMC.",
+      "source": "Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTVlXT3B5ZXFXcmd2TGNvbHlnblFnTnVGYTA4UG5VUUw3TFQzejdOOVAzVFpFMHJDTjlvUHlNRXgtemhORm9jQ0VfNnprZnAtejc5VmtTM0hVaFcxcUZsSTF2TjU4Qkt4RE5QVVhlWlBOVGVUNHVobVB5amFtZDFMVE5CNFFLWmUwSlZJOENfQXY5MFVLUi1SQ3lsM2cybFpyTEE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260828-warsh-speech-inflation-concerning",
       "time": "2026-08-28T14:00:00Z",
