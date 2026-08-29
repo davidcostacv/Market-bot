@@ -36,6 +36,38 @@ def load(name, default=None):
     return json.loads(p.read_text()) if p.exists() else default
 
 
+_STOP = {"the","a","an","of","to","in","on","for","and","as","at","by","is",
+          "its","after","amid","over","with","from","says","said","report",
+          "reports","reportedly","new","us","usa","american","america",
+          "washington","up","down","could","may","amid","into","that","this"}
+
+
+def _fingerprint(headline):
+    """Content words only — the same story told twice rarely shares an id."""
+    words = re.findall(r"[a-z0-9]+", (headline or "").lower())
+    return {w for w in words if w not in _STOP and len(w) > 2}
+
+
+def is_duplicate_story(headline, existing, threshold=0.55):
+    """True when an existing item is plainly the same story.
+
+    Id-based dedupe is not enough once scans run hourly: each scan invents its
+    own id, so the same export-control story would alert again every hour under
+    a fresh id. Compares content words instead.
+    """
+    new = _fingerprint(headline)
+    if len(new) < 3:
+        return False
+    for item in existing:
+        old = _fingerprint(item.get("headline", ""))
+        if not old:
+            continue
+        overlap = len(new & old) / min(len(new), len(old))
+        if overlap >= threshold:
+            return True
+    return False
+
+
 def build_prompt(universe, watchlist, recent_ids, today, headlines_block=""):
     focus = ", ".join(universe["groups"]["focus"])
     broad = ", ".join(universe["groups"]["sp500_megacap"][:40])
@@ -341,6 +373,7 @@ def main():
     print("model returned %d item(s)" % len(found))
 
     fresh = 0
+    dupes = 0
     for item in found:
         if not isinstance(item, dict) or "id" not in item:
             continue
@@ -349,6 +382,9 @@ def main():
         item.setdefault("time", now.strftime("%Y-%m-%dT%H:%M:%SZ"))
         item.setdefault("alerted", False)
         if item["id"] not in existing:
+            if is_duplicate_story(item.get("headline", ""), existing.values()):
+                dupes += 1
+                continue
             fresh += 1
         existing[item["id"]] = item
 
@@ -365,8 +401,8 @@ def main():
     alerting = [i for i in merged
                 if i["impact"] >= state["alert_threshold"]
                 and i["id"] not in state["alerted_ids"]]
-    print("%d new item(s) | %d at or above the %s/10 alert bar"
-          % (fresh, len(alerting), state["alert_threshold"]))
+    print("%d new | %d duplicate stories skipped | %d at or above the %s/10 bar"
+          % (fresh, dupes, len(alerting), state["alert_threshold"]))
     for i in alerting:
         print("  ALERT %s/10  %s" % (i["impact"], i["headline"][:80]))
 

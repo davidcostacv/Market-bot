@@ -6,9 +6,16 @@ name: Market Pulse scan
 
 on:
   schedule:
-    - cron: '30 13 * * 1-5'   # 09:30 ET, at the open
-    - cron: '0 17 * * 1-5'    # 13:00 ET, midday
-    - cron: '30 20 * * 1-5'   # 16:30 ET, just after the close
+    # Market-moving news does not respect market hours. Earnings land after the
+    # close, export controls and M&A land whenever, Asia and Europe break
+    # overnight, and buyouts are announced on Sundays. A 10/10 at 18:00 Friday
+    # should not wait until Monday.
+    #
+    # Hourly on weekdays; every three hours at weekends, when only genuinely
+    # unscheduled news happens. Story-level dedupe stops the same headline
+    # alerting twice, and an exhausted quota skips quietly.
+    - cron: '5 * * * 1-5'      # every hour, Mon-Fri
+    - cron: '5 */3 * * 0,6'    # every 3 hours, Sat-Sun
   workflow_dispatch:
     inputs:
       dry_run:
