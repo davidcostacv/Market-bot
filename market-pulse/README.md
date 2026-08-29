@@ -144,9 +144,20 @@ GitHub Actions (5 min) ->  reads that JSON, answers commands, pushes alerts
 | Secret | Needed for | Notes |
 |---|---|---|
 | `TELEGRAM_BOT_TOKEN` or `TELEGRAM_TOKEN` | The bot | Either name works |
+| `GEMINI_API_KEY` or `GOOGLE_API_KEY` | The scan | Free tier at aistudio.google.com/apikey, no card. Uses Google Search grounding |
 | `ANTHROPIC_API_KEY` / `CLAUDE_API_KEY` / `ANTHROPIC_KEY` / `CLAUDE_KEY` / `ANTHROPIC_TOKEN` | The scan | Any of the five; the gate resolves whichever is set and logs which names are populated by length |
 | `ANTHROPIC_WORKSPACE_ID` or `CLAUDE_WORKSPACE_ID` | The scan, **only for identity-linked keys** | From the Anthropic Console under Settings > Workspaces, `wrkspc_01...`. Without it such a key returns `400 anthropic-workspace-id is required`. A plain workspace key needs no header. |
 | `FINNHUB_API_KEY` | `/stocks` and `/holdings` | Optional; news commands work without it |
+
+**Either provider works.** Anthropic is used when it is configured and funded;
+the scan falls back to Gemini automatically when the Anthropic account is out of
+credits or its key is identity-linked without a workspace id. With only a Gemini
+key it goes straight there. The scoring rubric, merge, alert threshold and
+Telegram formatting are provider-agnostic, so switching changes one function.
+
+Note that Gemini's free tier permits Google to use prompts and responses to
+improve their products. That is acceptable for scanning public financial news;
+it would not be for anything private.
 
 Both workflows skip quietly when their key is missing, so a half-configured repo
 does not mail a failure on every scheduled run.

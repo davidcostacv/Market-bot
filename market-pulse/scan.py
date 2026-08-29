@@ -17,6 +17,9 @@ import pathlib
 import re
 import sys
 
+import urllib.error
+import urllib.request
+
 import anthropic
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -112,6 +115,69 @@ def extract_json(text):
     raise ValueError("unbalanced JSON in reply")
 
 
+GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
+
+
+def _gemini_request(model, key, prompt):
+    """One grounded generateContent call. Returns the reply text."""
+    url = "%s/models/%s:generateContent?key=%s" % (GEMINI_BASE, model, key)
+    body = json.dumps({
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        # Google Search grounding is Gemini's equivalent of the web_search tool
+        "tools": [{"google_search": {}}],
+        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 32000},
+    }).encode()
+    req = urllib.request.Request(
+        url, data=body, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        payload = json.loads(r.read())
+    cands = payload.get("candidates") or []
+    if not cands:
+        raise RuntimeError("gemini returned no candidates: %s"
+                           % json.dumps(payload)[:300])
+    parts = cands[0].get("content", {}).get("parts", [])
+    return "".join(p.get("text", "") for p in parts)
+
+
+def _gemini_pick_model(key):
+    """Ask the API which models exist rather than trusting a hardcoded name."""
+    url = "%s/models?key=%s&pageSize=200" % (GEMINI_BASE, key)
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            models = json.loads(r.read()).get("models", [])
+    except Exception as e:                                        # noqa: BLE001
+        print("could not list gemini models (%s); using the default" % e)
+        return None
+    usable = [m["name"].split("/")[-1] for m in models
+              if "generateContent" in m.get("supportedGenerationMethods", [])]
+    # newest-looking pro first, then flash; both handle this task
+    for want in ("pro", "flash"):
+        hits = sorted((m for m in usable if want in m and "vision" not in m),
+                      reverse=True)
+        if hits:
+            print("gemini models available: %d; chose %s" % (len(usable), hits[0]))
+            return hits[0]
+    return usable[0] if usable else None
+
+
+def run_scan_gemini(prompt):
+    key = os.environ["GEMINI_API_KEY"]
+    model = os.environ.get("GEMINI_MODEL", "").strip() or _gemini_pick_model(key)
+    if not model:
+        raise RuntimeError("no usable Gemini model found")
+    try:
+        return _gemini_request(model, key, prompt)
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode("utf-8", "replace")[:300]
+        if e.code in (400, 404):
+            # the chosen name may be retired; re-resolve once and retry
+            alt = _gemini_pick_model(key)
+            if alt and alt != model:
+                print("retrying with %s after HTTP %s" % (alt, e.code))
+                return _gemini_request(alt, key, prompt)
+        raise RuntimeError("gemini HTTP %s: %s" % (e.code, detail))
+
+
 def run_scan(client, prompt):
     """One streamed request with server-side web search. Handles pause_turn."""
     messages = [{"role": "user", "content": prompt}]
@@ -140,6 +206,51 @@ def run_scan(client, prompt):
     return text
 
 
+def scan_with_available_provider(prompt):
+    """Anthropic when it is funded, Gemini otherwise. None means skip this run.
+
+    A missing key, an unfunded account and a missing workspace id are all
+    configuration states rather than faults, so they return None and the caller
+    exits cleanly instead of mailing a failure on every scheduled run.
+    """
+    has_anthropic = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    has_gemini = bool(os.environ.get("GEMINI_API_KEY"))
+
+    if not has_anthropic and not has_gemini:
+        print("::notice::No model API key configured. Add GEMINI_API_KEY (free "
+              "tier at aistudio.google.com/apikey) or ANTHROPIC_API_KEY as a "
+              "repository secret. Skipping.")
+        return None
+
+    if has_anthropic:
+        workspace = (os.environ.get("ANTHROPIC_WORKSPACE_ID")
+                     or os.environ.get("CLAUDE_WORKSPACE_ID") or "").strip()
+        headers = {"anthropic-workspace-id": workspace} if workspace else None
+        client = anthropic.Anthropic(default_headers=headers)
+        try:
+            print("scanning with Anthropic (%s)" % MODEL)
+            return run_scan(client, prompt)
+        except anthropic.BadRequestError as e:
+            msg = str(e).lower()
+            recoverable = "credit balance" in msg or "workspace-id" in msg
+            if not recoverable:
+                raise
+            reason = ("credit balance too low" if "credit balance" in msg
+                      else "identity-linked key without a workspace id")
+            if has_gemini:
+                print("Anthropic unavailable (%s) — falling back to Gemini"
+                      % reason)
+            else:
+                print("::notice::Anthropic unavailable (%s) and no "
+                      "GEMINI_API_KEY is set, so this scan was skipped. Add "
+                      "credits, or add a free Gemini key from "
+                      "aistudio.google.com/apikey." % reason)
+                return None
+
+    print("scanning with Gemini")
+    return run_scan_gemini(prompt)
+
+
 def main():
     if not os.environ.get("ANTHROPIC_API_KEY"):
         sys.exit("ANTHROPIC_API_KEY is not set")
@@ -155,38 +266,10 @@ def main():
     existing = {i["id"]: i for i in news.get("items", [])}
     prompt = build_prompt(universe, watchlist, list(existing)[:40], today)
 
-    # An identity-linked API key must name the workspace it acts in, or the API
-    # returns 400 invalid_request_error. A plain workspace key needs no header.
-    workspace = (os.environ.get("ANTHROPIC_WORKSPACE_ID")
-                 or os.environ.get("CLAUDE_WORKSPACE_ID") or "").strip()
-    headers = {"anthropic-workspace-id": workspace} if workspace else None
-    if workspace:
-        print("using workspace %s" % workspace)
-    client = anthropic.Anthropic(default_headers=headers)
+    text = scan_with_available_provider(prompt)
+    if text is None:
+        return
 
-    try:
-        text = run_scan(client, prompt)
-    except anthropic.BadRequestError as e:
-        if "credit balance" in str(e).lower():
-            # Out of credits is an account state, not a code fault. Exit 0 with a
-            # notice so three scheduled scans a day do not each mail a failure.
-            print("::notice::Anthropic credit balance is too low, so this scan "
-                  "was skipped. Add credits at console.anthropic.com under "
-                  "Plans & Billing. Scans resume automatically once funded.")
-            print("out of credits — skipping this scan")
-            return
-        if "workspace-id" in str(e):
-            # A missing workspace id is a configuration gap, not a fault. Exit 0
-            # with a notice so three scheduled scans a day do not each mail a
-            # failure until it is filled in.
-            print("::notice::This API key is identity-linked and needs a "
-                  "workspace id. Add it as the ANTHROPIC_WORKSPACE_ID "
-                  "repository secret — find it in the Anthropic Console under "
-                  "Settings > Workspaces, in the URL when you open one "
-                  "(wrkspc_01...). Skipping this scan.")
-            print("identity-linked key with no workspace id — skipping")
-            return
-        raise
     found = extract_json(text).get("items", [])
     print("model returned %d item(s)" % len(found))
 

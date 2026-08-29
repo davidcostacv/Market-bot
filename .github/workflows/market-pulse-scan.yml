@@ -48,7 +48,7 @@ jobs:
       # Accepts the key under any of the names people reasonably reach for, and
       # says which names are populated (by length — never a value) so a mismatch
       # is one log line rather than a guessing game.
-      - name: Check the API key is configured
+      - name: Check a model API key is configured
         id: gate
         env:
           A: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -56,6 +56,8 @@ jobs:
           C: ${{ secrets.ANTHROPIC_KEY }}
           D: ${{ secrets.CLAUDE_KEY }}
           E: ${{ secrets.ANTHROPIC_TOKEN }}
+          G: ${{ secrets.GEMINI_API_KEY }}
+          H: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           echo "secret names visible to this workflow (length only):"
           echo "  ANTHROPIC_API_KEY -> ${#A}"
@@ -63,15 +65,25 @@ jobs:
           echo "  ANTHROPIC_KEY     -> ${#C}"
           echo "  CLAUDE_KEY        -> ${#D}"
           echo "  ANTHROPIC_TOKEN   -> ${#E}"
+          echo "  GEMINI_API_KEY    -> ${#G}"
+          echo "  GOOGLE_API_KEY    -> ${#H}"
           KEY="${A:-${B:-${C:-${D:-${E:-}}}}}"
-          if [ -z "$KEY" ]; then
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::No Anthropic key found under any accepted name — skipping. Add one under Settings > Secrets and variables > Actions."
-          else
-            echo "ready=true" >> "$GITHUB_OUTPUT"
+          GKEY="${G:-${H:-}}"
+          if [ -n "$KEY" ]; then
             echo "::add-mask::$KEY"
             echo "ANTHROPIC_API_KEY=$KEY" >> "$GITHUB_ENV"
-            echo "found a key (${#KEY} chars)"
+            echo "found an Anthropic key (${#KEY} chars)"
+          fi
+          if [ -n "$GKEY" ]; then
+            echo "::add-mask::$GKEY"
+            echo "GEMINI_API_KEY=$GKEY" >> "$GITHUB_ENV"
+            echo "found a Gemini key (${#GKEY} chars)"
+          fi
+          if [ -z "$KEY" ] && [ -z "$GKEY" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No model API key found. Add GEMINI_API_KEY (free at aistudio.google.com/apikey) or an Anthropic key under Settings > Secrets and variables > Actions."
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Scan the wires and score
