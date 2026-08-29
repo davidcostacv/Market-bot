@@ -168,13 +168,16 @@ def main():
         text = run_scan(client, prompt)
     except anthropic.BadRequestError as e:
         if "workspace-id" in str(e):
-            sys.exit(
-                "This API key is identity-linked and needs a workspace id.\n"
-                "Add the workspace id as the ANTHROPIC_WORKSPACE_ID repository "
-                "secret. Find it in the Anthropic Console under Settings > "
-                "Workspaces — it looks like wrkspc_01ABC...\n"
-                "Alternatively create a plain workspace API key, which needs no "
-                "workspace header.")
+            # A missing workspace id is a configuration gap, not a fault. Exit 0
+            # with a notice so three scheduled scans a day do not each mail a
+            # failure until it is filled in.
+            print("::notice::This API key is identity-linked and needs a "
+                  "workspace id. Add it as the ANTHROPIC_WORKSPACE_ID "
+                  "repository secret — find it in the Anthropic Console under "
+                  "Settings > Workspaces, in the URL when you open one "
+                  "(wrkspc_01...). Skipping this scan.")
+            print("identity-linked key with no workspace id — skipping")
+            return
         raise
     found = extract_json(text).get("items", [])
     print("model returned %d item(s)" % len(found))
