@@ -39,16 +39,23 @@ Send a **photo** of the plate and it estimates from the picture. Add a caption
 |---|---|
 | anything else | logged as food |
 | a photo | logged from the image |
-| `total` | today's running totals |
-| `list` | every item logged today |
-| `yesterday` | yesterday's day sheet |
-| `week` | last 7 days plus daily averages |
-| `undo` | removes the last thing logged |
-| `clear` | wipes today |
-| `goals 2400 180 250 70` | kcal, protein, carbs, fat (also `goals kcal=2400 p=180`) |
-| `tz Europe/Madrid` | set your timezone |
-| `forget flat white` | drop a remembered food so it gets re-estimated |
-| `help` | the list above |
+| `/total` | today's running totals |
+| `/list` | every item logged today |
+| `/yesterday` | yesterday's day sheet |
+| `/week` | last 7 days plus daily averages |
+| `/undo` | removes the last thing logged |
+| `/clear` | wipes today |
+| `/goals` | show your goals |
+| `/goals 2400 180 250 70` | set kcal, protein, carbs, fat (also `/goals kcal=2400 p=180`) |
+| `/tz Europe/Madrid` | set your timezone |
+| `/forget flat white` | drop a remembered food so it gets re-estimated |
+| `/export` | last 30 days as CSV |
+| `/help` | the list above |
+
+The slash is optional — `/total` and `total` do the same thing. It matters for
+typos: `/totl` comes back as "unknown command", while a bare `totl` is assumed
+to be something you ate. Aliases work too (`today`, `t`, `oops`, `remove last`,
+`menu`, `csv`).
 
 ## Setup
 
@@ -71,6 +78,18 @@ npm start
 `ALLOWED_NUMBERS` is the allowlist — anyone not on it is ignored. Leave it empty
 only if you really want the bot to answer strangers.
 
+### Try it without WhatsApp
+
+A local simulator drives the same handler and the same database from a terminal:
+
+```bash
+npm run chat                              # interactive
+npm run chat -- "/goals" "/total" "/week" # scripted, then exits
+```
+
+Commands need no API key. Logging food needs `ANTHROPIC_API_KEY`, except for
+foods already in the memory, which are answered locally.
+
 ### 3. Point Meta at it
 
 The webhook must be reachable over HTTPS. For local development:
@@ -85,7 +104,7 @@ Then in the Meta app: **WhatsApp → Configuration → Edit**
 - Verify token: the same string as `WHATSAPP_VERIFY_TOKEN`
 - Subscribe to the **messages** field.
 
-Send yourself a `help` to confirm the round trip.
+Send yourself a `/help` to confirm the round trip.
 
 ### 4. Deploy for real (24/7)
 
@@ -141,5 +160,6 @@ src/scheduler.js  nightly recap in each user's timezone
 src/whatsapp.js   Graph API send / media download / signature check
 src/format.js     the WhatsApp replies
 src/time.js       local-day maths
+scripts/chat.js   local simulator (npm run chat)
 test/             node:test suite (npm test)
 ```

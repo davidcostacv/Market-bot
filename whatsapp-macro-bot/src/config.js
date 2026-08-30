@@ -1,5 +1,4 @@
 import fs from "node:fs";
-import path from "node:path";
 
 // Minimal .env loader so the bot runs without an extra dependency.
 // Real deployments (Fly, Render, Railway) inject env vars directly and this is a no-op.
@@ -68,5 +67,4 @@ export function assertConfig() {
       `Missing required environment variables: ${missing.join(", ")}. Copy .env.example to .env and fill it in.`,
     );
   }
-  fs.mkdirSync(path.dirname(path.resolve(config.dbPath)), { recursive: true });
 }

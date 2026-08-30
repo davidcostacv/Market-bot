@@ -113,16 +113,32 @@ export async function estimateMacros({ phone, text, image }) {
     content.push({ type: "text", text });
   }
 
-  const response = await client.messages.parse({
-    model: config.anthropic.model,
-    max_tokens: 4000,
-    system: SYSTEM_PROMPT + memoryContext(phone),
-    messages: [{ role: "user", content }],
-    output_config: {
-      effort: "low",
-      format: zodOutputFormat(MacroExtraction),
-    },
-  });
+  let response;
+  try {
+    response = await client.messages.parse({
+      model: config.anthropic.model,
+      max_tokens: 4000,
+      system: SYSTEM_PROMPT + memoryContext(phone),
+      messages: [{ role: "user", content }],
+      output_config: {
+        effort: "low",
+        format: zodOutputFormat(MacroExtraction),
+      },
+    });
+  } catch (error) {
+    // Most specific first — each of these needs a different fix from whoever
+    // runs the bot, so say which one it is instead of one flat "API error".
+    if (error instanceof Anthropic.AuthenticationError) {
+      throw new Error("ANTHROPIC_API_KEY is missing or invalid.");
+    }
+    if (error instanceof Anthropic.RateLimitError) {
+      throw new Error("Rate limited by the Claude API — try again in a moment.");
+    }
+    if (error instanceof Anthropic.APIConnectionError) {
+      throw new Error("Could not reach the Claude API.");
+    }
+    throw error;
+  }
 
   if (response.stop_reason === "refusal") {
     throw new Error("The model declined to answer that one — try rewording it.");

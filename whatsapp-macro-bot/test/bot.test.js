@@ -13,7 +13,9 @@ process.env.DEFAULT_TIMEZONE = "Europe/Madrid";
 const { localDate, localHour, shiftDate, isValidTimezone } = await import("../src/time.js");
 const { formatTotals, formatItem } = await import("../src/format.js");
 const { normalizeKey } = await import("../src/macros.js");
-const { parseCommand, parseGoals, handleMessage } = await import("../src/handler.js");
+const { parseCommand, parseGoals, handleMessage, COMMAND_NAMES } = await import(
+  "../src/handler.js"
+);
 const db = await import("../src/db.js");
 
 after(() => fs.rmSync(tmpDir, { recursive: true, force: true }));
@@ -49,9 +51,39 @@ describe("command parsing", () => {
     assert.equal(parseCommand("forget flat white").arg, "flat white");
   });
 
+  it("accepts the slash form of every command", () => {
+    for (const name of COMMAND_NAMES) {
+      const bare = parseCommand(name);
+      const slashed = parseCommand(`/${name}`);
+      assert.ok(bare, `${name} should parse`);
+      assert.equal(slashed.kind, bare.kind, `/${name} should match ${name}`);
+      assert.equal(slashed.slashed, true);
+    }
+  });
+
+  it("keeps arguments in the slash form", () => {
+    assert.deepEqual(parseCommand("/tz Europe/Lisbon"), {
+      kind: "timezone",
+      arg: "Europe/Lisbon",
+      slashed: true,
+    });
+    assert.equal(parseCommand("/goals 2400 180 250 70").arg, "2400 180 250 70");
+  });
+
+  it("understands multi-word aliases", () => {
+    assert.equal(parseCommand("remove last").kind, "undo");
+    assert.equal(parseCommand("/start over").kind, "clear");
+  });
+
+  it("reports a typo'd slash command instead of eating it", () => {
+    assert.equal(parseCommand("/totl").kind, "unknown");
+    assert.equal(parseCommand("/total recall").kind, "total");
+  });
+
   it("treats anything else as food", () => {
     assert.equal(parseCommand("2 eggs and toast"), null);
     assert.equal(parseCommand("total recall burrito"), null);
+    assert.equal(parseCommand("week old pizza"), null);
   });
 
   it("parses positional and named goals", () => {
@@ -110,6 +142,59 @@ describe("webhook idempotency", () => {
   it("claims a message id exactly once", () => {
     assert.equal(db.claimMessage("wamid.abc"), true);
     assert.equal(db.claimMessage("wamid.abc"), false);
+  });
+});
+
+describe("commands end to end", () => {
+  const phone = "34600999888";
+
+  it("shows and updates goals", async () => {
+    db.getOrCreateUser(phone);
+    assert.match(await handleMessage({ phone, text: "/goals" }), /Your goals/);
+
+    const updated = await handleMessage({ phone, text: "/goals 2600 190 260 75" });
+    assert.match(updated, /0\/2600 kcal/);
+    assert.match(await handleMessage({ phone, text: "/goals" }), /190g protein/);
+  });
+
+  it("rejects a bad timezone and accepts a good one", async () => {
+    assert.match(await handleMessage({ phone, text: "/tz Mars/Olympus" }), /timezone name/);
+    assert.match(await handleMessage({ phone, text: "/tz Europe/Lisbon" }), /Europe\/Lisbon/);
+  });
+
+  it("answers /help, /list, /week and /export on an empty day", async () => {
+    assert.match(await handleMessage({ phone, text: "/help" }), /Macro bot/);
+    assert.match(await handleMessage({ phone, text: "/list" }), /Nothing logged for today/);
+    assert.match(await handleMessage({ phone, text: "/week" }), /No meals logged/);
+    assert.match(await handleMessage({ phone, text: "/export" }), /Nothing logged/);
+  });
+
+  it("exports logged days as CSV", async () => {
+    db.rememberFood(phone, normalizeKey("banana"), {
+      description: "banana",
+      quantity: "1 medium",
+      kcal: 105,
+      protein: 1,
+      carbs: 27,
+      fat: 0,
+    });
+    await handleMessage({ phone, text: "banana" });
+
+    const csv = await handleMessage({ phone, text: "/csv" });
+    assert.match(csv, /date,kcal,protein,carbs,fat/);
+    assert.match(csv, /,105,1,27,0/);
+  });
+
+  it("clears the day", async () => {
+    assert.match(await handleMessage({ phone, text: "/clear" }), /Cleared 1 item/);
+    assert.match(await handleMessage({ phone, text: "/total" }), /0\/2600 kcal/);
+    assert.match(await handleMessage({ phone, text: "/clear" }), /already empty/);
+  });
+
+  it("explains an unknown slash command", async () => {
+    const reply = await handleMessage({ phone, text: "/totl" });
+    assert.match(reply, /Unknown command/);
+    assert.match(reply, /\/total/);
   });
 });
 

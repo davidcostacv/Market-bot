@@ -38,8 +38,8 @@ export function formatLogReply(items, totals, user, { fromMemory = false } = {})
   ].join("\n");
 }
 
-export function formatDayDetail(entries, totals, user, title) {
-  if (!entries.length) return `Nothing logged for ${title.toLowerCase()} yet.`;
+export function formatDayDetail(entries, totals, user, title, emptyLabel = title) {
+  if (!entries.length) return `Nothing logged for ${emptyLabel} yet.`;
   return [
     `*${title}*`,
     ...entries.map(formatItem),
@@ -72,15 +72,16 @@ export const HELP_TEXT = [
   "• `chicken burrito bowl from chipotle`",
   "• send a *photo* of the plate (add a caption for portion size)",
   "",
-  "_Commands_",
-  "• `total` — today's running totals",
-  "• `list` — everything logged today",
-  "• `yesterday` — yesterday's totals",
-  "• `week` — last 7 days + averages",
-  "• `undo` — remove the last thing logged",
-  "• `clear` — wipe today and start over",
-  "• `goals 2400 180 250 70` — kcal, protein, carbs, fat",
-  "• `tz Europe/Madrid` — set your timezone",
-  "• `forget flat white` — drop a remembered food",
-  "• `help` — this message",
+  "_Commands_ (the slash is optional)",
+  "• `/total` — today's running totals",
+  "• `/list` — everything logged today",
+  "• `/yesterday` — yesterday's day sheet",
+  "• `/week` — last 7 days + averages",
+  "• `/undo` — remove the last thing logged",
+  "• `/clear` — wipe today and start over",
+  "• `/goals` — show goals · `/goals 2400 180 250 70` to change them",
+  "• `/tz Europe/Madrid` — set your timezone",
+  "• `/forget flat white` — drop a remembered food",
+  "• `/export` — last 30 days as CSV",
+  "• `/help` — this message",
 ].join("\n");

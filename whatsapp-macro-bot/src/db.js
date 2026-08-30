@@ -1,5 +1,12 @@
+import fs from "node:fs";
+import path from "node:path";
 import Database from "better-sqlite3";
 import { config } from "./config.js";
+
+// Imports are evaluated before any caller's setup code runs, so the directory
+// has to be made right here — a fresh deploy with an empty volume otherwise
+// crashes on the very first boot.
+fs.mkdirSync(path.dirname(path.resolve(config.dbPath)), { recursive: true });
 
 const db = new Database(config.dbPath);
 db.pragma("journal_mode = WAL");

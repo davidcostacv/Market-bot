@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "chat": "node scripts/chat.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.122.0",

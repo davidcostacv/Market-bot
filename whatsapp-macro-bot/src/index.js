@@ -74,7 +74,7 @@ async function handleIncoming(message) {
       reply = await handleMessage({ phone, text: message.image.caption ?? "", image });
     } else {
       reply =
-        "I can read text and photos of food. Send me what you ate, or `help` for the commands.";
+        "I can read text and photos of food. Send me what you ate, or `/help` for the commands.";
     }
     await sendText(phone, reply);
   } catch (error) {

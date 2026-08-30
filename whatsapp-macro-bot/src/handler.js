@@ -25,27 +25,58 @@ import { estimateMacros, lookupMemory, normalizeKey } from "./macros.js";
 import { isValidTimezone, localDate, prettyDate, shiftDate } from "./time.js";
 
 const COMMANDS = [
-  { kind: "help", match: /^(help|\?|start|hi|hello)$/i },
-  { kind: "total", match: /^(total|totals|today|t|status)$/i },
-  { kind: "list", match: /^(list|log|detail|details|items)$/i },
-  { kind: "yesterday", match: /^(yesterday|y)$/i },
-  { kind: "week", match: /^(week|w|7d)$/i },
-  { kind: "undo", match: /^(undo|oops|remove last|delete last)$/i },
-  { kind: "clear", match: /^(clear|reset)( today)?$/i },
-  { kind: "goals", match: /^goals?\b(.*)$/i },
-  { kind: "timezone", match: /^(?:tz|timezone)\b(.*)$/i },
-  { kind: "forget", match: /^forget\b(.*)$/i },
+  { kind: "help", names: ["help", "?", "start", "menu", "commands"] },
+  { kind: "total", names: ["total", "totals", "today", "t", "status"] },
+  { kind: "list", names: ["list", "log", "items", "detail", "details"] },
+  { kind: "yesterday", names: ["yesterday", "y"] },
+  { kind: "week", names: ["week", "w", "7d"] },
+  { kind: "undo", names: ["undo", "oops"] },
+  { kind: "clear", names: ["clear", "reset"], takesArg: true },
+  { kind: "export", names: ["export", "csv"] },
+  { kind: "goals", names: ["goals", "goal"], takesArg: true },
+  { kind: "timezone", names: ["tz", "timezone"], takesArg: true },
+  { kind: "forget", names: ["forget"], takesArg: true },
 ];
 
-/** Returns {kind, arg} for a bot command, or null when the text is a meal. */
+/** Multi-word aliases, checked before the single-word table. */
+const PHRASES = new Map([
+  ["remove last", "undo"],
+  ["delete last", "undo"],
+  ["start over", "clear"],
+]);
+
+export const COMMAND_NAMES = COMMANDS.flatMap((command) => command.names);
+
+/**
+ * Commands work with or without a leading slash: `/total` and `total` are the
+ * same. The slash matters for what happens when nothing matches — `/totl` is a
+ * typo worth reporting, while a bare `totl` is more likely something you ate.
+ *
+ * @returns {{kind: string, arg: string, slashed: boolean}|null} null means "this is food"
+ */
 export function parseCommand(text) {
   const trimmed = (text || "").trim();
   if (!trimmed) return null;
-  for (const { kind, match } of COMMANDS) {
-    const found = match.exec(trimmed);
-    if (found) return { kind, arg: (found[found.length - 1] || "").trim() };
+
+  const slashed = trimmed.startsWith("/");
+  const body = (slashed ? trimmed.slice(1) : trimmed).trim();
+  if (!body) return slashed ? { kind: "help", arg: "", slashed } : null;
+
+  const phrase = PHRASES.get(body.toLowerCase());
+  if (phrase) return { kind: phrase, arg: "", slashed };
+
+  const [word, ...rest] = body.split(/\s+/);
+  const arg = rest.join(" ").trim();
+  const command = COMMANDS.find((entry) => entry.names.includes(word.toLowerCase()));
+
+  if (command) {
+    // Without a slash, trailing words mean it was never a command:
+    // "total recall burrito" is dinner, "/total recall" is a typo'd command.
+    if (arg && !command.takesArg && !slashed) return null;
+    return { kind: command.kind, arg, slashed };
   }
-  return null;
+
+  return slashed ? { kind: "unknown", arg: body, slashed } : null;
 }
 
 /** `goals 2400 180 250 70` or `goals kcal=2400 p=180 c=250 f=70` */
@@ -98,6 +129,7 @@ async function handleCommand(command, user, today) {
         getDayTotals(phone, today),
         user,
         "Today",
+        "today",
       );
 
     case "yesterday": {
@@ -106,6 +138,7 @@ async function handleCommand(command, user, today) {
         getDayEntries(phone, day),
         getDayTotals(phone, day),
         user,
+        prettyDate(day, user.timezone),
         prettyDate(day, user.timezone),
       );
     }
@@ -132,9 +165,20 @@ async function handleCommand(command, user, today) {
     }
 
     case "goals": {
+      if (!command.arg) {
+        return [
+          "*Your goals*",
+          `🔥 ${Math.round(user.kcal_goal)} kcal`,
+          `🥩 ${Math.round(user.protein_goal)}g protein`,
+          `🍚 ${Math.round(user.carbs_goal)}g carbs`,
+          `🥑 ${Math.round(user.fat_goal)}g fat`,
+          "",
+          "Change them with `/goals 2400 180 250 70`.",
+        ].join("\n");
+      }
       const goals = parseGoals(command.arg, userGoals(user));
       if (!goals) {
-        return "Send goals as `goals 2400 180 250 70` (kcal, protein, carbs, fat) or `goals kcal=2400 p=180`.";
+        return "Send goals as `/goals 2400 180 250 70` (kcal, protein, carbs, fat) or `/goals kcal=2400 p=180`.";
       }
       setGoals(phone, goals);
       const updated = getOrCreateUser(phone);
@@ -144,19 +188,38 @@ async function handleCommand(command, user, today) {
     case "timezone": {
       const tz = command.arg;
       if (!tz || !isValidTimezone(tz)) {
-        return "Send a timezone name like `tz Europe/Madrid` or `tz America/New_York`.";
+        return "Send a timezone name like `/tz Europe/Madrid` or `/tz America/New_York`.";
       }
       setTimezone(phone, tz);
       return `Timezone set to ${tz}. Your day now rolls over at midnight there.`;
     }
 
     case "forget": {
-      if (!command.arg) return "Send `forget flat white` to drop a remembered food.";
+      if (!command.arg) return "Send `/forget flat white` to drop a remembered food.";
       const removed = forgetFood(phone, `%${normalizeKey(command.arg)}%`);
       return removed
         ? `Forgot ${removed} remembered food${removed === 1 ? "" : "s"} matching “${command.arg}”.`
         : `Nothing remembered matching “${command.arg}”.`;
     }
+
+    case "export": {
+      const rows = getRangeTotals(phone, shiftDate(today, -29), today);
+      if (!rows.length) return "Nothing logged in the last 30 days to export.";
+      return [
+        "*Last 30 days (CSV)*",
+        "```",
+        "date,kcal,protein,carbs,fat",
+        ...rows.map((r) =>
+          [r.log_date, r.kcal, r.protein, r.carbs, r.fat]
+            .map((value, index) => (index === 0 ? value : Math.round(value)))
+            .join(","),
+        ),
+        "```",
+      ].join("\n");
+    }
+
+    case "unknown":
+      return `Unknown command \`/${command.arg.split(/\s+/)[0]}\`.\n\n${HELP_TEXT}`;
 
     default:
       return HELP_TEXT;
@@ -180,7 +243,7 @@ async function handleFoodLog({ user, today, text, image }) {
   const { isFood, items, note } = await estimateMacros({ phone, text, image });
 
   if (!isFood || !items.length) {
-    return `I couldn't find any food in that. Send what you ate (e.g. “2 eggs and toast”) or \`help\` for commands.`;
+    return "I couldn't find any food in that. Send what you ate (e.g. “2 eggs and toast”) or `/help` for commands.";
   }
 
   addEntries(phone, today, randomUUID(), items, image ? "photo" : "text");
