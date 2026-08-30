@@ -68,13 +68,29 @@ def call(method, **params):
             return json.loads(r.read())
     except urllib.error.HTTPError as e:
         sys.stderr.write("%s failed: %s %s\n" % (method, e.code, e.read()[:400]))
+        if e.code in (401, 404):
+            # Telegram answers 404 for an unknown /bot<token> path and 401 for a
+            # rejected one: both mean the token is wrong, revoked, or replaced,
+            # not that the method or the chat is missing. Say so, because a bare
+            # 404 reads like a bug in the request.
+            sys.stderr.write(
+                "  the bot token is invalid or has been revoked. Open BotFather,"
+                " send /mybots -> your bot -> API Token, and update the"
+                " TELEGRAM_BOT_TOKEN repository secret.\n")
     except Exception as e:                                    # noqa: BLE001
         sys.stderr.write("%s failed: %r\n" % (method, e))
     return {"ok": False}
 
 
 def send(chat_id, text):
-    """Send text, splitting on paragraph boundaries if it exceeds the cap."""
+    """Send text, splitting on paragraph boundaries if it exceeds the cap.
+
+    Returns True only if every chunk was accepted. Callers that record a
+    message as delivered must check it — a swallowed failure once marked an
+    alert sent that Telegram had rejected, and the ledger then suppressed it
+    for good.
+    """
+    ok = True
     while text:
         chunk = text
         if len(chunk) > MAXLEN:
@@ -83,8 +99,10 @@ def send(chat_id, text):
             chunk, text = text[:cut], text[cut:].lstrip("\n")
         else:
             text = ""
-        call("sendMessage", chat_id=chat_id, text=chunk,
-             parse_mode="HTML", disable_web_page_preview="true")
+        if not call("sendMessage", chat_id=chat_id, text=chunk,
+                    parse_mode="HTML", disable_web_page_preview="true").get("ok"):
+            ok = False
+    return ok
 
 
 def esc(s):
@@ -334,6 +352,7 @@ def poll():
     if not res.get("ok"):
         return 1
     updates = res.get("result", [])
+    failed = 0
     for u in updates:
         tg["offset"] = u["update_id"] + 1
         msg = u.get("message") or u.get("channel_post") or {}
@@ -346,10 +365,16 @@ def poll():
         parts = text[1:].split()
         name = parts[0].split("@")[0].lower()
         fn = COMMANDS.get(name)
-        send(chat, fn(parts[1:]) if fn else "Unknown command. Try /help")
-        print("answered /%s for chat %s" % (name, chat))
+        if send(chat, fn(parts[1:]) if fn else "Unknown command. Try /help"):
+            print("answered /%s for chat %s" % (name, chat))
+        else:
+            # The offset still advances: a reply that Telegram refuses outright
+            # would otherwise be retried on every run forever. Failing the run
+            # is what surfaces it.
+            failed += 1
+            sys.stderr.write("could not answer /%s for chat %s\n" % (name, chat))
     save_tg(tg)
-    return 0
+    return 1 if failed else 0
 
 
 def alerts():
@@ -367,11 +392,19 @@ def alerts():
     text = "\U0001F6A8 <b>%d new alert-grade item%s</b>\n\n" % (
         len(fresh), "" if len(fresh) == 1 else "s")
     text += "\n\n".join(fmt_item(i) for i in fresh)
-    for chat in tg["chat_ids"]:
-        send(chat, text)
+    delivered = sum(1 for chat in tg["chat_ids"] if send(chat, text))
+    if not delivered:
+        # Leave the ledger untouched so the next run retries. Recording these
+        # ids now would bury the news permanently, which is the opposite of
+        # what an alert bar is for.
+        sys.stderr.write(
+            "delivered to 0 of %d chat(s) — %d alert(s) held for retry\n"
+            % (len(tg["chat_ids"]), len(fresh)))
+        return 1
     tg["sent_ids"] = (tg["sent_ids"] + [i["id"] for i in fresh])[-400:]
     save_tg(tg)
-    print("pushed %d alert(s) to %d chat(s)" % (len(fresh), len(tg["chat_ids"])))
+    print("pushed %d alert(s) to %d of %d chat(s)"
+          % (len(fresh), delivered, len(tg["chat_ids"])))
     return 0
 
 
