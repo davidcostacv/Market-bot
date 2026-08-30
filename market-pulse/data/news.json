@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-08-30T20:42:34Z",
+  "generated_at": "2026-08-30T23:16:21Z",
   "session_date": "2026-08-30",
   "items": [
+    {
+      "id": "20260830-macro-us-strikes-iran",
+      "time": "2026-08-30T00:00:00Z",
+      "headline": "Dow Jones Futures Fall, Oil Prices Jump As U.S. Strikes Iran",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "XOM",
+        "CVX"
+      ],
+      "why": "US military strikes on Iran mark a severe escalation of Middle East geopolitical tensions, driving a sudden spike in crude oil prices and triggering a risk-off selloff in US stock futures. Higher energy costs and increased geopolitical risk threaten corporate margins and consumer spending, repricing broad equity indexes downward.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSW5MQXJjSmlxRnRnb3hOcEJFcDRrbVFYT091VjhrdjNWU2dWNnRrZ3JTNlMzRjM3RUotaGNBZG1rT3JWTF9VT1hVUWVMa0NnbERXLV9XeDVlTFE0dEZYanFzSE1haldYM3VXMy1wbHktelJEaWJTb2R3dG5rT0FiT3dUZ0RlaFdmUFNHSnVGLUx0UUQtLUdiU2N2c25LVE0zN2t0cHBnUWdwOTA5OHhXMVJTMk4?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260829-nvda-us-export-controls-remote-ai",
       "time": "2026-08-29T00:00:00Z",
