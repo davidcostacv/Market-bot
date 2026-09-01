@@ -10,7 +10,7 @@ policy blocks api.telegram.org (403 on CONNECT), and it is ephemeral besides.
 Both are idempotent: a command is answered once (update_id offset) and an alert
 is sent once (sent ledger). Reads TELEGRAM_BOT_TOKEN from the environment.
 """
-import json, os, sys, pathlib, urllib.request, urllib.error, urllib.parse
+import json, os, re, sys, pathlib, urllib.request, urllib.error, urllib.parse
 
 import quotes as quotes_mod
 
@@ -42,6 +42,31 @@ def _load_dotenv():
 _load_dotenv()
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 API = "https://api.telegram.org/bot" + TOKEN
+
+# Both names have been used for this secret. Trying them in a fixed order is
+# what hid a dead token for two days: the stale TELEGRAM_BOT_TOKEN won over a
+# fresh TELEGRAM_TOKEN, and the workflow reported the secret as "configured".
+# Pick by what Telegram actually accepts, not by name precedence.
+TOKEN_NAMES = ("TELEGRAM_BOT_TOKEN", "TELEGRAM_TOKEN")
+
+# A well-formed token is <bot id>:<35-char secret>, about 46 characters.
+TOKEN_SHAPE = re.compile(r"^\d{5,}:[A-Za-z0-9_-]{30,}$")
+
+
+def clean_token(raw):
+    """Recover the token from the ways a secret gets pasted wrong.
+
+    A secret box wants the bare value, but the surrounding line usually comes
+    with it: `TELEGRAM_TOKEN=123:abc`, a quoted value, or the api.telegram.org
+    path prefix. Telegram answers 404 for all of them, which reads as a revoked
+    token and sends you back to BotFather for a replacement that will not help.
+    """
+    tok = (raw or "").strip().strip('"').strip("'").strip()
+    m = re.match(r"^[A-Za-z_][A-Za-z0-9_]*\s*=\s*(.+)$", tok)   # NAME=value
+    if m:
+        tok = m.group(1).strip().strip('"').strip("'").strip()
+    tok = re.sub(r"^(?:https?://)?(?:api\.telegram\.org/)?bot(?=\d)", "", tok)
+    return tok.strip()
 MAXLEN = 3900          # Telegram hard-caps a message at 4096 chars
 ARROW = {"bullish": "\U0001F7E2", "bearish": "\U0001F534", "uncertain": "\U0001F7E1"}
 
@@ -59,22 +84,77 @@ def save_tg(state):
     (DATA / "telegram.json").write_text(json.dumps(state, indent=2) + "\n")
 
 
-def call(method, **params):
+def set_token(tok):
+    global TOKEN, API
+    TOKEN = tok
+    API = "https://api.telegram.org/bot" + tok
+
+
+def resolve_token():
+    """Adopt whichever configured token Telegram actually accepts.
+
+    Returns the winning variable name, or None if none work. Logs the name and
+    length only — never the value, which would land in a public Actions log.
+    """
+    seen = []
+    for name in TOKEN_NAMES:
+        raw = os.environ.get(name, "")
+        tok = clean_token(raw)
+        if not tok or tok in seen:
+            continue
+        seen.append(tok)
+        fixed = "" if tok == raw.strip() else \
+            " (recovered from %d chars of surrounding text)" % (len(raw.strip()) - len(tok))
+        set_token(tok)
+        me = call("getMe", _quiet=True)
+        if me.get("ok"):
+            print("token: %s (%d chars)%s accepted as @%s"
+                  % (name, len(tok), fixed, me["result"].get("username", "?")))
+            return name
+        shape = "" if TOKEN_SHAPE.match(tok) else \
+            " — this does not look like a bot token (expected <id>:<secret>)"
+        print("token: %s (%d chars)%s rejected by Telegram%s"
+              % (name, len(tok), fixed, shape))
+    set_token("")
+    return None
+
+
+def call(method, _quiet=False, _timeout=30, **params):
     body = urllib.parse.urlencode(
         {k: v for k, v in params.items() if v is not None}).encode()
     req = urllib.request.Request(API + "/" + method, data=body)
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
+        with urllib.request.urlopen(req, timeout=_timeout) as r:
             return json.loads(r.read())
     except urllib.error.HTTPError as e:
+        if _quiet:
+            return {"ok": False, "error_code": e.code}
         sys.stderr.write("%s failed: %s %s\n" % (method, e.code, e.read()[:400]))
+        if e.code in (401, 404):
+            # Telegram answers 404 for an unknown /bot<token> path and 401 for a
+            # rejected one: both mean the token is wrong, revoked, or replaced,
+            # not that the method or the chat is missing. Say so, because a bare
+            # 404 reads like a bug in the request.
+            sys.stderr.write(
+                "  the bot token is invalid or has been revoked. Open BotFather,"
+                " send /mybots -> your bot -> API Token, and update the"
+                " TELEGRAM_BOT_TOKEN repository secret.\n")
     except Exception as e:                                    # noqa: BLE001
+        if _quiet:
+            return {"ok": False}
         sys.stderr.write("%s failed: %r\n" % (method, e))
     return {"ok": False}
 
 
 def send(chat_id, text):
-    """Send text, splitting on paragraph boundaries if it exceeds the cap."""
+    """Send text, splitting on paragraph boundaries if it exceeds the cap.
+
+    Returns True only if every chunk was accepted. Callers that record a
+    message as delivered must check it — a swallowed failure once marked an
+    alert sent that Telegram had rejected, and the ledger then suppressed it
+    for good.
+    """
+    ok = True
     while text:
         chunk = text
         if len(chunk) > MAXLEN:
@@ -83,8 +163,10 @@ def send(chat_id, text):
             chunk, text = text[:cut], text[cut:].lstrip("\n")
         else:
             text = ""
-        call("sendMessage", chat_id=chat_id, text=chunk,
-             parse_mode="HTML", disable_web_page_preview="true")
+        if not call("sendMessage", chat_id=chat_id, text=chunk,
+                    parse_mode="HTML", disable_web_page_preview="true").get("ok"):
+            ok = False
+    return ok
 
 
 def esc(s):
@@ -328,12 +410,17 @@ COMMANDS = {"report": cmd_report, "top": cmd_top, "board": cmd_board,
 
 # ---------- modes ----------
 
-def poll():
+def poll(long_poll=0):
+    """One getUpdates pass. long_poll>0 holds the connection open that many
+    seconds, so a command is answered as it arrives rather than on the next
+    scheduled run."""
     tg = load("telegram.json", {"chat_ids": [], "offset": 0, "sent_ids": []})
-    res = call("getUpdates", offset=tg.get("offset", 0), timeout=0, limit=40)
+    res = call("getUpdates", offset=tg.get("offset", 0), timeout=long_poll,
+               limit=40, _timeout=long_poll + 15)
     if not res.get("ok"):
         return 1
     updates = res.get("result", [])
+    failed = 0
     for u in updates:
         tg["offset"] = u["update_id"] + 1
         msg = u.get("message") or u.get("channel_post") or {}
@@ -346,32 +433,50 @@ def poll():
         parts = text[1:].split()
         name = parts[0].split("@")[0].lower()
         fn = COMMANDS.get(name)
-        send(chat, fn(parts[1:]) if fn else "Unknown command. Try /help")
-        print("answered /%s for chat %s" % (name, chat))
+        if send(chat, fn(parts[1:]) if fn else "Unknown command. Try /help"):
+            print("answered /%s for chat %s" % (name, chat))
+        else:
+            # The offset still advances: a reply that Telegram refuses outright
+            # would otherwise be retried on every run forever. Failing the run
+            # is what surfaces it.
+            failed += 1
+            sys.stderr.write("could not answer /%s for chat %s\n" % (name, chat))
     save_tg(tg)
-    return 0
+    return 1 if failed else 0
 
 
-def alerts():
+def alerts(quiet=False):
+    """quiet suppresses the two routine no-ops, which the worker hits on every
+    pass — a few thousand times a shift."""
     tg = load("telegram.json", {"chat_ids": [], "offset": 0, "sent_ids": []})
     if not tg["chat_ids"]:
-        print("no registered chats yet — send /start to the bot")
+        if not quiet:
+            print("no registered chats yet — send /start to the bot")
         return 0
     thr = load("state.json", {"alert_threshold": 8}).get("alert_threshold", 8)
     news = load("news.json", {"items": []})["items"]
     fresh = [i for i in sorted(news, key=lambda x: -x["impact"])
              if i["impact"] >= thr and i["id"] not in tg["sent_ids"]]
     if not fresh:
-        print("no new alert-grade items")
+        if not quiet:
+            print("no new alert-grade items")
         return 0
     text = "\U0001F6A8 <b>%d new alert-grade item%s</b>\n\n" % (
         len(fresh), "" if len(fresh) == 1 else "s")
     text += "\n\n".join(fmt_item(i) for i in fresh)
-    for chat in tg["chat_ids"]:
-        send(chat, text)
+    delivered = sum(1 for chat in tg["chat_ids"] if send(chat, text))
+    if not delivered:
+        # Leave the ledger untouched so the next run retries. Recording these
+        # ids now would bury the news permanently, which is the opposite of
+        # what an alert bar is for.
+        sys.stderr.write(
+            "delivered to 0 of %d chat(s) — %d alert(s) held for retry\n"
+            % (len(tg["chat_ids"]), len(fresh)))
+        return 1
     tg["sent_ids"] = (tg["sent_ids"] + [i["id"] for i in fresh])[-400:]
     save_tg(tg)
-    print("pushed %d alert(s) to %d chat(s)" % (len(fresh), len(tg["chat_ids"])))
+    print("pushed %d alert(s) to %d of %d chat(s)"
+          % (len(fresh), delivered, len(tg["chat_ids"])))
     return 0
 
 
@@ -392,9 +497,115 @@ def register_commands():
     return 0
 
 
+
+
+# ---------- long-running worker ----------
+
+def _git(*args):
+    import subprocess
+    return subprocess.run(("git",) + args, cwd=str(REPO),
+                          capture_output=True, text=True)
+
+
+def persist(what):
+    """Commit and push the data files, if any changed. Rebases on a race with
+    the scan workflow, which pushes to the same branch."""
+    branch = os.environ.get("DATA_BRANCH", "").strip()
+    if not branch:
+        # Only the workflow sets DATA_BRANCH. Without it we are running from
+        # someone's checkout, where committing and pushing on their behalf is
+        # never what they meant — a bare `bot.py serve` here once committed a
+        # test ledger onto the working branch.
+        print("  DATA_BRANCH unset — not committing (%s)" % what)
+        return
+    files = ["market-pulse/data/telegram.json", "market-pulse/data/holdings.json",
+             "market-pulse/data/news.json", "market-pulse/data/state.json"]
+    if not _git("diff", "--quiet", "--", *files).returncode:
+        return
+    _git("add", *files)
+    _git("commit", "-m", "chore(bot): %s [skip ci]" % what)
+    for attempt in range(4):
+        if not _git("push", "origin", "HEAD:" + branch).returncode:
+            print("  pushed (%s)" % what)
+            return
+        _git("fetch", "origin", branch)
+        if _git("rebase", "origin/" + branch).returncode:
+            _git("rebase", "--abort")
+            sys.stderr.write("  could not rebase onto %s\n" % branch)
+            return
+    sys.stderr.write("  push failed after 4 attempts\n")
+
+
+def run_scan():
+    import subprocess
+    scan = ROOT / "scan.py"
+    if not scan.exists() or not os.environ.get("GEMINI_API_KEY"):
+        return
+    print("scan: starting")
+    r = subprocess.run([sys.executable, str(scan)], cwd=str(REPO),
+                       capture_output=True, text=True, timeout=900)
+    for line in (r.stdout or "").strip().splitlines()[-6:]:
+        print("  " + line)
+    if r.returncode:
+        sys.stderr.write("  scan exited %d: %s\n"
+                         % (r.returncode, (r.stderr or "")[-400:]))
+
+
+def serve():
+    """Stay resident and poll continuously, instead of waking on cron.
+
+    GitHub fires this repo's */5 schedule roughly once every four hours — it
+    drops the rest — so a cron-driven bot answers a command hours late and an
+    alert lands long after the move. One job that lives for its whole timeout
+    and long-polls covers the gap: the schedule only has to land often enough
+    to start the next worker, which it comfortably does.
+    """
+    import time
+    minutes = float(os.environ.get("SERVE_MINUTES", "330"))
+    scan_every = float(os.environ.get("SCAN_EVERY_MIN", "60")) * 60
+    deadline = time.time() + minutes * 60
+    print("worker: serving for %.0f min, scanning every %.0f min"
+          % (minutes, scan_every / 60))
+
+    next_scan = 0.0          # scan immediately on start
+    misses = 0
+    while time.time() < deadline:
+        if time.time() >= next_scan:
+            run_scan()
+            persist("scan")
+            next_scan = time.time() + scan_every
+
+        if alerts(quiet=True) == 0:
+            persist("alerts")
+
+        rc = poll(long_poll=25)
+        if rc == 0:
+            misses = 0
+            persist("commands")
+        else:
+            # A dead token fails every call; do not spend hours hammering it.
+            misses += 1
+            if not resolve_token():
+                sys.stderr.write("worker: no usable token, exiting for restart\n")
+                return 1
+            if misses >= 20:
+                sys.stderr.write("worker: 20 consecutive poll failures\n")
+                return 1
+            time.sleep(min(60, 2 ** misses))
+    print("worker: shift complete")
+    return 0
+
+
 if __name__ == "__main__":
-    if not TOKEN:
-        sys.exit("TELEGRAM_BOT_TOKEN is not set")
     mode = sys.argv[1] if len(sys.argv) > 1 else "poll"
-    sys.exit({"poll": poll, "alerts": alerts,
-              "setup": register_commands}.get(mode, poll)())
+    modes = {"poll": poll, "alerts": alerts, "serve": serve,
+             "setup": register_commands}
+    if mode not in modes:
+        sys.exit("unknown mode %r: expected one of %s"
+                 % (mode, ", ".join(sorted(modes))))
+    if not any(os.environ.get(n, "").strip() for n in TOKEN_NAMES):
+        sys.exit("no bot token: set %s" % " or ".join(TOKEN_NAMES))
+    if not resolve_token():
+        sys.exit("no configured token was accepted by Telegram. Open BotFather,"
+                 " send /mybots -> your bot -> API Token, and update the secret.")
+    sys.exit(modes[mode]())
