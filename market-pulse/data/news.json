@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-09-01T14:44:19Z",
+  "generated_at": "2026-09-01T21:14:03Z",
   "session_date": "2026-09-01",
   "items": [
+    {
+      "id": "20260901-aapl-ternus-ceo",
+      "time": "2026-09-01T12:00:00Z",
+      "headline": "Apple Rises 3% on John Ternus\u2019s First Day as CEO Even While the NASDAQ Skids",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AAPL"
+      ],
+      "why": "John Ternus has officially assumed the role of CEO at Apple, marking a major leadership transition for the world's largest consumer technology company. Investors are highly sensitive to executive succession, as the new chief will dictate Apple's long-term hardware roadmap, capital allocation, and AI integration strategy. The stock's positive relative performance on his first day indicates strong initial market confidence in the transition.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk1oaUF6dFQ5MDg2SHRLekstLWN0dHVWLXU1Zk1zSmRWQVJBUnN4LXRVaE9DWWFZXzF0ZXVRV2hwczZzWi0zZFEtVmtiOWZUUFRzTmhQQTJuSkkyOTJtTGYzdldibGw2MVlfQUphTVVtZE9Fa2FtVTRYOW1jcFV1allBOWY2Zi1ydGthLTNBM3E0Wi02dWtzRV9fRDJEWG5jMHVmQWVmS1FDVnY2blFDcGd3d3A?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260901-mu-korea-august-exports",
       "time": "2026-09-01T00:00:00Z",
