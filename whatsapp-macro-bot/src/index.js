@@ -5,7 +5,13 @@ import { handleMessage } from "./handler.js";
 import { startScheduler } from "./scheduler.js";
 import { downloadMedia, markRead, sendText, verifySignature } from "./whatsapp.js";
 
-assertConfig();
+try {
+  assertConfig();
+} catch (error) {
+  // A stack trace helps nobody here — the fix is always the same.
+  console.error(`\n${error.message}\n\nRun \`npm run setup\` to fill them in, then \`npm run doctor\` to check them.\n`);
+  process.exit(1);
+}
 
 const app = express();
 // The signature is computed over the exact bytes Meta sent, so keep the raw body.

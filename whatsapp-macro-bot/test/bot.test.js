@@ -9,6 +9,7 @@ const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "macro-bot-test-"));
 process.env.DB_PATH = path.join(tmpDir, "test.db");
 process.env.ANTHROPIC_API_KEY = "sk-ant-test";
 process.env.DEFAULT_TIMEZONE = "Europe/Madrid";
+process.env.WHATSAPP_APP_SECRET = "test-app-secret";
 
 const { localDate, localHour, shiftDate, isValidTimezone } = await import("../src/time.js");
 const { formatTotals, formatItem } = await import("../src/format.js");
@@ -17,6 +18,10 @@ const { parseCommand, parseGoals, handleMessage, COMMAND_NAMES } = await import(
   "../src/handler.js"
 );
 const db = await import("../src/db.js");
+const { GraphError, OUTSIDE_24H_WINDOW, verifySignature } = await import(
+  "../src/whatsapp.js"
+);
+const { summaryTemplateParams } = await import("../src/scheduler.js");
 
 after(() => fs.rmSync(tmpDir, { recursive: true, force: true }));
 
@@ -195,6 +200,52 @@ describe("commands end to end", () => {
     const reply = await handleMessage({ phone, text: "/totl" });
     assert.match(reply, /Unknown command/);
     assert.match(reply, /\/total/);
+  });
+});
+
+describe("webhook signatures", () => {
+  it("accepts a correctly signed body and rejects everything else", async () => {
+    const crypto = await import("node:crypto");
+    const body = Buffer.from('{"entry":[]}');
+    const signature = crypto
+      .createHmac("sha256", process.env.WHATSAPP_APP_SECRET)
+      .update(body)
+      .digest("hex");
+
+    assert.equal(verifySignature(body, `sha256=${signature}`), true);
+    assert.equal(verifySignature(body, `sha256=${"0".repeat(64)}`), false);
+    assert.equal(verifySignature(body, "not-a-signature"), false);
+    assert.equal(verifySignature(body, undefined), false);
+    // A truncated signature must not throw on the length mismatch.
+    assert.equal(verifySignature(body, "sha256=abc"), false);
+  });
+});
+
+describe("graph errors", () => {
+  it("pulls Meta's error code out of the response so callers can branch", () => {
+    const error = new GraphError(400, {
+      error: { message: "Message failed to send", code: OUTSIDE_24H_WINDOW, error_subcode: 12 },
+    });
+    assert.equal(error.code, OUTSIDE_24H_WINDOW);
+    assert.equal(error.status, 400);
+    assert.match(error.message, /Message failed to send/);
+  });
+
+  it("survives a non-JSON body", () => {
+    const error = new GraphError(502, null, "<html>bad gateway</html>");
+    assert.equal(error.code, null);
+    assert.match(error.message, /bad gateway/);
+  });
+});
+
+describe("daily recap template", () => {
+  it("renders the numbers in the order the approved template expects", () => {
+    const params = summaryTemplateParams(
+      { kcal_goal: 2400 },
+      { kcal: 1999.6, protein: 180.4, carbs: 210, fat: 65 },
+    );
+    assert.deepEqual(params, ["2000", "180", "210", "65", "2400"]);
+    assert.ok(params.every((p) => typeof p === "string"));
   });
 });
 

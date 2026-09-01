@@ -47,6 +47,12 @@ export const config = {
   dailySummaryHour:
     process.env.DAILY_SUMMARY_HOUR === "" ? null : num(process.env.DAILY_SUMMARY_HOUR, 21),
 
+  // Free-form messages are refused more than 24h after the user's last one, so
+  // the recap needs an approved template to be delivered reliably. Without one
+  // the recap still goes out, but only on days you have already messaged.
+  dailySummaryTemplate: process.env.DAILY_SUMMARY_TEMPLATE || "",
+  dailySummaryTemplateLang: process.env.DAILY_SUMMARY_TEMPLATE_LANG || "en",
+
   goals: {
     kcal: num(process.env.DEFAULT_KCAL_GOAL, 2400),
     protein: num(process.env.DEFAULT_PROTEIN_GOAL, 180),

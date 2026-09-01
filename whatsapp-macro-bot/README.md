@@ -57,28 +57,50 @@ typos: `/totl` comes back as "unknown command", while a bare `totl` is assumed
 to be something you ate. Aliases work too (`today`, `t`, `oops`, `remove last`,
 `menu`, `csv`).
 
-## Setup
+## Get it working
 
-### 1. WhatsApp Cloud API
+Three things have to be true: Meta will talk to your server, Claude will answer,
+and the server is always up. There is a wizard for the first two and a doctor
+that tells you which one is broken.
+
+### 1. Credentials (10 minutes, all on Meta's site)
 
 1. Create a Meta app at <https://developers.facebook.com/apps> → **Business** → add the **WhatsApp** product.
-2. **API Setup** gives you a test number and a temporary token. Note the **Phone number ID**.
-3. For 24/7 use, swap the 24-hour token for a permanent one: **Business Settings → Users → System Users** → add a system user with the `whatsapp_business_messaging` permission → **Generate token** (no expiry).
-4. Copy the **App Secret** from **App Settings → Basic**.
-5. Add your own number under **API Setup → To** so the test number can message you.
+2. **API Setup** gives you a test number. Note the **Phone number ID** (the long
+   number under *From* — not the phone number).
+3. Add your own number under **API Setup → To**, so the test number is allowed
+   to message you.
+4. Swap the 24-hour token for a permanent one: **Business Settings → Users →
+   System Users** → add a system user with `whatsapp_business_messaging` →
+   **Generate token**, no expiry. A temporary token is the single most common
+   reason a working bot goes silent the next day.
+5. Copy the **App Secret** from **App Settings → Basic**.
+6. Get an Anthropic API key from <https://console.anthropic.com>.
 
-### 2. Run it
+### 2. Set it up
 
 ```bash
-cp .env.example .env      # fill in the values
 npm install
-npm start
+npm run setup     # asks for the six values, writes .env, then checks them
 ```
 
-`ALLOWED_NUMBERS` is the allowlist — anyone not on it is ignored. Leave it empty
-only if you really want the bot to answer strangers.
+`npm run doctor` re-runs those checks any time. It verifies the Claude key, the
+WhatsApp token and phone number ID, and tells you the specific fix for each
+failure:
 
-### Try it without WhatsApp
+```
+✅ Configuration: all required variables are set
+✅ Allowlist: 1 number(s) allowed
+✅ Database: ./data/macros.db is writable
+✅ Claude API: key works, claude-opus-5 is available
+✅ WhatsApp number: +1 555 0100 (Macro bot) · quality GREEN
+```
+
+`npm run doctor -- --send` goes one further and has the bot actually message
+you. (WhatsApp only allows that within 24 hours of *your* last message, so
+send it anything first — the doctor says so if it hits that.)
+
+### 3. Try it with no WhatsApp at all
 
 A local simulator drives the same handler and the same database from a terminal:
 
@@ -90,23 +112,24 @@ npm run chat -- "/goals" "/total" "/week" # scripted, then exits
 Commands need no API key. Logging food needs `ANTHROPIC_API_KEY`, except for
 foods already in the memory, which are answered locally.
 
-### 3. Point Meta at it
+### 4. Point Meta at it
 
 The webhook must be reachable over HTTPS. For local development:
 
 ```bash
+npm start
 npx localtunnel --port 3000     # or: cloudflared tunnel --url http://localhost:3000
 ```
 
 Then in the Meta app: **WhatsApp → Configuration → Edit**
 
 - Callback URL: `https://your-host/webhook`
-- Verify token: the same string as `WHATSAPP_VERIFY_TOKEN`
+- Verify token: the same string `npm run setup` printed
 - Subscribe to the **messages** field.
 
 Send yourself a `/help` to confirm the round trip.
 
-### 4. Deploy for real (24/7)
+### 5. Deploy for real (24/7)
 
 Any host that runs a container works. Fly.io is included because the free
 allowance covers this and a volume keeps the database:
@@ -123,7 +146,12 @@ fly deploy
 `fly.toml` pins `auto_stop_machines = false` and `min_machines_running = 1` — a
 suspended machine misses webhooks and the nightly recap.
 
-Then update the Meta callback URL to `https://your-app.fly.dev/webhook`.
+Then update the Meta callback URL to `https://your-app.fly.dev/webhook`, and
+run the same checks against the deployed machine:
+
+```bash
+fly ssh console -C "node scripts/doctor.js"
+```
 
 Two GitHub Actions back this up, in `.github/workflows/`:
 
@@ -131,6 +159,22 @@ Two GitHub Actions back this up, in `.github/workflows/`:
 - **Macro bot keepalive** — pings `/health` every 10 minutes. Set the
   `BOT_HEALTH_URL` repo secret to `https://your-app.fly.dev/health`; without it
   the job skips. A failing run is your outage alarm.
+
+## The nightly recap and the 24-hour window
+
+WhatsApp refuses free-form messages more than 24 hours after your last one —
+which is exactly the situation on a day you forgot to log anything. Two options:
+
+- **Do nothing.** The recap arrives on days you have already messaged the bot,
+  and is skipped (with a log line, not an error) on days you have not.
+- **Add a template**, and it always arrives. In **WhatsApp Manager → Message
+  templates**, create a *Utility* template with this body:
+
+  ```
+  Daily recap: {{1}} kcal, {{2}}g protein, {{3}}g carbs, {{4}}g fat (goal {{5}} kcal).
+  ```
+
+  Then set `DAILY_SUMMARY_TEMPLATE` to its name. Approval usually takes minutes.
 
 ## Cost
 
@@ -160,6 +204,8 @@ src/scheduler.js  nightly recap in each user's timezone
 src/whatsapp.js   Graph API send / media download / signature check
 src/format.js     the WhatsApp replies
 src/time.js       local-day maths
+scripts/setup.js  first-run wizard (npm run setup)
+scripts/doctor.js credential + connectivity checks (npm run doctor)
 scripts/chat.js   local simulator (npm run chat)
 test/             node:test suite (npm test)
 ```

@@ -6,23 +6,53 @@ const graph = (path) =>
 
 const authHeaders = () => ({ Authorization: `Bearer ${config.whatsapp.token}` });
 
+/** Meta's error codes are the only way to tell "expired token" from "outside
+ *  the 24-hour window", and each needs a different response. */
+export class GraphError extends Error {
+  constructor(status, payload, raw) {
+    const detail = payload?.error?.message || raw || "no response body";
+    super(`Graph API ${status}: ${detail}`);
+    this.name = "GraphError";
+    this.status = status;
+    this.code = payload?.error?.code ?? null;
+    this.subcode = payload?.error?.error_subcode ?? null;
+  }
+}
+
+/** 131047: the user has not messaged in 24h, so free-form text is refused. */
+export const OUTSIDE_24H_WINDOW = 131047;
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 async function graphFetch(url, options = {}, { retries = 2 } = {}) {
   let lastError;
   for (let attempt = 0; attempt <= retries; attempt++) {
+    let response;
     try {
-      const response = await fetch(url, options);
-      if (response.ok) return response;
-      const body = await response.text();
-      // 4xx other than rate limiting will not get better by retrying.
-      if (response.status < 500 && response.status !== 429) {
-        throw new Error(`Graph API ${response.status}: ${body}`);
-      }
-      lastError = new Error(`Graph API ${response.status}: ${body}`);
-    } catch (error) {
-      lastError = error;
-      if (String(error.message).startsWith("Graph API 4")) throw error;
+      response = await fetch(url, options);
+    } catch (cause) {
+      // Network-level failure: worth retrying.
+      lastError = new Error(`Could not reach the Graph API: ${cause.message}`, { cause });
+      await sleep(500 * 2 ** attempt);
+      continue;
     }
-    await new Promise((resolve) => setTimeout(resolve, 500 * 2 ** attempt));
+
+    if (response.ok) return response;
+
+    const raw = await response.text();
+    let payload;
+    try {
+      payload = JSON.parse(raw);
+    } catch {
+      payload = null;
+    }
+    const error = new GraphError(response.status, payload, raw);
+
+    // A bad token or a rejected message will not fix itself; only server
+    // errors and rate limits are worth another attempt.
+    if (response.status < 500 && response.status !== 429) throw error;
+    lastError = error;
+    await sleep(500 * 2 ** attempt);
   }
   throw lastError;
 }
@@ -55,6 +85,46 @@ export async function sendText(to, body) {
       }),
     });
   }
+}
+
+/**
+ * WhatsApp only allows free-form text within 24 hours of the user's last
+ * message. The nightly recap is usually outside that window, so it goes out
+ * as a pre-approved template with the day's numbers as parameters.
+ */
+export async function sendTemplate(to, name, languageCode, parameters = []) {
+  await graphFetch(graph(`${config.whatsapp.phoneNumberId}/messages`), {
+    method: "POST",
+    headers: { ...authHeaders(), "Content-Type": "application/json" },
+    body: JSON.stringify({
+      messaging_product: "whatsapp",
+      recipient_type: "individual",
+      to,
+      type: "template",
+      template: {
+        name,
+        language: { code: languageCode },
+        components: parameters.length
+          ? [
+              {
+                type: "body",
+                parameters: parameters.map((text) => ({ type: "text", text: String(text) })),
+              },
+            ]
+          : [],
+      },
+    }),
+  });
+}
+
+/** Used by `npm run doctor` to prove the token and phone number id line up. */
+export async function getPhoneNumberInfo() {
+  const response = await graphFetch(
+    graph(`${config.whatsapp.phoneNumberId}?fields=display_phone_number,verified_name,quality_rating`),
+    { headers: authHeaders() },
+    { retries: 0 },
+  );
+  return response.json();
 }
 
 export async function markRead(messageId) {

@@ -11,7 +11,9 @@
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
     "test": "node --test test/*.test.js",
-    "chat": "node scripts/chat.js"
+    "chat": "node scripts/chat.js",
+    "setup": "node scripts/setup.js",
+    "doctor": "node scripts/doctor.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.122.0",

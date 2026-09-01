@@ -3,7 +3,7 @@ import { config } from "./config.js";
 import { getDayTotals, listUsers, pruneOldMessageIds, setLastSummary } from "./db.js";
 import { formatTotals } from "./format.js";
 import { localDate, localHour, prettyDate } from "./time.js";
-import { sendText } from "./whatsapp.js";
+import { OUTSIDE_24H_WINDOW, sendTemplate, sendText } from "./whatsapp.js";
 
 function summaryFor(user, day) {
   const totals = getDayTotals(user.phone, day);
@@ -16,6 +16,31 @@ function summaryFor(user, day) {
       ? `${left} kcal still available if you're eating again tonight.`
       : `${Math.abs(left)} kcal over — no drama, tomorrow is a new day.`;
   return `${formatTotals(totals, user, { title: `Daily recap — ${prettyDate(day, user.timezone)}` })}\n\n${tail}`;
+}
+
+/** Template parameters for the recap, in the order the approved body uses. */
+export function summaryTemplateParams(user, totals) {
+  return [
+    Math.round(totals.kcal),
+    Math.round(totals.protein),
+    Math.round(totals.carbs),
+    Math.round(totals.fat),
+    Math.round(user.kcal_goal),
+  ].map(String);
+}
+
+async function deliverSummary(user, day) {
+  if (config.dailySummaryTemplate) {
+    const totals = getDayTotals(user.phone, day);
+    await sendTemplate(
+      user.phone,
+      config.dailySummaryTemplate,
+      config.dailySummaryTemplateLang,
+      summaryTemplateParams(user, totals),
+    );
+    return;
+  }
+  await sendText(user.phone, summaryFor(user, day));
 }
 
 /**
@@ -36,9 +61,19 @@ export function startScheduler() {
         if (user.last_summary === today) continue;
         if (localHour(user.timezone) !== config.dailySummaryHour) continue;
 
-        await sendText(user.phone, summaryFor(user, today));
+        await deliverSummary(user, today);
         setLastSummary(user.phone, today);
       } catch (error) {
+        if (error.code === OUTSIDE_24H_WINDOW) {
+          // Expected on a day the user never messaged. Stamp it anyway so the
+          // next 15-minute tick does not retry all evening.
+          setLastSummary(user.phone, today);
+          console.warn(
+            `[scheduler] recap for ${user.phone} skipped: outside WhatsApp's 24h window. ` +
+              "Set DAILY_SUMMARY_TEMPLATE to deliver it on quiet days.",
+          );
+          continue;
+        }
         console.error(`[scheduler] summary failed for ${user.phone}:`, error.message);
       }
     }
