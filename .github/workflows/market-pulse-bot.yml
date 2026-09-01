@@ -1,13 +1,14 @@
 name: Market Pulse Telegram bot
 
-# NOTE: GitHub only fires `schedule` from the repository's DEFAULT branch.
-# This file must be merged to `main` for the 5-minute cadence to start.
-# It reads market data from DATA_BRANCH, so the Claude scan can keep pushing
-# to the feature branch.
+# Manual entry point for the Telegram bridge: one poll pass, one alert push, or
+# the one-off command-menu registration. The continuous 24/7 path is
+# market-pulse-worker.yml.
 
+# No schedule any more. The worker workflow polls Telegram continuously, and two
+# pollers cannot coexist: getUpdates hands each update to whoever asks first, and
+# both processes store their own offset in the same committed file, so they would
+# race and drop commands. Kept for manual runs and one-off maintenance.
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       mode:

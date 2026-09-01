@@ -42,6 +42,12 @@ def _load_dotenv():
 _load_dotenv()
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 API = "https://api.telegram.org/bot" + TOKEN
+
+# Both names have been used for this secret. Trying them in a fixed order is
+# what hid a dead token for two days: the stale TELEGRAM_BOT_TOKEN won over a
+# fresh TELEGRAM_TOKEN, and the workflow reported the secret as "configured".
+# Pick by what Telegram actually accepts, not by name precedence.
+TOKEN_NAMES = ("TELEGRAM_BOT_TOKEN", "TELEGRAM_TOKEN")
 MAXLEN = 3900          # Telegram hard-caps a message at 4096 chars
 ARROW = {"bullish": "\U0001F7E2", "bearish": "\U0001F534", "uncertain": "\U0001F7E1"}
 
@@ -59,14 +65,45 @@ def save_tg(state):
     (DATA / "telegram.json").write_text(json.dumps(state, indent=2) + "\n")
 
 
-def call(method, **params):
+def set_token(tok):
+    global TOKEN, API
+    TOKEN = tok
+    API = "https://api.telegram.org/bot" + tok
+
+
+def resolve_token():
+    """Adopt whichever configured token Telegram actually accepts.
+
+    Returns the winning variable name, or None if none work. Logs the name and
+    length only — never the value, which would land in a public Actions log.
+    """
+    seen = []
+    for name in TOKEN_NAMES:
+        tok = os.environ.get(name, "").strip()
+        if not tok or tok in seen:
+            continue
+        seen.append(tok)
+        set_token(tok)
+        me = call("getMe", _quiet=True)
+        if me.get("ok"):
+            print("token: %s (%d chars) accepted as @%s"
+                  % (name, len(tok), me["result"].get("username", "?")))
+            return name
+        print("token: %s (%d chars) rejected by Telegram" % (name, len(tok)))
+    set_token("")
+    return None
+
+
+def call(method, _quiet=False, _timeout=30, **params):
     body = urllib.parse.urlencode(
         {k: v for k, v in params.items() if v is not None}).encode()
     req = urllib.request.Request(API + "/" + method, data=body)
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
+        with urllib.request.urlopen(req, timeout=_timeout) as r:
             return json.loads(r.read())
     except urllib.error.HTTPError as e:
+        if _quiet:
+            return {"ok": False, "error_code": e.code}
         sys.stderr.write("%s failed: %s %s\n" % (method, e.code, e.read()[:400]))
         if e.code in (401, 404):
             # Telegram answers 404 for an unknown /bot<token> path and 401 for a
@@ -78,6 +115,8 @@ def call(method, **params):
                 " send /mybots -> your bot -> API Token, and update the"
                 " TELEGRAM_BOT_TOKEN repository secret.\n")
     except Exception as e:                                    # noqa: BLE001
+        if _quiet:
+            return {"ok": False}
         sys.stderr.write("%s failed: %r\n" % (method, e))
     return {"ok": False}
 
@@ -346,9 +385,13 @@ COMMANDS = {"report": cmd_report, "top": cmd_top, "board": cmd_board,
 
 # ---------- modes ----------
 
-def poll():
+def poll(long_poll=0):
+    """One getUpdates pass. long_poll>0 holds the connection open that many
+    seconds, so a command is answered as it arrives rather than on the next
+    scheduled run."""
     tg = load("telegram.json", {"chat_ids": [], "offset": 0, "sent_ids": []})
-    res = call("getUpdates", offset=tg.get("offset", 0), timeout=0, limit=40)
+    res = call("getUpdates", offset=tg.get("offset", 0), timeout=long_poll,
+               limit=40, _timeout=long_poll + 15)
     if not res.get("ok"):
         return 1
     updates = res.get("result", [])
@@ -377,17 +420,21 @@ def poll():
     return 1 if failed else 0
 
 
-def alerts():
+def alerts(quiet=False):
+    """quiet suppresses the two routine no-ops, which the worker hits on every
+    pass — a few thousand times a shift."""
     tg = load("telegram.json", {"chat_ids": [], "offset": 0, "sent_ids": []})
     if not tg["chat_ids"]:
-        print("no registered chats yet — send /start to the bot")
+        if not quiet:
+            print("no registered chats yet — send /start to the bot")
         return 0
     thr = load("state.json", {"alert_threshold": 8}).get("alert_threshold", 8)
     news = load("news.json", {"items": []})["items"]
     fresh = [i for i in sorted(news, key=lambda x: -x["impact"])
              if i["impact"] >= thr and i["id"] not in tg["sent_ids"]]
     if not fresh:
-        print("no new alert-grade items")
+        if not quiet:
+            print("no new alert-grade items")
         return 0
     text = "\U0001F6A8 <b>%d new alert-grade item%s</b>\n\n" % (
         len(fresh), "" if len(fresh) == 1 else "s")
@@ -422,6 +469,98 @@ def register_commands():
         ("watchlist", "Your tracked tickers"),
         ("help", "Show commands")]]
     print(call("setMyCommands", commands=json.dumps(cmds)))
+    return 0
+
+
+
+
+# ---------- long-running worker ----------
+
+def _git(*args):
+    import subprocess
+    return subprocess.run(("git",) + args, cwd=str(REPO),
+                          capture_output=True, text=True)
+
+
+def persist(what):
+    """Commit and push the data files, if any changed. Rebases on a race with
+    the scan workflow, which pushes to the same branch."""
+    files = ["market-pulse/data/telegram.json", "market-pulse/data/holdings.json",
+             "market-pulse/data/news.json", "market-pulse/data/state.json"]
+    if not _git("diff", "--quiet", "--", *files).returncode:
+        return
+    branch = os.environ.get("DATA_BRANCH", "HEAD")
+    _git("add", *files)
+    _git("commit", "-m", "chore(bot): %s [skip ci]" % what)
+    for attempt in range(4):
+        if not _git("push", "origin", "HEAD:" + branch).returncode:
+            print("  pushed (%s)" % what)
+            return
+        _git("fetch", "origin", branch)
+        if _git("rebase", "origin/" + branch).returncode:
+            _git("rebase", "--abort")
+            sys.stderr.write("  could not rebase onto %s\n" % branch)
+            return
+    sys.stderr.write("  push failed after 4 attempts\n")
+
+
+def run_scan():
+    import subprocess
+    scan = ROOT / "scan.py"
+    if not scan.exists() or not os.environ.get("GEMINI_API_KEY"):
+        return
+    print("scan: starting")
+    r = subprocess.run([sys.executable, str(scan)], cwd=str(REPO),
+                       capture_output=True, text=True, timeout=900)
+    for line in (r.stdout or "").strip().splitlines()[-6:]:
+        print("  " + line)
+    if r.returncode:
+        sys.stderr.write("  scan exited %d: %s\n"
+                         % (r.returncode, (r.stderr or "")[-400:]))
+
+
+def serve():
+    """Stay resident and poll continuously, instead of waking on cron.
+
+    GitHub fires this repo's */5 schedule roughly once every four hours — it
+    drops the rest — so a cron-driven bot answers a command hours late and an
+    alert lands long after the move. One job that lives for its whole timeout
+    and long-polls covers the gap: the schedule only has to land often enough
+    to start the next worker, which it comfortably does.
+    """
+    import time
+    minutes = float(os.environ.get("SERVE_MINUTES", "330"))
+    scan_every = float(os.environ.get("SCAN_EVERY_MIN", "60")) * 60
+    deadline = time.time() + minutes * 60
+    print("worker: serving for %.0f min, scanning every %.0f min"
+          % (minutes, scan_every / 60))
+
+    next_scan = 0.0          # scan immediately on start
+    misses = 0
+    while time.time() < deadline:
+        if time.time() >= next_scan:
+            run_scan()
+            persist("scan")
+            next_scan = time.time() + scan_every
+
+        if alerts(quiet=True) == 0:
+            persist("alerts")
+
+        rc = poll(long_poll=25)
+        if rc == 0:
+            misses = 0
+            persist("commands")
+        else:
+            # A dead token fails every call; do not spend hours hammering it.
+            misses += 1
+            if not resolve_token():
+                sys.stderr.write("worker: no usable token, exiting for restart\n")
+                return 1
+            if misses >= 20:
+                sys.stderr.write("worker: 20 consecutive poll failures\n")
+                return 1
+            time.sleep(min(60, 2 ** misses))
+    print("worker: shift complete")
     return 0
 
 

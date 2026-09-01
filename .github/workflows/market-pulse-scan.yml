@@ -14,8 +14,10 @@ on:
     # Hourly on weekdays; every three hours at weekends, when only genuinely
     # unscheduled news happens. Story-level dedupe stops the same headline
     # alerting twice, and an exhausted quota skips quietly.
-    - cron: '5 * * * 1-5'      # every hour, Mon-Fri
-    - cron: '5 */3 * * 0,6'    # every 3 hours, Sat-Sun
+    # Backstop only: the worker scans hourly on its own clock. This catches the
+    # window where no worker is alive and the watchdog has not yet landed one.
+    # Story-level dedupe makes an overlapping scan a no-op rather than a repeat.
+    - cron: '35 */6 * * *'     # every 6 hours, every day
   workflow_dispatch:
     inputs:
       dry_run:

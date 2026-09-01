@@ -1,0 +1,98 @@
+name: Market Pulse worker
+
+# GitHub fires this repository's */5 schedule roughly once every four hours and
+# silently drops the rest, so a cron-driven bot is not a 24/7 bot: commands were
+# answered hours late and alerts landed long after the move.
+#
+# This workflow inverts the model. One job stays resident for its whole timeout,
+# long-polling Telegram and scanning on its own clock, then hands off to a fresh
+# run before it expires. The schedule below is only a watchdog: it has to land
+# occasionally, not reliably, because a live worker needs no help and a dead one
+# is replaced by the next cron that does land.
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+# At most one worker runs. A second is held as the single pending run, which
+# GitHub starts the moment this one exits — so the handoff is seamless even when
+# the re-dispatch below is what triggered it.
+concurrency:
+  group: market-pulse-worker
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  DATA_BRANCH: claude/realtime-market-news-agent-w50nuu
+
+jobs:
+  worker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.DATA_BRANCH }}
+          fetch-depth: 0          # the worker rebases when the scan races it
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Identify the committer
+        run: |
+          git config user.name  "market-pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Record start time
+        id: start
+        run: echo "epoch=$(date +%s)" >> "$GITHUB_OUTPUT"
+
+      # Both secret names are passed through untouched. Resolving them here with
+      # `||` is what let a stale TELEGRAM_BOT_TOKEN mask a fresh TELEGRAM_TOKEN
+      # for two days: the workflow saw a non-empty value and called it
+      # configured. bot.py now picks whichever one Telegram actually accepts.
+      - name: Serve
+        id: serve
+        continue-on-error: true
+        working-directory: market-pulse/telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GOOGLE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.CLAUDE_API_KEY }}
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID || 'wrkspc_015aj4TLt7DTweVzLPSUynaL' }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          SERVE_MINUTES: '330'
+          SCAN_EVERY_MIN: '60'
+        run: python3 -u bot.py serve
+
+      # Hand off to the next worker. workflow_dispatch is one of the two events
+      # GITHUB_TOKEN is still allowed to trigger, so the chain is self-sustaining
+      # and does not need a personal access token.
+      #
+      # Guarded on elapsed time: a worker that died in its first minutes would
+      # otherwise re-dispatch itself in a tight loop. Below the threshold the
+      # watchdog schedule takes over, which is slower but cannot spin.
+      - name: Hand off to the next worker
+        if: always()
+        run: |
+          elapsed=$(( $(date +%s) - ${{ steps.start.outputs.epoch }} ))
+          echo "worker ran for ${elapsed}s (serve: ${{ steps.serve.outcome }})"
+          if [ "$elapsed" -lt 300 ]; then
+            echo "::warning::Worker exited after ${elapsed}s. Not re-dispatching;"\
+                 "the watchdog schedule will retry. Check the Serve step above."
+            exit 0
+          fi
+          curl -sS -X POST -o /dev/null -w 'dispatch: HTTP %{http_code}\n' \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/market-pulse-worker.yml/dispatches" \
+            -d '{"ref":"main"}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
