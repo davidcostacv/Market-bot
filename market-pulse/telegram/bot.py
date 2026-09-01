@@ -485,11 +485,18 @@ def _git(*args):
 def persist(what):
     """Commit and push the data files, if any changed. Rebases on a race with
     the scan workflow, which pushes to the same branch."""
+    branch = os.environ.get("DATA_BRANCH", "").strip()
+    if not branch:
+        # Only the workflow sets DATA_BRANCH. Without it we are running from
+        # someone's checkout, where committing and pushing on their behalf is
+        # never what they meant — a bare `bot.py serve` here once committed a
+        # test ledger onto the working branch.
+        print("  DATA_BRANCH unset — not committing (%s)" % what)
+        return
     files = ["market-pulse/data/telegram.json", "market-pulse/data/holdings.json",
              "market-pulse/data/news.json", "market-pulse/data/state.json"]
     if not _git("diff", "--quiet", "--", *files).returncode:
         return
-    branch = os.environ.get("DATA_BRANCH", "HEAD")
     _git("add", *files)
     _git("commit", "-m", "chore(bot): %s [skip ci]" % what)
     for attempt in range(4):
@@ -565,8 +572,15 @@ def serve():
 
 
 if __name__ == "__main__":
-    if not TOKEN:
-        sys.exit("TELEGRAM_BOT_TOKEN is not set")
     mode = sys.argv[1] if len(sys.argv) > 1 else "poll"
-    sys.exit({"poll": poll, "alerts": alerts,
-              "setup": register_commands}.get(mode, poll)())
+    modes = {"poll": poll, "alerts": alerts, "serve": serve,
+             "setup": register_commands}
+    if mode not in modes:
+        sys.exit("unknown mode %r: expected one of %s"
+                 % (mode, ", ".join(sorted(modes))))
+    if not any(os.environ.get(n, "").strip() for n in TOKEN_NAMES):
+        sys.exit("no bot token: set %s" % " or ".join(TOKEN_NAMES))
+    if not resolve_token():
+        sys.exit("no configured token was accepted by Telegram. Open BotFather,"
+                 " send /mybots -> your bot -> API Token, and update the secret.")
+    sys.exit(modes[mode]())
