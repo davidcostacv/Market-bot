@@ -1,0 +1,52 @@
+name: Macro bot CI
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "whatsapp-macro-bot/**"
+      - ".github/workflows/macro-bot-ci.yml"
+  pull_request:
+    paths:
+      - "whatsapp-macro-bot/**"
+      - ".github/workflows/macro-bot-ci.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: whatsapp-macro-bot
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: whatsapp-macro-bot/package-lock.json
+
+      - run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Check the server boots with a full config
+        env:
+          WHATSAPP_TOKEN: test-token
+          WHATSAPP_PHONE_NUMBER_ID: "000000000000000"
+          WHATSAPP_APP_SECRET: test-secret
+          WHATSAPP_VERIFY_TOKEN: test-verify
+          ANTHROPIC_API_KEY: sk-ant-test
+          DB_PATH: ./data/ci.db
+          DAILY_SUMMARY_HOUR: ""
+          PORT: "3000"
+        run: |
+          node src/index.js &
+          pid=$!
+          for i in $(seq 1 20); do
+            if curl -sf http://127.0.0.1:3000/health > /dev/null; then ok=1; break; fi
+            sleep 1
+          done
+          kill $pid
+          test "$ok" = "1" || { echo "server never became healthy"; exit 1; }

@@ -1,0 +1,33 @@
+name: Macro bot keepalive
+
+# The bot has to answer a webhook at any hour, so this pings /health every ten
+# minutes: it keeps free-tier hosts from idling the machine to sleep and turns
+# a silent outage into a failed workflow run you actually get emailed about.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the health endpoint
+        env:
+          # Repo secret, e.g. https://your-app.fly.dev/health
+          BOT_HEALTH_URL: ${{ secrets.BOT_HEALTH_URL }}
+        run: |
+          if [ -z "$BOT_HEALTH_URL" ]; then
+            echo "BOT_HEALTH_URL secret is not set — skipping."
+            exit 0
+          fi
+          for attempt in 1 2 3; do
+            if curl -sfS --max-time 20 "$BOT_HEALTH_URL"; then
+              echo "\nBot is up."
+              exit 0
+            fi
+            echo "Attempt $attempt failed, retrying in $((attempt * 10))s"
+            sleep $((attempt * 10))
+          done
+          echo "Bot did not respond after 3 attempts."
+          exit 1
