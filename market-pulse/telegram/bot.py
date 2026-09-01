@@ -10,7 +10,7 @@ policy blocks api.telegram.org (403 on CONNECT), and it is ephemeral besides.
 Both are idempotent: a command is answered once (update_id offset) and an alert
 is sent once (sent ledger). Reads TELEGRAM_BOT_TOKEN from the environment.
 """
-import json, os, sys, pathlib, urllib.request, urllib.error, urllib.parse
+import json, os, re, sys, pathlib, urllib.request, urllib.error, urllib.parse
 
 import quotes as quotes_mod
 
@@ -48,6 +48,25 @@ API = "https://api.telegram.org/bot" + TOKEN
 # fresh TELEGRAM_TOKEN, and the workflow reported the secret as "configured".
 # Pick by what Telegram actually accepts, not by name precedence.
 TOKEN_NAMES = ("TELEGRAM_BOT_TOKEN", "TELEGRAM_TOKEN")
+
+# A well-formed token is <bot id>:<35-char secret>, about 46 characters.
+TOKEN_SHAPE = re.compile(r"^\d{5,}:[A-Za-z0-9_-]{30,}$")
+
+
+def clean_token(raw):
+    """Recover the token from the ways a secret gets pasted wrong.
+
+    A secret box wants the bare value, but the surrounding line usually comes
+    with it: `TELEGRAM_TOKEN=123:abc`, a quoted value, or the api.telegram.org
+    path prefix. Telegram answers 404 for all of them, which reads as a revoked
+    token and sends you back to BotFather for a replacement that will not help.
+    """
+    tok = (raw or "").strip().strip('"').strip("'").strip()
+    m = re.match(r"^[A-Za-z_][A-Za-z0-9_]*\s*=\s*(.+)$", tok)   # NAME=value
+    if m:
+        tok = m.group(1).strip().strip('"').strip("'").strip()
+    tok = re.sub(r"^(?:https?://)?(?:api\.telegram\.org/)?bot(?=\d)", "", tok)
+    return tok.strip()
 MAXLEN = 3900          # Telegram hard-caps a message at 4096 chars
 ARROW = {"bullish": "\U0001F7E2", "bearish": "\U0001F534", "uncertain": "\U0001F7E1"}
 
@@ -79,17 +98,23 @@ def resolve_token():
     """
     seen = []
     for name in TOKEN_NAMES:
-        tok = os.environ.get(name, "").strip()
+        raw = os.environ.get(name, "")
+        tok = clean_token(raw)
         if not tok or tok in seen:
             continue
         seen.append(tok)
+        fixed = "" if tok == raw.strip() else \
+            " (recovered from %d chars of surrounding text)" % (len(raw.strip()) - len(tok))
         set_token(tok)
         me = call("getMe", _quiet=True)
         if me.get("ok"):
-            print("token: %s (%d chars) accepted as @%s"
-                  % (name, len(tok), me["result"].get("username", "?")))
+            print("token: %s (%d chars)%s accepted as @%s"
+                  % (name, len(tok), fixed, me["result"].get("username", "?")))
             return name
-        print("token: %s (%d chars) rejected by Telegram" % (name, len(tok)))
+        shape = "" if TOKEN_SHAPE.match(tok) else \
+            " — this does not look like a bot token (expected <id>:<secret>)"
+        print("token: %s (%d chars)%s rejected by Telegram%s"
+              % (name, len(tok), fixed, shape))
     set_token("")
     return None
 
