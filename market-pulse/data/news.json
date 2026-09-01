@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-08-30T23:16:21Z",
-  "session_date": "2026-08-30",
+  "generated_at": "2026-09-01T14:44:19Z",
+  "session_date": "2026-09-01",
   "items": [
+    {
+      "id": "20260901-mu-korea-august-exports",
+      "time": "2026-09-01T00:00:00Z",
+      "headline": "Korea's August exports jump 68.7% to $98.25 billion on strong chip demand",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "South Korea's August exports surged 68.7% to $98.25 billion, driven by a massive tripling of semiconductor sales amid the ongoing AI memory boom. As a key leading indicator for global tech hardware, this record-breaking trade data fundamentally validates robust multi-quarter demand for AI infrastructure, directly benefiting memory makers and chip designers.",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDRHOWZrLWEyMVlVaHdJUnd2SXBiTXlpLXFORGxQU1RYQWlkdWZIN3AxV3ZUYjNiTVpXekZkTTd1cEtTT256V3Vtdms2UFZYRnF0eUd2TVh3WF9VMXhvbnlLOGJSd2pxam9wTkxNMkp0UlNFRUFlcDB0a19IMFl6dGFpXzFrSVRFZ0xZWmlyaE1MNHR3WkNqV2RqUzR2cGpJTmo5dzVvY0x1TkNKRUdpZWJHbDNVb3hJbWfSAboBQVVfeXFMTlQ0Rzlmay1hMjFZVWh3SVJ3dklwYk15aS1xTkRsUFNUWEFpZHVmSDdwMVd2VGIzYk1aV3pGZE03dXBLU09ueld1bXZrNlBWWEFxdHlHdk1Yd1hfVTF4b255SzhiUndqcWpvcE5MTTJKdFJTRUVBZXAwdGtfSDBZenRhaV8xa0lURWdMWVppcmhNTDR0d1pDaldkalM0dnBqSU5qOXc1b2NMdU5DSkVHaWViR2wzVW94SW1n?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260901-nvda-korea-strategic-export-controls",
+      "time": "2026-09-01T00:00:00Z",
+      "headline": "AI Chips and Advanced Semiconductor Equipment Designated as Strategic Materials...Government Approval Now Required for Export",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AMD",
+        "TSM",
+        "AVGO",
+        "ASML"
+      ],
+      "why": "South Korea has designated AI chips and advanced semiconductor equipment as strategic materials, requiring government approval for export. This regulatory shift introduces potential friction and compliance hurdles into the global AI hardware supply chain, particularly affecting high-bandwidth memory (HBM) shipments to major chip designers and equipment flows.",
+      "source": "\uc544\uc2dc\uc544\uacbd\uc81c",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MMmVaRkRhY0pfeXRuMUpYWEtPZFVwaU4xR0VtX3djRjRjdHBES0hKVV9wZmQ3bXFKN0xDZXoyZFRaVHhlZHFEQWRFcTR4MXJ2bEZXWHh6UUhBdnlsc3FkUEFNX08?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260901-mu-cxmt-hbm3e-production",
+      "time": "2026-09-01T00:00:00Z",
+      "headline": "China\u2019s CXMT begins HBM3E production as chip battle with Korean powerhouses widens",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU"
+      ],
+      "why": "Chinese memory maker CXMT has commenced production of HBM3E, intensifying the global competition for high-bandwidth memory. This milestone accelerates China's domestic semiconductor self-sufficiency and introduces a new low-cost competitor into the high-margin HBM market, potentially threatening the pricing power of established players like Micron.",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWmlaa3dBaURDY1lNRktuc05LU0k5cThZcVRfeC1FZEpySC1TTGl2Y3pvN2psRWpXcmN1MmZLWGltRFlfblh2RldTa05ZWHoycWYtdmdEaHFkRWNDNlJMY2F1S3RrTS1oazVGZkFRV2VBWWRXei12RFF0c05EQ1ZiSGowOF91cFBTSVZjTlRjaUtwTnk3a1FqX1RxOXdBNnpNcEJLZGZ4U1lsV2JsLURjRkpXU2x2RmVmX2JCVHl5dktkekF2b01uUjc5OHJhenM?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260830-macro-us-strikes-iran",
       "time": "2026-08-30T00:00:00Z",
