@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-09-02T11:36:02Z",
+  "generated_at": "2026-09-02T16:47:27Z",
   "session_date": "2026-09-02",
   "items": [
+    {
+      "id": "20260902-macro-adp-jobs-miss",
+      "time": "2026-09-02T12:00:00Z",
+      "headline": "US August ADP Weakens Unexpectedly With Only 38,000 Jobs Added Below Expectations, Boosting Rate Cut Bets",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "The US private sector added only 38,000 jobs in August, coming in significantly below expectations. This sharp slowdown in labor market momentum heightens economic growth concerns while simultaneously boosting market expectations for aggressive Federal Reserve rate cuts.",
+      "source": "tradingkey.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX2lVb0JtYkZzNTV4Z0t0SHFiQWJKQTcwQ0psNUN0QzNmc2lTSUFFaU1KRXFjTUFkYWxtdG5IMjNaclZ3dDZiTUdvTWdDZzVUbUJnWTZyR0M4VUpScHYyTmdoS0pTaURlTW9od2w4eVhmcGJ3ZHE3Z2dKMTVfTUFEOFBkSWk2dmpqRE9rUnJ1N1RvNHE1STVaSGdySTd5NHRZeVZrTnJkVkR6VFFGRWRncA?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260902-mu-strike-threat",
       "time": "2026-09-02T00:00:00Z",
