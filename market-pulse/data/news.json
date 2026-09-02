@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-09-02T16:47:27Z",
+  "generated_at": "2026-09-02T21:12:30Z",
   "session_date": "2026-09-02",
   "items": [
+    {
+      "id": "20260902-avgo-q3-earnings",
+      "time": "2026-09-02T20:30:00Z",
+      "headline": "Broadcom slides even as Q3 results, guidance top Wall Street's estimates",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "MRVL",
+        "AMD",
+        "TSM",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "Broadcom reported fiscal Q3 revenue of $29.59B versus $29.24B consensus expectations, but shares slid post-market as investors questioned high valuation multiples and demand sustainability outside of core AI custom silicon. The negative price reaction creates near-term multiple compression across custom ASIC designers and AI networking suppliers.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORnl1ZHF1MVBjZXQ5REpINldZakJkTnBrZkp3Z0ZUbTc0WHNERjE5MnhJN0dCZWVGclVyYkplZXhVYlJ3MkRqS2dLd3VOUFVxRXVfM3pmQ0d0dUZUNG9PSW1jOUV2LVNhbWs5N09TdG9QZ2NIcFQ0R2pLYlJpaFp6SHJITHdYMEZqdXRWTUZXTGhTV1QxWjZ0bWZhbjB6Nk9ENGhUZmlSYWItUDd5?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260902-macro-adp-jobs-miss",
       "time": "2026-09-02T12:00:00Z",
