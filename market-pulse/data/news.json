@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-09-01T21:14:03Z",
-  "session_date": "2026-09-01",
+  "generated_at": "2026-09-02T04:55:56Z",
+  "session_date": "2026-09-02",
   "items": [
+    {
+      "id": "20260902-mu-strike-threat",
+      "time": "2026-09-02T00:00:00Z",
+      "headline": "Micron\u2019s Workers Are Threatening to Strike. What It Means for the Stock.",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "A potential strike by Micron workers threatens to disrupt the production of critical DRAM and HBM memory chips. This supply-side risk could hurt Micron's near-term revenue and create component bottlenecks for major AI chipmakers like Nvidia and AMD.",
+      "source": "barrons.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tQ2JiODJoUFF6aEZJQWJLa2ljaWdpVGlnVDJ5XzE2NzJLeDhxTFg5S2I1ZkFSUk1SMUcxd0lKS1FxUGdHRW5xZ2FnQk1Ta3NKRkNKU3NwRW44WEpEVXBhcnhBbldUM0NwNFpSUnBzbjVSMFZxcldMSHM0X0J0dE0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260902-intc-sk-hynix-deal",
+      "time": "2026-09-02T00:00:00Z",
+      "headline": "INTC Stock\u2019s Next Boost Could Be Here: Report Says Intel May Land Korea's SK Hynix As Major Customer",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "MU"
+      ],
+      "why": "Reports indicating that Intel Foundry might secure South Korea's SK Hynix as a major customer provide validation for Intel's manufacturing turnaround strategy. If finalized, this deal would secure a high-volume customer for Intel's advanced nodes, while increasing competition for rival memory and foundry players.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQMWJaV1MwbXUzanFQdjJWQUxVNmJUSF9Ra2xUUGlMalk0VjV4NFVQeE5BX3IxSnhyejZNMTlBVnhwWFFxN0V4ZWlELWNDRm51Z0NJR2NWWlZTOEFQbnRERVBoMFdWWS1CZ0hocTVmUF9xNnhjZlFobUtCdFNPeUg1WDhnWFliSUpXTC1weW9od1hydG4tY3lDcDV2VWpmeDAzVExDNFFnQkMtOUNkSzNvWWhJM2dqR1R4ZE5RSjZKV0N2bTMwVE5fZWt3RUdqcTFkdWdhMUlVNFJuRi1keF9wUmtrTmdibjVRUEN0eW5aNk8yU2pxTnc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260902-lrcx-ubs-cut",
+      "time": "2026-09-02T00:00:00Z",
+      "headline": "Lam Research Stock Slides: UBS Cut, Insider Sale, Rising Yields Weigh on LRCX",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ASML"
+      ],
+      "why": "An analyst cut from UBS combined with insider selling pressures Lam Research's valuation multiple. This negative sentiment reflects broader caution regarding near-term capital expenditure on semiconductor manufacturing equipment, creating a negative read-through for peers like Applied Materials and ASML.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUllZa0xQeVc3bXNwT0hSS2RLNmRVcV9KRVBiVFoyMDBjQ2s3ZTU1bzI2cnBzOGY0VWxGdWRCSExGLW9qdUN3RzNIUkk2bm9yay11ZGJyNWJZZmJuZ3BOMUFJZ2xxUzE0UXlfVmotTmlZMVhSVFZxMVhWQzRVVDFRY2czeEdFdXlWQ1NaMmJHY0NrRndMX2FPMlA1MnZPUjUtbVM4aVNLVnN6MUJnUVZFX1Jmd2tlTmlYbDh3SDVLMTFYQS1fMVExZUJmYWhDa2RC?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260901-aapl-ternus-ceo",
       "time": "2026-09-01T12:00:00Z",
