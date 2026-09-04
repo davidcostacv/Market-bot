@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-09-03T21:14:39Z",
-  "session_date": "2026-09-03",
+  "generated_at": "2026-09-04T04:57:34Z",
+  "session_date": "2026-09-04",
   "items": [
+    {
+      "id": "20260904-snow-q2-earnings",
+      "time": "2026-09-04T00:00:00Z",
+      "headline": "Snowflake Earnings Beat and Guidance Raise Fuel Cloud Software Rally",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "SNOW",
+        "CRM",
+        "ORCL",
+        "MSFT",
+        "AMZN",
+        "PLTR"
+      ],
+      "why": "Snowflake delivered quarterly revenue above expectations and raised its full-year product revenue outlook, signaling resilient enterprise cloud data and AI consumption trends. Strong consumption metrics reduce fears of software budget cuts, driving a valuation re-rating across enterprise cloud platforms and hyperscalers.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQREdBTzU4cGtvNWRIU21KcjRjQ01TVFpBRXB2QmpWdnhMZG45c2c5bHllSXRKMTNkMzlwT0RqT0wwbUJoYTZvclpFMlpRMjUzS1oySkNfTHlBSWtqS3o0aW0yVjRRNkJyaHF6SEdI...?",
+      "alerted": false
+    },
+    {
+      "id": "20260904-vow-restructuring-job-cuts",
+      "time": "2026-09-04T00:00:00Z",
+      "headline": "Volkswagen to Cut 50,000 Jobs and Slash Half Its Vehicle Lineup in Major Cost-Reduction Push",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSLA",
+        "GM",
+        "F"
+      ],
+      "why": "Volkswagen announced aggressive structural cuts eliminating 50,000 positions and cutting half its vehicle lineup to safeguard cash flows against shrinking European market share and rising EV competition. The sweeping restructuring underscores structural margin headwinds for legacy automakers transitioning to electric platforms while competing with lower-cost rivals like Tesla.",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WRFJpTWI2YWFzeFl1ZkstcjJDMDdfaENSZ2xlNVNBWEtUVGZXeWJqMnRvZ2pmMXd0RkJOTmVQMkNMSVVJYjNMYlFHQVN2T0cxYjJITUZDbXlXN2hWYndHQUY5aURnYXdZenFsdQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260903-macro-waller-fed-comments",
       "time": "2026-09-03T17:30:00Z",
