@@ -1,25 +1,132 @@
 {
-  "updated": "2026-08-28",
-  "note": "Seeded from the four groups selected at setup. Edit in the dashboard Watchlist tab — changes persist across viewers.",
+  "updated": "2026-09-04",
+  "note": "Seeded from the four groups selected at setup. Edit in the dashboard Watchlist tab \u2014 changes persist across viewers.",
   "tickers": [
-    {"ticker":"NVDA","name":"Nvidia","group":"Semis & AI","note":"Anchor of the AI complex"},
-    {"ticker":"AAPL","name":"Apple","group":"Mega-cap tech","note":""},
-    {"ticker":"MSFT","name":"Microsoft","group":"Mega-cap tech","note":""},
-    {"ticker":"GOOGL","name":"Alphabet","group":"Mega-cap tech","note":""},
-    {"ticker":"AMZN","name":"Amazon","group":"Mega-cap tech","note":""},
-    {"ticker":"META","name":"Meta Platforms","group":"Mega-cap tech","note":""},
-    {"ticker":"TSLA","name":"Tesla","group":"Mega-cap tech","note":""},
-    {"ticker":"AVGO","name":"Broadcom","group":"Semis & AI","note":"Reports early Sept"},
-    {"ticker":"AMD","name":"AMD","group":"Semis & AI","note":""},
-    {"ticker":"TSM","name":"TSMC","group":"Semis & AI","note":""},
-    {"ticker":"MU","name":"Micron","group":"Semis & AI","note":"HBM pricing, reports late Sept"},
-    {"ticker":"SMCI","name":"Super Micro","group":"Semis & AI","note":"High beta to NVDA"},
-    {"ticker":"JPM","name":"JPMorgan Chase","group":"Financials","note":"Rate sensitive"},
-    {"ticker":"GS","name":"Goldman Sachs","group":"Financials","note":""},
-    {"ticker":"XOM","name":"Exxon Mobil","group":"Energy","note":"Hormuz crude premium"},
-    {"ticker":"CVX","name":"Chevron","group":"Energy","note":""},
-    {"ticker":"SPY","name":"S&P 500 ETF","group":"Broad market","note":""},
-    {"ticker":"QQQ","name":"Nasdaq 100 ETF","group":"Broad market","note":""},
-    {"ticker":"IWM","name":"Russell 2000 ETF","group":"Broad market","note":"Most rate-sensitive"}
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "group": "Semis & AI",
+      "note": "Anchor of the AI complex"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "group": "Mega-cap tech",
+      "note": ""
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "group": "Mega-cap tech",
+      "note": ""
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "group": "Mega-cap tech",
+      "note": ""
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "group": "Mega-cap tech",
+      "note": ""
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "group": "Mega-cap tech",
+      "note": ""
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "group": "Mega-cap tech",
+      "note": ""
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "group": "Semis & AI",
+      "note": "Reports early Sept"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "group": "Semis & AI",
+      "note": ""
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "group": "Semis & AI",
+      "note": ""
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "group": "Semis & AI",
+      "note": "HBM pricing, reports late Sept"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "group": "Semis & AI",
+      "note": "High beta to NVDA"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "group": "Financials",
+      "note": "Rate sensitive"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "group": "Financials",
+      "note": ""
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "group": "Energy",
+      "note": "Hormuz crude premium"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "group": "Energy",
+      "note": ""
+    },
+    {
+      "ticker": "SPY",
+      "name": "S&P 500 ETF",
+      "group": "Broad market",
+      "note": ""
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "group": "Broad market",
+      "note": ""
+    },
+    {
+      "ticker": "IWM",
+      "name": "Russell 2000 ETF",
+      "group": "Broad market",
+      "note": "Most rate-sensitive"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "group": "Software & AI",
+      "note": "High multiple \u2014 moves hard on guidance and government contracts"
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "group": "Media & Gaming",
+      "note": "GTA VI release timing is the whole story"
+    }
   ]
 }

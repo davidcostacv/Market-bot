@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-09-04",
   "note": "focus = the names alerts are really about: NVDA, Micron, AMD, Intel, the AI supply chain, and the largest Nasdaq/S&P 500 companies. sp500_megacap is the wider in-scope set. Anything else only counts if it moves the broad market or a whole sector.",
   "groups": {
     "megacap_tech": [
@@ -132,7 +132,8 @@
       "ELV",
       "MDT",
       "C",
-      "ADP"
+      "ADP",
+      "TTWO"
     ],
     "focus": [
       "NVDA",
@@ -158,7 +159,8 @@
       "TSLA",
       "ORCL",
       "CRM",
-      "NFLX"
+      "NFLX",
+      "TTWO"
     ]
   }
 }
