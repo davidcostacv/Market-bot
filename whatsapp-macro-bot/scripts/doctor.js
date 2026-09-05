@@ -9,6 +9,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { config } from "../src/config.js";
 
@@ -170,7 +171,9 @@ export async function runDoctor({ send = false } = {}) {
 }
 
 // Only run when invoked directly, not when setup.js imports runDoctor.
-if (import.meta.url === `file://${process.argv[1]}`) {
+// pathToFileURL is what makes this work on Windows, where argv[1] is a
+// backslash path like C:\app\scripts\doctor.js and never equals a file:// URL.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const send = process.argv.includes("--send");
   process.exit((await runDoctor({ send })) ? 0 : 1);
 }

@@ -122,7 +122,7 @@ const body = Object.entries(answers)
   .join("\n");
 fs.writeFileSync(ENV_FILE, `${body}\n`, { mode: 0o600 });
 
-console.log(`\nWrote ${ENV_FILE} (chmod 600 — it holds your secrets, keep it out of git).`);
+console.log(`\nWrote ${ENV_FILE} — it holds your secrets, and .gitignore already keeps it out of git.`);
 console.log("\nChecking that everything actually works…\n");
 
 const { runDoctor } = await import("./doctor.js");
