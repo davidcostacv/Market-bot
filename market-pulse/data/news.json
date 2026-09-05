@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:27:34Z",
+  "generated_at": "2026-09-05T20:36:39Z",
   "session_date": "2026-09-05",
   "items": [
     {
@@ -39,6 +39,23 @@
       "why": "A strong month-over-month increase in global semiconductor sales indicates robust, ongoing demand across the broader chip supply chain. This macro expansion supports higher revenue run-rates and valuation multiples for leading semiconductor manufacturers and equipment providers.",
       "source": "Semiconductor Industry Association | SIA",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTDZLdTI5eUt6aWJ4S1BNSk90d2R5TXdSakc5dEJCdTZtTlE4WjB1R1FBM1ZjVGplV0xQM2VpNzBVakNUcUlNWWkxLTZvbzN3WEZfNXlZb1IwaGd0bHBqb1BUM2RRVHVNWl90aDBVYjgwcHh4ZEpLcWMtQ2hzcXR1LXFZTlg3Z0NOQnpxeUNpejNzdE91ZjhFaUNn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260905-macro-citi-fed-rate-cut-forecast",
+      "time": "2026-09-05T00:00:00Z",
+      "headline": "Citi pushes Fed rate-cut forecast to June 2027 after resilient jobs market",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Citigroup has significantly pushed back its projection for the Federal Reserve's first interest rate cut to June 2027 following a highly resilient jobs report. This hawkish adjustment signals that restrictive monetary policy and higher borrowing costs will persist much longer than previously anticipated, potentially compressing equity valuation multiples across the broader market.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeTVIbzdyb0YyeFpabDB2SV9MU1h6M21nalBSQmNZaGR0MzI0QjE0SHNlbDBQSndHZjBZSU5pTVNhVXp6aDBFZjFLMmdBdzdDNGM0YWM4cmc2b0JBQ25wc0RLZ1UzUmdkQXRsSUVHVlJnUFJBOWk3VlgxREM2Q1FUOS1VckdJcnlLVDNBOTdOTWRTb0lTOGJ3NjVibC1iMjBuR3pSc0Z1OC1UQnUxa09tZzBrQXFhWnN5TWUzQWI4ZDQ2N2dKWHU1SURR?oc=5",
       "alerted": false
     },
     {
