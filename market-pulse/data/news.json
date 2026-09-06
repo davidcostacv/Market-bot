@@ -1,7 +1,75 @@
 {
-  "generated_at": "2026-09-05T20:36:39Z",
-  "session_date": "2026-09-05",
+  "generated_at": "2026-09-06T04:58:06Z",
+  "session_date": "2026-09-06",
   "items": [
+    {
+      "id": "20260906-mu-ai-memory-bet",
+      "time": "2026-09-06T00:00:00Z",
+      "headline": "MU Stock Gains On Micron's $10B AI Memory Bet \u2013 Nvidia's Jensen Huang, Apple's Tim Cook Back Research Push",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AAPL"
+      ],
+      "why": "Micron is launching a $10 billion research and investment initiative for AI memory, receiving strategic backing from Nvidia's Jensen Huang and Apple's Tim Cook. This high-level support secures Micron's position in the high-bandwidth memory (HBM) supply chain, ensuring long-term demand from key buyers of AI and consumer hardware.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMFlaTERXVHBlYkFrTHZURU45YlBUNW1UemNaQmVXTVBOSWswV2JybjgtbWRvLXI2QjdtMzY4YmZ4b24tRVpweEQtLVF5Rlo2N0ZtWXkzd2tFOWdQaUg4ektDXzI0Unl2ZDVTNGNIU2p3aFdFMktCdnBqblZUSlBWczVYaThFQVVaOE5SVU5MWjZLZE9wbFZLbFo2MktjcU0yeTg3ZzR4SV9Od1RuWlpTZjZ0cTdOemVab0I1ajZ2b3Fzdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260906-nvda-roadmap-intact",
+      "time": "2026-09-06T00:00:00Z",
+      "headline": "NVDA Stock Climbs Over 1% \u2014 Nvidia Says Its AI \u2018Roadmap Is Intact\u2019 After Report Of Kyber Rack Delay",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "SMCI"
+      ],
+      "why": "Nvidia reassured the market that its AI product roadmap remains fully intact following reports of potential delays in its 'Kyber' rack systems. This statement helps alleviate investor anxiety regarding supply chain bottlenecks or design flaws, stabilizing near-term growth expectations for Nvidia and its manufacturing partners.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcmhyWlY0aDgzTTBZeWdUSlI2NDl5TkNmVV9lNVltOHNvNWhLaGNMTnpXMEZpeThOcS1qUjNpSjYtWGpfQWp2ODl4UWZQWjBicXBGU2hLMEp0cmY4dmVlcmFVcEI2MC1FazJTd1lSWUlKYzdVcThxUnNFdjJrc2NXUXNyTFM0M2NFdWFMM0lMSmg3SEhxQ0VCb1NMRTRmTUthOUJ6QlRzVEczNTNBQnctU2k4Mmt6ZVBma0htNG1TZkc2ekZwdUFGR2F4eVZmT1BreUEteEY3b3BfSWs?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260906-amat-samsung-sk-hynix-china-tools",
+      "time": "2026-09-06T00:00:00Z",
+      "headline": "Samsung, SK Hynix Test China Chip Tools After VEU Ends",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML"
+      ],
+      "why": "Samsung and SK Hynix are reportedly testing Chinese-made semiconductor manufacturing equipment as US Validated End-User (VEU) export control exemptions face changes. This shift threatens the dominant market share of Western equipment giants like Applied Materials, Lam Research, and ASML, as major memory manufacturers seek domestic Chinese alternatives to hedge against geopolitical restrictions.",
+      "source": "tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83Nk9GOUl0SWFiaFNmUUEzQ3cyZlVtZ3pnMmlrY1NrT0U5d0twd2h1Yk9HaDdCWTd6OVU1Zno0LThEV1pVVncwcUlOQzIteFBOdWNhS25wTzl1QVdxTmdua0NyWnhnaTZJU3FUUnc5ZTFJWFlxcjZv?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260906-nvda-alibaba-ai-chips",
+      "time": "2026-09-06T00:00:00Z",
+      "headline": "BABA Stock Slips Premarket: Alibaba Unveils AI Chips \u20183x More Powerful\u2019 Amid Nvidia\u2019s China Export Battle",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Alibaba has unveiled new custom AI chips that are reportedly three times more powerful than its previous generation, aiming to bypass US export restrictions on high-end processors. This development accelerates China's self-sufficiency in AI hardware, presenting a direct competitive threat to Nvidia and AMD's long-term sales prospects in the Chinese cloud market.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd00wRWFveC1qVWRvZDREUkRZOURINUx1bXRSR084dkNGcDlHUHdNRGI5QzFTUlloVkluazFYeUlUYjdWa0l3N0pxeTFzZE5ONF8tZjYyRmQ4SEluSU5LaDFGLUlHYVcteV9PblQxc1NYRGVneUUwU2VZX3FaLTlkZXNCNUw4X0dpbEp5M3lncVhHU0g3Z2Nja0gxMVlTa3BzWVQyb3JpMGFMZndNdVdpakpSMlJ1enM0Ukh3Sm4xcWkxdFItUF9JREYzc2ZVOVdma0s4Y3RMNzdxZ0M0QTdZYktFS3JUR3FpYnh5QXM5cE1vMXJfZ3RRZ1Jn?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260905-nvda-deepseek-huawei-order",
       "time": "2026-09-05T00:00:00Z",
@@ -673,78 +741,6 @@
       "why": "Gap raised its adjusted operating-margin outlook to ~7.4-7.6% and EPS guidance to $2.35-2.45, even as it narrowed the top end of its full-year sales-growth range and replaced the Old Navy CEO after that brand's first negative comp in nearly three years. The market is rewarding margin execution at the namesake brand over top-line growth.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
-      "alerted": false
-    },
-    {
-      "id": "20260826-smci-guide",
-      "time": "2026-08-26T20:30:00Z",
-      "headline": "Super Micro rallies 6% on Q1 guidance far above consensus ($14.5-15.5B rev vs $11.7B est.)",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "A ~30% revenue guide-above-consensus from the primary AI server integrator corroborates the Nvidia demand signal from the systems side. EPS guided $1.01-1.10 vs $0.76 consensus.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
-      "alerted": false
-    },
-    {
-      "id": "20260825-maersk-hormuz",
-      "time": "2026-08-25T09:00:00Z",
-      "headline": "Maersk hikes 2026 guidance a second time as Strait of Hormuz blockade snarls global trade; shares +7%",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "COP",
-        "SLB",
-        "OXY",
-        "USO"
-      ],
-      "why": "A sustained Hormuz disruption is a structural bid under crude and a tax on goods inflation. Energy majors are the direct beneficiary; it simultaneously worsens the core-PCE problem the Fed is already stuck on.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
-      "alerted": false
-    },
-    {
-      "id": "20260821-team-q4",
-      "time": "2026-08-21T20:30:00Z",
-      "headline": "Atlassian +29% on Q4 revenue and earnings beat, though FY growth of 13% just missed",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "TEAM",
-        "NOW",
-        "CRM"
-      ],
-      "why": "Part of the same software re-rating as CRM/OKTA. Notable that the market looked through a slight full-year growth miss \u2014 sentiment, not fundamentals, was the constraint.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
-      "alerted": false
-    },
-    {
-      "id": "20260821-rost-beat",
-      "time": "2026-08-21T12:00:00Z",
-      "headline": "Ross Stores +8% premarket on Q2 beat and above-consensus Q3 guidance",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ROST",
-        "TJX",
-        "WMT",
-        "COST"
-      ],
-      "why": "Off-price retail outperforming is a classic late-cycle tell \u2014 the consumer is trading down but still spending. Mildly supportive for TJX and WMT, mildly negative for full-price discretionary.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
       "alerted": false
     }
   ]
