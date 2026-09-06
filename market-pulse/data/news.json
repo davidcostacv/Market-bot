@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:58:06Z",
+  "generated_at": "2026-09-06T11:15:27Z",
   "session_date": "2026-09-06",
   "items": [
     {
@@ -68,6 +68,43 @@
       "why": "Alibaba has unveiled new custom AI chips that are reportedly three times more powerful than its previous generation, aiming to bypass US export restrictions on high-end processors. This development accelerates China's self-sufficiency in AI hardware, presenting a direct competitive threat to Nvidia and AMD's long-term sales prospects in the Chinese cloud market.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd00wRWFveC1qVWRvZDREUkRZOURINUx1bXRSR084dkNGcDlHUHdNRGI5QzFTUlloVkluazFYeUlUYjdWa0l3N0pxeTFzZE5ONF8tZjYyRmQ4SEluSU5LaDFGLUlHYVcteV9PblQxc1NYRGVneUUwU2VZX3FaLTlkZXNCNUw4X0dpbEp5M3lncVhHU0g3Z2Nja0gxMVlTa3BzWVQyb3JpMGFMZndNdVdpakpSMlJ1enM0Ukh3Sm4xcWkxdFItUF9JREYzc2ZVOVdma0s4Y3RMNzdxZ0M0QTdZYktFS3JUR3FpYnh5QXM5cE1vMXJfZ3RRZ1Jn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260906-nvda-us-draft-export-regulations",
+      "time": "2026-09-06T00:00:00Z",
+      "headline": "US Reportedly Working On Draft Regulations For Power Over Nvidia, AMD Chip Exports",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "SMCI",
+        "AVGO",
+        "MU"
+      ],
+      "why": "The U.S. government is reportedly drafting new regulations to restrict the export of powerful AI chips from Nvidia and AMD. These potential restrictions threaten to limit sales to key international markets, directly impacting the long-term revenue growth projections for the leading GPU designers and their supply chain partners.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMHRyaUo2b2Y2YVVPQXp3NjNmX3NEVUE0UEMwUnZjTUp1bFo4d0NGVVVUQS1USTZ3bFVoUVQxbTF1V1lKUXNudFFBRDd0WkNubGlLM0xaWDIxTXYyY0xiOGtXM01jZmlkb3JYQTBJb05mdVJQVmJDZkcwNWRCY2hQcnBjOVNXUGZ4UUdJdGRNN1c4Vmtuc3RHV0dRYUQxVmRTSm9XOG1NV09ERVA2dDlveTJvdHIxMm4zMWNqd0pZV1J2MGh3TEpXRVZQUjV1SW9CZ3FWTEgwNU44aloxQXc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260906-smci-cisco-ai-factory",
+      "time": "2026-09-06T00:00:00Z",
+      "headline": "Why Super Micro Computer (SMCI) Is Up 6.8% After Joining Cisco\u2019s Secure AI Factory With NVIDIA",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "CSCO",
+        "NVDA"
+      ],
+      "why": "Super Micro Computer has integrated its AI servers into Cisco's Secure AI Factory alongside Nvidia. This partnership expands SMCI's enterprise market reach by leveraging Cisco's massive corporate sales channels, potentially boosting server shipment volumes.",
+      "source": "simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOEN3LXM5bWN1MGhhbHljSDBUMVNTN0hUVUxqWTBwVGhVVWRYYUhQaDZoRXBvUFhhM0VyeE1YZmlFN2tvVHNFeldSY3ExdlFrTS1Ga293OHJuMllUa0prcFN3djBaUXk4b1JsSUFhTGlQaUlUaVFYQmtldGlMMlJJUzhDUl9IaG5OdHRkS0dyclBIQ1JTWFNsNE90d0wwVFBOaG1DRGJVX001aS1KV0ZESE1uLWlCQ1dhb1FkVmtoNVh6VWV5cUJhY0VGV2R2N0nSAdQBQVVfeXFMTlNzS09wdmc1elFzT0VXUDlwT3B1eWRONmVoSDJRMkQ3YWNjRlZyN0dwX1ZtUUxOYlpSc3hjUllLaDVOd3o3S056N2o2XzZyU0luRG1ZUTM1ZGl6NVI3OUg3WWpwbjZQbGgzbjUzRWxTTE1SMVJ5T2VGMGpJV2RrTG8tQlRSVEpzR3pET0RycU9pSUJ5WkRSOHBHTUhybTB1Um5NeFg4bHlrWkNkZmptY3BlEXZtYWdLeExXSnBLMGdlSlZUenN4WVlEXzFicFNjWjlHTjQ?oc=5",
       "alerted": false
     },
     {
@@ -706,41 +743,6 @@
       "why": "Q4 revenue of $1.17B beat consensus of $1.11B and GMV grew 36% YoY to $14.1B, the company's 11th straight quarter of 30%+ GMV growth. Next-quarter revenue guidance of $1.19-1.22B cleared Street numbers \u2014 a genuine beat-and-raise showing BNPL adoption is still compounding, not just cycling existing merchants.",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/earnings/affirm-shares-jump-9-on-earnings-beat-strong-guidance-93CH-4880215",
-      "alerted": false
-    },
-    {
-      "id": "20260827-crm-okta-crwd",
-      "time": "2026-08-27T20:00:00Z",
-      "headline": "Software rips: Salesforce +20%, Okta +26%, CrowdStrike results bolster the sector",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "CRM",
-        "NOW",
-        "ADBE",
-        "PANW",
-        "INTU",
-        "MSFT"
-      ],
-      "why": "A 20% move in a mega-cap like CRM is a violent sentiment reset for enterprise software, which had been the market's funding source all summer. Suggests AI monetization is finally showing up in seat-based and consumption revenue.",
-      "source": "TheStreet",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
-      "alerted": true
-    },
-    {
-      "id": "20260827-gps-q2-beat",
-      "time": "2026-08-27T11:00:00Z",
-      "headline": "Gap raises operating-margin and EPS guidance, names new Old Navy CEO \u2014 shares +12%",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "GPS"
-      ],
-      "why": "Gap raised its adjusted operating-margin outlook to ~7.4-7.6% and EPS guidance to $2.35-2.45, even as it narrowed the top end of its full-year sales-growth range and replaced the Old Navy CEO after that brand's first negative comp in nearly three years. The market is rewarding margin execution at the namesake brand over top-line growth.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
       "alerted": false
     }
   ]
