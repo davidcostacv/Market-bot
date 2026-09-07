@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:05:26Z",
+  "generated_at": "2026-09-07T12:56:00Z",
   "session_date": "2026-09-07",
   "items": [
     {
@@ -34,6 +34,53 @@
       "why": "Senator Elizabeth Warren has reportedly called on Nvidia CEO Jensen Huang to testify regarding the company's chip sales to China. This heightens political and regulatory scrutiny over Nvidia's compliance with export controls, raising the risk of stricter legislative crackdowns that could impact future revenue.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkVfWGo3QkU2eElrdmlnLVNnczVWNDhzNVFDTG01ZmdEWW5PMWpaWFFDVUt4ZGZ5NDFxQkVFOXZjY2NlOWRzQm81ZVZkalJjZFNYS3ZKcTdtWlpKeTBtakR2QmRzQVI2V0ZUS1FvUHFscUItbi11ZU5MRGI0Y2xXbUdsa2NITm5DTXkteGl1eHF3R21Nby1zbnNfMDhrMlNVZ3ZsNWwwOXpZdzhFMDc2enRFMm02dGxHZ0dKNU5EUjRJZTFXWl9wUlRpblhXZGN6R1cydFZkN2ZaVXhWZ2dlUmtVVW15MDVPTEdwbw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260907-nvda-megaspeed-malaysia-deal",
+      "time": "2026-09-07T00:00:00Z",
+      "headline": "Megaspeed\u2019s Malaysia Unit Bought $2B in Nvidia Chips [2026]",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA"
+      ],
+      "why": "Megaspeed's Malaysian subsidiary has purchased $2 billion worth of Nvidia AI chips. This represents a massive direct revenue injection for Nvidia's data center segment and highlights continued robust demand for its hardware in Southeast Asia.",
+      "source": "tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Hb19qT2k3WXJlQUdESWg3MXd1Q281M0DNcHVSdE40TjVWNUxUUHg2YWNfZm9UVHZfVDVZelVWWnVLNjBzVW41RWNhUE5QbTNWUHNwSnZyNXZqMkFtSVhwYXhjdFBITFFpY1hBUXhfLUZOdDBHUy1OaGY2NWF6SWM?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260907-aapl-huawei-kirin-tau",
+      "time": "2026-09-07T00:00:00Z",
+      "headline": "Huawei unveils first-ever smartphone powered by Kirin chip based on Tau Scaling Law",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AAPL",
+        "QCOM"
+      ],
+      "why": "Huawei's launch of a smartphone powered by a new Kirin chip utilizing the Tau Scaling Law signals advanced domestic chip capabilities in China despite US sanctions. This intensifies competition for Apple's iPhone and potentially reduces Qualcomm's addressable market in the region.",
+      "source": "scmp.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONHdCUXZWeXFxekpPWVljT0Fhdy1CVUVXVF9ocXpTVXg0YzZoVlpKcnB0N0FhVS01bjlQVUJJbFp3RW9DYnN0QU5nM2Y3ZFRyVHNPdERLMTN5d184aXdPSVdSZWNJdHJGN0NQdDlzS1hWYVk1M1U5cHY5Vl9ValpCM0VFOTRucjkxdUFFRWdZc3MxN0VpeEh3MU9HR195RHNpYkxFVGJiRkZqWElOTURPR2NsVjZsa3hRTGx4d0pOb2hzanY4ckJSTWROS1_SAcwBQVVfeXFMTjR3QlF2VnlxcXpKT1lZY09BYXctQlVFV1RfaHF6U1V4NGM2aFZaSnJwdDdBYVUtNW45UFVCSWxad0VvQ2JzdEFOZzNmN2RUclRzT3RESzEzeXdfOGl3T0lXUmVjSXRyRjdDUHQ5c0tYVmFZNTNVOXB2OVZfVWpaQjNFRTk0bnI5MXVBRUVnWXNzMTdFaXhIdzFPR0dfeURzaWJMRVRiYkZGalhJTk1ET0djbFY2bGt4UUxseHdKTm9oc2p2OHJCUk1kTktf?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260907-mu-openai-astra-model",
+      "time": "2026-09-07T00:00:00Z",
+      "headline": "Why the launch of OpenAI\u2019s latest Astra model reignited the memory chip trade",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA"
+      ],
+      "why": "The launch of OpenAI's new Astra model has catalyzed demand for high-bandwidth memory (HBM) and DRAM. This directly benefits memory chipmakers like Micron as next-generation AI models require significantly larger memory footprints to operate efficiently.",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQelNzMHA3cTliWW5hTHhsNWNOdlZkdzNISnVla2V3cnlnZzF4bVN1VVdGb3NCeDFsaVVFSWN6dlNVclVLem9iazY1YkU5RDZBZVhBOV9MYmxPTHF4V2lBcGplTUxlUDNPak9jVW5kZ1RJTGJCS1gxdEpNbHhRSTNwNW1fT2kxZmVBLUVWeHk1ZkVQZlpzbjltUG5BU3lYeTlRRUNQLWotRkh1RWxvQ1BBWkdMZUE2VzUzRGlZ?oc=5",
       "alerted": false
     },
     {
@@ -683,59 +730,6 @@
       "why": "Traders have sharply pulled back easing expectations. Small caps and regional-rate-sensitive financials carry the most downside if this drifts toward zero; a Warsh surprise today is the main upside risk to this pricing.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
-      "alerted": false
-    },
-    {
-      "id": "20260828-pypl-stripe-collapse",
-      "time": "2026-08-28T10:00:00Z",
-      "headline": "PayPal slides as much as 17% after Advent/Stripe consortium abandons its ~$53B buyout pursuit",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MA",
-        "PYPL",
-        "V"
-      ],
-      "why": "PayPal's board rejected the consortium's $60.50/share bid in July as inadequate; with the buyers now formally walking away, the stock loses the entire takeout premium that had built up since talks emerged, wiping out roughly $8B of implied equity value. Nothing about the underlying payments business changed \u2014 this is a permanent repricing of the standalone equity story, not an earnings reset.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal",
-      "alerted": true
-    },
-    {
-      "id": "20260828-adsk-beat",
-      "time": "2026-08-27T20:45:00Z",
-      "headline": "Autodesk jumps 10.6% to $318.96 after Q2 beat and raised full-year guidance",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ADSK",
-        "CRM",
-        "NOW",
-        "ADBE"
-      ],
-      "why": "A raised full-year number, not just a quarterly beat, is what moves a software multiple \u2014 it resets the base for every forward estimate. Third confirmation this week that enterprise software demand is holding, after Salesforce and Okta.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
-      "alerted": false
-    },
-    {
-      "id": "20260828-dell-beat",
-      "time": "2026-08-27T20:40:00Z",
-      "headline": "Dell beats on Q2 and guides Q3 revenue to $26.5-27.5B against $26.05B consensus",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "DELL",
-        "NVDA",
-        "SMCI",
-        "AVGO"
-      ],
-      "why": "Dell and Super Micro are the two channels AI servers actually ship through, so a guide above consensus from both in the same week corroborates the Nvidia demand signal from the systems side rather than the silicon side. Hard to dismiss as one company's optimism.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
       "alerted": false
     }
   ]
