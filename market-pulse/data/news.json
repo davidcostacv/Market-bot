@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-09-06T20:41:20Z",
-  "session_date": "2026-09-06",
+  "generated_at": "2026-09-07T05:05:26Z",
+  "session_date": "2026-09-07",
   "items": [
+    {
+      "id": "20260907-nvda-china-blacklist-bypass",
+      "time": "2026-09-07T09:00:00Z",
+      "headline": "How a Blacklisted Chinese Tech Giant Kept Buying America\u2019s Best A.I. Chips",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "why": "An investigative report revealed that blacklisted Chinese entities bypassed US export controls by using renamed subsidiaries to purchase advanced Nvidia AI chips. This exposure is highly likely to trigger aggressive regulatory enforcement and tighter compliance mandates, threatening indirect sales channels in Asia.",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGJVMENwVzZKeENMYzdyR0hpejg2azdLMUVKSW5lRXl5N1BiN1otTU80Sk1YLW9sUXlpOEljb3pBR3FkU3QyUGRSa214em9vcVhwRnJKWWtCa2ZLZEFwd3dRRWxSZUJIZi0yakhRQ0N1VngySkplLWxZb19iMXVKeg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260907-nvda-warren-china-testimony",
+      "time": "2026-09-07T08:00:00Z",
+      "headline": "NVDA Stock Slips After Hours As Warren Reportedly Calls Huang To Testify On China Chip Sales",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "why": "Senator Elizabeth Warren has reportedly called on Nvidia CEO Jensen Huang to testify regarding the company's chip sales to China. This heightens political and regulatory scrutiny over Nvidia's compliance with export controls, raising the risk of stricter legislative crackdowns that could impact future revenue.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkVfWGo3QkU2eElrdmlnLVNnczVWNDhzNVFDTG01ZmdEWW5PMWpaWFFDVUt4ZGZ5NDFxQkVFOXZjY2NlOWRzQm81ZVZkalJjZFNYS3ZKcTdtWlpKeTBtakR2QmRzQVI2V0ZUS1FvUHFscUItbi11ZU5MRGI0Y2xXbUdsa2NITm5DTXkteGl1eHF3R21Nby1zbnNfMDhrMlNVZ3ZsNWwwOXpZdzhFMDc2enRFMm02dGxHZ0dKNU5EUjRJZTFXWl9wUlRpblhXZGN6R1cydFZkN2ZaVXhWZ2dlUmtVVW15MDVPTEdwbw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260906-mu-ai-memory-bet",
       "time": "2026-09-06T00:00:00Z",
@@ -703,47 +737,6 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
       "alerted": false
-    },
-    {
-      "id": "20260827-nvda-q2",
-      "time": "2026-08-27T20:30:00Z",
-      "headline": "Nvidia annual revenue doubles, guides solidly into 2028 \u2014 stock +6%",
-      "impact": 10,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "AMD",
-        "ANET",
-        "SMCI",
-        "LRCX",
-        "KLAC",
-        "AMAT"
-      ],
-      "why": "A guide that extends visibility to 2028 is the strongest possible signal that AI capex is not rolling over. This is the anchor datapoint for the entire semi and AI-infrastructure complex, and it re-rates the supply chain, not just NVDA.",
-      "source": "TheStreet",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
-      "alerted": true
-    },
-    {
-      "id": "20260827-mrvl-miss",
-      "time": "2026-08-27T20:15:00Z",
-      "headline": "Marvell tumbles 14% \u2014 adjusted EPS of $0.67 on $2.01B revenue only matched estimates",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "AMD"
-      ],
-      "why": "Revenue rose 58% on strong AI demand for custom silicon, yet an in-line print was punished with a 14% drawdown. The read-through: the bar for AI-adjacent names is now a beat-and-raise, not a beat. Watch for the same setup in other custom-ASIC names.",
-      "source": "TheStreet / Bloomberg",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-27-2026",
-      "alerted": true
     }
   ]
 }
