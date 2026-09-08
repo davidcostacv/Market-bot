@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-09-08T16:48:08Z",
+  "generated_at": "2026-09-08T21:19:51Z",
   "session_date": "2026-09-08",
   "items": [
+    {
+      "id": "20260908-amd-tam-projection",
+      "time": "2026-09-08T12:00:00Z",
+      "headline": "AMD Stock Rises as CFO Claims Its Addressable Market Could Reach $3 Trillion",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "AMD's CFO announced that the total addressable market for AI accelerators could reach $3 trillion by 2030, representing a massive upward revision in long-term market potential. This aggressive projection boosts multi-quarter growth expectations and valuation multiples for AMD and its key AI hardware peers.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiaXNUTGhIVFk0NWc4dGtjZVlMWHN4Ujl5bFNUaHlIYVFkeTg5MHVlSktlMGJTQkxoTjU3VUxLbXNLNjN1QUItd3lHczJvUVRPaDctTFJycmFxdndKeEhwSHhKOVU2Q0dGd1pKek5ZMU16VXc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260908-china-japan-chip-chemical-dispute",
+      "time": "2026-09-08T11:15:00Z",
+      "headline": "Japan pushes back as China tightens chip chemical imports",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "ASML",
+        "INTC",
+        "NVDA"
+      ],
+      "why": "China has tightened export controls on critical chemical materials essential for semiconductor manufacturing, prompting a pushback from Japan. Any prolonged restriction on these precursor chemicals could disrupt global chip fabrication, raising production costs for major foundries.",
+      "source": "ET Chemicals",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNmF1YlY5cUtsVXZOc1puUGRYYkdrTDFlTS1rdjkwLWZ2R25zY0lBckZFbHNWRl9kWmtGSWtZMmhqSW5RMFdgridmWWRtNU1YMDNKTHNhM3J0SVdnSlFlcEkxaXNXdlVLbkhROXc4NFFVTm5pMlVfLVkyNko4Um1xUnBsVnZjR08tWnJYZUpoUDV2ZXRtUFdqcUhyOUhIWDR5SzF3Z1FXejBwY1I2a1g3M0VXWjhHV09qS0ktMUotZHZjSWg3UWpXUHlaOFNDZHFFRm9rTFd30gHaAUFVX3lxTE1MY05Mc2J3ek5meXhRQXR1eDZOZWNMVWF2OTF6OUE3d3poZlVIZENFdUJqSXNEeDItaXBMMkVFdWMxMUlOVjBHRkRwZnQ2UGlKMUo5TTRBTUVoZVV5ZHB0WGZ4eUR1NndKUWg0ZVNqLVJTNkx5VzBKQllzVnFqUTdfcGZXeU5wR2stV0s2MkJublBiVGxOakEySEtyR0JtcjRzYUV6Q0xJTk01T1MzOTk2LURmVk1ZRFFRWmJfT2d4emtwTFlUNU5tOFJldmR4UG1MYmNCa3NWTUR3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260908-china-semiconductor-exports-surge",
+      "time": "2026-09-08T10:30:00Z",
+      "headline": "China\u2019s semiconductor exports surge 103.9% in Jan-Aug, driven by rising global demand for AI facilities",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "ASML"
+      ],
+      "why": "China's semiconductor exports surged 103.9% in the first eight months of 2026, fueled by insatiable global demand for AI infrastructure. This massive growth indicates that despite strict US export controls, the global semiconductor supply chain remains highly active, supporting broad sector revenues.",
+      "source": "Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4UlpYMW9ObzdCdG5oZFN3Y1ZseXZTU2FHRHJ5UGFCY21oWDl3MEhJRE5OQkRQMFVHcEFnSEMyZUNHWnBfMllTcEhxa3ZaVHFEUjQ4VEIxa3BHemdROW8zVmlB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260908-hsbc-sp500-target-hike",
+      "time": "2026-09-08T08:30:00Z",
+      "headline": "HSBC Lifts S&P 500 Year-End Target to 8,100 on Earnings Boom",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ"
+      ],
+      "why": "HSBC raised its year-end target for the S&P 500 to 8,100, citing an ongoing corporate earnings boom. This optimistic revision from a major global bank boosts investor sentiment and supports higher valuation multiples across large-cap equities.",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Xb3ZMR0VKX1hHSHV3UWJIZm8wbDFrdDYxTGJPMXgtSXpraUw1YWhVNGpFVnlxVDFFSTJRY1BZOThCYnFxSTVNcUMtSmhhVTQ2NGlwdnpSVHJIN1E2eDdWa1ROZFJjQVJGX013ay02OTZiUGZFUlE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260908-nvda-aws-murati-deal",
       "time": "2026-09-08T00:00:00Z",
@@ -637,77 +707,6 @@
       "why": "An ASML supplier's assessment that China remains 15 years behind in advanced chipmaking tools reduces immediate fears of Chinese domestic substitution bypassing Western export controls. This provides long-term valuation support for ASML and TSMC by securing their technological moat against Chinese state-backed competitors.",
       "source": "The Business Times",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcmZKaUxkS0pDTGtvcTdQNExGT2hUMjNlbzNsbnhsZGJSUXI3a25STko0bUxuSldWLVdFbXMxUHlTUkd4a05qU1M4QzZFSWxGQUlNQTZzVGN2Y0lVSzd3ek56SklFVzRQRnZ5VEFTcGV6bHVxRC1WM242TXRNaHk1VEJDdjdWQzd3RXVheml1SVhoMDhwdUtPUjlVWkhZQW9aQ1NyX1BmeVYzOE5Z?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260902-avgo-q3-earnings",
-      "time": "2026-09-02T20:30:00Z",
-      "headline": "Broadcom slides even as Q3 results, guidance top Wall Street's estimates",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AVGO",
-        "NVDA",
-        "MRVL",
-        "AMD",
-        "TSM",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "Broadcom reported fiscal Q3 revenue of $29.59B versus $29.24B consensus expectations, but shares slid post-market as investors questioned high valuation multiples and demand sustainability outside of core AI custom silicon. The negative price reaction creates near-term multiple compression across custom ASIC designers and AI networking suppliers.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORnl1ZHF1MVBjZXQ5REpINldZakJkTnBrZkp3Z0ZUbTc0WHNERjE5MnhJN0dCZWVGclVyYkplZXhVYlJ3MkRqS2dLd3VOUFVxRXVfM3pmQ0d0dUZUNG9PSW1jOUV2LVNhbWs5N09TdG9QZ2NIcFQ0R2pLYlJpaFp6SHJITHdYMEZqdXRWTUZXTGhTV1QxWjZ0bWZhbjB6Nk9ENGhUZmlSYWItUDd5?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260902-macro-adp-jobs-miss",
-      "time": "2026-09-02T12:00:00Z",
-      "headline": "US August ADP Weakens Unexpectedly With Only 38,000 Jobs Added Below Expectations, Boosting Rate Cut Bets",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "The US private sector added only 38,000 jobs in August, coming in significantly below expectations. This sharp slowdown in labor market momentum heightens economic growth concerns while simultaneously boosting market expectations for aggressive Federal Reserve rate cuts.",
-      "source": "tradingkey.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX2lVb0JtYkZzNTV4Z0t0SHFiQWJKQTcwQ0psNUN0QzNmc2lTSUFFaU1KRXFjTUFkYWxtdG5IMjNaclZ3dDZiTUdvTWdDZzVUbUJnWTZyR0M4VUpScHYyTmdoS0pTaURlTW9od2w4eVhmcGJ3ZHE3Z2dKMTVfTUFEOFBkSWk2dmpqRE9rUnJ1N1RvNHE1STVaSGdySTd5NHRZeVZrTnJkVkR6VFFGRWRncA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260902-mu-strike-threat",
-      "time": "2026-09-02T00:00:00Z",
-      "headline": "Micron\u2019s Workers Are Threatening to Strike. What It Means for the Stock.",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "A potential strike by Micron workers threatens to disrupt the production of critical DRAM and HBM memory chips. This supply-side risk could hurt Micron's near-term revenue and create component bottlenecks for major AI chipmakers like Nvidia and AMD.",
-      "source": "barrons.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tQ2JiODJoUFF6aEZJQWJLa2ljaWdpVGlnVDJ5XzE2NzJLeDhxTFg5S2I1ZkFSUk1SMUcxd0lKS1FxUGdHRW5xZ2FnQk1Ta3NKRkNKU3NwRW44WEpEVXBhcnhBbldUM0NwNFpSUnBzbjVSMFZxcldMSHM0X0J0dE0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260902-intc-sk-hynix-deal",
-      "time": "2026-09-02T00:00:00Z",
-      "headline": "INTC Stock\u2019s Next Boost Could Be Here: Report Says Intel May Land Korea's SK Hynix As Major Customer",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "MU"
-      ],
-      "why": "Reports indicating that Intel Foundry might secure South Korea's SK Hynix as a major customer provide validation for Intel's manufacturing turnaround strategy. If finalized, this deal would secure a high-volume customer for Intel's advanced nodes, while increasing competition for rival memory and foundry players.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQMWJaV1MwbXUzanFQdjJWQUxVNmJUSF9Ra2xUUGlMalk0VjV4NFVQeE5BX3IxSnhyejZNMTlBVnhwWFFxN0V4ZWlELWNDRm51Z0NJR2NWWlZTOEFQbnRERVBoMFdWWS1CZ0hocTVmUF9xNnhjZlFobUtCdFNPeUg1WDhnWFliSUpXTC1weW9od1hydG4tY3lDcDV2VWpmeDAzVExDNFFnQkMtOUNkSzNvWWhJM2dqR1R4ZE5RSjZKV0N2bTMwVE5fZWt3RUdqcTFkdWdhMUlVNFJuRi1keF9wUmtrTmdibjVRUEN0eW5aNk8yU2pxTnc?oc=5",
       "alerted": false
     }
   ]
