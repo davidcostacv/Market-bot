@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-09-08T21:19:51Z",
-  "session_date": "2026-09-08",
+  "generated_at": "2026-09-09T05:01:56Z",
+  "session_date": "2026-09-09",
   "items": [
+    {
+      "id": "20260909-amd-intel-foundry-ties",
+      "time": "2026-09-09T08:00:00Z",
+      "headline": "AMD Reaffirms TSMC Ties Amid Intel Foundry Buzz \u2014 But Keeps Supplier Options Open",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "TSM"
+      ],
+      "why": "AMD CFO Jean Hu clarified that while the company remains open to utilizing other foundries in the future, it currently has no active plans to use Intel Foundry and remains deeply committed to TSMC. This dampens recent market speculation that AMD would quickly shift some production to Intel, which had temporarily boosted Intel's foundry narrative.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV3VoelFxVjV5a1hUaVo0bFhIYU1KS0hNQ0FkNWtQSUNuQ2dLSmkxa3RoRkZUejZLN2RUTFlPZHZJMHRORWdqbjBUVTVCdm1xWkZGc1lzR1Rrd0RsbFAwbXVUWDMyb0J5Q2JQUVpXbWU3QklaS3pJS1NRVFIxdmJzMTdRYzVnaExXSFg4a0QzQkhTVzdoS2tBdE0taUh2d1BzTVZaM2UwTFM1OTNkRndsd1RQUDhKTDh4YnJMRWxISnBIZ1htODhtU3YzeDI0QU1RNHNubXNB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260909-mrvl-ceo-qualcomm-amazon-threat",
+      "time": "2026-09-09T08:00:00Z",
+      "headline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "QCOM",
+        "AMZN"
+      ],
+      "why": "Marvell CEO Matt Murphy dismissed competitive threats from Qualcomm and Amazon's internal chip efforts, positioning Marvell as the neutral partner of the custom ASIC market. This reassures investors regarding Marvell's market share and margin defensibility in the high-growth AI data center sector.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNNThGV0FpWk9UMzRpYkczTzRnRWxCYWtPNVhrNm54ZTBESVhkRzlweTNXRnhnb29RVnJ3QTltUXVOY2dSVDZvN2dWLTNEdWRPRGVlSXlvdXJvMDYxSXpWWlp3QlBjY3RuVEhyeEhfcV9pR3dXNWllQk14OEhLYVZ0Z19rUld3SkdmVnVCb2ZwVFJxVGVNdGN1TWl2dkFIM0lPV3BhSzQ3SGIxTGNCWFkyLTZ6SzNVMHBRU2pMQTk1RVYzcjhOaEFqSU5RRGtrVGpwSXhERE5OSEh5ZlhHMXVQMTNZek16a3M3WExOM1Q2Y1JPTkhDVjBpZ1Y0c2R3QjI5eFZqRFR3?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260908-amd-tam-projection",
       "time": "2026-09-08T12:00:00Z",
@@ -671,42 +705,6 @@
       "why": "Nvidia's acquisition of Hugging Face for $12.9 billion significantly expands its software ecosystem and developer mindshare, cementing its full-stack AI dominance. This acquisition positions Nvidia to integrate Hugging Face's massive repository of open-source models directly with its hardware optimization tools, raising the competitive barrier for rivals like AMD and Intel.",
       "source": "TIKR.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVXZlMWhzanQ4akJGQ25CMENHU2UxOG9QSFpsR1pid3ZTWkNTMUhadWFoRGIwMnZfRXQ4UW5RdDQyaTd4R0tJazBxa2R2amdxc1Z3Wm1XUlVxSlVzTC1BRkE4WGxoS01WNkRjZUdBak1vXzlGVlhGTEdJeTZ3YWp4NUUzTm1rZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260903-macro-chip-tariff-phase-two",
-      "time": "2026-09-03T00:00:00Z",
-      "headline": "Chip Tariff Phase Two Confirmed: Build in America or Pay, Lutnick Announces",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "INTC",
-        "MU"
-      ],
-      "why": "The confirmation of 'Phase Two' chip tariffs forcing companies to manufacture in the US or face heavy penalties threatens to disrupt global semiconductor supply chains and raise production costs. This policy puts immense pressure on fabless designers like Nvidia and AMD that rely on Taiwan Semiconductor (TSMC), while potentially accelerating domestic manufacturing incentives for Intel.",
-      "source": "Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObEZvcGRLWlBuZWFEei1oOUxTelRfQ2VmOWZGTEZMdlhDc1FmcXBJcU5tWk9RSzBqMVV4bDFxRXRWdFAxQndGcnlwMENVYUxaQXg1TEc3NlFvMEQyVjljMUNWejVEUXdna01ac04tbFpmYVA4ejhtWUptakdSYmJpR2R6S1JWN0UtSXJJV2ZEeVZWbWNsSjliVmpQSWhkNVZTbk9mOHJxYUF5cGlVRHFNWkJHRmZaQXd6ekdYSkhkSQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260903-asml-china-chipmaking-gap",
-      "time": "2026-09-03T00:00:00Z",
-      "headline": "China 15 years behind in top chipmaking tools, says ASML supplier",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "TSM"
-      ],
-      "why": "An ASML supplier's assessment that China remains 15 years behind in advanced chipmaking tools reduces immediate fears of Chinese domestic substitution bypassing Western export controls. This provides long-term valuation support for ASML and TSMC by securing their technological moat against Chinese state-backed competitors.",
-      "source": "The Business Times",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcmZKaUxkS0pDTGtvcTdQNExGT2hUMjNlbzNsbnhsZGJSUXI3a25STko0bUxuSldWLVdFbXMxUHlTUkd4a05qU1M4QzZFSWxGQUlNQTZzVGN2Y0lVSzd3ek56SklFVzRQRnZ5VEFTcGV6bHVxRC1WM242TXRNaHk1VEJDdjdWQzd3RXVheml1SVhoMDhwdUtPUjlVWkhZQW9aQ1NyX1BmeVYzOE5Z?oc=5",
       "alerted": false
     }
   ]
