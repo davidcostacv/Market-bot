@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-09-09T11:44:34Z",
+  "generated_at": "2026-09-09T16:50:06Z",
   "session_date": "2026-09-09",
   "items": [
+    {
+      "id": "20260909-avgo-2028-guidance",
+      "time": "2026-09-09T12:00:00Z",
+      "headline": "Why Broadcom Providing 2028 Guidance Is a Big Deal for AVGO Stock Bulls",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "AMD",
+        "MRVL",
+        "TSM"
+      ],
+      "why": "Broadcom's decision to provide long-term financial guidance through fiscal year 2028 gives investors unprecedented visibility into the multi-year runway for AI networking and custom ASIC demand. This long-term outlook helps mitigate fears of a near-term AI bubble burst and supports a higher valuation multiple for AVGO and its key semiconductor peers.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNU1VV2Qxc3NDWTg4WjhmVzNqSTdJWFlQbEhIU0lZS19oeXVLX2lSR0djYmMzd1g0RDFZTmdnMDdsNjNpRVlwR0EwMW5QSlZ6NW9IWmZWeGltNUtpeWxMeXN1c1RUUzBvLWMzV2kxYTJsbWlxSXhCQlU0QjhoT25rMU9OR2VJVGZybzlITjVPZThpbENDdXFVYld6XzFGQTVDZGduc1haaXBTMDJZMFQ2R0NZdTduUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260909-iqe-china-ai-material-warning",
+      "time": "2026-09-09T12:00:00Z",
+      "headline": "China has 70% of a material AI needs, IQE\u2019s CEO warns, Bloomberg reports",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "MRVL",
+        "QCOM",
+        "TSM"
+      ],
+      "why": "IQE's CEO warned that China controls 70% of a critical material required for AI hardware, highlighting severe supply chain vulnerabilities. Any export restrictions on these materials could disrupt the production of optical transceivers and RF chips, directly impacting networking giants like Broadcom and Marvell.",
+      "source": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWZTUjVndElYX0hUV2hTZVZXRzFkVE81MW9uMGJJdG45VE11bGwyenFnbS1CS3FWdEdERkRVUWdJX191X01LdlVjMmJPXzdVN2hnMnFReFFmUVYyYVczOXR1VjI5Y3Q4ZzhjdHhEVEZ5LWFCWTNiVEVPbzhtS2U4SmdBcDNScldsVlE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260909-amd-intel-foundry-ties",
       "time": "2026-09-09T08:00:00Z",
@@ -666,45 +703,6 @@
       "why": "Volkswagen announced aggressive structural cuts eliminating 50,000 positions and cutting half its vehicle lineup to safeguard cash flows against shrinking European market share and rising EV competition. The sweeping restructuring underscores structural margin headwinds for legacy automakers transitioning to electric platforms while competing with lower-cost rivals like Tesla.",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WRFJpTWI2YWFzeFl1ZkstcjJDMDdfaENSZ2xlNVNBWEtUVGZXeWJqMnRvZ2pmMXd0RkJOTmVQMkNMSVVJYjNMYlFHQVN2T0cxYjJITUZDbXlXN2hWYndHQUY5aURnYXdZenFsdQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260903-macro-waller-fed-comments",
-      "time": "2026-09-03T17:30:00Z",
-      "headline": "Bond yields ease, stocks rally following Fed governor Waller comments",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "AAPL",
-        "MSFT",
-        "NVDA"
-      ],
-      "why": "Fed Governor Christopher Waller's comments sparked a rally in equity markets and a decline in Treasury yields by raising doubts about further interest rate hikes. His suggestion that he could support a rate hold eased investor concerns over restrictive monetary policy, boosting valuations across the board.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260903-nvda-hugging-face-acquisition",
-      "time": "2026-09-03T00:00:00Z",
-      "headline": "Nvidia Agrees to Acquire Hugging Face for $12.9 Billion to Expand AI Infrastructure",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "AMD"
-      ],
-      "why": "Nvidia's acquisition of Hugging Face for $12.9 billion significantly expands its software ecosystem and developer mindshare, cementing its full-stack AI dominance. This acquisition positions Nvidia to integrate Hugging Face's massive repository of open-source models directly with its hardware optimization tools, raising the competitive barrier for rivals like AMD and Intel.",
-      "source": "TIKR.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVXZlMWhzanQ4akJGQ25CMENHU2UxOG9QSFpsR1pid3ZTWkNTMUhadWFoRGIwMnZfRXQ4UW5RdDQyaTd4R0tJazBxa2R2amdxc1Z3Wm1XUlVxSlVzTC1BRkE4WGxoS01WNkRjZUdBak1vXzlGVlhGTEdJeTZ3YWp4NUUzTm1rZw?oc=5",
       "alerted": false
     }
   ]
