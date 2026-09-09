@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-09T16:50:06Z",
+  "generated_at": "2026-09-09T21:05:50Z",
   "session_date": "2026-09-09",
   "items": [
+    {
+      "id": "20260909-macro-oil-tops-100",
+      "time": "2026-09-09T14:00:00Z",
+      "headline": "Oil Tops $100, Meta and Cloudflare Jump On AI Breakthroughs: Stock Market Today",
+      "impact": 8,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM",
+        "META"
+      ],
+      "why": "Crude oil crossing the $100 per barrel mark introduces significant inflationary pressures, potentially complicating the Federal Reserve's monetary easing cycle and raising operating costs across multiple sectors. While this is highly bullish for energy producers like ExxonMobil and Chevron, it acts as a valuation headwind for high-multiple tech stocks and broad market indices.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdXhXMXFVUUxDQlhpekhURUNmc0lhQXowcTI3TW9vOWlkMHhJV0pMandIb1NOczdrdDhkOGI5X3VKQ3g1ZC1TS0ZHUXA3c0RLUGtZN0NwUGVFMGczOEFrWGV5ZGVjTlRDSDZJdGRncDE1cEF0TzExV3dMWU1uM1ktRGNBZ0ZNUkJDZGdNNRI5QzdxOTBUTjJUVUN5WEhNdHdZTzBRRHI4cTRhaXJXelQ2b2oyQ0hPWXh0SzhLRkRCT0dhbTEydXdFVkpfTzFoNU1C?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260909-avgo-2028-guidance",
       "time": "2026-09-09T12:00:00Z",
@@ -686,23 +706,6 @@
       "why": "Snowflake delivered quarterly revenue above expectations and raised its full-year product revenue outlook, signaling resilient enterprise cloud data and AI consumption trends. Strong consumption metrics reduce fears of software budget cuts, driving a valuation re-rating across enterprise cloud platforms and hyperscalers.",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQREdBTzU4cGtvNWRIU21KcjRjQ01TVFpBRXB2QmpWdnhMZG45c2c5bHllSXRKMTNkMzlwT0RqT0wwbUJoYTZvclpFMlpRMjUzS1oySkNfTHlBSWtqS3o0aW0yVjRRNkJyaHF6SEdI...?",
-      "alerted": false
-    },
-    {
-      "id": "20260904-vow-restructuring-job-cuts",
-      "time": "2026-09-04T00:00:00Z",
-      "headline": "Volkswagen to Cut 50,000 Jobs and Slash Half Its Vehicle Lineup in Major Cost-Reduction Push",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSLA",
-        "GM",
-        "F"
-      ],
-      "why": "Volkswagen announced aggressive structural cuts eliminating 50,000 positions and cutting half its vehicle lineup to safeguard cash flows against shrinking European market share and rising EV competition. The sweeping restructuring underscores structural margin headwinds for legacy automakers transitioning to electric platforms while competing with lower-cost rivals like Tesla.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WRFJpTWI2YWFzeFl1ZkstcjJDMDdfaENSZ2xlNVNBWEtUVGZXeWJqMnRvZ2pmMXd0RkJOTmVQMkNMSVVJYjNMYlFHQVN2T0cxYjJITUZDbXlXN2hWYndHQUY5aURnYXdZenFsdQ?oc=5",
       "alerted": false
     }
   ]
