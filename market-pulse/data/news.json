@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-09-09T21:05:50Z",
-  "session_date": "2026-09-09",
+  "generated_at": "2026-09-10T05:04:50Z",
+  "session_date": "2026-09-10",
   "items": [
+    {
+      "id": "20260910-spy-barclays-target-hike",
+      "time": "2026-09-10T08:00:00Z",
+      "headline": "S&P 500 Forecast: Barclays Raises Year-End Target to 7,950, Technicals Target 8,000",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Barclays raised its year-end target for the S&P 500 to 7,950, pointing to resilient corporate earnings and economic growth. This upward revision from a major financial institution boosts institutional confidence and supports higher valuation multiples across the broader equity market.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260909-macro-oil-tops-100",
       "time": "2026-09-09T14:00:00Z",
@@ -686,26 +703,6 @@
       "why": "Growing analyst confidence in ASML's 2026 outlook suggests that capital expenditure from major foundries remains robust. This supports higher long-term earnings estimates for the lithography monopoly and validates the broader semiconductor manufacturing buildout.",
       "source": "Quiver Quantitative",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0JzWllIQWZvd0tiZFZVbmN2bmdRQVV3T0JTcVBYYU8xSjJnVnA2MXltWks0bHhLZ0JZT1lZYzdPbXZBWGNMbFVVekJHM2pWQWVfa1lBVFgwa192ZWRrU1Iyb2lBdGNiZmVTbGtTVFZKWXhhaTFfRFNEUzc4ZUhDY0U4MHRWRzE4N1hWWldkOXhWYnZOMjFuSGxtOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260904-snow-q2-earnings",
-      "time": "2026-09-04T00:00:00Z",
-      "headline": "Snowflake Earnings Beat and Guidance Raise Fuel Cloud Software Rally",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "SNOW",
-        "CRM",
-        "ORCL",
-        "MSFT",
-        "AMZN",
-        "PLTR"
-      ],
-      "why": "Snowflake delivered quarterly revenue above expectations and raised its full-year product revenue outlook, signaling resilient enterprise cloud data and AI consumption trends. Strong consumption metrics reduce fears of software budget cuts, driving a valuation re-rating across enterprise cloud platforms and hyperscalers.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQREdBTzU4cGtvNWRIU21KcjRjQ01TVFpBRXB2QmpWdnhMZG45c2c5bHllSXRKMTNkMzlwT0RqT0wwbUJoYTZvclpFMlpRMjUzS1oySkNfTHlBSWtqS3o0aW0yVjRRNkJyaHF6SEdI...?",
       "alerted": false
     }
   ]
