@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-10T16:36:19Z",
+  "generated_at": "2026-09-10T21:05:47Z",
   "session_date": "2026-09-10",
   "items": [
+    {
+      "id": "20260910-nvda-cybersecurity-ai-growth",
+      "time": "2026-09-10T13:15:00Z",
+      "headline": "NVDA, CRWD, PANW, PLTR Stock In Focus \u2014 Nvidia's Huang Highlights Cybersecurity As Next AI Leg",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "PLTR",
+        "CRWD",
+        "PANW"
+      ],
+      "why": "Nvidia CEO Jensen Huang highlighted cybersecurity as the next major growth driver for AI, emphasizing the need for hardware-accelerated defense against AI-driven threats. This endorsement boosts the long-term software monetization narrative for Nvidia and validates the AI integration strategies of key cybersecurity and data analytics partners.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHBDZ21oU0gwLUlsenFDQi14a2c0ZmlpYmFVLXltZ21rRy1HRmpuNTRpd1V3VXVpb0xSNmdlOWZEOWloZWRlWGR4bWpzMWVzalNaUVB1WGpSZHF6RFJ6TVN5SlpmZjJBZ0F2bVFPLUJxS05yaFBPcTZPc3B2RGt3eVVVMjZmRGxsa0VpZDctZUQ3QU0?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260910-macro-ppi-august",
       "time": "2026-09-10T12:30:00Z",
@@ -37,6 +55,25 @@
       "alerted": false
     },
     {
+      "id": "20260910-tsm-record-sales-divergence",
+      "time": "2026-09-10T12:00:00Z",
+      "headline": "TSMC Stock: Why Taiwan Semi\u2019s Record Sales Isn\u2019t Boosting AMD, Other Chip Makers",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "MU"
+      ],
+      "why": "Taiwan Semiconductor Manufacturing Co. reported record monthly sales, highlighting robust demand for advanced AI chips. However, the broader semiconductor sector did not rally in tandem, as investors worry that TSMC is capturing the vast majority of industry margins and that non-AI legacy chip segments remain sluggish.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SekxhU1RoU2NEc2RGMEVCS2NDVFVjUmZaX0N6MGg1NEtMbk41YnZWN2xRazhMaVA3NnExUDFmakpqZi1ldGs0WERJMmxzZEluRXh3cmplNUIzX3kxa0NXN1huZFRvUWNOak94QlVNcGVxOGI3SjRZQ0NR?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260910-nvda-insider-sale-testing-strains",
       "time": "2026-09-10T11:30:00Z",
       "headline": "Nvidia Stock Slips Overnight: Director Mark Stevens Dumps $640M In Stock Amid AI Testing Capacity Strains",
@@ -50,6 +87,21 @@
       "why": "A massive $640 million insider sale by a board director signals potential valuation caution at current levels. Furthermore, reports of AI testing capacity strains highlight physical bottlenecks in the semiconductor supply chain that could delay next-generation chip shipments and impact near-term revenue recognition.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNR2pleHRydmhoeGdaaF91RTU0OWwwQVN5MW1hUlBZLUZFUXFVOGFmRFcydHpFeHB5TVk4d1pRZTVWSVFpaTcydmhLYVh4LWVuM3FRVmYybS0tTVNGUy1CNXY5QTVQS1pPZWZ5WVVCMGh5Z1BLdTA5YTBqTF9mTm9nM3U5TjRhYmhlQzBnYXVnbXB1bU9lWVVXTkdGQXY1ODlpNFRlZ3o2bnZqa0N2Y0Rza1NSQmVOS2Fpajhkd1IwclFNZFRrbTJiT1BYT1ViU1FDaXZHYjk2UzBJX01JM1lteDlLdVRkanpCNU9oTXpvdmY5N3hjaFEw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-mu-legal-fight-selloff",
+      "time": "2026-09-10T11:30:00Z",
+      "headline": "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MU"
+      ],
+      "why": "Micron's stock is facing downward pressure due to a combination of an ongoing legal dispute and a broader selloff in the semiconductor sector. Legal challenges introduce potential liabilities and intellectual property risks, while sector-wide multiple compression further dampens investor sentiment ahead of its upcoming earnings.",
+      "source": "StocksToTrade",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZM3FMVW5TWWdTLUk0TV9nZlFKOFl4VGhJWjNRc2FPYk5DNFdNd2c3UWhKR1NiWGljRGQzbkI4YUZuVW15Uy0zWWl3aHdnMC1Mc2t3cU1LSjRFdG9pWHo0MDlPNWN5RUJXeWVVN0dydHBvTWV2XzBWSjVKV1Y?oc=5",
       "alerted": false
     },
     {
@@ -629,57 +681,6 @@
       "why": "Micron is launching a $10 billion research and investment initiative for AI memory, receiving strategic backing from Nvidia's Jensen Huang and Apple's Tim Cook. This high-level support secures Micron's position in the high-bandwidth memory (HBM) supply chain, ensuring long-term demand from key buyers of AI and consumer hardware.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMFlaTERXVHBlYkFrTHZURU45YlBUNW1UemNaQmVXTVBOSWswV2JybjgtbWRvLXI2QjdtMzY4YmZ4b24tRVpweEQtLVF5Rlo2N0ZtWXkzd2tFOWdQaUg4ektDXzI0Unl2ZDVTNGNIU2p3aFdFMktCdnBqblZUSlBWczVYaThFQVVaOE5SVU5MWjZLZE9wbFZLbFo2MktjcU0yeTg3ZzR4SV9Od1RuWlpTZjZ0cTdOemVab0I1ajZ2b3Fzdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-nvda-roadmap-intact",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "NVDA Stock Climbs Over 1% \u2014 Nvidia Says Its AI \u2018Roadmap Is Intact\u2019 After Report Of Kyber Rack Delay",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "SMCI"
-      ],
-      "why": "Nvidia reassured the market that its AI product roadmap remains fully intact following reports of potential delays in its 'Kyber' rack systems. This statement helps alleviate investor anxiety regarding supply chain bottlenecks or design flaws, stabilizing near-term growth expectations for Nvidia and its manufacturing partners.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcmhyWlY0aDgzTTBZeWdUSlI2NDl5TkNmVV9lNVltOHNvNWhLaGNMTnpXMEZpeThOcS1qUjNpSjYtWGpfQWp2ODl4UWZQWjBicXBGU2hLMEp0cmY4dmVlcmFVcEI2MC1FazJTd1lSWUlKYzdVcThxUnNFdjJrc2NXUXNyTFM0M2NFdWFMM0lMSmg3SEhxQ0VCb1NMRTRmTUthOUJ6QlRzVEczNTNBQnctU2k4Mmt6ZVBma0htNG1TZkc2ekZwdUFGR2F4eVZmT1BreUEteEY3b3BfSWs?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-amat-samsung-sk-hynix-china-tools",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "Samsung, SK Hynix Test China Chip Tools After VEU Ends",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML"
-      ],
-      "why": "Samsung and SK Hynix are reportedly testing Chinese-made semiconductor manufacturing equipment as US Validated End-User (VEU) export control exemptions face changes. This shift threatens the dominant market share of Western equipment giants like Applied Materials, Lam Research, and ASML, as major memory manufacturers seek domestic Chinese alternatives to hedge against geopolitical restrictions.",
-      "source": "tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83Nk9GOUl0SWFiaFNmUUEzQ3cyZlVtZ3pnMmlrY1NrT0U5d0twd2h1Yk9HaDdCWTd6OVU1Zno0LThEV1pVVncwcUlOQzIteFBOdWNhS25wTzl1QVdxTmdua0NyWnhnaTZJU3FUUnc5ZTFJWFlxcjZv?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-nvda-alibaba-ai-chips",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "BABA Stock Slips Premarket: Alibaba Unveils AI Chips \u20183x More Powerful\u2019 Amid Nvidia\u2019s China Export Battle",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Alibaba has unveiled new custom AI chips that are reportedly three times more powerful than its previous generation, aiming to bypass US export restrictions on high-end processors. This development accelerates China's self-sufficiency in AI hardware, presenting a direct competitive threat to Nvidia and AMD's long-term sales prospects in the Chinese cloud market.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd00wRWFveC1qVWRvZDREUkRZOURINUx1bXRSR084dkNGcDlHUHdNRGI5QzFTUlloVkluazFYeUlUYjdWa0l3N0pxeTFzZE5ONF8tZjYyRmQ4SEluSU5LaDFGLUlHYVcteV9PblQxc1NYRGVneUUwU2VZX3FaLTlkZXNCNUw4X0dpbEp5M3lncVhHU0g3Z2Nja0gxMVlTa3BzWVQyb3JpMGFMZndNdVdpakpSMlJ1enM0Ukh3Sm4xcWkxdFItUF9JREYzc2ZVOVdma0s4Y3RMNzdxZ0M0QTdZYktFS3JUR3FpYnh5QXM5cE1vMXJfZ3RRZ1Jn?oc=5",
       "alerted": false
     }
   ]
