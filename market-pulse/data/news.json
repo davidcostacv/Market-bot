@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-09-10T05:04:50Z",
+  "generated_at": "2026-09-10T11:41:59Z",
   "session_date": "2026-09-10",
   "items": [
+    {
+      "id": "20260910-macro-fomc-rate-hike-odds-soar",
+      "time": "2026-09-10T12:00:00Z",
+      "headline": "The Odds of a Rate Hike Are Soaring Ahead of the Sept. 16 FOMC Meeting",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Market expectations are rapidly shifting toward a surprise interest rate hike at the upcoming September FOMC meeting, driven by persistent inflation pressures. A rising rate environment directly compresses equity valuation multiples, particularly for high-growth technology sectors that rely on low discount rates.",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNFV2Z2p0UlJsRXNIOUtTSDBVcjNRUlFORTVjS18wemczOFN1RTBqT2t0b2lHVDZKdG9Ucml0YVpQQ1h0SHhBZk4tdDFaVlFBcENNSWhnLUhBYVZGSTl2WmVxN2JaYTEtUV8yVGVLQ1FWRUE3aU9oSzlCb1EyVTBTcXBkUXo0ODJnRm5ZSWZKUm5qMXYtcnhXTE5zSlVCUGkzVTFWYXNZZ25iMDc3cW04RVNkd1pDcmprUkd6cFFtN2RvTkRMRjNnaTlwbGMtdHpjM1VyNmhtb3FvSUdMN1o2Z1VpM3FZTlQ5NGN4Qw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-nvda-insider-sale-testing-strains",
+      "time": "2026-09-10T11:30:00Z",
+      "headline": "Nvidia Stock Slips Overnight: Director Mark Stevens Dumps $640M In Stock Amid AI Testing Capacity Strains",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM"
+      ],
+      "why": "A massive $640 million insider sale by a board director signals potential valuation caution at current levels. Furthermore, reports of AI testing capacity strains highlight physical bottlenecks in the semiconductor supply chain that could delay next-generation chip shipments and impact near-term revenue recognition.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNR2pleHRydmhoeGdaaF91RTU0OWwwQVN5MW1hUlBZLUZFUXFVOGFmRFcydHpFeHB5TVk4d1pRZTVWSVFpaTcydmhLYVh4LWVuM3FRVmYybS0tTVNGUy1CNXY5QTVQS1pPZWZ5WVVCMGh5Z1BLdTA5YTBqTF9mTm9nM3U5TjRhYmhlQzBnYXVnbXB1bU9lWVVXTkdGQXY1ODlpNFRlZ3o2bnZqa0N2Y0Rza1NSQmVOS2Fpajhkd1IwclFNZFRrbTJiT1BYT1ViU1FDaXZHYjk2UzBJX01JM1lteDlLdVRkanpCNU9oTXpvdmY5N3hjaFEw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-china-hbm-shortage-price-hikes",
+      "time": "2026-09-10T10:45:00Z",
+      "headline": "Chinese AI chipmakers boost prices amid escalating HBM shortages and supply chain disruptions",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Severe shortages of High Bandwidth Memory (HBM) and supply chain disruptions are forcing price hikes in the Chinese AI chip market. This underscores tight global supply for critical AI memory components, supporting strong pricing power and elevated margins for leading memory producers like Micron.",
+      "source": "Global Sources",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZkRDNllSMEc2dXI2N0dEc05VYUV0aDJfaEM5QmwwaUdSUjZ3MXI1aHE2bkhDQ3RDVnVsVU9VYml3RERZZ3d3eWpDZHNzVjlsMW13Zm0wN0hKOTdnUGZIS25iVE9hRW8tbHhBNDVfQTBOS3dCNUhWV0JPc3pOMHVfZmtLeTZ2WTJ3TEZHM0NRMTVyNGo3N2Z1T1BVWUo3X0ZQZEN1OE83MkZBZUI1cTdOY0pmejJYZVV1bVBKc0J6NWNSQ2VGUnpCRWVOSkxvRTBmSzhSMDZWcTdjU2lpdXJIczllazg5MjNFV1lVaTJsV2pYdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-amd-piper-sandler-initiation",
+      "time": "2026-09-10T09:15:00Z",
+      "headline": "Piper Sandler initiates AMD stock coverage with overweight rating",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD"
+      ],
+      "why": "Piper Sandler initiated coverage on AMD with an Overweight rating, signaling strong institutional confidence in the chipmaker's ability to capture market share in the AI accelerator space. This positive initiation can drive institutional inflows and support a higher valuation multiple for the stock.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObUEwemRNWFZvcTJhRGRhYjMwenhLN0d2R0M4djJEMlhpdXhMTmhrbDdJQ0gzcVVtTG1aRG9XanhwSkdwZXZhN0Q5V2hpbzM4cjNPNnJOallWYzg1MzVsSDFad3JvZ1FZWHNOMXBnTWt6Z2pBQ18xM1lPU3gyM1RtQkxUZEU4X3pHNWpoZFh2dFNzWVBua1ctdzd0OGdqQkQ3eHhzeGpRRTZPUnNiZzNGeWQzZFhMc1NTeWEtWGpLX3I4Y182X2tvYXpiaHRSQQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-pltr-nvda-supply-chain-partnership",
+      "time": "2026-09-10T08:30:00Z",
+      "headline": "Each NVIDIA AI rack has 1.3 million parts. Palantir is helping organize the supply chain.",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "PLTR",
+        "NVDA"
+      ],
+      "why": "Palantir is partnering with Nvidia to manage the highly complex supply chain for its AI racks, which contain 1.3 million parts each. This collaboration highlights Palantir's enterprise software utility in high-tech manufacturing and helps mitigate Nvidia's production bottleneck risks.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkpGMXhaMWNIdDc0bUZacGNGSlJxSHdZeHpiTUlLbV92aFJ4LXY3bmJSZ3N5bkVpV1pscnpnM00RU0ZLZWVlSW9DNWhsd1lCT25nblNRX0JTTmV3MGlTMjJTX09qVkxwTG91NmRRVHR4X2ZwaUpxQXBLTVQxTlNQQTZIckNDOG91WjVzUkVkRUhfVzNZOWhHSnlYRHRXVl8zSEpRajgtTDdSWnJvUm05SFFQNHhpQjd6c3dORk1ERQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260910-spy-barclays-target-hike",
       "time": "2026-09-10T08:00:00Z",
@@ -17,6 +98,42 @@
       "why": "Barclays raised its year-end target for the S&P 500 to 7,950, pointing to resilient corporate earnings and economic growth. This upward revision from a major financial institution boosts institutional confidence and supports higher valuation multiples across the broader equity market.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-orcl-earnings-preview-ai-demand",
+      "time": "2026-09-10T07:00:00Z",
+      "headline": "The weakest link in the U.S. stock market\u2019s AI rally? Oracle is set to report its earnings tonight.",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "Oracle's upcoming earnings report is viewed as a critical litmus test for broader AI infrastructure demand. As a major cloud provider expanding its GPU capacity, Oracle's capital expenditure guidance and cloud revenue growth will directly validate or challenge the sustainability of the AI spending boom.",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObUYtNlp2OTlLYTdlQ0hCckpYWWxUR0p6VTREYVRSdWp5dElzRkNQenBhdmhvNGhWMDdzd0ZzbUZZVWVyNGl4Y3FCQWV3WHhIbnVlUHhIN1QtbUU0bzRRQWx0cHc4LVlpOUNuQVM1WXVzZkJLQ0JvLUFndmxnM0YyNEVneGF3ZE83c2lYdnpxcw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-bok-rate-hikes-chip-boom",
+      "time": "2026-09-10T06:15:00Z",
+      "headline": "Further rate hikes hinge on chip boom's impact on inflation: BOK",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM"
+      ],
+      "why": "The Bank of Korea warned that the massive semiconductor windfall is driving domestic inflation risks, which could necessitate further interest rate hikes. This highlights how the global AI chip boom is directly influencing central bank policies in key manufacturing hubs, potentially raising capital costs for tech giants.",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQ8hhWGFIT1hGOXNDNVBoS3k0TWh3VXdnWlVTMlFaR0RmN1dydTdKQUVuSTZtLUMydjgxbGV0Q0pVR3hSMk10RFJLeHhsakNMcTY0RnYwQmdwRWlkNnV6MFpRTnN2bG9FbmM5QXRweUNmMmxsUV9ZbmVVMVdNNzctc3U1RkN4LVFsaWk3LV93ZEhFejkzdXVwZU55MFhzVWljd3Q4ZmdVRDRWQklI0gGyAUFVX3lxTE5GNWwtNjB4Z0VYVWlhTXlVNEpnZFNpbkp4ckpMTWJNU1RPOThqMVk3NmZlUE15ZVEzdDNseHVRNGg3ZDlmbGVmT3FOSDZLVVpqY2t1eFViSlVnVjVxYnpJT1ZTX3d2RlZYdnNuZFJGUU1OV282R2V5cVRPSER5WkZZX1YyV2QwMG5xRGtGV3RaU2xpcUF2SWh3SUJIMWk1cWZpcDFoQ3hJUGJ1UkpZQ3RmblE?oc=5",
       "alerted": false
     },
     {
@@ -565,144 +682,6 @@
       "why": "Marvell Technology's addition to the S&P 500 index forces passive investment funds and ETFs tracking the index to buy the stock. This structural buying pressure increases demand and liquidity for the shares.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkxQLWRoVXAxVmVVNHMyNWNaLW9DeW1OcUdIZWYwd0h6ZU1iNXNpNDVYcEN6N3RxdDNzQW84cXJNRmdkZ3l1eG1YZUFuUkJXZDdUUm9FNWJ3SlZMSUo0NkdQSU5LbkhKTEQxOHNkblJWbFFYWVVwbmphTXNmV2wzMDlyOWF4cFNnbjVOd0RQb0xuRE12dHhKX0M3VU9VWlVCZVNFcUhZRXMtSU02ci1GSUtidm5MeGxi?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260905-nvda-deepseek-huawei-order",
-      "time": "2026-09-05T00:00:00Z",
-      "headline": "DeepSeek\u2019s 160,000-Chip Huawei Order Puts PRC Law Over Every API Query",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "DeepSeek's massive order of 160,000 Huawei AI chips highlights accelerating domestic hardware substitution within China. This shift directly reduces the long-term addressable market and demand for Nvidia's export-compliant alternative processors in the region.",
-      "source": "Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNmtpbFBmOWl2NkpQOVYyMEUyV0NvNWVKLTJrQ2FBNTZVRUlUbUhUdHFNV2g2bU5yUUdnNjQtUXRWXzFaUTcxSW5HR1JKWWR6Q3ZhTXBaVGJYdTdiRTBfUGVQaVhEY3BvSkRTYW9Za3ZINTRNc2lFRTBEbWM5bjNXN01ySmoyV2ZkRHJDUk5kajNyRFdIUGVkTllVREFLU0czWldRX0pzRVp3SnAzZTk5Q0lvSEs3bkFVSUZfVGVpMUo?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260905-sector-global-semiconductor-sales-july",
-      "time": "2026-09-05T00:00:00Z",
-      "headline": "Global Semiconductor Sales Increase 6.4% Month-to-Month in July",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "MU",
-        "AVGO",
-        "SMCI",
-        "ASML",
-        "KLAC",
-        "LRCX",
-        "AMAT"
-      ],
-      "why": "A strong month-over-month increase in global semiconductor sales indicates robust, ongoing demand across the broader chip supply chain. This macro expansion supports higher revenue run-rates and valuation multiples for leading semiconductor manufacturers and equipment providers.",
-      "source": "Semiconductor Industry Association | SIA",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTDZLdTI5eUt6aWJ4S1BNSk90d2R5TXdSakc5dEJCdTZtTlE4WjB1R1FBM1ZjVGplV0xQM2VpNzBVakNUcUlNWWkxLTZvbzN3WEZfNXlZb1IwaGd0bHBqb1BUM2RRVHVNWl90aDBVYjgwcHh4ZEpLcWMtQ2hzcXR1LXFZTlg3Z0NOQnpxeUNpejNzdE91ZjhFaUNn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260905-macro-citi-fed-rate-cut-forecast",
-      "time": "2026-09-05T00:00:00Z",
-      "headline": "Citi pushes Fed rate-cut forecast to June 2027 after resilient jobs market",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Citigroup has significantly pushed back its projection for the Federal Reserve's first interest rate cut to June 2027 following a highly resilient jobs report. This hawkish adjustment signals that restrictive monetary policy and higher borrowing costs will persist much longer than previously anticipated, potentially compressing equity valuation multiples across the broader market.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeTVIbzdyb0YyeFpabDB2SV9MU1h6M21nalBSQmNZaGR0MzI0QjE0SHNlbDBQSndHZjBZSU5pTVNhVXp6aDBFZjFLMmdBdzdDNGM0YWM4cmc2b0JBQ25wc0RLZ1UzUmdkQXRsSUVHVlJnUFJBOWk3VlgxREM2Q1FUOS1VckdJcnlLVDNBOTdOTWRTb0lTOGJ3NjVibC1iMjBuR3pSc0Z1OC1UQnUxa09tZzBrQXFhWnN5TWUzQWI4ZDQ2N2dKWHU1SURR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260904-macro-trump-fed-trade-threat",
-      "time": "2026-09-04T15:30:00Z",
-      "headline": "Trump says he will cease trading with top partners unless Fed lowers rates",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "AAPL",
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
-      "why": "Threatening to halt trade with key partners unless the Fed cuts rates introduces severe geopolitical risk and potential tariff headwinds. This threat to multinational supply chains could compress valuation multiples due to heightened policy uncertainty and potential disruptions to global commerce.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DR2V2VXJ0VlhJWnhaN1VmZTFPZWYyZGVfY3JuaTNaaDJuX3pWQ3Y3QXRlM0JiY1pjZmtfaGZlNHhCaDhkV3MwWlYxNkNfM3pjMWtja0c3QjJLRWNuV1RpMjd4VVg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260904-nvda-raymond-james-valuation-call",
-      "time": "2026-09-04T14:00:00Z",
-      "headline": "NVDA Stock Posts Biggest Jump In 14 Months On $12 Trillion Valuation Call From Raymond James \u2013 \u2018Supply Is The Primary Constraint\u2019",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "MU",
-        "SMCI"
-      ],
-      "why": "Raymond James' projection of a potential $12 trillion valuation highlights that supply, rather than demand, remains the primary bottleneck for AI hardware. This reassures investors of a prolonged, high-margin growth cycle for Nvidia and its key supply-chain partners, supporting elevated valuation multiples.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSHYtamF4MTFQWEkzTjlQLWFwWTgzSXNsai02bXNfZDhpcnAxVkdDcy1qampmb2FQYlBWVXFnNTdydHhMWUNOX2RwSUpBWktFbENycTBkQU1xaU50R3ZvbXM2RGw5aGVQNnpFXzVGMFRndDRibmlHV1RoWFU0V1h4MU1rQzFBS29GR0VGWmNDZlRtSGFjNWx6TUo1ZUNoVGc4VHZ4TGwtRV9QZFdkTHZOQ3hnQVpRbHlXSHFaeWNLNllIQXAzMjJaMw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260904-macro-august-jobs-report",
-      "time": "2026-09-04T12:30:00Z",
-      "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA"
-      ],
-      "why": "The stronger-than-expected labor market data fuels concerns that the Federal Reserve will maintain higher interest rates for longer to combat inflation. This raises the discount rate applied to future corporate cash flows, compressing equity valuation multiples across the broad market.",
-      "source": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CWWEzcDI3bDlYbmQwMXd3dXdEWFRfeFl1RnpKamFQcXk4cFZpeHk3b29CSENaam5iaWFUb3podkRBY1MySFVPdWhiR2tqMVNtODFOUXptNjVTR2xyaG4xUml3TDdyX0NmWWI5Y9IBckFVX3lxTFBEV2xVamRtYmZwNllaVV92YW5DSlBUbDhJSkJKX1ZKZFlPMXpFOHByaWhNeUs0Q2U4WWM5OVBLMTFMaTdPSGZBeTVESmZkOUh4aFdQWmZNNGpETFh0bVY2dFFsN2oxRnE3dXFVeHhwNnhXUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260904-asml-analyst-optimism-2026",
-      "time": "2026-09-04T11:00:00Z",
-      "headline": "ASML gains as analyst optimism builds on stronger 2026 outlook",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ASML",
-        "TSM",
-        "INTC",
-        "NVDA"
-      ],
-      "why": "Growing analyst confidence in ASML's 2026 outlook suggests that capital expenditure from major foundries remains robust. This supports higher long-term earnings estimates for the lithography monopoly and validates the broader semiconductor manufacturing buildout.",
-      "source": "Quiver Quantitative",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0JzWllIQWZvd0tiZFZVbmN2bmdRQVV3T0JTcVBYYU8xSjJnVnA2MXltWks0bHhLZ0JZT1lZYzdPbXZBWGNMbFVVekJHM2pWQWVfa1lBVFgwa192ZWRrU1Iyb2lBdGNiZmVTbGtTVFZKWXhhaTFfRFNEUzc4ZUhDY0U4MHRWRzE4N1hWWldkOXhWYnZOMjFuSGxtOA?oc=5",
       "alerted": false
     }
   ]
