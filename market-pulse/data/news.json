@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-09-10T11:41:59Z",
+  "generated_at": "2026-09-10T16:36:19Z",
   "session_date": "2026-09-10",
   "items": [
+    {
+      "id": "20260910-macro-ppi-august",
+      "time": "2026-09-10T12:30:00Z",
+      "headline": "Wholesale prices rose 0.4% in August, as expected",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "August PPI rose 0.4%, matching expectations but showing persistent wholesale inflation pressures, driven partly by rising energy costs. This keeps pressure on the Federal Reserve regarding interest rate hikes, potentially raising the cost of capital for high-growth tech stocks.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qVHZKSklSNFBTMjdLU1hfTVQwV2dQdjdhV1pGZkQ0S2I0VTZuX2NjcGMyb1hNUWV2dXJSb0ZxZkg2ZEh6bWJfbFA3bkNMenpLR3hNeWVEWkZ3LTVrcjByWGt1NzJlZXpmZnF4bWctNm1QRm1NS1FmbNIBfkFVX3lxTE1Demk0RVMzaFd0WW9UQWRPWDRNLTl5ZEdKenM4LWJRV2VtUjQ0OTVGUm5mQ1JMMUZqd0ZsWGJ6cVhMR2s3U1BScS1FRk8xbzFFb05ITjZJLXRiQ2gyWXRzRkJaZDE1ZTZNOV82YjZUbnhCaHlZYl9fal9wOXY4dw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260910-macro-fomc-rate-hike-odds-soar",
       "time": "2026-09-10T12:00:00Z",
@@ -53,6 +70,23 @@
       "alerted": false
     },
     {
+      "id": "20260910-amzn-anthropic-chip-group-split",
+      "time": "2026-09-10T10:00:00Z",
+      "headline": "Scoop: Anthropic breaks from major tech group over chips",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "why": "Anthropic has reportedly broken away from a major tech coalition over disagreements regarding AI chip policy and regulations. This highlights growing divisions among top AI labs and traditional tech giants over hardware standards and supply chain lobbying.",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wQXJjM3prLW5SV3pEUVJlS1lzZzlKbTFtNngzUUJSU0ZvR08xODFXMVlGSTNwNG5HdXN6WGpLMWt1VkdBaHowTUo1bEluQ0QyeUNmLXZTcFNFQjkxSFkzbTBRN01VWk11c1FQWGxaQWc3aWUy?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260910-amd-piper-sandler-initiation",
       "time": "2026-09-10T09:15:00Z",
       "headline": "Piper Sandler initiates AMD stock coverage with overweight rating",
@@ -98,6 +132,22 @@
       "why": "Barclays raised its year-end target for the S&P 500 to 7,950, pointing to resilient corporate earnings and economic growth. This upward revision from a major financial institution boosts institutional confidence and supports higher valuation multiples across the broader equity market.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260910-mu-intel-startup-competition",
+      "time": "2026-09-10T08:00:00Z",
+      "headline": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "INTC"
+      ],
+      "why": "An Intel-backed startup is entering the memory-chip market, threatening Micron's market share in high-bandwidth memory (HBM) and DRAM. This introduces new competitive pressure on Micron, potentially impacting its long-term pricing power and margins.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNlJIeHBqb0gxSDA2LVJERmRUb08xLTVwVmFqV2ZvQzFXRHlPRm1ZNldBNnBQRGZuUTFVd01hVGhVZXFqZVBKajB6SzM0RnB2bDF4bEpKZ0Y5MHVLdTZMdl9TVjFnS2gzN0lvbEg0RDFXZ0wzNU1fc3ZUeVJLWjJXRjlvalhGZw?oc=5",
       "alerted": false
     },
     {
@@ -630,58 +680,6 @@
       "why": "Alibaba has unveiled new custom AI chips that are reportedly three times more powerful than its previous generation, aiming to bypass US export restrictions on high-end processors. This development accelerates China's self-sufficiency in AI hardware, presenting a direct competitive threat to Nvidia and AMD's long-term sales prospects in the Chinese cloud market.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd00wRWFveC1qVWRvZDREUkRZOURINUx1bXRSR084dkNGcDlHUHdNRGI5QzFTUlloVkluazFYeUlUYjdWa0l3N0pxeTFzZE5ONF8tZjYyRmQ4SEluSU5LaDFGLUlHYVcteV9PblQxc1NYRGVneUUwU2VZX3FaLTlkZXNCNUw4X0dpbEp5M3lncVhHU0g3Z2Nja0gxMVlTa3BzWVQyb3JpMGFMZndNdVdpakpSMlJ1enM0Ukh3Sm4xcWkxdFItUF9JREYzc2ZVOVdma0s4Y3RMNzdxZ0M0QTdZYktFS3JUR3FpYnh5QXM5cE1vMXJfZ3RRZ1Jn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-nvda-us-draft-export-regulations",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "US Reportedly Working On Draft Regulations For Power Over Nvidia, AMD Chip Exports",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "SMCI",
-        "AVGO",
-        "MU"
-      ],
-      "why": "The U.S. government is reportedly drafting new regulations to restrict the export of powerful AI chips from Nvidia and AMD. These potential restrictions threaten to limit sales to key international markets, directly impacting the long-term revenue growth projections for the leading GPU designers and their supply chain partners.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMHRyaUo2b2Y2YVVPQXp3NjNmX3NEVUE0UEMwUnZjTUp1bFo4d0NGVVVUQS1USTZ3bFVoUVQxbTF1V1lKUXNudFFBRDd0WkNubGlLM0xaWDIxTXYyY0xiOGtXM01jZmlkb3JYQTBJb05mdVJQVmJDZkcwNWRCY2hQcnBjOVNXUGZ4UUdJdGRNN1c4Vmtuc3RHV0dRYUQxVmRTSm9XOG1NV09ERVA2dDlveTJvdHIxMm4zMWNqd0pZV1J2MGh3TEpXRVZQUjV1SW9CZ3FWTEgwNU44aloxQXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-smci-cisco-ai-factory",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "Why Super Micro Computer (SMCI) Is Up 6.8% After Joining Cisco\u2019s Secure AI Factory With NVIDIA",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "CSCO",
-        "NVDA"
-      ],
-      "why": "Super Micro Computer has integrated its AI servers into Cisco's Secure AI Factory alongside Nvidia. This partnership expands SMCI's enterprise market reach by leveraging Cisco's massive corporate sales channels, potentially boosting server shipment volumes.",
-      "source": "simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOEN3LXM5bWN1MGhhbHljSDBUMVNTN0hUVUxqWTBwVGhVVWRYYUhQaDZoRXBvUFhhM0VyeE1YZmlFN2tvVHNFeldSY3ExdlFrTS1Ga293OHJuMllUa0prcFN3djBaUXk4b1JsSUFhTGlQaUlUaVFYQmtldGlMMlJJUzhDUl9IaG5OdHRkS0dyclBIQ1JTWFNsNE90d0wwVFBOaG1DRGJVX001aS1KV0ZESE1uLWlCQ1dhb1FkVmtoNVh6VWV5cUJhY0VGV2R2N0nSAdQBQVVfeXFMTlNzS09wdmc1elFzT0VXUDlwT3B1eWRONmVoSDJRMkQ3YWNjRlZyN0dwX1ZtUUxOYlpSc3hjUllLaDVOd3o3S056N2o2XzZyU0luRG1ZUTM1ZGl6NVI3OUg3WWpwbjZQbGgzbjUzRWxTTE1SMVJ5T2VGMGpJV2RrTG8tQlRSVEpzR3pET0RycU9pSUJ5WkRSOHBHTUhybTB1Um5NeFg4bHlrWkNkZmptY3BlEXZtYWdLeExXSnBLMGdlSlZUenN4WVlEXzFicFNjWjlHTjQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-mrvl-sp500-inclusion",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "MRVL Stock Jumps After-Hours On S&P 500 Inclusion",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL"
-      ],
-      "why": "Marvell Technology's addition to the S&P 500 index forces passive investment funds and ETFs tracking the index to buy the stock. This structural buying pressure increases demand and liquidity for the shares.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkxQLWRoVXAxVmVVNHMyNWNaLW9DeW1OcUdIZWYwd0h6ZU1iNXNpNDVYcEN6N3RxdDNzQW84cXJNRmdkZ3l1eG1YZUFuUkJXZDdUUm9FNWJ3SlZMSUo0NkdQSU5LbkhKTEQxOHNkblJWbFFYWVVwbmphTXNmV2wzMDlyOWF4cFNnbjVOd0RQb0xuRE12dHhKX0M3VU9VWlVCZVNFcUhZRXMtSU02ci1GSUtidm5MeGxi?oc=5",
       "alerted": false
     }
   ]
