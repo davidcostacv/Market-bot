@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-09-11T05:01:28Z",
+  "generated_at": "2026-09-11T11:41:57Z",
   "session_date": "2026-09-11",
   "items": [
+    {
+      "id": "20260911-nvda-enflame-shanghai-ipo",
+      "time": "2026-09-11T10:30:00Z",
+      "headline": "Enflame shares soar 188% on Shanghai debut as Nvidia challenger taps AI fever",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Chinese AI chipmaker Enflame's blockbuster 188% debut on the Shanghai stock exchange highlights the rapid growth and capitalization of domestic alternatives to US silicon. As US export controls restrict Nvidia and AMD from selling high-end chips in China, local competitors are successfully scaling to fill the void.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSnVzQ01waXFGWmtpMmYzc09SSWYwRlhLazcxTU9pdVYtb2JFaVhQbXphVFlZZHg2NGZjdW1naTlTYnA0dVM5MFM5cTBJRy1rVHYtR2lVeXA5bFIwUlNuZnQyRktsQlFwNjNESW9oSWpzQlhRNHkxTmo4LUIyOEtKNFhpVWt6cFBMVzhmZlh0VkJid0hIelJ3bHpZVGdTQW9YcTh5Q0kyTVZDTnVMRnh2X0lxTFhUVExwRXNhWTdXT216TVFYYTVEVmo0TmpId9IBzgFBVV95cUxNaWJEbmx2R0Zib05WMU90Mm5lUk1iOW5zaHVoZ1RNUDlZZmJ5aVdPdmVPMkpRcW5GNmE1VjJsRTBOXzhkeWxoX1laVmRzYjhTUHFHSHBVekJFZEV6dUtocDJGeWkwM0VKR3ZHbTFnOGdaTmZvNTNvWnB6OXRwUzlrUHA1N3dWbV9Sdk5XcXNVS1dZRGZOeHVWaVZDSHdVfF93cVNETXJzUnBfa3I2cXREelcxUGFEcDRFNlNpOVhrM1cyaFRoTmV0NlI0azV4UQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260911-intc-piper-sandler-upgrade",
+      "time": "2026-09-11T08:00:00Z",
+      "headline": "Intel (NASDAQ:INTC) Stock Rating Upgraded by Piper Sandler",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC"
+      ],
+      "why": "Piper Sandler upgraded Intel's stock rating, signaling growing analyst confidence in the company's turnaround strategy or valuation. Upgrades from major Wall Street firms often drive institutional inflows and improve market sentiment for struggling legacy tech giants.",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOal9jSGo5X0xkRjU5eVc5RlFwblJTd3hNYzZIWTZzSEFVLWp1dW0xZU55Vm9xZmJHUUx0UmJEMXh3SDQ0ODZjSmx3anVqUXBhZVNTamVYcG5sbUVJb3lTSVR2VGZEeVhFM2tyYlVzU0FBeVJRMFhwaTh6WEFMMlczekhtUUdGWFAyVS14cVp3RUdkcExuS19fY3pJanN0S2tHam9ZVDZSTkdoTmIwMEY4SlhpY0JDQ3JBOUE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260911-nvda-doj-antitrust-probe",
       "time": "2026-09-11T00:00:00Z",
@@ -664,37 +695,6 @@
       "why": "Senator Elizabeth Warren has reportedly called on Nvidia CEO Jensen Huang to testify regarding the company's chip sales to China. This heightens political and regulatory scrutiny over Nvidia's compliance with export controls, raising the risk of stricter legislative crackdowns that could impact future revenue.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkVfWGo3QkU2eElrdmlnLVNnczVWNDhzNVFDTG01ZmdEWW5PMWpaWFFDVUt4ZGZ5NDFxQkVFOXZjY2NlOWRzQm81ZVZkalJjZFNYS3ZKcTdtWlpKeTBtakR2QmRzQVI2V0ZUS1FvUHFscUItbi11ZU5MRGI0Y2xXbUdsa2NITm5DTXkteGl1eHF3R21Nby1zbnNfMDhrMlNVZ3ZsNWwwOXpZdzhFMDc2enRFMm02dGxHZ0dKNU5EUjRJZTFXWl9wUlRpblhXZGN6R1cydFZkN2ZaVXhWZ2dlUmtVVW15MDVPTEdwbw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260907-nvda-huawei-malaysia-ai",
-      "time": "2026-09-07T08:00:00Z",
-      "headline": "Malaysia considers Huawei's Ascend 910C processors for a RM2 billion national AI program",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Malaysia is evaluating Huawei's Ascend 910C processors for its RM2 billion (approximately $450 million USD) national AI initiative. If selected, this would represent a significant competitive headwind for US chipmakers like Nvidia and AMD in a rapidly growing Southeast Asian data center hub, highlighting Huawei's ability to capture market share despite US export restrictions.",
-      "source": "Global Sources",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdXdBa21zSnFnLUpMYTNBMWRnMU9aNXlFTjdSby03RTg2dE80SG0zV3NOTVN6TnEzWFpFUWI1bVZRQmQzbG9ZRzREMTZrV0hCQnRPZ1l3WW1fcDVlU1pleHVNQ25EQXFBTDAwRndmRkhjdFN3OUdETjAydWFrdElHSVkxMGJSWVk2VlppMENCSDBFa1IxWFUzX0NLZVhZUm5kZURCS1c1ZXNSbGNvRmNrLXBpNE9XZkJzLWMwMjZTQXl3OXlQVGJUUkNCcUhCNDJXeVlKR2lXaldKTUFkOTM1dDF0VQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260907-nvda-megaspeed-malaysia-deal",
-      "time": "2026-09-07T00:00:00Z",
-      "headline": "Megaspeed\u2019s Malaysia Unit Bought $2B in Nvidia Chips [2026]",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "Megaspeed's Malaysian subsidiary has purchased $2 billion worth of Nvidia AI chips. This represents a massive direct revenue injection for Nvidia's data center segment and highlights continued robust demand for its hardware in Southeast Asia.",
-      "source": "tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Hb19qT2k3WXJlQUdESWg3MXd1Q281M0DNcHVSdE40TjVWNUxUUHg2YWNfZm9UVHZfVDVZelVWWnVLNjBzVW41RWNhUE5QbTNWUHNwSnZyNXZqMkFtSVhwYXhjdFBITFFpY1hBUXhfLUZOdDBHUy1OaGY2NWF6SWM?oc=5",
       "alerted": false
     }
   ]
