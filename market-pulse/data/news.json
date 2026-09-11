@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-09-10T21:05:47Z",
-  "session_date": "2026-09-10",
+  "generated_at": "2026-09-11T05:01:28Z",
+  "session_date": "2026-09-11",
   "items": [
+    {
+      "id": "20260911-nvda-doj-antitrust-probe",
+      "time": "2026-09-11T00:00:00Z",
+      "headline": "NVDA Stock Alert: What to Know as Nvidia Faces DOJ Probe",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "SMCI"
+      ],
+      "why": "The Department of Justice is escalating its antitrust investigation into Nvidia's dominance in the AI chip market, focusing on whether the company abuses its market position to lock in customers. A formal probe increases regulatory risk, potentially limiting Nvidia's aggressive bundling practices and opening market share opportunities for competitors like AMD.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGJFM3VzclRoOWhFTXp1NDZZODdLQVhRQWJXSUtTdVBMMUptM040ZzV0Q1FBNDdZWEttVnVRTGh2YXRPX3hva2RkaVJrb29mTjk5X0twWWIzNTBTdi03dHJ4MGlfT1NLVUREeURJOWtVdnd4Y2o5Ny1YcnNkeDR3V0tDdTFEZmZNYmszeGItV2JYcUtLUlJ1YQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260911-mu-korea-export-surge",
+      "time": "2026-09-11T00:00:00Z",
+      "headline": "Korea\u2019s Sept. 1-10 exports hit record on 270% chip surge - \ub9e4\uc77c\uacbd\uc81c",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "South Korea's early September export data shows a massive 270% surge in semiconductor shipments, reaching record levels. This serves as a strong leading indicator of sustained global demand for high-bandwidth memory and logic chips, bolstering the near-term revenue outlook for the entire AI hardware sector.",
+      "source": "\ub9e4\uc77c\uacbd\uc81c",
+      "url": "https://news.google.com/rss/articles/V0FVX3lxTE40MXVOSTcyY0M3SjNFTk5SbUpKdFhAUENOV0MyZDY4d3NYdWxhQ252TnpSWlVXcGQ0YnlyWDZyc29ETVVuZDktamdndUVRZ0V4dFgtOHZiZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260911-macro-treasury-yield-five-percent",
+      "time": "2026-09-11T00:00:00Z",
+      "headline": "The Unrelenting Bond Selloff Puts the 10-Year Yield on the Cusp of 5%",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA"
+      ],
+      "why": "The continuous selloff in government bonds has pushed the 10-year Treasury yield close to the critical 5% threshold. Higher risk-free rates increase the discount rate applied to future cash flows, directly compressing the valuation multiples of high-growth technology stocks and raising borrowing costs across the economy.",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbjJuQjZSbTBNcU50bHBRSDhRYW5fMnpjUnZyN3gwM0dpRy1OZTc1ekljY3JBVTd4SDNSbEZEelo3N3BDaFZzdUxrTEVYMlMwcEUwc2dwU3pvT3hiNUZvM2dYaDZ1aXZBMjdnc0VOR3hQdWJhTkFBNmlVbXRxaVhRUUU4QU5tYnpaX1gxQ2xzRDNXSmVkWlh3RFlsTDZrZzU3bmVrUjY0OWo3R3RGcGJKR2VScW1Jdw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260910-nvda-cybersecurity-ai-growth",
       "time": "2026-09-10T13:15:00Z",
@@ -632,55 +695,6 @@
       "why": "Megaspeed's Malaysian subsidiary has purchased $2 billion worth of Nvidia AI chips. This represents a massive direct revenue injection for Nvidia's data center segment and highlights continued robust demand for its hardware in Southeast Asia.",
       "source": "tech-insider.org",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Hb19qT2k3WXJlQUdESWg3MXd1Q281M0DNcHVSdE40TjVWNUxUUHg2YWNfZm9UVHZfVDVZelVWWnVLNjBzVW41RWNhUE5QbTNWUHNwSnZyNXZqMkFtSVhwYXhjdFBITFFpY1hBUXhfLUZOdDBHUy1OaGY2NWF6SWM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260907-aapl-huawei-kirin-tau",
-      "time": "2026-09-07T00:00:00Z",
-      "headline": "Huawei unveils first-ever smartphone powered by Kirin chip based on Tau Scaling Law",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AAPL",
-        "QCOM"
-      ],
-      "why": "Huawei's launch of a smartphone powered by a new Kirin chip utilizing the Tau Scaling Law signals advanced domestic chip capabilities in China despite US sanctions. This intensifies competition for Apple's iPhone and potentially reduces Qualcomm's addressable market in the region.",
-      "source": "scmp.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONHdCUXZWeXFxekpPWVljT0Fhdy1CVUVXVF9ocXpTVXg0YzZoVlpKcnB0N0FhVS01bjlQVUJJbFp3RW9DYnN0QU5nM2Y3ZFRyVHNPdERLMTN5d184aXdPSVdSZWNJdHJGN0NQdDlzS1hWYVk1M1U5cHY5Vl9ValpCM0VFOTRucjkxdUFFRWdZc3MxN0VpeEh3MU9HR195RHNpYkxFVGJiRkZqWElOTURPR2NsVjZsa3hRTGx4d0pOb2hzanY4ckJSTWROS1_SAcwBQVVfeXFMTjR3QlF2VnlxcXpKT1lZY09BYXctQlVFV1RfaHF6U1V4NGM2aFZaSnJwdDdBYVUtNW45UFVCSWxad0VvQ2JzdEFOZzNmN2RUclRzT3RESzEzeXdfOGl3T0lXUmVjSXRyRjdDUHQ5c0tYVmFZNTNVOXB2OVZfVWpaQjNFRTk0bnI5MXVBRUVnWXNzMTdFaXhIdzFPR0dfeURzaWJMRVRiYkZGalhJTk1ET0djbFY2bGt4UUxseHdKTm9oc2p2OHJCUk1kTktf?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260907-mu-openai-astra-model",
-      "time": "2026-09-07T00:00:00Z",
-      "headline": "Why the launch of OpenAI\u2019s latest Astra model reignited the memory chip trade",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA"
-      ],
-      "why": "The launch of OpenAI's new Astra model has catalyzed demand for high-bandwidth memory (HBM) and DRAM. This directly benefits memory chipmakers like Micron as next-generation AI models require significantly larger memory footprints to operate efficiently.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQelNzMHA3cTliWW5hTHhsNWNOdlZkdzNISnVla2V3cnlnZzF4bVN1VVdGb3NCeDFsaVVFSWN6dlNVclVLem9iazY1YkU5RDZBZVhBOV9MYmxPTHF4V2lBcGplTUxlUDNPak9jVW5kZ1RJTGJCS1gxdEpNbHhRSTNwNW1fT2kxZmVBLUVWeHk1ZkVQZlpzbjltUG5BU3lYeTlRRUNQLWotRkh1RWxvQ1BBWkdMZUE2VzUzRGlZ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260906-mu-ai-memory-bet",
-      "time": "2026-09-06T00:00:00Z",
-      "headline": "MU Stock Gains On Micron's $10B AI Memory Bet \u2013 Nvidia's Jensen Huang, Apple's Tim Cook Back Research Push",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AAPL"
-      ],
-      "why": "Micron is launching a $10 billion research and investment initiative for AI memory, receiving strategic backing from Nvidia's Jensen Huang and Apple's Tim Cook. This high-level support secures Micron's position in the high-bandwidth memory (HBM) supply chain, ensuring long-term demand from key buyers of AI and consumer hardware.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMFlaTERXVHBlYkFrTHZURU45YlBUNW1UemNaQmVXTVBOSWswV2JybjgtbWRvLXI2QjdtMzY4YmZ4b24tRVpweEQtLVF5Rlo2N0ZtWXkzd2tFOWdQaUg4ektDXzI0Unl2ZDVTNGNIU2p3aFdFMktCdnBqblZUSlBWczVYaThFQVVaOE5SVU5MWjZLZE9wbFZLbFo2MktjcU0yeTg3ZzR4SV9Od1RuWlpTZjZ0cTdOemVab0I1ajZ2b3Fzdw?oc=5",
       "alerted": false
     }
   ]
