@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-12T11:08:09Z",
+  "generated_at": "2026-09-12T15:45:28Z",
   "session_date": "2026-09-12",
   "items": [
+    {
+      "id": "20260912-nvda-next-gen-rack-delay",
+      "time": "2026-09-12T08:00:00Z",
+      "headline": "NVDA Stock Swings In Premarket: Report Says Nvidia's Next-Gen AI Rack Delayed By A Year",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "TSM",
+        "MU",
+        "AVGO",
+        "MRVL",
+        "AMD"
+      ],
+      "why": "Reports of a one-year delay in Nvidia's next-generation AI rack design threaten to push out expected hyper-scale data center deployment timelines. This delay directly impacts near-term revenue projections for Nvidia and its key supply chain partners, including foundry provider TSMC, memory supplier Micron, and server integrator Supermicro.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaFBaWHQ4WHF2enhuWnpsc2JNb1ZnTW90MU5DX2wtVW5wam9tSDhlZFJyNlpLSi1KSld2V185blF5a3M4dUJsV2dfTkM1QzNOVlhYOXhoNzBKcEZpUWJZRHhKRzkwQVJsYkk5RWFSNGd2T01vWTRwZk1PaGRvWmhtaUNZQk5OSGRuQlQ5Z2tfYzB2ZEE1bDVtMTdiZ0xpWGMwcmczUHpmOTBqbkJManJDenYxcDdsQ29LLVB4S3FnQ3lMdE5rSU1qakNrMmZiS3FmTmF3ekw3bWVpbHVpaHhnTnpYdVU?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260912-mu-cxmt-margin-threat",
+      "time": "2026-09-12T08:00:00Z",
+      "headline": "South Korea's semiconductor exports top 400 trillion won for first time; CXMT's profit margin overtakes Samsung and SK Hynix",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU"
+      ],
+      "why": "ChangXin Memory Technologies (CXMT) reportedly surpassing Samsung and SK Hynix in profit margins highlights the rapid advancement and cost-competitiveness of Chinese domestic DRAM production. This rising competition poses a medium-term threat to global memory pricing and market share for established players like Micron.",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44eE5JQXBDZlZPZ2xsdm5NUHBqSklKTk9rQ1A5UkpiNC1hRlpTclZ3T1lRb3pBRzdxU1gyOGp6YzNaMFlOREFMeW9qeXR3VGV4QW4xYmNmM1ZlalZyWUNuSVhVOEVsYm1EMm1JQi10VmFpaEtnTFE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260911-intc-price-hike-report",
       "time": "2026-09-11T13:00:00Z",
@@ -659,41 +695,6 @@
       "why": "Strong semiconductor export data from South Korea serves as a leading indicator for global memory demand, directly validating Micron's ambitious long-term revenue targets. The positive export signal suggests that the pricing and volume environment for DRAM and HBM remains highly favorable, reducing fears of a memory market peak.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZWR4TklfeU44Mmd1WUxzS3Z2N1pCcldBTnN5QlpMNGpYV0xLWi1XcnI1anM3akxncmhPZm8zE1l5bENBWVE0YjFoS0kteXRTYmx2c3FpdjB1WGUyckFLMXYxWnpab0p4UHFTT2NEeDhRS1Bkcjk5TkdnRTZ3TmVEYXhLTldWRUxjcVBROG4yOHpUVW4wT0Y3Njhn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-mrvl-photonic-chips-milestone",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "MRVL Stock Rises Premarket: Marvell Ships Over 5M Photonic Chips Ahead Of S&P 500 Entry - Stocktwits",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "NVDA"
-      ],
-      "why": "Reaching the 5 million shipment milestone for photonic chips demonstrates Marvell's leading position and commercial scale in optical interconnect technology, which is essential for high-speed AI cluster networking. This volume validation supports near-term datacenter revenue growth and solidifies its market share ahead of its S&P 500 inclusion.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaWNBN0djRzd4MDQzQ3lIcWN6ejNMMUthXzNsSF9ZOWE2aHU2a2dlazNJTUZja2Y0cVVsVzlzbVpzNGlzbW1vUm5FNXNVYURMOGNfeEpUbDhSRndray1Kbm5jWjJmWl9Gal9TeVIyZ0NMdHZCVU0wNUwzQnl5MkN0QVVIbFlQUzU1dU5MVkMxUDdZU1NmaFQwWTNkRXpKZ0x5R1JKc1VyY1lIOXY5c1lrSDhZUS1CclBQZEI3M3JCb0Ixb3lHOE9lVm9JLXlCeDgzMF9JNUtHa1VCcUxobF8zclFmNGtiTWxlZWhj?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-asml-tsm-bigger-masks",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "ASML and TSMC plan bigger masks that could lower chipmaking costs - Stock Titan",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "TSM",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Planning larger photomasks allows ASML and TSMC to print larger or more complex chip designs more efficiently, directly lowering production costs. This technological evolution improves manufacturing margins for TSMC and reduces the cost-of-goods-sold for major fabless customers like Nvidia and AMD.",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZWZ5Rl9PaDIwZlJ2MV9VSVJOTHJMVG1oRlMzMzQ5VHJOOC1mMVhacktodklySDBXeDFJeG9Zb1lzMVdpcDZyc0RlR2pGSkFvaVcxNjczRjducmVjZTh5d052OEpUVGNuU295TVIyakdCeUI2akNJNVo2TERmNUFnUUREMi0yU0ttQ1gyTmVTZXkwak0yRWNMX2drVDhLU19XamkwOW1HQzkwTGxzaFZjaXQtYmI3bjRreGl3V2Y3TQ?oc=5",
       "alerted": false
     }
   ]
