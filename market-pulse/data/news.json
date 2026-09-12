@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:45:28Z",
+  "generated_at": "2026-09-12T20:48:37Z",
   "session_date": "2026-09-12",
   "items": [
     {
@@ -36,6 +36,41 @@
       "why": "ChangXin Memory Technologies (CXMT) reportedly surpassing Samsung and SK Hynix in profit margins highlights the rapid advancement and cost-competitiveness of Chinese domestic DRAM production. This rising competition poses a medium-term threat to global memory pricing and market share for established players like Micron.",
       "source": "finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44eE5JQXBDZlZPZ2xsdm5NUHBqSklKTk9rQ1A5UkpiNC1hRlpTclZ3T1lRb3pBRzdxU1gyOGp6YzNaMFlOREFMeW9qeXR3VGV4QW4xYmNmM1ZlalZyWUNuSVhVOEVsYm1EMm1JQi10VmFpaEtnTFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260912-mrvl-sp500-entry-photonic-milestone",
+      "time": "2026-09-12T08:00:00Z",
+      "headline": "Marvell Ships Over 5M Photonic Chips Ahead of S&P 500 Entry",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "NVDA",
+        "TSM"
+      ],
+      "why": "Marvell reaching a 5-million-unit shipping milestone for silicon photonics validates accelerating datacenter migration toward high-speed optical interconnects in AI clusters over traditional copper solutions. Concurrently, inclusion in the S&P 500 forces passive index funds to acquire shares, creating structural buying demand and expanding institutional exposure.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaWNBN0djRzd4MDQzQ3lIcWN6ejNMMUthXzNsSF9ZOWE2aHU2a2dlazNJTUZja2Y0cVVsVzlzbVpzNGlzbW1vUm5FNXNVYURMOGNfeEpUbDhSRndray1Kbm5jWjJmWl9Gal9TeVIyZ0NMdHZCVU0wNUwzQnl5MkN0QVVIbFlQUzU1dU5MVkMxUDdZU1NmaFQwWTNkRXpKZ0x5R1JKc1VyY1lIOXY5c1lrSDhZUS1CclBQZEI3M3JCb0Ixb3lHOE9lVm9JLXlCeDgzMF9JNUtHa1VCcUxobF8zclFmNGtiTWxlZWhj?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260912-taiwan-ai-chip-export-rules",
+      "time": "2026-09-12T07:30:00Z",
+      "headline": "Taiwan Proposes Tougher AI Chip Export Rules",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Proposed tightening of semiconductor export restrictions by Taiwan's regulators introduces additional compliance barriers and potential bottlenecking for advanced packaging and leading-node wafer shipments across Asia. Heightened scrutiny could delay international deliveries and restrict high-margin AI accelerator sales targeting international markets.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTVGODUxa1FwSHRXN1FxZ0xOcjViaWVENGJId0pmYXFkQ1BMMTRWRUx3OWljdnowVGNLaDc3YV95YkE1RGZhY0ZiZ1ozQ0F4eGd3amFvQ0VOMzdQMzJJc3BTVU14M2Z3MXExVXE1S3RnbktSYmZSUFo5c0FRYmZNM1RfVXA5LTFwNDNCZ3VrbzM4MENCeUNRaGRMRV82Qm5xR052Y2RDWjdiNFFRemtMWFNyYmJ6d1dWQmI4Ug?oc=5",
       "alerted": false
     },
     {
@@ -661,40 +696,6 @@
       "why": "BYD is transitioning toward designing its own in-house automotive chips, reducing its reliance on external semiconductor suppliers. This strategic shift could pressure margins for traditional automotive chip suppliers and allows BYD to vertically integrate its EV supply chain, directly challenging Tesla's custom silicon approach.",
       "source": "Global Sources",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc2dEUnZkZnJWX1JlNlM0TnA0NjFHaWd2UlhfZ0ItcjhLQW5pN2t4azNtSnJJSDBoRnozMDNSRnVhWG0ybUl1NnR1YXVUTnpTUnJ3UzBZSkxGNmJEVFZoZXkxSzk4RTJ2anVvTC1NdHpxN2NRVU9Qa2tqZXlyWkV5RHZVdGNFa3pSMUNJYTlvbFdPSEYtS1AwN0xsYWs5V0ZIM2l4U3FwNTVRclpOTEVzVlEyamNrNDJzSjBXQUFmWW9rcXNyU09JeHByRllTdzZvbWYtYVdn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-asml-tsm-samsung-commitments",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "TSMC, Samsung commit to ASML\u2019s newest chipmaking tools as AI drives demand - CNBC",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "TSMC and Samsung committing to ASML's newest, highly expensive chipmaking tools secures ASML's long-term revenue pipeline and reduces uncertainty around the adoption of next-gen lithography. This commitment also signals robust capital expenditure plans from major foundries, which acts as a positive read-through for other equipment makers like Applied Materials, Lam Research, and KLA.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYTZlbzJBNE0xdmp2WGdfamJKY0NzUFBta2dOTS1XX1BtX1JsVXhldEx6YVozR0RVaVRrVW8zY2FWUjBlLTZWTGRfbzlOcUFRZTZfT3BMN2Q0bnZfNVcyTFlBWS1jbmppYlFlcW92b0ZDYktCM3RaY1hPUEpTZ09WSmU4all4OTN5RnVN0gGQAUFVX3lxTE5NOFJ1MmdnNlFmRm1TSnB4ZG5xbjEwTU92UFdCYl9RdUhmcXJjMWtCT0VkUjYxVWZ5NGRkWDNTY0ltS2RRYlBoNjI4MmQyMVJPNFg4LWc5OGhMMEhxclVGVHMtQkpzZVZUUkJTX0lWQUNXbi00U2x6cS1VWlpqZ2EteV9BbG5udlJFTC1ieldOSA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-mu-seoul-export-signal",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul - Yahoo Finance",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU"
-      ],
-      "why": "Strong semiconductor export data from South Korea serves as a leading indicator for global memory demand, directly validating Micron's ambitious long-term revenue targets. The positive export signal suggests that the pricing and volume environment for DRAM and HBM remains highly favorable, reducing fears of a memory market peak.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZWR4TklfeU44Mmd1WUxzS3Z2N1pCcldBTnN5QlpMNGpYV0xLWi1XcnI1anM3akxncmhPZm8zE1l5bENBWVE0YjFoS0kteXRTYmx2c3FpdjB1WGUyckFLMXYxWnpab0p4UHFTT2NEeDhRS1Bkcjk5TkdnRTZ3TmVEYXhLTldWRUxjcVBROG4yOHpUVW4wT0Y3Njhn?oc=5",
       "alerted": false
     }
   ]
