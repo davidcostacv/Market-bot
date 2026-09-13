@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:13:47Z",
+  "generated_at": "2026-09-13T12:12:57Z",
   "session_date": "2026-09-13",
   "items": [
     {
@@ -18,6 +18,55 @@
       "why": "Nvidia's entry into the consumer PC processor market directly challenges the long-standing x86 duopoly of Intel and AMD. This expansion threatens to erode Intel and AMD's core client computing revenues while opening a massive new revenue stream for Nvidia, with TSMC likely benefiting as the primary foundry partner.",
       "source": "shattered.io",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xcU1Md3JnNkZwbXBnV2k2SGZEX24xZFdyRW9yTFFLTEZoMGUya3N4cV9rNzZsU1Z6TEh3UEN0NEhQZC1BNVVKWW8xZ1ZyTGVGMG5mMUZRdl9mQkgtV2lKdXA3c0NwMjg3RXZPNzFWZzF0UnV0akhn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-smci-stock-offering-backlog",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "SMCI Stock Tumbles After-Hours Following $7B Stock Offering To Fund $39B AI Order Backlog",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "A $7 billion stock offering is highly dilutive to existing shareholders, causing the immediate stock price drop. However, the capital is earmarked to fulfill a massive $39 billion AI order backlog, highlighting the immense capital requirements of the AI infrastructure buildout and validating robust demand for AI servers.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQzFIZjA1ckpmbDNaN3c3UF9qbDZxRjFKY3Q1ZG12Wm5ULTY2NnJHZXFrUFhrMk5aUnBLRE55XzFoaWFGVVFEamhXY0EzS2k3N3NfaXpVeU1oLXkyS3otWnRwLVF6QVFNQ1RkQ1dWRExzN3BBN3JqN0lFXzlCSlZGaXhkTVZKdlRKeExiMVc2cjMzOWNmOEEtdFVpM2ZkbUhwNDZaYU5vZWNkbDhJVWJhREpEcW5zY1J1aF9uMEh5VlhDOW5rbUFfNGlnOWoyTUcxYTdfbW5Tb0ZOd1F6MzJkelRwdW9lemkw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-amd-goldman-sachs-target-hike",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "AMD, TER Stocks Jump After Goldman Sachs Lifts Price Targets",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "why": "Goldman Sachs raising price targets for AMD provides a strong institutional catalyst that boosts investor sentiment across the semiconductor sector. This analyst action suggests higher expected earnings power and supports expanded valuation multiples for chipmakers.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWC03enZWcDNoZmZ1bVpibDdLNVdNU1BEWDUteV9JQWJDNXdaRTRkRzV3TGdsN0JXNUg3MTloR09xaWZDSjdvOThjSmlsb3lLRElyY0NORXNaQU5sNEVFWHRpTjNhclFhV2RBMTVpVmp6VnNvclhsWlVPaUMxcEFiR1BZS1BjdUNJUVRLT3VYWW80VkxqbWlJQW5ybDBhZjJybGJJU3ZHaS15NHUxOXNyQURqUzFiU0pVMGx3LWVTZHg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-fujitsu-ai-chip-export",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "Fujitsu to export AI chips built on supercomputer tech to US, Asia",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Fujitsu's expansion of its supercomputer-derived AI chips to the US and Asian markets introduces a new hardware competitor. While niche, it provides enterprise buyers with alternative silicon options, potentially impacting the long-term pricing power of dominant players like Nvidia.",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHUyWDd0V0xRN0RRdjk4N1dsUWFlQ05pT1o1TV84R2xzQ1BhNzMwUTVNVlVSeHU0dzNrOEd5Z19BSC0tVEVWbWpRVXRVRzF1TC1vVjNVSGJPTTdvUlZBSWRpbWJwVHVWaUNjVkNZU3YtS1RvVnRhMWN3WENDaGc4MEpEU2ZQMEhncTZrcmZNVmlnLUdZYVFjT1J1VEdqQngyX2R0NVJabFJqTzVfZkxBY3d3SUdVam9NVWc?oc=5",
       "alerted": false
     },
     {
@@ -646,58 +695,6 @@
       "why": "Nvidia is reportedly partnering with AWS and participating in a $3 billion investment round for former OpenAI CTO Mira Murati's new AI startup. This strategic move secures early hardware commitments from a high-profile startup and strengthens Nvidia's distribution channel through AWS's cloud infrastructure.",
       "source": "FXLeaders",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT0ZZSHNkaUZIYjJQY3dNekR5WGVTc2tHSkt1MFloMHRGMnpYZ0JTa2FJcVphaWp0V0xPV3VzUW9MVTg1LXVjNlotdXFLNE9heTRpdG1uaTdxcEJNX0hSUnRkck5IMFpLWTJSdGxRZlk5YVhkR2NTeUpUUEV4RDZsbTNkaWxhNnpBWVVhVzhjWUpVLXZ5TGlPNVV3dnMzZURiUHhxdzREUHZtLV8zY0pyQTRJWjQ2WUxIWVNpZ2xjRjdxMDhfTnl6QmlrT0dvU2pza2Q4akFhdEs?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-amd-ai-workstation",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "why": "AMD announced a premium AI workstation priced over $100,000 slated for release in 2027. This product launch signals AMD's intent to capture high-margin enterprise AI hardware market share, directly challenging Nvidia's dominance in the workstation segment.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3VuWno2ZFJaLV9yTGRNSTRTUEVVMUJtNmcyVFFZdXlrcnYweXRGMHBVQWR0aU5mNllrR2UteFdnQWlld1hzcEY1R3B3ZU8tdHE3RXdJY3pfVDhyeXpZanlqZWF5X09EOGFZMndkT2xpeWtDZVdaZVhkUG1zb1duUTdiMWU2M2FGVVk0MmtYWjlHUVZXdGloSXR1X2hTQkM4OEZJZGhaampSNGhISzZWZkZXU0R3UGdaY3ltOVBYTlVOazVHeC04?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-nvda-grace-blackwell-agi",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "Jensen Huang Declares \u201cAGI Has Arrived\u201d \u2014 Powered by 100,000+ Nvidia Grace Blackwell GPUs",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "AMZN",
-        "GOOGL",
-        "META"
-      ],
-      "why": "Nvidia CEO Jensen Huang declared that artificial general intelligence has arrived, powered by massive clusters of over 100,000 Grace Blackwell GPUs. This milestone highlights the rapid deployment scale of Nvidia's next-generation Blackwell architecture, reinforcing long-term demand expectations from major hyperscale cloud providers.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVVkWkxDUEF0RjIwMW45ZUQyTjR0N1U5M2RIcGNlaG80a09KdG85X0NqdjhxTjVOY1dGOTVveW0wMW5jdWtkcFNUTVdaUWpDTG9POHlqLUpTcnBNN3Q4MTFJY2E4OTRhX0FuU25mMWZTd241MUotVXlfLUVuWTZ1TnhITmhvaktEdm5uNW80UXYycWJiSEhWc0QtYTdtZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-huawei-logicfolding-chip",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "Huawei tests LogicFolding chip in handset with higher AI stakes ahead",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AAPL",
-        "QCOM",
-        "NVDA"
-      ],
-      "why": "Huawei is testing a new 'LogicFolding' chip designed to enhance AI capabilities in its upcoming folding smartphones. This development demonstrates China's advancing domestic semiconductor design capabilities despite US sanctions, intensifying competition for Apple and Qualcomm in the premium Chinese market.",
-      "source": "scmp.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORVNNS3NlQTkteXhvazB4Y216ZDdCdHBvaHNFb0JnS1c5VlRYZEZCaTJXSlI0ZGt4NGg5dXlwRFUwcGVuRFZkZ2NnNUhUTFJ1REZHbk1yZk1PUzI4VTlXU2U3TzFqSS1ZLVl1MmJtV2RWUm1xX2NOSThIeVJOc3k5UjlyQTNGdnZPQTAxVExZMVBwZTNaQW1qMU9zWnQ1TlJXS0tOUjNUbmhjb3Mwd3NOSzZEeU1Ydmpq0gG4AUFVX3lxTE9ITTdEN0x5NDd3aFJoeHpZSGNoc2FJZG5DMEJQSjJQdlBqam9QVFcyZ2JFMWNpN0ktWTVzSkFoLTc5cDdoZnNyUnBmSmdyVldXenBvQ1EtekRaendTQUZvWU44RzJQZ2h5SnlVZEFyaTlPQ2lzb21QRVhLTlJjNXk5bzFBN29pUmo2RnFvdjNCQ0VXOXZCS05fVGVVNWxRVW1jVE9jbDE1X2hhaDZ3czB1dnNHOGxMUm4?oc=5",
       "alerted": false
     }
   ]
