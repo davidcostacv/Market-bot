@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:12:57Z",
+  "generated_at": "2026-09-13T16:34:17Z",
   "session_date": "2026-09-13",
   "items": [
     {
@@ -67,6 +67,76 @@
       "why": "Fujitsu's expansion of its supercomputer-derived AI chips to the US and Asian markets introduces a new hardware competitor. While niche, it provides enterprise buyers with alternative silicon options, potentially impacting the long-term pricing power of dominant players like Nvidia.",
       "source": "Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHUyWDd0V0xRN0RRdjk4N1dsUWFlQ05pT1o1TV84R2xzQ1BhNzMwUTVNVlVSeHU0dzNrOEd5Z19BSC0tVEVWbWpRVXRVRzF1TC1vVjNVSGJPTTdvUlZBSWRpbWJwVHVWaUNjVkNZU3YtS1RvVnRhMWN3WENDaGc4MEpEU2ZQMEhncTZrcmZNVmlnLUdZYVFjT1J1VEdqQngyX2R0NVJabFJqTzVfZkxBY3d3SUdVam9NVWc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-avgo-debt-package-ai",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "AVGO Stock Inches Higher \u2014 Broadcom Reportedly Eyes Nearly $100B Debt Package To Fund AI Infrastructure Expansion",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "TSM",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Broadcom is reportedly seeking a massive debt package of nearly $100 billion to fund its AI infrastructure expansion. This significant leverage increase will raise interest expenses but signals aggressive capital deployment to capture custom AI ASIC and networking demand, directly benefiting manufacturing partners like TSMC.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOFRKRU5aSnMyWWJ1ZUJyWTllSElsRnRzb_BhTmZDRG41eTMzS05oelVOR0F1RllpS0s2OWRlb21fM2lUMU1fZ0JKbEJpdVhWRzNybnhlb2pxbDNaZjBmN1R5U1JOdkFLZTI0SHU2bEZNeVN5SDFKRURGcXl1WkFfclZTRk1PQVFXYWdmZ1Y2WWF4QTJmQjhPeUk3ZHJKZl95eDU0OXRjVHVEbnh5MHIxYVlBcklJX0pUNW5zNVVUczR1N0hVVHZoMUJ6dExhSnRXWHhSdHlTOXBUWXprSE5VUlBjZ00?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-nvda-musk-spacex-preference",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Elon Musk reportedly favored Nvidia over AMD during a SpaceX call, highlighting the ongoing preference of major AI builders for Nvidia's software ecosystem and hardware stack. This reinforces Nvidia's dominant market share and presents a headwind for AMD's efforts to gain market share in enterprise AI workloads.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGRpeV9TcmZZZnBjQUxyQThaRk1rWGJsRDdBUVJGZ21jVjNSQ3B1X0d1NXpRMWMwUzRJcWItYUUtcU9jMUN3dDA5QmpUck1pcDBXX2p5bkZfelU5a2xSUDkyYnpxRFIxeEV3Wm9GMVJCcmdkc0d4cmFSMW5tdTJpN1dSZ01MWmRsMFF0bU10YXZqUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-avgo-q3-outlook-disappointment",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "AVGO Stock Drops After-Hours After Q3 Revenue Outlook Fails To Impress",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "TSM",
+        "NVDA",
+        "AMD",
+        "MU"
+      ],
+      "why": "Broadcom's Q3 revenue outlook failed to impress investors, leading to an after-hours stock drop. As a key indicator of AI networking and custom ASIC demand, a soft forecast raises concerns about the near-term growth trajectory of the broader semiconductor and AI infrastructure sectors.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV25fNEotUF9YeFpFNXV3THVDN1FhY3VaMnJTQ1pYM0RmYnhvbUFNYUFjMDZ4NFMzZWxmTU1xYVhYcDk5WlhiOGJqYll5NW94WmtONmxLN1VBcE5nOVpVTWFVb0kyaFRMaWtzU0V5U2x3UldrQ3Y2bVJ1a3M3Q1JwWC05V3FsYVpldFZIZS1RZ3dPUGJyaE00RXF4a3lsVzZBRDBmSGdPV1ZUVW5rcVY0Q2Jrby1hcUpuNGplVVdjQWQ0NGFtWmRfSFNlSjVaMUE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-meta-jpmorgan-upgrade",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "Meta Platforms stock gains on JPMorgan AI upgrade and Muse-driven optimism",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "META",
+        "GOOGL",
+        "MSFT"
+      ],
+      "why": "JPMorgan upgraded Meta Platforms, citing optimism around its AI initiatives and Muse integration. This upgrade highlights Wall Street's confidence in Meta's ability to monetize generative AI through improved ad targeting and user engagement, potentially lifting its multi-quarter earnings outlook.",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORVNLVHZXRHZJbXRRM082Q2N4LU83UlVwcng3UEFnRDdwb0FOX1ROOTlQNWhzVDV5b051b3R5MUNpYmNyeHZ4cTJUYWEyTGVPTlVtUGJ5MzV4cXVqZGdpTjhMUkdnTVE2VnBSOXlkYVBKY2Zuc0cxaU1GQUtGWXFySWVzSkQ5am9KaFBmQlF6X0pQT1h1ejhUMzRLNVlITThvRlhhZlcxRXFyNVlNNWlwbzBaS0cyNjVMdV8tUHVqbWFpcXlSZUFTWXEtQmdfNGlIYUFj?oc=5",
       "alerted": false
     },
     {
@@ -627,74 +697,6 @@
       "why": "AMD's CFO announced that the total addressable market for AI accelerators could reach $3 trillion by 2030, representing a massive upward revision in long-term market potential. This aggressive projection boosts multi-quarter growth expectations and valuation multiples for AMD and its key AI hardware peers.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiaXNUTGhIVFk0NWc4dGtjZVlMWHN4Ujl5bFNUaHlIYVFkeTg5MHVlSktlMGJTQkxoTjU3VUxLbXNLNjN1QUItd3lHczJvUVRPaDctTFJycmFxdndKeEhwSHhKOVU2Q0dGd1pKek5ZMU16VXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-china-japan-chip-chemical-dispute",
-      "time": "2026-09-08T11:15:00Z",
-      "headline": "Japan pushes back as China tightens chip chemical imports",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "ASML",
-        "INTC",
-        "NVDA"
-      ],
-      "why": "China has tightened export controls on critical chemical materials essential for semiconductor manufacturing, prompting a pushback from Japan. Any prolonged restriction on these precursor chemicals could disrupt global chip fabrication, raising production costs for major foundries.",
-      "source": "ET Chemicals",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNmF1YlY5cUtsVXZOc1puUGRYYkdrTDFlTS1rdjkwLWZ2R25zY0lBckZFbHNWRl9kWmtGSWtZMmhqSW5RMFdgridmWWRtNU1YMDNKTHNhM3J0SVdnSlFlcEkxaXNXdlVLbkhROXc4NFFVTm5pMlVfLVkyNko4Um1xUnBsVnZjR08tWnJYZUpoUDV2ZXRtUFdqcUhyOUhIWDR5SzF3Z1FXejBwY1I2a1g3M0VXWjhHV09qS0ktMUotZHZjSWg3UWpXUHlaOFNDZHFFRm9rTFd30gHaAUFVX3lxTE1MY05Mc2J3ek5meXhRQXR1eDZOZWNMVWF2OTF6OUE3d3poZlVIZENFdUJqSXNEeDItaXBMMkVFdWMxMUlOVjBHRkRwZnQ2UGlKMUo5TTRBTUVoZVV5ZHB0WGZ4eUR1NndKUWg0ZVNqLVJTNkx5VzBKQllzVnFqUTdfcGZXeU5wR2stV0s2MkJublBiVGxOakEySEtyR0JtcjRzYUV6Q0xJTk01T1MzOTk2LURmVk1ZRFFRWmJfT2d4emtwTFlUNU5tOFJldmR4UG1MYmNCa3NWTUR3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-china-semiconductor-exports-surge",
-      "time": "2026-09-08T10:30:00Z",
-      "headline": "China\u2019s semiconductor exports surge 103.9% in Jan-Aug, driven by rising global demand for AI facilities",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "ASML"
-      ],
-      "why": "China's semiconductor exports surged 103.9% in the first eight months of 2026, fueled by insatiable global demand for AI infrastructure. This massive growth indicates that despite strict US export controls, the global semiconductor supply chain remains highly active, supporting broad sector revenues.",
-      "source": "Global Times",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4UlpYMW9ObzdCdG5oZFN3Y1ZseXZTU2FHRHJ5UGFCY21oWDl3MEhJRE5OQkRQMFVHcEFnSEMyZUNHWnBfMllTcEhxa3ZaVHFEUjQ4VEIxa3BHemdROW8zVmlB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-hsbc-sp500-target-hike",
-      "time": "2026-09-08T08:30:00Z",
-      "headline": "HSBC Lifts S&P 500 Year-End Target to 8,100 on Earnings Boom",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ"
-      ],
-      "why": "HSBC raised its year-end target for the S&P 500 to 8,100, citing an ongoing corporate earnings boom. This optimistic revision from a major global bank boosts investor sentiment and supports higher valuation multiples across large-cap equities.",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Xb3ZMR0VKX1hHSHV3UWJIZm8wbDFrdDYxTGJPMXgtSXpraUw1YWhVNGpFVnlxVDFFSTJRY1BZOThCYnFxSTVNcUMtSmhhVTQ2NGlwdnpSVHJIN1E2eDdWa1ROZFJjQVJGX013ay02OTZiUGZFUlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-nvda-aws-murati-deal",
-      "time": "2026-09-08T00:00:00Z",
-      "headline": "NVDA Stock Faces a Crucial Test at $236 on Nvidia-AWS Deal and $3B Investment in Mira Murati Startup",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMZN"
-      ],
-      "why": "Nvidia is reportedly partnering with AWS and participating in a $3 billion investment round for former OpenAI CTO Mira Murati's new AI startup. This strategic move secures early hardware commitments from a high-profile startup and strengthens Nvidia's distribution channel through AWS's cloud infrastructure.",
-      "source": "FXLeaders",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT0ZZSHNkaUZIYjJQY3dNekR5WGVTc2tHSkt1MFloMHRGMnpYZ0JTa2FJcVphaWp0V0xPV3VzUW9MVTg1LXVjNlotdXFLNE9heTRpdG1uaTdxcEJNX0hSUnRkck5IMFpLWTJSdGxRZlk5YVhkR2NTeUpUUEV4RDZsbTNkaWxhNnpBWVVhVzhjWUpVLXZ5TGlPNVV3dnMzZURiUHhxdzREUHZtLV8zY0pyQTRJWjQ2WUxIWVNpZ2xjRjdxMDhfTnl6QmlrT0dvU2pza2Q4akFhdEs?oc=5",
       "alerted": false
     }
   ]
