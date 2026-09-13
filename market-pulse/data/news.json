@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:34:17Z",
+  "generated_at": "2026-09-13T21:02:56Z",
   "session_date": "2026-09-13",
   "items": [
     {
@@ -137,6 +137,39 @@
       "why": "JPMorgan upgraded Meta Platforms, citing optimism around its AI initiatives and Muse integration. This upgrade highlights Wall Street's confidence in Meta's ability to monetize generative AI through improved ad targeting and user engagement, potentially lifting its multi-quarter earnings outlook.",
       "source": "ad-hoc-news.de",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORVNLVHZXRHZJbXRRM082Q2N4LU83UlVwcng3UEFnRDdwb0FOX1ROOTlQNWhzVDV5b051b3R5MUNpYmNyeHZ4cTJUYWEyTGVPTlVtUGJ5MzV4cXVqZGdpTjhMUkdnTVE2VnBSOXlkYVBKY2Zuc0cxaU1GQUtGWXFySWVzSkQ5am9KaFBmQlF6X0pQT1h1ejhUMzRLNVlITThvRlhhZlcxRXFyNVlNNWlwbzBaS0cyNjVMdV8tUHVqbWFpcXlSZUFTWXEtQmdfNGlIYUFj?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-wdc-citigroup-sandisk-micron",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "SNDK Stock: Citigroup Sees SanDisk As Top Beneficiary Of Strong Micron Earnings",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "WDC",
+        "MU"
+      ],
+      "why": "Citigroup highlights SanDisk, owned by Western Digital, as a primary beneficiary of Micron's strong earnings performance. This positive read-through suggests robust pricing power and demand trends in the broader memory market. This could support higher margins and improved earnings for Western Digital in upcoming quarters.",
+      "source": "stocktwits.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWloMjdkeUI1aFRMZW9iazRiaXF4ZVllMXNfTnJqb2Rwbm9NM3dMOFBxTWRocm1sZFluRXBaclFGdjR4aXNWTnJnR1d6WGw5VVdHNjRjZ091cGRJMHVGOVNOVWU5aW1nZmFlTGs3bjJjWDlSQ2R0azVQSVRQV2ppMTRjazY1eVJ3Ml8zV1UyQ2hrMXZrRGh5VVxlV1BfbDhUc2hTZERIa1I2a1dhTGp1cl83YVRSdU9zZ3RlYXhJZElUOUw4STBQaHRfT3FnQ2V6ZEdFY0g0TUhaZ2c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260913-amd-intc-gcc-ai-instructions",
+      "time": "2026-09-13T00:00:00Z",
+      "headline": "AMD and Intel\u2019s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA"
+      ],
+      "why": "The integration of shared AI instructions from AMD and Intel into the GNU Compiler Collection (GCC) simplifies software optimization for their respective chips. This collaborative effort helps lower the software barrier to entry, making their hardware more competitive against Nvidia's dominant CUDA ecosystem. Over time, this could expand the market share and earnings potential for both AMD and Intel in AI-related workloads.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVk9GbUxnakNvQzJzWUVPZ2dtWGJGZUlqeTBQQXB2TF9BeTR6eExLdENJN1Y0Q29KRGZsZjVyR3RVWUZ4RDMtM2Z5dk4ySmZzOVZoVmp4TmRtbFdSM1FKZld3TVJZRVlmcUFzSTRDR1VKSk5nYWtwQ01WVjVhM0U4N254UVpKLUhNdVJCWEJCcGw2dk5pd3pIMHF3OTk?oc=5",
       "alerted": false
     },
     {
@@ -662,41 +695,6 @@
       "why": "AMD CFO Jean Hu clarified that while the company remains open to utilizing other foundries in the future, it currently has no active plans to use Intel Foundry and remains deeply committed to TSMC. This dampens recent market speculation that AMD would quickly shift some production to Intel, which had temporarily boosted Intel's foundry narrative.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV3VoelFxVjV5a1hUaVo0bFhIYU1KS0hNQ0FkNWtQSUNuQ2dLSmkxa3RoRkZUejZLN2RUTFlPZHZJMHRORWdqbjBUVTVCdm1xWkZGc1lzR1Rrd0RsbFAwbXVUWDMyb0J5Q2JQUVpXbWU3QklaS3pJS1NRVFIxdmJzMTdRYzVnaExXSFg4a0QzQkhTVzdoS2tBdE0taUh2d1BzTVZaM2UwTFM1OTNkRndsd1RQUDhKTDh4YnJMRWxISnBIZ1htODhtU3YzeDI0QU1RNHNubXNB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260909-mrvl-ceo-qualcomm-amazon-threat",
-      "time": "2026-09-09T08:00:00Z",
-      "headline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "QCOM",
-        "AMZN"
-      ],
-      "why": "Marvell CEO Matt Murphy dismissed competitive threats from Qualcomm and Amazon's internal chip efforts, positioning Marvell as the neutral partner of the custom ASIC market. This reassures investors regarding Marvell's market share and margin defensibility in the high-growth AI data center sector.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNNThGV0FpWk9UMzRpYkczTzRnRWxCYWtPNVhrNm54ZTBESVhkRzlweTNXRnhnb29RVnJ3QTltUXVOY2dSVDZvN2dWLTNEdWRPRGVlSXlvdXJvMDYxSXpWWlp3QlBjY3RuVEhyeEhfcV9pR3dXNWllQk14OEhLYVZ0Z19rUld3SkdmVnVCb2ZwVFJxVGVNdGN1TWl2dkFIM0lPV3BhSzQ3SGIxTGNCWFkyLTZ6SzNVMHBRU2pMQTk1RVYzcjhOaEFqSU5RRGtrVGpwSXhERE5OSEh5ZlhHMXVQMTNZek16a3M3WExOM1Q2Y1JPTkhDVjBpZ1Y0c2R3QjI5eFZqRFR3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260908-amd-tam-projection",
-      "time": "2026-09-08T12:00:00Z",
-      "headline": "AMD Stock Rises as CFO Claims Its Addressable Market Could Reach $3 Trillion",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "AMD's CFO announced that the total addressable market for AI accelerators could reach $3 trillion by 2030, representing a massive upward revision in long-term market potential. This aggressive projection boosts multi-quarter growth expectations and valuation multiples for AMD and its key AI hardware peers.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiaXNUTGhIVFk0NWc4dGtjZVlMWHN4Ujl5bFNUaHlIYVFkeTg5MHVlSktlMGJTQkxoTjU3VUxLbXNLNjN1QUItd3lHczJvUVRPaDctTFJycmFxdndKeEhwSHhKOVU2Q0dGd1pKek5ZMU16VXc?oc=5",
       "alerted": false
     }
   ]
