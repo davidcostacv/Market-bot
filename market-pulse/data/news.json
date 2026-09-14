@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-09-14T05:19:19Z",
+  "generated_at": "2026-09-14T13:12:18Z",
   "session_date": "2026-09-14",
   "items": [
+    {
+      "id": "20260914-orcl-q1-earnings-cloud-surge",
+      "time": "2026-09-14T16:15:00Z",
+      "headline": "Oracle Shares Surge as Q1 Cloud Revenue Jumps 21% on AI Demand, Strong Guidance",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "MSFT",
+        "AMZN"
+      ],
+      "why": "Oracle's strong cloud infrastructure growth and robust backlog expansion signal that enterprise AI demand remains highly resilient. This positive read-through benefits GPU providers like Nvidia and cloud competitors like Microsoft and Amazon by validating sustained capital expenditure on AI infrastructure.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/14/oracle-orcl-q1-2027-earnings.html",
+      "alerted": false
+    },
+    {
+      "id": "20260914-msft-blackrock-ai-fund",
+      "time": "2026-09-14T13:00:00Z",
+      "headline": "Microsoft and BlackRock Partner to Launch $30 Billion AI Infrastructure Investment Fund",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "The launch of a massive $30 billion private fund (potentially scaling to $150 billion with debt) dedicated to AI data centers and energy infrastructure secures a long-term capital runway for AI expansion. This directly supports sustained demand for Nvidia's AI chips and helps alleviate infrastructure bottlenecks for major cloud providers like Microsoft, Amazon, and Google.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/microsoft-blackrock-mgx-ai-infrastructure-fund-2026-09-14",
+      "alerted": false
+    },
+    {
+      "id": "20260914-aapl-iphone-preorder-demand-soft",
+      "time": "2026-09-14T10:30:00Z",
+      "headline": "Apple iPhone 18 Pro Pre-Order Lead Times Shorter Than Predecessors, Suggesting Soft Initial Demand",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AAPL",
+        "TSM",
+        "AVGO",
+        "QCOM"
+      ],
+      "why": "Early pre-order data showing shorter delivery times for the iPhone 18 Pro models suggests that initial consumer demand may be weaker than last year's cycle. This could lead to downward revisions in Apple's hardware revenue for the holiday quarter and trigger order cuts for key semiconductor suppliers like TSMC, Broadcom, and Qualcomm.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/apple-iphone-18-pre-orders-show-shorter-delivery-times",
+      "alerted": false
+    },
+    {
+      "id": "20260914-intc-board-restructuring-spinoff",
+      "time": "2026-09-14T08:00:00Z",
+      "headline": "Intel Board Evaluates Strategic Options Including Foundry Spin-Off and Fab Delays",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "AMD",
+        "ASML"
+      ],
+      "why": "Intel's board is reportedly discussing a major restructuring that could spin off its loss-making foundry business and delay multi-billion dollar fab projects in Europe. This move would significantly reduce capital expenditure and preserve cash, boosting Intel's near-term margins, while potentially shifting more manufacturing volume to TSMC and reducing tool demand for ASML.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/intel-board-evaluates-strategic-options-foundry-spinoff-2026-09-14/",
+      "alerted": false
+    },
     {
       "id": "20260914-nvda-roadmap-intact",
       "time": "2026-09-14T00:00:00Z",
@@ -624,81 +696,6 @@
       "why": "An Intel-backed startup is entering the memory-chip market, threatening Micron's market share in high-bandwidth memory (HBM) and DRAM. This introduces new competitive pressure on Micron, potentially impacting its long-term pricing power and margins.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNlJIeHBqb0gxSDA2LVJERmRUb08xLTVwVmFqV2ZvQzFXRHlPRm1ZNldBNnBQRGZuUTFVd01hVGhVZXFqZVBKajB6SzM0RnB2bDF4bEpKZ0Y5MHVLdTZMdl9TVjFnS2gzN0lvbEg0RDFXZ0wzNU1fc3ZUeVJLWjJXRjlvalhGZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-orcl-earnings-preview-ai-demand",
-      "time": "2026-09-10T07:00:00Z",
-      "headline": "The weakest link in the U.S. stock market\u2019s AI rally? Oracle is set to report its earnings tonight.",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "MSFT",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "Oracle's upcoming earnings report is viewed as a critical litmus test for broader AI infrastructure demand. As a major cloud provider expanding its GPU capacity, Oracle's capital expenditure guidance and cloud revenue growth will directly validate or challenge the sustainability of the AI spending boom.",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObUYtNlp2OTlLYTdlQ0hCckpYWWxUR0p6VTREYVRSdWp5dElzRkNQenBhdmhvNGhWMDdzd0ZzbUZZVWVyNGl4Y3FCQWV3WHhIbnVlUHhIN1QtbUU0bzRRQWx0cHc4LVlpOUNuQVM1WXVzZkJLQ0JvLUFndmxnM0YyNEVneGF3ZE83c2lYdnpxcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-bok-rate-hikes-chip-boom",
-      "time": "2026-09-10T06:15:00Z",
-      "headline": "Further rate hikes hinge on chip boom's impact on inflation: BOK",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM"
-      ],
-      "why": "The Bank of Korea warned that the massive semiconductor windfall is driving domestic inflation risks, which could necessitate further interest rate hikes. This highlights how the global AI chip boom is directly influencing central bank policies in key manufacturing hubs, potentially raising capital costs for tech giants.",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQ8hhWGFIT1hGOXNDNVBoS3k0TWh3VXdnWlVTMlFaR0RmN1dydTdKQUVuSTZtLUMydjgxbGV0Q0pVR3hSMk10RFJLeHhsakNMcTY0RnYwQmdwRWlkNnV6MFpRTnN2bG9FbmM5QXRweUNmMmxsUV9ZbmVVMVdNNzctc3U1RkN4LVFsaWk3LV93ZEhFejkzdXVwZU55MFhzVWljd3Q4ZmdVRDRWQklI0gGyAUFVX3lxTE5GNWwtNjB4Z0VYVWlhTXlVNEpnZFNpbkp4ckpMTWJNU1RPOThqMVk3NmZlUE15ZVEzdDNseHVRNGg3ZDlmbGVmT3FOSDZLVVpqY2t1eFViSlVnVjVxYnpJT1ZTX3d2RlZYdnNuZFJGUU1OV282R2V5cVRPSER5WkZZX1YyV2QwMG5xRGtGV3RaU2xpcUF2SWh3SUJIMWk1cWZpcDFoQ3hJUGJ1UkpZQ3RmblE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260909-macro-oil-tops-100",
-      "time": "2026-09-09T14:00:00Z",
-      "headline": "Oil Tops $100, Meta and Cloudflare Jump On AI Breakthroughs: Stock Market Today",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM",
-        "META"
-      ],
-      "why": "Crude oil crossing the $100 per barrel mark introduces significant inflationary pressures, potentially complicating the Federal Reserve's monetary easing cycle and raising operating costs across multiple sectors. While this is highly bullish for energy producers like ExxonMobil and Chevron, it acts as a valuation headwind for high-multiple tech stocks and broad market indices.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdXhXMXFVUUxDQlhpekhURUNmc0lhQXowcTI3TW9vOWlkMHhJV0pMandIb1NOczdrdDhkOGI5X3VKQ3g1ZC1TS0ZHUXA3c0RLUGtZN0NwUGVFMGczOEFrWGV5ZGVjTlRDSDZJdGRncDE1cEF0TzExV3dMWU1uM1ktRGNBZ0ZNUkJDZGdNNRI5QzdxOTBUTjJUVUN5WEhNdHdZTzBRRHI4cTRhaXJXelQ2b2oyQ0hPWXh0SzhLRkRCT0dhbTEydXdFVkpfTzFoNU1C?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260909-avgo-2028-guidance",
-      "time": "2026-09-09T12:00:00Z",
-      "headline": "Why Broadcom Providing 2028 Guidance Is a Big Deal for AVGO Stock Bulls",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AVGO",
-        "NVDA",
-        "AMD",
-        "MRVL",
-        "TSM"
-      ],
-      "why": "Broadcom's decision to provide long-term financial guidance through fiscal year 2028 gives investors unprecedented visibility into the multi-year runway for AI networking and custom ASIC demand. This long-term outlook helps mitigate fears of a near-term AI bubble burst and supports a higher valuation multiple for AVGO and its key semiconductor peers.",
-      "source": "Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNU1VV2Qxc3NDWTg4WjhmVzNqSTdJWFlQbEhIU0lZS19oeXVLX2lSR0djYmMzd1g0RDFZTmdnMDdsNjNpRVlwR0EwMW5QSlZ6NW9IWmZWeGltNUtpeWxMeXN1c1RUUzBvLWMzV2kxYTJsbWlxSXhCQlU0QjhoT25rMU9OR2VJVGZybzlITjVPZThpbENDdXFVYld6XzFGQTVDZGduc1haaXBTMDJZMFQ2R0NZdTduUQ?oc=5",
       "alerted": false
     }
   ]
