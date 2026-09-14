@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-09-13T21:02:56Z",
-  "session_date": "2026-09-13",
+  "generated_at": "2026-09-14T05:19:19Z",
+  "session_date": "2026-09-14",
   "items": [
+    {
+      "id": "20260914-nvda-roadmap-intact",
+      "time": "2026-09-14T00:00:00Z",
+      "headline": "Nvidia Says Its AI \u2018Roadmap Is Intact\u2019 After Report Of Kyber Rack Delay",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "AVGO",
+        "AMD",
+        "MU"
+      ],
+      "why": "Nvidia officially clarified that its next-generation AI product roadmap remains fully on track, directly countering recent reports of a delay in its Kyber server racks. This reassurance stabilizes multi-quarter growth expectations for Nvidia and provides relief to its manufacturing and server integration partners.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcmhyWlY0aDgzTTBZeWdUSlI2NDl5TkNmVV9lNVltOHNvNWhLaGNMTnpXMEZpeThOcS1qUjNpSjYtWGpfQWp2ODl4UWZQWjBicXBGU2hLMEp0cmY4dmVlcmFVcEI2MC1FazJTd1lSWUlKYzdVcThxUnNFdjJrc2NXUXNyTFM0M2NFdWFMM0lMSmg3SEhxQ0VCb1NMRTRmTUthOUJ6QlRzVEczNTNBQnctU2k4Mmt6ZVBma0htNG1TZkc2ekZwdUFGR2F4eVZmT1BreUEteEY3b3BfSWs?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260914-asml-bernstein-bullish",
+      "time": "2026-09-14T00:00:00Z",
+      "headline": "Bernstein Thinks ASML Holding Can Keep Climbing After Nearly 140% Run In The Past Year",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "TSM",
+        "LRCX",
+        "AMAT",
+        "KLAC"
+      ],
+      "why": "Bernstein issued a highly positive outlook on ASML, arguing that the lithography leader's growth runway remains strong despite its massive run over the past year. This major-bank endorsement reinforces expectations for sustained high-end EUV equipment spending, benefiting the broader semiconductor equipment sector.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0hLaWhQRmdBeFhhTUFhdi1SWDRqMlFYUU5zcDBhb2t2VHQtd1ZJT2RiNnJOX00wZ3kzeU9FTXBrNTIxdFZKUjBfazFDbGowRUVlSVhOY3Z3S3VCUEFQSnhIeVdaeEFMWENYa0pVNFN4UmtfaUVQNmFWRFFrZ2FCRHZZNVhrZDRWNktJQ252OVVwN3lEWWMxS2xwajg0ak12by0zdVFMY1RvMDY0ZUhLdXpZdnBqZW16ZlduUDZWc1ZRZEs5SGR4eg?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260913-nvda-pc-chip-unveil",
       "time": "2026-09-13T06:00:00Z",
@@ -660,41 +699,6 @@
       "why": "Broadcom's decision to provide long-term financial guidance through fiscal year 2028 gives investors unprecedented visibility into the multi-year runway for AI networking and custom ASIC demand. This long-term outlook helps mitigate fears of a near-term AI bubble burst and supports a higher valuation multiple for AVGO and its key semiconductor peers.",
       "source": "Barchart.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNU1VV2Qxc3NDWTg4WjhmVzNqSTdJWFlQbEhIU0lZS19oeXVLX2lSR0djYmMzd1g0RDFZTmdnMDdsNjNpRVlwR0EwMW5QSlZ6NW9IWmZWeGltNUtpeWxMeXN1c1RUUzBvLWMzV2kxYTJsbWlxSXhCQlU0QjhoT25rMU9OR2VJVGZybzlITjVPZThpbENDdXFVYld6XzFGQTVDZGduc1haaXBTMDJZMFQ2R0NZdTduUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260909-iqe-china-ai-material-warning",
-      "time": "2026-09-09T12:00:00Z",
-      "headline": "China has 70% of a material AI needs, IQE\u2019s CEO warns, Bloomberg reports",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AVGO",
-        "MRVL",
-        "QCOM",
-        "TSM"
-      ],
-      "why": "IQE's CEO warned that China controls 70% of a critical material required for AI hardware, highlighting severe supply chain vulnerabilities. Any export restrictions on these materials could disrupt the production of optical transceivers and RF chips, directly impacting networking giants like Broadcom and Marvell.",
-      "source": "The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWZTUjVndElYX0hUV2hTZVZXRzFkVE81MW9uMGJJdG45VE11bGwyenFnbS1CS3FWdEdERkRVUWdJX191X01LdlVjMmJPXzdVN2hnMnFReFFmUVYyYVczOXR1VjI5Y3Q4ZzhjdHhEVEZ5LWFCWTNiVEVPbzhtS2U4SmdBcDNScldsVlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260909-amd-intel-foundry-ties",
-      "time": "2026-09-09T08:00:00Z",
-      "headline": "AMD Reaffirms TSMC Ties Amid Intel Foundry Buzz \u2014 But Keeps Supplier Options Open",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "TSM"
-      ],
-      "why": "AMD CFO Jean Hu clarified that while the company remains open to utilizing other foundries in the future, it currently has no active plans to use Intel Foundry and remains deeply committed to TSMC. This dampens recent market speculation that AMD would quickly shift some production to Intel, which had temporarily boosted Intel's foundry narrative.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV3VoelFxVjV5a1hUaVo0bFhIYU1KS0hNQ0FkNWtQSUNuQ2dLSmkxa3RoRkZUejZLN2RUTFlPZHZJMHRORWdqbjBUVTVCdm1xWkZGc1lzR1Rrd0RsbFAwbXVUWDMyb0J5Q2JQUVpXbWU3QklaS3pJS1NRVFIxdmJzMTdRYzVnaExXSFg4a0QzQkhTVzdoS2tBdE0taUh2d1BzTVZaM2UwTFM1OTNkRndsd1RQUDhKTDh4YnJMRWxISnBIZ1htODhtU3YzeDI0QU1RNHNubXNB?oc=5",
       "alerted": false
     }
   ]
