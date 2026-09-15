@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-09-15T05:10:13Z",
+  "generated_at": "2026-09-15T21:39:17Z",
   "session_date": "2026-09-15",
   "items": [
+    {
+      "id": "20260915-nvda-us-foreign-parts-cap",
+      "time": "2026-09-15T00:00:00Z",
+      "headline": "Washington seeks cap on foreign parts in AI chips and servers",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "TSM",
+        "MU",
+        "AVGO"
+      ],
+      "why": "Washington is reportedly planning to cap the use of foreign-sourced components in AI chips and servers to secure the technology supply chain. This regulatory push threatens to disrupt global semiconductor manufacturing, increase compliance and production costs, and limit the addressable market for hardware manufacturers relying on international packaging and parts.",
+      "source": "investingLive",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa2QzWmpLR2lmYmtCeF9qbFNnX2dEVmNOaG1KN3N0THJJWENWQnRKM0psaFZfZW95NDF4OVRpa1hZUmdfb2F3dUJzb0M1X29OUWNIc0FGV2FBM0dxd3ZnNTZxZ2NTa0JOYVF1dHRaR0NpcVdEaDEyYldRUmFoMEp6ZVRuc2JWMWlaTW1YUHJBM3BQSGJLaWZJbw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260915-mu-korea-export-controls",
+      "time": "2026-09-15T00:00:00Z",
+      "headline": "South Korea\u2019s new semiconductor export controls disrupt supply chains and increase costs",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM",
+        "AMD"
+      ],
+      "why": "South Korea is implementing new semiconductor export controls, which are expected to disrupt global supply chains and increase manufacturing costs for chipmakers. This directly impacts the flow of critical memory components (like HBM) and equipment necessary for high-end AI accelerators, potentially squeezing margins for major chip designers.",
+      "source": "Global Sources",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX19sZEsza0Y4VFN5LVN1OFFOTXM5NDBRSnkyMUN5S1JxWFB6dHJJTUl4c0ZRNGdWeVFyRHJIckozMmFLUk5Udi1IbDNzc2RsS2ZObzg0YzRhVERteXE5bnNLdmJybmI3QkFFX051TGk1WVowOXFZbW9aeE8yUGxfXzRRbzFpNTlxX1ktTzRIeG4ybnR6S2w3TXMwYXpacjk0MjMxcWZaVjR2Q2pXSTVpUWM2MV93SEVQdG4yRDRiNTlicW4xcXpvY0JlcDMzbkNaMzJxc0FrSnVPRFg4emdqSEhtT0l5UGc4Q0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260915-amd-bofa-defense",
+      "time": "2026-09-15T00:00:00Z",
+      "headline": "Bank of America says investors get AMD stock wrong",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "why": "Bank of America issued a positive note defending AMD, arguing that the market is overly pessimistic about its competitive positioning against Nvidia. The bank believes AMD's AI chip roadmap and market share gains in the enterprise server space are undervalued, suggesting a higher valuation multiple is warranted.",
+      "source": "thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkRXpvTmU0RGxYSmVTME1zUU8tRU9JRUw2a0hZS2VDQnBFME9CSXd1ajFXRlpWNVFCdm1PV3U1MEJOcVJzVHRVZXdWcTEwQlRNWHZkaFZiYlpUeGZUcXhPQ3FDbUpuS3M0Z1E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260915-csco-nvda-splunk-ai",
+      "time": "2026-09-15T00:00:00Z",
+      "headline": "Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "CSCO",
+        "NVDA"
+      ],
+      "why": "Cisco and Nvidia are expanding their partnership to integrate Nvidia's agentic AI technology into Cisco's Splunk enterprise security and observability platform. This collaboration aims to drive enterprise adoption of AI-driven operations, boosting software and hardware demand for both companies.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMEVxa2JZX3VmSFZIdHM0ZmJnZE1hNGkzbDZSbFFyYm9XbFlZeE42akZjeW5PR2NITk82T3RDVTVWYmtwaHdFTXZzVWRqRjkxc08xRFY5ZTdxaTM1SEJJbEJqV3d1VTNfa212WlltUHhGamJ5R0xMVEdDd1VUejhkaHk5MEVwNVc4STlmWkl4THRydTItWUhubVNfTUJSRmpoT2hiUXZ6RUJBTnd2SVBwX1FuaGg0TC1DZG5UUzNIYmwzdFhmSTl4RkEyS1RpTjIwSjRxdnNkcjBvREgyT2lreDgyT2NsNDhXeVdWbnpjUVE3XzRuTndv?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260914-orcl-q1-earnings-cloud-surge",
       "time": "2026-09-14T16:15:00Z",
@@ -650,70 +720,6 @@
       "why": "A massive $640 million insider sale by a board director signals potential valuation caution at current levels. Furthermore, reports of AI testing capacity strains highlight physical bottlenecks in the semiconductor supply chain that could delay next-generation chip shipments and impact near-term revenue recognition.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNR2pleHRydmhoeGdaaF91RTU0OWwwQVN5MW1hUlBZLUZFUXFVOGFmRFcydHpFeHB5TVk4d1pRZTVWSVFpaTcydmhLYVh4LWVuM3FRVmYybS0tTVNGUy1CNXY5QTVQS1pPZWZ5WVVCMGh5Z1BLdTA5YTBqTF9mTm9nM3U5TjRhYmhlQzBnYXVnbXB1bU9lWVVXTkdGQXY1ODlpNFRlZ3o2bnZqa0N2Y0Rza1NSQmVOS2Fpajhkd1IwclFNZFRrbTJiT1BYT1ViU1FDaXZHYjk2UzBJX01JM1lteDlLdVRkanpCNU9oTXpvdmY5N3hjaFEw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-mu-legal-fight-selloff",
-      "time": "2026-09-10T11:30:00Z",
-      "headline": "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU"
-      ],
-      "why": "Micron's stock is facing downward pressure due to a combination of an ongoing legal dispute and a broader selloff in the semiconductor sector. Legal challenges introduce potential liabilities and intellectual property risks, while sector-wide multiple compression further dampens investor sentiment ahead of its upcoming earnings.",
-      "source": "StocksToTrade",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZM3FMVW5TWWdTLUk0TV9nZlFKOFl4VGhJWjNRc2FPYk5DNFdNd2c3UWhKR1NiWGljRGQzbkI4YUZuVW15Uy0zWWl3aHdnMC1Mc2t3cU1LSjRFdG9pWHo0MDlPNWN5RUJXeWVVN0dydHBvTWV2XzBWSjVKV1Y?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-china-hbm-shortage-price-hikes",
-      "time": "2026-09-10T10:45:00Z",
-      "headline": "Chinese AI chipmakers boost prices amid escalating HBM shortages and supply chain disruptions",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Severe shortages of High Bandwidth Memory (HBM) and supply chain disruptions are forcing price hikes in the Chinese AI chip market. This underscores tight global supply for critical AI memory components, supporting strong pricing power and elevated margins for leading memory producers like Micron.",
-      "source": "Global Sources",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZkRDNllSMEc2dXI2N0dEc05VYUV0aDJfaEM5QmwwaUdSUjZ3MXI1aHE2bkhDQ3RDVnVsVU9VYml3RERZZ3d3eWpDZHNzVjlsMW13Zm0wN0hKOTdnUGZIS25iVE9hRW8tbHhBNDVfQTBOS3dCNUhWV0JPc3pOMHVfZmtLeTZ2WTJ3TEZHM0NRMTVyNGo3N2Z1T1BVWUo3X0ZQZEN1OE83MkZBZUI1cTdOY0pmejJYZVV1bVBKc0J6NWNSQ2VGUnpCRWVOSkxvRTBmSzhSMDZWcTdjU2lpdXJIczllazg5MjNFV1lVaTJsV2pYdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-amzn-anthropic-chip-group-split",
-      "time": "2026-09-10T10:00:00Z",
-      "headline": "Scoop: Anthropic breaks from major tech group over chips",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "MSFT"
-      ],
-      "why": "Anthropic has reportedly broken away from a major tech coalition over disagreements regarding AI chip policy and regulations. This highlights growing divisions among top AI labs and traditional tech giants over hardware standards and supply chain lobbying.",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wQXJjM3prLW5SV3pEUVJlS1lzZzlKbTFtNngzUUJSU0ZvR08xODFXMVlGSTNwNG5HdXN6WGpLMWt1VkdBaHowTUo1bEluQ0QyeUNmLXZTcFNFQjkxSFkzbTBRN01VWk11c1FQWGxaQWc3aWUy?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-amd-piper-sandler-initiation",
-      "time": "2026-09-10T09:15:00Z",
-      "headline": "Piper Sandler initiates AMD stock coverage with overweight rating",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD"
-      ],
-      "why": "Piper Sandler initiated coverage on AMD with an Overweight rating, signaling strong institutional confidence in the chipmaker's ability to capture market share in the AI accelerator space. This positive initiation can drive institutional inflows and support a higher valuation multiple for the stock.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObUEwemRNWFZvcTJhRGRhYjMwenhLN0d2R0M4djJEMlhpdXhMTmhrbDdJQ0gzcVVtTG1aRG9XanhwSkdwZXZhN0Q5V2hpbzM4cjNPNnJOallWYzg1MzVsSDFad3JvZ1FZWHNOMXBnTWt6Z2pBQ18xM1lPU3gyM1RtQkxUZEU4X3pHNWpoZFh2dFNzWVBua1ctdzd0OGdqQkQ3eHhzeGpRRTZPUnNiZzNGeWQzZFhMc1NTeWEtWGpLX3I4Y182X2tvYXpiaHRSQQ?oc=5",
       "alerted": false
     }
   ]
