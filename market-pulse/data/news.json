@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:06:10Z",
+  "generated_at": "2026-09-16T11:57:00Z",
   "session_date": "2026-09-16",
   "items": [
     {
@@ -84,6 +84,59 @@
       "why": "Japan's export growth remained solid in August, driven by a significant jump in shipments of semiconductor-making equipment and computer chips. This strong export data confirms robust global capital expenditure on chip manufacturing infrastructure, directly benefiting major equipment makers and semiconductor foundries.",
       "source": "Energy Connects",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVWxIZEZqM044c1dQdWZHY1ZWNzEyM3hUTDZXVVlHT3lkLW81VFpVaTZERkpSZnl1c3V3Ym1Da1JtSFJSbmlqZG1ENlJ1Sml1YnhkclQxajFiYVdYTUdvUXhGbEtVRGkzUHNZbU00VGxXNzRxXzAtT1pvbkZzWmxPRWQ2UGNyTEtJRmUzUTZqNW5VN2h2eTYwWHdIYV9MV09DeXFOM2ozLUVQXzI5NkhyQVVYVk0yUlU?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-intc-sk-hynix-ohio-fab",
+      "time": "2026-09-16T00:00:00Z",
+      "headline": "INTC, SKHY Stocks Jump Overnight: Intel\u2019s Delayed Ohio Megafab Could Make SK Hynix\u2019s First US Memory Chips - Yahoo Finance",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "MU",
+        "TSM"
+      ],
+      "why": "Intel's delayed Ohio megafab may host SK Hynix's first US-based memory chip production, providing a major boost to Intel's foundry ambitions. This partnership could accelerate US-based high-bandwidth memory (HBM) packaging, directly challenging Micron's domestic dominance in AI memory supply. It also helps Intel offset the financial strain of its delayed fab construction by securing a high-profile anchor tenant.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTjVsOG1ScXNiSVBDTFctOVNyaDBIU1JfZEYwY3dLakNhY3FPWXp0bHFGbVBObkVhVzJ3eXFjMDhqZG03Q0h6QVRaQU9RVjNFcmVuRkFoVWJWWDJGQV9uUFFCRzcwSVJ2enF3YnNoc3RyMk5aV0FhbE1vMXVFa1hyNWplRC1UWTU3VmUzMmcxdXZGak5kYkZyZGctQ0g?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-nvda-rubin-profitability-semianalysis",
+      "time": "2026-09-16T00:00:00Z",
+      "headline": "NVDA Stock Rises Premarket: Vera Rubin AI Accelerator Delivers 2X Profit Per GW Than Blackwell, Semianalysis Says - Stocktwits",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "A Semianalysis report indicates Nvidia's upcoming Vera Rubin AI architecture will deliver twice the profit per gigawatt compared to the Blackwell platform. This projection reinforces Nvidia's long-term margin profile and technological lead, easing investor concerns over a post-Blackwell growth cliff. It also signals continued high-value foundry demand for manufacturing partners like TSMC.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWW1TQTl5M3JPRlBkc2hIdU5lRGZvMUJPTjlOeEJUMWtVYm14Tkh5cXhQSGUyTFdYSlhUMzdjWEh1a0NRN3ZnazRiMElfcGo4c2VsRXRnbi1ROXVDakNvNVBSdGVySU0tSElyd3lBU3VzVnBORUk0blhoeDFpbDV6dWtQNm1LUmYzX2ItV3pEdjFZRXNmalY4ekVkUkJWdS1Rbi1EU3RZdnpFakhFSTB2XzZGZVFxS1BXUzZJTWRsRkthaXdkQTdJd25VSDVMdURTbVEzemxGX2xMQjYyMmFrNGlsWFZNeC1oUlpGLUh2QXh0WEhWLU1ycUxKaldLenlhWWJwUTZpOA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-mu-stock-drop-ai-slowdown-fears",
+      "time": "2026-09-16T00:00:00Z",
+      "headline": "Micron Technology stock falls over 5 percent as AI slowdown fears rise ahead Q4 earnings - ad-hoc-news.de",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "why": "Micron shares fell over 5 percent due to mounting investor anxiety over a potential AI hardware demand slowdown ahead of its Q4 earnings report. This selloff reflects broader market concerns that the massive capital expenditure cycle for high-bandwidth memory (HBM) and AI servers may be peaking, which could compress margins across the semiconductor sector.",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblhjaU1WREFDM0ctOW1mUlU4aTFLd3JFZzAwcFF5dW5jYWdDVy1reWc2Qm9TNGtma1RKNjMxSnlyR3VnNTdHX2p3QnVZbnh0bC1sd25SNkVYYXdKZ3VTSWNvejhKdmZWS3BPcVduczhaOXB5aDFHZzVaZW8zTGFZd2hzT0pOb1NGRGdJbnFrWHJHUWlkbXgyLTNxM0lLY2dZdDlxQ3ZlY3dVaEpmaGsyV0NycGpNb29FM0dSdGpYcnduVzBXdXcwcmdtMmJEZw?oc=5",
       "alerted": false
     },
     {
@@ -673,68 +726,6 @@
       "why": "The Department of Justice is escalating its antitrust investigation into Nvidia's dominance in the AI chip market, focusing on whether the company abuses its market position to lock in customers. A formal probe increases regulatory risk, potentially limiting Nvidia's aggressive bundling practices and opening market share opportunities for competitors like AMD.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGJFM3VzclRoOWhFTXp1NDZZODdLQVhRQWJXSUtTdVBMMUptM040ZzV0Q1FBNDdZWEttVnVRTGh2YXRPX3hva2RkaVJrb29mTjk5X0twWWIzNTBTdi03dHJ4MGlfT1NLVUREeURJOWtVdnd4Y2o5Ny1YcnNkeDR3V0tDdTFEZmZNYmszeGItV2JYcUtLUlJ1YQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-mu-korea-export-surge",
-      "time": "2026-09-11T00:00:00Z",
-      "headline": "Korea\u2019s Sept. 1-10 exports hit record on 270% chip surge - \ub9e4\uc77c\uacbd\uc81c",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "South Korea's early September export data shows a massive 270% surge in semiconductor shipments, reaching record levels. This serves as a strong leading indicator of sustained global demand for high-bandwidth memory and logic chips, bolstering the near-term revenue outlook for the entire AI hardware sector.",
-      "source": "\ub9e4\uc77c\uacbd\uc81c",
-      "url": "https://news.google.com/rss/articles/V0FVX3lxTE40MXVOSTcyY0M3SjNFTk5SbUpKdFhAUENOV0MyZDY4d3NYdWxhQ252TnpSWlVXcGQ0YnlyWDZyc29ETVVuZDktamdndUVRZ0V4dFgtOHZiZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-macro-treasury-yield-five-percent",
-      "time": "2026-09-11T00:00:00Z",
-      "headline": "The Unrelenting Bond Selloff Puts the 10-Year Yield on the Cusp of 5%",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA"
-      ],
-      "why": "The continuous selloff in government bonds has pushed the 10-year Treasury yield close to the critical 5% threshold. Higher risk-free rates increase the discount rate applied to future cash flows, directly compressing the valuation multiples of high-growth technology stocks and raising borrowing costs across the economy.",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbjJuQjZSbTBNcU50bHBRSDhRYW5fMnpjUnZyN3gwM0dpRy1OZTc1ekljY3JBVTd4SDNSbEZEelo3N3BDaFZzdUxrTEVYMlMwcEUwc2dwU3pvT3hiNUZvM2dYaDZ1aXZBMjdnc0VOR3hQdWJhTkFBNmlVbXRxaVhRUUU4QU5tYnpaX1gxQ2xzRDNXSmVkWlh3RFlsTDZrZzU3bmVrUjY0OWo3R3RGcGJKR2VScW1Jdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-nvda-cybersecurity-ai-growth",
-      "time": "2026-09-10T13:15:00Z",
-      "headline": "NVDA, CRWD, PANW, PLTR Stock In Focus \u2014 Nvidia's Huang Highlights Cybersecurity As Next AI Leg",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "PLTR",
-        "CRWD",
-        "PANW"
-      ],
-      "why": "Nvidia CEO Jensen Huang highlighted cybersecurity as the next major growth driver for AI, emphasizing the need for hardware-accelerated defense against AI-driven threats. This endorsement boosts the long-term software monetization narrative for Nvidia and validates the AI integration strategies of key cybersecurity and data analytics partners.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHBDZ21oU0gwLUlsenFDQi14a2c0ZmlpYmFVLXltZ21rRy1HRmpuNTRpd1V3VXVpb0xSNmdlOWZEOWloZWRlWGR4bWpzMWVzalNaUVB1WGpSZHF6RFJ6TVN5SlpmZjJBZ0F2bVFPLUJxS05yaFBPcTZPc3B2RGt3eVVVMjZmRGxsa0VpZDctZUQ3QU0?oc=5",
       "alerted": false
     }
   ]
