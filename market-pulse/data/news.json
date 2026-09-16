@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-09-15T21:39:17Z",
-  "session_date": "2026-09-15",
+  "generated_at": "2026-09-16T05:06:10Z",
+  "session_date": "2026-09-16",
   "items": [
+    {
+      "id": "20260916-nvda-huang-trump-xi-dinner",
+      "time": "2026-09-16T10:00:00Z",
+      "headline": "Nvidia CEO Jensen Huang to Attend Trump-Xi State Dinner as AI, Chip Issues Take Center Stage",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "AVGO",
+        "MSFT",
+        "GOOGL"
+      ],
+      "why": "Nvidia CEO Jensen Huang's scheduled attendance at the Trump-Xi state dinner highlights the critical role of AI and semiconductor technology in US-China relations. High-level diplomatic engagement could influence future export restrictions, licensing agreements, and supply chain stability for major US tech firms.",
+      "source": "Bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xeTVkeVFXUXRqZ3cwTVRzYXZ0X01xb3dLVnlRdHpxUWoxN3RnMkp3R2wzNXJwQVpIRnIxeWJ6MFcwQktGcjEyckVhS3RfR1dYc3NQRg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-nvda-trump-huang-call",
+      "time": "2026-09-16T09:00:00Z",
+      "headline": "President Trump called Nvidia\u2019s CEO, Jensen Huang, while Huang was onstage at a conference to criticize calls to slow down and regulate A.I.",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "PLTR"
+      ],
+      "why": "Donald Trump's direct phone call to Nvidia CEO Jensen Huang during a live conference signals a strong political stance against AI regulation and safety-related slowdowns. A potential deregulatory approach under a future administration would accelerate AI deployment and reduce compliance hurdles for major developers.",
+      "source": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWERyVTN1d3lyYkpMTlMzbHVMMWxFdVo2SmExNm0ydXl1bndKSU1nYV8zSmFPTTA4cTRWTEpCQnluZE9iT1dVNDZ2RHZGaUtZdWNqbVdBSWx5LWIxLUhtNElsWFFtNlJyNFV0NkJMLTNXZDZRalpsaXhBTktfQXpVVDc3UnFpR2JhNExCb1hLbWFNRjUtak1mNHVmeU9lTFhHWW1neUJ3V3N1d0dBOF9neTQtU2tyRFBzTF93WC1LY2NaUnB5X004R0FEbE80YWhWZmNj?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-macro-treasury-yield-highest-since-2007",
+      "time": "2026-09-16T08:00:00Z",
+      "headline": "10-Year Treasury Yield At Highest Level Since 2007 As Fed Decision Looms",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA"
+      ],
+      "why": "The 10-year US Treasury yield has surged to its highest level since 2007 as the market prepares for the upcoming Federal Reserve interest rate decision. This rise in yields increases the cost of capital and compresses equity valuation multiples, particularly impacting high-multiple mega-cap technology stocks.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTG9LbVg1MlZPc29BeXR1dkNsUjdSbi1LWDJEa3lGdEZGY3NhVHdYWnRZMVAwa184cUtCZWVkWXBzSVczRVBTQnRZampjNWlObG4xZDhOTHdGMWZpeDQxMjNyQkFYMEtSM1hRU2JaMGp0ZUFnQkNrcTR5NkZwS0dIei15WHVNaUpGWlpNeUh2RWN4bVpmdE1QX2lGSWUtMUpaYlRsSnYwMXFkdkU4YTdRNVJZMTZwNnctS2RCMg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-macro-japan-export-growth-chips",
+      "time": "2026-09-16T07:00:00Z",
+      "headline": "Japan\u2019s Export Growth Stays Solid as Shipments of Chips Jump",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "TSM",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Japan's export growth remained solid in August, driven by a significant jump in shipments of semiconductor-making equipment and computer chips. This strong export data confirms robust global capital expenditure on chip manufacturing infrastructure, directly benefiting major equipment makers and semiconductor foundries.",
+      "source": "Energy Connects",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVWxIZEZqM044c1dQdWZHY1ZWNzEyM3hUTDZXVVlHT3lkLW81VFpVaTZERkpSZnl1c3V3Ym1Da1JtSFJSbmlqZG1ENlJ1Sml1YnhkclQxajFiYVdYTUdvUXhGbEtVRGkzUHNZbU00VGxXNzRxXzAtT1pvbkZzWmxPRWQ2UGNyTEtJRmUzUTZqNW5VN2h2eTYwWHdIYV9MV09DeXFOM2ozLUVQXzI5NkhyQVVYVk0yUlU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260915-nvda-us-foreign-parts-cap",
       "time": "2026-09-15T00:00:00Z",
@@ -651,75 +735,6 @@
       "why": "Nvidia CEO Jensen Huang highlighted cybersecurity as the next major growth driver for AI, emphasizing the need for hardware-accelerated defense against AI-driven threats. This endorsement boosts the long-term software monetization narrative for Nvidia and validates the AI integration strategies of key cybersecurity and data analytics partners.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHBDZ21oU0gwLUlsenFDQi14a2c0ZmlpYmFVLXltZ21rRy1HRmpuNTRpd1V3VXVpb0xSNmdlOWZEOWloZWRlWGR4bWpzMWVzalNaUVB1WGpSZHF6RFJ6TVN5SlpmZjJBZ0F2bVFPLUJxS05yaFBPcTZPc3B2RGt3eVVVMjZmRGxsa0VpZDctZUQ3QU0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-macro-ppi-august",
-      "time": "2026-09-10T12:30:00Z",
-      "headline": "Wholesale prices rose 0.4% in August, as expected",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "August PPI rose 0.4%, matching expectations but showing persistent wholesale inflation pressures, driven partly by rising energy costs. This keeps pressure on the Federal Reserve regarding interest rate hikes, potentially raising the cost of capital for high-growth tech stocks.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qVHZKSklSNFBTMjdLU1hfTVQwV2dQdjdhV1pGZkQ0S2I0VTZuX2NjcGMyb1hNUWV2dXJSb0ZxZkg2ZEh6bWJfbFA3bkNMenpLR3hNeWVEWkZ3LTVrcjByWGt1NzJlZXpmZnF4bWctNm1QRm1NS1FmbNIBfkFVX3lxTE1Demk0RVMzaFd0WW9UQWRPWDRNLTl5ZEdKenM4LWJRV2VtUjQ0OTVGUm5mQ1JMMUZqd0ZsWGJ6cVhMR2s3U1BScS1FRk8xbzFFb05ITjZJLXRiQ2gyWXRzRkJaZDE1ZTZNOV82YjZUbnhCaHlZYl9fal9wOXY4dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-macro-fomc-rate-hike-odds-soar",
-      "time": "2026-09-10T12:00:00Z",
-      "headline": "The Odds of a Rate Hike Are Soaring Ahead of the Sept. 16 FOMC Meeting",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Market expectations are rapidly shifting toward a surprise interest rate hike at the upcoming September FOMC meeting, driven by persistent inflation pressures. A rising rate environment directly compresses equity valuation multiples, particularly for high-growth technology sectors that rely on low discount rates.",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNFV2Z2p0UlJsRXNIOUtTSDBVcjNRUlFORTVjS18wemczOFN1RTBqT2t0b2lHVDZKdG9Ucml0YVpQQ1h0SHhBZk4tdDFaVlFBcENNSWhnLUhBYVZGSTl2WmVxN2JaYTEtUV8yVGVLQ1FWRUE3aU9oSzlCb1EyVTBTcXBkUXo0ODJnRm5ZSWZKUm5qMXYtcnhXTE5zSlVCUGkzVTFWYXNZZ25iMDc3cW04RVNkd1pDcmprUkd6cFFtN2RvTkRMRjNnaTlwbGMtdHpjM1VyNmhtb3FvSUdMN1o2Z1VpM3FZTlQ5NGN4Qw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-tsm-record-sales-divergence",
-      "time": "2026-09-10T12:00:00Z",
-      "headline": "TSMC Stock: Why Taiwan Semi\u2019s Record Sales Isn\u2019t Boosting AMD, Other Chip Makers",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "MU"
-      ],
-      "why": "Taiwan Semiconductor Manufacturing Co. reported record monthly sales, highlighting robust demand for advanced AI chips. However, the broader semiconductor sector did not rally in tandem, as investors worry that TSMC is capturing the vast majority of industry margins and that non-AI legacy chip segments remain sluggish.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SekxhU1RoU2NEc2RGMEVCS2NDVFVjUmZaX0N6MGg1NEtMbk41YnZWN2xRazhMaVA3NnExUDFmakpqZi1ldGs0WERJMmxzZEluRXh3cmplNUIzX3kxa0NXN1huZFRvUWNOak94QlVNcGVxOGI3SjRZQ0NR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260910-nvda-insider-sale-testing-strains",
-      "time": "2026-09-10T11:30:00Z",
-      "headline": "Nvidia Stock Slips Overnight: Director Mark Stevens Dumps $640M In Stock Amid AI Testing Capacity Strains",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM"
-      ],
-      "why": "A massive $640 million insider sale by a board director signals potential valuation caution at current levels. Furthermore, reports of AI testing capacity strains highlight physical bottlenecks in the semiconductor supply chain that could delay next-generation chip shipments and impact near-term revenue recognition.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNR2pleHRydmhoeGdaaF91RTU0OWwwQVN5MW1hUlBZLUZFUXFVOGFmRFcydHpFeHB5TVk4d1pRZTVWSVFpaTcydmhLYVh4LWVuM3FRVmYybS0tTVNGUy1CNXY5QTVQS1pPZWZ5WVVCMGh5Z1BLdTA5YTBqTF9mTm9nM3U5TjRhYmhlQzBnYXVnbXB1bU9lWVVXTkdGQXY1ODlpNFRlZ3o2bnZqa0N2Y0Rza1NSQmVOS2Fpajhkd1IwclFNZFRrbTJiT1BYT1ViU1FDaXZHYjk2UzBJX01JM1lteDlLdVRkanpCNU9oTXpvdmY5N3hjaFEw?oc=5",
       "alerted": false
     }
   ]
