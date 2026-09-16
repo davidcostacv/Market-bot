@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-09-16T17:13:30Z",
+  "generated_at": "2026-09-16T21:33:34Z",
   "session_date": "2026-09-16",
   "items": [
+    {
+      "id": "20260916-macro-fed-rate-hike",
+      "time": "2026-09-16T18:00:00Z",
+      "headline": "VIEW Stocks pull back after Fed raises rates, points to another hike this year - Reuters",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA"
+      ],
+      "why": "The Federal Reserve raised interest rates and signaled that another hike remains on the table for later in the year. This hawkish stance increases borrowing costs and raises the discount rate used to value future cash flows, compressing equity valuation multiples across the market, particularly for high-growth technology stocks.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260916-macro-us-mexico-china-ai-hardware",
+      "time": "2026-09-16T12:00:00Z",
+      "headline": "Exclusive | U.S. Pressures Mexico to Box Out China\u2019s AI Hardware Exports - WSJ",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "TSM"
+      ],
+      "why": "The U.S. government is pressuring Mexico to restrict Chinese AI hardware exports, targeting efforts by Chinese firms to bypass U.S. tariffs via Mexican manufacturing hubs. This regulatory pressure threatens to disrupt nearshoring supply chains for server assembly, potentially raising production costs and delaying hardware deployments for major U.S. cloud providers and chip designers.",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa0pqM1hOWmNYN0NfZDl2SFBtdHI4TG44akZhN2pOZ2FidndwV2d3YUFSWFVpODhsTVMyVi1BdFV0NFZ4cUllRVJDRnV3V0tKVFNxbld5dmU2LVpQYVpaVzlRZG9IWS11bHN0Umc1NDRKdEN1elh4YUpJNmpDcE5aV2N3RlVLQk9TQlR0TGljLXhYcjFPMkFET2cwRlk3bV8xbUkw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260916-nvda-huang-trump-xi-dinner",
       "time": "2026-09-16T10:00:00Z",
@@ -692,40 +736,6 @@
       "why": "Chinese AI chipmaker Enflame's blockbuster 188% debut on the Shanghai stock exchange highlights the rapid growth and capitalization of domestic alternatives to US silicon. As US export controls restrict Nvidia and AMD from selling high-end chips in China, local competitors are successfully scaling to fill the void.",
       "source": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSnVzQ01waXFGWmtpMmYzc09SSWYwRlhLazcxTU9pdVYtb2JFaVhQbXphVFlZZHg2NGZjdW1naTlTYnA0dVM5MFM5cTBJRy1rVHYtR2lVeXA5bFIwUlNuZnQyRktsQlFwNjNESW9oSWpzQlhRNHkxTmo4LUIyOEtKNFhpVWt6cFBMVzhmZlh0VkJid0hIelJ3bHpZVGdTQW9YcTh5Q0kyTVZDTnVMRnh2X0lxTFhUVExwRXNhWTdXT216TVFYYTVEVmo0TmpId9IBzgFBVV95cUxNaWJEbmx2R0Zib05WMU90Mm5lUk1iOW5zaHVoZ1RNUDlZZmJ5aVdPdmVPMkpRcW5GNmE1VjJsRTBOXzhkeWxoX1laVmRzYjhTUHFHSHBVekJFZEV6dUtocDJGeWkwM0VKR3ZHbTFnOGdaTmZvNTNvWnB6OXRwUzlrUHA1N3dWbV9Sdk5XcXNVS1dZRGZOeHVWaVZDSHdVfF93cVNETXJzUnBfa3I2cXREelcxUGFEcDRFNlNpOVhrM1cyaFRoTmV0NlI0azV4UQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-intc-piper-sandler-upgrade",
-      "time": "2026-09-11T08:00:00Z",
-      "headline": "Intel (NASDAQ:INTC) Stock Rating Upgraded by Piper Sandler",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC"
-      ],
-      "why": "Piper Sandler upgraded Intel's stock rating, signaling growing analyst confidence in the company's turnaround strategy or valuation. Upgrades from major Wall Street firms often drive institutional inflows and improve market sentiment for struggling legacy tech giants.",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOal9jSGo5X0xkRjU5eVc5RlFwblJTd3hNYzZIWTZzSEFVLWp1dW0xZU55Vm9xZmJHUUx0UmJEMXh3SDQ0ODZjSmx3anVqUXBhZVNTamVYcG5sbUVJb3lTSVR2VGZEeVhFM2tyYlVzU0FBeVJRMFhwaTh6WEFMMlczekhtUUdGWFAyVS14cVp3RUdkcExuS19fY3pJanN0S2tHam9ZVDZSTkdoTmIwMEY4SlhpY0JDQ3JBOUE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-nvda-doj-antitrust-probe",
-      "time": "2026-09-11T00:00:00Z",
-      "headline": "NVDA Stock Alert: What to Know as Nvidia Faces DOJ Probe",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI"
-      ],
-      "why": "The Department of Justice is escalating its antitrust investigation into Nvidia's dominance in the AI chip market, focusing on whether the company abuses its market position to lock in customers. A formal probe increases regulatory risk, potentially limiting Nvidia's aggressive bundling practices and opening market share opportunities for competitors like AMD.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGJFM3VzclRoOWhFTXp1NDZZODdLQVhRQWJXSUtTdVBMMUptM040ZzV0Q1FBNDdZWEttVnVRTGh2YXRPX3hva2RkaVJrb29mTjk5X0twWWIzNTBTdi03dHJ4MGlfT1NLVUREeURJOWtVdnd4Y2o5Ny1YcnNkeDR3V0tDdTFEZmZNYmszeGItV2JYcUtLUlJ1YQ?oc=5",
       "alerted": false
     }
   ]
