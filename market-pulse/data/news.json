@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:58:40Z",
+  "generated_at": "2026-09-17T17:12:30Z",
   "session_date": "2026-09-17",
   "items": [
     {
@@ -64,6 +64,96 @@
       "why": "Applied Materials announced a $5 billion investment plan in India to expand its research and development (R&D) capabilities and diversify its supply chain. This strategic move helps mitigate geopolitical risks associated with China and Taiwan while positioning the company to capture growth in India's emerging semiconductor ecosystem.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ3kyeU5pWlZVczhBTGVoMVlLTFZkLS1Tb2J5QkhXdldvNW1fVlVCNTNRMUdiVUNBVGVDaURDb2NFSTZTOG1MR2Q2dWdXdXJDSkJmd0t3NjNncGN6VGdCeDF4T2pGWEQ2OXhNTU5zcEFaa0c2aTJEczgtbE1FeWZ6M0JJb2ZJbWY1TzlIaTYwOHVtWEp0LWtZeW9sNjNmUVE0cHRIaFNnSzZVZ3NmNUZXVW5yamdHODNTVkxXWE5CaHV6Y0V6VzVTd1BJNA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-nvda-huang-sales-double",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "NVDA Stock Gains 2% \u2014 Jensen Huang Expects Chip Sales To Double Next Year",
+      "impact": 9,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ASML",
+        "AMAT"
+      ],
+      "why": "Nvidia CEO Jensen Huang stated he expects chip sales to double next year, signaling sustained hyper-growth in AI infrastructure demand. This directly counters recent market fears of an AI spending slowdown and provides a strong positive read-through for the entire semiconductor manufacturing and design supply chain.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHF4Y2szRUJ2VzFWR28tcjRjcW9IRkkzRmZYNlF5ZUoycEpUcjVZNm1rSjNhTmxORzRfLU9jLUxzSEFWYmFjNl9YZFF6bV9nVUt2ZTZpbEZ2NWhmUUdIR1hVQUU5elh2ZnM3Q2JCNml6WTBIQlZtU3hqcS1vanFneFNOdEVTRWpNbFlXeWxkU0o2VDJN?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-gnrc-amzn-generator-deal",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "GNRC",
+        "AMZN",
+        "CAT",
+        "CMI"
+      ],
+      "why": "Generac secured a massive $2.4 billion contract to supply backup generators for Amazon's expanding data center footprint. This deal significantly boosts Generac's multi-year revenue pipeline and highlights the massive, non-silicon infrastructure spending required to support the AI buildout.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUkdaMFdSQVJ5LXdfVjd1MGVWSl9hTThRMFhpZDViVVlRdHktejFZT3JHeEdveGk4ZUpDdHhtWkhMRUhSMHdTSjU0V0hKcko0Ync5eGdHa04wQjVFQ2JhcDdOVDFGakY4SVNMRWNNclZxZDA4YVZKYUhlb21KZkZzNTc4Zy13bHNHcTVPVmloZ2ZoalFSVlpfT2JMUkFObUpZYkN5QWNUOGlPbi15anl0ODEyRmJ1X2ctV2ZXRWdhX1FWVHRIUnpsRFl6dlhGaWhKQ1pnY1MxSUtPMF80RTRya2EzT3JMSzBIaHEwa3VGTjZDdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-intu-fy27-revenue-guidance",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Intuit guides for $23.5 billion fiscal 2027 revenue",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTU"
+      ],
+      "why": "Intuit reiterated and detailed its long-term financial targets, guiding for $23.5 billion in revenue for fiscal year 2027. This clear multi-year outlook provides investors with strong visibility into the company's growth trajectory and software pricing power.",
+      "source": "grafa.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON2JqaFBGc3FXN1M0Vk9kdlF5QVRIckFaWkpvMVc2djJJOF8xTEIzeXRwUy1iUmsxc0lTek0zdzN3S3lMM3M0QlpVM05wUmhGWEVPNzdiV0FYNmsybnk0eU5RQTYxWmF1R2I3MFhnQU0wMk1Tc2k0Q2VIVlFBY0Iyam05VXdKT1hUaFlpT1RRNA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-cien-guidance-raise",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Ciena (CIEN) Stock Trades Above Fair Value After Raised 2027 Guidance",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "CIEN",
+        "ANET",
+        "MRVL",
+        "CSCO"
+      ],
+      "why": "Ciena raised its long-term financial guidance for fiscal year 2027, driven by accelerating demand for optical networking equipment. This upgrade signals robust underlying demand for high-bandwidth data center interconnects, serving as a positive read-through for networking peers like Arista and Marvell.",
+      "source": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTm1UV19JS0l3RElkUkJrekFyRThvZTZpcEZQUm0zSEozZEd0cFBZTEotR3lUY3c2OHowRGpsMGtjbS1MRTBBd25Kci1pYTJ5NU5LOTEwZDdxX0ZwYVZaSEdmRlRZZDR5eXBnTzhvSUMyWW5mdVVPVFpjT2MtSmVnTm9UMkU?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-avgo-ceo-reassurance",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Broadcom CEO Hock Tan Says He Isn\u2019t Worried \u2013 \u2018No, Not in the Least\u2019 \u2013 About AVGO as AI Extinction Fears Rattle Stocks",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "MRVL"
+      ],
+      "why": "Broadcom CEO Hock Tan dismissed concerns regarding an imminent slowdown in AI infrastructure spending, stating he is not worried in the least about AVGO's outlook. While not a formal guidance raise, these comments from a key industry leader help stabilize investor sentiment amid recent sector volatility.",
+      "source": "barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdlFoaXUwYWFuOFpsbHZWQkZSMVBJTmxkX0pNd2xzNFpqeWdMVTdNLWRrVks4aDBXcmxYcUhzVHVqa2xBUG56aE9SVno4aDRGckJaNDVWbWFZQ3ltQWdnRWwyR1pVamQ0QmRfUWdVSzAtQmVtZnRNcm50TkNFNjNvU2FXUVBpTW1leG1pZm1EMzNfSnQycllJNDlrRGJNUlY2SmxkdTUtSlVpdENDb1RuQS0walBoOVNFNHcwUnlWYjVCRWQ0Sm9SdUc4a0tYYkFYZnpIeXhSa1BEQlp2ZFY2SXJIaUFVc2J1MXc?oc=5",
       "alerted": false
     },
     {
@@ -646,94 +736,6 @@
       "why": "Citigroup highlights SanDisk, owned by Western Digital, as a primary beneficiary of Micron's strong earnings performance. This positive read-through suggests robust pricing power and demand trends in the broader memory market. This could support higher margins and improved earnings for Western Digital in upcoming quarters.",
       "source": "stocktwits.com",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWloMjdkeUI1aFRMZW9iazRiaXF4ZVllMXNfTnJqb2Rwbm9NM3dMOFBxTWRocm1sZFluRXBaclFGdjR4aXNWTnJnR1d6WGw5VVdHNjRjZ091cGRJMHVGOVNOVWU5aW1nZmFlTGs3bjJjWDlSQ2R0azVQSVRQV2ppMTRjazY1eVJ3Ml8zV1UyQ2hrMXZrRGh5VVxlV1BfbDhUc2hTZERIa1I2a1dhTGp1cl83YVRSdU9zZ3RlYXhJZElUOUw4STBQaHRfT3FnQ2V6ZEdFY0g0TUhaZ2c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260913-amd-intc-gcc-ai-instructions",
-      "time": "2026-09-13T00:00:00Z",
-      "headline": "AMD and Intel\u2019s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA"
-      ],
-      "why": "The integration of shared AI instructions from AMD and Intel into the GNU Compiler Collection (GCC) simplifies software optimization for their respective chips. This collaborative effort helps lower the software barrier to entry, making their hardware more competitive against Nvidia's dominant CUDA ecosystem. Over time, this could expand the market share and earnings potential for both AMD and Intel in AI-related workloads.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVk9GbUxnakNvQzJzWUVPZ2dtWGJGZUlqeTBQQXB2TF9BeTR6eExLdENJN1Y0Q29KRGZsZjVyR3RVWUZ4RDMtM2Z5dk4ySmZzOVZoVmp4TmRtbFdSM1FKZld3TVJZRVlmcUFzSTRDR1VKSk5nYWtwQ01WVjVhM0U4N254UVpKLUhNdVJCWEJCcGw2dk5pd3pIMHF3OTk?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260912-nvda-next-gen-rack-delay",
-      "time": "2026-09-12T08:00:00Z",
-      "headline": "NVDA Stock Swings In Premarket: Report Says Nvidia's Next-Gen AI Rack Delayed By A Year",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "TSM",
-        "MU",
-        "AVGO",
-        "MRVL",
-        "AMD"
-      ],
-      "why": "Reports of a one-year delay in Nvidia's next-generation AI rack design threaten to push out expected hyper-scale data center deployment timelines. This delay directly impacts near-term revenue projections for Nvidia and its key supply chain partners, including foundry provider TSMC, memory supplier Micron, and server integrator Supermicro.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaFBaWHQ4WHF2enhuWnpsc2JNb1ZnTW90MU5DX2wtVW5wam9tSDhlZFJyNlpLSi1KSld2V185blF5a3M4dUJsV2dfTkM1QzNOVlhYOXhoNzBKcEZpUWJZRHhKRzkwQVJsYkk5RWFSNGd2T01vWTRwZk1PaGRvWmhtaUNZQk5OSGRuQlQ5Z2tfYzB2ZEE1bDVtMTdiZ0xpWGMwcmczUHpmOTBqbkJManJDenYxcDdsQ29LLVB4S3FnQ3lMdE5rSU1qakNrMmZiS3FmTmF3ekw3bWVpbHVpaHhnTnpYdVU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260912-mu-cxmt-margin-threat",
-      "time": "2026-09-12T08:00:00Z",
-      "headline": "South Korea's semiconductor exports top 400 trillion won for first time; CXMT's profit margin overtakes Samsung and SK Hynix",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU"
-      ],
-      "why": "ChangXin Memory Technologies (CXMT) reportedly surpassing Samsung and SK Hynix in profit margins highlights the rapid advancement and cost-competitiveness of Chinese domestic DRAM production. This rising competition poses a medium-term threat to global memory pricing and market share for established players like Micron.",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44eE5JQXBDZlZPZ2xsdm5NUHBqSklKTk9rQ1A5UkpiNC1hRlpTclZ3T1lRb3pBRzdxU1gyOGp6YzNaMFlOREFMeW9qeXR3VGV4QW4xYmNmM1ZlalZyWUNuSVhVOEVsYm1EMm1JQi10VmFpaEtnTFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260912-mrvl-sp500-entry-photonic-milestone",
-      "time": "2026-09-12T08:00:00Z",
-      "headline": "Marvell Ships Over 5M Photonic Chips Ahead of S&P 500 Entry",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "NVDA",
-        "TSM"
-      ],
-      "why": "Marvell reaching a 5-million-unit shipping milestone for silicon photonics validates accelerating datacenter migration toward high-speed optical interconnects in AI clusters over traditional copper solutions. Concurrently, inclusion in the S&P 500 forces passive index funds to acquire shares, creating structural buying demand and expanding institutional exposure.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaWNBN0djRzd4MDQzQ3lIcWN6ejNMMUthXzNsSF9ZOWE2aHU2a2dlazNJTUZja2Y0cVVsVzlzbVpzNGlzbW1vUm5FNXNVYURMOGNfeEpUbDhSRndray1Kbm5jWjJmWl9Gal9TeVIyZ0NMdHZCVU0wNUwzQnl5MkN0QVVIbFlQUzU1dU5MVkMxUDdZU1NmaFQwWTNkRXpKZ0x5R1JKc1VyY1lIOXY5c1lrSDhZUS1CclBQZEI3M3JCb0Ixb3lHOE9lVm9JLXlCeDgzMF9JNUtHa1VCcUxobF8zclFmNGtiTWxlZWhj?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260912-taiwan-ai-chip-export-rules",
-      "time": "2026-09-12T07:30:00Z",
-      "headline": "Taiwan Proposes Tougher AI Chip Export Rules",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Proposed tightening of semiconductor export restrictions by Taiwan's regulators introduces additional compliance barriers and potential bottlenecking for advanced packaging and leading-node wafer shipments across Asia. Heightened scrutiny could delay international deliveries and restrict high-margin AI accelerator sales targeting international markets.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTVGODUxa1FwSHRXN1FxZ0xOcjViaWVENGJId0pmYXFkQ1BMMTRWRUx3OWljdnowVGNLaDc3YV95YkE1RGZhY0ZiZ1ozQ0F4eGd3amFvQ0VOMzdQMzJJc3BTVU14M2Z3MXExVXE1S3RnbktSYmZSUFo5c0FRYmZNM1RfVXA5LTFwNDNCZ3VrbzM4MENCeUNRaGRMRV82Qm5xR052Y2RDWjdiNFFRemtMWFNyYmJ6d1dWQmI4Ug?oc=5",
       "alerted": false
     }
   ]
