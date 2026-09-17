@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-16T21:33:34Z",
-  "session_date": "2026-09-16",
+  "generated_at": "2026-09-17T05:08:31Z",
+  "session_date": "2026-09-17",
   "items": [
+    {
+      "id": "20260917-nvda-huawei-ai-chip-threat",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Huawei set to unveil new AI chips as it challenges Nvidia in China",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Huawei's upcoming launch of new AI chips directly challenges Nvidia's market share in China, where US export restrictions have already forced Nvidia to sell downgraded chips. This domestic alternative could accelerate the shift of Chinese enterprise customers away from US silicon, impacting long-term revenue paths for Nvidia and AMD.",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTFB4Tzg2YWVOVl8zVldiVVNWZ2FaT2drb2s3emtmRVppRVlSZWItd01kNEVkUUY5UjlsN0gwYUNaRWN2SnVsbHBITnA3dlhnRTExdEdKeHdjc0VBbkE3V1VGZzhJTHh4dkNodk5jRTRLcHZ4aUFIY2JTeklaVDRiS2VQUHloRFVWMjEzQm9OZnpvZkE4TlBxMDd5MThMZzl0TVJiZFhmSjFwOVl6ZC1DMllXZGJPOEFiOXlQTXVZR1ZjeE1sRl93djBfMNIB0AFBVV95cUxPenI2RXFJNmtteTNjd3p2U1BYdEpzbnhKRVF4eGk4bk9FVXNSSkpZSFNhMHFqZms0Y3dYYTl2UnRnLU56Z0RXR3VjUDVMMzVxbkp0TVNZSGc4MVJXb1N6d25iR1kwZnNBRW1Vam41YlJuc3cxcXdIZG0xM3RyNHZ1UDNrYXZEa3oxQkxWX1ZSOWFLMUtvQ21iS1BVd3VKZ3dlMVBIYXVvWE5VZ1psQWN3TXE1REFRSXJiVklicFl3TXk5T20zVVl4mTNQWlBWSm84?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-nvda-alibaba-homegrown-chips",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Alibaba Launches AI Data Center Powered by 10,000 Homegrown Chips",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Alibaba's launch of an AI data center utilizing 10,000 of its own custom-designed chips demonstrates that major Chinese cloud providers are successfully scaling domestic alternatives. This shift reduces reliance on US chipmakers like Nvidia and AMD, threatening their long-term growth prospects in the Chinese cloud infrastructure market.",
+      "source": "TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260916-macro-fed-rate-hike",
       "time": "2026-09-16T18:00:00Z",
@@ -704,38 +736,6 @@
       "why": "The August Consumer Price Index (CPI) report indicated that inflation heated up, making a Federal Reserve interest rate hike next week highly likely. Although higher interest rates typically pressure equity valuations, major stock indexes shook off the inflation data and rallied, driven in part by falling oil prices.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUXdDWnhCTUZPdWxISU9GdUtQVFhoTEZXRmpFS29DX1ZTNmlJdDluaUV5ZTNIVG1UcGoxbm1ianBFOXpQcV9ZZVhVelU3MVBlWVBCV0o0dldFZnlNelZoZHh4T0xyY1diV25MNDN3ZWZ4bUI4Tm04eXNuUVVYN20teFI4emVhZW1OV19DYjBrZjM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-aapl-foldable-iphone-launch",
-      "time": "2026-09-11T12:30:00Z",
-      "headline": "Apple Advances 3% as First Foldable iPhone Arrives at Its Highest Price Ever; Skyworks Rallies 9%, Alphabet Ticks Up",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "GOOGL"
-      ],
-      "why": "Apple's stock rose following the debut of its first foldable iPhone, priced at its highest tier yet. This premium product launch could boost average selling prices (ASPs) and gross margins, driving multi-quarter revenue growth for Apple and its supply chain.",
-      "source": "247wallst.com",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOeDdVRl90ZFBNT1hfNUFVdjR4dXhVVkZpazRNc2ZxOUwtbW9IdE1WbXo1STZCU3dGRVRUT0hHcXF6UTBYUDRnYkhiZ016ZHBoNmNqaGF2NHBZbUFNbVdBbklHb3RXV1hSemhrYzdrOExKNmFTUjY3cDlyeTJ5QmprWGM4bFRNWEVDaW1uUEI3X2hqcWxKQy03dWs0QklEaFRiRTVSLUZhWHg2VXh2VnhSMDdkb3otY0R2cVJYbjhsMW5GYWFIaVItTUgzYzZTdG9YS0ZpaXhtNVVhTlRRYzhjTFJRMHpUamRxaVFvRg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-nvda-enflame-shanghai-ipo",
-      "time": "2026-09-11T10:30:00Z",
-      "headline": "Enflame shares soar 188% on Shanghai debut as Nvidia challenger taps AI fever",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Chinese AI chipmaker Enflame's blockbuster 188% debut on the Shanghai stock exchange highlights the rapid growth and capitalization of domestic alternatives to US silicon. As US export controls restrict Nvidia and AMD from selling high-end chips in China, local competitors are successfully scaling to fill the void.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSnVzQ01waXFGWmtpMmYzc09SSWYwRlhLazcxTU9pdVYtb2JFaVhQbXphVFlZZHg2NGZjdW1naTlTYnA0dVM5MFM5cTBJRy1rVHYtR2lVeXA5bFIwUlNuZnQyRktsQlFwNjNESW9oSWpzQlhRNHkxTmo4LUIyOEtKNFhpVWt6cFBMVzhmZlh0VkJid0hIelJ3bHpZVGdTQW9YcTh5Q0kyTVZDTnVMRnh2X0lxTFhUVExwRXNhWTdXT216TVFYYTVEVmo0TmpId9IBzgFBVV95cUxNaWJEbmx2R0Zib05WMU90Mm5lUk1iOW5zaHVoZ1RNUDlZZmJ5aVdPdmVPMkpRcW5GNmE1VjJsRTBOXzhkeWxoX1laVmRzYjhTUHFHSHBVekJFZEV6dUtocDJGeWkwM0VKR3ZHbTFnOGdaTmZvNTNvWnB6OXRwUzlrUHA1N3dWbV9Sdk5XcXNVS1dZRGZOeHVWaVZDSHdVfF93cVNETXJzUnBfa3I2cXREelcxUGFEcDRFNlNpOVhrM1cyaFRoTmV0NlI0azV4UQ?oc=5",
       "alerted": false
     }
   ]
