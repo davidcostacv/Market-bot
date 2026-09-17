@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-09-17T17:12:30Z",
+  "generated_at": "2026-09-17T21:37:25Z",
   "session_date": "2026-09-17",
   "items": [
+    {
+      "id": "20260917-mrvl-ai-optical-deal",
+      "time": "2026-09-17T14:00:00Z",
+      "headline": "MRVL Stock Climbs After AI Optical Capacity Deal, New Microsoft Security Platform Launch",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "MSFT"
+      ],
+      "why": "Marvell has secured a new AI optical capacity deal, reinforcing its position as a critical supplier of high-speed optical interconnects for scaling AI data centers. Additionally, the launch of a new security platform with Microsoft expands its enterprise cloud footprint, driving expectations for accelerated custom silicon and optical revenue.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT3psdTktQm9VSXhRN29oZlVBUnVmSWh3clFSMWhYNHFhajNEQjlqenJLcHdzV24yQkxrVXlBaURyMjNuZ2k1eTJnNVNRY28ydXhFUGFIRk9zeHBnQTlIcVlHQV8xNnFWbENCVldxemdWUlVNLTJadC1MR3VxNWtwc2FyMkh2ZmxLc1JxN1hTN2VRMm5QS00w?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260917-nvda-huawei-ai-chip-threat",
       "time": "2026-09-17T00:00:00Z",
@@ -720,22 +736,6 @@
       "why": "JPMorgan upgraded Meta Platforms, citing optimism around its AI initiatives and Muse integration. This upgrade highlights Wall Street's confidence in Meta's ability to monetize generative AI through improved ad targeting and user engagement, potentially lifting its multi-quarter earnings outlook.",
       "source": "ad-hoc-news.de",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORVNLVHZXRHZJbXRRM082Q2N4LU83UlVwcng3UEFnRDdwb0FOX1ROOTlQNWhzVDV5b051b3R5MUNpYmNyeHZ4cTJUYWEyTGVPTlVtUGJ5MzV4cXVqZGdpTjhMUkdnTVE2VnBSOXlkYVBKY2Zuc0cxaU1GQUtGWXFySWVzSkQ5am9KaFBmQlF6X0pQT1h1ejhUMzRLNVlITThvRlhhZlcxRXFyNVlNNWlwbzBaS0cyNjVMdV8tUHVqbWFpcXlSZUFTWXEtQmdfNGlIYUFj?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260913-wdc-citigroup-sandisk-micron",
-      "time": "2026-09-13T00:00:00Z",
-      "headline": "SNDK Stock: Citigroup Sees SanDisk As Top Beneficiary Of Strong Micron Earnings",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "WDC",
-        "MU"
-      ],
-      "why": "Citigroup highlights SanDisk, owned by Western Digital, as a primary beneficiary of Micron's strong earnings performance. This positive read-through suggests robust pricing power and demand trends in the broader memory market. This could support higher margins and improved earnings for Western Digital in upcoming quarters.",
-      "source": "stocktwits.com",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWloMjdkeUI1aFRMZW9iazRiaXF4ZVllMXNfTnJqb2Rwbm9NM3dMOFBxTWRocm1sZFluRXBaclFGdjR4aXNWTnJnR1d6WGw5VVdHNjRjZ091cGRJMHVGOVNOVWU5aW1nZmFlTGs3bjJjWDlSQ2R0azVQSVRQV2ppMTRjazY1eVJ3Ml8zV1UyQ2hrMXZrRGh5VVxlV1BfbDhUc2hTZERIa1I2a1dhTGp1cl83YVRSdU9zZ3RlYXhJZElUOUw4STBQaHRfT3FnQ2V6ZEdFY0g0TUhaZ2c?oc=5",
       "alerted": false
     }
   ]
