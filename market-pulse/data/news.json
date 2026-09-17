@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T05:08:31Z",
+  "generated_at": "2026-09-17T11:58:40Z",
   "session_date": "2026-09-17",
   "items": [
     {
@@ -32,6 +32,38 @@
       "why": "Alibaba's launch of an AI data center utilizing 10,000 of its own custom-designed chips demonstrates that major Chinese cloud providers are successfully scaling domestic alternatives. This shift reduces reliance on US chipmakers like Nvidia and AMD, threatening their long-term growth prospects in the Chinese cloud infrastructure market.",
       "source": "TechRepublic",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-intc-14a-risk-production",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Intel CEO Lip-Bu Tan Reportedly Moves Up 14A Risk Production To Q1 2027, As The Node\u2019s Defect Density Races Toward Target",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "ASML"
+      ],
+      "why": "Intel is reportedly accelerating the risk production timeline for its next-generation 14A (1.4nm) process node to Q1 2027 due to faster-than-expected progress on defect density targets. Successfully executing this leading-edge node is critical for Intel Foundry to compete with TSMC and secure high-margin external customers.",
+      "source": "Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZkFhUFhMZ2RvZUtBWkMzSTllanZMTXR1aktnblY5aGJDRmt4MjliS0FXYkNGdC1zZFFfekg0UkJ2NHUxdXpidWg4SVlyTDcycDliNlJBSmYzTy1aSkZIOHp5QW03c2VrejBzUVYwLU1xWXJlZE9vSkd5VFliQnl2eHFEWWlERUVrb3UxMmc1WFI3V0loZmd6dVpDNFpGVXVCajltUnc2R1Fza2R3RElGM1lWamI3SzQ2UXNRV0JTMUs0dGpCNUliQVlheW5hX0pSd3lFTU1vb1XSAd4BQVVfeXFMT0F1Z1JTLVdlU0NEX0YtVDl2RWM3eDdaNk9MM3luZkNFZktwUjBHalVvSmNtX2V2eXk4WGNQc2tOOGtnZGJzUl9ZODR2d3A3V0NJU05qTGJUekxvZWUzTjdPeTlKMUpwRjg4UElfSHVWODFBREh0ZGZSb3dnLTlKRnhQdTVBeFVkdkdnTzlWa0gteTA3STVySTAxSUl3U1BFOGdva25EVUdaUzNhUjNDYkN0WHhjMzVvd0ZmLXRmQ0M0SzhCZUp2YXJNdXFSOFVqN0hCMFNMNXdpdnNvWjhR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260917-amat-india-investment",
+      "time": "2026-09-17T00:00:00Z",
+      "headline": "Applied Materials to invest $5 billion in India as Modi's flagship chip event kicks off",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMAT"
+      ],
+      "why": "Applied Materials announced a $5 billion investment plan in India to expand its research and development (R&D) capabilities and diversify its supply chain. This strategic move helps mitigate geopolitical risks associated with China and Taiwan while positioning the company to capture growth in India's emerging semiconductor ecosystem.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ3kyeU5pWlZVczhBTGVoMVlLTFZkLS1Tb2J5QkhXdldvNW1fVlVCNTNRMUdiVUNBVGVDaURDb2NFSTZTOG1MR2Q2dWdXdXJDSkJmd0t3NjNncGN6VGdCeDF4T2pGWEQ2OXhNTU5zcEFaa0c2aTJEczgtbE1FeWZ6M0JJb2ZJbWY1TzlIaTYwOHVtWEp0LWtZeW9sNjNmUVE0cHRIaFNnSzZVZ3NmNUZXVW5yamdHODNTVkxXWE5CaHV6Y0V6VzVTd1BJNA?oc=5",
       "alerted": false
     },
     {
@@ -702,40 +734,6 @@
       "why": "Proposed tightening of semiconductor export restrictions by Taiwan's regulators introduces additional compliance barriers and potential bottlenecking for advanced packaging and leading-node wafer shipments across Asia. Heightened scrutiny could delay international deliveries and restrict high-margin AI accelerator sales targeting international markets.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTVGODUxa1FwSHRXN1FxZ0xOcjViaWVENGJId0pmYXFkQ1BMMTRWRUx3OWljdnowVGNLaDc3YV95YkE1RGZhY0ZiZ1ozQ0F4eGd3amFvQ0VOMzdQMzJJc3BTVU14M2Z3MXExVXE1S3RnbktSYmZSUFo5c0FRYmZNM1RfVXA5LTFwNDNCZ3VrbzM4MENCeUNRaGRMRV82Qm5xR052Y2RDWjdiNFFRemtMWFNyYmJ6d1dWQmI4Ug?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-intc-price-hike-report",
-      "time": "2026-09-11T13:00:00Z",
-      "headline": "Intel May Raise Chip Prices 10% and the Stock Took Off. Why Most Analysts Still Refuse to Buy.",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "TSM"
-      ],
-      "why": "Reports that Intel plans to raise chip prices by 10% triggered a stock rally, signaling potential margin relief despite ongoing analyst skepticism. This pricing action could provide a pricing umbrella for competitors like AMD and impact foundry utilization for TSM.",
-      "source": "247wallst.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUUF0WWN1UVU4bGZ3bERLeVhobUpPX0JEVXpuaGdsRnFfSV9aeG9Vdzh2R2kzdXNLM3VfTlNmMWh6RmtQd1NRekRBaHA3eS1WZ1BKRERPUFU2T1owWk5OWW1kZU43ZTg4YkNIbEczQUVoel8yMmc4ajFiMXNVdC1lY2sxZlNoNkp1LXdMWlR0NFY2REl1c1h4MXp2M2NjV2hNX1dVcC1QdkhKekNPMDlfOFVra3ZPZDR6MDFJVG1qNDBQQ2VYMGI0UU5vQU9Kb21MMmRF?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260911-macro-cpi-august",
-      "time": "2026-09-11T13:00:00Z",
-      "headline": "A Fed hike next week seems certain after the latest inflation data. Here's what's ahead",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "The August Consumer Price Index (CPI) report indicated that inflation heated up, making a Federal Reserve interest rate hike next week highly likely. Although higher interest rates typically pressure equity valuations, major stock indexes shook off the inflation data and rallied, driven in part by falling oil prices.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUXdDWnhCTUZPdWxISU9GdUtQVFhoTEZXRmpFS29DX1ZTNmlJdDluaUV5ZTNIVG1UcGoxbm1ianBFOXpQcV9ZZVhVelU3MVBlWVBCV0o0dldFZnlNelZoZHh4T0xyY1diV25MNDN3ZWZ4bUI4Tm04eXNuUVVYN20teFI4emVhZW1OV19DYjBrZjM?oc=5",
       "alerted": false
     }
   ]
