@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-17T21:37:25Z",
-  "session_date": "2026-09-17",
+  "generated_at": "2026-09-18T05:01:59Z",
+  "session_date": "2026-09-18",
   "items": [
+    {
+      "id": "20260918-aapl-carrier-incentives",
+      "time": "2026-09-18T00:00:00Z",
+      "headline": "Apple\u2019s iPhone Upgrade Cycle Looks Strong As Carrier Incentives Hit $1,200",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AAPL",
+        "TSM",
+        "AVGO",
+        "QCOM"
+      ],
+      "why": "Major US telecom carriers are offering trade-in promotions reaching up to $1,200, significantly lowering the consumer cost barrier for the new iPhone generation. This aggressive subsidization by carriers is expected to stimulate volume demand and counteract earlier concerns regarding soft initial pre-orders, directly benefiting Apple and its primary hardware component suppliers.",
+      "source": "Longbridge",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50N3hMTDN5d2gtNlN1R0RDNndJN0hGcFNwNXpscTRzY3ZTcWZGNVFMQzJWNzZrd2xSSTVycGt3SjEzWFhaaVE3XzAyd3liR0R5dkE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260917-mrvl-ai-optical-deal",
       "time": "2026-09-17T14:00:00Z",
@@ -719,23 +737,6 @@
       "why": "Broadcom's Q3 revenue outlook failed to impress investors, leading to an after-hours stock drop. As a key indicator of AI networking and custom ASIC demand, a soft forecast raises concerns about the near-term growth trajectory of the broader semiconductor and AI infrastructure sectors.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV25fNEotUF9YeFpFNXV3THVDN1FhY3VaMnJTQ1pYM0RmYnhvbUFNYUFjMDZ4NFMzZWxmTU1xYVhYcDk5WlhiOGJqYll5NW94WmtONmxLN1VBcE5nOVpVTWFVb0kyaFRMaWtzU0V5U2x3UldrQ3Y2bVJ1a3M3Q1JwWC05V3FsYVpldFZIZS1RZ3dPUGJyaE00RXF4a3lsVzZBRDBmSGdPV1ZUVW5rcVY0Q2Jrby1hcUpuNGplVVdjQWQ0NGFtWmRfSFNlSjVaMUE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260913-meta-jpmorgan-upgrade",
-      "time": "2026-09-13T00:00:00Z",
-      "headline": "Meta Platforms stock gains on JPMorgan AI upgrade and Muse-driven optimism",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "META",
-        "GOOGL",
-        "MSFT"
-      ],
-      "why": "JPMorgan upgraded Meta Platforms, citing optimism around its AI initiatives and Muse integration. This upgrade highlights Wall Street's confidence in Meta's ability to monetize generative AI through improved ad targeting and user engagement, potentially lifting its multi-quarter earnings outlook.",
-      "source": "ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORVNLVHZXRHZJbXRRM082Q2N4LU83UlVwcng3UEFnRDdwb0FOX1ROOTlQNWhzVDV5b051b3R5MUNpYmNyeHZ4cTJUYWEyTGVPTlVtUGJ5MzV4cXVqZGdpTjhMUkdnTVE2VnBSOXlkYVBKY2Zuc0cxaU1GQUtGWXFySWVzSkQ5am9KaFBmQlF6X0pQT1h1ejhUMzRLNVlITThvRlhhZlcxRXFyNVlNNWlwbzBaS0cyNjVMdV8tUHVqbWFpcXlSZUFTWXEtQmdfNGlIYUFj?oc=5",
       "alerted": false
     }
   ]
