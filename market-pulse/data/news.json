@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-09-18T11:39:43Z",
+  "generated_at": "2026-09-18T16:38:45Z",
   "session_date": "2026-09-18",
   "items": [
+    {
+      "id": "20260918-mu-rbc-multiple-expansion",
+      "time": "2026-09-18T12:00:00Z",
+      "headline": "MU Stock Could See \u2018Sizable\u2019 Multiple Expansion, RBC Says Citing AI-Driven Memory Demand",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "RBC Capital Markets highlighted that Micron is positioned for structural multiple expansion driven by robust demand for high-bandwidth memory (HBM) in AI servers. This positive outlook ahead of Micron's upcoming earnings helps counter recent market anxieties regarding a potential near-term slowdown in AI infrastructure spending.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajFqcS1aWUxFbzlxT0ExNUg3VGJxUkNOc0ZlcV9IdXBuUjhlX3g0cFJITW1aNkVKVE1FYVRmVDhvGzVKdW5Sb2x3d2FsZVR5U3BHZU5hYmpiUkNtZFJNXy1zb1ZNWm9XTW5vcmNQeldjYXRzUTVpWWM2cXRZelBHczlVSlNJTXpqVjA5bVN4X2lvYlZESmc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260918-mu-mcrdimm-launch",
+      "time": "2026-09-18T11:30:00Z",
+      "headline": "Micron Just Built One Memory Stick That Replaces Four. Is MU Stock a Buy?",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU"
+      ],
+      "why": "Micron has introduced a high-capacity memory module designed to replace multiple standard modules, targeting data center and AI workloads. This innovation could improve average selling prices and margins in its server business by offering higher density and lower power consumption.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZk1CQXBrY1V6aEJrZHV3UlowTFRUZHZhdUMxY2NDbWtjZGJSajh0Mm1qM013MnB1NXZXRmlhXzl6QWFCdGozUHVBbk1wMGpHNEFkWDg0QXhia3NjTUE4ZWRpVTV4YlRjMjgwZm5pMHZMOTdLSkZvSGtSNzVaaHFDeGpTSDByY0dlNXJTamljOUtkbXdWeXJXRzNaT0pILVJQa29RS0h0cUJmZnU5N2lJRHlFVXJlZw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260918-nvda-china-sanction-skirting",
       "time": "2026-09-18T10:00:00Z",
@@ -700,40 +734,6 @@
       "why": "Goldman Sachs raising price targets for AMD provides a strong institutional catalyst that boosts investor sentiment across the semiconductor sector. This analyst action suggests higher expected earnings power and supports expanded valuation multiples for chipmakers.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWC03enZWcDNoZmZ1bVpibDdLNVdNU1BEWDUteV9JQWJDNXdaRTRkRzV3TGdsN0JXNUg3MTloR09xaWZDSjdvOThjSmlsb3lLRElyY0NORXNaQU5sNEVFWHRpTjNhclFhV2RBMTVpVmp6VnNvclhsWlVPaUMxcEFiR1BZS1BjdUNJUVRLT3VYWW80VkxqbWlJQW5ybDBhZjJybGJJU3ZHaS15NHUxOXNyQURqUzFiU0pVMGx3LWVTZHg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260913-fujitsu-ai-chip-export",
-      "time": "2026-09-13T00:00:00Z",
-      "headline": "Fujitsu to export AI chips built on supercomputer tech to US, Asia",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Fujitsu's expansion of its supercomputer-derived AI chips to the US and Asian markets introduces a new hardware competitor. While niche, it provides enterprise buyers with alternative silicon options, potentially impacting the long-term pricing power of dominant players like Nvidia.",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHUyWDd0V0xRN0RRdjk4N1dsUWFlQ05pT1o1TV84R2xzQ1BhNzMwUTVNVlVSeHU0dzNrOEd5Z19BSC0tVEVWbWpRVXRVRzF1TC1vVjNVSGJPTTdvUlZBSWRpbWJwVHVWaUNjVkNZU3YtS1RvVnRhMWN3WENDaGc4MEpEU2ZQMEhncTZrcmZNVmlnLUdZYVFjT1J1VEdqQngyX2R0NVJabFJqTzVfZkxBY3d3SUdVam9NVWc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260913-avgo-debt-package-ai",
-      "time": "2026-09-13T00:00:00Z",
-      "headline": "AVGO Stock Inches Higher \u2014 Broadcom Reportedly Eyes Nearly $100B Debt Package To Fund AI Infrastructure Expansion",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AVGO",
-        "TSM",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Broadcom is reportedly seeking a massive debt package of nearly $100 billion to fund its AI infrastructure expansion. This significant leverage increase will raise interest expenses but signals aggressive capital deployment to capture custom AI ASIC and networking demand, directly benefiting manufacturing partners like TSMC.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOFRKRU5aSnMyWWJ1ZUJyWTllSElsRnRzb_BhTmZDRG41eTMzS05oelVOR0F1RllpS0s2OWRlb21fM2lUMU1fZ0JKbEJpdVhWRzNybnhlb2pxbDNaZjBmN1R5U1JOdkFLZTI0SHU2bEZNeVN5SDFKRURGcXl1WkFfclZTRk1PQVFXYWdmZ1Y2WWF4QTJmQjhPeUk3ZHJKZl95eDU0OXRjVHVEbnh5MHIxYVlBcklJX0pUNW5zNVVUczR1N0hVVHZoMUJ6dExhSnRXWHhSdHlTOXBUWXprSE5VUlBjZ00?oc=5",
       "alerted": false
     }
   ]
