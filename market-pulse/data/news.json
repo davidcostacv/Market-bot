@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-19T11:22:13Z",
+  "generated_at": "2026-09-19T16:00:12Z",
   "session_date": "2026-09-19",
   "items": [
+    {
+      "id": "20260919-mu-cxmt-flash-expansion",
+      "time": "2026-09-19T11:00:00Z",
+      "headline": "EXCLUSIVE: China's CXMT eyes flash-memory push amid global shortage; firm to take on Samsung, YMTC",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU"
+      ],
+      "why": "Chinese DRAM manufacturer ChangXin Memory Technologies (CXMT) is planning an expansion into flash memory (NAND) to capitalize on global shortages. This state-backed entry threatens to increase long-term global supply, potentially eroding pricing power and margins for established memory players like Micron.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRXhCUnlwalg0dVppb2Y3dDVQNUFsUUilsLTZ2c2NJckZ2UjBxWXE0TC1QdFRSY0Q3VFA4QWctMzZSMHd6NFQ4Q1pDTy1UZTlVNE12ZGlmMGpFdXkzMXMxOWV4UWE0Z1REeHRMNzQ1NkFmd1hmQWc5d3FWdTUzYWM4ejhZc2IwSXprb3gtZzJxWmpTVFA4ZlFTSGhDN3J1ZWl1dWJVNkxVRVVTVkFjTS1LQXg2Y0RJZ1JTSms1VzJ4enppek4xMWFYRUxjMzA3dw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260919-mrvl-sp500-inclusion",
+      "time": "2026-09-19T10:00:00Z",
+      "headline": "MRVL Stock Rises Premarket: Marvell Ships Over 5M Photonic Chips Ahead Of S&P 500 Entry",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL"
+      ],
+      "why": "Marvell is preparing for its official entry into the S&P 500 index, which forces passive mutual funds and ETFs tracking the index to purchase its shares. This structural buying pressure typically drives near-term capital inflows and supports a higher valuation multiple.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaWNBN0djRzd4MDQzQ3lIcWN6ejNMMUthXzNsSF9ZOWE2aHU2a2dlazNJTUZja2Y0cVVsVzlzbVpzNGlzbW1vUm5FNXNVYURMOGNfeEpUbDhSRndray1Kbm5jWjJmWl9Gal9TeVIyZ0NMdHZCVU0wNUwzQnl5MkN0QVVIbFlQUzU1dU5MVkMxUDdZU1NmaFQwWTNkRXpKZ0x5R1JKc1VyY1lIOXY5c1lrSDhZUS1CclBQZEI3M3JCb0Ixb3lHOE9lVm9JLXlCeDgzMF9JNUtHa1VCcUxobF8zclFmNGtiTWxlZWhj?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260919-spy-barclays-target-upgrade",
       "time": "2026-09-19T09:00:00Z",
@@ -698,43 +728,6 @@
       "why": "Nvidia officially clarified that its next-generation AI product roadmap remains fully on track, directly countering recent reports of a delay in its Kyber server racks. This reassurance stabilizes multi-quarter growth expectations for Nvidia and provides relief to its manufacturing and server integration partners.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcmhyWlY0aDgzTTBZeWdUSlI2NDl5TkNmVV9lNVltOHNvNWhLaGNMTnpXMEZpeThOcS1qUjNpSjYtWGpfQWp2ODl4UWZQWjBicXBGU2hLMEp0cmY4dmVlcmFVcEI2MC1FazJTd1lSWUlKYzdVcThxUnNFdjJrc2NXUXNyTFM0M2NFdWFMM0lMSmg3SEhxQ0VCb1NMRTRmTUthOUJ6QlRzVEczNTNBQnctU2k4Mmt6ZVBma0htNG1TZkc2ekZwdUFGR2F4eVZmT1BreUEteEY3b3BfSWs?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260914-asml-bernstein-bullish",
-      "time": "2026-09-14T00:00:00Z",
-      "headline": "Bernstein Thinks ASML Holding Can Keep Climbing After Nearly 140% Run In The Past Year",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "TSM",
-        "LRCX",
-        "AMAT",
-        "KLAC"
-      ],
-      "why": "Bernstein issued a highly positive outlook on ASML, arguing that the lithography leader's growth runway remains strong despite its massive run over the past year. This major-bank endorsement reinforces expectations for sustained high-end EUV equipment spending, benefiting the broader semiconductor equipment sector.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0hLaWhQRmdBeFhhTUFhdi1SWDRqMlFYUU5zcDBhb2t2VHQtd1ZJT2RiNnJOX00wZ3kzeU9FTXBrNTIxdFZKUjBfazFDbGowRUVlSVhOY3Z3S3VCUEFQSnhIeVdaeEFMWENYa0pVNFN4UmtfaUVQNmFWRFFrZ2FCRHZZNVhrZDRWNktJQ252OVVwN3lEWWMxS2xwajg0ak12by0zdVFMY1RvMDY0ZUhLdXpZdnBqZW16ZlduUDZWc1ZRZEs5SGR4eg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260913-nvda-pc-chip-unveil",
-      "time": "2026-09-13T06:00:00Z",
-      "headline": "Intel, AMD Drop 4.2% as Nvidia Unveils PC Chip [2026]",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "INTC",
-        "AMD",
-        "TSM"
-      ],
-      "why": "Nvidia's entry into the consumer PC processor market directly challenges the long-standing x86 duopoly of Intel and AMD. This expansion threatens to erode Intel and AMD's core client computing revenues while opening a massive new revenue stream for Nvidia, with TSMC likely benefiting as the primary foundry partner.",
-      "source": "shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xcU1Md3JnNkZwbXBnV2k2SGZEX24xZFdyRW9yTFFLTEZoMGUya3N4cV9rNzZsU1Z6TEh3UEN0NEhQZC1BNVVKWW8xZ1ZyTGVGMG5mMUZRdl9mQkgtV2lKdXA3c0NwMjg3RXZPNzFWZzF0UnV0akhn?oc=5",
       "alerted": false
     }
   ]
