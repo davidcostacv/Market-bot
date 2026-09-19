@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-09-19T16:00:12Z",
+  "generated_at": "2026-09-19T20:55:11Z",
   "session_date": "2026-09-19",
   "items": [
+    {
+      "id": "20260919-fdx-q1-earnings-miss",
+      "time": "2026-09-19T20:15:00Z",
+      "headline": "FedEx Cuts Full-Year Guidance After Q1 Earnings and Revenue Miss",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "FDX",
+        "UPS"
+      ],
+      "why": "FedEx reported a significant miss on both top and bottom lines for Q1, driven by a shift toward lower-yield shipping services and higher operating costs. The company lowered its full-year EPS guidance, signaling weak industrial and consumer demand that serves as a negative leading indicator for the broader economy and transport sector.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2024/09/19/fedex-fdx-q1-2025-earnings.html",
+      "alerted": false
+    },
+    {
+      "id": "20260919-intc-mbly-stake-retention",
+      "time": "2026-09-19T13:30:00Z",
+      "headline": "Intel Confirms It Has No Plans to Sell Majority Stake in Mobileye",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "MBLY"
+      ],
+      "why": "Intel's public statement put an end to weeks of market speculation that it would dump its 88% stake to raise cash, which had severely depressed Mobileye's stock price. This reassures investors of stability in Mobileye's ownership structure while clarifying Intel's asset-preservation strategy during its broader restructuring.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/intel-says-it-has-no-plans-sell-majority-stake-mobileye-2024-09-19/",
+      "alerted": false
+    },
+    {
+      "id": "20260919-macro-jobless-claims-fall",
+      "time": "2026-09-19T12:30:00Z",
+      "headline": "US Weekly Initial Jobless Claims Fall to 219,000, Boosting Soft-Landing Hopes",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Initial jobless claims fell by 12,000 to 219,000, well below the estimated 230,000, indicating a highly resilient labor market. Coming immediately after the Fed's 50 basis point rate cut, this data strongly reinforced the \"soft landing\" narrative, triggering a massive broad-market rally with the S&P 500 hitting new record highs.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2024/09/19/us-weekly-jobless-claims.html",
+      "alerted": false
+    },
     {
       "id": "20260919-mu-cxmt-flash-expansion",
       "time": "2026-09-19T11:00:00Z",
@@ -113,6 +162,21 @@
       "why": "An investigative report revealing how restricted Nvidia AI chips are reaching China via public procurement and grey-market loopholes increases the risk of tighter US export controls. Regulators may crack down on third-party distributors or implement stricter end-user verification, potentially curtailing Nvidia's indirect sales volume.",
       "source": "Tom's Hardware",
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNN2NrR0NpT2hTbHdLcmFUcmVUSEFENVJYNVRXNGRSLXZWWjBuVzNvb3Fpbk5pTWhianJybUt5N2YwNFZxdnpJZ1IxRUhVeFZyYjcwZDFQWnlQY2VDMjFpT3dyNERXd2RuSVBlM2RYR1N0WXBNamFhalNnNjdJN2duUnozVTFoSXdXZHd4ZUhrOUVudU15Um85YzVWc3M0WmxFVV8tRUJkQXJzaWtCWnZzRGZ5Tm5nVlhUT2JGNDNYbkJ5bmFHQTVlLTlPTzZVSU9fZ0szWXgwUnR0Y0I3b2pqcmF5UzBxcE0xSGlrMVRYNUFQbnZHbG42UjlKSE5oS0RGSlo0WTdqUXVUT2hhVWxtX255cldYWXYxdVE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260918-googl-eu-antitrust-win",
+      "time": "2026-09-18T10:00:00Z",
+      "headline": "Google Wins Appeal Against \u20ac1.49 Billion EU Antitrust Fine",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "GOOGL"
+      ],
+      "why": "The EU General Court annulled the \u20ac1.49 billion fine imposed in 2019 over Google's AdSense contracts, citing errors in the Commission's assessment. This ruling reduces immediate cash outflow and mitigates regulatory overhang on Google's advertising business model.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/google-wins-challenge-against-149-bln-euro-eu-antitrust-fine-2024-09-18/",
       "alerted": false
     },
     {
@@ -653,81 +717,6 @@
       "why": "Warnings from Anthropic regarding AI safety and pacing have introduced fears of potential scaling bottlenecks or regulatory slowdowns in AI development. This has triggered a sector-wide pullback as investors worry that hyperscalers might moderate their aggressive capital expenditure on advanced graphics processors and memory chips.",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaUNzQU5iTlA4SG9SV0NiM3lQR0podWt3QmFxS3Z3Y2Y3MmtBN2RtQ21sNEMtLVFTUVBvRDRpX2szcTV0UGxCalFfeEljTEYxQ29lblBsYzVFamNtTEBHend2WTZTOGdlSzU1NmdsVjJuR2NzOUIxbVlqb0JkdnhENTFsUWZYbGc3MDJPaG44Mm9Hc3lPX2JFaWtpQ0Vvb1lVM21zMTR5anNXWURPMU05d1TXQ1c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260914-aapl-iphone-preorder-demand-soft",
-      "time": "2026-09-14T10:30:00Z",
-      "headline": "Apple iPhone 18 Pro Pre-Order Lead Times Shorter Than Predecessors, Suggesting Soft Initial Demand",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "TSM",
-        "AVGO",
-        "QCOM"
-      ],
-      "why": "Early pre-order data showing shorter delivery times for the iPhone 18 Pro models suggests that initial consumer demand may be weaker than last year's cycle. This could lead to downward revisions in Apple's hardware revenue for the holiday quarter and trigger order cuts for key semiconductor suppliers like TSMC, Broadcom, and Qualcomm.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/apple-iphone-18-pre-orders-show-shorter-delivery-times",
-      "alerted": false
-    },
-    {
-      "id": "20260914-mu-bok-leverage-warning",
-      "time": "2026-09-14T10:00:00Z",
-      "headline": "Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "The Bank of Korea has flagged extreme financial leverage and concentration in the AI semiconductor trade as a systemic risk to financial stability. This official warning could prompt tighter credit conditions, higher margin requirements, or increased regulatory scrutiny for major hardware exporters and financial institutions supporting the AI supply chain.",
-      "source": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjdnNnd6Wm9wNjlxSDJwNnRkRGY3Wm1uZy14SDloajk1Z2QxRU8ybFBJXzB2eFU2Y2tGOWNkQm9nRW9BM3VVL-lqb2lCMzZIbzFkN2tmSUxBYUlOOEEzTUp4VC1hV2lfTWo3c3dvbmQxREhqSTNkR1h6Vm9qVUNxaWdDZG9OeWgzX1p1WDcwcXo?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260914-intc-board-restructuring-spinoff",
-      "time": "2026-09-14T08:00:00Z",
-      "headline": "Intel Board Evaluates Strategic Options Including Foundry Spin-Off and Fab Delays",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "AMD",
-        "ASML"
-      ],
-      "why": "Intel's board is reportedly discussing a major restructuring that could spin off its loss-making foundry business and delay multi-billion dollar fab projects in Europe. This move would significantly reduce capital expenditure and preserve cash, boosting Intel's near-term margins, while potentially shifting more manufacturing volume to TSMC and reducing tool demand for ASML.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/intel-board-evaluates-strategic-options-foundry-spinoff-2026-09-14/",
-      "alerted": false
-    },
-    {
-      "id": "20260914-nvda-roadmap-intact",
-      "time": "2026-09-14T00:00:00Z",
-      "headline": "Nvidia Says Its AI \u2018Roadmap Is Intact\u2019 After Report Of Kyber Rack Delay",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "SMCI",
-        "AVGO",
-        "AMD",
-        "MU"
-      ],
-      "why": "Nvidia officially clarified that its next-generation AI product roadmap remains fully on track, directly countering recent reports of a delay in its Kyber server racks. This reassurance stabilizes multi-quarter growth expectations for Nvidia and provides relief to its manufacturing and server integration partners.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcmhyWlY0aDgzTTBZeWdUSlI2NDl5TkNmVV9lNVltOHNvNWhLaGNMTnpXMEZpeThOcS1qUjNpSjYtWGpfQWp2ODl4UWZQWjBicXBGU2hLMEp0cmY4dmVlcmFVcEI2MC1FazJTd1lSWUlKYzdVcThxUnNFdjJrc2NXUXNyTFM0M2NFdWFMM0lMSmg3SEhxQ0VCb1NMRTRmTUthOUJ6QlRzVEczNTNBQnctU2k4Mmt6ZVBma0htNG1TZkc2ekZwdUFGR2F4eVZmT1BreUEteEY3b3BfSWs?oc=5",
       "alerted": false
     }
   ]
