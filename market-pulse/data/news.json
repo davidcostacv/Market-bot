@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-09-20T11:43:46Z",
+  "generated_at": "2026-09-20T16:23:38Z",
   "session_date": "2026-09-20",
   "items": [
+    {
+      "id": "20260920-nvda-huawei-ai-chip-demand",
+      "time": "2026-09-20T12:00:00Z",
+      "headline": "Huawei says AI chip demand outstrips supply",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA"
+      ],
+      "why": "Huawei's Ascend AI processors are the leading domestic alternatives to Nvidia's export-compliant H20 chips in China. Strong demand outstripping supply indicates that Chinese tech firms are aggressively adopting local hardware, threatening Nvidia's long-term market share and pricing power in its third-largest market.",
+      "source": "The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdEtGRU91ZGFmOXIyUzZ3MmhjUTdhM1d2bXJ3bDRpdVlhRXdCdGg0QzJjZ0ZINlBhTXVRQkdCdkt1c0Q3ZjE1LUxyUkItUXQ0c2k2ZEt5TlFYZ0dXd2s5N3BOZ21nSHNVU0xzYnVoVkl1T3dNT2dPRDAzNERNMFdwc0R5QVZDb1NtYnlGU29haWtqSFVqSnktWG9wdkRJTnRMQ2lya0ptQkdkZGtvM0FGeXN3?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260920-intc-q2-earnings-guidance",
       "time": "2026-09-20T00:00:00Z",
@@ -676,24 +691,6 @@
       "why": "Intel's delayed Ohio megafab may host SK Hynix's first US-based memory chip production, providing a major boost to Intel's foundry ambitions. This partnership could accelerate US-based high-bandwidth memory (HBM) packaging, directly challenging Micron's domestic dominance in AI memory supply. It also helps Intel offset the financial strain of its delayed fab construction by securing a high-profile anchor tenant.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTjVsOG1ScXNiSVBDTFctOVNyaDBIU1JfZEYwY3dLakNhY3FPWXp0bHFGbVBObkVhVzJ3eXFjMDhqZG03Q0h6QVRaQU9RVjNFcmVuRkFoVWJWWDJGQV9uUFFCRzcwSVJ2enF3YnNoc3RyMk5aV0FhbE1vMXVFa1hyNWplRC1UWTU3VmUzMmcxdXZGak5kYkZyZGctQ0g?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-nvda-rubin-profitability-semianalysis",
-      "time": "2026-09-16T00:00:00Z",
-      "headline": "NVDA Stock Rises Premarket: Vera Rubin AI Accelerator Delivers 2X Profit Per GW Than Blackwell, Semianalysis Says - Stocktwits",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "A Semianalysis report indicates Nvidia's upcoming Vera Rubin AI architecture will deliver twice the profit per gigawatt compared to the Blackwell platform. This projection reinforces Nvidia's long-term margin profile and technological lead, easing investor concerns over a post-Blackwell growth cliff. It also signals continued high-value foundry demand for manufacturing partners like TSMC.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWW1TQTl5M3JPRlBkc2hIdU5lRGZvMUJPTjlOeEJUMWtVYm14Tkh5cXhQSGUyTFdYSlhUMzdjWEh1a0NRN3ZnazRiMElfcGo4c2VsRXRnbi1ROXVDakNvNVBSdGVySU0tSElyd3lBU3VzVnBORUk0blhoeDFpbDV6dWtQNm1LUmYzX2ItV3pEdjFZRXNmalY4ekVkUkJWdS1Rbi1EU3RZdnpFakhFSTB2XzZGZVFxS1BXUzZJTWRsRkthaXdkQTdJd25VSDVMdURTbVEzemxGX2xMQjYyMmFrNGlsWFZNeC1oUlpGLUh2QXh0WEhWLU1ycUxKaldLenlhWWJwUTZpOA?oc=5",
       "alerted": false
     }
   ]
