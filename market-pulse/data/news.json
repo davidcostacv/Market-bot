@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:14:54Z",
+  "generated_at": "2026-09-20T11:43:46Z",
   "session_date": "2026-09-20",
   "items": [
     {
@@ -116,6 +116,39 @@
       "why": "Tigress Financial raised its price target on Alphabet, citing strong momentum in its artificial intelligence initiatives. This positive analyst action boosts investor confidence in Google's ability to monetize AI, potentially driving multiple expansion.",
       "source": "AD HOC NEWS",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc2NtUG5vZnFqZmtPMldtU21VdnhPNGQ4ZmwxMUU5ZGJiVnNNaGUtdU1hUGctcUlPbFItaTBWeG00Tm1PLTZWOGNnTmh6LUV3MndkeE5VVXRBY3JBSXQyUUJaYWljTEVFcFRSR09MOUZ1c0NVUHFOb2xTNE16YzFzX2VVR0RQMTRPQV9YVjNtcEpERmxWZDY1MHFsamNWeEY4NkNSWWdZNGt3UDRVdFpHYTBBcmlIVDZyZlJMRjE1SEc3R1REVE12VVBB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-nvda-us-export-draft-regulations",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "US Reportedly Working On Draft Regulations For Power Over Nvidia, AMD Chip Exports",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "ASML"
+      ],
+      "why": "The US government is reportedly drafting new regulations to restrict or control the export of powerful AI chips from Nvidia and AMD. This threatens to further limit their sales to key international markets, directly impacting multi-quarter revenue growth and raising compliance costs for the entire semiconductor supply chain.",
+      "source": "stocktwits.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMHRyaUo2b2Y2YVVPQXp3NjNmX3NEVUE0UEMwUnZjTUp1bFo4d0NGVVVUQS1USTZ3bFVoUVQxbTF1V1lKUXNudFFBRDd0WkNubGlLM0xaWDIxTXYyY0xiOGtXM01jZmlkb3JYQTBJb05mdVJQVmJDZkcwNWRCY2hQcnBjOVNXUGZ4UUdJdGRNN1c4Vmtuc3RHV0dRYUQxVmRTSm9XOG1NV09ERVA2dDlveTJvdHIxMm4zMWNqd0pZV1J2MGh3TEpXRVZQUjV1SW9CZ3FWTEgwNU44aloxQXc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-smci-backlog-capital-need",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "SMCI Stock Jumps Over 6% \u2014 But Supermicro's $60B Backlog Could Require Fresh Capital",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "SMCI"
+      ],
+      "why": "Supermicro reportedly has a massive $60 billion backlog, highlighting robust demand for AI server infrastructure. However, fulfilling this backlog may require the company to raise fresh capital, introducing potential share dilution or increased debt servicing costs that could pressure margins.",
+      "source": "stocktwits.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM05xbTdwdlBDMEtpVkRienptcERNZ2ZJYzBIU2ViUzY0MW9HWHVoaHdqc2ZwODVteWkzb1FaMy1ZMkM4amRuZ2hpakw3VzdhN0hJX2U2OE5NMnVmV19YaXU1QVVRRGtMVE9xNmVDaUZ0b2F4YmhZMnZnWG5Ed2hFVWdKSGxSSDhYb20xYkNocGdWeklFeTZZVkFFRTdmblFVc1JsTmFOVkxCOWpOdUhSSjN0emlhYmpXbXpPdGNTYmYyNUtaY3VVeTNYa3VpVVhUSjFZSUQtMTZVaXR1Wmc?oc=5",
       "alerted": false
     },
     {
@@ -661,44 +694,6 @@
       "why": "A Semianalysis report indicates Nvidia's upcoming Vera Rubin AI architecture will deliver twice the profit per gigawatt compared to the Blackwell platform. This projection reinforces Nvidia's long-term margin profile and technological lead, easing investor concerns over a post-Blackwell growth cliff. It also signals continued high-value foundry demand for manufacturing partners like TSMC.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWW1TQTl5M3JPRlBkc2hIdU5lRGZvMUJPTjlOeEJUMWtVYm14Tkh5cXhQSGUyTFdYSlhUMzdjWEh1a0NRN3ZnazRiMElfcGo4c2VsRXRnbi1ROXVDakNvNVBSdGVySU0tSElyd3lBU3VzVnBORUk0blhoeDFpbDV6dWtQNm1LUmYzX2ItV3pEdjFZRXNmalY4ekVkUkJWdS1Rbi1EU3RZdnpFakhFSTB2XzZGZVFxS1BXUzZJTWRsRkthaXdkQTdJd25VSDVMdURTbVEzemxGX2xMQjYyMmFrNGlsWFZNeC1oUlpGLUh2QXh0WEhWLU1ycUxKaldLenlhWWJwUTZpOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-mu-stock-drop-ai-slowdown-fears",
-      "time": "2026-09-16T00:00:00Z",
-      "headline": "Micron Technology stock falls over 5 percent as AI slowdown fears rise ahead Q4 earnings - ad-hoc-news.de",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "TSM"
-      ],
-      "why": "Micron shares fell over 5 percent due to mounting investor anxiety over a potential AI hardware demand slowdown ahead of its Q4 earnings report. This selloff reflects broader market concerns that the massive capital expenditure cycle for high-bandwidth memory (HBM) and AI servers may be peaking, which could compress margins across the semiconductor sector.",
-      "source": "ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblhjaU1WREFDM0ctOW1mUlU4aTFLd3JFZzAwcFF5dW5jYWdDVy1reWc2Qm9TNGtma1RKNjMxSnlyR3VnNTdHX2p3QnVZbnh0bC1sd25SNkVYYXdKZ3VTSWNvejhKdmZWS3BPcVduczhaOXB5aDFHZzVaZW8zTGFZd2hzT0pOb1NGRGdJbnFrWHJHUWlkbXgyLTNxM0lLY2dZdDlxQ3ZlY3dVaEpmaGsyV0NycGpNb29FM0dSdGpYcnduVzBXdXcwcmdtMmJEZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260915-nvda-us-foreign-parts-cap",
-      "time": "2026-09-15T00:00:00Z",
-      "headline": "Washington seeks cap on foreign parts in AI chips and servers",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "SMCI",
-        "TSM",
-        "MU",
-        "AVGO"
-      ],
-      "why": "Washington is reportedly planning to cap the use of foreign-sourced components in AI chips and servers to secure the technology supply chain. This regulatory push threatens to disrupt global semiconductor manufacturing, increase compliance and production costs, and limit the addressable market for hardware manufacturers relying on international packaging and parts.",
-      "source": "investingLive",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa2QzWmpLR2lmYmtCeF9qbFNnX2dEVmNOaG1KN3N0THJJWENWQnRKM0psaFZfZW95NDF4OVRpa1hZUmdfb2F3dUJzb0M1X29OUWNIc0FGV2FBM0dxd3ZnNTZxZ2NTa0JOYVF1dHRaR0NpcVdEaDEyYldRUmFoMEp6ZVRuc2JWMWlaTW1YUHJBM3BQSGJLaWZJbw?oc=5",
       "alerted": false
     }
   ]
