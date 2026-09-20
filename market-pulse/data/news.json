@@ -1,7 +1,123 @@
 {
-  "generated_at": "2026-09-19T20:55:11Z",
-  "session_date": "2026-09-19",
+  "generated_at": "2026-09-20T05:14:54Z",
+  "session_date": "2026-09-20",
   "items": [
+    {
+      "id": "20260920-intc-q2-earnings-guidance",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "INTC Stock Soars Past Its 2000\u2019s Record Closing Price After Q2 Earnings Guidance Roars Past Wall Street Estimates",
+      "impact": 9,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "ASML"
+      ],
+      "why": "Intel's Q2 earnings guidance significantly exceeded Wall Street expectations, pushing the stock past its historic 2000 record high. This strong outlook signals successful execution of its turnaround strategy and robust demand, which also provides a positive read-through for manufacturing partners like TSMC and equipment suppliers like ASML.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWth0m1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-mu-50b-revenue-guidance",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "Micron Guides to $50 Billion Revenue as AI Memory Booms - Can MU Break $1,034?",
+      "impact": 9,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "Micron issued an exceptionally strong revenue guidance of $50 billion, fueled by booming demand for AI-related memory chips like HBM. This massive projection reassures investors of sustained multi-quarter growth in the semiconductor sector, lifting expectations for key AI chip designers and foundry partners.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVW44UW9zZ0wyM0k4VzA1ZTJDaTBDWnZUSjl5dWdfSl9Na1p5bzBQdUstYk5nUlRsZDRsbnZDb0o5UWhaTlVJV2hRUUpQZnZ6b1dGRGxxOUVQbGZpekRyaG85T3FqNkNKdVplX3RPaTF3eGRXNEJJRUtLbGxmdEt4eEFERjRHbXA0MXdEdUdZdXZpV3dBY0lad1pHUXZzOU1URWE2aTgtRkFLVTdEeW5JQmhWR24?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-amd-earnings-drop",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "AMD Beat on Revenue, Profit, and Guidance \u2014 So Why Did the Stock Drop 7%?",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "TSM",
+        "NVDA"
+      ],
+      "why": "Despite beating Wall Street estimates on revenue, profit, and guidance, AMD's stock fell 7%. The drop suggests that high valuations had already priced in a perfect quarter, and investors may be concerned about rising manufacturing costs or competitive pressures from Nvidia.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWgycWIzMXpJOU1OaWNtTm1HRll3eGFEcllxZ0htNzgyRVFyWWJ3VHl1NGJSQnBqbUd6RU1tcXVwVVNtM0pEUWhxcmwxa3k0NF9qU1N2dnJIY0NsV2I0ZWZoTzlWamNLVHJxdjhNeEVkYmMwUEl5dUlLRVU3eHI0MDB6Y1NBLXMtRGctcDhzV3NuQ3FFa1dFbTFJNXVJemsxU2FSaDhZQXRWNVpMS3pLWVV2WGVLVTRkT0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-taiwan-ai-chip-export-rules",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "Taiwan Is Reportedly Proposing Tougher AI Chip Export Rules \u2013 Why This Matters For Nvidia Investors",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Taiwan's proposal to tighten export rules for advanced AI chips could restrict the flow of high-performance hardware to restricted markets like China. This regulatory shift threatens to limit the addressable market and future revenue growth for major US chip designers who rely on TSMC for fabrication.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTVGODUxa1FwSHRXN1FxZ0xOcjViaWVENGJId0pmYXFkQ1BMMTRWRUx3OWljdnowVGNLaDc3YV95YkE1RGZhY0ZiZ1ozQ0F4eGd3amFvQ0VOMzdQMzJJc3BTVU14M2Z3MXExVXE1S3RnbktSYmZSUFo5c0FRYmZNM1RfVXA5LTFwNDNCZ3VrbzM4MENCeUNRaGRMRV82Qm5xR052Y2RDWjdiNFFRemtMWFNyYmJ6d1dWQmI4Ug?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-nvda-china-importer-bypass",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "$4.6 billion NVIDIA importer linked to supply network funneling restricted NVIDIA AI chips into China",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA"
+      ],
+      "why": "Reports linking a massive $4.6 billion importer to a network smuggling restricted Nvidia AI chips into China raise significant regulatory risks. This could trigger stricter US government audits, potential fines, or tighter compliance mandates that disrupt Nvidia's distribution channels.",
+      "source": "tweaktown.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSXV2ak4yUW85X2cyRTFkb0FZQ0NxeEJkMXczOFBiWHF6bDU1T0lDeFNXMWhiVVRYTUZXMVllSU1hM2hGbG5iOTRWbGNEOWdEbGtqQkY2VTZRYkl3Q2RxRm5CZUY3OTZVMVFteGJwYVVNTVlZbU81Q2VBY3dvVDVhNTBhdi1lNVZDS1JETkEtUXpOM2hzVUQ5MS1NTnE4V3RXQlkyTzIxRl9kQXNnWnlvUWlxcHktZzA4SWRjbHh4OFRhNTBUeEtjLTJ5bnJRZTNWT29kMmsySGhPRkZjc0dXT2lZUWdFalNZV1RPVw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-mrvl-gfs-expanded-deal",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL"
+      ],
+      "why": "Marvell and GlobalFoundries expanded their partnership, securing manufacturing capacity for Marvell's chip designs. This deal helps mitigate supply chain risks and supports Marvell's production scaling, particularly for its high-demand optical and AI-related silicon.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMlluZHE1a3JPcGhVbEhLeHczb3BWS2RBSnFXY2tNTERLQ0ZCblV6dDlYTWM2LXh1ZFR5TktHYmNmYlBTZXhDTm50YTRscUxEbkZEWnppM2VwNTRxcVgwLWQwbXB6c3RraUlEXzVUangyc0VybC1QbHQ0LTItbVAtV2piS2lQb1hzWWNDV1RfSEczVlM4WE1IQk02XzVnUjg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-googl-tigress-target-raise",
+      "time": "2026-09-20T00:00:00Z",
+      "headline": "Alphabet A stock gains as Tigress lifts price target on AI momentum",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "GOOGL"
+      ],
+      "why": "Tigress Financial raised its price target on Alphabet, citing strong momentum in its artificial intelligence initiatives. This positive analyst action boosts investor confidence in Google's ability to monetize AI, potentially driving multiple expansion.",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc2NtUG5vZnFqZmtPMldtU21VdnhPNGQ4ZmwxMUU5ZGJiVnNNaGUtdU1hUGctcUlPbFItaTBWeG00Tm1PLTZWOGNnTmh6LUV3MndkeE5VVXRBY3JBSXQyUUJaYWljTEVFcFRSR09MOUZ1c0NVUHFOb2xTNE16YzFzX2VVR0RQMTRPQV9YVjNtcEpERmxWZDY1MHFsamNWeEY4NkNSWWdZNGt3UDRVdFpHYTBBcmlIVDZyZlJMRjE1SEc3R1REVE12VVBB?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260919-fdx-q1-earnings-miss",
       "time": "2026-09-19T20:15:00Z",
@@ -583,140 +699,6 @@
       "why": "Washington is reportedly planning to cap the use of foreign-sourced components in AI chips and servers to secure the technology supply chain. This regulatory push threatens to disrupt global semiconductor manufacturing, increase compliance and production costs, and limit the addressable market for hardware manufacturers relying on international packaging and parts.",
       "source": "investingLive",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa2QzWmpLR2lmYmtCeF9qbFNnX2dEVmNOaG1KN3N0THJJWENWQnRKM0psaFZfZW95NDF4OVRpa1hZUmdfb2F3dUJzb0M1X29OUWNIc0FGV2FBM0dxd3ZnNTZxZ2NTa0JOYVF1dHRaR0NpcVdEaDEyYldRUmFoMEp6ZVRuc2JWMWlaTW1YUHJBM3BQSGJLaWZJbw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260915-mu-korea-export-controls",
-      "time": "2026-09-15T00:00:00Z",
-      "headline": "South Korea\u2019s new semiconductor export controls disrupt supply chains and increase costs",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AMD"
-      ],
-      "why": "South Korea is implementing new semiconductor export controls, which are expected to disrupt global supply chains and increase manufacturing costs for chipmakers. This directly impacts the flow of critical memory components (like HBM) and equipment necessary for high-end AI accelerators, potentially squeezing margins for major chip designers.",
-      "source": "Global Sources",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX19sZEsza0Y4VFN5LVN1OFFOTXM5NDBRSnkyMUN5S1JxWFB6dHJJTUl4c0ZRNGdWeVFyRHJIckozMmFLUk5Udi1IbDNzc2RsS2ZObzg0YzRhVERteXE5bnNLdmJybmI3QkFFX051TGk1WVowOXFZbW9aeE8yUGxfXzRRbzFpNTlxX1ktTzRIeG4ybnR6S2w3TXMwYXpacjk0MjMxcWZaVjR2Q2pXSTVpUWM2MV93SEVQdG4yRDRiNTlicW4xcXpvY0JlcDMzbkNaMzJxc0FrSnVPRFg4emdqSEhtT0l5UGc4Q0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260915-amd-bofa-defense",
-      "time": "2026-09-15T00:00:00Z",
-      "headline": "Bank of America says investors get AMD stock wrong",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "why": "Bank of America issued a positive note defending AMD, arguing that the market is overly pessimistic about its competitive positioning against Nvidia. The bank believes AMD's AI chip roadmap and market share gains in the enterprise server space are undervalued, suggesting a higher valuation multiple is warranted.",
-      "source": "thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkRXpvTmU0RGxYSmVTME1zUU8tRU9JRUw2a0hZS2VDQnBFME9CSXd1ajFXRlpWNVFCdm1PV3U1MEJOcVJzVHRVZXdWcTEwQlRNWHZkaFZiYlpUeGZUcXhPQ3FDbUpuS3M0Z1E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260915-csco-nvda-splunk-ai",
-      "time": "2026-09-15T00:00:00Z",
-      "headline": "Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "CSCO",
-        "NVDA"
-      ],
-      "why": "Cisco and Nvidia are expanding their partnership to integrate Nvidia's agentic AI technology into Cisco's Splunk enterprise security and observability platform. This collaboration aims to drive enterprise adoption of AI-driven operations, boosting software and hardware demand for both companies.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMEVxa2JZX3VmSFZIdHM0ZmJnZE1hNGkzbDZSbFFyYm9XbFlZeE42akZjeW5PR2NITk82T3RDVTVWYmtwaHdFTXZzVWRqRjkxc08xRFY5ZTdxaTM1SEJJbEJqV3d1VTNfa212WlltUHhGamJ5R0xMVEdDd1VUejhkaHk5MEVwNVc4STlmWkl4THRydTItWUhubVNfTUJSRmpoT2hiUXZ6RUJBTnd2SVBwX1FuaGg0TC1DZG5UUzNIYmwzdFhmSTl4RkEyS1RpTjIwSjRxdnNkcjBvREgyT2lreDgyT2NsNDhXeVdWbnpjUVE3XzRuTndv?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260914-orcl-q1-earnings-cloud-surge",
-      "time": "2026-09-14T16:15:00Z",
-      "headline": "Oracle Shares Surge as Q1 Cloud Revenue Jumps 21% on AI Demand, Strong Guidance",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "MSFT",
-        "AMZN"
-      ],
-      "why": "Oracle's strong cloud infrastructure growth and robust backlog expansion signal that enterprise AI demand remains highly resilient. This positive read-through benefits GPU providers like Nvidia and cloud competitors like Microsoft and Amazon by validating sustained capital expenditure on AI infrastructure.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/14/oracle-orcl-q1-2027-earnings.html",
-      "alerted": false
-    },
-    {
-      "id": "20260914-msft-blackrock-ai-fund",
-      "time": "2026-09-14T13:00:00Z",
-      "headline": "Microsoft and BlackRock Partner to Launch $30 Billion AI Infrastructure Investment Fund",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MSFT",
-        "NVDA",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "The launch of a massive $30 billion private fund (potentially scaling to $150 billion with debt) dedicated to AI data centers and energy infrastructure secures a long-term capital runway for AI expansion. This directly supports sustained demand for Nvidia's AI chips and helps alleviate infrastructure bottlenecks for major cloud providers like Microsoft, Amazon, and Google.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/tech/ai/microsoft-blackrock-mgx-ai-infrastructure-fund-2026-09-14",
-      "alerted": false
-    },
-    {
-      "id": "20260914-macro-fed-rate-hike-odds",
-      "time": "2026-09-14T12:00:00Z",
-      "headline": "Chances of First Fed Rate Hike Since 2023 Now Over 90% - Markets Brace for the Warsh-Era Shock",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA"
-      ],
-      "why": "Market expectations have shifted dramatically, with the priced-in probability of a Federal Reserve interest rate hike surging past 90%. This hawkish repricing, driven by persistent inflation concerns and potential policy shifts, threatens equity valuations by raising the cost of capital and lowering the present value of future corporate earnings.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUk13eTdCbEVCcXhBUGFJRXdlV2xyMFVQNjZzNUlDcWxKWDFpN0wyd1d2OGxiY3pTNmg4U1JEdHU0bmhGb1g5NS1PWXI2dW56VUtPc29wWW1VQnR6cklJeW5lOERWdjI0bEY4TVJGLTRLWFdjMTl3Z09ReFhQVlFaVWllYmVLQzBuQmVVUzVzUVBMM0RGaXBXc1lFaXloVmhVSWk4Q3F5eElHczltZDYxNnpOZFpubUVFWF96SXBlQXotVThoLTlILUNoNHRKSVMy?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260914-nvda-anthropic-ai-safety-warning",
-      "time": "2026-09-14T11:00:00Z",
-      "headline": "Anthropic\u2019s AI Warning May Weigh on Chips, But Trade Seen Intact",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "MRVL",
-        "LRCX",
-        "ASML"
-      ],
-      "why": "Warnings from Anthropic regarding AI safety and pacing have introduced fears of potential scaling bottlenecks or regulatory slowdowns in AI development. This has triggered a sector-wide pullback as investors worry that hyperscalers might moderate their aggressive capital expenditure on advanced graphics processors and memory chips.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaUNzQU5iTlA4SG9SV0NiM3lQR0podWt3QmFxS3Z3Y2Y3MmtBN2RtQ21sNEMtLVFTUVBvRDRpX2szcTV0UGxCalFfeEljTEYxQ29lblBsYzVFamNtTEBHend2WTZTOGdlSzU1NmdsVjJuR2NzOUIxbVlqb0JkdnhENTFsUWZYbGc3MDJPaG44Mm9Hc3lPX2JFaWtpQ0Vvb1lVM21zMTR5anNXWURPMU05d1TXQ1c?oc=5",
       "alerted": false
     }
   ]
