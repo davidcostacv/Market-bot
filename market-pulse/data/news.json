@@ -1,7 +1,85 @@
 {
-  "generated_at": "2026-09-20T16:23:38Z",
+  "generated_at": "2026-09-20T21:00:04Z",
   "session_date": "2026-09-20",
   "items": [
+    {
+      "id": "20260920-meta-ai-monetization-selloff",
+      "time": "2026-09-20T18:20:00Z",
+      "headline": "Meta drops nearly 7% as AI monetization math comes under scrutiny",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "META",
+        "NVDA",
+        "GOOGL",
+        "AMZN"
+      ],
+      "why": "The debate has shifted from whether Meta can build AI capacity to whether the incremental users and ad load actually clear the depreciation from the capex already committed \u2014 that turns AI spend from an option premium in the multiple into a drag on forward free cash flow. A single-day move of this size in a mega-cap is a rerating of that assumption, not a news-flow reaction. If the largest non-cloud AI buyer is forced to defend ROI, the read-through is to the accelerator order book at Nvidia and to peers whose capex guides rest on the same monetization logic.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNFR6TC10NFV6RzgxcTJrRGtIdEF0eWFYcTc3Z0JZNHpnUWtPWVN6UG5xemh4Wm1mQzZBZ3ZHWHF4R05nbXQwTWo4SlZzMjl1Q0ZON1NHTHpoYkJPUXhNY2FXY0pNYWlIS05nU3hIRzZQaDJMSUR5TnpWQWNHblpsZWtxOFEwcUgzNUZYOTY1d3Z2UHJpZ2VuWkpzRk9CVkZHaFdYclB3ZHdrRE9UMFdBTllkTEQ2c2ZyTHZCVi1IMDE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-aapl-price-hike-demand-risk",
+      "time": "2026-09-20T14:05:00Z",
+      "headline": "Apple falls over 6% after product price increases raise elasticity fears",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AAPL",
+        "QCOM",
+        "TSM"
+      ],
+      "why": "Raising list prices is the standard defence against higher foundry and memory input costs, but it shifts the risk from gross margin to unit volume and upgrade-cycle length \u2014 the market is pricing the elasticity hit as larger than the ASP benefit. A longer replacement cycle compounds through the installed-base growth that underwrites the Services multiple, which is the expensive part of the valuation. Lower iPhone build plans would also trim modem content at QCOM and leading-edge wafer demand at TSM.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlJXaVg4MFRqczZmNnJxbTRROGN1VmFxRlh3bFd6aU5rcXRRRUZGdHBibDIwOVdjYl9VUjRwU25OVTM1WU5TSXNmRWtoZ1lkck5pOTk1aWtaTTBFTC1QMWZ5dXZkQ1RpUUNlSjJBbk01M0VtUGRwbXJ4NmVXeUJHWXVDdjBDd3lST25pbGJIMHl0dFRQeWFvSkNVRDNZdzdzOWFVWTdvVWg1YmtLOEIwdVFOZDZPY0ZRcXJ5SHN6bVd6UnRnV3RVblh3LUdpOHBER0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-asml-bernstein-bull-case",
+      "time": "2026-09-20T13:10:00Z",
+      "headline": "ASML jumps over 5% as Bernstein argues the re-rating has further to run",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "INTC",
+        "MU"
+      ],
+      "why": "A sell-side house extending its target after the stock has already roughly doubled is a call on the through-cycle earnings base, not the next quarter \u2014 it implies EUV and High-NA tool intake is structural leading-edge capacity build rather than a pull-forward that reverses. Because ASML sits at the front of the equipment order chain, an upgraded view of its backlog is the cleanest read-through to WFE budgets at AMAT, LRCX and KLAC. It also implicitly validates the foundry and memory capex plans at TSM, INTC and MU that fund those tools.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0hLaWhQRmdBeFhhTUFhdi1SWDRqMlFYUU5zcDBhb2t2VHQtd1ZJT2RiNnJOX00wZ3kzeU9FTXBrNTIxdFZKUjBfazFDbGowRUVlSVhOY3Z3S3VCUEFQSnhIeVdaeEFMWENYa0pVNFN4UmtfaUVQNmFWRFFrZ2FCRHZZNVhrZDRWNktJQ252OVVwN3lEWWMxS2xwajg0ak12by0zdVFMY1RvMDY0ZUhLdXpZdnBqZW16ZlduUDZWc1ZRZEs5SGR4eg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-bigtech-ai-lease-guarantees-risk",
+      "time": "2026-09-20T12:40:00Z",
+      "headline": "Hyperscaler AI backstops and guarantees flagged as off-balance-sheet exposure for investors",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ORCL",
+        "SMCI",
+        "AVGO"
+      ],
+      "why": "Much of the neocloud and AI-datacenter buildout is financed against guarantees and take-or-pay commitments from the hyperscalers, which means reported capex understates the economic obligation sitting behind the order book. If credit markets start pricing that contingent liability, the marginal buyer of GPUs loses funding capacity and the demand curve Nvidia and its suppliers are guiding against gets shorter-dated. For the guarantors it raises the discount rate applied to AI earnings rather than cutting near-term EPS.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOekw5dHlIWXZXOVh2QndyTloya3JHdnlHU1dwbmFKeURqT2RkQzZHNlg1Y2xHMU9JUkFYU3Y3cHBaUkg1WHF0RDJHeWVkUkZleDVhYlZSSnpPVGF5OFdpcXQ3cjBneVVuY2hUZ1FnaDZwRFA2aFkwREs3V2lEWm9xYUpoWjA0bTF1VENvTVNFSE1FSmlBV3YzNFBaSS0yTFpZ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260920-nvda-huawei-ai-chip-demand",
       "time": "2026-09-20T12:00:00Z",
@@ -15,6 +93,107 @@
       "why": "Huawei's Ascend AI processors are the leading domestic alternatives to Nvidia's export-compliant H20 chips in China. Strong demand outstripping supply indicates that Chinese tech firms are aggressively adopting local hardware, threatening Nvidia's long-term market share and pricing power in its third-largest market.",
       "source": "The Daily Star",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdEtGRU91ZGFmOXIyUzZ3MmhjUTdhM1d2bXJ3bDRpdVlhRXdCdGg0QzJjZ0ZINlBhTXVRQkdCdkt1c0Q3ZjE1LUxyUkItUXQ0c2k2ZEt5TlFYZ0dXd2s5N3BOZ21nSHNVU0xzYnVoVkl1T3dNT2dPRDAzNERNMFdwc0R5QVZDb1NtYnlGU29haWtqSFVqSnktWG9wdkRJTnRMQ2lya0ptQkdkZGtvM0FGeXN3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-nvda-ai-guidance-pricing",
+      "time": "2026-09-20T11:30:00Z",
+      "headline": "Nvidia shares gain as AI guidance and pricing outlook hold firm",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "AMD",
+        "ANET",
+        "MRVL",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Confirmation that accelerator ASPs are holding rather than eroding removes the main bear input into the AI complex's gross-margin model, since the consensus case for a 2027 derate rests on price competition from custom silicon. Firm pricing plus an unchanged demand guide keeps the order book visible for the supply chain that bills off Nvidia's build plan \u2014 foundry wafer starts at TSM, HBM allocation at MU, networking attach at ANET and MRVL, and system assembly at SMCI. It also supports the multiple, not just the estimate, because it argues the cycle is supply-constrained rather than demand-pulled-forward.",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUxtZjNlclJibWp4azBuNDhuSGwyaWtRUmw2QWRyVGhqLWpiZ0VCbUxpZHJxUzhHaEI3YnBjOHJrOENqRW1HazMxOEZYbmlIdWZrdVREcFFKMGlDLU1IUHpWRDdLcm8yV1NTUFNWMk93Y2NJX3RUeU1kM1B0ekx2azVId1dUTzFXSUV6T0J0YTQ4UU9JLUtHUk1KUlBVYVQ4bVVfSDY5LXI4MnVUQVBkTnluNHFsaUhyb3NtTmpBM01jT2hPRXpZ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-macro-trump-xi-summit-scheduled",
+      "time": "2026-09-20T10:00:00Z",
+      "headline": "Trump-Xi White House summit set for Sept. 24 with big tech CEOs attending",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AAPL",
+        "TSLA",
+        "AVGO",
+        "MU",
+        "QCOM",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "A fixed date converts an open-ended policy overhang into a binary event, which is why implied vol in semis and China-exposed mega-caps should build into it rather than bleed. The attendance of chip and platform CEOs signals export-licence scope and tariff carve-outs are live agenda items, and both sit directly in the revenue line for Nvidia and AMD China sales and in Apple's supply chain cost base. Either direction is a multi-quarter reset, so positioning ahead of it is itself a market driver this week.",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBheHBIT01ZVzk5S0NaZDF1cHE0VDNLTE1xamV4cmNiTVhKRUdKa0FHWDNqQUs3SFQ5MjRCTzhlbDBWT0I2bVhJVGU5OFNXZEdPYWtySDVPdFR6TGdlQXZob0ZYSVFvZFlRM0pFakRJeVA3OWVSWFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-nvda-spacex-orbital-compute",
+      "time": "2026-09-20T09:45:00Z",
+      "headline": "Musk says Nvidia AI chips will fly on SpaceX hardware starting next year; NVDA rises, SPCX falls post-earnings",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "SPCX"
+      ],
+      "why": "Orbital datacenters open a demand channel that is not gated by terrestrial grid interconnect or substation lead times, which is currently the binding constraint on how fast GPU shipments convert into deployed capacity. For Nvidia this is incremental unit demand from a buyer with its own launch capacity, so the cost curve is internalised rather than capex-limited. The divergent stock reaction \u2014 Nvidia up, SpaceX down \u2014 shows the market reading it as a cost line for the launch operator and a revenue line for the chip vendor.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-nvda-huang-policy-influence",
+      "time": "2026-09-20T08:30:00Z",
+      "headline": "Huang emerges as the administration's principal AI adviser as Nvidia resists an industry-wide R&D slowdown",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU"
+      ],
+      "why": "Regulatory risk is the largest non-fundamental discount applied to Nvidia's multiple, and a seat at the drafting table for export and compute-governance rules lowers the probability of the tail scenario where licence regimes cut off a whole geography. It also means any restrictions that do land are more likely to be shaped around Nvidia's product roadmap than against it, a relative advantage versus AMD and merchant ASIC suppliers. This is a multiple input rather than an estimate input.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYXlmUWRDRjFpQzA3SVdkbUZIZzRnbGl5R3JBOXBiUl9adXVveEdfRVhyOU9Da095WnlNcF9xSFpzN3k0bWJZelA0X203cWJ0WFoyQVRQRmo4NndMRjVKZjdiOElZMEo3bVFrNnBjR0RoVmQwSGR6Zkh5SXpoMzlJejhzb0RpdGFPWTg4WEFKZUtmX3JFc0x6M1RPRjhmZ3pSUk5qTnZ0M0pUcDdUM05NMmduNHZMOVdvajljZ0p3M2YwUE9fWEtMME8ycFRKYm14WVh5T25RVEdkRWtVRVgtR2NydHpERVRySmc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260920-mu-cxmt-platform-mass-production",
+      "time": "2026-09-20T07:15:00Z",
+      "headline": "China's CXMT says new memory-chip platform has entered mass production",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ASML"
+      ],
+      "why": "Memory is a commodity where marginal supply sets the price, so a credible Chinese entrant moving a new DRAM platform from pilot to volume threatens the pricing discipline that the entire memory upcycle earnings model depends on. Even if CXMT's bits are aimed at commodity rather than HBM tiers, they free up incumbent competitors' mainstream capacity to chase the same high-margin sockets Micron is guiding on. The offset is that China's ramp requires tools, which supports WFE demand at the equipment names despite export-control friction.",
+      "source": "WTVB",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFpzRHJhNWFLbVg1RHQzOG1GelVqNkM0eE5YMHJrTkJERnhPZEZ0UzVidjJGOVl2NUNERVRlcUhoR3dzbldhLVlNTW1pUDlPRTRBdEZWMmVCZDJac2FXRXJyN0pmRC1ycFAyQUJqMG9IQmZudHFfdzNqa0d0UTZnZkU2ZUFxY3EzTjVNLXVFa3JuQ0h1VEg2WV9JRQ?oc=5",
       "alerted": false
     },
     {
@@ -511,186 +690,6 @@
       "why": "Intuit reiterated and detailed its long-term financial targets, guiding for $23.5 billion in revenue for fiscal year 2027. This clear multi-year outlook provides investors with strong visibility into the company's growth trajectory and software pricing power.",
       "source": "grafa.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON2JqaFBGc3FXN1M0Vk9kdlF5QVRIckFaWkpvMVc2djJJOF8xTEIzeXRwUy1iUmsxc0lTek0zdzN3S3lMM3M0QlpVM05wUmhGWEVPNzdiV0FYNmsybnk0eU5RQTYxWmF1R2I3MFhnQU0wMk1Tc2k0Q2VIVlFBY0Iyam05VXdKT1hUaFlpT1RRNA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260917-cien-guidance-raise",
-      "time": "2026-09-17T00:00:00Z",
-      "headline": "Ciena (CIEN) Stock Trades Above Fair Value After Raised 2027 Guidance",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "CIEN",
-        "ANET",
-        "MRVL",
-        "CSCO"
-      ],
-      "why": "Ciena raised its long-term financial guidance for fiscal year 2027, driven by accelerating demand for optical networking equipment. This upgrade signals robust underlying demand for high-bandwidth data center interconnects, serving as a positive read-through for networking peers like Arista and Marvell.",
-      "source": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTm1UV19JS0l3RElkUkJrekFyRThvZTZpcEZQUm0zSEozZEd0cFBZTEotR3lUY3c2OHowRGpsMGtjbS1MRTBBd25Kci1pYTJ5NU5LOTEwZDdxX0ZwYVZaSEdmRlRZZDR5eXBnTzhvSUMyWW5mdVVPVFpjT2MtSmVnTm9UMkU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260917-avgo-ceo-reassurance",
-      "time": "2026-09-17T00:00:00Z",
-      "headline": "Broadcom CEO Hock Tan Says He Isn\u2019t Worried \u2013 \u2018No, Not in the Least\u2019 \u2013 About AVGO as AI Extinction Fears Rattle Stocks",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AVGO",
-        "NVDA",
-        "MRVL"
-      ],
-      "why": "Broadcom CEO Hock Tan dismissed concerns regarding an imminent slowdown in AI infrastructure spending, stating he is not worried in the least about AVGO's outlook. While not a formal guidance raise, these comments from a key industry leader help stabilize investor sentiment amid recent sector volatility.",
-      "source": "barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdlFoaXUwYWFuOFpsbHZWQkZSMVBJTmxkX0pNd2xzNFpqeWdMVTdNLWRrVks4aDBXcmxYcUhzVHVqa2xBUG56aE9SVno4aDRGckJaNDVWbWFZQ3ltQWdnRWwyR1pVamQ0QmRfUWdVSzAtQmVtZnRNcm50TkNFNjNvU2FXUVBpTW1leG1pZm1EMzNfSnQycllJNDlrRGJNUlY2SmxkdTUtSlVpdENDb1RuQS0walBoOVNFNHcwUnlWYjVCRWQ0Sm9SdUc4a0tYYkFYZnpIeXhSa1BEQlp2ZFY2SXJIaUFVc2J1MXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-macro-fed-rate-hike",
-      "time": "2026-09-16T18:00:00Z",
-      "headline": "VIEW Stocks pull back after Fed raises rates, points to another hike this year - Reuters",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "TSLA"
-      ],
-      "why": "The Federal Reserve raised interest rates and signaled that another hike remains on the table for later in the year. This hawkish stance increases borrowing costs and raises the discount rate used to value future cash flows, compressing equity valuation multiples across the market, particularly for high-growth technology stocks.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-macro-us-mexico-china-ai-hardware",
-      "time": "2026-09-16T12:00:00Z",
-      "headline": "Exclusive | U.S. Pressures Mexico to Box Out China\u2019s AI Hardware Exports - WSJ",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "AMZN",
-        "MSFT",
-        "GOOGL",
-        "TSM"
-      ],
-      "why": "The U.S. government is pressuring Mexico to restrict Chinese AI hardware exports, targeting efforts by Chinese firms to bypass U.S. tariffs via Mexican manufacturing hubs. This regulatory pressure threatens to disrupt nearshoring supply chains for server assembly, potentially raising production costs and delaying hardware deployments for major U.S. cloud providers and chip designers.",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa0pqM1hOWmNYN0NfZDl2SFBtdHI4TG44akZhN2pOZ2FidndwV2d3YUFSWFVpODhsTVMyVi1BdFV0NFZ4cUllRVJDRnV3V0tKVFNxbld5dmU2LVpQYVpaVzlRZG9IWS11bHN0Umc1NDRKdEN1elh4YUpJNmpDcE5aV2N3RlVLQk9TQlR0TGljLXhYcjFPMkFET2cwRlk3bV8xbUkw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-nvda-huang-trump-xi-dinner",
-      "time": "2026-09-16T10:00:00Z",
-      "headline": "Nvidia CEO Jensen Huang to Attend Trump-Xi State Dinner as AI, Chip Issues Take Center Stage",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AMD",
-        "AVGO",
-        "MSFT",
-        "GOOGL"
-      ],
-      "why": "Nvidia CEO Jensen Huang's scheduled attendance at the Trump-Xi state dinner highlights the critical role of AI and semiconductor technology in US-China relations. High-level diplomatic engagement could influence future export restrictions, licensing agreements, and supply chain stability for major US tech firms.",
-      "source": "Bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xeTVkeVFXUXRqZ3cwTVRzYXZ0X01xb3dLVnlRdHpxUWoxN3RnMkp3R2wzNXJwQVpIRnIxeWJ6MFcwQktGcjEyckVhS3RfR1dYc3NQRg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-nvda-trump-huang-call",
-      "time": "2026-09-16T09:00:00Z",
-      "headline": "President Trump called Nvidia\u2019s CEO, Jensen Huang, while Huang was onstage at a conference to criticize calls to slow down and regulate A.I.",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AMZN",
-        "PLTR"
-      ],
-      "why": "Donald Trump's direct phone call to Nvidia CEO Jensen Huang during a live conference signals a strong political stance against AI regulation and safety-related slowdowns. A potential deregulatory approach under a future administration would accelerate AI deployment and reduce compliance hurdles for major developers.",
-      "source": "Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWERyVTN1d3lyYkpMTlMzbHVMMWxFdVo2SmExNm0ydXl1bndKSU1nYV8zSmFPTTA4cTRWTEpCQnluZE9iT1dVNDZ2RHZGaUtZdWNqbVdBSWx5LWIxLUhtNElsWFFtNlJyNFV0NkJMLTNXZDZRalpsaXhBTktfQXpVVDc3UnFpR2JhNExCb1hLbWFNRjUtak1mNHVmeU9lTFhHWW1neUJ3V3N1d0dBOF9neTQtU2tyRFBzTF93WC1LY2NaUnB5X004R0FEbE80YWhWZmNj?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-macro-treasury-yield-highest-since-2007",
-      "time": "2026-09-16T08:00:00Z",
-      "headline": "10-Year Treasury Yield At Highest Level Since 2007 As Fed Decision Looms",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA"
-      ],
-      "why": "The 10-year US Treasury yield has surged to its highest level since 2007 as the market prepares for the upcoming Federal Reserve interest rate decision. This rise in yields increases the cost of capital and compresses equity valuation multiples, particularly impacting high-multiple mega-cap technology stocks.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTG9LbVg1MlZPc29BeXR1dkNsUjdSbi1LWDJEa3lGdEZGY3NhVHdYWnRZMVAwa184cUtCZWVkWXBzSVczRVBTQnRZampjNWlObG4xZDhOTHdGMWZpeDQxMjNyQkFYMEtSM1hRU2JaMGp0ZUFnQkNrcTR5NkZwS0dIei15WHVNaUpGWlpNeUh2RWN4bVpmdE1QX2lGSWUtMUpaYlRsSnYwMXFkdkU4YTdRNVJZMTZwNnctS2RCMg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-macro-japan-export-growth-chips",
-      "time": "2026-09-16T07:00:00Z",
-      "headline": "Japan\u2019s Export Growth Stays Solid as Shipments of Chips Jump",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "TSM",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Japan's export growth remained solid in August, driven by a significant jump in shipments of semiconductor-making equipment and computer chips. This strong export data confirms robust global capital expenditure on chip manufacturing infrastructure, directly benefiting major equipment makers and semiconductor foundries.",
-      "source": "Energy Connects",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVWxIZEZqM044c1dQdWZHY1ZWNzEyM3hUTDZXVVlHT3lkLW81VFpVaTZERkpSZnl1c3V3Ym1Da1JtSFJSbmlqZG1ENlJ1Sml1YnhkclQxajFiYVdYTUdvUXhGbEtVRGkzUHNZbU00VGxXNzRxXzAtT1pvbkZzWmxPRWQ2UGNyTEtJRmUzUTZqNW5VN2h2eTYwWHdIYV9MV09DeXFOM2ozLUVQXzI5NkhyQVVYVk0yUlU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260916-intc-sk-hynix-ohio-fab",
-      "time": "2026-09-16T00:00:00Z",
-      "headline": "INTC, SKHY Stocks Jump Overnight: Intel\u2019s Delayed Ohio Megafab Could Make SK Hynix\u2019s First US Memory Chips - Yahoo Finance",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "INTC",
-        "MU",
-        "TSM"
-      ],
-      "why": "Intel's delayed Ohio megafab may host SK Hynix's first US-based memory chip production, providing a major boost to Intel's foundry ambitions. This partnership could accelerate US-based high-bandwidth memory (HBM) packaging, directly challenging Micron's domestic dominance in AI memory supply. It also helps Intel offset the financial strain of its delayed fab construction by securing a high-profile anchor tenant.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTjVsOG1ScXNiSVBDTFctOVNyaDBIU1JfZEYwY3dLakNhY3FPWXp0bHFGbVBObkVhVzJ3eXFjMDhqZG03Q0h6QVRaQU9RVjNFcmVuRkFoVWJWWDJGQV9uUFFCRzcwSVJ2enF3YnNoc3RyMk5aV0FhbE1vMXVFa1hyNWplRC1UWTU3VmUzMmcxdXZGak5kYkZyZGctQ0g?oc=5",
       "alerted": false
     }
   ]
