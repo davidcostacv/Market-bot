@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-09-21T05:18:10Z",
+  "generated_at": "2026-09-21T13:11:51Z",
   "session_date": "2026-09-21",
   "items": [
+    {
+      "id": "20260921-nvda-spacex-compute-commitment",
+      "time": "2026-09-21T12:00:00Z",
+      "headline": "SpaceX results put its scale of Nvidia silicon purchasing in the spotlight; NVDA trades up while SPCX slips",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "SMCI",
+        "MU",
+        "TSM",
+        "ANET",
+        "TSLA"
+      ],
+      "why": "A privately-driven, non-hyperscaler buyer committing large accelerator volume broadens Nvidia's demand base beyond the four cloud customers that investors currently treat as concentration risk, which is a multiple argument as much as a revenue one. The divergence in the two stocks shows the market assigning the capex burden to the buyer and the annuity to the supplier. Read-through runs to the system integrators, networking and memory content that ship alongside every rack.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260921-tsm-q2-sales-surge-geopolitical-offset",
       "time": "2026-09-21T11:20:00Z",
@@ -23,6 +44,27 @@
       "why": "Foundry revenue is the cleanest real-time proxy for accelerator unit shipments, so a 36% growth rate validates the demand assumptions behind the whole logic chain and supports upward estimate revisions at the fabless customers and the equipment suppliers. The stock falling anyway means the move is multiple compression from a geopolitical risk premium, not an earnings problem, which is the kind of dislocation that mean-reverts when the macro overhang clears. Watch whether the same risk premium bleeds into freight and energy costs, which would hit gross margin with a lag.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZEwtT2g0Y0FXNGE5cHlNYW5fQV9HV2FoNndhVEh1TzFiMzhxSHFxMFJuTkxCUEpCZ05veUJTRXlFUUxPQ0JMV2IxWWRkZXVxUmFveTZsSDJ4V2g5ZlFweWxwb2pQcTNKeXF6Wk02OXNDNENVQUFTWnVqblN2Qm1MMW03OHVWY1hfYzhwVU9VT3R6a3plYnBUYkhlT1Z0VGhkT3NsaFEzT09TQzdhNVZVSjUwTHgxU0V5RjdBRnV3cHkzSjkwaGsyc2kxakt6OG81RTZmQ2djQjlydXJzZE5mNFd3TzVOeWM?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-macro-iran-warning-oil-risk-premium",
+      "time": "2026-09-21T11:00:00Z",
+      "headline": "Fresh US warning to Iran injects a geopolitical risk premium as index futures grind higher on chip strength",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM",
+        "AAPL",
+        "MRVL"
+      ],
+      "why": "An escalation signal toward Iran re-prices the crude term structure, which mechanically lifts upstream cash flow assumptions for the integrated majors while raising input costs and the discount rate applied to long-duration tech multiples. The market is splitting: semis are absorbing the risk-on AI bid while the energy complex prices supply disruption, so index-level direction depends on which leg dominates. A sustained oil bid would also complicate the disinflation path into this week's PCE print.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSDJvcWtPWFlmSjRUQWE5anpJa3lNbnR4NkxuaS1mUGktTVh2M2wyTlUwaWc2a2pyd2JOb05hb29sNHJ5bXNQaS1XS0x5cjVPcVE1MjZYY0w2OE4xN3duY1lHRHpIVzlNdVBVUDdUQi1YRERyaFR6S01McXBUV2p5Um0xblljODZweThmb0dkb0g5NGFocVVVeDZBclc3UmlyTm8yMWV2b1pZN2NRRnctMXdVRjZBbHprR2FPNHVDSU56bWVXalVKWnNSUkxLemJITEUtbDliak8ycDRaeGN3RjJWQzdsLVg2Y2NFYWlnUm9iSU9KcXV1YVJqaw?oc=5",
       "alerted": false
     },
     {
@@ -72,6 +114,25 @@
       "alerted": false
     },
     {
+      "id": "20260921-banks-fed-boe-trading-firm-exposure-probe",
+      "time": "2026-09-21T09:30:00Z",
+      "headline": "Fed and Bank of England step up scrutiny of bank exposures to proprietary trading firms after Jane Street loss",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "JPM",
+        "GS",
+        "MS",
+        "BAC",
+        "WFC"
+      ],
+      "why": "Supervisory reviews of prime-brokerage and clearing exposure to non-bank trading firms typically end in higher haircuts, tighter leverage limits and added capital held against those books, which compresses a high-ROE revenue line for the large dealers. Prime brokerage and equities financing have been a core earnings driver for the bulge bracket, so a forced de-risking trims balance-sheet velocity and caps buyback capacity. The probe stage alone raises headline and litigation-reserve risk before any rule change lands.",
+      "source": "Investing.com / The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLVRZN3pDOHpmSTdrTXAtLTl2cDlxYllGdTlWdXRDYXhYdXFKLTJ2dTdkRzVtNmhNdXoxa09hLWM3VW9OZVBaUFhvZm9HYmdCd2d0MEktUlA3WEZwOW5VU2w4NlA2d1ZJRjlnZnBXZm1BNi00T0RvcFdBbXJrX3JkaDhPNVlnZjh0Z2lma3FSN3RJUEo4azN5czExdmV2WjI3SlBSTXRrVDVfZy1OSmxfcTkxMWVrVm1Sa2VpcVBEdDQwQjF1cUVTQVNyVUJJQS1oSW0w?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260921-mu-ai-demand-derating-debate",
       "time": "2026-09-21T08:00:00Z",
       "headline": "Memory names slide as AI-slowdown debate questions the durability of data centre demand",
@@ -90,6 +151,27 @@
       "why": "The market is testing whether current HBM pricing reflects structural scarcity or an order pull-forward, and memory carries the highest operating leverage in the chain, so a small change in assumed ASP trajectory swings earnings estimates far more than it does for logic. The derating is happening on sentiment rather than data, which sits awkwardly against record Korean export volumes and reported sold-out HBM capacity. Resolution is event-driven and near-term rather than gradual.",
       "source": "equiti.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMXJleHVodGJYSVFqY3RBbHp3a1NXaVR0UTA5TVFfYUFvOWdPaG9PQTRQc3lNdFJNcXYySG1JVDdwM2JHVWZ2Qm5KNFZHd2diQklPZTFzQjRMOGV1ZU91aHJyWmhiNGRaVXd5ejU1bjJYMThKMTBuZU1yNUtaRHQ3U0tvWF9wU3l4STY1OWdvVFJPZ01VY0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-mu-analyst-longterm-eps-lift",
+      "time": "2026-09-21T08:00:00Z",
+      "headline": "Sell-side lifts Micron's long-term earnings outlook ahead of the Q4 print",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Raising out-year EPS rather than just the next quarter is the analyst community conceding that HBM and high-capacity DRAM pricing is structurally contracted rather than spot-cyclical, which is what justifies a higher trough multiple on a memory name. Consensus estimate revisions of this type usually precede index-fund and quant re-weighting because they change the forward P/E screen. It also sets a higher bar into the earnings report, so an in-line guide would now read as a disappointment.",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM1NOeE1MRHhockcwU3VwYTJNSUUxam95UHJ6ckVnbjFjbUpOUkdWSjhhN29MZG9wYjZseWhUR09fd2ZNNEo0ZGxNZmFJRzRZeXZKYkpGVW5oNlB2WEtGOEZPZm1mMDY2ekhZWWM4cFFxdlFUZlQ2UHdodGxPSkdmaS1PX2t6dXZCOWNWd20zSnZnRnBYV3BDU0pDbTRfcWNleXYtUzU4bjhEOTA0VDdhbGJybTEyLXdhR1E2bkc0cFMwT0Vob3RoMXB1OUtudG9xTFE?oc=5",
       "alerted": false
     },
     {
@@ -112,6 +194,46 @@
       "alerted": false
     },
     {
+      "id": "20260921-asml-single-day-buyback-pace",
+      "time": "2026-09-21T07:00:00Z",
+      "headline": "Semicap supplier executes \u20ac124M of share repurchases in a single session",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM"
+      ],
+      "why": "Repurchase intensity at this daily run-rate signals management sees the order book as funded and the shares as cheap against its own bookings visibility, and it mechanically shrinks the share count supporting forward EPS. For a capital-equipment name the buyback pace is also a proxy for confidence in the next leg of litho and deposition orders, which the rest of the tool chain trades against. It is a capital-allocation datapoint rather than a demand datapoint, so the earnings effect is arithmetic rather than fundamental.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSE5XUnlVMUxCZmw2OUNHUXBWY000SHQzOVdlZ2Vfa1A3ZnhMZ0VNVTQzTXNBQTFWNGhjZEN4c2RBb0drVG5uWHhKYVZiblk5LUdCMHN4emE0bl9ldGlfQ3FUS1hnV2dCNzdFcm9QSmhaaXVCc0NhREE2QzNvOUxQODlVQUZ1NEdaVjQ0aXhtWHJGS2ZoeEptOER6QUotWGRvLTNYb1VYUUVDZFJRSXVQZnFn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-nand-essd-supply-reallocation",
+      "time": "2026-09-21T06:00:00Z",
+      "headline": "Enterprise SSD demand is pulling NAND wafer supply away from consumer bits, tightening the whole flash market",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "NVDA",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "AI inference clusters need high-capacity eSSD for checkpointing and data staging, and suppliers reallocating wafer starts to that bin removes bits from the client and mobile pools, which is the mechanism that flips blended NAND ASPs positive. For memory makers this raises gross margin on an already-improving DRAM cycle because the second product line stops being a drag. It also pulls forward capex intent at the toolmakers, since converting and adding layer count is the only way to add eSSD bits quickly.",
+      "source": "TrendForce",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WSW5HUy1UMW1MLUVvTjNaQV9PQTc4LWNfazRTcWZvYkFpZnlnSjdKMTdRdkhoX1dUR2NON3VNMGVsVmtGcmZtSldTUGg2dThWcktUR1B3SjVCZm84WWRn?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260921-asml-tsm-larger-substrate-roadmap",
       "time": "2026-09-21T05:30:00Z",
       "headline": "ASML and TSMC push toward larger substrate formats for building AI chips",
@@ -131,6 +253,29 @@
       "why": "Reticle-limit constraints now cap accelerator die size, so moving to a bigger canvas is the practical path to more compute per package and it requires a fresh tooling cycle across litho, deposition, etch and inspection. That converts a physics problem into a capex line, extending the equipment upgrade runway beyond the current High-NA transition. For the fabless customers it means higher packaging cost per unit but a continued performance roadmap that protects ASPs.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUndTUWs2S1BiM3dTOUhPclo5bWktUzVNczJxRV93NWNva2xkTUZHRXgtb1pJM3JqQTFUc0FYTnFxMTBXV2N4dUNMcWFDOGRWMGM0WGo2c1JKMVlQRGh6MGpwaXY3NmFkNWlfT3dyNWpWR3YyUzdFZld2LUdhYjJQc190Z1ZjSUlFbzd5TU5LdTFSVktG?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-uschina-ai-alert-mechanism-chip-rally",
+      "time": "2026-09-21T05:00:00Z",
+      "headline": "Proposed US-China AI incident-notification arrangement surfaces pre-summit as Asian chip names rally",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MU",
+        "AVGO"
+      ],
+      "why": "A bilateral communication channel on AI is the kind of confidence-building step that usually accompanies a pause or narrowing of new entity-list and licensing actions, and export-restriction risk is the single largest discount currently applied to semi multiples. If restrictions plateau, the China revenue line stops being modelled toward zero, which is worth more to estimates than any near-term unit demand change. The Asian supply chain rallying first is the tell that positioning was short policy risk.",
+      "source": "techi.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rZE5GUlp1S1JnNXFkelNiVUZmWmVBaTFMNzVJbmtYYmREdGp3TERzaEJVaHZpeU8wSGVJbmdrVmotNHpaY1JjOVJ3NFpRY2QxQmdMdy1zc0xtWndONHJYcG92X1V5VTY1VlZqX3dFYWZFVzZCTkhtSg?oc=5",
       "alerted": false
     },
     {
@@ -635,119 +780,6 @@
       "why": "Initial jobless claims fell by 12,000 to 219,000, well below the estimated 230,000, indicating a highly resilient labor market. Coming immediately after the Fed's 50 basis point rate cut, this data strongly reinforced the \"soft landing\" narrative, triggering a massive broad-market rally with the S&P 500 hitting new record highs.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2024/09/19/us-weekly-jobless-claims.html",
-      "alerted": false
-    },
-    {
-      "id": "20260919-mu-cxmt-flash-expansion",
-      "time": "2026-09-19T11:00:00Z",
-      "headline": "EXCLUSIVE: China's CXMT eyes flash-memory push amid global shortage; firm to take on Samsung, YMTC",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU"
-      ],
-      "why": "Chinese DRAM manufacturer ChangXin Memory Technologies (CXMT) is planning an expansion into flash memory (NAND) to capitalize on global shortages. This state-backed entry threatens to increase long-term global supply, potentially eroding pricing power and margins for established memory players like Micron.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRXhCUnlwalg0dVppb2Y3dDVQNUFsUUilsLTZ2c2NJckZ2UjBxWXE0TC1QdFRSY0Q3VFA4QWctMzZSMHd6NFQ4Q1pDTy1UZTlVNE12ZGlmMGpFdXkzMXMxOWV4UWE0Z1REeHRMNzQ1NkFmd1hmQWc5d3FWdTUzYWM4ejhZc2IwSXprb3gtZzJxWmpTVFA4ZlFTSGhDN3J1ZWl1dWJVNkxVRVVTVkFjTS1LQXg2Y0RJZ1JTSms1VzJ4enppek4xMWFYRUxjMzA3dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260919-mrvl-sp500-inclusion",
-      "time": "2026-09-19T10:00:00Z",
-      "headline": "MRVL Stock Rises Premarket: Marvell Ships Over 5M Photonic Chips Ahead Of S&P 500 Entry",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL"
-      ],
-      "why": "Marvell is preparing for its official entry into the S&P 500 index, which forces passive mutual funds and ETFs tracking the index to purchase its shares. This structural buying pressure typically drives near-term capital inflows and supports a higher valuation multiple.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaWNBN0djRzd4MDQzQ3lIcWN6ejNMMUthXzNsSF9ZOWE2aHU2a2dlazNJTUZja2Y0cVVsVzlzbVpzNGlzbW1vUm5FNXNVYURMOGNfeEpUbDhSRndray1Kbm5jWjJmWl9Gal9TeVIyZ0NMdHZCVU0wNUwzQnl5MkN0QVVIbFlQUzU1dU5MVkMxUDdZU1NmaFQwWTNkRXpKZ0x5R1JKc1VyY1lIOXY5c1lrSDhZUS1CclBQZEI3M3JCb0Ixb3lHOE9lVm9JLXlCeDgzMF9JNUtHa1VCcUxobF8zclFmNGtiTWxlZWhj?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260919-spy-barclays-target-upgrade",
-      "time": "2026-09-19T09:00:00Z",
-      "headline": "S&P 500 Forecast: Barclays Raises Year-End Target to 7,950",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Barclays has raised its year-end target for the S&P 500 to 7,950, pointing to resilient economic growth and corporate earnings momentum. This aggressive target upgrade from a major investment bank boosts institutional sentiment and supports higher valuation multiples across large-cap equities.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260919-asml-china-3nm-lithography",
-      "time": "2026-09-19T08:00:00Z",
-      "headline": "Chinese researchers plot path to 3-nm chips using older lithography tools",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "TSM",
-        "INTC"
-      ],
-      "why": "Chinese researchers have outlined a theoretical pathway to manufacture 3-nanometer chips using older deep ultraviolet (DUV) lithography systems instead of restricted extreme ultraviolet (EUV) tools. If commercially viable, this could allow Chinese chipmakers to bypass US-led export controls, potentially reducing long-term reliance on ASML's advanced systems and narrowing the technological moat of leading-edge foundries like TSMC.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOUIxZ09GUDBTME9TR2doV0dZend2bkJaSm5Bdy1Vcld5SnZ2RVdIdk5PRGdXZHVyRmVUR3hIRzNzeW95TFFXYWstNzV4VkxuaXJvZXdLcWlOVmVSNW1zZG0xbmJVZEZMVkdHbG5sTUp6bWF3XzA1bU9VMzhqSTBYSzdZdFBTWXRscG1jdmRzTXFUMmZWWk9RQVlNX0N1Q3V6X2NHZ3VtNDFCcEt1Uk95SkVaVVNBanpm0gG4AUFVX3lxTFBfNkJ3dnhEZWdEZFZFN1hvNWdUb3c3LUtCYS1TVHAwSnBDQUtsVlFoS3JZT2gxYlFXUXJja3pPNXBVNUZqMTd5N0VWQk9NUmVjYVl4T2JfVzR3Y0pIcDRKZ29OZVI2OE5fVFZ1MkFtX3haYjN1TTJBcVRubUdKMkFkckJHYVVRcmZrOGZrZnF2WFpwVFhOMjRzQzVnU3ozd2VDRWZOZE9SOUxXdGF5UmpBXy1zejdURS0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260918-mu-rbc-multiple-expansion",
-      "time": "2026-09-18T12:00:00Z",
-      "headline": "MU Stock Could See \u2018Sizable\u2019 Multiple Expansion, RBC Says Citing AI-Driven Memory Demand",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "RBC Capital Markets highlighted that Micron is positioned for structural multiple expansion driven by robust demand for high-bandwidth memory (HBM) in AI servers. This positive outlook ahead of Micron's upcoming earnings helps counter recent market anxieties regarding a potential near-term slowdown in AI infrastructure spending.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajFqcS1aWUxFbzlxT0ExNUg3VGJxUkNOc0ZlcV9IdXBuUjhlX3g0cFJITW1aNkVKVE1FYVRmVDhvGzVKdW5Sb2x3d2FsZVR5U3BHZU5hYmpiUkNtZFJNXy1zb1ZNWm9XTW5vcmNQeldjYXRzUTVpWWM2cXRZelBHczlVSlNJTXpqVjA5bVN4X2lvYlZESmc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260918-mu-mcrdimm-launch",
-      "time": "2026-09-18T11:30:00Z",
-      "headline": "Micron Just Built One Memory Stick That Replaces Four. Is MU Stock a Buy?",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU"
-      ],
-      "why": "Micron has introduced a high-capacity memory module designed to replace multiple standard modules, targeting data center and AI workloads. This innovation could improve average selling prices and margins in its server business by offering higher density and lower power consumption.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZk1CQXBrY1V6aEJrZHV3UlowTFRUZHZhdUMxY2NDbWtjZGJSajh0Mm1qM013MnB1NXZXRmlhXzl6QWFCdGozUHVBbk1wMGpHNEFkWDg0QXhia3NjTUE4ZWRpVTV4YlRjMjgwZm5pMHZMOTdLSkZvSGtSNzVaaHFDeGpTSDByY0dlNXJTamljOUtkbXdWeXJXRzNaT0pILVJQa29RS0h0cUJmZnU5N2lJRHlFVXJlZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260918-nvda-china-sanction-skirting",
-      "time": "2026-09-18T10:00:00Z",
-      "headline": "Investigative report details how export-restricted Nvidia AI chips reach China \u2014 public records reveal how Chinese entities skirt US sanctions",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "An investigative report revealing how restricted Nvidia AI chips are reaching China via public procurement and grey-market loopholes increases the risk of tighter US export controls. Regulators may crack down on third-party distributors or implement stricter end-user verification, potentially curtailing Nvidia's indirect sales volume.",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNN2NrR0NpT2hTbHdLcmFUcmVUSEFENVJYNVRXNGRSLXZWWjBuVzNvb3Fpbk5pTWhianJybUt5N2YwNFZxdnpJZ1IxRUhVeFZyYjcwZDFQWnlQY2VDMjFpT3dyNERXd2RuSVBlM2RYR1N0WXBNamFhalNnNjdJN2duUnozVTFoSXdXZHd4ZUhrOUVudU15Um85YzVWc3M0WmxFVV8tRUJkQXJzaWtCWnZzRGZ5Tm5nVlhUT2JGNDNYbkJ5bmFHQTVlLTlPTzZVSU9fZ0szWXgwUnR0Y0I3b2pqcmF5UzBxcE0xSGlrMVRYNUFQbnZHbG42UjlKSE5oS0RGSlo0WTdqUXVUT2hhVWxtX255cldYWXYxdVE?oc=5",
       "alerted": false
     }
   ]
