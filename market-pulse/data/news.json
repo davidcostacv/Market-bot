@@ -1,7 +1,113 @@
 {
-  "generated_at": "2026-09-21T13:11:51Z",
+  "generated_at": "2026-09-21T22:08:51Z",
   "session_date": "2026-09-21",
   "items": [
+    {
+      "id": "20260921-para-wbd-ag-settlement-deal-clears",
+      "time": "2026-09-21T18:45:00Z",
+      "headline": "Paramount settles state AG antitrust suit, clearing the main obstacle to the Warner Bros. Discovery deal",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "WBD",
+        "PARA",
+        "NFLX",
+        "DIS",
+        "CMCSA"
+      ],
+      "why": "The suit was the binding constraint on closing: it threatened to push completion toward a spring jury trial and mid-2027 while the acquirer began accruing a daily ticking fee, so removal collapses the deal-break discount in the target's shares and eliminates a large contingent cost for the buyer. Closing creates a combined studio, broadcast and streaming asset that changes competitive bidding for content and sports rights, which is the read-through for the other streaming incumbents. It also signals state-level antitrust is settleable, lowering the perceived regulatory hurdle for further media consolidation.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRTB1bkpFWXNTR1k3Z2xYQUpDVk1RNGJLWkVJc1c0cDhqOUtOSE56cElBSDNCajdHcXM2UDFjNEhEbi1oOHNsMWMwMVVZako3YmVoaXlNbTB2aFFOeDNOMEZXV192ZzFvQVBWajZBVmFhX000T2Vyemd6cDc2VXFFTDFsWU1RVkI2UlB0LW9aU3Vkc19abjY0YkUyRi02SEVsMk5wZXowcFlaVDd4S2pBZ3RTc2xPODUwZ3EyT3lxUEdoNHpZbXMxRmdwdDZialkxNHJWNmhn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-meta-muse-agentic-cpu-demand",
+      "time": "2026-09-21T16:30:00Z",
+      "headline": "Meta's Muse agent tops the US App Store, repricing the server-CPU side of the AI trade",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "META",
+        "AMD",
+        "INTC",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "MRVL",
+        "QCOM"
+      ],
+      "why": "Agentic workloads are sequential and orchestration-heavy, so they consume general-purpose CPU cycles rather than only GPU accelerator time \u2014 a segment the market had priced as structurally ex-growth. A consumer agent reaching the top of the App Store is the first mass-market evidence that the agentic TAM projections convert into actual unit demand, which lifts the earnings path for x86/Arm server CPU suppliers and pulls foundry and memory content along with it. This is a multiple event as much as an estimate event: it gives laggard CPU franchises an AI growth narrative they previously lacked.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SSTIydHlWS0FFdS1GRHczbHByd0d5aXU0OEF5X1lkTUdVTjlldTlVdEYwZHNxR0Z3M0RvWnU2TXBKV2R3NDViTFoxZDlVV3RfQ0NaZVQ4VXhFdmdpVXh6eER2YjlhOTRrRVktQ3h5Ykd2THBmcmZiTVI0YTNWdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-amd-agentic-server-cpu-pricing-power",
+      "time": "2026-09-21T15:10:00Z",
+      "headline": "AMD's Meta agent tie-up and server CPU pricing power drive breakout to $1T valuation",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA",
+        "TSM",
+        "AAPL"
+      ],
+      "why": "AMD is positioned on both sides of the agentic stack: an optimization partnership to run Meta's open-source Glimmer model locally on client silicon, plus datacenter CPU sockets where reported price increases of roughly 40% flow almost entirely to gross margin given the design cost is sunk. Management's framing of a server-CPU market expanding toward $120B-$220B by 2030 shifts AMD's terminal growth assumption, which is what justifies a trillion-dollar multiple rather than the near-term EPS line. Risk to the thesis is Nvidia bundling its own CPU into rack-scale platforms, which would cap socket share gains.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjItUFhHU3FoVlN1eWYwOGxObmpMd1UyUmtRVEpwNWtIVEdBenFka2lKeDdEM0wzZUJFdXpSYjVjckx0dUlHeEg5NnFubTBsZ0cxM1ljMFItWGVPOEI2bm9ucWhUNDNHcXVEM28xdzRsUWw3VjhwRTlIcXpLWnhxem0xcw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-sox-reconstitution-index-flows",
+      "time": "2026-09-21T14:00:00Z",
+      "headline": "SOX September reconstitution adds four new constituents, forcing passive rebalancing across semis",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "TSM",
+        "MU",
+        "MRVL",
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "QCOM"
+      ],
+      "why": "Index reconstitution is a pure flow event, not a fundamental one: additions receive mechanical buying from SOX-tracking ETFs while weight caps redistribute demand away from the largest incumbents, so existing mega-cap semis can see marginal passive selling even in a rising tape. The effect is concentrated around the effective date and typically decays, so it should not be confused with a change in the sector's earnings path. It matters here mainly because it amplified an already extended multi-session run in the index.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ01GX1huVnRwQ3NvYjBUOEwwbUFZUEdLeFVFajJiNW9OMTdMMGhkQ3RVRVk1cUFrQkN0b3ZHMHFCSjBkNnFCZWFtQXBIQjVqUGdqbXVpTFBFRmpFZXc5UV9EakU0RWRZYlpjOVJ2cVEwSTlfZHdLYk5saTVLcFFqNHpxel8tMlBMWGZBTkZiSDZxMDMyU19xSlNn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260921-meta-wells-fargo-target-raise-connect",
+      "time": "2026-09-21T12:40:00Z",
+      "headline": "Wells Fargo lifts Meta target to $796 from $640 on Muse engagement ahead of Connect",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "META",
+        "GOOGL",
+        "MSFT",
+        "AMD",
+        "NVDA"
+      ],
+      "why": "The upgrade mechanism is engagement-to-monetization: a reported ~60% jump in daily assistant users gives the AI capex program a measurable output metric, which is what converts Meta's spending from a margin drag into a revenue driver in investor models. Notably the firm kept revenue estimates unchanged and cut 2026 operating income by about 12% on a $10B legal settlement charge, so the target increase is multiple expansion on AI optionality, not an earnings upgrade. Sources conflict on the move and implied upside \u2014 the headline cites a ~7% gain while other accounts put Meta's session move near 11%, and implied upside is variously quoted at ~11% and ~19% depending on the reference price.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNUxJY2Y2Y3hTTDBPTkxUYW16aTlkd3FrcXNjSHF6RklrSGo1OFQyWTNuS1hDenY0b1pLSFBzeWUweE9XcGdrVTJaY3plU1A2dWtiRFFkak0xb3kxTUVUX0tibUhmTFBKQXJ5dU1ndXRTRTg4M1RKSzYwMnNLYWR6MzVmWnp3UGp4OGFkbHhTUm1TRGQxY2Q4YzROcXk4VG4zU2M5ZWdmOUpDbzk3Q0N1RWxfcDNYZUlFZGdGVHFtU2czMjQ0TXdnWm82WE5NM0phUjF5azZmdVJnSHBtdDJPczMzNEd4aVNYbWRlLXY3LUU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260921-nvda-spacex-compute-commitment",
       "time": "2026-09-21T12:00:00Z",
@@ -698,88 +804,6 @@
       "why": "Tigress Financial raised its price target on Alphabet, citing strong momentum in its artificial intelligence initiatives. This positive analyst action boosts investor confidence in Google's ability to monetize AI, potentially driving multiple expansion.",
       "source": "AD HOC NEWS",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc2NtUG5vZnFqZmtPMldtU21VdnhPNGQ4ZmwxMUU5ZGJiVnNNaGUtdU1hUGctcUlPbFItaTBWeG00Tm1PLTZWOGNnTmh6LUV3MndkeE5VVXRBY3JBSXQyUUJaYWljTEVFcFRSR09MOUZ1c0NVUHFOb2xTNE16YzFzX2VVR0RQMTRPQV9YVjNtcEpERmxWZDY1MHFsamNWeEY4NkNSWWdZNGt3UDRVdFpHYTBBcmlIVDZyZlJMRjE1SEc3R1REVE12VVBB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-nvda-us-export-draft-regulations",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "US Reportedly Working On Draft Regulations For Power Over Nvidia, AMD Chip Exports",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "ASML"
-      ],
-      "why": "The US government is reportedly drafting new regulations to restrict or control the export of powerful AI chips from Nvidia and AMD. This threatens to further limit their sales to key international markets, directly impacting multi-quarter revenue growth and raising compliance costs for the entire semiconductor supply chain.",
-      "source": "stocktwits.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMHRyaUo2b2Y2YVVPQXp3NjNmX3NEVUE0UEMwUnZjTUp1bFo4d0NGVVVUQS1USTZ3bFVoUVQxbTF1V1lKUXNudFFBRDd0WkNubGlLM0xaWDIxTXYyY0xiOGtXM01jZmlkb3JYQTBJb05mdVJQVmJDZkcwNWRCY2hQcnBjOVNXUGZ4UUdJdGRNN1c4Vmtuc3RHV0dRYUQxVmRTSm9XOG1NV09ERVA2dDlveTJvdHIxMm4zMWNqd0pZV1J2MGh3TEpXRVZQUjV1SW9CZ3FWTEgwNU44aloxQXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-smci-backlog-capital-need",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "SMCI Stock Jumps Over 6% \u2014 But Supermicro's $60B Backlog Could Require Fresh Capital",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "SMCI"
-      ],
-      "why": "Supermicro reportedly has a massive $60 billion backlog, highlighting robust demand for AI server infrastructure. However, fulfilling this backlog may require the company to raise fresh capital, introducing potential share dilution or increased debt servicing costs that could pressure margins.",
-      "source": "stocktwits.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM05xbTdwdlBDMEtpVkRienptcERNZ2ZJYzBIU2ViUzY0MW9HWHVoaHdqc2ZwODVteWkzb1FaMy1ZMkM4amRuZ2hpakw3VzdhN0hJX2U2OE5NMnVmV19YaXU1QVVRRGtMVE9xNmVDaUZ0b2F4YmhZMnZnWG5Ed2hFVWdKSGxSSDhYb20xYkNocGdWeklFeTZZVkFFRTdmblFVc1JsTmFOVkxCOWpOdUhSSjN0emlhYmpXbXpPdGNTYmYyNUtaY3VVeTNYa3VpVVhUSjFZSUQtMTZVaXR1Wmc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260919-fdx-q1-earnings-miss",
-      "time": "2026-09-19T20:15:00Z",
-      "headline": "FedEx Cuts Full-Year Guidance After Q1 Earnings and Revenue Miss",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "FDX",
-        "UPS"
-      ],
-      "why": "FedEx reported a significant miss on both top and bottom lines for Q1, driven by a shift toward lower-yield shipping services and higher operating costs. The company lowered its full-year EPS guidance, signaling weak industrial and consumer demand that serves as a negative leading indicator for the broader economy and transport sector.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2024/09/19/fedex-fdx-q1-2025-earnings.html",
-      "alerted": false
-    },
-    {
-      "id": "20260919-intc-mbly-stake-retention",
-      "time": "2026-09-19T13:30:00Z",
-      "headline": "Intel Confirms It Has No Plans to Sell Majority Stake in Mobileye",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "MBLY"
-      ],
-      "why": "Intel's public statement put an end to weeks of market speculation that it would dump its 88% stake to raise cash, which had severely depressed Mobileye's stock price. This reassures investors of stability in Mobileye's ownership structure while clarifying Intel's asset-preservation strategy during its broader restructuring.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/intel-says-it-has-no-plans-sell-majority-stake-mobileye-2024-09-19/",
-      "alerted": false
-    },
-    {
-      "id": "20260919-macro-jobless-claims-fall",
-      "time": "2026-09-19T12:30:00Z",
-      "headline": "US Weekly Initial Jobless Claims Fall to 219,000, Boosting Soft-Landing Hopes",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Initial jobless claims fell by 12,000 to 219,000, well below the estimated 230,000, indicating a highly resilient labor market. Coming immediately after the Fed's 50 basis point rate cut, this data strongly reinforced the \"soft landing\" narrative, triggering a massive broad-market rally with the S&P 500 hitting new record highs.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2024/09/19/us-weekly-jobless-claims.html",
       "alerted": false
     }
   ]
