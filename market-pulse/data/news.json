@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:57:44Z",
+  "generated_at": "2026-09-22T17:11:00Z",
   "session_date": "2026-09-22",
   "items": [
     {
@@ -79,6 +79,33 @@
       "why": "If bit supply is capped by physical cleanroom build-out rather than by wafer starts, the cycle resolves through price rather than volume, which lengthens the margin expansion runway and reduces the usual risk that suppliers flood the market into a 2027 crash. That supports a higher trough-earnings multiple for the memory maker but also implies equipment orders are gated by construction schedules, so the tool suppliers see revenue pushed right rather than lost. Stock-split chatter attached to the same story is cosmetic and has no earnings content.",
       "source": "AD HOC NEWS",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWmp3WENGeV8wa2M3N0phVnREN05aYVRYeXR4MHVCeTIzY0hnT3BGN1pFWXdkaHpCUE1mOTB4ZzlGWGFtTWlULWU4bUZNcldia2J1bU1pbmhjZkYtU1pSRUF6QW1wTVpjMWx1ek9VbzJ1eE1EbXhhNDFjWGF5RmRpUW9OcnIzUDI4Y28tQjRudnBWMlg3NFFxTlQ2dTRRT0dlQkRyOTFlR09MMkZGa2lYUDE2RWYzQ09oR1NXdlBoWm1fQVNrVnFmTlFIVWtURVZiTXdRZHI3OXk0Zw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-macro-ecb-panetta-ai-correction-warning",
+      "time": "2026-09-22T09:00:00Z",
+      "headline": "ECB Governing Council member Panetta publicly warns of an equity correction risk after the AI complex's rally",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "MSFT",
+        "META",
+        "GOOGL",
+        "AMZN",
+        "PLTR",
+        "SMCI",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "A sitting euro-area central banker flagging stretched AI-linked valuations is a signal about the policy reaction function, not about earnings: it raises the perceived probability that monetary authorities tolerate or even welcome a drawdown in AI-levered risk assets rather than cushion it. That shifts the discount rate and the risk premium applied to the highest-multiple semis and hyperscalers, where index concentration means a multiple de-rate at the top moves the whole benchmark. Earnings paths are untouched; this is purely a multiple and positioning input, which is why it scores notable rather than repricing.",
+      "source": "AMWatch",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOdnh6UjczSXNha1FpYktQZnhpek9GUFExLWtRbUNTZ2hxN0ZLbWczX01IMWdlcmVaTEg5cFlTby1ZRTlfbHlnQ3pRYjA3NFpObW9rMHBrVnplcDVjejcydzdJNUxJY1lCQ0NkejlwWQ?oc=5",
       "alerted": false
     },
     {
@@ -804,25 +831,6 @@
       "why": "Intel's Q2 earnings guidance significantly exceeded Wall Street expectations, pushing the stock past its historic 2000 record high. This strong outlook signals successful execution of its turnaround strategy and robust demand, which also provides a positive read-through for manufacturing partners like TSMC and equipment suppliers like ASML.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWth0m1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-mu-50b-revenue-guidance",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "Micron Guides to $50 Billion Revenue as AI Memory Booms - Can MU Break $1,034?",
-      "impact": 9,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "Micron issued an exceptionally strong revenue guidance of $50 billion, fueled by booming demand for AI-related memory chips like HBM. This massive projection reassures investors of sustained multi-quarter growth in the semiconductor sector, lifting expectations for key AI chip designers and foundry partners.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVW44UW9zZ0wyM0k4VzA1ZTJDaTBDWnZUSjl5dWdfSl9Na1p5bzBQdUstYk5nUlRsZDRsbnZDb0o5UWhaTlVJV2hRUUpQZnZ6b1dGRGxxOUVQbGZpekRyaG85T3FqNkNKdVplX3RPaTF3eGRXNEJJRUtLbGxmdEt4eEFERjRHbXA0MXdEdUdZdXZpV3dBY0lad1pHUXZzOU1URWE2aTgtRkFLVTdEeW5JQmhWR24?oc=5",
       "alerted": false
     }
   ]
