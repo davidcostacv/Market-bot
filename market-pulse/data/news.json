@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:16:24Z",
+  "generated_at": "2026-09-22T11:57:44Z",
   "session_date": "2026-09-22",
   "items": [
     {
@@ -79,6 +79,26 @@
       "why": "If bit supply is capped by physical cleanroom build-out rather than by wafer starts, the cycle resolves through price rather than volume, which lengthens the margin expansion runway and reduces the usual risk that suppliers flood the market into a 2027 crash. That supports a higher trough-earnings multiple for the memory maker but also implies equipment orders are gated by construction schedules, so the tool suppliers see revenue pushed right rather than lost. Stock-split chatter attached to the same story is cosmetic and has no earnings content.",
       "source": "AD HOC NEWS",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWmp3WENGeV8wa2M3N0phVnREN05aYVRYeXR4MHVCeTIzY0hnT3BGN1pFWXdkaHpCUE1mOTB4ZzlGWGFtTWlULWU4bUZNcldia2J1bU1pbmhjZkYtU1pSRUF6QW1wTVpjMWx1ek9VbzJ1eE1EbXhhNDFjWGF5RmRpUW9OcnIzUDI4Y28tQjRudnBWMlg3NFFxTlQ2dTRRT0dlQkRyOTFlR09MMkZGa2lYUDE2RWYzQ09oR1NXdlBoWm1fQVNrVnFmTlFIVWtURVZiTXdRZHI3OXk0Zw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-baba-zhenwu-v900-nvda-china-substitution",
+      "time": "2026-09-22T02:00:00Z",
+      "headline": "Alibaba unveils Zhenwu V900 accelerator with 3x prior-generation performance and a >20GW cloud capacity target",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI"
+      ],
+      "why": "China's largest cloud buyer now has an in-house accelerator it says triples the performance of its May-released Zhenwu M890 and can be clustered at very large scale for training, which converts Alibaba from a potential re-entry customer into a domestic substitute. That erodes the China option value still embedded in Nvidia and AMD data-center forecasts even if post-summit export rules loosen, and it redirects the announced >20GW/2032 capacity and multi-year AI spending toward non-US silicon, with second-order risk to the Western foundry, memory and server-assembly supply chain that would otherwise capture that build. The offsetting read is that a credible domestic alternative raises total China AI capex, supporting memory and networking demand regardless of whose logic wins.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUGRPRW9PNE9qMC1UNm8tYXUycWRsZXQxUk5Td2RGMUxOV0NmeVl1b29lMWxtNzlsakQ4d2FnYlRYLU96ZXVVLWhGSzcwWlFPUTZ0NWFyWlMzNTFWNFVqR0NnSFRJTnV1VDhWXzlvOTBZZU1nSWdaZEZIc215Wi00SjFkRHdrVmlEWTJSV2p4NVJfNUxSdHF0c1NVYVVmVEdoUTRrZFBCTU56NDNFODVNMnI4RjJ1MHYtOEs2ckdGZTZyclFRR2pDVXE5TWY1ZWdySWl4Y1A2TzZrNlo0TGwxSjM2YkU1UQ?oc=5",
       "alerted": false
     },
     {
@@ -803,23 +823,6 @@
       "why": "Micron issued an exceptionally strong revenue guidance of $50 billion, fueled by booming demand for AI-related memory chips like HBM. This massive projection reassures investors of sustained multi-quarter growth in the semiconductor sector, lifting expectations for key AI chip designers and foundry partners.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVW44UW9zZ0wyM0k4VzA1ZTJDaTBDWnZUSjl5dWdfSl9Na1p5bzBQdUstYk5nUlRsZDRsbnZDb0o5UWhaTlVJV2hRUUpQZnZ6b1dGRGxxOUVQbGZpekRyaG85T3FqNkNKdVplX3RPaTF3eGRXNEJJRUtLbGxmdEt4eEFERjRHbXA0MXdEdUdZdXZpV3dBY0lad1pHUXZzOU1URWE2aTgtRkFLVTdEeW5JQmhWR24?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-amd-earnings-drop",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "AMD Beat on Revenue, Profit, and Guidance \u2014 So Why Did the Stock Drop 7%?",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "TSM",
-        "NVDA"
-      ],
-      "why": "Despite beating Wall Street estimates on revenue, profit, and guidance, AMD's stock fell 7%. The drop suggests that high valuations had already priced in a perfect quarter, and investors may be concerned about rising manufacturing costs or competitive pressures from Nvidia.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWgycWIzMXpJOU1OaWNtTm1HRll3eGFEcllxZ0htNzgyRVFyWWJ3VHl1NGJSQnBqbUd6RU1tcXVwVVNtM0pEUWhxcmwxa3k0NF9qU1N2dnJIY0NsV2I0ZWZoTzlWamNLVHJxdjhNeEVkYmMwUEl5dUlLRVU3eHI0MDB6Y1NBLXMtRGctcDhzV3NuQ3FFa1dFbTFJNXVJemsxU2FSaDhZQXRWNVpMS3pLWVV2WGVLVTRkT0E?oc=5",
       "alerted": false
     }
   ]
