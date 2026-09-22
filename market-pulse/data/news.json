@@ -1,7 +1,86 @@
 {
-  "generated_at": "2026-09-21T22:08:51Z",
-  "session_date": "2026-09-21",
+  "generated_at": "2026-09-22T05:16:24Z",
+  "session_date": "2026-09-22",
   "items": [
+    {
+      "id": "20260922-xom-cvx-diesel-export-ban-push",
+      "time": "2026-09-22T12:00:00Z",
+      "headline": "Congressional push for a diesel export ban puts a policy cap on US refining margins",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "XOM",
+        "CVX"
+      ],
+      "why": "US refiners currently clear surplus distillate into export markets at international prices; forcing those barrels to stay onshore would collapse the domestic distillate crack toward the marginal domestic buyer and strip out the export arbitrage that has been carrying downstream segment earnings. Even at the proposal stage this introduces a policy ceiling on mid-cycle refining assumptions, which is a multiple issue as much as an earnings issue for the integrateds with large US refining footprints. Execution risk is high since this is a legislative demand rather than an enacted rule.",
+      "source": "Meatingplace",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMGExdWh6b3lnQmVPY1hKejdNYlpBcHBIdTBHNHFXcFBqTUFRUkw5d05pMlZRN3VudDJNYldKM0p4eWZVWGNNbl9RblllYmxoRTNieVNNUHlTem5jNXo4YmZFNHRSTHNvLVlIcE0zM1F0THM3Z0MtaUFENjFVaTN5aHFaWWN2QQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-nvda-china-zero-in-guidance-summit-option",
+      "time": "2026-09-22T11:00:00Z",
+      "headline": "Nvidia's $108B forecast carries zero China data-center revenue into Thursday's White House summit, making any license relief pure upside",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "INTC",
+        "MRVL"
+      ],
+      "why": "Because management has already zeroed out China accelerator revenue in the outlook, any easing of license rules at the summit is incremental revenue against an unchanged cost base, so it drops almost entirely to gross margin rather than replacing existing demand. Sources put the previously blocked H20 volume at roughly $4.6B shipped plus $2.5B unshipped, about 7% on top of the current forecast, which is the size of the optionality investors are being asked to price. The read-through runs to the foundry, memory and networking suppliers whose wafer and HBM allocations would have to be re-expanded to serve a reopened China channel.",
+      "source": "The Globe and Mail / Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQcDMxS2VMS2tmT2JtZFJJbEhDbjV2M2JBaUI0NmRfazVNcEdYWUZJLWxRTDdzbmFkZmlDTkFvZy15ZFlVSTU3REJZVzkwSGJQR1VxQlpuWlZJbXg5LUVUcGs5TzA4aEdtY05WUDRhamxGUnFWR2Jqa3BIVVBjSDZqZUdvdkEza1A0YWpDR1N2Z0xpbGh5OEFQU2hoZWEzTVdod3pyRExZa1lEdVNFeC1jdkdJTXlWYzM0aWltMkFxTXRpbmduS3dpa3ZEVWs1QzdTRUNvVHdmVkRfbkNTWko5TXlBQ09oQjc5X2twOU1VYTQzUGRLZXRaNUxxOVBKZEp6b0pnTEtNYjdzN2xfMHdzcnhoOU9vbURWN0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-macro-iran-ceasefire-risk-premium-unwind",
+      "time": "2026-09-22T10:15:00Z",
+      "headline": "Ceasefire reporting pulls the geopolitical bid out of crude just as index futures push to new highs",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "XOM",
+        "CVX"
+      ],
+      "why": "A de-escalation removes a supply-disruption premium from crude, which lowers the headline inflation path and the discount rate applied to long-duration tech cash flows, but it simultaneously compresses upstream realisations and refining crack spreads for the integrated majors. The wires conflict inside the same 24 hours: one set of reports describes a fresh presidential warning to Iran keeping the risk premium intact, another describes ceasefire reports easing fears, so positioning in energy versus tech is being whipsawed rather than repriced cleanly. Treat the energy leg as bearish and the index leg as bullish until the diplomatic status is confirmed.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONFZKSU1kV1JXbjRudTZJb0J2ZENfTzZUdktGamhWRmZUckw2OVhOU2dEdGN1Z1B5eFlfdFhlZlQwa2dkNC1wY1pTWVNYcU5aNnk3LTdnaTEtMDI1MXNKNjY4Vnp3a2ctLV9GWjBNd0gwekZVZ0FvaUNKTC1OS3Zoa2ltTEhmaXBNRjNsWEhnSmRNdzFLRzl2cFVQa29TWkpwT1hQbnloazVmWlBtR21zT1pFV3RDMzR0TExZdnd3Tk83MmQ1Vkw5eXpES1RJS293OUhBTGpBLVNScURQYXc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-mu-cleanroom-capacity-supply-ceiling",
+      "time": "2026-09-22T09:30:00Z",
+      "headline": "Cleanroom floor space, not demand, is now the binding constraint on the memory upcycle",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML"
+      ],
+      "why": "If bit supply is capped by physical cleanroom build-out rather than by wafer starts, the cycle resolves through price rather than volume, which lengthens the margin expansion runway and reduces the usual risk that suppliers flood the market into a 2027 crash. That supports a higher trough-earnings multiple for the memory maker but also implies equipment orders are gated by construction schedules, so the tool suppliers see revenue pushed right rather than lost. Stock-split chatter attached to the same story is cosmetic and has no earnings content.",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWmp3WENGeV8wa2M3N0phVnREN05aYVRYeXR4MHVCeTIzY0hnT3BGN1pFWXdkaHpCUE1mOTB4ZzlGWGFtTWlULWU4bUZNcldia2J1bU1pbmhjZkYtU1pSRUF6QW1wTVpjMWx1ek9VbzJ1eE1EbXhhNDFjWGF5RmRpUW9OcnIzUDI4Y28tQjRudnBWMlg3NFFxTlQ2dTRRT0dlQkRyOTFlR09MMkZGa2lYUDE2RWYzQ09oR1NXdlBoWm1fQVNrVnFmTlFIVWtURVZiTXdRZHI3OXk0Zw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260921-para-wbd-ag-settlement-deal-clears",
       "time": "2026-09-21T18:45:00Z",
@@ -741,69 +820,6 @@
       "why": "Despite beating Wall Street estimates on revenue, profit, and guidance, AMD's stock fell 7%. The drop suggests that high valuations had already priced in a perfect quarter, and investors may be concerned about rising manufacturing costs or competitive pressures from Nvidia.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWgycWIzMXpJOU1OaWNtTm1HRll3eGFEcllxZ0htNzgyRVFyWWJ3VHl1NGJSQnBqbUd6RU1tcXVwVVNtM0pEUWhxcmwxa3k0NF9qU1N2dnJIY0NsV2I0ZWZoTzlWamNLVHJxdjhNeEVkYmMwUEl5dUlLRVU3eHI0MDB6Y1NBLXMtRGctcDhzV3NuQ3FFa1dFbTFJNXVJemsxU2FSaDhZQXRWNVpMS3pLWVV2WGVLVTRkT0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-taiwan-ai-chip-export-rules",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "Taiwan Is Reportedly Proposing Tougher AI Chip Export Rules \u2013 Why This Matters For Nvidia Investors",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "Taiwan's proposal to tighten export rules for advanced AI chips could restrict the flow of high-performance hardware to restricted markets like China. This regulatory shift threatens to limit the addressable market and future revenue growth for major US chip designers who rely on TSMC for fabrication.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTVGODUxa1FwSHRXN1FxZ0xOcjViaWVENGJId0pmYXFkQ1BMMTRWRUx3OWljdnowVGNLaDc3YV95YkE1RGZhY0ZiZ1ozQ0F4eGd3amFvQ0VOMzdQMzJJc3BTVU14M2Z3MXExVXE1S3RnbktSYmZSUFo5c0FRYmZNM1RfVXA5LTFwNDNCZ3VrbzM4MENCeUNRaGRMRV82Qm5xR052Y2RDWjdiNFFRemtMWFNyYmJ6d1dWQmI4Ug?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-nvda-china-importer-bypass",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "$4.6 billion NVIDIA importer linked to supply network funneling restricted NVIDIA AI chips into China",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "Reports linking a massive $4.6 billion importer to a network smuggling restricted Nvidia AI chips into China raise significant regulatory risks. This could trigger stricter US government audits, potential fines, or tighter compliance mandates that disrupt Nvidia's distribution channels.",
-      "source": "tweaktown.com",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSXV2ak4yUW85X2cyRTFkb0FZQ0NxeEJkMXczOFBiWHF6bDU1T0lDeFNXMWhiVVRYTUZXMVllSU1hM2hGbG5iOTRWbGNEOWdEbGtqQkY2VTZRYkl3Q2RxRm5CZUY3OTZVMVFteGJwYVVNTVlZbU81Q2VBY3dvVDVhNTBhdi1lNVZDS1JETkEtUXpOM2hzVUQ5MS1NTnE4V3RXQlkyTzIxRl9kQXNnWnlvUWlxcHktZzA4SWRjbHh4OFRhNTBUeEtjLTJ5bnJRZTNWT29kMmsySGhPRkZjc0dXT2lZUWdFalNZV1RPVw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-mrvl-gfs-expanded-deal",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL"
-      ],
-      "why": "Marvell and GlobalFoundries expanded their partnership, securing manufacturing capacity for Marvell's chip designs. This deal helps mitigate supply chain risks and supports Marvell's production scaling, particularly for its high-demand optical and AI-related silicon.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMlluZHE1a3JPcGhVbEhLeHczb3BWS2RBSnFXY2tNTERLQ0ZCblV6dDlYTWM2LXh1ZFR5TktHYmNmYlBTZXhDTm50YTRscUxEbkZEWnppM2VwNTRxcVgwLWQwbXB6c3RraUlEXzVUangyc0VybC1QbHQ0LTItbVAtV2piS2lQb1hzWWNDV1RfSEczVlM4WE1IQk02XzVnUjg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-googl-tigress-target-raise",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "Alphabet A stock gains as Tigress lifts price target on AI momentum",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "GOOGL"
-      ],
-      "why": "Tigress Financial raised its price target on Alphabet, citing strong momentum in its artificial intelligence initiatives. This positive analyst action boosts investor confidence in Google's ability to monetize AI, potentially driving multiple expansion.",
-      "source": "AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc2NtUG5vZnFqZmtPMldtU21VdnhPNGQ4ZmwxMUU5ZGJiVnNNaGUtdU1hUGctcUlPbFItaTBWeG00Tm1PLTZWOGNnTmh6LUV3MndkeE5VVXRBY3JBSXQyUUJaYWljTEVFcFRSR09MOUZ1c0NVUHFOb2xTNE16YzFzX2VVR0RQMTRPQV9YVjNtcEpERmxWZDY1MHFsamNWeEY4NkNSWWdZNGt3UDRVdFpHYTBBcmlIVDZyZlJMRjE1SEc3R1REVE12VVBB?oc=5",
       "alerted": false
     }
   ]
