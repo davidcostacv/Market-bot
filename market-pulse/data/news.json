@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-22T17:11:00Z",
+  "generated_at": "2026-09-22T21:34:52Z",
   "session_date": "2026-09-22",
   "items": [
+    {
+      "id": "20260922-aapl-m6-mac-launch",
+      "time": "2026-09-22T13:00:00Z",
+      "headline": "Apple's M6-class Macs reach customers, pushing on-device AI silicon into the installed base amid memory cost inflation",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AAPL",
+        "TSM",
+        "MU",
+        "QCOM"
+      ],
+      "why": "Ship-date arrival converts a previously announced refresh into revenue recognition in the December quarter and lifts Mac average selling prices through higher-tier silicon and memory configurations, partially offsetting the DRAM cost inflation squeezing the wider PC market. Apple's vertical integration and long-dated memory contracts let it absorb component inflation better than commodity PC OEMs, so the refresh is a share-gain vector rather than just a unit event. Foundry read-through is to TSMC, which fabricates the leading-edge parts.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQll2TjBsdExJVjg2S1kxUmNESEM1Nl94THgwWkpVTHFGU055TU5qY0RhTFRIYXZYR3J1bFMxcHJvd2k3RXdSNUtGQmJRVWhJLVRyYTRuUzJHLWJjcFd5TnFMakdRSm5vVlBvZTc3YjM2RWo1VVJKLTJrTlpxaDh1QWw2STJoWlRTdXZibi0yWDZmV2F5WE05UjdILUlFV0lwZ0xMZGhWbG9ZR2FUbVZMeg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-mu-stifel-reiterate-pre-earnings",
+      "time": "2026-09-22T12:30:00Z",
+      "headline": "Stifel reiterates Buy on Micron with $1,500 target into the Sept. 30 print",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "A sell-side reiteration this close to a print functions as a pre-announcement read on contract pricing and HBM allocation rather than new information on the quarter itself; it anchors buy-side expectations for the November-quarter guide, which is what the stock trades on. Because Micron is the first major memory reporter of the cycle, the guided gross-margin path sets the demand marker the rest of the AI hardware complex is priced against. Risk is asymmetric: with the bar raised, an in-line guide is a de-rating event.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdVhrVkNJVDhDc0ZlS1R1UlF0WGgzMVA4anpDRlRkT2JqTnA4UWV6YjNpcEU0VnVBUXNQZ3ZRdDQwWGEzSzJpTzVFVG1rSnRtelIycGs2bmJubzFrSE96dkRRbGI4OXdMbzc1SGFvR01GcTF2MjlJU20wVm5oelFVcEp3UEh2THBBT3FSV3BiUW9Da1lVd1c3T2hWaGxqbS1nclQ1RWMxRF9MQlAzemZEOHNDSHJDY3NqVXItUXFB?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260922-xom-cvx-diesel-export-ban-push",
       "time": "2026-09-22T12:00:00Z",
@@ -41,6 +77,24 @@
       "why": "Because management has already zeroed out China accelerator revenue in the outlook, any easing of license rules at the summit is incremental revenue against an unchanged cost base, so it drops almost entirely to gross margin rather than replacing existing demand. Sources put the previously blocked H20 volume at roughly $4.6B shipped plus $2.5B unshipped, about 7% on top of the current forecast, which is the size of the optionality investors are being asked to price. The read-through runs to the foundry, memory and networking suppliers whose wafer and HBM allocations would have to be re-expanded to serve a reopened China channel.",
       "source": "The Globe and Mail / Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQcDMxS2VMS2tmT2JtZFJJbEhDbjV2M2JBaUI0NmRfazVNcEdYWUZJLWxRTDdzbmFkZmlDTkFvZy15ZFlVSTU3REJZVzkwSGJQR1VxQlpuWlZJbXg5LUVUcGs5TzA4aEdtY05WUDRhamxGUnFWR2Jqa3BIVVBjSDZqZUdvdkEza1A0YWpDR1N2Z0xpbGh5OEFQU2hoZWEzTVdod3pyRExZa1lEdVNFeC1jdkdJTXlWYzM0aWltMkFxTXRpbmduS3dpa3ZEVWs1QzdTRUNvVHdmVkRfbkNTWko5TXlBQ09oQjc5X2twOU1VYTQzUGRLZXRaNUxxOVBKZEp6b0pnTEtNYjdzN2xfMHdzcnhoOU9vbURWN0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-mrvl-forecast-raise-not-rewarded",
+      "time": "2026-09-22T11:00:00Z",
+      "headline": "Marvell's raised multi-year growth outlook is failing to lift the stock, signalling AI custom-silicon expectations are fully discounted",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "NVDA",
+        "TSM"
+      ],
+      "why": "Management now points to faster data-center growth in fiscal 2028 than fiscal 2027, yet the shares did not re-rate on the upgrade, which means the incremental buyer is discounting custom-ASIC design wins already and the multiple, not the revenue line, is the binding constraint. That matters beyond Marvell: if accelerating AI guidance no longer buys multiple expansion, the same de-rating risk applies to the merchant and custom-silicon peers whose valuations embed similar out-year ramps. Watch whether the October investor day converts backlog language into committed program economics.",
+      "source": "Trefis",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQkEyWU1zbFlHelFKWDFxXzVmbWxJdDR5aXppdVlqYlQyb254WXFZdzNzTjhKRjZTelBpdmdJRFg1UGVXd1F6MEhGTVRFSldYNi1SaW82WWloamFhUkNwbllCWW1IeGFHUEdrQ0FQb21PaWpPeHk2M1cwTmxBWWIwTVFKc21kN2xfRkJ3TXAxblhoNVN3X003a09LMjdIMXFxN1ZWV09nSVFhWjA2d2h2VHhNWFF5YWwxZFNaMjI0d1M3TGVVVTdGaEM2RXJXdjJSTFE?oc=5",
       "alerted": false
     },
     {
@@ -106,6 +160,24 @@
       "why": "A sitting euro-area central banker flagging stretched AI-linked valuations is a signal about the policy reaction function, not about earnings: it raises the perceived probability that monetary authorities tolerate or even welcome a drawdown in AI-levered risk assets rather than cushion it. That shifts the discount rate and the risk premium applied to the highest-multiple semis and hyperscalers, where index concentration means a multiple de-rate at the top moves the whole benchmark. Earnings paths are untouched; this is purely a multiple and positioning input, which is why it scores notable rather than repricing.",
       "source": "AMWatch",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOdnh6UjczSXNha1FpYktQZnhpek9GUFExLWtRbUNTZ2hxN0ZLbWczX01IMWdlcmVaTEg5cFlTby1ZRTlfbHlnQ3pRYjA3NFpObW9rMHBrVnplcDVjejcydzdJNUxJY1lCQ0NkejlwWQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-mu-taiwan-strike-vote-mediation-fail",
+      "time": "2026-09-22T04:00:00Z",
+      "headline": "Micron Taiwan unions to launch formal strike vote after second mediation fails, days before FQ4 results",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "SMCI"
+      ],
+      "why": "Micron's Taiwan operations carry a large share of its DRAM and HBM output, so a walkout by a workforce of roughly 10,000 would hit wafer starts in the tightest memory market in years and would show up directly in shipped bit volumes and yields. Even without a stoppage, settling a profit-sharing formula tied to operating profit permanently raises Micron's fixed labor cost base at the exact moment margins are the bull case. The offsetting channel is price: any output loss tightens DRAM/HBM further, lifting contract pricing for all memory sellers while raising bill-of-materials cost for accelerator and server builders.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSy1pVHctdWszS0J3eWJRRFU0Z19jMU5QclBoSS1wVnhKNHJLUmhvTWdsMkVJeG9pMlY4X2w5SU5pQTJ2clZFclNYSTJBUVBBQmg5WXFyNHV0Q2xvSE8yMTJPWGl5V3pVUG1sRGxMbDRHS21MSENKNDZzNTAtWlF0Q0VMLXpzOXJaVnpiTlBB?oc=5",
       "alerted": false
     },
     {
@@ -761,76 +833,6 @@
       "why": "A fixed date converts an open-ended policy overhang into a binary event, which is why implied vol in semis and China-exposed mega-caps should build into it rather than bleed. The attendance of chip and platform CEOs signals export-licence scope and tariff carve-outs are live agenda items, and both sit directly in the revenue line for Nvidia and AMD China sales and in Apple's supply chain cost base. Either direction is a multi-quarter reset, so positioning ahead of it is itself a market driver this week.",
       "source": "finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBheHBIT01ZVzk5S0NaZDF1cHE0VDNLTE1xamV4cmNiTVhKRUdKa0FHWDNqQUs3SFQ5MjRCTzhlbDBWT0I2bVhJVGU5OFNXZEdPYWtySDVPdFR6TGdlQXZob0ZYSVFvZFlRM0pFakRJeVA3OWVSWFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-nvda-spacex-orbital-compute",
-      "time": "2026-09-20T09:45:00Z",
-      "headline": "Musk says Nvidia AI chips will fly on SpaceX hardware starting next year; NVDA rises, SPCX falls post-earnings",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "SPCX"
-      ],
-      "why": "Orbital datacenters open a demand channel that is not gated by terrestrial grid interconnect or substation lead times, which is currently the binding constraint on how fast GPU shipments convert into deployed capacity. For Nvidia this is incremental unit demand from a buyer with its own launch capacity, so the cost curve is internalised rather than capex-limited. The divergent stock reaction \u2014 Nvidia up, SpaceX down \u2014 shows the market reading it as a cost line for the launch operator and a revenue line for the chip vendor.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-nvda-huang-policy-influence",
-      "time": "2026-09-20T08:30:00Z",
-      "headline": "Huang emerges as the administration's principal AI adviser as Nvidia resists an industry-wide R&D slowdown",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU"
-      ],
-      "why": "Regulatory risk is the largest non-fundamental discount applied to Nvidia's multiple, and a seat at the drafting table for export and compute-governance rules lowers the probability of the tail scenario where licence regimes cut off a whole geography. It also means any restrictions that do land are more likely to be shaped around Nvidia's product roadmap than against it, a relative advantage versus AMD and merchant ASIC suppliers. This is a multiple input rather than an estimate input.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYXlmUWRDRjFpQzA3SVdkbUZIZzRnbGl5R3JBOXBiUl9adXVveEdfRVhyOU9Da095WnlNcF9xSFpzN3k0bWJZelA0X203cWJ0WFoyQVRQRmo4NndMRjVKZjdiOElZMEo3bVFrNnBjR0RoVmQwSGR6Zkh5SXpoMzlJejhzb0RpdGFPWTg4WEFKZUtmX3JFc0x6M1RPRjhmZ3pSUk5qTnZ0M0pUcDdUM05NMmduNHZMOVdvajljZ0p3M2YwUE9fWEtMME8ycFRKYm14WVh5T25RVEdkRWtVRVgtR2NydHpERVRySmc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-mu-cxmt-platform-mass-production",
-      "time": "2026-09-20T07:15:00Z",
-      "headline": "China's CXMT says new memory-chip platform has entered mass production",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML"
-      ],
-      "why": "Memory is a commodity where marginal supply sets the price, so a credible Chinese entrant moving a new DRAM platform from pilot to volume threatens the pricing discipline that the entire memory upcycle earnings model depends on. Even if CXMT's bits are aimed at commodity rather than HBM tiers, they free up incumbent competitors' mainstream capacity to chase the same high-margin sockets Micron is guiding on. The offset is that China's ramp requires tools, which supports WFE demand at the equipment names despite export-control friction.",
-      "source": "WTVB",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFpzRHJhNWFLbVg1RHQzOG1GelVqNkM0eE5YMHJrTkJERnhPZEZ0UzVidjJGOVl2NUNERVRlcUhoR3dzbldhLVlNTW1pUDlPRTRBdEZWMmVCZDJac2FXRXJyN0pmRC1ycFAyQUJqMG9IQmZudHFfdzNqa0d0UTZnZkU2ZUFxY3EzTjVNLXVFa3JuQ0h1VEg2WV9JRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-intc-q2-earnings-guidance",
-      "time": "2026-09-20T00:00:00Z",
-      "headline": "INTC Stock Soars Past Its 2000\u2019s Record Closing Price After Q2 Earnings Guidance Roars Past Wall Street Estimates",
-      "impact": 9,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "ASML"
-      ],
-      "why": "Intel's Q2 earnings guidance significantly exceeded Wall Street expectations, pushing the stock past its historic 2000 record high. This strong outlook signals successful execution of its turnaround strategy and robust demand, which also provides a positive read-through for manufacturing partners like TSMC and equipment suppliers like ASML.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWth0m1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
       "alerted": false
     }
   ]
