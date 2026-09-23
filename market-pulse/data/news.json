@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-09-23T17:22:56Z",
+  "generated_at": "2026-09-23T21:41:04Z",
   "session_date": "2026-09-23",
   "items": [
+    {
+      "id": "20260923-macro-energy-rally-inflation-passthrough",
+      "time": "2026-09-23T16:00:00Z",
+      "headline": "Crude rally drags broad equity indices lower while lifting energy complex",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Higher crude feeds directly into the input-cost component that is currently driving the rate-hike repricing, so energy strength is now a net negative for index-level multiples even as it raises upstream cash flow estimates. For integrated names it is a straightforward earnings upgrade through realized prices and refining spreads; for the index it tightens financial conditions by keeping headline inflation sticky into the October FOMC. The two effects work in opposite directions, hence the mixed tape.",
+      "source": "Sharecast.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSkp1R2w3SEo1bk92c3pLTlZORU9yaGp5REwzX3MyMzlMMjc4Q0o1b19Td1NqeFNTMEU5OW5FTXBmS1Y2V3hLUGFKYmxHWFJiZ05OWWhGTUVpSzJ6OTd6MFk0OVNVMFBTVHFCZ19lV0J6WVg1b0pBM3JsQ0dmZGxNZkRlV3liY0lDaTBjeVJoSTVXQm9QV3BfeExpTTd2ZDhkU1RhX2QxaUE4M3JPbWJISUp0Ul9oc3gxT29j?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-macro-imf-ai-debt-financing-warning",
+      "time": "2026-09-23T15:00:00Z",
+      "headline": "IMF flags debt-financed AI capex as a trigger for an abrupt equity repricing",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "ORCL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "AVGO",
+        "SMCI",
+        "MU",
+        "PLTR"
+      ],
+      "why": "The IMF's point is a funding-mix change: AI capex is migrating from internally generated cash flow to credit, which converts a capex cycle into a leverage cycle and links equity multiples to credit spreads. If spreads widen while yields are already at multi-decade highs, the marginal datacenter buildout gets deferred, and deferral hits the order books of accelerator, memory and server-integration suppliers before it shows up in hyperscaler revenue. It is an official-sector framing that institutional allocators use to justify trimming crowded AI exposure.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVEkzNWE5eDRQaVp2Mld2NzdfV1JnaUlYRnhCaDluZXFEaENJb2xBZVlFbUdUMDNDY3E4dkpQSW4ycm9zTk50QXZYbXFDSVhjQTlqZUtYWkpVWllKSW0zUTdVaG5IYzNiMHhORnB4ejBBWml6dWNPY3dmbEZUeGQwcXZGNVdFZ0ZXVENtd2ZiTTFyeGJQSkVrU05RVjg?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260923-macro-barr-signals-further-hikes",
       "time": "2026-09-23T14:07:00Z",
@@ -29,6 +72,31 @@
       "alerted": false
     },
     {
+      "id": "20260923-macro-treasury-yields-october-hike-odds",
+      "time": "2026-09-23T14:00:00Z",
+      "headline": "Treasury yields spike to multi-decade highs as October Fed hike odds jump to ~66%",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "PLTR",
+        "TSLA",
+        "AMD",
+        "SMCI",
+        "JPM",
+        "GS"
+      ],
+      "why": "The long end repricing toward and through 5% raises the discount rate applied to the longest-duration cash flows, which is exactly where the AI/mega-cap complex sits; a two-thirds probability of another hike in October means the terminal-rate path, not earnings, is now the swing factor for multiples. It also raises the cost of the debt increasingly used to fund datacenter capex, squeezing the financing spread behind AI buildouts. Small caps and leveraged balance sheets in the Russell are hit hardest since their funding costs reset immediately.",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMOGx4MkZURnVjUExNcnhnajRQQ0dnN0hieTVZUEtlQUp2cjdmRWpGZXFub2VxSVByYlVKUnpWSm9kb09DQ2h1UTJMa1pKSlVwbHhYR29jZ3I4ZUR1MGo1SHpwQUQ4U3BkOHhUUGVfOWQyb3Q1QU9ZcEpzX05Ld1BCNktGcUJCRzkxUnBYVmhYWXBBOVF5MUZuS1pZdVJMVG9sWHdEMTljYXRjVC14QUY0RlJsdDY4WlhQbm1fak4?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260923-macro-flash-pmi-five-year-high",
       "time": "2026-09-23T13:45:00Z",
       "headline": "US flash composite PMI jumps to 58.4 from 56.0, with services 58.7 and manufacturing 57.0 \u2014 strongest private-sector activity in about five years",
@@ -52,6 +120,50 @@
       "why": "An upside activity surprise of this size, with survey price components still firm, removes the cyclical excuse for a Fed pause and pushes the terminal rate expectation higher one week after the first hike in three years. Higher discount rates compress the terminal multiple on the longest-duration cash flows, which is precisely where the AI/semis complex and the megacap growth names sit; the earnings path is unchanged, the multiple is not. Small caps take a second hit through floating-rate debt service, which is why IWM underperformed on the print.",
       "source": "Investopedia",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYVRPOVNCdGVnWFc3VkNvU2ZSYXlMbzExX08tQm1tMUlsX19rUG1aV2t5akZueXpQYjN4QkcwTm9BOFZ2Z1F0OUV1ZWhqbWFFTmR6T2o4dWNOOHVydmthWU5lbm1sZnBwT2xYaE9yVlJ6Yi1mMllIa19JODZQVkQ5SWtuMUdzd2xTUXR2R2trQWtBRC1TWmE4ZVM0RE53anhfSU1HVnF2Q3FTc213TE1ITVZHT1FtUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-semis-senate-chip-export-bills-floor-push",
+      "time": "2026-09-23T13:30:00Z",
+      "headline": "Senate Democrats press leadership to floor three bills restricting chip and chipmaking-equipment sales to China as Xi arrives in Washington",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "MU",
+        "TSM",
+        "QCOM"
+      ],
+      "why": "Codifying export limits in statute removes the executive's discretion to trade chip access for concessions at a leaders' summit, which is the main channel through which the market has been pricing a China re-opening option for accelerator and toolmaker revenue. Equipment names carry the larger direct exposure because China remains a disproportionate share of WFE shipments, while accelerator vendors lose the optionality embedded in current guidance. Timing matters: legislative momentum during the summit caps how much can be given away, so any China-upside scenario in models gets discounted.",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWlHZ3pXenBHSkNGOXBCeUNqSFdQT0MyYWtiYVgtR0g5VVQtV2N1ZXp2NUtGUFliS25jMHItbWRwN3ZaeFVvaDdJTXlfa0trQTU5XzdCNGJPcHpyclhVN3Npc0ZrRHprQnlLbzJqWEY1cHNuSDlkZm1RS2VRR1NGQlVHRkxUZUZpd3NOZXJBUkJCNTNQTHg5YUk3QmJ0amJRenBB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-macro-job-loss-fear-13-year-high",
+      "time": "2026-09-23T12:30:00Z",
+      "headline": "Household fear of job loss reaches highest level in 13 years",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "AMZN",
+        "TSLA",
+        "META"
+      ],
+      "why": "Rising perceived job insecurity typically precedes a lift in the precautionary savings rate, which compresses discretionary spend and ad budgets tied to consumer conversion. It also complicates the policy path: the Fed is tightening into an economy where the labor-market confidence channel is already deteriorating, raising the probability of a policy-error outcome that equity risk premia are not currently pricing. Consumer-exposed platforms and small caps carry the most operating leverage to that shift.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDgyODQwME5SUTZ6SnY2NmY4dlQ1WnRRMDZKbHJwZnhGU3lILTR1MWN6Rkh3SmFaTEliM3RlOEJmai1jWmFaS1BDanJJcDV4TGw0UzFXSDFjcHFrRk5tRmlfRE5TbDVzcEZZV0Jtcnl5Y3ZJQXhBdThVTkJaaFBndXNmbUNjRk1Nb0NOdUw0OGFnWnByRUVieGdCU2hCWVppcmpV?oc=5",
       "alerted": false
     },
     {
@@ -729,112 +841,6 @@
       "why": "Interconnect is becoming the constraint as cluster scale-out shifts spend from compute silicon toward optics and switching, and breadth of portfolio is what wins multi-year hyperscaler sockets rather than single-product wins. Demonstrating a full stack positions Marvell to attach optics revenue to custom ASIC programs it already holds, raising dollar content per rack. It is incremental rather than a contract, so the earnings effect is a 2027 design-win question, not a current-quarter one.",
       "source": "Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcTFMcWp6Wll4dUpVWlloWmE0T0JJSV96RkdtNDVRcDNTMXNKbzlncFYzWE90ZjBvdHJYdjRzT2lDUVFSZWtyVDZwTzlkTDBKT0VBdzNhRDdoNWFjUnQwd3FxMC1SUjJHaHF3UlRmNE5seTAxel9HZXJGVXhfLWJGbEVzR3hybVdoN0sydmtyMFFkQ2hWb2NKbGpNT3NkeXVRV19hUGpEcS1aLUFFdGw5cEpfWUJVWElVd001b2pTOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-asml-single-day-buyback-pace",
-      "time": "2026-09-21T07:00:00Z",
-      "headline": "Semicap supplier executes \u20ac124M of share repurchases in a single session",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM"
-      ],
-      "why": "Repurchase intensity at this daily run-rate signals management sees the order book as funded and the shares as cheap against its own bookings visibility, and it mechanically shrinks the share count supporting forward EPS. For a capital-equipment name the buyback pace is also a proxy for confidence in the next leg of litho and deposition orders, which the rest of the tool chain trades against. It is a capital-allocation datapoint rather than a demand datapoint, so the earnings effect is arithmetic rather than fundamental.",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSE5XUnlVMUxCZmw2OUNHUXBWY000SHQzOVdlZ2Vfa1A3ZnhMZ0VNVTQzTXNBQTFWNGhjZEN4c2RBb0drVG5uWHhKYVZiblk5LUdCMHN4emE0bl9ldGlfQ3FUS1hnV2dCNzdFcm9QSmhaaXVCc0NhREE2QzNvOUxQODlVQUZ1NEdaVjQ0aXhtWHJGS2ZoeEptOER6QUotWGRvLTNYb1VYUUVDZFJRSXVQZnFn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-nand-essd-supply-reallocation",
-      "time": "2026-09-21T06:00:00Z",
-      "headline": "Enterprise SSD demand is pulling NAND wafer supply away from consumer bits, tightening the whole flash market",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "SMCI",
-        "NVDA",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "AI inference clusters need high-capacity eSSD for checkpointing and data staging, and suppliers reallocating wafer starts to that bin removes bits from the client and mobile pools, which is the mechanism that flips blended NAND ASPs positive. For memory makers this raises gross margin on an already-improving DRAM cycle because the second product line stops being a drag. It also pulls forward capex intent at the toolmakers, since converting and adding layer count is the only way to add eSSD bits quickly.",
-      "source": "TrendForce",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WSW5HUy1UMW1MLUVvTjNaQV9PQTc4LWNfazRTcWZvYkFpZnlnSjdKMTdRdkhoX1dUR2NON3VNMGVsVmtGcmZtSldTUGg2dThWcktUR1B3SjVCZm84WWRn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-asml-tsm-larger-substrate-roadmap",
-      "time": "2026-09-21T05:30:00Z",
-      "headline": "ASML and TSMC push toward larger substrate formats for building AI chips",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "NVDA",
-        "AVGO",
-        "AMD"
-      ],
-      "why": "Reticle-limit constraints now cap accelerator die size, so moving to a bigger canvas is the practical path to more compute per package and it requires a fresh tooling cycle across litho, deposition, etch and inspection. That converts a physics problem into a capex line, extending the equipment upgrade runway beyond the current High-NA transition. For the fabless customers it means higher packaging cost per unit but a continued performance roadmap that protects ASPs.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUndTUWs2S1BiM3dTOUhPclo5bWktUzVNczJxRV93NWNva2xkTUZHRXgtb1pJM3JqQTFUc0FYTnFxMTBXV2N4dUNMcWFDOGRWMGM0WGo2c1JKMVlQRGh6MGpwaXY3NmFkNWlfT3dyNWpWR3YyUzdFZld2LUdhYjJQc190Z1ZjSUlFbzd5TU5LdTFSVktG?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-uschina-ai-alert-mechanism-chip-rally",
-      "time": "2026-09-21T05:00:00Z",
-      "headline": "Proposed US-China AI incident-notification arrangement surfaces pre-summit as Asian chip names rally",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MU",
-        "AVGO"
-      ],
-      "why": "A bilateral communication channel on AI is the kind of confidence-building step that usually accompanies a pause or narrowing of new entity-list and licensing actions, and export-restriction risk is the single largest discount currently applied to semi multiples. If restrictions plateau, the China revenue line stops being modelled toward zero, which is worth more to estimates than any near-term unit demand change. The Asian supply chain rallying first is the tell that positioning was short policy risk.",
-      "source": "techi.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rZE5GUlp1S1JnNXFkelNiVUZmWmVBaTFMNzVJbmtYYmREdGp3TERzaEJVaHZpeU8wSGVJbmdrVmotNHpaY1JjOVJ3NFpRY2QxQmdMdy1zc0xtWndONHJYcG92X1V5VTY1VlZqX3dFYWZFVzZCTkhtSg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-china-us-cloud-access-restrictions",
-      "time": "2026-09-21T04:15:00Z",
-      "headline": "US cloud computing restrictions aimed at closing China's remote-access workaround under scrutiny",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MSFT",
-        "AMZN",
-        "GOOGL",
-        "ORCL",
-        "AVGO"
-      ],
-      "why": "Export controls to date policed hardware shipments while leaving Chinese customers able to rent restricted compute offshore, so extending rules to cloud access closes the largest remaining demand channel and removes revenue that hyperscalers and accelerator vendors currently book without disclosure. The mechanism hits Oracle and the cloud providers at the contract level and Nvidia and AMD at the deployment level, since that rented capacity was still bought as silicon. It also raises compliance cost and know-your-customer burden across every region where Chinese entities can transact.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVRqQUpKTUtOdmRKY0xmMmhyTWJyWW9ENVM4cFljb2cxX1ZLRzQ0QktDY19DY2ZYNWV1RDQzU09DSVlwejRsTjhIS3J0UllHbmVBWnllMWp0RlhJbzhSOWdFYzV2TXFQNHlzLXZLS1dYMWdyVW92Tk1BWVZ4ZEVUMVIyS0ZMaThqejJSaWNIOGtpdnkzSnc2UTFpcVJyQWpBWGt4VmRSb0RUMnM0SkV6VlJoQnplak02LUpUbl93?oc=5",
       "alerted": false
     }
   ]
