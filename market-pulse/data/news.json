@@ -1,7 +1,96 @@
 {
-  "generated_at": "2026-09-23T11:59:05Z",
+  "generated_at": "2026-09-23T17:22:56Z",
   "session_date": "2026-09-23",
   "items": [
+    {
+      "id": "20260923-macro-barr-signals-further-hikes",
+      "time": "2026-09-23T14:07:00Z",
+      "headline": "Fed Governor Barr says further policy tightening is likely needed to bring inflation down, a week after the FOMC's first hike in three years",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "PLTR"
+      ],
+      "why": "A sitting governor framing last week's hike as the start of a sequence rather than a one-off shifts the market-implied path from 'one and done' to further tightening, repricing the entire front end and long-end yields with it. That is a direct valuation event for the high-multiple AI complex and a margin problem for rate-sensitive lenders, where funding costs reprice faster than loan books and mark-to-market bond losses deepen. Firmer energy costs \u2014 Brent back above the $100 handle \u2014 reinforce the sticky-inflation argument he is making, so the hawkish read is unlikely to fade on the next data point alone.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORGVnVHpiUGd6bWtKMFNLVFZrcFg2VE9COXJDVmIyU2pRMWh3MU42ODJhdGJzaGxob25fcFI0LTBqQWt2cC12c0dRMldmc3preGo0M0RIZGpOWWhNU2xjVzFuMkUtTDFPb0phZVFFU0JGazQ1MU5wSl9vcU9NMUZMb3hHbFBya01OcUppVFhMRGkyOUp3dUxhQXc1ZjFRcWNh?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-macro-flash-pmi-five-year-high",
+      "time": "2026-09-23T13:45:00Z",
+      "headline": "US flash composite PMI jumps to 58.4 from 56.0, with services 58.7 and manufacturing 57.0 \u2014 strongest private-sector activity in about five years",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "PLTR",
+        "MSFT",
+        "AMZN",
+        "META",
+        "TSLA",
+        "AVGO",
+        "MU"
+      ],
+      "why": "An upside activity surprise of this size, with survey price components still firm, removes the cyclical excuse for a Fed pause and pushes the terminal rate expectation higher one week after the first hike in three years. Higher discount rates compress the terminal multiple on the longest-duration cash flows, which is precisely where the AI/semis complex and the megacap growth names sit; the earnings path is unchanged, the multiple is not. Small caps take a second hit through floating-rate debt service, which is why IWM underperformed on the print.",
+      "source": "Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYVRPOVNCdGVnWFc3VkNvU2ZSYXlMbzExX08tQm1tMUlsX19rUG1aV2t5akZueXpQYjN4QkcwTm9BOFZ2Z1F0OUV1ZWhqbWFFTmR6T2o4dWNOOHVydmthWU5lbm1sZnBwT2xYaE9yVlJ6Yi1mMllIa19JODZQVkQ5SWtuMUdzd2xTUXR2R2trQWtBRC1TWmE4ZVM0RE53anhfSU1HVnF2Q3FTc213TE1ITVZHT1FtUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-ionq-nvda-nvaqc-superion-deployment",
+      "time": "2026-09-23T12:00:00Z",
+      "headline": "IonQ to install Superion 256 as the first on-premise QPU at Nvidia's Accelerated Quantum Research Center, linked to a GB200 NVL72 via NVQLink",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "IONQ",
+        "NVDA",
+        "IBM",
+        "RGTI"
+      ],
+      "why": "This converts IonQ's roadmap from a research narrative into a delivered system sitting inside the reference customer's own facility, which validates the hardware and creates a template other national labs and hyperscalers can procure against. For Nvidia the mechanism is defensive moat rather than near-term revenue: NVQLink and CUDA-Q become the control plane for hybrid quantum-classical workloads, meaning every quantum deployment pulls accelerated-compute racks alongside it. The companion error-decoder result matters because it implies classical error correction is not the scaling bottleneck, pushing out the timeline risk that has kept the sector's multiple speculative.",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbjhEX0w4V2lJdGpPLU5EdmZMekNEdlRiLUV2VmQtYWhzYlJvN2RUWkxBS2lWdGlHcTJEQnJKZDR4dUFkd0ZCV0lrdmZ1Nk1iOGRDWk05bnRIaHRINkdMdmVHQkV2dUJLdmhZcV92YW1NWHhmb25hdnhXREpMMENNRzI3ckwxYk5VYmpjRGFn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-smci-rack-scale-reference-blueprint",
+      "time": "2026-09-23T11:00:00Z",
+      "headline": "Supermicro publishes a 16-rack data center reference design built around 1,152 Nvidia AI accelerators",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "ANET",
+        "AVGO",
+        "MU"
+      ],
+      "why": "Validated reference architectures shorten enterprise procurement cycles and shift Supermicro's mix from box-level sales toward full rack-and-cluster deliveries, which carries higher dollar content per order even at thin gross margin. It also locks the design around Nvidia's rack-scale topology, pulling through networking silicon and HBM-heavy memory content per deployment. The read is incremental rather than transformative \u2014 it signals demand shape, not booked backlog.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnd5bjROenRrbjVDVmtUVlJSZ0MwMkhGZndSaE11Q3BzLVowRkd1OWpUNWpudm56a00wcTZ3a0FYT1JjY2JGenY3ckc3QTBDSEpfemVkU2VEaE4zZkc1dnhPNVJNa2xGNjN3OTdkdDZHMGhFYXRmeV9kUi1vQzdyRC1SeWR6a0Znb1JOLTUxdmxTNmQ4V0lIWUFEWldGWEYxWnlKMg?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260923-nvda-nscale-bytedance-offshore-loophole",
       "time": "2026-09-23T10:00:00Z",
@@ -37,6 +126,32 @@
       "why": "A state-asset regulator inventorying installed base is the standard precursor to a procurement mandate, and reporting puts Broadcom switching at up to 90% of equipment in some state-owned data centres, so the exposed revenue is concentrated rather than incremental. Displacement toward Huawei and H3C would hit Broadcom's highest-margin Tomahawk/Jericho merchant silicon and attached software, compressing both the growth rate and the multiple investors pay for the 'AI networking' half of the story. Read-through is negative for every US merchant networking supplier selling into Chinese hyperscale, since the same policy logic extends beyond one vendor.",
       "source": "Yahoo Finance / Stocktwits (citing Financial Times)",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVi1aZDZmUWlwREV1Zm9rSGZobFJjc0xYbTZhS0NrVWF1QVh5REZrRUZfRU1qM1FaWVhwTTBjMUxtRjBZR3JIMnhRbWlGU0dxU2wta2FkUGZNemtWZWdFZ3p6d0lQZDBWT0hRWElzNGJ4enI0OWthN1d3Y2RMaTZMLUZOR1duWnF5a0Q0WnVNRVJqeHdkbjNiUjBVbXFFdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-semis-xi-trump-summit-tech-concessions",
+      "time": "2026-09-23T06:00:00Z",
+      "headline": "Xi heads into Sept. 24 Washington summit seeking technology and export-control concessions, with little pressure to offer trade give-backs",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "INTC",
+        "MU",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QCOM",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "The China revenue line is currently carried at or near zero in most US chipmakers' guidance, so any licensing relaxation out of the summit is pure upside optionality on volumes already excluded from consensus, while a breakdown re-tightens entity-list and equipment rules and caps the\u670d\u52a1able market for the toolmakers. China's improved export position reduces Beijing's incentive to trade concessions, which raises the variance of the outcome rather than its direction. Positioning into a binary geopolitical event of this size typically widens implied vol across the SOX complex before it resolves anything fundamental.",
+      "source": "NTD",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGdzZUoyaGgtQlNvVTk0Q29ZR3JjbXJ3bENuVzlBQzlYSGpsZmhzQWxjMnRTazRJQ2s4OFhUa0hSdEpHbElMNVlfTUliLVF5bWdhSWoxRDQ4bzZMNlYxZUhGR3NUbFFUU2psMUhfQmZBa1JwZUllVGlIdDltWDlIM1NXRVN5Z3dQaHU1b0FmLUdYRVdlVUh5MnQxSDItQVJNbEE?oc=5",
       "alerted": false
     },
     {
@@ -720,115 +835,6 @@
       "why": "Export controls to date policed hardware shipments while leaving Chinese customers able to rent restricted compute offshore, so extending rules to cloud access closes the largest remaining demand channel and removes revenue that hyperscalers and accelerator vendors currently book without disclosure. The mechanism hits Oracle and the cloud providers at the contract level and Nvidia and AMD at the deployment level, since that rented capacity was still bought as silicon. It also raises compliance cost and know-your-customer burden across every region where Chinese entities can transact.",
       "source": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVRqQUpKTUtOdmRKY0xmMmhyTWJyWW9ENVM4cFljb2cxX1ZLRzQ0QktDY19DY2ZYNWV1RDQzU09DSVlwejRsTjhIS3J0UllHbmVBWnllMWp0RlhJbzhSOWdFYzV2TXFQNHlzLXZLS1dYMWdyVW92Tk1BWVZ4ZEVUMVIyS0ZMaThqejJSaWNIOGtpdnkzSnc2UTFpcVJyQWpBWGt4VmRSb0RUMnM0SkV6VlJoQnplak02LUpUbl93?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-skhynix-offering-oversubscribed",
-      "time": "2026-09-21T03:45:00Z",
-      "headline": "SK Hynix share offering reported oversubscribed multiple times despite prolonged memory selloff",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Institutional demand clearing an equity raise several times over while memory equities are being sold tells you the marginal long-term buyer disagrees with the public-market derating, which caps downside on sector sentiment into Micron's print. The capital also funds HBM capacity, meaning supply arrives later and competition on 2027 pricing intensifies, a second-order negative for Micron's out-year ASP assumptions even as near-term sentiment improves. For equipment names the raise is unambiguously positive because it converts into committed tool orders.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOelBZLWVuZU5lLXBvZU5iRWJNeGhlbTlIUEdWY1g2TEYtaGJlUUZCZnBkSGV1VHhRWVdqSi1iVHJsal9hNEpPSnF0bkhlcXI0R1RMYkZiYkdTR085RVVQR0ZmRlN4T0pFeFd4ODNSbFRjS1V3WDRxUTVtckJRYU4tdTRmajBNMmFobTJNN3JGRm94SmRSSURzSnFGQWl6RGo0cWhaZW5KWkROS25OZU5BQzBWZnlseXdsMGF0LWNpZ2JfYXJJMzctTjVkZWIxVDNw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-mu-hbm-soldout-through-2026",
-      "time": "2026-09-21T02:10:00Z",
-      "headline": "Micron's HBM capacity reported sold out through 2026 with data centre revenue up 150%",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "SMCI"
-      ],
-      "why": "A fully booked HBM line removes volume risk from the next four to six quarters and shifts the variable to price, which in a sold-out market sets up contract renegotiation upside rather than the discounting memory investors normally underwrite. It also locks in front-loaded capex on HBM-capable tooling, pulling orders toward the WFE names, and confirms accelerator makers have secured memory supply rather than being gated by it. The mix shift toward data centre lifts blended margins well above the commodity DRAM trough baseline embedded in consensus.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTmtmTW4xSmZhZ0xhdkNlTWtVSm1laEp1ckUyT084X0hHY0M2MEJkanFUQWZUTW5jOWtCVGVYeXlEaFk0MkZVSUYta1pGTlB0VjZJY0JpSTZ0bnlFOUpUTjZhWWdtbzltTnB6dkx3R1FZWGVpenpYZkh1Rnc1VlpFM0FBMDFnV3pobGZGRGFYREM2Uk9rZjFyNmF5NHROUW1SOVpDT2NuRF82cHJYLWp1aTB5QkdoRmtKb19kSlU1dmJ6bjZycGlNWVQ4cTkwWnVZWm1qTXZpa0NLVWtacWxVYnRNdDlOdWVpWVQ4SUpoemxhNkFZeXdvbjZtZkhoUFdLUmNBVkZVN3Y?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-macro-fed-hawkish-inflation-valuation",
-      "time": "2026-09-21T01:00:00Z",
-      "headline": "Hawkish Fed repricing: commentary cites inflation at 3.4% and a rate increase against stretched equity valuations",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "JPM",
-        "GS",
-        "PLTR"
-      ],
-      "why": "A higher policy rate alongside inflation running at 3.4% raises the discount rate applied to the long-duration cash flows that dominate index weightings, compressing multiples independently of earnings. Bank margins benefit at the margin while high-multiple AI names carry the cost, which argues for rotation rather than uniform drawdown. Note the wires conflict on direction of travel: this piece frames policy as tightening while other week-ahead items frame the setup around Fed speakers and the upcoming PCE print as still open, so treat the rate path as contested.",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNZ1FhYV9QbTd3ZkQ2WHFFSDAzd0tyZTU5VVFzb1FCWUw1V1NJUUpCMVFzWWgtdnZhVFJzbTBXQ0pSNWVTckJhSXViZzVqX2lUQ1VUaENHbjR5UEhTMm1wOVVENHNYc29sdDBoeTh2aU1FQzdvZTRoQUF5ZmsxakJKYTZMOGVtYXU2OVY4ODQzNTlwbndXVjVXaF9BTktialc1NnlINXczbWtkZ1BURzR2NW5rbWt5RUdITVQ5TDBkVndMMEQ1eWc2TmZRZEp0SjZsbXVPejUzU3N4S0JhcC1FYXE0XzJuY1NRNDBOZEJXNU1qQVAxdTBXSmEzQ2dRb0J0a1dJSlFRcVFHTVJjV19tMmpyMy1FeTd0ZTlWUWZZanREYkZOMGFkWWFoczVIeVRzNFBmazVBR09HNmM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-macro-korea-export-chip-boom",
-      "time": "2026-09-21T00:30:00Z",
-      "headline": "South Korea's first-20-day September exports stay at record pace on surging chip shipments",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "SMCI"
-      ],
-      "why": "Korean early-month export data is the highest-frequency hard read on global memory and logic shipment volumes and typically leads reported semiconductor revenue by a quarter, so a record print de-risks the demand side of the memory cycle right before Micron reports. Strength concentrated in chips rather than broad goods means it reflects AI server bill-of-materials pull, not general trade recovery. Sources conflict on the magnitude, with one wire citing a record $71.4 billion and another a 78% shipment gain, so treat the level as more reliable than the growth rate.",
-      "source": "Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12OGN2aXBjYUNENC16WGVZQzZYaEVDYm9IXy00b1VvX0EzZExSaV9rc2JhWmJjX3pxRFV2WEZkc2FGb2VvcGN5Y0Fxc2dVaGQ3RXNRZlhoRDVOZFlKQXc5TjVQZVpKX2pST1lsdl9OQnctVGlp?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-meta-ai-monetization-selloff",
-      "time": "2026-09-20T18:20:00Z",
-      "headline": "Meta drops nearly 7% as AI monetization math comes under scrutiny",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "META",
-        "NVDA",
-        "GOOGL",
-        "AMZN"
-      ],
-      "why": "The debate has shifted from whether Meta can build AI capacity to whether the incremental users and ad load actually clear the depreciation from the capex already committed \u2014 that turns AI spend from an option premium in the multiple into a drag on forward free cash flow. A single-day move of this size in a mega-cap is a rerating of that assumption, not a news-flow reaction. If the largest non-cloud AI buyer is forced to defend ROI, the read-through is to the accelerator order book at Nvidia and to peers whose capex guides rest on the same monetization logic.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNFR6TC10NFV6RzgxcTJrRGtIdEF0eWFYcTc3Z0JZNHpnUWtPWVN6UG5xemh4Wm1mQzZBZ3ZHWHF4R05nbXQwTWo4SlZzMjl1Q0ZON1NHTHpoYkJPUXhNY2FXY0pNYWlIS05nU3hIRzZQaDJMSUR5TnpWQWNHblpsZWtxOFEwcUgzNUZYOTY1d3Z2UHJpZ2VuWkpzRk9CVkZHaFdYclB3ZHdrRE9UMFdBTllkTEQ2c2ZyTHZCVi1IMDE?oc=5",
       "alerted": false
     }
   ]
