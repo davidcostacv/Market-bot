@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T21:34:52Z",
-  "session_date": "2026-09-22",
+  "generated_at": "2026-09-23T05:01:53Z",
+  "session_date": "2026-09-23",
   "items": [
     {
       "id": "20260922-aapl-m6-mac-launch",
@@ -55,6 +55,24 @@
       "alerted": false
     },
     {
+      "id": "20260922-nvda-stevens-form4-insider-sale",
+      "time": "2026-09-22T12:00:00Z",
+      "headline": "New Form 4 shows Nvidia director Mark Stevens sold another ~1.4M shares (~$300M) on Sept. 18",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "The filing does not change Nvidia's earnings path, but it adds mechanical supply into a stock that has just run six straight sessions, and sustained board-level distribution at record prices is the kind of signal momentum and quant funds treat as a valuation-ceiling marker. The relevant mechanism is the multiple, not the model: repeated large disposals by an insider with the best view of the demand book makes marginal buyers less willing to underwrite further expansion. It also lands as capital rotates toward AMD, so it reinforces a relative-performance drag rather than an absolute fundamental one.",
+      "source": "TradingView / Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSjM3alZ5LS16TDdPTHVsbFN6bFRmbkpXOVZCdEYzbEtNUGhWb0RXbW0wbGxFT00zdkZMYUJOdE4waTZSbnFBZFlGU0RwVUNTal9TdDdmTTVxY3lYRU92QkFyVEd3NUFRMkFwRE8zQTQ3U2dMTjJKTGRhYTV0aV9uMXZDUnFxcHRKZmFuWVlrNGo0QzJSUTk3cE1WU1dDeVg3MFhwRWxhc093a3ZOODZEakRGRklHa3lJRFVxZ1Ztc0QwU05TSjhoUWtsUl8xbU5BU3RkVEVsZTd2eGhEbklTS29oektQZ0t4d0lBSHNnN2l4YWczbUE?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260922-nvda-china-zero-in-guidance-summit-option",
       "time": "2026-09-22T11:00:00Z",
       "headline": "Nvidia's $108B forecast carries zero China data-center revenue into Thursday's White House summit, making any license relief pure upside",
@@ -95,6 +113,29 @@
       "why": "Management now points to faster data-center growth in fiscal 2028 than fiscal 2027, yet the shares did not re-rate on the upgrade, which means the incremental buyer is discounting custom-ASIC design wins already and the multiple, not the revenue line, is the binding constraint. That matters beyond Marvell: if accelerating AI guidance no longer buys multiple expansion, the same de-rating risk applies to the merchant and custom-silicon peers whose valuations embed similar out-year ramps. Watch whether the October investor day converts backlog language into committed program economics.",
       "source": "Trefis",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQkEyWU1zbFlHelFKWDFxXzVmbWxJdDR5aXppdVlqYlQyb254WXFZdzNzTjhKRjZTelBpdmdJRFg1UGVXd1F6MEhGTVRFSldYNi1SaW82WWloamFhUkNwbllCWW1IeGFHUEdrQ0FQb21PaWpPeHk2M1cwTmxBWWIwTVFKc21kN2xfRkJ3TXAxblhoNVN3X003a09LMjdIMXFxN1ZWV09nSVFhWjA2d2h2VHhNWFF5YWwxZFNaMjI0d1M3TGVVVTdGaEM2RXJXdjJSTFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-mu-consensus-revisions-into-q4",
+      "time": "2026-09-22T11:00:00Z",
+      "headline": "Top-ranked analysts lift Micron estimates into the Sept. 30 fiscal Q4 print; consensus EPS near $31 vs $3.03 a year ago",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "Estimate revisions of this magnitude mean the sell side is now modelling memory as a structurally tight, HBM-led market rather than a commodity cycle, so the print becomes a test of whether contract pricing and gross margin can hold at levels that justify the new earnings base. Because the numbers have already been marked up, the stock's reaction depends entirely on the fiscal Q1 guide and margin commentary, not the headline beat. Sources conflict on the specifics: one puts consensus at roughly $31.30 EPS on about $50.6B revenue, another near $31.16 on about $50.5B, while at least one bullish model sits near $32.54 on about $51.9B with gross margin in the high-80s, so the bar is ambiguous and dispersion is unusually wide. A strong guide validates the capex assumptions embedded in the WFE names and the memory cost line for AI server builders.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOaWxxbWxjVFJ3RFdNVWMzcy15STk1Sm1Uc1YtVmV3U3JySUEwNmx4dVE4V2JLSFN4SkhVX2V1eWNTTVZRME5VUUJ3N2ZwU3kxcXpWMEZpQzZ0bnRRNFhRSWpuU24zenFiMDFRRk9ZX1J6RUdQR0lQRUdsZ2RTODJacnZPZnlDYkFZRENDNWVRd2dXajU3LU93dDg2QUd0Q1N4VmFIbndiVU9rSldRSDRQanFBYk95c3BvTE8tZDhkb1U1NHhNak81d0dRWU1mYWYtUFNGaW9nNWdYOE9nWktERWZZVHQwMG9HeWtMVEoxUjEyMzBvakNuVDJXYkwzVlRpVy1RSlJ1OWQ0QVlxLUNleXJYcU4?oc=5",
       "alerted": false
     },
     {
@@ -198,6 +239,28 @@
       "why": "China's largest cloud buyer now has an in-house accelerator it says triples the performance of its May-released Zhenwu M890 and can be clustered at very large scale for training, which converts Alibaba from a potential re-entry customer into a domestic substitute. That erodes the China option value still embedded in Nvidia and AMD data-center forecasts even if post-summit export rules loosen, and it redirects the announced >20GW/2032 capacity and multi-year AI spending toward non-US silicon, with second-order risk to the Western foundry, memory and server-assembly supply chain that would otherwise capture that build. The offsetting read is that a credible domestic alternative raises total China AI capex, supporting memory and networking demand regardless of whose logic wins.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUGRPRW9PNE9qMC1UNm8tYXUycWRsZXQxUk5Td2RGMUxOV0NmeVl1b29lMWxtNzlsakQ4d2FnYlRYLU96ZXVVLWhGSzcwWlFPUTZ0NWFyWlMzNTFWNFVqR0NnSFRJTnV1VDhWXzlvOTBZZU1nSWdaZEZIc215Wi00SjFkRHdrVmlEWTJSV2p4NVJfNUxSdHF0c1NVYVVmVEdoUTRrZFBCTU56NDNFODVNMnI4RjJ1MHYtOEs2ckdGZTZyclFRR2pDVXE5TWY1ZWdySWl4Y1A2TzZrNlo0TGwxSjM2YkU1UQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260922-amd-one-trillion-market-cap",
+      "time": "2026-09-22T00:30:00Z",
+      "headline": "AMD crosses $1 trillion market capitalization for the first time on a five-day, ~25% run",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "MRVL",
+        "MU",
+        "SMCI",
+        "QQQ"
+      ],
+      "why": "The move is not just a milestone: it marks the market repricing AMD from a CPU share-gainer to a credible second source of accelerator compute, with data-center revenue more than doubling. That re-rating implies buyers are now paying for a multi-year AI attach rate rather than a cyclical PC/server recovery, which lifts the assumed total addressable spend for the foundry and memory layers beneath it (TSM, MU) while raising the bar Nvidia must clear to hold its premium. Crossing $1T also forces mechanical index and momentum-fund weight increases, adding a flow bid independent of fundamentals.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SaGJvMThYUVlDY2hQVmVIQlRtMFR5YTBROTJhTW0weGRsYTlyQmJjNTF6UlE1MUE0UTFvZGtTQnNOMk9jUVR4WVZrYzI1X09CT29EU2ZDbUZ4QmFzOGdpbGJxaTZrODcybUE5Qm95cGbSAXZBVV95cUxOWmpqeFFKbWUwd04ybDU0MmFRdW9GVHpEN3pkUmkyR3M2SlBKeWo0Ti1TRUJGaHB4ZGRCSmQzUXhudEUxUVBmdEp0X2ttQmp4QmhwQXdNZ0JIZ0RIMWFXSm1MUG1hRXJWVVZfMDA2d2UyRFprMGpR?oc=5",
       "alerted": false
     },
     {
@@ -770,69 +833,6 @@
       "why": "Much of the neocloud and AI-datacenter buildout is financed against guarantees and take-or-pay commitments from the hyperscalers, which means reported capex understates the economic obligation sitting behind the order book. If credit markets start pricing that contingent liability, the marginal buyer of GPUs loses funding capacity and the demand curve Nvidia and its suppliers are guiding against gets shorter-dated. For the guarantors it raises the discount rate applied to AI earnings rather than cutting near-term EPS.",
       "source": "Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOekw5dHlIWXZXOVh2QndyTloya3JHdnlHU1dwbmFKeURqT2RkQzZHNlg1Y2xHMU9JUkFYU3Y3cHBaUkg1WHF0RDJHeWVkUkZleDVhYlZSSnpPVGF5OFdpcXQ3cjBneVVuY2hUZ1FnaDZwRFA2aFkwREs3V2lEWm9xYUpoWjA0bTF1VENvTVNFSE1FSmlBV3YzNFBaSS0yTFpZ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-nvda-huawei-ai-chip-demand",
-      "time": "2026-09-20T12:00:00Z",
-      "headline": "Huawei says AI chip demand outstrips supply",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "Huawei's Ascend AI processors are the leading domestic alternatives to Nvidia's export-compliant H20 chips in China. Strong demand outstripping supply indicates that Chinese tech firms are aggressively adopting local hardware, threatening Nvidia's long-term market share and pricing power in its third-largest market.",
-      "source": "The Daily Star",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdEtGRU91ZGFmOXIyUzZ3MmhjUTdhM1d2bXJ3bDRpdVlhRXdCdGg0QzJjZ0ZINlBhTXVRQkdCdkt1c0Q3ZjE1LUxyUkItUXQ0c2k2ZEt5TlFYZ0dXd2s5N3BOZ21nSHNVU0xzYnVoVkl1T3dNT2dPRDAzNERNMFdwc0R5QVZDb1NtYnlGU29haWtqSFVqSnktWG9wdkRJTnRMQ2lya0ptQkdkZGtvM0FGeXN3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-nvda-ai-guidance-pricing",
-      "time": "2026-09-20T11:30:00Z",
-      "headline": "Nvidia shares gain as AI guidance and pricing outlook hold firm",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "AMD",
-        "ANET",
-        "MRVL",
-        "SMCI",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Confirmation that accelerator ASPs are holding rather than eroding removes the main bear input into the AI complex's gross-margin model, since the consensus case for a 2027 derate rests on price competition from custom silicon. Firm pricing plus an unchanged demand guide keeps the order book visible for the supply chain that bills off Nvidia's build plan \u2014 foundry wafer starts at TSM, HBM allocation at MU, networking attach at ANET and MRVL, and system assembly at SMCI. It also supports the multiple, not just the estimate, because it argues the cycle is supply-constrained rather than demand-pulled-forward.",
-      "source": "AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUxtZjNlclJibWp4azBuNDhuSGwyaWtRUmw2QWRyVGhqLWpiZ0VCbUxpZHJxUzhHaEI3YnBjOHJrOENqRW1HazMxOEZYbmlIdWZrdVREcFFKMGlDLU1IUHpWRDdLcm8yV1NTUFNWMk93Y2NJX3RUeU1kM1B0ekx2azVId1dUTzFXSUV6T0J0YTQ4UU9JLUtHUk1KUlBVYVQ4bVVfSDY5LXI4MnVUQVBkTnluNHFsaUhyb3NtTmpBM01jT2hPRXpZ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-macro-trump-xi-summit-scheduled",
-      "time": "2026-09-20T10:00:00Z",
-      "headline": "Trump-Xi White House summit set for Sept. 24 with big tech CEOs attending",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AAPL",
-        "TSLA",
-        "AVGO",
-        "MU",
-        "QCOM",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "A fixed date converts an open-ended policy overhang into a binary event, which is why implied vol in semis and China-exposed mega-caps should build into it rather than bleed. The attendance of chip and platform CEOs signals export-licence scope and tariff carve-outs are live agenda items, and both sit directly in the revenue line for Nvidia and AMD China sales and in Apple's supply chain cost base. Either direction is a multi-quarter reset, so positioning ahead of it is itself a market driver this week.",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBheHBIT01ZVzk5S0NaZDF1cHE0VDNLTE1xamV4cmNiTVhKRUdKa0FHWDNqQUs3SFQ5MjRCTzhlbDBWT0I2bVhJVGU5OFNXZEdPYWtySDVPdFR6TGdlQXZob0ZYSVFvZFlRM0pFakRJeVA3OWVSWFE?oc=5",
       "alerted": false
     }
   ]
