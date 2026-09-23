@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-09-23T05:01:53Z",
+  "generated_at": "2026-09-23T11:59:05Z",
   "session_date": "2026-09-23",
   "items": [
+    {
+      "id": "20260923-nvda-nscale-bytedance-offshore-loophole",
+      "time": "2026-09-23T10:00:00Z",
+      "headline": "Nscale IPO filings show ByteDance offshore compute is the bulk of revenue, spotlighting an export-control loophole",
+      "impact": 6,
+      "direction": "uncertain",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "SMCI",
+        "AVGO"
+      ],
+      "scope": "sector",
+      "why": "The mechanism that matters is not the listing but the disclosure that a restricted Chinese buyer is renting Nvidia silicon offshore, which quantifies how much neocloud demand is really deferred China demand routed through third countries. If Washington closes that path, a slice of GPU order book currently modeled as sovereign/enterprise Western demand disappears, while Nvidia also carries direct exposure as investor, chip supplier and lease guarantor to a loss-making counterparty with going-concern language. It raises the perceived credit and policy risk embedded in the neocloud portion of Nvidia's backlog.",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaW1CZWswQzJGbXBORk12RlhMdVlQMGlkNVFPWVJrdWNoQXZqTHRFbjNWNnFoY3YwNnN1VGQ5bWJzVGk4RHNkOWNDdl9qejJWS2pvQk1pVG1wZFJ4ZzU1U0twTmF6ZTVsM3lOQWM4Wl9TdF9nWHhscEdzcmI2Njd6ekdB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-avgo-china-sasac-switch-audit",
+      "time": "2026-09-23T06:00:00Z",
+      "headline": "China's SASAC surveying Broadcom networking gear in state-backed data centres, weighing domestic substitution",
+      "impact": 7,
+      "direction": "bearish",
+      "tickers": [
+        "AVGO",
+        "ANET",
+        "NVDA",
+        "MRVL",
+        "CSCO"
+      ],
+      "scope": "company",
+      "why": "A state-asset regulator inventorying installed base is the standard precursor to a procurement mandate, and reporting puts Broadcom switching at up to 90% of equipment in some state-owned data centres, so the exposed revenue is concentrated rather than incremental. Displacement toward Huawei and H3C would hit Broadcom's highest-margin Tomahawk/Jericho merchant silicon and attached software, compressing both the growth rate and the multiple investors pay for the 'AI networking' half of the story. Read-through is negative for every US merchant networking supplier selling into Chinese hyperscale, since the same policy logic extends beyond one vendor.",
+      "source": "Yahoo Finance / Stocktwits (citing Financial Times)",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVi1aZDZmUWlwREV1Zm9rSGZobFJjc0xYbTZhS0NrVWF1QVh5REZrRUZfRU1qM1FaWVhwTTBjMUxtRjBZR3JIMnhRbWlGU0dxU2wta2FkUGZNemtWZWdFZ3p6d0lQZDBWT0hRWElzNGJ4enI0OWthN1d3Y2RMaTZMLUZOR1duWnF5a0Q0WnVNRVJqeHdkbjNiUjBVbXFFdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260923-huawei-ascend-export-halt-supply-ceiling",
+      "time": "2026-09-22T22:00:00Z",
+      "headline": "Huawei shelves global Ascend rollout as domestic demand outstrips supply; Atlas SuperPoD scales to 120 exaflops",
+      "impact": 6,
+      "direction": "bullish",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM"
+      ],
+      "scope": "sector",
+      "why": "Huawei's decision to hold Ascend output for domestic customers removes the only credible near-term alternative accelerator from markets outside China, protecting pricing power on Nvidia and AMD rack-scale systems in sovereign and Asian deals that were at risk of a cheaper bid. The binding constraint is fabrication and HBM supply, not design, which is why the cluster-level answer is brute-force chip count rather than per-chip parity. The offset is that demonstrated exaflop-scale domestic systems shrink the China TAM that US vendors could ever recapture if licences loosen.",
+      "source": "shattered.io (citing Tom's Hardware)",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCN2R2bUhIWHRtSGU0dlJkTDJoQkRXakxpQlRzS0NzOW9WU3VTUkt1QUxNbVZtM2RhSjhMdzVWZWhIZDhMRFoydVZoLXZjNjNGeVhtWXI4VV9lQllBRFFyVFdNR094Y1FRaC01eTMzQUU0azRBLTVSRW5kNEZibzg?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260922-aapl-m6-mac-launch",
       "time": "2026-09-22T13:00:00Z",
@@ -773,66 +829,6 @@
       "why": "The debate has shifted from whether Meta can build AI capacity to whether the incremental users and ad load actually clear the depreciation from the capex already committed \u2014 that turns AI spend from an option premium in the multiple into a drag on forward free cash flow. A single-day move of this size in a mega-cap is a rerating of that assumption, not a news-flow reaction. If the largest non-cloud AI buyer is forced to defend ROI, the read-through is to the accelerator order book at Nvidia and to peers whose capex guides rest on the same monetization logic.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNFR6TC10NFV6RzgxcTJrRGtIdEF0eWFYcTc3Z0JZNHpnUWtPWVN6UG5xemh4Wm1mQzZBZ3ZHWHF4R05nbXQwTWo4SlZzMjl1Q0ZON1NHTHpoYkJPUXhNY2FXY0pNYWlIS05nU3hIRzZQaDJMSUR5TnpWQWNHblpsZWtxOFEwcUgzNUZYOTY1d3Z2UHJpZ2VuWkpzRk9CVkZHaFdYclB3ZHdrRE9UMFdBTllkTEQ2c2ZyTHZCVi1IMDE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-aapl-price-hike-demand-risk",
-      "time": "2026-09-20T14:05:00Z",
-      "headline": "Apple falls over 6% after product price increases raise elasticity fears",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "QCOM",
-        "TSM"
-      ],
-      "why": "Raising list prices is the standard defence against higher foundry and memory input costs, but it shifts the risk from gross margin to unit volume and upgrade-cycle length \u2014 the market is pricing the elasticity hit as larger than the ASP benefit. A longer replacement cycle compounds through the installed-base growth that underwrites the Services multiple, which is the expensive part of the valuation. Lower iPhone build plans would also trim modem content at QCOM and leading-edge wafer demand at TSM.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlJXaVg4MFRqczZmNnJxbTRROGN1VmFxRlh3bFd6aU5rcXRRRUZGdHBibDIwOVdjYl9VUjRwU25OVTM1WU5TSXNmRWtoZ1lkck5pOTk1aWtaTTBFTC1QMWZ5dXZkQ1RpUUNlSjJBbk01M0VtUGRwbXJ4NmVXeUJHWXVDdjBDd3lST25pbGJIMHl0dFRQeWFvSkNVRDNZdzdzOWFVWTdvVWg1YmtLOEIwdVFOZDZPY0ZRcXJ5SHN6bVd6UnRnV3RVblh3LUdpOHBER0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-asml-bernstein-bull-case",
-      "time": "2026-09-20T13:10:00Z",
-      "headline": "ASML jumps over 5% as Bernstein argues the re-rating has further to run",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "INTC",
-        "MU"
-      ],
-      "why": "A sell-side house extending its target after the stock has already roughly doubled is a call on the through-cycle earnings base, not the next quarter \u2014 it implies EUV and High-NA tool intake is structural leading-edge capacity build rather than a pull-forward that reverses. Because ASML sits at the front of the equipment order chain, an upgraded view of its backlog is the cleanest read-through to WFE budgets at AMAT, LRCX and KLAC. It also implicitly validates the foundry and memory capex plans at TSM, INTC and MU that fund those tools.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0hLaWhQRmdBeFhhTUFhdi1SWDRqMlFYUU5zcDBhb2t2VHQtd1ZJT2RiNnJOX00wZ3kzeU9FTXBrNTIxdFZKUjBfazFDbGowRUVlSVhOY3Z3S3VCUEFQSnhIeVdaeEFMWENYa0pVNFN4UmtfaUVQNmFWRFFrZ2FCRHZZNVhrZDRWNktJQ252OVVwN3lEWWMxS2xwajg0ak12by0zdVFMY1RvMDY0ZUhLdXpZdnBqZW16ZlduUDZWc1ZRZEs5SGR4eg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260920-bigtech-ai-lease-guarantees-risk",
-      "time": "2026-09-20T12:40:00Z",
-      "headline": "Hyperscaler AI backstops and guarantees flagged as off-balance-sheet exposure for investors",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "ORCL",
-        "SMCI",
-        "AVGO"
-      ],
-      "why": "Much of the neocloud and AI-datacenter buildout is financed against guarantees and take-or-pay commitments from the hyperscalers, which means reported capex understates the economic obligation sitting behind the order book. If credit markets start pricing that contingent liability, the marginal buyer of GPUs loses funding capacity and the demand curve Nvidia and its suppliers are guiding against gets shorter-dated. For the guarantors it raises the discount rate applied to AI earnings rather than cutting near-term EPS.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOekw5dHlIWXZXOVh2QndyTloya3JHdnlHU1dwbmFKeURqT2RkQzZHNlg1Y2xHMU9JUkFYU3Y3cHBaUkg1WHF0RDJHeWVkUkZleDVhYlZSSnpPVGF5OFdpcXQ3cjBneVVuY2hUZ1FnaDZwRFA2aFkwREs3V2lEWm9xYUpoWjA0bTF1VENvTVNFSE1FSmlBV3YzNFBaSS0yTFpZ?oc=5",
       "alerted": false
     }
   ]
