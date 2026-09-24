@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:28:04Z",
+  "generated_at": "2026-09-24T21:42:35Z",
   "session_date": "2026-09-24",
   "items": [
     {
@@ -113,6 +113,34 @@
       "alerted": false
     },
     {
+      "id": "20260924-macro-iran-hormuz-phased-deal",
+      "time": "2026-09-24T13:30:00Z",
+      "headline": "US and Iranian negotiators exploring phased deal to reopen Strait of Hormuz in exchange for lifting US port blockade; crude tumbles, dollar sold, stocks, bonds and gold rally",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "XOM",
+        "CVX",
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "AAPL",
+        "META",
+        "GOOGL",
+        "TSLA",
+        "JPM",
+        "GS"
+      ],
+      "why": "A phased reopening of Hormuz removes the tail risk that has been embedding a war premium into crude and into breakeven inflation, which is the channel that had been forcing the front end higher and compressing equity multiples. Lower energy pass-through reduces the case for further Fed tightening, so duration and long-duration tech both re-rate on the same input. The mirror image is negative for integrated oil earnings power: XOM and CVX have been marking upstream realizations and refining cracks against a blockaded-supply curve that now loosens, and note that this bond rally directly contradicts the same-session reports of a 10-year yield break above 5.1%, so the rates signal is unsettled intraday.",
+      "source": "Newsquawk",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOUkRZUGNBZ3B2b0NuTTJTUWQ4cXF2eU1Zc3JpT0Zab0JHZHc3QjNqeGJCaXBkQzdjNnR6QmhLVklHYy04WE42RFVhbXV1MmFsNTdZTGF6QzZtQktQejJOcTFfaUFqNzBrVG1iV0JmSWJZTWlXOXloZ2F3R1dnemxsNHNoaUxlMlhTZ3JZYXJpZUFqblg4bHJRMkJobmZZMHA1dTJXWFNIc3pLc2tERFB2TzJSdWVGeXpOWC14bWdwb1lLdUNud0Z5b25HU29zUDVhSk1RTE9xVjNKZk1XcnpaeTR5M0huMk9iNnNSWThYaGVQcFJBcUJkekFBRGJCMnA2aTBoOGZ2RmZ0bXAxbnpjR3NCdGVPQTF2RzYwMmgyVGZscXM?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260924-nvda-moonshot-blackwell-access-request",
       "time": "2026-09-24T12:30:00Z",
       "headline": "China's Moonshot reported to be seeking more Nvidia Blackwell access days after a flagged export-control breach",
@@ -197,6 +225,27 @@
       "why": "If local parts reach good-enough inference performance at scale, the China accelerator TAM stops being a suspended asset waiting for licences and becomes structurally lost share, which removes an upside call option currently sitting in US chip multiples for free. It also reduces Beijing's incentive to trade concessions for US silicon at the summit. Second-order, domestic capacity funnels tool and HBM demand toward local suppliers over time.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1poekxTT01INi1FY0h2MGNpNmtWMHg2S3JLTDRXRnBLVFFaa3B1cHZ4djMwM2VzN0dPc2hfQ1BlckZIZGFqM1hQUW0wazd3OFFKWm1nVGc5LU05b2dXTUxkdWtkWDR0MnM0VThfZlZINlZvd09qWkNvWW5iVEl4V3NoUUpRZ2NYcHk5eHR2czJVXzUxTEFjVHJrNUF5b1Vi?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260924-mu-q4-print-setup-margin-swing",
+      "time": "2026-09-24T10:00:00Z",
+      "headline": "Micron fiscal Q4 print sets up as the sector's next repricing event, with gross-margin guidance the swing variable",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "NVDA",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "Micron is now the cleanest read on whether AI memory demand has broken the historic DRAM/NAND cycle, so the guide sets the discount rate the market applies to the whole memory-and-equipment complex rather than just MU's own EPS. The mechanism that matters is the gross-margin trajectory: with the stock already discounting sustained undersupply pricing, a margin guide that flattens implies the cycle is being priced as peak and de-rates the multiple even on a revenue beat. A strong bit-demand and pricing guide instead pulls forward wafer-fab equipment orders, which is the read-through into LRCX, KLAC and AMAT backlog.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM3liUTZWSWozaE1jWXQzVWZBTTZXaE9FNWpVbF9IMF82ZkdmeVdvQWNzM2pHOG1JOUtKRzNFVjF1bTVhMFFOOEliT3ByY1dhSEFTYkdmTnhDc09SZ0Z2VkpSVkhFeU1Dc2NMbU4ybElSMUtvdEFaWW1sc3haYVdpSlpiYW1mdWdnaDlPbUpSeV9nU1lfaHRVTzh4NUhmU3BEXzc1YmFyWExZcF9lazVtZTlxV08wYXdsVVVjUg?oc=5",
       "alerted": false
     },
     {
@@ -809,47 +858,6 @@
       "why": "China's largest cloud buyer now has an in-house accelerator it says triples the performance of its May-released Zhenwu M890 and can be clustered at very large scale for training, which converts Alibaba from a potential re-entry customer into a domestic substitute. That erodes the China option value still embedded in Nvidia and AMD data-center forecasts even if post-summit export rules loosen, and it redirects the announced >20GW/2032 capacity and multi-year AI spending toward non-US silicon, with second-order risk to the Western foundry, memory and server-assembly supply chain that would otherwise capture that build. The offsetting read is that a credible domestic alternative raises total China AI capex, supporting memory and networking demand regardless of whose logic wins.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUGRPRW9PNE9qMC1UNm8tYXUycWRsZXQxUk5Td2RGMUxOV0NmeVl1b29lMWxtNzlsakQ4d2FnYlRYLU96ZXVVLWhGSzcwWlFPUTZ0NWFyWlMzNTFWNFVqR0NnSFRJTnV1VDhWXzlvOTBZZU1nSWdaZEZIc215Wi00SjFkRHdrVmlEWTJSV2p4NVJfNUxSdHF0c1NVYVVmVEdoUTRrZFBCTU56NDNFODVNMnI4RjJ1MHYtOEs2ckdGZTZyclFRR2pDVXE5TWY1ZWdySWl4Y1A2TzZrNlo0TGwxSjM2YkU1UQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260922-amd-one-trillion-market-cap",
-      "time": "2026-09-22T00:30:00Z",
-      "headline": "AMD crosses $1 trillion market capitalization for the first time on a five-day, ~25% run",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MRVL",
-        "MU",
-        "SMCI",
-        "QQQ"
-      ],
-      "why": "The move is not just a milestone: it marks the market repricing AMD from a CPU share-gainer to a credible second source of accelerator compute, with data-center revenue more than doubling. That re-rating implies buyers are now paying for a multi-year AI attach rate rather than a cyclical PC/server recovery, which lifts the assumed total addressable spend for the foundry and memory layers beneath it (TSM, MU) while raising the bar Nvidia must clear to hold its premium. Crossing $1T also forces mechanical index and momentum-fund weight increases, adding a flow bid independent of fundamentals.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SaGJvMThYUVlDY2hQVmVIQlRtMFR5YTBROTJhTW0weGRsYTlyQmJjNTF6UlE1MUE0UTFvZGtTQnNOMk9jUVR4WVZrYzI1X09CT29EU2ZDbUZ4QmFzOGdpbGJxaTZrODcybUE5Qm95cGbSAXZBVV95cUxOWmpqeFFKbWUwd04ybDU0MmFRdW9GVHpEN3pkUmkyR3M2SlBKeWo0Ti1TRUJGaHB4ZGRCSmQzUXhudEUxUVBmdEp0X2ttQmp4QmhwQXdNZ0JIZ0RIMWFXSm1MUG1hRXJWVVZfMDA2d2UyRFprMGpR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-para-wbd-ag-settlement-deal-clears",
-      "time": "2026-09-21T18:45:00Z",
-      "headline": "Paramount settles state AG antitrust suit, clearing the main obstacle to the Warner Bros. Discovery deal",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "WBD",
-        "PARA",
-        "NFLX",
-        "DIS",
-        "CMCSA"
-      ],
-      "why": "The suit was the binding constraint on closing: it threatened to push completion toward a spring jury trial and mid-2027 while the acquirer began accruing a daily ticking fee, so removal collapses the deal-break discount in the target's shares and eliminates a large contingent cost for the buyer. Closing creates a combined studio, broadcast and streaming asset that changes competitive bidding for content and sports rights, which is the read-through for the other streaming incumbents. It also signals state-level antitrust is settleable, lowering the perceived regulatory hurdle for further media consolidation.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRTB1bkpFWXNTR1k3Z2xYQUpDVk1RNGJLWkVJc1c0cDhqOUtOSE56cElBSDNCajdHcXM2UDFjNEhEbi1oOHNsMWMwMVVZako3YmVoaXlNbTB2aFFOeDNOMEZXV192ZzFvQVBWajZBVmFhX000T2Vyemd6cDc2VXFFTDFsWU1RVkI2UlB0LW9aU3Vkc19abjY0YkUyRi02SEVsMk5wZXowcFlaVDd4S2pBZ3RTc2xPODUwZ3EyT3lxUEdoNHpZbXMxRmdwdDZialkxNHJWNmhn?oc=5",
       "alerted": false
     }
   ]
