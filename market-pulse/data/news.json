@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:05:14Z",
+  "generated_at": "2026-09-24T17:28:04Z",
   "session_date": "2026-09-24",
   "items": [
     {
@@ -71,6 +71,26 @@
       "alerted": false
     },
     {
+      "id": "20260924-amd-rfsoc-diversion-export-probe-calls",
+      "time": "2026-09-24T14:00:00Z",
+      "headline": "AMD faces calls for investigation after export-controlled RFSoC radar silicon surfaces in China; AMD blames third-party diversion",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "INTC",
+        "MRVL",
+        "SMCI",
+        "AVGO"
+      ],
+      "why": "An allegation that restricted Xilinx-derived RF silicon reached Chinese buyers through channel diversion opens AMD to a BIS end-use review, which historically freezes license approvals and forces costly channel re-certification well before any penalty lands. The direct revenue at risk is trivial, but the multiple is not: it hands Senate hawks a live example to justify the pending chip-export bills and per-unit tracking mandates, raising compliance drag across every US accelerator and FPGA vendor selling into Asia. Read-through is sector-wide because diversion enforcement applies to distributors shared by AMD, Nvidia, Intel and Marvell.",
+      "source": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQTlFBZEpCbjFLSVl2UklsMHp6Q21jY1Jxc2pQcHk4SDRCcXVYNTZZa0w5Q1c1dW5PX1JJNkFrNFR3U2pjeFdxRlktdk5BcG12bTgzSk8zM3RvY0ZiUF9pN1BKR0s4YUIxRnhmSE1DcTF5TkJrUVR5OWY4TG5GSjNvVnl5U2V3ZF9KcGxDVWtkd3g4TU1IVnJheE51MG9GOVU2SF9McWlFRnVhbVBvc2N4cTI3MC1Ca3laMDJNRklmMHR3Z2M4YUdDR2RLZkJ2T1BIdFZoa0VrLVRQLTUxQ2dsWExGV1RJSURHTmlGeHQ4YTNjVHBPVmRRVXhZTVNrYVZ1N1RHWVNoRFNUM1FOLTB4cWFQUVExX00xcHU4Q2ZKY0s0b2FRNHdQcUZzSmE0M29hZ05Nem1wajFfS1VBODFVRGtiVU91SENUTzFWTF90NkNUa3RIVzJiT0psSUJFOXhxeXJEWFJ3eFZkN3hsdmMxRHR4SjFLckVwTU5TX093?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260924-intc-guidance-beat-record-high",
       "time": "2026-09-24T13:30:00Z",
       "headline": "Intel guidance tops Wall Street estimates, shares clear their 2000-era record closing price",
@@ -112,6 +132,33 @@
       "alerted": false
     },
     {
+      "id": "20260924-macro-claims-57yr-low-home-sales",
+      "time": "2026-09-24T12:30:00Z",
+      "headline": "Weekly jobless claims near 57-year lows while price cuts revive new home sales",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AAPL",
+        "TSLA",
+        "PLTR",
+        "JPM",
+        "GS"
+      ],
+      "why": "A labor market this tight removes the last argument for the Fed to stay on hold, so the data feeds directly into the hike-repricing already driving the long end above 5%. Higher terminal rate expectations compress the discount factor on the longest-duration cash flows, which is exactly where the AI complex and unprofitable small caps sit, while steepening the curve in banks' favor. The housing detail matters too: sales are being bought with price cuts rather than rate relief, meaning consumption is holding up without any easing of financial conditions.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbkFjbktqV0kzSmJtNEZPU2p1MWRCWTdKLWVySDEtTnJMbUdVR1p4VGZ1YnVlM0tkcEsxSFlsdTY4b1RodjlqVDQ5V0hoT3FubnE1N1c5U0RZOTgyZ0JsQnFWQmJQTGx2QUNTZmJROHN4dmN3VnNXNXRnTVBsQlFIZzVqb0JjMzl1MlVEeDFUNUFJQm53RVU5WkFGd3VhNjhXbHlGVUFnYWZ0VGM?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260924-smci-export-probe-clears-management",
       "time": "2026-09-24T12:00:00Z",
       "headline": "Supermicro's independent board investigation finds no evidence current senior management knew of alleged export-control diversion",
@@ -150,6 +197,32 @@
       "why": "If local parts reach good-enough inference performance at scale, the China accelerator TAM stops being a suspended asset waiting for licences and becomes structurally lost share, which removes an upside call option currently sitting in US chip multiples for free. It also reduces Beijing's incentive to trade concessions for US silicon at the summit. Second-order, domestic capacity funnels tool and HBM demand toward local suppliers over time.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1poekxTT01INi1FY0h2MGNpNmtWMHg2S3JLTDRXRnBLVFFaa3B1cHZ4djMwM2VzN0dPc2hfQ1BlckZIZGFqM1hQUW0wazd3OFFKWm1nVGc5LU05b2dXTUxkdWtkWDR0MnM0VThfZlZINlZvd09qWkNvWW5iVEl4V3NoUUpRZ2NYcHk5eHR2czJVXzUxTEFjVHJrNUF5b1Vi?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260924-semis-record-industry-sales-print",
+      "time": "2026-09-24T09:30:00Z",
+      "headline": "Industry-wide semiconductor sales set a fresh record as AI and memory demand broadens",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "TSM",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "INTC",
+        "MRVL",
+        "QCOM"
+      ],
+      "why": "Aggregate billings data is the one input that separates AI capex from a narrow order book: a record print confirms the revenue is landing across logic, memory and foundry rather than being concentrated in one accelerator vendor. That supports sell-side revisions for the toolmakers, whose orders lag device sales by two to three quarters, and underwrites the tight-supply pricing narrative into Micron's report. It does not change any single company's guidance, so it is a multiple-support datapoint rather than an earnings event.",
+      "source": "equiti.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1BNOFBsd005Z29mM2RiWGZMSHFVV2R0dWhNaDBVNldMMW5KM0haU3A5c2xEd0RMV3NoZUJpclpja0ZCSFE3d05TdTN5MFRuVFV3djE0TUF5REwzOFBSdlhQOWF2aUZzZGxHLU9TWHh5d1IxYnFPVV9RVUdfSG9PcE1HVkcxZzlHRDgtTnpEalpxVUEyajNXdzZGOXhwZGcwdkdOTGRZcjI?oc=5",
       "alerted": false
     },
     {
@@ -777,74 +850,6 @@
       "why": "The suit was the binding constraint on closing: it threatened to push completion toward a spring jury trial and mid-2027 while the acquirer began accruing a daily ticking fee, so removal collapses the deal-break discount in the target's shares and eliminates a large contingent cost for the buyer. Closing creates a combined studio, broadcast and streaming asset that changes competitive bidding for content and sports rights, which is the read-through for the other streaming incumbents. It also signals state-level antitrust is settleable, lowering the perceived regulatory hurdle for further media consolidation.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRTB1bkpFWXNTR1k3Z2xYQUpDVk1RNGJLWkVJc1c0cDhqOUtOSE56cElBSDNCajdHcXM2UDFjNEhEbi1oOHNsMWMwMVVZako3YmVoaXlNbTB2aFFOeDNOMEZXV192ZzFvQVBWajZBVmFhX000T2Vyemd6cDc2VXFFTDFsWU1RVkI2UlB0LW9aU3Vkc19abjY0YkUyRi02SEVsMk5wZXowcFlaVDd4S2pBZ3RTc2xPODUwZ3EyT3lxUEdoNHpZbXMxRmdwdDZialkxNHJWNmhn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-meta-muse-agentic-cpu-demand",
-      "time": "2026-09-21T16:30:00Z",
-      "headline": "Meta's Muse agent tops the US App Store, repricing the server-CPU side of the AI trade",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "META",
-        "AMD",
-        "INTC",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "MRVL",
-        "QCOM"
-      ],
-      "why": "Agentic workloads are sequential and orchestration-heavy, so they consume general-purpose CPU cycles rather than only GPU accelerator time \u2014 a segment the market had priced as structurally ex-growth. A consumer agent reaching the top of the App Store is the first mass-market evidence that the agentic TAM projections convert into actual unit demand, which lifts the earnings path for x86/Arm server CPU suppliers and pulls foundry and memory content along with it. This is a multiple event as much as an estimate event: it gives laggard CPU franchises an AI growth narrative they previously lacked.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SSTIydHlWS0FFdS1GRHczbHByd0d5aXU0OEF5X1lkTUdVTjlldTlVdEYwZHNxR0Z3M0RvWnU2TXBKV2R3NDViTFoxZDlVV3RfQ0NaZVQ4VXhFdmdpVXh6eER2YjlhOTRrRVktQ3h5Ykd2THBmcmZiTVI0YTNWdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-amd-agentic-server-cpu-pricing-power",
-      "time": "2026-09-21T15:10:00Z",
-      "headline": "AMD's Meta agent tie-up and server CPU pricing power drive breakout to $1T valuation",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA",
-        "TSM",
-        "AAPL"
-      ],
-      "why": "AMD is positioned on both sides of the agentic stack: an optimization partnership to run Meta's open-source Glimmer model locally on client silicon, plus datacenter CPU sockets where reported price increases of roughly 40% flow almost entirely to gross margin given the design cost is sunk. Management's framing of a server-CPU market expanding toward $120B-$220B by 2030 shifts AMD's terminal growth assumption, which is what justifies a trillion-dollar multiple rather than the near-term EPS line. Risk to the thesis is Nvidia bundling its own CPU into rack-scale platforms, which would cap socket share gains.",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjItUFhHU3FoVlN1eWYwOGxObmpMd1UyUmtRVEpwNWtIVEdBenFka2lKeDdEM0wzZUJFdXpSYjVjckx0dUlHeEg5NnFubTBsZ0cxM1ljMFItWGVPOEI2bm9ucWhUNDNHcXVEM28xdzRsUWw3VjhwRTlIcXpLWnhxem0xcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-sox-reconstitution-index-flows",
-      "time": "2026-09-21T14:00:00Z",
-      "headline": "SOX September reconstitution adds four new constituents, forcing passive rebalancing across semis",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "TSM",
-        "MU",
-        "MRVL",
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "QCOM"
-      ],
-      "why": "Index reconstitution is a pure flow event, not a fundamental one: additions receive mechanical buying from SOX-tracking ETFs while weight caps redistribute demand away from the largest incumbents, so existing mega-cap semis can see marginal passive selling even in a rising tape. The effect is concentrated around the effective date and typically decays, so it should not be confused with a change in the sector's earnings path. It matters here mainly because it amplified an already extended multi-session run in the index.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ01GX1huVnRwQ3NvYjBUOEwwbUFZUEdLeFVFajJiNW9OMTdMMGhkQ3RVRVk1cUFrQkN0b3ZHMHFCSjBkNnFCZWFtQXBIQjVqUGdqbXVpTFBFRmpFZXc5UV9EakU0RWRZYlpjOVJ2cVEwSTlfZHdLYk5saTVLcFFqNHpxel8tMlBMWGZBTkZiSDZxMDMyU19xSlNn?oc=5",
       "alerted": false
     }
   ]
