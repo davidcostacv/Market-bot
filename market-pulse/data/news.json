@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-09-23T21:41:04Z",
-  "session_date": "2026-09-23",
+  "generated_at": "2026-09-24T05:12:22Z",
+  "session_date": "2026-09-24",
   "items": [
+    {
+      "id": "20260924-smci-export-probe-clears-management",
+      "time": "2026-09-24T12:00:00Z",
+      "headline": "Supermicro's independent board investigation finds no evidence current senior management knew of alleged export-control diversion",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "DELL",
+        "AMD"
+      ],
+      "why": "The unresolved diversion allegations were a live tail risk to SMCI's ability to source restricted GPUs \u2014 an export-license suspension or debarment would have cut off the single input its entire revenue line depends on, and it kept some hyperscaler and sovereign buyers from awarding rack-scale business. A board-led clearance of sitting management plus a hardened compliance program shrinks the probability of that outcome and of an executive-level exit, which compresses the governance discount that has sat on the multiple since the accounting saga. It does not end any government action, so the relief is to the risk premium rather than to near-term earnings.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSXJWeFAtUWdBODZlWllUR211bEdlRmd3VVFhMXVVeHRndXhrOE02WHQ3YmFGUDN0bFhkdWZBMl83VDJTc0NqUDFWck5rZmRGZ0d6Vzk0NTJSMkxINjVsZnVXVVA1VnkwV0pKRkN4QmU1YTBWVktWTml0MVBmekVsN2lYaGt1SVFybERZUWdSNllPVjByaFk1WE9Nc0R2NTEzQlBuUUloejJrMXE1SEtaMkZwcjQxTjlwN2RBVDNnRlRUV0tfMC0wSFllR0VjczVqVlE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260924-mu-citi-target-raise-dram-undersupply",
+      "time": "2026-09-23T17:15:00Z",
+      "headline": "Citi raises Micron target to $1,300 from $1,150, lifting quarterly estimates on better-than-expected DRAM pricing and continued undersupply",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "WDC",
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SMCI"
+      ],
+      "why": "The raise came with higher August and November quarter estimates, meaning it is a bit-price and margin revision rather than a multiple adjustment \u2014 DRAM contract pricing flows almost entirely to gross margin in a fixed-cost fab model, so each point of price is amplified in EPS. Citi tempers it by expecting pricing growth to moderate over the next four quarters, which caps how much of the upside is extrapolated into out-years. Sustained memory undersupply is also a cost headwind for GPU-server assemblers that buy HBM and DDR5 into fixed system pricing.",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lYUtpVy03MWJEU3MwajlTdDFQd3lJcHR6dFR6R1FUVUZXSkJuZ3E5SS04bTJmQ09KUmw5VXdMSG9vV2FOWXpUczEySkpXcHNPLW55VjVSRndvXzA5WEVTRHY2dkI5MGdnUUVhWHc1ZXFNdk56QWc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260923-macro-energy-rally-inflation-passthrough",
       "time": "2026-09-23T16:00:00Z",
@@ -43,6 +82,32 @@
       "why": "The IMF's point is a funding-mix change: AI capex is migrating from internally generated cash flow to credit, which converts a capex cycle into a leverage cycle and links equity multiples to credit spreads. If spreads widen while yields are already at multi-decade highs, the marginal datacenter buildout gets deferred, and deferral hits the order books of accelerator, memory and server-integration suppliers before it shows up in hyperscaler revenue. It is an official-sector framing that institutional allocators use to justify trimming crowded AI exposure.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVEkzNWE5eDRQaVp2Mld2NzdfV1JnaUlYRnhCaDluZXFEaENJb2xBZVlFbUdUMDNDY3E4dkpQSW4ycm9zTk50QXZYbXFDSVhjQTlqZUtYWkpVWllKSW0zUTdVaG5IYzNiMHhORnB4ejBBWml6dWNPY3dmbEZUeGQwcXZGNVdFZ0ZXVENtd2ZiTTFyeGJQSkVrU05RVjg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260924-nvda-raymond-james-street-high-target",
+      "time": "2026-09-23T14:30:00Z",
+      "headline": "Raymond James sets Street-high Nvidia target, sees supply \u2014 not demand \u2014 as the binding constraint; Truist models ~100% sales growth",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MU",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "ANET",
+        "SMCI",
+        "AMD",
+        "MRVL"
+      ],
+      "why": "Analyst Simon Leopold lifted the target to $515 from $352 and framed the ceiling on Nvidia's revenue as wafer/HBM/CoWoS availability rather than customer appetite, which shifts the debate from demand durability to how fast the supply chain can be built out. If the constraint is supply, every upstream node \u2014 foundry, HBM, advanced packaging, WFE \u2014 has pricing power and multi-year booked capacity, so the read-through is to TSM, MU and the equipment names, not just NVDA. A Street-high number from a recognized franchise also pulls up the consensus distribution that sell-side models anchor to, lifting the multiple investors will pay ahead of any actual print.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSHYtamF4MTFQWEkzTjlQLWFwWTgzSXNsai02bXNfZDhpcnAxVkdDcy1qampmb2FQYlBWVXFnNTdydHhMWUNOX2RwSUpBWktFbENycTBkQU1xaU50R3ZvbXM2RGw5aGVQNnpFXzVGMFRndGRibmlHV1RoWFU0V1h4MU1rQzFBS29GR0VGWmNDZlRtSGFjNWx6TUo1ZUNoVGc4VHZ4TGwtRV9QZFdkTHZOQ3hnQVpRbHlXSHFaeWNLNllIQXAzMjJaMw?oc=5",
       "alerted": false
     },
     {
@@ -145,6 +210,23 @@
       "why": "Codifying export limits in statute removes the executive's discretion to trade chip access for concessions at a leaders' summit, which is the main channel through which the market has been pricing a China re-opening option for accelerator and toolmaker revenue. Equipment names carry the larger direct exposure because China remains a disproportionate share of WFE shipments, while accelerator vendors lose the optionality embedded in current guidance. Timing matters: legislative momentum during the summit caps how much can be given away, so any China-upside scenario in models gets discounted.",
       "source": "Politico",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWlHZ3pXenBHSkNGOXBCeUNqSFdQT0MyYWtiYVgtR0g5VVQtV2N1ZXp2NUtGUFliS25jMHItbWRwN3ZaeFVvaDdJTXlfa0trQTU5XzdCNGJPcHpyclhVN3Npc0ZrRHprQnlLbzJqWEY1cHNuSDlkZm1RS2VRR1NGQlVHRkxUZUZpd3NOZXJBUkJCNTNQTHg5YUk3QmJ0amJRenBB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260924-mu-wells-fargo-target-cut-valuation",
+      "time": "2026-09-23T13:00:00Z",
+      "headline": "Wells Fargo cuts Micron price target to $1,400 from $1,525 while keeping Overweight and raising estimates a week before the Q4 print",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "SMCI"
+      ],
+      "why": "The cut is a de-rating of the multiple, not of the earnings \u2014 the analyst lifted financial forecasts at the same time, which is an explicit statement that the stock has already priced in the memory upcycle and that further upside must come from cash returns or a longer cycle rather than estimate revisions. That sets a harder bar for the September 30 report: an in-line beat may not clear an expectations level that already embeds peak-margin math. Sources conflict on direction of Street targets the same day \u2014 Citi moved to $1,300 from $1,150 and BofA held $1,550 while Wells Fargo cut to $1,400 \u2014 so the dispersion itself is the signal that valuation, not fundamentals, is the contested variable.",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSnUxd2c0SmZtZlNpTzJ2VjlWSDVhZE5DanFGWWRvTFVCVWtSNk4tUlotLWYyaTQ3M0xpRDFoLU9tMnZIYzR2dGZBZ05GWXlQelNBS3ZDMXdOdWFkcEFYamhkS0M0Q3B2c0JJSmZzd0gzajNpTUFoaXhjd2pUSnZnT2RzTkNmYzdOMERpNnNPbGFxV0w5WGdMdkZhNHprUDZpSU1XNk52MlhadWpPVThZanFvQ2I0SzVtakU0dzM3ZEF4dXI3dUtCajRHM3ZHM2dJMjFnam1B?oc=5",
       "alerted": false
     },
     {
@@ -761,86 +843,6 @@
       "why": "An outlook extending two fiscal years out converts the AI buildout from a spending cycle investors discount as cyclical into a contracted, visible revenue base, which is what justifies paying a higher multiple rather than just marking up estimates. Because Nvidia's forward revenue is effectively the order book for foundry, HBM, custom ASIC and networking suppliers, the read-through raises the implied volume floor across the chain. Futures leading on a single issuer's guide also shows index-level concentration risk cutting in the upward direction.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVnN4REtnVEZOWXQ5RFU2MEczMHp5bGREd0h5ckF0eHA0VDhwTk85T1locG95cjJWRVN5ZmR0U3RwQVFBYVBrclFjbE9KZGFoX0EzRzRrdURsS0JQWHlkcjktZ0NwTXI4S2FGRE1OTmU4VHNvdU5EU2R4ZnlYSVo5eDlJTmQ5QnhZTGVaczlVbmNxUk9aRnhjZ1BfSjk5UTlDRnpTbU55ZlNwUU1LOUNmcVRsaDNkSWpqaGFqbw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-banks-fed-boe-trading-firm-exposure-probe",
-      "time": "2026-09-21T09:30:00Z",
-      "headline": "Fed and Bank of England step up scrutiny of bank exposures to proprietary trading firms after Jane Street loss",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "JPM",
-        "GS",
-        "MS",
-        "BAC",
-        "WFC"
-      ],
-      "why": "Supervisory reviews of prime-brokerage and clearing exposure to non-bank trading firms typically end in higher haircuts, tighter leverage limits and added capital held against those books, which compresses a high-ROE revenue line for the large dealers. Prime brokerage and equities financing have been a core earnings driver for the bulge bracket, so a forced de-risking trims balance-sheet velocity and caps buyback capacity. The probe stage alone raises headline and litigation-reserve risk before any rule change lands.",
-      "source": "Investing.com / The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLVRZN3pDOHpmSTdrTXAtLTl2cDlxYllGdTlWdXRDYXhYdXFKLTJ2dTdkRzVtNmhNdXoxa09hLWM3VW9OZVBaUFhvZm9HYmdCd2d0MEktUlA3WEZwOW5VU2w4NlA2d1ZJRjlnZnBXZm1BNi00T0RvcFdBbXJrX3JkaDhPNVlnZjh0Z2lma3FSN3RJUEo4azN5czExdmV2WjI3SlBSTXRrVDVfZy1OSmxfcTkxMWVrVm1Sa2VpcVBEdDQwQjF1cUVTQVNyVUJJQS1oSW0w?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-mu-ai-demand-derating-debate",
-      "time": "2026-09-21T08:00:00Z",
-      "headline": "Memory names slide as AI-slowdown debate questions the durability of data centre demand",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "SMCI",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "The market is testing whether current HBM pricing reflects structural scarcity or an order pull-forward, and memory carries the highest operating leverage in the chain, so a small change in assumed ASP trajectory swings earnings estimates far more than it does for logic. The derating is happening on sentiment rather than data, which sits awkwardly against record Korean export volumes and reported sold-out HBM capacity. Resolution is event-driven and near-term rather than gradual.",
-      "source": "equiti.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMXJleHVodGJYSVFqY3RBbHp3a1NXaVR0UTA5TVFfYUFvOWdPaG9PQTRQc3lNdFJNcXYySG1JVDdwM2JHVWZ2Qm5KNFZHd2diQklPZTFzQjRMOGV1ZU91aHJyWmhiNGRaVXd5ejU1bjJYMThKMTBuZU1yNUtaRHQ3U0tvWF9wU3l4STY1OWdvVFJPZ01VY0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-mu-analyst-longterm-eps-lift",
-      "time": "2026-09-21T08:00:00Z",
-      "headline": "Sell-side lifts Micron's long-term earnings outlook ahead of the Q4 print",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "SMCI",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Raising out-year EPS rather than just the next quarter is the analyst community conceding that HBM and high-capacity DRAM pricing is structurally contracted rather than spot-cyclical, which is what justifies a higher trough multiple on a memory name. Consensus estimate revisions of this type usually precede index-fund and quant re-weighting because they change the forward P/E screen. It also sets a higher bar into the earnings report, so an in-line guide would now read as a disappointment.",
-      "source": "AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM1NOeE1MRHhockcwU3VwYTJNSUUxam95UHJ6ckVnbjFjbUpOUkdWSjhhN29MZG9wYjZseWhUR09fd2ZNNEo0ZGxNZmFJRzRZeXZKYkpGVW5oNlB2WEtGOEZPZm1mMDY2ekhZWWM4cFFxdlFUZlQ2UHdodGxPSkdmaS1PX2t6dXZCOWNWd20zSnZnRnBYV3BDU0pDbTRfcWNleXYtUzU4bjhEOTA0VDdhbGJybTEyLXdhR1E2bkc0cFMwT0Vob3RoMXB1OUtudG9xTFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260921-mrvl-interconnect-portfolio-ecoc",
-      "time": "2026-09-21T07:00:00Z",
-      "headline": "Marvell brings a broad AI data centre interconnect portfolio to the Spain optical conference",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "ANET",
-        "NVDA",
-        "TSM"
-      ],
-      "why": "Interconnect is becoming the constraint as cluster scale-out shifts spend from compute silicon toward optics and switching, and breadth of portfolio is what wins multi-year hyperscaler sockets rather than single-product wins. Demonstrating a full stack positions Marvell to attach optics revenue to custom ASIC programs it already holds, raising dollar content per rack. It is incremental rather than a contract, so the earnings effect is a 2027 design-win question, not a current-quarter one.",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcTFMcWp6Wll4dUpVWlloWmE0T0JJSV96RkdtNDVRcDNTMXNKbzlncFYzWE90ZjBvdHJYdjRzT2lDUVFSZWtyVDZwTzlkTDBKT0VBdzNhRDdoNWFjUnQwd3FxMC1SUjJHaHF3UlRmNE5seTAxel9HZXJGVXhfLWJGbEVzR3hybVdoN0sydmtyMFFkQ2hWb2NKbGpNT3NkeXVRV19hUGpEcS1aLUFFdGw5cEpfWUJVWElVd001b2pTOA?oc=5",
       "alerted": false
     }
   ]
