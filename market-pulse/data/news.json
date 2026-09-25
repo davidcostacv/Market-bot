@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-09-25T05:14:20Z",
+  "generated_at": "2026-09-25T12:05:40Z",
   "session_date": "2026-09-25",
   "items": [
+    {
+      "id": "20260925-wfe-intel-capex-bump-orders",
+      "time": "2026-09-25T13:00:00Z",
+      "headline": "Chipmaking equipment stocks rally as Intel raises capital spending plans",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "KLAC",
+        "LRCX",
+        "INTC",
+        "TSM"
+      ],
+      "why": "Wafer-fab-equipment revenue is a direct function of logic/foundry capex budgets, so an Intel spending increase converts into tool orders and deferred-revenue backlog for litho, deposition, etch and metrology vendors over the next four to six quarters. Intel had been the single largest swing factor in WFE order books after prior capex discipline, so a reversal re-rates the group's 2027 revenue base rather than just sentiment. It also signals leading-edge capacity competition with TSMC, keeping industry capex intensity elevated.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPR1ZmZjdnUHpiUVpqbFI3NGxaeWNPVXB3RFdqUm14QUI1bnZ6WWtHZG54WFRvQUktTDhLTnJlWTE0c2djOHhhQjdRYjA1NHJESWpYYldTWDdBWXlXOE4ybmhjXzZSWEllSVdCRnNUajV6V1pzNlZrX0tTYlpyU0RRM3JSbUt0QlJkYnBFSmxhWlRaWlJGOUZwQUZmY1dUNW9NSUxEU25UZlRSUkQyZko3V0NZSWV5SzRGNGcwQVB6bVNnel9TWU9rdWYwWXFWTnpXUlBjVldB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260925-nvda-china-zero-in-guide-derisk",
+      "time": "2026-09-25T11:30:00Z",
+      "headline": "Nvidia's current-quarter revenue guide embeds zero China AI chip contribution",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI"
+      ],
+      "why": "If China is already carried at zero in the guide, further export-control tightening or Beijing-side procurement bans cannot cut the guided number, which removes the main tail risk investors have been discounting in the multiple. It also means any partial licence restoration or H20-class shipment resumption would be incremental upside rather than an offset. The same framing applies to the supply chain that builds to Nvidia's forecast, since their order books are set off a China-free baseline.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOHBhejhlUG01MV9uZ2JOeWgxTGV4bXZzV3R5c0dRa3BYYnVISGpkcURGd2Q1WmwwalJNaHhIY24zTkxuVkVWVHR6T1lKSkpucmNLbjFqeElIWTdPWXQ5WG1mTko3OV9HOU5UdGhjazRnMUs5S3JOamYxMTJWQzhZOWJDb2llazRhWU45TlJ5eWtZdEViUnZ6ZUxhaEc2c1k?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260925-macro-jobs-cpi-week-ahead-rate-path",
+      "time": "2026-09-25T10:00:00Z",
+      "headline": "Upcoming payrolls and inflation prints set up as the next test of the Fed's rate path",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AAPL"
+      ],
+      "why": "With the market pricing further tightening rather than cuts, the labour and price data are the direct inputs into the discount rate applied to long-duration tech cash flows, so a hot print lifts yields and compresses megacap multiples without touching earnings. A cooler print does the reverse and would unwind the recent yield-driven de-rating. Positioning into the releases explains more of near-term index variance than company news does.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVdISllUQW1vOGc5UzVfeWVGbVloWmh0U3A3X0N2LU9TQnBfQ0RhU0JfbEZVQlA3MUJhOVBacWg4QkJrdTVQaE50RkpsaGJqOEhWZDU5WDNQTVp0dWtzc3J6ZVlFR3VnZmNnLTlwbEpWZW9yMXh2NThFQnpyd3lNX3JZUUZfQ05vTndubkpBaVgzY2d4b05DOEJUSGZ6RGNuWVlDcU4ybm9IVUQwbWtMUU5Ic2pEdDQ3?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260925-smci-backlog-quality-scrutiny",
       "time": "2026-09-24T22:05:00Z",
@@ -810,61 +873,6 @@
       "why": "The China revenue line is currently carried at or near zero in most US chipmakers' guidance, so any licensing relaxation out of the summit is pure upside optionality on volumes already excluded from consensus, while a breakdown re-tightens entity-list and equipment rules and caps the\u670d\u52a1able market for the toolmakers. China's improved export position reduces Beijing's incentive to trade concessions, which raises the variance of the outcome rather than its direction. Positioning into a binary geopolitical event of this size typically widens implied vol across the SOX complex before it resolves anything fundamental.",
       "source": "NTD",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGdzZUoyaGgtQlNvVTk0Q29ZR3JjbXJ3bENuVzlBQzlYSGpsZmhzQWxjMnRTazRJQ2s4OFhUa0hSdEpHbElMNVlfTUliLVF5bWdhSWoxRDQ4bzZMNlYxZUhGR3NUbFFUU2psMUhfQmZBa1JwZUllVGlIdDltWDlIM1NXRVN5Z3dQaHU1b0FmLUdYRVdlVUh5MnQxSDItQVJNbEE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-huawei-ascend-export-halt-supply-ceiling",
-      "time": "2026-09-22T22:00:00Z",
-      "headline": "Huawei shelves global Ascend rollout as domestic demand outstrips supply; Atlas SuperPoD scales to 120 exaflops",
-      "impact": 6,
-      "direction": "bullish",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "TSM"
-      ],
-      "scope": "sector",
-      "why": "Huawei's decision to hold Ascend output for domestic customers removes the only credible near-term alternative accelerator from markets outside China, protecting pricing power on Nvidia and AMD rack-scale systems in sovereign and Asian deals that were at risk of a cheaper bid. The binding constraint is fabrication and HBM supply, not design, which is why the cluster-level answer is brute-force chip count rather than per-chip parity. The offset is that demonstrated exaflop-scale domestic systems shrink the China TAM that US vendors could ever recapture if licences loosen.",
-      "source": "shattered.io (citing Tom's Hardware)",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCN2R2bUhIWHRtSGU0dlJkTDJoQkRXakxpQlRzS0NzOW9WU3VTUkt1QUxNbVZtM2RhSjhMdzVWZWhIZDhMRFoydVZoLXZjNjNGeVhtWXI4VV9lQllBRFFyVFdNR094Y1FRaC01eTMzQUU0azRBLTVSRW5kNEZibzg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260922-aapl-m6-mac-launch",
-      "time": "2026-09-22T13:00:00Z",
-      "headline": "Apple's M6-class Macs reach customers, pushing on-device AI silicon into the installed base amid memory cost inflation",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "TSM",
-        "MU",
-        "QCOM"
-      ],
-      "why": "Ship-date arrival converts a previously announced refresh into revenue recognition in the December quarter and lifts Mac average selling prices through higher-tier silicon and memory configurations, partially offsetting the DRAM cost inflation squeezing the wider PC market. Apple's vertical integration and long-dated memory contracts let it absorb component inflation better than commodity PC OEMs, so the refresh is a share-gain vector rather than just a unit event. Foundry read-through is to TSMC, which fabricates the leading-edge parts.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQll2TjBsdExJVjg2S1kxUmNESEM1Nl94THgwWkpVTHFGU055TU5qY0RhTFRIYXZYR3J1bFMxcHJvd2k3RXdSNUtGQmJRVWhJLVRyYTRuUzJHLWJjcFd5TnFMakdRSm5vVlBvZTc3YjM2RWo1VVJKLTJrTlpxaDh1QWw2STJoWlRTdXZibi0yWDZmV2F5WE05UjdILUlFV0lwZ0xMZGhWbG9ZR2FUbVZMeg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260922-mu-stifel-reiterate-pre-earnings",
-      "time": "2026-09-22T12:30:00Z",
-      "headline": "Stifel reiterates Buy on Micron with $1,500 target into the Sept. 30 print",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "A sell-side reiteration this close to a print functions as a pre-announcement read on contract pricing and HBM allocation rather than new information on the quarter itself; it anchors buy-side expectations for the November-quarter guide, which is what the stock trades on. Because Micron is the first major memory reporter of the cycle, the guided gross-margin path sets the demand marker the rest of the AI hardware complex is priced against. Risk is asymmetric: with the bar raised, an in-line guide is a de-rating event.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdVhrVkNJVDhDc0ZlS1R1UlF0WGgzMVA4anpDRlRkT2JqTnA4UWV6YjNpcEU0VnVBUXNQZ3ZRdDQwWGEzSzJpTzVFVG1rSnRtelIycGs2bmJubzFrSE96dkRRbGI4OXdMbzc1SGFvR01GcTF2MjlJU20wVm5oelFVcEp3UEh2THBBT3FSV3BiUW9Da1lVd1c3T2hWaGxqbS1nclQ1RWMxRF9MQlAzemZEOHNDSHJDY3NqVXItUXFB?oc=5",
       "alerted": false
     }
   ]
