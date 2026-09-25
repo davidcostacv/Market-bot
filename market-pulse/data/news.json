@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:27:39Z",
+  "generated_at": "2026-09-25T21:45:21Z",
   "session_date": "2026-09-25",
   "items": [
     {
@@ -62,6 +62,42 @@
       "alerted": false
     },
     {
+      "id": "20260925-meta-muse-subscription-model-disruption",
+      "time": "2026-09-25T13:00:00Z",
+      "headline": "Meta's Muse launch re-rates subscription-model software and content names lower",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "META",
+        "CRM",
+        "NFLX",
+        "MSFT",
+        "GOOGL"
+      ],
+      "why": "A free, ad-funded generative product from a platform with distribution at social-network scale attacks the pricing power assumption embedded in per-seat and per-subscriber recurring revenue models, which is the core input to their terminal-value multiples rather than to near-term EPS. For Meta the mechanism is the opposite: incremental engagement and ad inventory at low marginal cost, funded by capex already in the plan. The market is repricing the gap between owning the model layer and renting it.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeEFpN2Zsa3ZoVjMzSFgwV3BiNXF0YWJvemR2OGdfTzllY2I1X0NOV3hFWTE0azRKMDc4NUpHUEt1YXFuSmpJN2RWWGlvVmhUd0tsQ0lINjU4YlZHamdPSWdrWWl0Y1RUdlRDR0dFYXRmNE0wcWFZZV9kYTJtOW1EZUJIT2RXR1VPSnJNMG94Xzd3dlFRMW9qU1hhNUw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260925-mrvl-outgoing-cfo-share-sale",
+      "time": "2026-09-25T12:30:00Z",
+      "headline": "Marvell's outgoing CFO files to sell roughly $65M of stock ahead of departure",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "ANET"
+      ],
+      "why": "A finance-chief transition at a custom-silicon supplier removes the person who has been setting the AI-revenue disclosure framework investors use to underwrite the 2027 ASIC ramp, which raises the risk of guidance framing changing at the next print. The size of the filed disposition also puts mechanical supply into a thin post-run tape and signals no personal incentive to defend the current multiple. Read-through is modest for other merchant/custom accelerator names, where disclosure quality is a key part of the valuation premium.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTXZGYUVyaTdTbUp2WHA5Q1o1Sjd0Z2tKZmtPRmlwM2UyQ1puSGJNbl80aTNzWGZJTDVMVzhsYnU5UXRJcUk0aWdPeGRJb3V2LU9PeHJ3MF9QeVlBSGJxNmVIMlhGUzhPbGdzX1BUTmhiXzdIdDM3ZjRLdVRrV2RSRmNOdFRqVHhsLTY4Y01BWnNPaVVhYUdqS2JETGRGNUN5Qm1BR2NFaHBmMk5yUmstWGJncHpVdk5IM0ZxQVdpUmp3WGR4RW9Md1F1d2xEWW9vOHc?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260925-mrvl-ai-optical-content-repricing",
       "time": "2026-09-25T12:00:00Z",
       "headline": "Fresh AI optical interconnect news leaves Marvell arguably priced for the win already",
@@ -117,6 +153,26 @@
       "why": "HBM revenue recognizes against the customer's platform ramp, so a slipped accelerator launch window moves high-margin bits out of the current guide and into a later period, hurting the near-term mix even when annual volumes are unchanged. Timing shifts of this type usually mean qualification and packaging capacity, not lost share, so the earnings hit is deferral rather than destruction. It still forces estimate cuts to the guided quarter, which is what sets the stock in the next few weeks.",
       "source": "Quartz",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmSXZuWGp5YmlMeEpVQjRob2hib0lhTC02ZkJPSDZFYUJvTC1wNVVZaDJfMmREQ0VEa093d284b1BCRkdCaDRvemc4QXhjUzdWWDZoZ2FuTzl2ek1oT0Y4ZFM4TmJXWFNJemtXcEZ1OGU5QQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260925-ai-diffusion-southeast-asia-transshipment-risk",
+      "time": "2026-09-25T11:00:00Z",
+      "headline": "US AI buildout in Southeast Asia complicated by China diversion concerns, raising licensing risk for the region",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI",
+        "TSM",
+        "MU"
+      ],
+      "why": "Southeast Asia has become a large marginal buyer of accelerators and full racks, so any move to tighten per-country licensing or end-use verification there converts a booked pipeline into a permitting queue and pushes revenue recognition right. The mechanism hits system integrators hardest because they carry inventory against orders that may need new licences. It also caps the addressable market investors have been extrapolating for sovereign AI beyond the Gulf.",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMHRJRFB0aWhzNXdfb3R0NXdOdzQyZzlWMW5fdHZORXpQQnNZTlVrdGVPQkRvTUo4cVJZdDA1Z29ibTVWcEZuRUFrVDNxeE1BNXJVY05hc01SZGUyalpETURSQ3Jjdy10MHA3dTNoSHhnTVY0a3NLYm56S0VsZGx4QWR5b2UwcExLMmpWMnBMc04?oc=5",
       "alerted": false
     },
     {
@@ -806,74 +862,6 @@
       "why": "The long end repricing toward and through 5% raises the discount rate applied to the longest-duration cash flows, which is exactly where the AI/mega-cap complex sits; a two-thirds probability of another hike in October means the terminal-rate path, not earnings, is now the swing factor for multiples. It also raises the cost of the debt increasingly used to fund datacenter capex, squeezing the financing spread behind AI buildouts. Small caps and leveraged balance sheets in the Russell are hit hardest since their funding costs reset immediately.",
       "source": "MarketWatch",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMOGx4MkZURnVjUExNcnhnajRQQ0dnN0hieTVZUEtlQUp2cjdmRWpGZXFub2VxSVByYlVKUnpWSm9kb09DQ2h1UTJMa1pKSlVwbHhYR29jZ3I4ZUR1MGo1SHpwQUQ4U3BkOHhUUGVfOWQyb3Q1QU9ZcEpzX05Ld1BCNktGcUJCRzkxUnBYVmhYWXBBOVF5MUZuS1pZdVJMVG9sWHdEMTljYXRjVC14QUY0RlJsdDY4WlhQbm1fak4?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-macro-flash-pmi-five-year-high",
-      "time": "2026-09-23T13:45:00Z",
-      "headline": "US flash composite PMI jumps to 58.4 from 56.0, with services 58.7 and manufacturing 57.0 \u2014 strongest private-sector activity in about five years",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "PLTR",
-        "MSFT",
-        "AMZN",
-        "META",
-        "TSLA",
-        "AVGO",
-        "MU"
-      ],
-      "why": "An upside activity surprise of this size, with survey price components still firm, removes the cyclical excuse for a Fed pause and pushes the terminal rate expectation higher one week after the first hike in three years. Higher discount rates compress the terminal multiple on the longest-duration cash flows, which is precisely where the AI/semis complex and the megacap growth names sit; the earnings path is unchanged, the multiple is not. Small caps take a second hit through floating-rate debt service, which is why IWM underperformed on the print.",
-      "source": "Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYVRPOVNCdGVnWFc3VkNvU2ZSYXlMbzExX08tQm1tMUlsX19rUG1aV2t5akZueXpQYjN4QkcwTm9BOFZ2Z1F0OUV1ZWhqbWFFTmR6T2o4dWNOOHVydmthWU5lbm1sZnBwT2xYaE9yVlJ6Yi1mMllIa19JODZQVkQ5SWtuMUdzd2xTUXR2R2trQWtBRC1TWmE4ZVM0RE53anhfSU1HVnF2Q3FTc213TE1ITVZHT1FtUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-semis-senate-chip-export-bills-floor-push",
-      "time": "2026-09-23T13:30:00Z",
-      "headline": "Senate Democrats press leadership to floor three bills restricting chip and chipmaking-equipment sales to China as Xi arrives in Washington",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "MU",
-        "TSM",
-        "QCOM"
-      ],
-      "why": "Codifying export limits in statute removes the executive's discretion to trade chip access for concessions at a leaders' summit, which is the main channel through which the market has been pricing a China re-opening option for accelerator and toolmaker revenue. Equipment names carry the larger direct exposure because China remains a disproportionate share of WFE shipments, while accelerator vendors lose the optionality embedded in current guidance. Timing matters: legislative momentum during the summit caps how much can be given away, so any China-upside scenario in models gets discounted.",
-      "source": "Politico",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWlHZ3pXenBHSkNGOXBCeUNqSFdQT0MyYWtiYVgtR0g5VVQtV2N1ZXp2NUtGUFliS25jMHItbWRwN3ZaeFVvaDdJTXlfa0trQTU5XzdCNGJPcHpyclhVN3Npc0ZrRHprQnlLbzJqWEY1cHNuSDlkZm1RS2VRR1NGQlVHRkxUZUZpd3NOZXJBUkJCNTNQTHg5YUk3QmJ0amJRenBB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-mu-wells-fargo-target-cut-valuation",
-      "time": "2026-09-23T13:00:00Z",
-      "headline": "Wells Fargo cuts Micron price target to $1,400 from $1,525 while keeping Overweight and raising estimates a week before the Q4 print",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "SMCI"
-      ],
-      "why": "The cut is a de-rating of the multiple, not of the earnings \u2014 the analyst lifted financial forecasts at the same time, which is an explicit statement that the stock has already priced in the memory upcycle and that further upside must come from cash returns or a longer cycle rather than estimate revisions. That sets a harder bar for the September 30 report: an in-line beat may not clear an expectations level that already embeds peak-margin math. Sources conflict on direction of Street targets the same day \u2014 Citi moved to $1,300 from $1,150 and BofA held $1,550 while Wells Fargo cut to $1,400 \u2014 so the dispersion itself is the signal that valuation, not fundamentals, is the contested variable.",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSnUxd2c0SmZtZlNpTzJ2VjlWSDVhZE5DanFGWWRvTFVCVWtSNk4tUlotLWYyaTQ3M0xpRDFoLU9tMnZIYzR2dGZBZ05GWXlQelNBS3ZDMXdOdWFkcEFYamhkS0M0Q3B2c0JJSmZzd0gzajNpTUFoaXhjd2pUSnZnT2RzTkNmYzdOMERpNnNPbGFxV0w5WGdMdkZhNHprUDZpSU1XNk52MlhadWpPVThZanFvQ2I0SzVtakU0dzM3ZEF4dXI3dUtCajRHM3ZHM2dJMjFnam1B?oc=5",
       "alerted": false
     }
   ]
