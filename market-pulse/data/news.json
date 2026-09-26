@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-26T16:37:26Z",
+  "generated_at": "2026-09-26T21:24:01Z",
   "session_date": "2026-09-26",
   "items": [
+    {
+      "id": "20260926-nvda-wallstreetzen-downgrade",
+      "time": "2026-09-26T12:05:00Z",
+      "headline": "Nvidia cut by Wall Street Zen in a valuation-driven rating change",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "SMCI"
+      ],
+      "why": "This is a quant-screen downgrade rather than a fundamental estimate cut, so it does not change the earnings path, but it adds to the count of rating actions driven purely by price relative to intrinsic value. That matters at the margin because it signals the stock is now clearing the valuation thresholds of systematic screens, which can pull passive and rules-based flow out even while the fundamental sell-side stays positive.",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSTlNM1RBcG1POU1OZDVoNUhseWY3V21HNDVDUUNCSzlwWTdfSzdyV0hoa280ckF3VjIxX2ZIbHNfaUhuaVlLRlhVdThoOVktS01xWUstVG5uaHRra1hJclBteTJoaEFCYjQyZ2h1WExCUWtIZHY3MEpTQUxRemEzc1pKZUJ6eWJxZDVMS2YtbUhxSUpVdzVYaVVwb2E0bVoyWVo0Qy02SXZzbTdlenI1UDV4M3k1eDVDRWRxaQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260926-nvda-bofa-valuation-reset-buy-list",
       "time": "2026-09-26T12:00:00Z",
@@ -49,6 +67,28 @@
       "alerted": false
     },
     {
+      "id": "20260926-mu-rbc-sca-multiple-rerate",
+      "time": "2026-09-26T11:20:00Z",
+      "headline": "RBC argues Micron's long-term supply commitment agreements justify a re-rating from ~6.5x forward earnings",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The bear case on memory is cyclicality, which is why the stock carries a trough-like multiple even on peak-looking EPS. If a major bank can show that pre-committed, multi-year supply agreements fix price and volume ahead of delivery, the earnings stream becomes contracted revenue rather than spot-cycle revenue, and the appropriate multiple moves up rather than the estimate. The read-through is to HBM buyers who are locking that supply and to WFE names funding the capacity to serve it.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZW4yYkswUlI0OXZGcElSOFBpbnoxX2trS1dzaEhTOElQUGktYVZDVXJqMDRVSWhGM2JDc2ViaUc5MDFrYkU5QmttMk54ZUJIdU54OU5DMzAtOUp1OFRwblVLN1FmbFdSYnhCaHVtakxWOU9jakZKOVJrR2c2TEhxYXJoMV9SejdCX1N4eTVPNXZadw?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260926-amd-anthropic-akamai-compute-contract-readthrough",
       "time": "2026-09-26T11:00:00Z",
       "headline": "Anthropic's multi-year, multi-billion Akamai cloud agreement adds a new non-hyperscaler compute sink feeding CPU and accelerator demand",
@@ -72,6 +112,51 @@
       "alerted": false
     },
     {
+      "id": "20260926-macro-jefferies-index-target-priced-for-perfection",
+      "time": "2026-09-26T10:30:00Z",
+      "headline": "Jefferies sets a 9,000 S&P target that requires every assumption to break favorably",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "why": "Strategist targets do not move earnings, but a headline index target built on a stack of best-case inputs \u2014 margin expansion, rate cuts and uninterrupted AI capex \u2014 tells you the bull case now depends on conditions rather than trend. That raises the downside convexity: any single input missing (jobs, inflation, or an AI capex digestion signal) unwinds more multiple than it does earnings, and the mega-cap weights carry most of that risk.",
+      "source": "Real Investment Advice",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQemJMOUJKcWk1N1owdExacVFQRlphLTAwT1Y5N3ZwTkd4X1BvektmdnI2dkN4RmI3ZHRBMlVYcjI1V1dwdkVMTW1KbVBtWnVTNXktY0pSV1BYcHRQbk9WRWtwR1VWTXFWdEViQmR4MmhGX0pGTHpzZzlJTk1Kb3V5c05uSV9RUkxKV01PaHRkVDQ1cHlVYTNyUWhfZVFEV0c1ZzNOVWNfZXVPZHhRWElLbw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-nvda-jpm-growth-outlook-defense",
+      "time": "2026-09-26T09:40:00Z",
+      "headline": "JPMorgan growth framework for Nvidia draws scrutiny over durability of the compute ramp",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "AMD",
+        "ANET",
+        "MRVL",
+        "SMCI"
+      ],
+      "why": "A major bank restating a multi-year growth path matters less for the estimate than for the discount rate investors apply to out-year Nvidia revenue, which is the single largest input to the entire AI supply chain's forward numbers. If the sell-side anchor holds, the whole compute complex keeps the benefit of the doubt on 2027 capacity bookings; if it slips, the derating spreads to networking, foundry and memory before it hits Nvidia's own P&L.",
+      "source": "Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGxEVERJdFhBc2ExQjhKU3NZSHlGOC0zaUJZSlEycU1Kam1PRUpQZEprWjZCZkFIN1JBOVFJS0YyTU9iOUUzZ3p1aXByZzAtRUY4TXVXeUFGVGJOZjJHdk9ZbE4tV1hiVWpkakZXX1RENm1RRlhUOVp6XzhpX2NxZGU0b3lBakp2c3RQdGNfUC1kT25yQ1puUTNFS20?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260926-mu-ubs-structural-reset-estimate-hike",
       "time": "2026-09-26T09:30:00Z",
       "headline": "UBS lifts Micron estimates and target, sees memory shortage running into 2028 on HBM squeeze plus bigger buyback",
@@ -92,6 +177,31 @@
       "why": "A major-bank model reset ahead of the print moves the debate from cyclical bounce to structural pricing power: UBS argues DRAM/NAND tightness persists through 2H27 into 2028, which extends the period of above-mid-cycle ASPs and gross margin rather than the usual two-to-three-quarter spike. If contract pricing is locked for that long, MU's earnings base and the multiple applied to it both rise, and buybacks shrink the share count into the upcycle. Read-through is positive for HBM-consuming accelerator vendors' supply certainty and for memory-levered WFE order books, though sustained memory cost inflation is a margin headwind for server OEMs like SMCI. UBS's published EPS path and $475 target sit above consensus per the source.",
       "source": "\u5bcc\u9014\u725b\u725b",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcHI1R1U2UWR0eWJsZHotQ3U0ZVkwRVUwdzJSN2xpQjJUTnpYQU4wRnYxVTVNMmxqaDFNTEZzdlZEMEJxekxGXzNpWGk1M25kUFBOZF9GbFV0Wm03UkR1R3ZMTlJKWGJPX01hZEhfOERfWm5sZWVfR194MHp1M3ppdm9ScmpnZWZXcGxUM3FZYzFxZHl5TU44cGdUWjRuVFZXMWc2QW9uQmgzVjQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-semis-record-industry-sales-print",
+      "time": "2026-09-26T08:15:00Z",
+      "headline": "Industry semiconductor sales set a record as AMD's market value crosses $1 trillion",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "MU",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QCOM",
+        "INTC"
+      ],
+      "why": "An aggregate industry sales record is the cleanest confirmation that AI unit demand is converting into billed revenue rather than sitting in backlog, which underwrites the foundry and equipment order book two to three quarters out. AMD's valuation crossing into the trillion-dollar tier also resets the comparable set used to value accelerator peers, lifting the implied multiple ceiling for the second-source merchant silicon names.",
+      "source": "equiti.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1BNOFBsd005Z29mM2RiWGZMSHFVV2R0dWhNaDBVNldMMW5KM0haU3A5c2xEd0RMV3NoZUJpclpja0ZCSFE3d05TdTN5MFRuVFV3djE0TUF5REwzOFBSdlhQOWF2aUZzZGxHLU9TWHh5d1IxYnFPVV9RVUdfSG9PcE1HVkcxZzlHRDgtTnpEalpxVUEyajNXdzZGOXhwZGcwdkdOTGRZcjI?oc=5",
       "alerted": false
     },
     {
@@ -747,110 +857,6 @@
       "why": "A labor market this tight removes the last argument for the Fed to stay on hold, so the data feeds directly into the hike-repricing already driving the long end above 5%. Higher terminal rate expectations compress the discount factor on the longest-duration cash flows, which is exactly where the AI complex and unprofitable small caps sit, while steepening the curve in banks' favor. The housing detail matters too: sales are being bought with price cuts rather than rate relief, meaning consumption is holding up without any easing of financial conditions.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbkFjbktqV0kzSmJtNEZPU2p1MWRCWTdKLWVySDEtTnJMbUdVR1p4VGZ1YnVlM0tkcEsxSFlsdTY4b1RodjlqVDQ5V0hoT3FubnE1N1c5U0RZOTgyZ0JsQnFWQmJQTGx2QUNTZmJROHN4dmN3VnNXNXRnTVBsQlFIZzVqb0JjMzl1MlVEeDFUNUFJQm53RVU5WkFGd3VhNjhXbHlGVUFnYWZ0VGM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-macro-cpi-oil-passthrough-fed-path",
-      "time": "2026-09-24T12:30:00Z",
-      "headline": "CPI release becomes the swing input for October hike odds, with energy pass-through the deciding variable",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "XOM",
-        "CVX"
-      ],
-      "view": null,
-      "why": "The market is currently discounting a further tightening step through the long end rather than through the policy rate, so an inflation print that is soft ex-energy lets yields retrace and mechanically re-rates the long-duration megacap complex. The commentary framing matters: if the impulse is oil rather than services, the Fed can look through it, which is the difference between a term-premium repricing and a genuine policy repricing. Energy names sit on the other side of the same trade.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM2ZOQzNvUXZuaklkVWFndXVNMThOTnphWUhzNHVoUVNmVzVlOElEMExSM2paMmhrWl9TVTZEQ0pNcnhieEdBMUxDRktkYjlNX2txWENfb1dxa0dtZ1lHcmFsdXpLWVhmaVBndHNrcmRSeG9qRkFsTUIzUkhzaTNFdEJYc0xNdWl6ajMtWjdvSTBnaC1TNjExZ0wwdExOQzFnOGpXckQ4NzJVSkdiVmFPU3A0Q2NrMXZLUnByQWREQVN1VU5JX3dwR0xjZU9YTlpQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-mu-bofa-upside-call-pre-print",
-      "time": "2026-09-24T12:20:00Z",
-      "headline": "BofA models further upside in Micron after a parabolic year, implying pricing not multiple does the work",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "TSM",
-        "NVDA",
-        "SMCI"
-      ],
-      "why": "A major-bank call that sees continued upside after a move this large is effectively an argument that DRAM/HBM contract pricing is still running ahead of consensus cost curves, so the earnings denominator rises faster than the share price and the multiple actually compresses. That reframes Micron from a late-cycle momentum trade into a supply-constrained pricing story, which is the read-through that lifts memory-levered equipment names. Note the wires conflict on the size of the year-to-date move \u2014 one item cites roughly 169% and another roughly 275% \u2014 so treat the base for 'further upside' as unverified.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbUFBNy1FYTdMaE82X1FJX3BjU0R4UmJtTWFrekF4SjJfQzZYdzRtVk5LRnV6SERoZWJkTnNoWjJEOGpucFE4cDBhM2xHZFE0c1BPcjRlUGtUMDc1VFlnZ3RxbHJYUktkamVmdHpET3F0TUQ0RUY1cndJSUhzRFlrYlV1dFJ2TG03MUt2b0ItYVRQME4xSEc2aWw3d192REZNd1ZpbHY4eHFycF8xNUppMmt5dllQaWJ1UVNkUDZrOEVUbldla0VpRm5BT0Y?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-smci-export-probe-clears-management",
-      "time": "2026-09-24T12:00:00Z",
-      "headline": "Supermicro's independent board investigation finds no evidence current senior management knew of alleged export-control diversion",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "DELL",
-        "AMD"
-      ],
-      "why": "The unresolved diversion allegations were a live tail risk to SMCI's ability to source restricted GPUs \u2014 an export-license suspension or debarment would have cut off the single input its entire revenue line depends on, and it kept some hyperscaler and sovereign buyers from awarding rack-scale business. A board-led clearance of sitting management plus a hardened compliance program shrinks the probability of that outcome and of an executive-level exit, which compresses the governance discount that has sat on the multiple since the accounting saga. It does not end any government action, so the relief is to the risk premium rather than to near-term earnings.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSXJWeFAtUWdBODZlWllUR211bEdlRmd3VVFhMXVVeHRndXhrOE02WHQ3YmFGUDN0bFhkdWZBMl83VDJTc0NqUDFWck5rZmRGZ0d6Vzk0NTJSMkxINjVsZnVXVVA1VnkwV0pKRkN4QmU1YTBWVktWTml0MVBmekVsN2lYaGt1SVFybERZUWdSNllPVjByaFk1WE9Nc0R2NTEzQlBuUUloejJrMXE1SEtaMkZwcjQxTjlwN2RBVDNnRlRUV0tfMC0wSFllR0VjczVqVlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-amd-taiwan-10b-capacity-commitment",
-      "time": "2026-09-24T11:45:00Z",
-      "headline": "AMD commits $10B to Taiwan AI build-out, trading near-term cash for locked advanced-packaging supply",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "TSM",
-        "NVDA",
-        "ASML",
-        "AMAT"
-      ],
-      "why": "The binding constraint on MI-series shipments has been advanced packaging and HBM assembly capacity, not demand, so a multi-year prepayment-style commitment converts a supply ceiling into contracted units and raises the credibility of AMD's out-year accelerator revenue. The offset is immediate: the cash goes out before the revenue arrives, which dilutes free cash flow and is why the stock softened premarket even on a growth-positive announcement. For TSMC this is anchored, pre-funded demand at the highest-margin nodes, which de-risks its own capex plan.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaFlzdkVyM09LYVFYWk9leHJITmpoUnpfUDRZdUt3aFpPOVV2TDZZN29HZnN6TU5xeUtJaGw0NVZKRGstaEdDeDZzMVRCTFk0MWR5VkRDbXJQTkxOb0RmWTViVlVMTm85SWhtbmFpM2F3RXBhVHlIejl2ODZReVhHd0MzTzJFWDlBRUdabmFRN3piQW9WdXlpOVZvLVFRZXFWbWE1MjFsODZmSTJMVkFIdjVkUlpkdm9IN2IzXzl3WklhZHFEemF4Vjk3VHlOZmRsTktrVA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-china-domestic-accelerator-scale-up",
-      "time": "2026-09-24T11:00:00Z",
-      "headline": "China's domestic AI accelerator build-out gives Beijing leverage heading into the Trump-Xi meeting",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX"
-      ],
-      "view": null,
-      "why": "If local parts reach good-enough inference performance at scale, the China accelerator TAM stops being a suspended asset waiting for licences and becomes structurally lost share, which removes an upside call option currently sitting in US chip multiples for free. It also reduces Beijing's incentive to trade concessions for US silicon at the summit. Second-order, domestic capacity funnels tool and HBM demand toward local suppliers over time.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1poekxTT01INi1FY0h2MGNpNmtWMHg2S3JLTDRXRnBLVFFaa3B1cHZ4djMwM2VzN0dPc2hfQ1BlckZIZGFqM1hQUW0wazd3OFFKWm1nVGc5LU05b2dXTUxkdWtkWDR0MnM0VThfZlZINlZvd09qWkNvWW5iVEl4V3NoUUpRZ2NYcHk5eHR2czJVXzUxTEFjVHJrNUF5b1Vi?oc=5",
       "alerted": false
     }
   ]
