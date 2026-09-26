@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-26T11:41:43Z",
+  "generated_at": "2026-09-26T16:37:26Z",
   "session_date": "2026-09-26",
   "items": [
+    {
+      "id": "20260926-nvda-bofa-valuation-reset-buy-list",
+      "time": "2026-09-26T12:00:00Z",
+      "headline": "Bank of America flags Nvidia among large-caps now trading below its fair-value framework after the AI drawdown",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MRVL",
+        "SMCI"
+      ],
+      "why": "The call is about multiple, not numbers: a major bank arguing the de-rating has outrun any change to forward estimates gives institutional cover to re-add risk after a sentiment-driven selloff, which matters when positioning rather than fundamentals drove the move. It does not change the earnings path, so the effect is a floor under the multiple rather than an upgrade to cash flows. Impact is capped because it is a valuation screen, not a rating or estimate revision.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjQxOVFhR3ZKMmxDSG9CSGMtTHctdFFuTmF2Q1lST2c0dTdNNFEtcHVyX0duMTlHcnI1eG12Tk5QdVByRXF4OWR5UDA5TGFpbHo5SG1ZWk9tVHJndy1XZjcxaDhjbE5fNXJENm1xbnBsLWdrNy1KU0U0WUpwbzliSGJvUW9rZk9ERDFUX2U3YUttbkFzNjQ2OUZINXJ0WC1N?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260926-macro-iran-strikes-semis-risk-off",
       "time": "2026-09-26T11:30:00Z",
@@ -29,6 +49,52 @@
       "alerted": false
     },
     {
+      "id": "20260926-amd-anthropic-akamai-compute-contract-readthrough",
+      "time": "2026-09-26T11:00:00Z",
+      "headline": "Anthropic's multi-year, multi-billion Akamai cloud agreement adds a new non-hyperscaler compute sink feeding CPU and accelerator demand",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "A frontier-lab compute commitment placed outside the big three clouds creates an incremental, contracted buildout that has to be filled with silicon, head-node CPUs, memory and networking, so it converts speculative AI capex into a backlog that can be underwritten. It also validates the pattern where chip suppliers take equity or warrant-linked positions in the lab that buys their capacity, which pulls forward revenue visibility and supports higher multiples on the supplier side. For AMD specifically it reinforces the server-CPU attach argument behind the bank's raised target, since every accelerator rack shipped drags host CPU and memory content with it.",
+      "source": "TIKR.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNalRNUWRNZ1laYVBISnVNRUNjMi1CelkyMTNpTDFIZGc1TFRac0pfQk9nSnBwSU5uOUlvcS1uNVVSdTAtNEM5d0cwWmE4NVFVRzRJMlFOenpEbnprUmRFeEZSSTVFZWxFREFtYzg1UVpGUTVnOWZicFJPSEZBZTVtNFhMc3hWU01rZm5UQ1ZFUEhCbEVWbnNnTUI3VS1qampTYjVMeTg4eld4WW5PTEttcVJvcXVHNEpibjhaWGV3VQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-mu-ubs-structural-reset-estimate-hike",
+      "time": "2026-09-26T09:30:00Z",
+      "headline": "UBS lifts Micron estimates and target, sees memory shortage running into 2028 on HBM squeeze plus bigger buyback",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SMCI"
+      ],
+      "why": "A major-bank model reset ahead of the print moves the debate from cyclical bounce to structural pricing power: UBS argues DRAM/NAND tightness persists through 2H27 into 2028, which extends the period of above-mid-cycle ASPs and gross margin rather than the usual two-to-three-quarter spike. If contract pricing is locked for that long, MU's earnings base and the multiple applied to it both rise, and buybacks shrink the share count into the upcycle. Read-through is positive for HBM-consuming accelerator vendors' supply certainty and for memory-levered WFE order books, though sustained memory cost inflation is a margin headwind for server OEMs like SMCI. UBS's published EPS path and $475 target sit above consensus per the source.",
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcHI1R1U2UWR0eWJsZHotQ3U0ZVkwRVUwdzJSN2xpQjJUTnpYQU4wRnYxVTVNMmxqaDFNTEZzdlZEMEJxekxGXzNpWGk1M25kUFBOZF9GbFV0Wm03UkR1R3ZMTlJKWGJPX01hZEhfOERfWm5sZWVfR194MHp1M3ppdm9ScmpnZWZXcGxUM3FZYzFxZHl5TU44cGdUWjRuVFZXMWc2QW9uQmgzVjQ?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20260926-mu-hbm-allocation-lockup-nvda-commitment",
       "time": "2026-09-26T08:00:00Z",
       "headline": "Nvidia's pledge to double chip output reported to pre-commit a large slice of industry HBM capacity",
@@ -49,6 +115,27 @@
       "why": "Long-dated volume commitments convert HBM from a spot-priced commodity into contracted, take-or-pay supply, which is what lets a memory maker hold gross margin through the back half of a cycle instead of surrendering price on the first sign of DRAM bit-supply growth. It also rations what is left for merchant buyers, raising the input cost and lengthening lead times for competing accelerator programs at AMD and the custom-ASIC lines at AVGO. Note the sourcing here is a low-tier outlet and the share figure is not corroborated by a primary supplier disclosure, so treat the magnitude as directional only.",
       "source": "shattered.io",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45QXRUYlFWTmZ0QlhPM2ZfRG1mQXdqckd5OTBsU0FKZDBuTGhVbkNvckVSZGFEQVlDaUtUanhGYzAwTlZoTy0xYVh6SHNXcFFudzZmSDNrb0toWGdZcW4wYUVEQjRUc3h5dmhFcg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-asml-high-na-order-cadence-inflection",
+      "time": "2026-09-26T08:00:00Z",
+      "headline": "High-NA EUV order flow becomes the swing variable in ASML's 2027 revenue bridge",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "INTC",
+        "TSM",
+        "MU",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "High-NA tools carry several times the ASP of standard EUV, so each incremental order disproportionately lifts ASML's backlog value and mix-driven gross margin, and orders are the leading indicator investors use to underwrite revenue two years out. A visible step-up signals leading-edge logic and memory customers are committing capital to the next node rather than stretching existing EUV fleets, which is the bullish scenario for the whole litho-and-deposition complex. The offset is timing risk: recognition lags shipment and acceptance, so order strength may not show in near-term P&L.",
+      "source": "simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVXVGRDFhWlZyZ2FmWVdkWG1SV1F6N0N4dWx3dFRMLXJjUVRzTFFMZVpVSENfaXVpRkNWZmhZTWk4MldFb0wxVmZqejZQbXE1ZUV6Wk55MENjaFQtc0JzNk5oX3ZiNHFfazM2Tlk2WmI1U2FnUThzM0JkUmhNSk4wNEZGLWtpSncwbzFJU3dvcjRtdmJybks4Ri1DVG5BY3BYWnlmTEdsNTVEd0RSS3B2VnI2ejVoa2ZPMWVZZHh6c1dQZTB5VjRiQThDaTVNMU1KYmJBSkdkV0TSAd4BQVVfeXFMTzNrVlphNmVTV25JbnBuRUpKQVJmT2gwYkxYdDhZOW1nVF9Jb1NFUWV4dXRla1V5cUNTcHdIdWh5bEhVeXhzNEF3MG4zcE9RS1ZCOWFkREN0Sk9IazBQQllHWnhsdzdTMmg1RE55aHZTTWR1M2U0dTlSMUdGWkdxa3M2NG52UTUzdVg1M25Bc1czbGdmU2lOVHpROFNwTjlhOUF6Y2tGY0kxU3FSSEVZUHFPWHJXcVVXQ0pvMml0R3F6YjhvYWpsNndVVVhmZUFtWjFnTE1neTNraFBsbmRR?oc=5",
       "alerted": false
     },
     {
@@ -764,96 +851,6 @@
       "why": "If local parts reach good-enough inference performance at scale, the China accelerator TAM stops being a suspended asset waiting for licences and becomes structurally lost share, which removes an upside call option currently sitting in US chip multiples for free. It also reduces Beijing's incentive to trade concessions for US silicon at the summit. Second-order, domestic capacity funnels tool and HBM demand toward local suppliers over time.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1poekxTT01INi1FY0h2MGNpNmtWMHg2S3JLTDRXRnBLVFFaa3B1cHZ4djMwM2VzN0dPc2hfQ1BlckZIZGFqM1hQUW0wazd3OFFKWm1nVGc5LU05b2dXTUxkdWtkWDR0MnM0VThfZlZINlZvd09qWkNvWW5iVEl4V3NoUUpRZ2NYcHk5eHR2czJVXzUxTEFjVHJrNUF5b1Vi?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-mu-q4-print-setup-margin-swing",
-      "time": "2026-09-24T10:00:00Z",
-      "headline": "Micron fiscal Q4 print sets up as the sector's next repricing event, with gross-margin guidance the swing variable",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "NVDA",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "Micron is now the cleanest read on whether AI memory demand has broken the historic DRAM/NAND cycle, so the guide sets the discount rate the market applies to the whole memory-and-equipment complex rather than just MU's own EPS. The mechanism that matters is the gross-margin trajectory: with the stock already discounting sustained undersupply pricing, a margin guide that flattens implies the cycle is being priced as peak and de-rates the multiple even on a revenue beat. A strong bit-demand and pricing guide instead pulls forward wafer-fab equipment orders, which is the read-through into LRCX, KLAC and AMAT backlog.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM3liUTZWSWozaE1jWXQzVWZBTTZXaE9FNWpVbF9IMF82ZkdmeVdvQWNzM2pHOG1JOUtKRzNFVjF1bTVhMFFOOEliT3ByY1dhSEFTYkdmTnhDc09SZ0Z2VkpSVkhFeU1Dc2NMbU4ybElSMUtvdEFaWW1sc3haYVdpSlpiYW1mdWdnaDlPbUpSeV9nU1lfaHRVTzh4NUhmU3BEXzc1YmFyWExZcF9lazVtZTlxV08wYXdsVVVjUg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-semis-record-industry-sales-print",
-      "time": "2026-09-24T09:30:00Z",
-      "headline": "Industry-wide semiconductor sales set a fresh record as AI and memory demand broadens",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "TSM",
-        "AVGO",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "INTC",
-        "MRVL",
-        "QCOM"
-      ],
-      "why": "Aggregate billings data is the one input that separates AI capex from a narrow order book: a record print confirms the revenue is landing across logic, memory and foundry rather than being concentrated in one accelerator vendor. That supports sell-side revisions for the toolmakers, whose orders lag device sales by two to three quarters, and underwrites the tight-supply pricing narrative into Micron's report. It does not change any single company's guidance, so it is a multiple-support datapoint rather than an earnings event.",
-      "source": "equiti.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1BNOFBsd005Z29mM2RiWGZMSHFVV2R0dWhNaDBVNldMMW5KM0haU3A5c2xEd0RMV3NoZUJpclpja0ZCSFE3d05TdTN5MFRuVFV3djE0TUF5REwzOFBSdlhQOWF2aUZzZGxHLU9TWHh5d1IxYnFPVV9RVUdfSG9PcE1HVkcxZzlHRDgtTnpEalpxVUEyajNXdzZGOXhwZGcwdkdOTGRZcjI?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-nvda-h20-loses-china-share-to-ascend",
-      "time": "2026-09-24T09:05:00Z",
-      "headline": "Huawei Ascend take-up accelerates as H20 uptake stalls, shrinking Nvidia's China option value",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU"
-      ],
-      "why": "The market has been carrying China as a free call option on Nvidia's guidance \u2014 zero revenue assumed, upside if licences reopen. If domestic buyers have already re-architected around Ascend, that option expires worthless regardless of policy, because the switching cost runs the other way once CUDA-alternative software stacks are in production. It also removes a bid for HBM and foundry capacity that had been an implicit backstop for the wider supply chain.",
-      "source": "briefasia.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSEd1dWR1TjhHMl9SRktfd2stUTZyZ1VWaGkzYW1rdXI5NHhZdExzaWZuQmhQaEVXbEl6VGVaQjBtUDhFdzZlVUR6THRHNVg2R0x5NmlTaXNlOVJSNXZwN2lsM0VvZ19rU0Zwa2lUNHJfTktRWEpURm15Ql93VDU4RFJ4anY?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-china-critical-minerals-export-lever",
-      "time": "2026-09-24T08:30:00Z",
-      "headline": "Beijing positions mineral export licensing alongside chip controls as summit leverage",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "AVGO",
-        "QCOM"
-      ],
-      "why": "Critical-mineral and rare-earth licensing hits the input side of the semiconductor cost stack rather than the demand side, so it raises fab and equipment bills of material with no offsetting revenue \u2014 a gross-margin event, not a volume event. It is also the retaliation lever with the shortest lead time, meaning the risk is priced as a step function around summit headlines rather than amortised through the year.",
-      "source": "GLOBSEC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWExYbElXVVJoZXpPdTE2dkZHekc3Q3BPeU9SNHVtV0Eta1hWSGpVZW9LZFpHNW8wendYTHNWdTM0NkhJRzhoTkpDbVhmaVhqXzdfOWtnZDJTdG9jTFVXeXpQVVcwaVdHWXptUVlZbkNrUUQxbzZ4bXE2N2JmTjA0WUJOSDhYT2hkUjFZZlQwRmVyeXI4UVhJbERHa2k?oc=5",
       "alerted": false
     }
   ]
