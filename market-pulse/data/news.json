@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:19:03Z",
+  "generated_at": "2026-09-26T11:41:43Z",
   "session_date": "2026-09-26",
   "items": [
     {
@@ -69,6 +69,70 @@
       "why": "A domestic part with that much attached memory is good enough for inference and fine-tuning inside China, which removes the practical reason for hyperscalers there to wait on export-approved, deliberately down-specced Western silicon. The mechanism that matters is permanence: once a Chinese cloud validates a domestic stack and writes software against it, that revenue does not return to Nvidia even if Washington later loosens the rules, so it is a terminal-value question rather than a quarter. Second-order, it pulls HBM and advanced packaging capacity toward non-US buyers, which tightens supply for everyone else.",
       "source": "shattered.io",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YeW1xZUNCS3lIbmNBRUoxVV91eFZjWWtNNThSNC1TNFUyQ1JWQnRtMzYtMER4OEVTbUZkSHY2R3FhNjVTWHFueGNVNFIwb0hzbzJXSG1xV0twSHRwWWhZTUZtQnpzWXJmNHJnOQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-smci-7b-capital-raise-dilution",
+      "time": "2026-09-26T05:59:00Z",
+      "headline": "Super Micro launches ~$7B equity and equity-linked raise to fund AI server backlog; shares fall over 8% overnight",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "MU",
+        "ANET",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "The structure \u2014 $1.25B common, $3.75B depositary shares and up to $2B of at-the-market stock \u2014 adds share count and equity-linked overhang against a thin-margin assembly business, so EPS is diluted before the incremental orders convert to profit. The offset is working-capital funding for roughly $39B of recently booked AI server orders, which is a demand datapoint that reads through positively to the GPU, memory and networking suppliers that fill those racks even as SMCI's own per-share economics deteriorate. Balance-sheet-funded growth at low system margins also caps the multiple the market will pay for SMCI's revenue.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVBYeUgtV1ozSnI0YWhpYWJtNjhJUlVqbGdvQlhYZVk1R3lBZ3dacWpTTEtyWUxjX1lvQzZ2bklGN1pTX2RqTFAxZC1jT04welV1dzhhY3dESElwQXJfd1hxNkZFX1FvTVdrRGxwVU4xQlNoMFR6N1hHWHJ0eWJPR3BGVkRrS2NNa3A2d1NEbjJ6bjFjUFdWdHpfYUE3Nl9tQ0FGbEhFdDBjZnVMdUxsXzdWUWpiZ0xwdEE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260925-nvda-white-house-policy-alignment",
+      "time": "2026-09-25T22:00:00Z",
+      "headline": "White House publicly aligns with Nvidia CEO's framing of AI risk and diffusion policy",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "TSM",
+        "MU"
+      ],
+      "why": "The binding constraint on accelerator TAM is administrative \u2014 which parts can ship to which jurisdictions \u2014 so executive-branch sympathy toward the vendor's position lowers the probability of another unilateral licence restriction that would strand inventory and force write-downs, as happened with prior China SKUs. That shrinks the regulatory tail in the discount rate applied to AI-compute earnings rather than changing near-term orders. It does not repeal existing controls, so the effect is on the multiple, not the current-quarter guide.",
+      "source": "UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWTM1UFctUHZPZHY3SUpuWk92aTA3NHl1VXg2NWJtWER1VVRsd0JSeHBqVzM4WVZPbklyeUJkVktOMTNYUjQ0Y3NTODRKZ2ZneDNSVTY5LTFkUzZxV2NyZUpMYlptMDdKblVRaWpYOUZFZFVqc2FUb0NNdWg0LUZWZVlRWE5DOHJiVHBLXzJ5aEdlWXdJQXU5dmEwMjE5a0xja0JES0dBLXJrU1VlZDd5RElMXzg1RmFaWXZYbjRYTHBlM0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260925-macro-us-china-truce-deadline-repricing",
+      "time": "2026-09-25T18:00:00Z",
+      "headline": "US-China tariff truce runs to a hard deadline with core disputes paused, not settled",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "AAPL",
+        "TSLA"
+      ],
+      "why": "A truce that only defers tariff snapback keeps an un-hedgeable cost variable in 2027 numbers for hardware importers and China-exposed revenue lines, which suppresses the multiple investors will pay for those earnings until the expiry is resolved. Sources conflict on the timing: this report frames the expiry as November, while other coverage of the summit describes a two-month extension into January, so the option value of a deal \u2014 and the risk of a snapback \u2014 is being priced against an uncertain clock. Export-control policy is reportedly excluded from the talks, meaning semis carry the tariff risk without the possible upside of licensing relief.",
+      "source": "Legis1",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96d01vbi1CaDFCbTkzR0xDZk1UOWg3YmpRUkVicWVTNjhaVEFZck5ELWh6QUZsVVliQnNZdDJVcEVKZGJCS1BQekhKcHAtZjJVaDVQMmdvZ1N0WlhhVV9uSXhKVWQzNFpzcFV6WkxaSnEyR3MyNFVHRHJ3Njl5dw?oc=5",
       "alerted": false
     },
     {
@@ -790,70 +854,6 @@
       "why": "Critical-mineral and rare-earth licensing hits the input side of the semiconductor cost stack rather than the demand side, so it raises fab and equipment bills of material with no offsetting revenue \u2014 a gross-margin event, not a volume event. It is also the retaliation lever with the shortest lead time, meaning the risk is priced as a step function around summit headlines rather than amortised through the year.",
       "source": "GLOBSEC",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWExYbElXVVJoZXpPdTE2dkZHekc3Q3BPeU9SNHVtV0Eta1hWSGpVZW9LZFpHNW8wendYTHNWdTM0NkhJRzhoTkpDbVhmaVhqXzdfOWtnZDJTdG9jTFVXeXpQVVcwaVdHWXptUVlZbkNrUUQxbzZ4bXE2N2JmTjA0WUJOSDhYT2hkUjFZZlQwRmVyeXI4UVhJbERHa2k?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-mu-citi-target-raise-dram-undersupply",
-      "time": "2026-09-23T17:15:00Z",
-      "headline": "Citi raises Micron target to $1,300 from $1,150, lifting quarterly estimates on better-than-expected DRAM pricing and continued undersupply",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "WDC",
-        "NVDA",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "SMCI"
-      ],
-      "why": "The raise came with higher August and November quarter estimates, meaning it is a bit-price and margin revision rather than a multiple adjustment \u2014 DRAM contract pricing flows almost entirely to gross margin in a fixed-cost fab model, so each point of price is amplified in EPS. Citi tempers it by expecting pricing growth to moderate over the next four quarters, which caps how much of the upside is extrapolated into out-years. Sustained memory undersupply is also a cost headwind for GPU-server assemblers that buy HBM and DDR5 into fixed system pricing.",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lYUtpVy03MWJEU3MwajlTdDFQd3lJcHR6dFR6R1FUVUZXSkJuZ3E5SS04bTJmQ09KUmw5VXdMSG9vV2FOWXpUczEySkpXcHNPLW55VjVSRndvXzA5WEVTRHY2dkI5MGdnUUVhWHc1ZXFNdk56QWc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-macro-energy-rally-inflation-passthrough",
-      "time": "2026-09-23T16:00:00Z",
-      "headline": "Crude rally drags broad equity indices lower while lifting energy complex",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Higher crude feeds directly into the input-cost component that is currently driving the rate-hike repricing, so energy strength is now a net negative for index-level multiples even as it raises upstream cash flow estimates. For integrated names it is a straightforward earnings upgrade through realized prices and refining spreads; for the index it tightens financial conditions by keeping headline inflation sticky into the October FOMC. The two effects work in opposite directions, hence the mixed tape.",
-      "source": "Sharecast.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSkp1R2w3SEo1bk92c3pLTlZORU9yaGp5REwzX3MyMzlMMjc4Q0o1b19Td1NqeFNTMEU5OW5FTXBmS1Y2V3hLUGFKYmxHWFJiZ05OWWhGTUVpSzJ6OTd6MFk0OVNVMFBTVHFCZ19lV0J6WVg1b0pBM3JsQ0dmZGxNZkRlV3liY0lDaTBjeVJoSTVXQm9QV3BfeExpTTd2ZDhkU1RhX2QxaUE4M3JPbWJISUp0Ul9oc3gxT29j?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-macro-imf-ai-debt-financing-warning",
-      "time": "2026-09-23T15:00:00Z",
-      "headline": "IMF flags debt-financed AI capex as a trigger for an abrupt equity repricing",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "ORCL",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "AVGO",
-        "SMCI",
-        "MU",
-        "PLTR"
-      ],
-      "why": "The IMF's point is a funding-mix change: AI capex is migrating from internally generated cash flow to credit, which converts a capex cycle into a leverage cycle and links equity multiples to credit spreads. If spreads widen while yields are already at multi-decade highs, the marginal datacenter buildout gets deferred, and deferral hits the order books of accelerator, memory and server-integration suppliers before it shows up in hyperscaler revenue. It is an official-sector framing that institutional allocators use to justify trimming crowded AI exposure.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVEkzNWE5eDRQaVp2Mld2NzdfV1JnaUlYRnhCaDluZXFEaENJb2xBZVlFbUdUMDNDY3E4dkpQSW4ycm9zTk50QXZYbXFDSVhjQTlqZUtYWkpVWllKSW0zUTdVaG5IYzNiMHhORnB4ejBBWml6dWNPY3dmbEZUeGQwcXZGNVdFZ0ZXVENtd2ZiTTFyeGJQSkVrU05RVjg?oc=5",
       "alerted": false
     }
   ]
