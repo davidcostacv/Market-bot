@@ -1,7 +1,76 @@
 {
-  "generated_at": "2026-09-25T21:45:21Z",
-  "session_date": "2026-09-25",
+  "generated_at": "2026-09-26T05:19:03Z",
+  "session_date": "2026-09-26",
   "items": [
+    {
+      "id": "20260926-macro-iran-strikes-semis-risk-off",
+      "time": "2026-09-26T11:30:00Z",
+      "headline": "Fresh US strikes on Iran test the phased peace deal; chip complex sells off as crude and yields jump",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "MRVL",
+        "QQQ",
+        "SPY",
+        "XOM",
+        "CVX"
+      ],
+      "why": "A resumption of strikes reopens the Hormuz shipping-risk premium, which feeds straight into headline CPI at exactly the moment the market is already pricing a hawkish Fed into next week's jobs and inflation prints. Higher energy costs plus higher discount rates compress the multiple on long-duration semis and AI capex names far more than they change near-term earnings, so the de-rate is valuation-driven, not fundamental. The offset sits in integrated energy, where a sustained crude bid lifts upstream realizations and buyback capacity at XOM and CVX.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNY3RBR09ZNmcyNE1RdFRqd1VheS1MQXoyZlE1UENsYURHb19DTWU2cjRFWG9QdWFweGc2ZUxpY0pJNVRoaXpDMzJINVJCOGVlaVdXXzVoQlFQUUZoVDVLeEZPNnVSQTV3cFdibW1sb1lWeFZHd0x1TlV1VlB5LTdxcGxkNF9FMlJZREs4UTdiM3Zod2ZiTzVuWWJIV1VmMWdkVEk1MmlpS005MTl2RkFfTUEyZzlBR1A0bGZBb216blVZdTJycXJJUHNadlJteDcwa3o0dHlEeEs?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-mu-hbm-allocation-lockup-nvda-commitment",
+      "time": "2026-09-26T08:00:00Z",
+      "headline": "Nvidia's pledge to double chip output reported to pre-commit a large slice of industry HBM capacity",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SMCI"
+      ],
+      "why": "Long-dated volume commitments convert HBM from a spot-priced commodity into contracted, take-or-pay supply, which is what lets a memory maker hold gross margin through the back half of a cycle instead of surrendering price on the first sign of DRAM bit-supply growth. It also rations what is left for merchant buyers, raising the input cost and lengthening lead times for competing accelerator programs at AMD and the custom-ASIC lines at AVGO. Note the sourcing here is a low-tier outlet and the share figure is not corroborated by a primary supplier disclosure, so treat the magnitude as directional only.",
+      "source": "shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45QXRUYlFWTmZ0QlhPM2ZfRG1mQXdqckd5OTBsU0FKZDBuTGhVbkNvckVSZGFEQVlDaUtUanhGYzAwTlZoTy0xYVh6SHNXcFFudzZmSDNrb0toWGdZcW4wYUVEQjRUc3h5dmhFcg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260926-nvda-alibaba-zhenwu-v900-china-substitution",
+      "time": "2026-09-26T07:00:00Z",
+      "headline": "Alibaba details Zhenwu V900 accelerator with 216GB on-package memory aimed at trillion-parameter training",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "ASML"
+      ],
+      "why": "A domestic part with that much attached memory is good enough for inference and fine-tuning inside China, which removes the practical reason for hyperscalers there to wait on export-approved, deliberately down-specced Western silicon. The mechanism that matters is permanence: once a Chinese cloud validates a domestic stack and writes software against it, that revenue does not return to Nvidia even if Washington later loosens the rules, so it is a terminal-value question rather than a quarter. Second-order, it pulls HBM and advanced packaging capacity toward non-US buyers, which tightens supply for everyone else.",
+      "source": "shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YeW1xZUNCS3lIbmNBRUoxVV91eFZjWWtNNThSNC1TNFUyQ1JWQnRtMzYtMER4OEVTbUZkSHY2R3FhNjVTWHFueGNVNFIwb0hzbzJXSG1xV0twSHRwWWhZTUZtQnpzWXJmNHJnOQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260925-tsla-semi-nevada-volume-plant-online",
       "time": "2026-09-25T14:00:00Z",
@@ -785,83 +854,6 @@
       "why": "The IMF's point is a funding-mix change: AI capex is migrating from internally generated cash flow to credit, which converts a capex cycle into a leverage cycle and links equity multiples to credit spreads. If spreads widen while yields are already at multi-decade highs, the marginal datacenter buildout gets deferred, and deferral hits the order books of accelerator, memory and server-integration suppliers before it shows up in hyperscaler revenue. It is an official-sector framing that institutional allocators use to justify trimming crowded AI exposure.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVEkzNWE5eDRQaVp2Mld2NzdfV1JnaUlYRnhCaDluZXFEaENJb2xBZVlFbUdUMDNDY3E4dkpQSW4ycm9zTk50QXZYbXFDSVhjQTlqZUtYWkpVWllKSW0zUTdVaG5IYzNiMHhORnB4ejBBWml6dWNPY3dmbEZUeGQwcXZGNVdFZ0ZXVENtd2ZiTTFyeGJQSkVrU05RVjg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-nvda-raymond-james-street-high-target",
-      "time": "2026-09-23T14:30:00Z",
-      "headline": "Raymond James sets Street-high Nvidia target, sees supply \u2014 not demand \u2014 as the binding constraint; Truist models ~100% sales growth",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "MU",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "ANET",
-        "SMCI",
-        "AMD",
-        "MRVL"
-      ],
-      "why": "Analyst Simon Leopold lifted the target to $515 from $352 and framed the ceiling on Nvidia's revenue as wafer/HBM/CoWoS availability rather than customer appetite, which shifts the debate from demand durability to how fast the supply chain can be built out. If the constraint is supply, every upstream node \u2014 foundry, HBM, advanced packaging, WFE \u2014 has pricing power and multi-year booked capacity, so the read-through is to TSM, MU and the equipment names, not just NVDA. A Street-high number from a recognized franchise also pulls up the consensus distribution that sell-side models anchor to, lifting the multiple investors will pay ahead of any actual print.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSHYtamF4MTFQWEkzTjlQLWFwWTgzSXNsai02bXNfZDhpcnAxVkdDcy1qampmb2FQYlBWVXFnNTdydHhMWUNOX2RwSUpBWktFbENycTBkQU1xaU50R3ZvbXM2RGw5aGVQNnpFXzVGMFRndGRibmlHV1RoWFU0V1h4MU1rQzFBS29GR0VGWmNDZlRtSGFjNWx6TUo1ZUNoVGc4VHZ4TGwtRV9QZFdkTHZOQ3hnQVpRbHlXSHFaeWNLNllIQXAzMjJaMw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-macro-barr-signals-further-hikes",
-      "time": "2026-09-23T14:07:00Z",
-      "headline": "Fed Governor Barr says further policy tightening is likely needed to bring inflation down, a week after the FOMC's first hike in three years",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "PLTR"
-      ],
-      "why": "A sitting governor framing last week's hike as the start of a sequence rather than a one-off shifts the market-implied path from 'one and done' to further tightening, repricing the entire front end and long-end yields with it. That is a direct valuation event for the high-multiple AI complex and a margin problem for rate-sensitive lenders, where funding costs reprice faster than loan books and mark-to-market bond losses deepen. Firmer energy costs \u2014 Brent back above the $100 handle \u2014 reinforce the sticky-inflation argument he is making, so the hawkish read is unlikely to fade on the next data point alone.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORGVnVHpiUGd6bWtKMFNLVFZrcFg2VE9COXJDVmIyU2pRMWh3MU42ODJhdGJzaGxob25fcFI0LTBqQWt2cC12c0dRMldmc3preGo0M0RIZGpOWWhNU2xjVzFuMkUtTDFPb0phZVFFU0JGazQ1MU5wSl9vcU9NMUZMb3hHbFBya01OcUppVFhMRGkyOUp3dUxhQXc1ZjFRcWNh?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260923-macro-treasury-yields-october-hike-odds",
-      "time": "2026-09-23T14:00:00Z",
-      "headline": "Treasury yields spike to multi-decade highs as October Fed hike odds jump to ~66%",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "PLTR",
-        "TSLA",
-        "AMD",
-        "SMCI",
-        "JPM",
-        "GS"
-      ],
-      "why": "The long end repricing toward and through 5% raises the discount rate applied to the longest-duration cash flows, which is exactly where the AI/mega-cap complex sits; a two-thirds probability of another hike in October means the terminal-rate path, not earnings, is now the swing factor for multiples. It also raises the cost of the debt increasingly used to fund datacenter capex, squeezing the financing spread behind AI buildouts. Small caps and leveraged balance sheets in the Russell are hit hardest since their funding costs reset immediately.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMOGx4MkZURnVjUExNcnhnajRQQ0dnN0hieTVZUEtlQUp2cjdmRWpGZXFub2VxSVByYlVKUnpWSm9kb09DQ2h1UTJMa1pKSlVwbHhYR29jZ3I4ZUR1MGo1SHpwQUQ4U3BkOHhUUGVfOWQyb3Q1QU9ZcEpzX05Ld1BCNktGcUJCRzkxUnBYVmhYWXBBOVF5MUZuS1pZdVJMVG9sWHdEMTljYXRjVC14QUY0RlJsdDY4WlhQbm1fak4?oc=5",
       "alerted": false
     }
   ]
