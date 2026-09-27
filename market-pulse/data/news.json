@@ -1,7 +1,73 @@
 {
-  "generated_at": "2026-09-26T21:24:01Z",
-  "session_date": "2026-09-26",
+  "generated_at": "2026-09-27T05:36:17Z",
+  "session_date": "2026-09-27",
   "items": [
+    {
+      "id": "20260927-nvda-huawei-ascend-china-share-loss",
+      "time": "2026-09-27T09:00:00Z",
+      "headline": "Huawei's Ascend line reported to have overtaken Nvidia in China's AI accelerator market",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ASML"
+      ],
+      "why": "A domestic incumbent taking the leading share position in China converts what was treated as a temporarily blocked TAM into permanently forfeited share, because once hyperscalers there qualify Ascend on their software stacks the switching cost runs the other way even if export rules loosen. That removes the embedded China call option in Nvidia's and AMD's out-year models and caps the terminal-growth assumption investors pay for. Second-order, it shifts HBM and foundry/advanced-packaging demand toward non-US-designed silicon, which is neutral-to-negative for the pricing power TSM and MU currently enjoy on Western accelerator allocation.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmdUUjRYQWpjdGx4MFd0bkpvZWNhaGREdTBGWlZiSm1rNk9rOFJRU1RZei1aaU1xWGNKM0FKekZJQkM3aVVzRnhkNzVaUEFDYXJIcExhdzJqN1RFaThjUWVPYWpuQ0p2TGRPclBITWFKX0hZdFF0WkNlR0RyZGQyeE4waC1JVEZwVFBEMVJmZUVYTWZY?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-amd-beat-and-guide-multiple-compression",
+      "time": "2026-09-27T07:30:00Z",
+      "headline": "AMD topped revenue, profit and guidance yet shares sold off sharply",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "MRVL"
+      ],
+      "why": "When a beat-and-raise is met with selling, the constraint is no longer estimates but the multiple: at a trillion-dollar capitalisation the buy-side bar already discounts the accelerator ramp, so incremental upside has to come from gross-margin mix rather than units. The mechanism to watch is whether the guide was carried by lower-margin system and memory-heavy content, which lifts revenue but dilutes the earnings power per dollar of backlog. Read-through is that AI semis are entering a phase where in-line-to-better prints no longer re-rate the group, raising the risk of similar de-ratings around the next round of prints.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWgycWIzMXpJOU1OaWNtTm1HRll3eGFEcllxZ0htNzgyRVFyWWJ3VHl1NGJSQnBqbUd6RU1tcXVwVVNtM0pEUWhxcmwxa3k0NF9qU1N2dnJIY0NsV2I0ZWZoTzlWamNLVHJxdjhNeEVkYmMwUEl5dUlLRVU3eHI0MDB6Y1NBLXMtRGctcDhzV3NuQ3FFa1dFbTFJNXVJemsxU2FSaDhZQXRWNVpMS3pLWVV2WGVLVTRkT0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-macro-october-hike-odds-cross-sixty",
+      "time": "2026-09-27T06:00:00Z",
+      "headline": "Market-implied odds of an October Fed rate hike push above 60% with long yields above 5%",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "PLTR",
+        "TSLA",
+        "MSFT",
+        "AAPL",
+        "JPM",
+        "GS"
+      ],
+      "why": "A majority-probability hike is a different regime from a hawkish hold: it moves the whole discount curve rather than just the terminal-rate tail, and long-duration AI and software equities lose the most present value per basis point because their cash flows sit furthest out. Rate-sensitive small caps face an additional funding-cost channel through floating-rate debt, while banks get a partially offsetting net-interest-margin benefit against wider credit spreads. With PCE and payrolls landing into this positioning, the data now cuts both ways instead of only supporting the easing case.",
+      "source": "bloomingbit / finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RT05oT3FON3dIb1RNR1VjUldSVjNDbjM3TDBYek5kQk84MzNTNTRUVnVBS2lTS0dGczVJY0dCSDVCRDN5MVZmMkxZVHhyRFNid0NhWQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260926-nvda-wallstreetzen-downgrade",
       "time": "2026-09-26T12:05:00Z",
@@ -783,80 +849,6 @@
       "why": "A guide above consensus resets the forward earnings base rather than the trailing one, and for a turnaround name it is the first hard evidence that foundry and server volumes are converting into margin rather than burning cash. That shifts INTC from an option on execution toward a cash-flow story, which is what justifies a higher multiple after a run of this size. Read-through is positive for wafer-fab equipment names on capex continuation and mildly negative for AMD, which has been pricing in uncontested x86 server share gains.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWthMG1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-macro-iran-hormuz-phased-deal",
-      "time": "2026-09-24T13:30:00Z",
-      "headline": "US and Iranian negotiators exploring phased deal to reopen Strait of Hormuz in exchange for lifting US port blockade; crude tumbles, dollar sold, stocks, bonds and gold rally",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "XOM",
-        "CVX",
-        "NVDA",
-        "MSFT",
-        "AMZN",
-        "AAPL",
-        "META",
-        "GOOGL",
-        "TSLA",
-        "JPM",
-        "GS"
-      ],
-      "why": "A phased reopening of Hormuz removes the tail risk that has been embedding a war premium into crude and into breakeven inflation, which is the channel that had been forcing the front end higher and compressing equity multiples. Lower energy pass-through reduces the case for further Fed tightening, so duration and long-duration tech both re-rate on the same input. The mirror image is negative for integrated oil earnings power: XOM and CVX have been marking upstream realizations and refining cracks against a blockaded-supply curve that now loosens, and note that this bond rally directly contradicts the same-session reports of a 10-year yield break above 5.1%, so the rates signal is unsettled intraday.",
-      "source": "Newsquawk",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOUkRZUGNBZ3B2b0NuTTJTUWQ4cXF2eU1Zc3JpT0Zab0JHZHc3QjNqeGJCaXBkQzdjNnR6QmhLVklHYy04WE42RFVhbXV1MmFsNTdZTGF6QzZtQktQejJOcTFfaUFqNzBrVG1iV0JmSWJZTWlXOXloZ2F3R1dnemxsNHNoaUxlMlhTZ3JZYXJpZUFqblg4bHJRMkJobmZZMHA1dTJXWFNIc3pLc2tERFB2TzJSdWVGeXpOWC14bWdwb1lLdUNud0Z5b25HU29zUDVhSk1RTE9xVjNKZk1XcnpaeTR5M0huMk9iNnNSWThYaGVQcFJBcUJkekFBRGJCMnA2aTBoOGZ2RmZ0bXAxbnpjR3NCdGVPQTF2RzYwMmgyVGZscXM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-nvda-moonshot-blackwell-access-request",
-      "time": "2026-09-24T12:30:00Z",
-      "headline": "China's Moonshot reported to be seeking more Nvidia Blackwell access days after a flagged export-control breach",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "SMCI",
-        "MU",
-        "AVGO"
-      ],
-      "why": "It confirms unmet Chinese frontier-model demand for top-bin Blackwell parts that current guidance treats as zero, so any licensing thaw is pure upside to a revenue line carried at nothing. The offsetting risk is that a named diversion case invites tighter end-user verification and re-export rules that also catch legitimate Asian channel volume. Server and HBM suppliers ride the same licensing outcome.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV2tyTkstdkVkNmJVTGdqcG9xempJVWVqb1Z5WHhvOTExVC1PRXJFUUJkQW1NN0VYeXJNMlk3MGdOWER6TGpiRzRYVXViZFlQdzE5WkpmcURMeEgxQndUVkN6dEVRbWFCTVN2eFdneXl3STNWb0ZoSVRvNHNYU2lCcGhUNkp1eWNvUEkyYUNWX2VaT1NrOXF3dXZGNmg5SDF3MHRUWVRLai1sSmpXT1ZUUmFOQS1WdWdWM1BJTF8xMXd4dmMySFhhbUJMVVFvU0drNTE2a2ln?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-macro-claims-57yr-low-home-sales",
-      "time": "2026-09-24T12:30:00Z",
-      "headline": "Weekly jobless claims near 57-year lows while price cuts revive new home sales",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "AAPL",
-        "TSLA",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "A labor market this tight removes the last argument for the Fed to stay on hold, so the data feeds directly into the hike-repricing already driving the long end above 5%. Higher terminal rate expectations compress the discount factor on the longest-duration cash flows, which is exactly where the AI complex and unprofitable small caps sit, while steepening the curve in banks' favor. The housing detail matters too: sales are being bought with price cuts rather than rate relief, meaning consumption is holding up without any easing of financial conditions.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbkFjbktqV0kzSmJtNEZPU2p1MWRCWTdKLWVySDEtTnJMbUdVR1p4VGZ1YnVlM0tkcEsxSFlsdTY4b1RodjlqVDQ5V0hoT3FubnE1N1c5U0RZOTgyZ0JsQnFWQmJQTGx2QUNTZmJROHN4dmN3VnNXNXRnTVBsQlFIZzVqb0JjMzl1MlVEeDFUNUFJQm53RVU5WkFGd3VhNjhXbHlGVUFnYWZ0VGM?oc=5",
       "alerted": false
     }
   ]
