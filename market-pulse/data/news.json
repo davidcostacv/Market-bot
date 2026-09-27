@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-09-27T12:20:38Z",
+  "generated_at": "2026-09-27T17:11:18Z",
   "session_date": "2026-09-27",
   "items": [
+    {
+      "id": "20260927-nvda-china-rtx-pro-5500-approval-signal",
+      "time": "2026-09-27T13:00:00Z",
+      "headline": "China signals it may approve ByteDance, Alibaba and other domestic buyers for Nvidia's new RTX Pro 5500 GPUs",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "MU",
+        "AVGO",
+        "SMCI",
+        "ASML"
+      ],
+      "why": "Nearly every sell-side model now carries China accelerator contribution at or near zero, so any volume Beijing's MIIT actually clears is incremental revenue and incremental gross-margin dollars on silicon already in production rather than a mix shift. The mechanism matters more than the unit count: MIIT asking firms to file purchase plans and signalling intent to approve reverses the demand-side blockade that has been forcing Chinese hyperscalers onto domestic Ascend parts, which partially unwinds the share-loss narrative currently embedded in the multiple. Read-through runs down the chain to foundry wafer and advanced-packaging loadings at TSM, memory attach at MU, and system builders like SMCI. Caveat for sizing: this is reported intent to approve on the Chinese import side, not a change in US export licensing, and the product cited is a workstation-class professional GPU rather than a rack-scale training part.",
+      "source": "The Information (via Reuters/Bloomberg pickup)",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNl9kVzV0NlBYQ0pyQ1ltekFUemRHX0pKNkJMcHRJN2pBMzFEYXh2U3NLbnd1dkJaWGUza3NRR1VJYmE1bVk2SlNMS09EcGNDR3RDZkdDSWd4aGVKYTNZek5CQzRoM2NUd0VCOUMxWHNXLTd5eFA2d05tLVRab1ZWS0QxSjlBX1ZHN2xHcU9ndzZPMG5NVTFCem1tSm5HWlBtNXVpem44dUNNZw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260927-nvda-huawei-ascend-china-share-loss",
       "time": "2026-09-27T09:00:00Z",
@@ -115,6 +136,28 @@
       "why": "Korean and Taiwanese memory/foundry complexes now trade as a leveraged proxy for US AI capex expectations, so a hot inflation print transmits into Asian semis overnight and returns to US semis the next session through ADR and futures arbitrage. That two-way linkage means the risk to US chip names this week is not company-specific but a correlated de-rating if Asia gaps down before the US open. Post-holiday repositioning in Seoul and Taipei adds flow pressure independent of fundamentals.",
       "source": "finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xVjFBM290Tjl6Q1paandralZKS0NGRmtrN0NwdEtxZk5LOUtjY004OEJaMGMwNmh0bmdzS05LSlBNbVh6M1RhOGdMZzJuSllvMUkyMlVxOU5PZlFLWEVtdUxFNG1ZRWlST2RmTVFreDlMSHNRdFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-semis-xi-trump-summit-controls-status-quo",
+      "time": "2026-09-27T02:00:00Z",
+      "headline": "Export controls stayed off the agenda at the Xi-Trump summit despite Huang and Su seated at the head table",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "INTC"
+      ],
+      "why": "The absence of a controls discussion locks in the current licensing regime as the planning assumption for the next several quarters, which means the China line in accelerator models stays suppressed and semicap China systems and service revenue stays on its existing decay path rather than re-rating. That cuts both ways for the multiple: no relief catalyst, but also no incremental tightening tail risk that would force estimate cuts at ASML, AMAT, LRCX and KLAC. It also frames the separate report of Beijing easing on the import side as a China-driven demand decision rather than a negotiated US concession, which makes it more reversible and argues against capitalising it into terminal estimates.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWxSSjZ0MG1oaGgwOUtqanRtTnRfcUJVZzFJajFjOC1ocFlCeVc3SVprZGRkM3FuSWl2dTg3X0RJRmRSN29KMm9KYXhzY3RTUzJLa1NHQUtCb3d1ZXk1SXVTOEh1ZjJPSndpbWpibGNpQ3FBY2M1RXRsSmM2NTh1V21oS0hsQzUyUE1ybWpEaElTZHlrQW1BbEU5WjTSAZwBQVVfeXFMTjFsUko2dDBtaGhoMDlLamp0bU50X3FCVWcxSWoxYzgtaHBZQnlXN0laa2RkZDNxbklpdnU4N19ESUZkUjdvSjJvSmF4c2N0U1MyS2tTR0FLQm93dWV5NUl1UzhIdWYyT0p3aW1qYmxjaUNxQWNjNUV0bEpjNjU4dVdtaEtIbEM1MlBNcm1qRGhJU2R5a0FtQWxFOVo0?oc=5",
       "alerted": false
     },
     {
@@ -814,56 +857,6 @@
       "why": "Agentic inference is orchestration-heavy and runs long-lived host processes, so it pulls demand toward high-core-count server CPUs that had been the neglected, share-losing part of the AI buildout. That is incremental attach revenue rather than substitution away from accelerators, and it lands on the highest-gross-margin product line for both AMD's and Intel's datacenter segments, which is what changes earnings mix rather than just sentiment.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX05pQ3M1R3JXUzZ2NFR5Q1A0RmVSWW9xN0RSVW5JN1E5bDRPeEVDeDV1RXVXTVNzUzBtd25iLWVQV09XU2QzNlZRb3NMb25lX0VrMzRNYVR4aEg3eE9mN29TczI0SThScERQWENnVi1YZkZXS1ZlRkl1b1J5UEJqcXlqLVNDTjJkT3M4N04wX1pES2hSWEVGNw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-semis-export-bills-senate-floor-delay",
-      "time": "2026-09-24T15:00:00Z",
-      "headline": "Bipartisan chip export bills slip in reaching the Senate floor",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "INTC",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "QCOM"
-      ],
-      "why": "Statutory export limits are far harder to unwind than executive licensing decisions, so every week the legislation is stalled preserves the option that China-facing revenue is negotiated at the summit rather than legally fenced off. Delay mainly lowers the tail risk embedded in accelerator and memory multiples instead of changing near-term shipments. It also weakens the Senate's leverage to constrain any chip concessions made in Trump-Xi talks.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQkxYUFk3ZW9oaUdTbVUzSUFGdk9Ld2gwQ2o2RlNwZjVvS2czOXgtUmY0YjlGRDVZVVIxaWRJWmxzQWxNRXpLVTNrb2pyZ0JhaTBfSFZmMzhBNHpMYmNsSVZhNE5JS2hPNHB3bktrWVRpZU02ZVh0U2Z0MGhrbl83d3VPTzc1ZVhuVTA4YmVzOElmV2hiNG5rZ3lzVnN2cjF5cThsUENGV1EzdDFhelBLazVKV1lIU1BSWV83SG9VMzZTS3hMSWxkbm9FVFo4T3Zybm9nX1Q0aUtQWlZ1OUs0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-macro-yields-break-five-percent",
-      "time": "2026-09-24T14:15:00Z",
-      "headline": "Long-end Treasury yields break above 5% to the highest since 2007 as another Fed hike gets priced",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "PLTR",
-        "SMCI",
-        "JPM",
-        "GS"
-      ],
-      "why": "A higher risk-free rate mechanically discounts the long-duration cash flows that carry AI and megacap tech valuations, so the hit lands on the multiple even when earnings estimates are untouched. It also raises the hurdle rate on debt-funded datacentre capex, which is where a growing share of AI buildout financing now sits. Small caps and leveraged names take the sharpest earnings hit from refinancing costs; banks get a better reinvestment yield but face mark-to-market and credit offsets.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMOGx4MkZURnVjUExNcnhnajRQQ0dnN0hieTVZUEtlQUp2cjdmRWpGZXFub2VxSVByYlVKUnpWSm9kb09DQ2h1UTJMa1pKSlVwbHhYR29jZ3I4ZUR1MGo1SHpwQUQ4U3BkOHhUUGVfOWQyb3Q1QU9ZcEpzX05Ld1BCNktGcUJCRzkxUnBYVmhYWXBBOVF5MUZuS1pZdVJMVG9sWHdEMTljYXRjVC14QUY0RlJsdDY4WlhQbm1fak4?oc=5",
       "alerted": false
     }
   ]
