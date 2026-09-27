@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T17:11:18Z",
+  "generated_at": "2026-09-27T21:31:19Z",
   "session_date": "2026-09-27",
   "items": [
     {
@@ -41,6 +41,25 @@
       "why": "A domestic incumbent taking the leading share position in China converts what was treated as a temporarily blocked TAM into permanently forfeited share, because once hyperscalers there qualify Ascend on their software stacks the switching cost runs the other way even if export rules loosen. That removes the embedded China call option in Nvidia's and AMD's out-year models and caps the terminal-growth assumption investors pay for. Second-order, it shifts HBM and foundry/advanced-packaging demand toward non-US-designed silicon, which is neutral-to-negative for the pricing power TSM and MU currently enjoy on Western accelerator allocation.",
       "source": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmdUUjRYQWpjdGx4MFd0bkpvZWNhaGREdTBGWlZiSm1rNk9rOFJRU1RZei1aaU1xWGNKM0FKekZJQkM3aVVzRnhkNzVaUEFDYXJIcExhdzJqN1RFaThjUWVPYWpuQ0p2TGRPclBITWFKX0hZdFF0WkNlR0RyZGQyeE4waC1JVEZwVFBEMVJmZUVYTWZY?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-macro-iran-decision-oil-risk-premium",
+      "time": "2026-09-27T09:00:00Z",
+      "headline": "Futures set up around Trump's Iran decision, with chip strength offsetting Middle East jitters",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "The binary outcome on Iran sits directly on the crude risk premium, which is the single largest swing factor for integrated-oil cash flow guidance and for the headline-inflation path the Fed is watching into the PCE print. De-escalation compresses the premium and pressures XOM/CVX upstream realizations while easing the inflation impulse that has been keeping the October rate decision live; escalation does the reverse and re-rates energy at the expense of long-duration tech multiples. Equity futures have been trading the de-escalation side, with semiconductor strength absorbing the geopolitical bid, so positioning is now asymmetric if talks break down.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOTU3UGZCWl9OYy1CTDNNM3BDWHF6cEVkNmhjX2dQSTBqb0pIZlhobTc4eFBKSzlhUHk4ZW9PZ0puY1B2cC14N0owTmNqR0VYR1A3LXNUOHhhWndhMmd2bkRXaUxhN3JaeXJab1QyMmlfeDZJNnJDaTl2V0RBYUJyaGstTlJaY3VRbmV5UlN6aGREeHdzMlVoWHFqRUplUnJSdDl5UzlQa1NLRmxJOG9xSjVjR1hNdGJZNHh5SDZCUFN1a2wwRUtuMjJpQ1lFZl9pWG1NWTBZSHYxUVhyamhLN3NGZw?oc=5",
       "alerted": false
     },
     {
@@ -158,6 +177,27 @@
       "why": "The absence of a controls discussion locks in the current licensing regime as the planning assumption for the next several quarters, which means the China line in accelerator models stays suppressed and semicap China systems and service revenue stays on its existing decay path rather than re-rating. That cuts both ways for the multiple: no relief catalyst, but also no incremental tightening tail risk that would force estimate cuts at ASML, AMAT, LRCX and KLAC. It also frames the separate report of Beijing easing on the import side as a China-driven demand decision rather than a negotiated US concession, which makes it more reversible and argues against capitalising it into terminal estimates.",
       "source": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWxSSjZ0MG1oaGgwOUtqanRtTnRfcUJVZzFJajFjOC1ocFlCeVc3SVprZGRkM3FuSWl2dTg3X0RJRmRSN29KMm9KYXhzY3RTUzJLa1NHQUtCb3d1ZXk1SXVTOEh1ZjJPSndpbWpibGNpQ3FBY2M1RXRsSmM2NTh1V21oS0hsQzUyUE1ybWpEaElTZHlrQW1BbEU5WjTSAZwBQVVfeXFMTjFsUko2dDBtaGhoMDlLamp0bU50X3FCVWcxSWoxYzgtaHBZQnlXN0laa2RkZDNxbklpdnU4N19ESUZkUjdvSjJvSmF4c2N0U1MyS2tTR0FLQm93dWV5NUl1UzhIdWYyT0p3aW1qYmxjaUNxQWNjNUV0bEpjNjU4dVdtaEtIbEM1MlBNcm1qRGhJU2R5a0FtQWxFOVo0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-macro-goldman-positioning-underweight-catchup",
+      "time": "2026-09-27T02:00:00Z",
+      "headline": "Goldman Sachs flags weak investor conviction despite strong index performance, sees scope for a laggard catch-up",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "XOM",
+        "CVX"
+      ],
+      "why": "Light positioning is a mechanical source of demand: if allocators are underweight into a market making highs, pullbacks get bought and the marginal flow goes to names that have not participated rather than to the crowded AI complex. Goldman's framing is that further upside has to come from earnings durability rather than multiple expansion, which argues for rotation into cyclical and value exposure (banks, energy) and against paying up for more re-rating in mega-cap tech. That matters for relative performance of IWM and equal-weight exposure versus QQQ, not for the absolute index level.",
+      "source": "TradingView / Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd1l1cG4tMEJSaHBKUlpmRlBsOXJsdk0tby1FdVhtUGRiWkRZNXJPdjMyblVIWEFxbGJ3X0pkQ0NVYVZ4ZHl6Q2hrbGJlcVZ6SWJXOUxwRks1aWFOa1hibzFhTXVvdTFWVjZsT2F3aVJRVlRjSzZ3dmdWd2EySC1SeWxyNlU4anh2S2JhcE9yelhIenZVNjFjM00wUmF3bi1rY013X1BGNE82OFhfVzlfX3h0VmxxNmNlTUlKVUJCWlRpRmcxMVBVTEcxQTJ4Y1E?oc=5",
       "alerted": false
     },
     {
@@ -813,50 +853,6 @@
       "why": "Oracle is the marginal, debt-funded buyer of AI capacity, so its rental margins are the cleanest live read on whether leased GPU capacity clears above cost of capital. If that spread is thinner than assumed, the capex plans underwriting the entire supply chain's forward orders become discretionary, which is a multiple event for every name whose backlog depends on neoclouds and second-tier hyperscalers rather than on Microsoft and Google internal spend.",
       "source": "Newsquawk",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTFRlQ2hONzdzU29TT29MQms5R1lCWHNZOVhaSVZBaGoxVWE5eHFHdXhQNG1QcVlpNk53MWEyNHcyQWUxLWJ5NVZRTFJHb0VUNVdRVy1YR1ppRFUxLTdfV2xrVDVJWEhqUmtHRDZGTmlXYWk1QTBMTDA0SlRoY0VrWG44ZGVnN05vamRrMmRCVVBYcEtSaDZvbDBYQUNIeldrVHkyZ3dzTTFpMGtzX0RVNHpnajhUREVDUWhqOF9PaHI4d3c5YlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-macro-fomc-chorus-not-done-hiking",
-      "time": "2026-09-24T18:40:00Z",
-      "headline": "Multiple Fed officials signal the tightening cycle is not finished, hardening the yield backdrop",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "A single hawkish governor is noise; a chorus across speakers shifts the modal path and forces strategists to move the terminal rate assumption, which lifts the discount rate applied to the highest-duration cash flows. Banks are the offset \u2014 a higher-for-longer curve supports net interest margin \u2014 so this is a rotation signal within the index rather than a uniform derating.",
-      "source": "Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVUNUdXJ6X2tRWFpKT0pkNlEyb2I1VUFGMXRBczJvS3V3RWFXc0dzVGhFTzhKOW5UMU83YXJfbzlYaHJ4NGh0U3RYcTNYcUVoT3VpVTZ3VXhFd1VpWFBrdkEwNjA5eWZXbWN5LVlFd19hQnU3Z2FoWUh2ZFRaQkxsWlNQOVZNdS1Xck1PcW5HSktFMHc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-amd-intc-agentic-cpu-demand",
-      "time": "2026-09-24T15:30:00Z",
-      "headline": "Meta's Muse agent stack drives bid for server CPUs, extending AMD and Intel datacenter rally",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "META",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "Agentic inference is orchestration-heavy and runs long-lived host processes, so it pulls demand toward high-core-count server CPUs that had been the neglected, share-losing part of the AI buildout. That is incremental attach revenue rather than substitution away from accelerators, and it lands on the highest-gross-margin product line for both AMD's and Intel's datacenter segments, which is what changes earnings mix rather than just sentiment.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX05pQ3M1R3JXUzZ2NFR5Q1A0RmVSWW9xN0RSVW5JN1E5bDRPeEVDeDV1RXVXTVNzUzBtd25iLWVQV09XU2QzNlZRb3NMb25lX0VrMzRNYVR4aEg3eE9mN29TczI0SThScERQWENnVi1YZkZXS1ZlRkl1b1J5UEJqcXlqLVNDTjJkT3M4N04wX1pES2hSWEVGNw?oc=5",
       "alerted": false
     }
   ]
