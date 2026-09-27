@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T05:36:17Z",
+  "generated_at": "2026-09-27T12:20:38Z",
   "session_date": "2026-09-27",
   "items": [
     {
@@ -20,6 +20,35 @@
       "why": "A domestic incumbent taking the leading share position in China converts what was treated as a temporarily blocked TAM into permanently forfeited share, because once hyperscalers there qualify Ascend on their software stacks the switching cost runs the other way even if export rules loosen. That removes the embedded China call option in Nvidia's and AMD's out-year models and caps the terminal-growth assumption investors pay for. Second-order, it shifts HBM and foundry/advanced-packaging demand toward non-US-designed silicon, which is neutral-to-negative for the pricing power TSM and MU currently enjoy on Western accelerator allocation.",
       "source": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmdUUjRYQWpjdGx4MFd0bkpvZWNhaGREdTBGWlZiSm1rNk9rOFJRU1RZei1aaU1xWGNKM0FKekZJQkM3aVVzRnhkNzVaUEFDYXJIcExhdzJqN1RFaThjUWVPYWpuQ0p2TGRPclBITWFKX0hZdFF0WkNlR0RyZGQyeE4waC1JVEZwVFBEMVJmZUVYTWZY?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-macro-pce-acceleration-into-october-decision",
+      "time": "2026-09-27T08:00:00Z",
+      "headline": "August core PCE seen accelerating on Sept 30, with payrolls to follow \u2014 sets up the October Fed decision",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "AVGO",
+        "AMD",
+        "PLTR",
+        "JPM",
+        "GS"
+      ],
+      "why": "Consensus looks for headline PCE near 3.7% y/y and core near 3.4%, with monthly prints accelerating versus July \u2014 an upside surprise removes the last argument against another Fed move and pushes the discount rate applied to long-duration AI and megacap cash flows higher. Equity multiples, not earnings, do the adjusting here: high-multiple semis and software carry the most duration risk, while banks get a mixed offset from steeper curves versus credit costs. Forecast sets vary slightly across previews on the exact monthly core figure, so the market reaction hinges on rounding at the second decimal.",
+      "source": "tradingkey.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ180TTRScjBNbWlYa2V1ZUZDMnFDX0QyMXdZT0NwTHdjbUt3djk1N09NREtkbDZnSjFma0xSVFBIWl84V3paZC00dkNucUhiaFEwakMzOEFabm9vSkVISEdoMUZkT0FZS3VVQ2tjRzVtYzgxbFdoeTUwSnp1QzdnQkY4NW9xQjNFZWZNblU3cUVfa09hVmJVakhxanFDU0dZSUc3WXI3dkUta3RpNTJvMU9OSmIwNmZ0djZJTXA4ZWwxOGxqSE9OamhmenhQblJra3ltaVozbUJ0aG9mZGc?oc=5",
       "alerted": false
     },
     {
@@ -66,6 +95,73 @@
       "why": "A majority-probability hike is a different regime from a hawkish hold: it moves the whole discount curve rather than just the terminal-rate tail, and long-duration AI and software equities lose the most present value per basis point because their cash flows sit furthest out. Rate-sensitive small caps face an additional funding-cost channel through floating-rate debt, while banks get a partially offsetting net-interest-margin benefit against wider credit spreads. With PCE and payrolls landing into this positioning, the data now cuts both ways instead of only supporting the easing case.",
       "source": "bloomingbit / finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RT05oT3FON3dIb1RNR1VjUldSVjNDbjM3TDBYek5kQk84MzNTNTRUVnVBS2lTS0dGczVJY0dCSDVCRDN5MVZmMkxZVHhyRFNid0NhWQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-kospi-asia-beta-to-us-data-and-mu-print",
+      "time": "2026-09-27T02:00:00Z",
+      "headline": "KOSPI's hold above 7,000 hinges on US PCE and Micron's print, linking Asian memory beta to the US rate path",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "MU",
+        "TSM",
+        "NVDA",
+        "SMCI",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "Korean and Taiwanese memory/foundry complexes now trade as a leveraged proxy for US AI capex expectations, so a hot inflation print transmits into Asian semis overnight and returns to US semis the next session through ADR and futures arbitrage. That two-way linkage means the risk to US chip names this week is not company-specific but a correlated de-rating if Asia gaps down before the US open. Post-holiday repositioning in Seoul and Taipei adds flow pressure independent of fundamentals.",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xVjFBM290Tjl6Q1paandralZKS0NGRmtrN0NwdEtxZk5LOUtjY004OEJaMGMwNmh0bmdzS05LSlBNbVh6M1RhOGdMZzJuSllvMUkyMlVxOU5PZlFLWEVtdUxFNG1ZRWlST2RmTVFreDlMSHNRdFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-semis-korea-q4-sentiment-record-chip-index",
+      "time": "2026-09-27T01:00:00Z",
+      "headline": "Korean manufacturers' Q4 outlook improves as semiconductor sentiment index hits a survey record",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "TSM",
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "NVDA",
+        "AVGO"
+      ],
+      "why": "Korea is the marginal supplier of DRAM, NAND and HBM, so a record chip-sector expectations reading from its manufacturers is a forward indicator of order books and fab utilization rather than a sentiment curiosity \u2014 it corroborates that memory makers expect shipment and pricing strength to persist through the December quarter. That firms the demand assumption underpinning equipment capex budgets, which is where ASML, LRCX, KLAC and AMAT earn their revenue. It also front-runs Micron's guide by three days, reducing the odds of a downside pricing shock.",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTB0djNRcC1wZngtcG12bG5aN0x0OHhYRS1OVlQ3WFNOM2ZFMThaRlRUMU4xMWtfRVJxX0VMT29ibnNaOUtxYkhhSUU4b002bmQzbXFyTkIxUXpLRjRMcUNCWFlIbEVwdXJUWG0tMFA2aWRHOHpVVHZhTkIwcnlJdWp6ZThoaG9ZX2pNSGhOZFV5ckRtVEh3elBvTEgxZVNFSVBGWi14NTJ0QQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260927-mu-q4-print-setup-implied-move",
+      "time": "2026-09-26T20:00:00Z",
+      "headline": "Micron fiscal Q4 lands Sept 30 with options pricing a near-10% move; consensus at $31.49 EPS on $50.92B revenue",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI",
+        "TSM",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "ASML",
+        "MRVL"
+      ],
+      "why": "The print is the sector's cleanest read on whether HBM and conventional DRAM pricing power is still compounding or has begun to plateau, because Micron guides one quarter forward on contracted bit pricing rather than on backlog rhetoric. A guide above consensus validates the memory content assumptions embedded in AI server bills of materials and flows straight to wafer-fab-equipment order expectations; a soft guide on HBM attach timing re-opens the debate about inventory build at hyperscalers. The implied move of roughly 10% means positioning, not the headline number, will dictate the first-day reaction across the complex.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdHBDV09OVk81eFh0ZnlqWHV3NkctV0RlMnhNODduMVNQUWpUam1ZTm1Wa2czTWN1ZzMyaldfQ2NIM2hUSjJFV0owdXcyekN0d2x0MUJTdkFvZ3NZUnN2ZXZYbXBUT0djVFFVbU5EY1gya1A3Uk4tdXdpcnphWDVoMXZHbm5YcU42eEttZWpRQklhOTdCNmp3RWQ2ZmdLdzg2dmk3NFg5ZzllSFpRY3RNNTBR?oc=5",
       "alerted": false
     },
     {
@@ -768,87 +864,6 @@
       "why": "A higher risk-free rate mechanically discounts the long-duration cash flows that carry AI and megacap tech valuations, so the hit lands on the multiple even when earnings estimates are untouched. It also raises the hurdle rate on debt-funded datacentre capex, which is where a growing share of AI buildout financing now sits. Small caps and leveraged names take the sharpest earnings hit from refinancing costs; banks get a better reinvestment yield but face mark-to-market and credit offsets.",
       "source": "MarketWatch",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMOGx4MkZURnVjUExNcnhnajRQQ0dnN0hieTVZUEtlQUp2cjdmRWpGZXFub2VxSVByYlVKUnpWSm9kb09DQ2h1UTJMa1pKSlVwbHhYR29jZ3I4ZUR1MGo1SHpwQUQ4U3BkOHhUUGVfOWQyb3Q1QU9ZcEpzX05Ld1BCNktGcUJCRzkxUnBYVmhYWXBBOVF5MUZuS1pZdVJMVG9sWHdEMTljYXRjVC14QUY0RlJsdDY4WlhQbm1fak4?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-asml-china-restriction-derating",
-      "time": "2026-09-24T14:10:00Z",
-      "headline": "ASML drops 6% as investors reprice China licensing exposure into the Trump-Xi summit",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "MU",
-        "INTC"
-      ],
-      "why": "China remains the largest single destination for mature-node DUV systems, and that revenue is booked against a backlog that cannot be re-sold quickly if licences are pulled \u2014 so a restriction step-up converts backlog into deferred, not lost-and-replaced, revenue and compresses the out-year model. The sell-side and retail pushback matters because it frames the move as multiple compression on political risk rather than a change to bookings, which is why the equipment complex (AMAT, LRCX, KLAC) trades in sympathy without any order data changing.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRktGWGZmOFI0cUlvQWZHTHNXUl81QUo4ZEYxUHdjeVZLckc1V010NzhibzIxMVA0QjFUaWNrMnZhaWdHNmdJLV9iN1B2S1Z4NU5BQkd1bnNpQ18tRHRHU0U4UElYR05hcEliQlR5OU52dTVxUjRQb1VZeDVwd3F0MkxiRGxJQ2V0VnJtYXVqT2h2S2R1SzVLODdFWURsVGVDMnhHNXRGVG0wa0lPR0JfQ3R0eXB4QzB0UE1IMUhaNWR2T2xRT1VCZDBiQmx0Y0FyOFk4eWhlcTQ5Z2lERzNjNkpNaHFnb1h2WUVXM041cjZPZ0NXS2RtbzBzcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-intc-apple-mac-silicon-exit",
-      "time": "2026-09-24T14:00:00Z",
-      "headline": "Apple's further wind-down of Intel Macs removes residual client CPU volume from INTC",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AAPL",
-        "TSM",
-        "QCOM"
-      ],
-      "why": "The remaining Intel-based Mac installed base was still contributing service, support and replacement silicon revenue at high incremental margin; closing it out permanently deletes that line rather than deferring it. More importantly it hardens the proof case for Arm-class designs in premium notebooks, which compresses the pricing umbrella Intel relies on in client. The displaced wafer demand accrues to TSMC, which fabricates Apple's in-house silicon.",
-      "source": "StocksToTrade",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TZTdHbVZDMEh0Tl9CUGlqVlRiMEVEbklJN0F0ZWpTb0JPVWl3SW5FcExnUFRuazF1c2xUdHkwU0ZqNzl1SHUxaFcxc0VyYWtjQUVqZ19SdjVZMFdRNjRoQzRtbjhqQVctMFlobUlNaDJNdTFpZzhOY3JB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-amd-rfsoc-diversion-export-probe-calls",
-      "time": "2026-09-24T14:00:00Z",
-      "headline": "AMD faces calls for investigation after export-controlled RFSoC radar silicon surfaces in China; AMD blames third-party diversion",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "INTC",
-        "MRVL",
-        "SMCI",
-        "AVGO"
-      ],
-      "why": "An allegation that restricted Xilinx-derived RF silicon reached Chinese buyers through channel diversion opens AMD to a BIS end-use review, which historically freezes license approvals and forces costly channel re-certification well before any penalty lands. The direct revenue at risk is trivial, but the multiple is not: it hands Senate hawks a live example to justify the pending chip-export bills and per-unit tracking mandates, raising compliance drag across every US accelerator and FPGA vendor selling into Asia. Read-through is sector-wide because diversion enforcement applies to distributors shared by AMD, Nvidia, Intel and Marvell.",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQTlFBZEpCbjFLSVl2UklsMHp6Q21jY1Jxc2pQcHk4SDRCcXVYNTZZa0w5Q1c1dW5PX1JJNkFrNFR3U2pjeFdxRlktdk5BcG12bTgzSk8zM3RvY0ZiUF9pN1BKR0s4YUIxRnhmSE1DcTF5TkJrUVR5OWY4TG5GSjNvVnl5U2V3ZF9KcGxDVWtkd3g4TU1IVnJheE51MG9GOVU2SF9McWlFRnVhbVBvc2N4cTI3MC1Ca3laMDJNRklmMHR3Z2M4YUdDR2RLZkJ2T1BIdFZoa0VrLVRQLTUxQ2dsWExGV1RJSURHTmlGeHQ4YTNjVHBPVmRRVXhZTVNrYVZ1N1RHWVNoRFNUM1FOLTB4cWFQUVExX00xcHU4Q2ZKY0s0b2FRNHdQcUZzSmE0M29hZ05Nem1wajFfS1VBODFVRGtiVU91SENUTzFWTF90NkNUa3RIVzJiT0psSUJFOXhxeXJEWFJ3eFZkN3hsdmMxRHR4SjFLckVwTU5TX093?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260924-intc-guidance-beat-record-high",
-      "time": "2026-09-24T13:30:00Z",
-      "headline": "Intel guidance tops Wall Street estimates, shares clear their 2000-era record closing price",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "A guide above consensus resets the forward earnings base rather than the trailing one, and for a turnaround name it is the first hard evidence that foundry and server volumes are converting into margin rather than burning cash. That shifts INTC from an option on execution toward a cash-flow story, which is what justifies a higher multiple after a run of this size. Read-through is positive for wafer-fab equipment names on capex continuation and mildly negative for AMD, which has been pricing in uncontested x86 server share gains.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWthMG1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
       "alerted": false
     }
   ]
