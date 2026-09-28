@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-09-28T14:20:53Z",
+  "generated_at": "2026-09-28T23:26:34Z",
   "session_date": "2026-09-28",
   "items": [
+    {
+      "id": "20260928-amd-world-labs-dilution-and-close-risk",
+      "time": "2026-09-28T21:37:00Z",
+      "headline": "AMD's World Labs purchase is 100% stock and needs regulatory clearance before a year-end close",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "why": "Paying entirely in stock for an asset last discussed in private markets at a far lower valuation earlier this year transfers the valuation risk onto existing holders: the higher AMD's multiple, the cheaper the deal looks to management and the more dilution shareholders absorb if AI multiples compress. The deal is also conditioned on antitrust/regulatory approval before year-end, so there is a window where the share count rises without the asset being consolidated. Until AMD quantifies opex and share-count impact at the next print, consensus EPS for the coming year is stale and skews high.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOVAyYjhlQUNibTRsS0JTRmhldXQzYXZtT1lpci03WXdVcnR6eExZMTMzSXNTaDlaME45bEtnU0F0MVEta2d3QWowVWlENzdpZzFUZThDTlFqTnNxWkxQNEVGVkY3T1dpNWhQRkdTYzQ5YUwwSnZVekg3M1hNLTlPVmdDNjlfRnBNRDdpSmNDZlIxcUVzNTJMOTA2Y3NRX3lHZ2ZKRVBkeGpTYmc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-amd-world-labs-acquisition",
+      "time": "2026-09-28T20:00:00Z",
+      "headline": "AMD to acquire Fei-Fei Li's World Labs for $8.2B in all-stock deal; Li becomes EVP and chief scientist under Lisa Su",
+      "impact": 8,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "MU",
+        "QCOM",
+        "TSLA",
+        "GOOGL",
+        "META"
+      ],
+      "why": "This is an equity-funded purchase of a pre-revenue research asset, so the near-term mechanism is share issuance and opex absorption against no attached revenue line \u2014 which is why the tape marked AMD down rather than up. The strategic mechanism is workload co-design: owning a frontier world-model team gives AMD visibility into the training/inference shapes that determine MI-series memory bandwidth, interconnect and HBM content decisions, the single biggest variable in whether AMD closes the accelerator gap with Nvidia. Read-through is broad: a credible second merchant-silicon roadmap in physical AI raises the foundry/HBM/networking content pool for TSM, MU and AVGO regardless of who wins, and it validates spatial/robotics models as a capex category for the hyperscalers and Tesla.",
+      "source": "CNBC / AMD Investor Relations",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LUjBabEQwUG1TSlBLWGJJbENYbEZXVzYxWTlGVEpXRXhvM0ZOMjhXWmdzNVdTX0dLcGF3S0Z1RDN1UDJ1aDhMbGFMZE1iNnd5SkVNVk1JY3ZXUl9FNXZiZTcwV24zVlI5dVdsNFo1VdIBdEFVX3lxTE1GMTVTanpmVGs0Q2J1RlEtTHRRWEpuRWNwUkF3YmhIS2VzLUQ0SzRPaERxNHo4WDNhX1hsNXdUNE5KSmM0ak5OTzdkQmd5dE4tMmhMSzFNWFYyTFB3amxPMjFVbnI0Wm5HSzg0WENTdXIxamZy?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260928-intc-apple-legacy-design-loss",
       "time": "2026-09-28T14:20:00Z",
@@ -18,6 +57,27 @@
       "why": "The loss removes a residual high-volume socket from Intel's client and connectivity mix at a point when the turnaround case rests on volume to fill fabs and amortize 18A capex \u2014 lower loading is a direct gross-margin drag, not just a revenue line item. For Apple the same move is margin-accretive, shifting spend from an external vendor to in-house silicon fabricated externally. It also reinforces the structural narrative that Intel's merchant share losses are permanent rather than cyclical, which caps any re-rating from the recent bounce.",
       "source": "timothysykes.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51MGN2UzF1dDkxeXRneHB5eXBab1NDaWxvbDFhbkVwQk1sMEI5SjZrT1l0TmVKeU5mdzhBVjZvQ194UTRqT1hjS2FsZ0tCTk5FbTl4TjM1MV9EdGVoVURQU0NKYjdFOXdrdUNOTG9FQUNoamJJUU9iaWlkY01odw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-asml-export-control-pushback",
+      "time": "2026-09-28T14:20:00Z",
+      "headline": "ASML CEO tells Washington that tighter China curbs risk accelerating domestic Chinese toolmaking",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "TSM",
+        "NVDA",
+        "INTC"
+      ],
+      "why": "The equipment names carry two separate China exposures \u2014 current DUV and mature-node system revenue, plus the far higher-margin installed-base service annuity that runs for a decade after a tool ships. Fouquet's argument is that further extraterritorial curbs do not just cut the revenue line, they fund a substitute supply chain that permanently shrinks the served market and the service annuity behind it. For the market this is a discount-rate input rather than a quarter: it raises the probability that WFE China revenue is structurally lost rather than deferred, which is what caps the multiple on ASML, AMAT, LRCX and KLAC even while AI-driven leading-edge orders run hot.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFItbEt1aTVSWG1TdGFqdHk1dzFuTENZVGF1X0dxWWw0UThSOFVyQmdfdEprTWxEZVpPSFREYlAxdXJJUnN5VXJSS0ppU3l4Vms3REpHVDNOSW9DbUxpaTM0dXBZbUlhTFhGR3FPLW1DZEJEMGN3bERmTU5aeTY3U0xnMmhFZmZLQUl3Nnh3QlRCYlE?oc=5",
       "alerted": false
     },
     {
@@ -814,62 +874,6 @@
       "why": "A print that beats but sells off tells you the buy-side is now underwriting a cycle peak rather than an extension, so the debate shifts from this quarter's EPS to the terminal margin and the pricing path for DRAM/HBM into next year. That compresses the multiple investors will pay for every memory and memory-capex dollar even if near-term numbers are fine, and it drags the WFE names whose orders key off memory capex plans. Read-through is negative for the whole AI hardware complex because memory pricing has been the cleanest proxy for accelerator build rates.",
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTFM4Sjl6bENqdllSNWVjNXdTMG1nUVlGM09ZX3RDTUpJSXZtanZXV0tnQ05obUd0amlVaktBNWRrZjdBS0VaMmF3OEJHWFY3dG5ibVVoSzVEdjZrcXNodVdCYUYtMmJPb2Z4MTNuMG1IQkFyLU1ZSzQxOEt4UXNnTnFXX3gySFBmaGZmY0tleHFhUHZkMmU4?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-wfe-intel-capex-bump-orders",
-      "time": "2026-09-25T13:00:00Z",
-      "headline": "Chipmaking equipment stocks rally as Intel raises capital spending plans",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "KLAC",
-        "LRCX",
-        "INTC",
-        "TSM"
-      ],
-      "why": "Wafer-fab-equipment revenue is a direct function of logic/foundry capex budgets, so an Intel spending increase converts into tool orders and deferred-revenue backlog for litho, deposition, etch and metrology vendors over the next four to six quarters. Intel had been the single largest swing factor in WFE order books after prior capex discipline, so a reversal re-rates the group's 2027 revenue base rather than just sentiment. It also signals leading-edge capacity competition with TSMC, keeping industry capex intensity elevated.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPR1ZmZjdnUHpiUVpqbFI3NGxaeWNPVXB3RFdqUm14QUI1bnZ6WWtHZG54WFRvQUktTDhLTnJlWTE0c2djOHhhQjdRYjA1NHJESWpYYldTWDdBWXlXOE4ybmhjXzZSWEllSVdCRnNUajV6V1pzNlZrX0tTYlpyU0RRM3JSbUt0QlJkYnBFSmxhWlRaWlJGOUZwQUZmY1dUNW9NSUxEU25UZlRSUkQyZko3V0NZSWV5SzRGNGcwQVB6bVNnel9TWU9rdWYwWXFWTnpXUlBjVldB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-meta-muse-subscription-model-disruption",
-      "time": "2026-09-25T13:00:00Z",
-      "headline": "Meta's Muse launch re-rates subscription-model software and content names lower",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "META",
-        "CRM",
-        "NFLX",
-        "MSFT",
-        "GOOGL"
-      ],
-      "why": "A free, ad-funded generative product from a platform with distribution at social-network scale attacks the pricing power assumption embedded in per-seat and per-subscriber recurring revenue models, which is the core input to their terminal-value multiples rather than to near-term EPS. For Meta the mechanism is the opposite: incremental engagement and ad inventory at low marginal cost, funded by capex already in the plan. The market is repricing the gap between owning the model layer and renting it.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeEFpN2Zsa3ZoVjMzSFgwV3BiNXF0YWJvemR2OGdfTzllY2I1X0NOV3hFWTE0azRKMDc4NUpHUEt1YXFuSmpJN2RWWGlvVmhUd0tsQ0lINjU4YlZHamdPSWdrWWl0Y1RUdlRDR0dFYXRmNE0wcWFZZV9kYTJtOW1EZUJIT2RXR1VPSnJNMG94Xzd3dlFRMW9qU1hhNUw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-mrvl-outgoing-cfo-share-sale",
-      "time": "2026-09-25T12:30:00Z",
-      "headline": "Marvell's outgoing CFO files to sell roughly $65M of stock ahead of departure",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "ANET"
-      ],
-      "why": "A finance-chief transition at a custom-silicon supplier removes the person who has been setting the AI-revenue disclosure framework investors use to underwrite the 2027 ASIC ramp, which raises the risk of guidance framing changing at the next print. The size of the filed disposition also puts mechanical supply into a thin post-run tape and signals no personal incentive to defend the current multiple. Read-through is modest for other merchant/custom accelerator names, where disclosure quality is a key part of the valuation premium.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTXZGYUVyaTdTbUp2WHA5Q1o1Sjd0Z2tKZmtPRmlwM2UyQ1puSGJNbl80aTNzWGZJTDVMVzhsYnU5UXRJcUk0aWdPeGRJb3V2LU9PeHJ3MF9QeVlBSGJxNmVIMlhGUzhPbGdzX1BUTmhiXzdIdDM3ZjRLdVRrV2RSRmNOdFRqVHhsLTY4Y01BWnNPaVVhYUdqS2JETGRGNUN5Qm1BR2NFaHBmMk5yUmstWGJncHpVdk5IM0ZxQVdpUmp3WGR4RW9Md1F1d2xEWW9vOHc?oc=5",
       "alerted": false
     }
   ]
