@@ -1,7 +1,103 @@
 {
-  "generated_at": "2026-09-27T21:31:19Z",
-  "session_date": "2026-09-27",
+  "generated_at": "2026-09-28T05:43:57Z",
+  "session_date": "2026-09-28",
   "items": [
+    {
+      "id": "20260928-macro-duration-shock-multiyear-high-yields",
+      "time": "2026-09-28T11:00:00Z",
+      "headline": "Long-end Treasury yields hold near 19-year highs as futures slip into a heavy CPI/jobs week",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA",
+        "PLTR",
+        "ORCL",
+        "CRM",
+        "NFLX",
+        "JPM",
+        "GS"
+      ],
+      "why": "The mechanism is discount-rate, not earnings: with the 10-year having pushed to levels last seen in 2007 and the 2-year back near 4.90%, the risk-free leg of every DCF resets higher and compresses terminal-value-heavy multiples hardest \u2014 which is exactly the AI/megacap complex. Rising real yields also raise the hurdle rate on the debt- and lease-financed datacenter buildout, so the same capex that was rewarded as growth starts being discounted as cost. Banks get a partial offset through net interest margin, while small caps carry the most floating-rate refinancing pain, so the move widens dispersion rather than moving the index uniformly.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LN3BCb1d6V2NEbTRyUDJZVTVXWHNRc2VXWUt2bThoN1JJMXI1ZnVyaGhNWW53SnFaUHF0X3RuQno5X3Mydnh0bFZoV1phYjBiYVc0LWljUlU1TFdDWWQ2Z3ZOUDNtS0J1OWxXdGs0dmFTSHVnNVFJVHgtZ2JORHc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-avgo-target-hikes-without-price-de-rating",
+      "time": "2026-09-28T07:00:00Z",
+      "headline": "Broadcom price targets keep climbing while the shares stall, quietly de-rating the custom-ASIC story",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "MRVL",
+        "ANET",
+        "TSM",
+        "GOOGL",
+        "META"
+      ],
+      "why": "Rising targets against a flat tape means forward estimates are moving up faster than the price, so the multiple is contracting even as the AI networking and custom XPU pipeline is being marked higher \u2014 the market is discounting the backlog rather than extrapolating it. That is the signature of a stock where the incremental buyer now wants delivery evidence, not order announcements, which raises the stakes on conversion of ASIC design wins into shipped revenue. It reads across to Marvell and Arista as a sign the custom-silicon-versus-merchant-GPU trade is being priced with more scepticism than the sell-side notes imply.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ0MwRWVVN055SEM1bjNMWmNxWkRBZlVUcjVZX3NkdnNXQXRnYXhlMy1LaGVNX09raFl0SlIxeE9LUlRObzg5Z2xHS3o0bXVrS0xYbUlNY2VlTk5MOF9QQmNmYTBvSGVGYVE3Y2RMdzd3LVZKRlkweEM0UGE1Y2JJZXJnQ0Vwd0hkTTBnUzVRX3BJczdfTUVWVG9uWEE4b2E5UGNjOUFLbVhjRjRKZ2xtYjFVT3lpNkhRaU1XNXlZT19nczdOankyVS1HVTYwUFlKTm5nb3owakpQS0t4Q0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-mu-street-high-target-dispersion-into-print",
+      "time": "2026-09-28T06:30:00Z",
+      "headline": "Micron enters its print with street-high targets stretched to $2,000 and consensus embedding a triple-digit revenue jump",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "AVGO",
+        "TSM",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "ANET"
+      ],
+      "why": "The bar has moved from 'is memory tight' to 'how long does the tightness get capitalized into the multiple' \u2014 with the buy-side target range now spanning from roughly consensus levels to a street high near $2,000, the stock is no longer trading on the beat but on the implied duration of the DRAM/NAND upcycle and the capex reinvestment rate. A guide that funds the next capex leg rather than returning cash risks being read as peak-margin behaviour even on an earnings beat, which is how a strong quarter still de-rates. The print is also the cleanest live read on HBM pricing and AI-server memory content for the whole supply chain, so WFE and server names take the read-through either way.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdTRPRUYwbUZDdXNpTHlEWDViWjQ3REpPdkl1eHk1VmJvc29ZQkVieTlhbXl5QUtXMGZDclVuWTJ1MkxqWjRtLVdoU3NUSmpzUjhHTUhwZ25JYzFmUGFhT2o3S0xrLTVFd19YWFVNQlFqMnhCR2ZSYS1EbEFKbmRSZlpidFZHcm43eVh1dVlmQ19Wd1VGTVNQVVBIWXhSOHRrc0EwUjJpek1qQ3FxVWZxLUtnRGRNMWM?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-intc-amd-server-cpu-supply-shortfall-pricing",
+      "time": "2026-09-27T15:23:00Z",
+      "headline": "Intel's admission that it can fill only about half of CPU demand hands x86 pricing power to both it and AMD",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "TSM",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "A supply shortfall of that magnitude in server CPUs inverts the usual x86 dynamic, where share is bought with price: when neither incumbent can ship to demand, ASPs and mix drift upward and gross margin expands without unit growth. AMD is the larger beneficiary in earnings terms because it has TSMC foundry capacity it can pull, so the demand Intel cannot serve converts directly into AMD units at rising prices rather than being lost. The read-through is also that AI datacenter build-outs need host CPUs alongside accelerators, so CPU scarcity is a second monetisation leg on the same capex dollar.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSC1WTTFSX2pUUXVsekwybW5nN0p0THJ2NTZRY3BHT2d1QU9hUlRQWGlYRi1BdXhQUWR3WC1hQllPbDJmVExJVzlReXg5a1c3dWpocDBFOGVVN2tBdWYtRVg2ZDNfamdCVDZNaHNVUmlBdnl2SU5jTWtBRHNrWFVUSE84YjBEUEpQSE1laElIbThJR2R6WXVBRjNPR1BDeFRwbGRsTHU3UFBzODA?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260927-nvda-china-rtx-pro-5500-approval-signal",
       "time": "2026-09-27T13:00:00Z",
@@ -771,88 +867,6 @@
       "why": "With the market pricing further tightening rather than cuts, the labour and price data are the direct inputs into the discount rate applied to long-duration tech cash flows, so a hot print lifts yields and compresses megacap multiples without touching earnings. A cooler print does the reverse and would unwind the recent yield-driven de-rating. Positioning into the releases explains more of near-term index variance than company news does.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVdISllUQW1vOGc5UzVfeWVGbVloWmh0U3A3X0N2LU9TQnBfQ0RhU0JfbEZVQlA3MUJhOVBacWg4QkJrdTVQaE50RkpsaGJqOEhWZDU5WDNQTVp0dWtzc3J6ZVlFR3VnZmNnLTlwbEpWZW9yMXh2NThFQnpyd3lNX3JZUUZfQ05vTndubkpBaVgzY2d4b05DOEJUSGZ6RGNuWVlDcU4ybm9IVUQwbWtMUU5Ic2pEdDQ3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-amd-major-bank-720-target",
-      "time": "2026-09-25T10:00:00Z",
-      "headline": "Large bank publishes a $720 valuation case on AMD with a dated path",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MRVL"
-      ],
-      "why": "A large sell-side desk putting a dated target on AMD effectively raises the assumed accelerator attach rate and server CPU share in consensus models, which is what institutional mandates key off when sizing positions. The mechanism is multiple expansion on an unchanged installed base: the bank is arguing AMD earns a platform multiple rather than a second-source discount. Read-through supports the foundry and networking suppliers that ship content per AMD rack.",
-      "source": "Finbold",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZUhVVzIxUmdwUzVvM1dYREZfSDRTUzFScWFkak1Vb2NOXzRRTHlsdndzam5mYXk0MHVVNklIOGRWZ2xFZ3pORDFQR3FtV25FVGJoTmJpSmNHckxXQUZqcUppekpBaldycXBzbjE0blFSbkZ1OUw1VnVOYlNKNnlSczl6dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-macro-us-china-summit-no-resolution",
-      "time": "2026-09-25T09:00:00Z",
-      "headline": "US-China leaders' meeting defers the hard technology and tariff questions",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "TSM",
-        "QCOM",
-        "AAPL",
-        "TSLA",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "A summit that buys time without settling export-control scope or tariff schedules leaves the China revenue line in semi models as an unmodeled option rather than a known quantity, which keeps risk premia on chip names elevated. Agricultural and industrial tariff relief, if it lands later, would be a separate catalyst, so the market has to hold two-sided risk into the next round. Until the text is published, estimate dispersion stays wide and the sector trades on policy headlines rather than fundamentals.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa0RLNkFkQmJhRzFNSy1ZRzZRUUZmbWNjcmpPRG5LaXJoRC1DUjVHd2w4c09JN1U4N3dEX2QzNjg1NUV6eDhhWGZqUDZmYm5BYmYtc0NPV3d0S2RtYUhoTGM4ZS1NSnh5SklQbEJPY3R3VGV5MFB1ejk3VWJ3UkM1RnJlNlhyRHJ2LVAtd1FEUHA0VFN4OHhTVG5qTnM1WEdSZUk1ZUNYSW95VnlHNTJ2ZGhWc0t5NXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-smci-backlog-quality-scrutiny",
-      "time": "2026-09-24T22:05:00Z",
-      "headline": "Super Micro's headline order book faces conversion scrutiny after a sharp drawdown",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "AMD",
-        "MU"
-      ],
-      "why": "Super Micro's valuation rests on translating a very large announced order figure into recognised revenue, and the gap between non-binding design wins and firm, allocated-GPU orders is what determines both timing and gross margin on delivery. Scrutiny of that figure is a credibility test on disclosure quality, which for this name carries a wider discount than the underlying demand question itself.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbWY3MWRuZG9kMklRbnp3QnViWG54aGFzT29ZSURmc3Myc05fc2t4Y1JFZ3AxVVF2R0R0dnhRN2RucjNYdjRYNHZNUGNzRGM0dmJpQzhpM3lBd1dqQmRja3VQWmFqOTZpWHcxSjdpNTZSa2phT2hEc3VYdXNwdEdiR3hHMzdLbGZ4aHdMa25YSV9ha3BUcGllVnA0dlg0d05BeDJJRTlYT29mbEVmRHZfcHdvRElvR0s1RE81bHYwQUFsck02Q09pYzc2eGdOczBLeGhoMzJKbzRIQi1lbVJyTXlXcmFnQWNEVFc3ZHFyZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-orcl-datacenter-economics-questioned",
-      "time": "2026-09-24T21:15:00Z",
-      "headline": "Oracle datacenter economics become the session's AI-demand scare, dragging the buildout complex",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "SMCI",
-        "AVGO",
-        "ANET",
-        "MU",
-        "AMD"
-      ],
-      "why": "Oracle is the marginal, debt-funded buyer of AI capacity, so its rental margins are the cleanest live read on whether leased GPU capacity clears above cost of capital. If that spread is thinner than assumed, the capex plans underwriting the entire supply chain's forward orders become discretionary, which is a multiple event for every name whose backlog depends on neoclouds and second-tier hyperscalers rather than on Microsoft and Google internal spend.",
-      "source": "Newsquawk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTFRlQ2hONzdzU29TT29MQms5R1lCWHNZOVhaSVZBaGoxVWE5eHFHdXhQNG1QcVlpNk53MWEyNHcyQWUxLWJ5NVZRTFJHb0VUNVdRVy1YR1ppRFUxLTdfV2xrVDVJWEhqUmtHRDZGTmlXYWk1QTBMTDA0SlRoY0VrWG44ZGVnN05vamRrMmRCVVBYcEtSaDZvbDBYQUNIeldrVHkyZ3dzTTFpMGtzX0RVNHpnajhUREVDUWhqOF9PaHI4d3c5YlE?oc=5",
       "alerted": false
     }
   ]
