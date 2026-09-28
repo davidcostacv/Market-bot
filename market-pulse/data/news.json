@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-09-28T05:43:57Z",
+  "generated_at": "2026-09-28T14:20:53Z",
   "session_date": "2026-09-28",
   "items": [
+    {
+      "id": "20260928-intc-apple-legacy-design-loss",
+      "time": "2026-09-28T14:20:00Z",
+      "headline": "Intel gives back rally gains as Apple severs remaining legacy design ties",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "AAPL",
+        "QCOM",
+        "TSM"
+      ],
+      "why": "The loss removes a residual high-volume socket from Intel's client and connectivity mix at a point when the turnaround case rests on volume to fill fabs and amortize 18A capex \u2014 lower loading is a direct gross-margin drag, not just a revenue line item. For Apple the same move is margin-accretive, shifting spend from an external vendor to in-house silicon fabricated externally. It also reinforces the structural narrative that Intel's merchant share losses are permanent rather than cyclical, which caps any re-rating from the recent bounce.",
+      "source": "timothysykes.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51MGN2UzF1dDkxeXRneHB5eXBab1NDaWxvbDFhbkVwQk1sMEI5SjZrT1l0TmVKeU5mdzhBVjZvQ194UTRqT1hjS2FsZ0tCTk5FbTl4TjM1MV9EdGVoVURQU0NKYjdFOXdrdUNOTG9FQUNoamJJUU9iaWlkY01odw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-mu-record-revenue-and-forward-guide",
+      "time": "2026-09-28T13:05:00Z",
+      "headline": "Micron posts record quarterly revenue of $41.5B and guides next quarter to roughly $50B",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "A sequential revenue step of that magnitude is a pricing event, not a volume event: HBM and conventional DRAM contract prices are resetting the whole memory cost curve, which raises Micron's incremental margin but also raises bill-of-materials costs for accelerator and server builders like Nvidia, Broadcom and Supermicro. A guide above the current quarter also underwrites another leg of memory capex, which is the direct revenue line for the wafer-fab-equipment names. Note the sources conflict on the revenue base \u2014 UBS's published work modeled FQ4 revenue near $52.4B against the $41.5B reported figure \u2014 so the guide may screen as a miss versus the highest street models even while setting a record.",
+      "source": "tradingkey.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFdhZ3BMQzl0NU9mT180OHVzekFaQVRoVHJkODNnQmZPbExFSUR0TGJJTkVHUk90bXNINElxUUwwTGZvdnRiMlNlc3d2ZExWNk5oTlJhOF9IaFZZVkNsX0t2VjRDaWZpb2w1WDcxMWJ1eW5jLXlDM3huc1RvT1E5V1pKcmJQajNpc2FyUFdrNzZZZEpKXzVhaWpIanpfTTJiNkttTWVuNzdLclNiVlZtTmVXUmluMEhCZGdIdmVyWkVieHVfYzZkVg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-nvda-150b-buyback-authorization",
+      "time": "2026-09-28T12:10:00Z",
+      "headline": "Nvidia board authorizes an additional $150 billion of share repurchases, the largest increase in company history",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM"
+      ],
+      "why": "An authorization of this size converts Nvidia's AI cash generation into a standing bid under the stock and mechanically lifts EPS by shrinking the share count, which supports the multiple even if unit growth decelerates. It also signals management sees free cash flow as durable rather than needing to be hoarded for capacity prepayments, reducing the 'peak earnings' discount investors have applied. The offset is rotational: capital returned to holders is capital not spent on ecosystem investment, and peers such as AMD and Broadcom traded as the funding source on the session.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZG4xM0QyUVlMd3dIRDdUckxlWkdOeUZ5QmthS0lQc3pPNjUyOEJqeWpNQU02UnZvTlcyYnllZ2plRXBHeTFkTVpLNWR0S3lzb3BtcUVfdXN5ME1nNkZpaXhkVlVPUlNyU2hGNEN3em41YUNLVm14OEFLNUpGZWFRSXNwZGZWUTFaN1VBSnA5UVhnZm1sRTl0ZVN6LTRCeG1Eb2VHWW14eEMwVE51NThZT0JadDc1aDg?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260928-macro-duration-shock-multiyear-high-yields",
       "time": "2026-09-28T11:00:00Z",
@@ -30,6 +90,50 @@
       "why": "The mechanism is discount-rate, not earnings: with the 10-year having pushed to levels last seen in 2007 and the 2-year back near 4.90%, the risk-free leg of every DCF resets higher and compresses terminal-value-heavy multiples hardest \u2014 which is exactly the AI/megacap complex. Rising real yields also raise the hurdle rate on the debt- and lease-financed datacenter buildout, so the same capex that was rewarded as growth starts being discounted as cost. Banks get a partial offset through net interest margin, while small caps carry the most floating-rate refinancing pain, so the move widens dispersion rather than moving the index uniformly.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LN3BCb1d6V2NEbTRyUDJZVTVXWHNRc2VXWUt2bThoN1JJMXI1ZnVyaGhNWW53SnFaUHF0X3RuQno5X3Mydnh0bFZoV1phYjBiYVc0LWljUlU1TFdDWWQ2Z3ZOUDNtS0J1OWxXdGs0dmFTSHVnNVFJVHgtZ2JORHc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-nvda-new-ai-platform-launch",
+      "time": "2026-09-28T11:00:00Z",
+      "headline": "Nvidia unveils a new AI platform alongside its buyback news",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AVGO",
+        "TSM",
+        "SMCI",
+        "ANET",
+        "MRVL",
+        "AMAT"
+      ],
+      "why": "Each platform refresh raises silicon, memory and networking content per rack, which pulls forward the replacement cycle at hyperscalers and lengthens the visibility window suppliers can underwrite in their own guidance. The read-through is mechanical: more HBM stacks per accelerator for Micron, more custom/networking silicon for Broadcom and Marvell, more switching ports for Arista and more system integration revenue for Supermicro. On its own a launch is not a repricing event, but it caps downside on the 'digestion' thesis that has been the main bear argument on AI capex.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSmRyYXpNbnNETmpnUWQ4Mkc4ZUw2aGZIMFlDM1ZHMzR6TVBCNkd0SEtOMGQwcFlfdW5qZVhITk9NV2Flam5mN29xZldPdWdoeFpPazBwaWw3M2hib0NVUlRvcmwzWWF5YjFROGg2SDYzRFAyNEQwMEYtZVh1NFdkUXc2c2w4MEhkcnI1cVhGN3jSAZABQVVfeXFMTUpkcmF6TW5zRE5qZ1FkODJHOGVMNmhmSDBZQzNWRzM0ek1QQjZHdEhLTjBkMHBZX3VuamVYSE5PTVdhZWpuZjdvcWZXT3VnaHhaT2swcGlsNzNoYm9DVVJUb3JsM1lheWIxUThoNkg2M0RQMjREMDBGLWVYdTRXZFF3NnNsODBIZHJyNXFYRjd4?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260928-macro-jpm-desk-flips-bullish-into-payrolls",
+      "time": "2026-09-28T10:40:00Z",
+      "headline": "JPMorgan trading desk flips to a bullish stance on US equities ahead of the jobs report",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "why": "A major dealer desk turning constructive into a binary data print signals that institutional positioning is still light enough to chase, which is the mechanism behind melt-ups on merely in-line data. It matters because the index has been carried by a handful of megacap AI names; if payrolls land soft enough to keep the cutting path intact without signalling recession, duration-sensitive long-multiple tech is the highest-beta expression. The risk is symmetric \u2014 the same light positioning amplifies downside if the print forces yields higher.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDJjUkdBbzhoRFNsTnBWX0pLbnFCbDBZcjRVSmpVT0JFUmFCeTBQU2QxQmdTOUFpMWNuT1lvYmZtSnlLSkFudWRJeURBbmZBSm1XaXFzYmpqajhLRXlvSjlWemtwU0lXNHBUVmctcVdIb0gtZmctMUEwQ2YzeTZ6M2FCbmhnTkp6UGRaYlpVN1lpSjdEcGVsTFZyNFIxZ2JmLUFZZkRDSHBkZldDbnZfM1liYTBnTjhqMl9XRWhteHNhSUhj?oc=5",
       "alerted": false
     },
     {
@@ -766,107 +870,6 @@
       "why": "A finance-chief transition at a custom-silicon supplier removes the person who has been setting the AI-revenue disclosure framework investors use to underwrite the 2027 ASIC ramp, which raises the risk of guidance framing changing at the next print. The size of the filed disposition also puts mechanical supply into a thin post-run tape and signals no personal incentive to defend the current multiple. Read-through is modest for other merchant/custom accelerator names, where disclosure quality is a key part of the valuation premium.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTXZGYUVyaTdTbUp2WHA5Q1o1Sjd0Z2tKZmtPRmlwM2UyQ1puSGJNbl80aTNzWGZJTDVMVzhsYnU5UXRJcUk0aWdPeGRJb3V2LU9PeHJ3MF9QeVlBSGJxNmVIMlhGUzhPbGdzX1BUTmhiXzdIdDM3ZjRLdVRrV2RSRmNOdFRqVHhsLTY4Y01BWnNPaVVhYUdqS2JETGRGNUN5Qm1BR2NFaHBmMk5yUmstWGJncHpVdk5IM0ZxQVdpUmp3WGR4RW9Md1F1d2xEWW9vOHc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-mrvl-ai-optical-content-repricing",
-      "time": "2026-09-25T12:00:00Z",
-      "headline": "Fresh AI optical interconnect news leaves Marvell arguably priced for the win already",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "NVDA",
-        "ANET",
-        "TSM"
-      ],
-      "why": "Optical DSP and co-packaged optics content is the fastest-growing dollar-per-rack line in AI clusters, so confirmation of a new optical program raises Marvell's attach rate assumptions on every scale-out deployment. The offset is that the stock has already re-rated on that thesis, so incremental design-win news adds estimate support without adding multiple. Competitive read-through is direct to Broadcom and to switch vendors whose port economics depend on the same optics roadmap.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM3NYczMtMHNJZHRmTkswYnZzbWM0SnRWV1lzb1lGZFFKSFNjT0ZyNEprN0JCaElPS0VfTkNOcHVORDVqSGpQT2NTdHRBWXN3MVF2dDZwd2QtemtRXzVaeUV6QU5FM1BMQ1BSOW9fcFBGZ2VwbXNBYnZRQzktU2l4WE1XNlA1YUZab2hmMHdGemswS2lWMkhnTw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-nvda-china-zero-in-guide-derisk",
-      "time": "2026-09-25T11:30:00Z",
-      "headline": "Nvidia's current-quarter revenue guide embeds zero China AI chip contribution",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI"
-      ],
-      "why": "If China is already carried at zero in the guide, further export-control tightening or Beijing-side procurement bans cannot cut the guided number, which removes the main tail risk investors have been discounting in the multiple. It also means any partial licence restoration or H20-class shipment resumption would be incremental upside rather than an offset. The same framing applies to the supply chain that builds to Nvidia's forecast, since their order books are set off a China-free baseline.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOHBhejhlUG01MV9uZ2JOeWgxTGV4bXZzV3R5c0dRa3BYYnVISGpkcURGd2Q1WmwwalJNaHhIY24zTkxuVkVWVHR6T1lKSkpucmNLbjFqeElIWTdPWXQ5WG1mTko3OV9HOU5UdGhjazRnMUs5S3JOamYxMTJWQzhZOWJDb2llazRhWU45TlJ5eWtZdEViUnZ6ZUxhaEc2c1k?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-mu-hbm-attach-timing-slips-to-q1",
-      "time": "2026-09-25T11:00:00Z",
-      "headline": "Micron's benefit from Nvidia's next accelerator launch looks pushed into the following quarter",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "SMCI"
-      ],
-      "why": "HBM revenue recognizes against the customer's platform ramp, so a slipped accelerator launch window moves high-margin bits out of the current guide and into a later period, hurting the near-term mix even when annual volumes are unchanged. Timing shifts of this type usually mean qualification and packaging capacity, not lost share, so the earnings hit is deferral rather than destruction. It still forces estimate cuts to the guided quarter, which is what sets the stock in the next few weeks.",
-      "source": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmSXZuWGp5YmlMeEpVQjRob2hib0lhTC02ZkJPSDZFYUJvTC1wNVVZaDJfMmREQ0VEa093d284b1BCRkdCaDRvemc4QXhjUzdWWDZoZ2FuTzl2ek1oT0Y4ZFM4TmJXWFNJemtXcEZ1OGU5QQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-ai-diffusion-southeast-asia-transshipment-risk",
-      "time": "2026-09-25T11:00:00Z",
-      "headline": "US AI buildout in Southeast Asia complicated by China diversion concerns, raising licensing risk for the region",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI",
-        "TSM",
-        "MU"
-      ],
-      "why": "Southeast Asia has become a large marginal buyer of accelerators and full racks, so any move to tighten per-country licensing or end-use verification there converts a booked pipeline into a permitting queue and pushes revenue recognition right. The mechanism hits system integrators hardest because they carry inventory against orders that may need new licences. It also caps the addressable market investors have been extrapolating for sovereign AI beyond the Gulf.",
-      "source": "Politico",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMHRJRFB0aWhzNXdfb3R0NXdOdzQyZzlWMW5fdHZORXpQQnNZTlVrdGVPQkRvTUo4cVJZdDA1Z29ibTVWcEZuRUFrVDNxeE1BNXJVY05hc01SZGUyalpETURSQ3Jjdy10MHA3dTNoSHhnTVY0a3NLYm56S0VsZGx4QWR5b2UwcExLMmpWMnBMc04?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-macro-jobs-cpi-week-ahead-rate-path",
-      "time": "2026-09-25T10:00:00Z",
-      "headline": "Upcoming payrolls and inflation prints set up as the next test of the Fed's rate path",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "AAPL"
-      ],
-      "why": "With the market pricing further tightening rather than cuts, the labour and price data are the direct inputs into the discount rate applied to long-duration tech cash flows, so a hot print lifts yields and compresses megacap multiples without touching earnings. A cooler print does the reverse and would unwind the recent yield-driven de-rating. Positioning into the releases explains more of near-term index variance than company news does.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVdISllUQW1vOGc5UzVfeWVGbVloWmh0U3A3X0N2LU9TQnBfQ0RhU0JfbEZVQlA3MUJhOVBacWg4QkJrdTVQaE50RkpsaGJqOEhWZDU5WDNQTVp0dWtzc3J6ZVlFR3VnZmNnLTlwbEpWZW9yMXh2NThFQnpyd3lNX3JZUUZfQ05vTndubkpBaVgzY2d4b05DOEJUSGZ6RGNuWVlDcU4ybm9IVUQwbWtMUU5Ic2pEdDQ3?oc=5",
       "alerted": false
     }
   ]
