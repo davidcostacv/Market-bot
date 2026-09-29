@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-09-29T13:13:38Z",
+  "generated_at": "2026-09-29T22:31:26Z",
   "session_date": "2026-09-29",
   "items": [
+    {
+      "id": "20260929-ai-datacenter-warren-moratorium-push",
+      "time": "2026-09-29T16:30:00Z",
+      "headline": "Warren pushes national AI data-center moratorium and probes tax subsidies granted to hyperscalers",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "ORCL",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "The proposal has no near-term legislative path, but it raises the probability that grid-upgrade, water and local infrastructure costs currently socialized onto utilities get pushed back onto developers, which lifts the all-in cost per megawatt and stretches permitting timelines for hyperscaler build-outs. Slower siting approvals translate directly into pushed-out accelerator and networking orders, so the risk is to the timing of AI capex revenue recognition rather than to demand itself. The accompanying document request on AI tax subsidies also creates a headline overhang on the incentive packages that underpin announced data-center economics.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNU243SmxHWWQ1M1htSWIyWVUwbUh6eGwyY2lXRVczdnJBdDJRTzlpV1Nrc3JXSVIzbG5HRFFnZW5HMVFLMHBzUGZPNTNJRm16T0w3aVE0UGl0TnZWaDJrVWFocno2MjVCMkNQeVVDeDhXc3hXV1BIcVdDRTJINUxDM1dycnJITEg0UFE1VGdlLTNDa1RtU19kTDZtN2c0SGpQblc2M2JObnRKeU5NZkdsQm9leVAxTnRnaktqd0s3MjEzLU91MzVHeGVodDFGcXBhbDlDNXItOXZTMmRjZG1vZFd4TkMyZmFqT2c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260929-fico-fhfa-vantagescore-mortgage-grid",
+      "time": "2026-09-29T14:00:00Z",
+      "headline": "FHFA opens Fannie/Freddie mortgage pricing grid to VantageScore, ending FICO's mortgage monopoly",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "FICO",
+        "EFX",
+        "TRU"
+      ],
+      "why": "FICO's mortgage royalty was a regulated-monopoly annuity that allowed repeated per-score price increases with no volume risk; admitting a direct substitute into the GSE pricing grid converts that into a competitive bid and caps both unit pricing and share. The earnings hit is structural rather than cyclical because the scores business carries near-100% incremental margin, so any price or volume give-back flows almost entirely to operating income, which is why the multiple compressed alongside estimates. Credit-data peers that resell scores and had been priced on the same pass-through pricing power de-rated in sympathy.",
+      "source": "TradingView / Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObXVjYWxLN3hUTWhrckNfMnMwUmkwMUctblBUb1J1c1IzN2Y5bGh5TGVGcGd3akdyaXgxNUdFMjZ2a1lzQ0JoYzVWaklJOXJUVVE5TWQxSk5zeUNIeGRVSWwwRXJDQU5kWHVwYl9MODVhNnl2UE9hQjNOMmZ3THFwdjNOUkM2elpGNHlTZjl1cHdBNTcwMDVsd0RJT1FoUU5ySkdOcXFCOTRnQzVVQWkyV1dSU2MxZlhfcVJNWXJfS3ItLUcwZlFUcUN6WlVicnB2RkN5dHF1d2s?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260929-nvda-amd-ndaa-china-export-lobbying",
       "time": "2026-09-29T13:00:00Z",
@@ -21,6 +60,28 @@
       "why": "Statutory codification of export limits in the NDAA is qualitatively worse than Commerce-level licensing, because it removes the administration's discretion to grant the case-by-case approvals that reopened China revenue this year and would hard-wire restrictions through at least one political cycle. The fact that vendors are lobbying the executive to lean on Congress signals they see real passage risk, which puts the China contribution to datacenter revenue back into the 'uncertain' bucket for modelling purposes. Read-through is negative for foundry and memory content attached to any China-destined SKUs.",
       "source": "Politico",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTXdheVlVR0FPX2tsOThwNUNleXVHTUNza3F0bnpBLWE5OVdEOE9sVmpIM3Vac1IxTUVoMXdRUmxXQU1zaXZyX2pQTUc2YWsyYlQ2UGIxX0tMSmFQSkFhakU2a0RkVmNnZkg2cGFUX2FtUUhoMEh6VDZ3ZkVBYUZabEpad3pYcHNk?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260929-mu-jpm-hbm-shortage-through-2028",
+      "time": "2026-09-29T12:00:00Z",
+      "headline": "JPMorgan models HBM undersupply through 2028 and lifts Micron target into Wednesday's print",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "TSM"
+      ],
+      "why": "The call shifts the debate from whether Micron beats a single quarter to how long pricing power lasts: JPMorgan's supply-demand work shows HBM short 20% in 2026, 19% in 2027 and 16% in 2028, which keeps contract ASPs rising and defends gross margin well past the current cycle peak that bears are discounting. A multi-year shortage justifies a higher trough-earnings multiple rather than the 3-4x peak-cycle multiple memory normally gets, and it also underwrites sustained WFE spend at Lam, AMAT and KLA as memory makers add capacity they cannot fill fast enough. The firm also flags a capital-return step-up once the CHIPS Act agreement anniversary passes in December, adding a buyback lever to the EPS path.",
+      "source": "Longbridge / Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPY3ZwVEFfcFhhenNqWWlocWVtY2ZvMDBsS1RUcUZWc2J4ZUt1eTRDSmlQS2psdUdpanlhNWdYSzlUV1hrMTExakJuamxvN0lIbkE?oc=5",
       "alerted": false
     },
     {
@@ -806,76 +867,6 @@
       "why": "Strategist targets do not move earnings, but a headline index target built on a stack of best-case inputs \u2014 margin expansion, rate cuts and uninterrupted AI capex \u2014 tells you the bull case now depends on conditions rather than trend. That raises the downside convexity: any single input missing (jobs, inflation, or an AI capex digestion signal) unwinds more multiple than it does earnings, and the mega-cap weights carry most of that risk.",
       "source": "Real Investment Advice",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQemJMOUJKcWk1N1owdExacVFQRlphLTAwT1Y5N3ZwTkd4X1BvektmdnI2dkN4RmI3ZHRBMlVYcjI1V1dwdkVMTW1KbVBtWnVTNXktY0pSV1BYcHRQbk9WRWtwR1VWTXFWdEViQmR4MmhGX0pGTHpzZzlJTk1Kb3V5c05uSV9RUkxKV01PaHRkVDQ1cHlVYTNyUWhfZVFEV0c1ZzNOVWNfZXVPZHhRWElLbw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260926-nvda-jpm-growth-outlook-defense",
-      "time": "2026-09-26T09:40:00Z",
-      "headline": "JPMorgan growth framework for Nvidia draws scrutiny over durability of the compute ramp",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "AMD",
-        "ANET",
-        "MRVL",
-        "SMCI"
-      ],
-      "why": "A major bank restating a multi-year growth path matters less for the estimate than for the discount rate investors apply to out-year Nvidia revenue, which is the single largest input to the entire AI supply chain's forward numbers. If the sell-side anchor holds, the whole compute complex keeps the benefit of the doubt on 2027 capacity bookings; if it slips, the derating spreads to networking, foundry and memory before it hits Nvidia's own P&L.",
-      "source": "Quiver Quantitative",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGxEVERJdFhBc2ExQjhKU3NZSHlGOC0zaUJZSlEycU1Kam1PRUpQZEprWjZCZkFIN1JBOVFJS0YyTU9iOUUzZ3p1aXByZzAtRUY4TXVXeUFGVGJOZjJHdk9ZbE4tV1hiVWpkakZXX1RENm1RRlhUOVp6XzhpX2NxZGU0b3lBakp2c3RQdGNfUC1kT25yQ1puUTNFS20?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260926-mu-ubs-structural-reset-estimate-hike",
-      "time": "2026-09-26T09:30:00Z",
-      "headline": "UBS lifts Micron estimates and target, sees memory shortage running into 2028 on HBM squeeze plus bigger buyback",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "SMCI"
-      ],
-      "why": "A major-bank model reset ahead of the print moves the debate from cyclical bounce to structural pricing power: UBS argues DRAM/NAND tightness persists through 2H27 into 2028, which extends the period of above-mid-cycle ASPs and gross margin rather than the usual two-to-three-quarter spike. If contract pricing is locked for that long, MU's earnings base and the multiple applied to it both rise, and buybacks shrink the share count into the upcycle. Read-through is positive for HBM-consuming accelerator vendors' supply certainty and for memory-levered WFE order books, though sustained memory cost inflation is a margin headwind for server OEMs like SMCI. UBS's published EPS path and $475 target sit above consensus per the source.",
-      "source": "\u5bcc\u9014\u725b\u725b",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcHI1R1U2UWR0eWJsZHotQ3U0ZVkwRVUwdzJSN2xpQjJUTnpYQU4wRnYxVTVNMmxqaDFNTEZzdlZEMEJxekxGXzNpWGk1M25kUFBOZF9GbFV0Wm03UkR1R3ZMTlJKWGJPX01hZEhfOERfWm5sZWVfR194MHp1M3ppdm9ScmpnZWZXcGxUM3FZYzFxZHl5TU44cGdUWjRuVFZXMWc2QW9uQmgzVjQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260926-semis-record-industry-sales-print",
-      "time": "2026-09-26T08:15:00Z",
-      "headline": "Industry semiconductor sales set a record as AMD's market value crosses $1 trillion",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MU",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "QCOM",
-        "INTC"
-      ],
-      "why": "An aggregate industry sales record is the cleanest confirmation that AI unit demand is converting into billed revenue rather than sitting in backlog, which underwrites the foundry and equipment order book two to three quarters out. AMD's valuation crossing into the trillion-dollar tier also resets the comparable set used to value accelerator peers, lifting the implied multiple ceiling for the second-source merchant silicon names.",
-      "source": "equiti.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1BNOFBsd005Z29mM2RiWGZMSHFVV2R0dWhNaDBVNldMMW5KM0haU3A5c2xEd0RMV3NoZUJpclpja0ZCSFE3d05TdTN5MFRuVFV3djE0TUF5REwzOFBSdlhQOWF2aUZzZGxHLU9TWHh5d1IxYnFPVV9RVUdfSG9PcE1HVkcxZzlHRDgtTnpEalpxVUEyajNXdzZGOXhwZGcwdkdOTGRZcjI?oc=5",
       "alerted": false
     }
   ]
