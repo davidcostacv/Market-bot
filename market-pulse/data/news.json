@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T23:26:34Z",
-  "session_date": "2026-09-28",
+  "generated_at": "2026-09-29T06:01:05Z",
+  "session_date": "2026-09-29",
   "items": [
     {
       "id": "20260928-amd-world-labs-dilution-and-close-risk",
@@ -101,6 +101,47 @@
       "why": "A sequential revenue step of that magnitude is a pricing event, not a volume event: HBM and conventional DRAM contract prices are resetting the whole memory cost curve, which raises Micron's incremental margin but also raises bill-of-materials costs for accelerator and server builders like Nvidia, Broadcom and Supermicro. A guide above the current quarter also underwrites another leg of memory capex, which is the direct revenue line for the wafer-fab-equipment names. Note the sources conflict on the revenue base \u2014 UBS's published work modeled FQ4 revenue near $52.4B against the $41.5B reported figure \u2014 so the guide may screen as a miss versus the highest street models even while setting a record.",
       "source": "tradingkey.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFdhZ3BMQzl0NU9mT180OHVzekFaQVRoVHJkODNnQmZPbExFSUR0TGJJTkVHUk90bXNINElxUUwwTGZvdnRiMlNlc3d2ZExWNk5oTlJhOF9IaFZZVkNsX0t2VjRDaWZpb2w1WDcxMWJ1eW5jLXlDM3huc1RvT1E5V1pKcmJQajNpc2FyUFdrNzZZZEpKXzVhaWpIanpfTTJiNkttTWVuNzdLclNiVlZtTmVXUmluMEhCZGdIdmVyWkVieHVfYzZkVg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260929-macro-iran-truce-rejection-oil-shock",
+      "time": "2026-09-28T13:00:00Z",
+      "headline": "Washington formally rejects Iran's seven-day Strait of Hormuz truce offer; Brent front-month tops $107 with the curve in steep backwardation, yields and futures reprice lower",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "XOM",
+        "CVX",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "TSM",
+        "AAPL",
+        "MSFT"
+      ],
+      "why": "This converts a negotiable risk premium into a realized supply disruption: with the strait still closed, the prompt contract is pricing physical scarcity rather than headline risk, which feeds directly into the October CPI/PCE path and pushes the Fed's reaction function hawkish just as the market debates an October move. That is a discount-rate event, not an earnings event \u2014 long-duration, zero-dividend growth names with no valuation buffer (semis, high-multiple software) take the multiple compression, while integrated energy sees a straight cash-flow upgrade on higher realized crude. Reported crude levels differ across outlets (Brent above $107 prompt vs roughly $101 December, WTI near $96), reflecting the backwardation rather than conflicting data.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiykFBVV95cUxPQ0huZkZtNEszTkRUY1NtZDBtZGR4NDdNbXpHSzg5UHdCMVNJS3NQTnQ4RGdvd1oxeGtwdGNNQng1cjJ1OUc2b2FZT2t3MldWd1hXV0tOMDB3NjJfeS1IRUtoNFF2NkpvTWdCbjRIRVB3NmVfVGtxbDNBYnNmMVhNb2pfN3RHby1walpzclpqODFKOF8tSThIRUNhYlduYXRpLVdLWllCN0w3ZG9GWEpiamJqYXAzVlAwX0c5RVJWWWRPbElldkdja0JR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260929-tsla-cafe-credit-repeal-and-delivery-cuts",
+      "time": "2026-09-28T12:58:00Z",
+      "headline": "NHTSA finalizes weaker fuel-economy standards and eliminates inter-automaker credit trading, while JPMorgan and Goldman both cut Q3 delivery estimates ahead of the October 2 print",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "TSLA"
+      ],
+      "why": "Ending CAFE credit trading removes a near-100%-gross-margin revenue line that Tesla books with no incremental cost and that has historically carried a meaningful share of operating profit \u2014 this is a permanent structural hit to the earnings base, not a one-quarter timing issue, and it simultaneously removes the compliance pressure that forced legacy OEMs to buy credits or build EVs at all. Layered on top, two bulge-bracket desks marked down Q3 volumes into the October 2 delivery release on softer US and China registrations, with JPMorgan taking its estimate to 482,000 units and its target to $415 and Goldman to 435,000, meaning consensus is now being reset lower on both the volume and the high-margin credit line at the same time.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWWk2YThmRWdIMTQ0SWMxNEVnQ2haSFBKXzZqT0JmbG9rQ05DN2FoeU12RXJfb0Zjdm1jN3R2dWw2MGVlWFA3dUF3bGoyOGF6Vm55VWdsNWF5czlLVnlxZV9CUzZfLVNfakdnRnEwM25OaE9wTXFxanFHNXJOb3ZLdUdrdkdTTjJfdkVPT1h5UlR6dGpHSFFqc0N5UlVKNG9KNWsxMGhnZVJiVHJxZDI4YUt4MllQdktvX1JNM05ESUZ5cWM?oc=5",
       "alerted": false
     },
     {
@@ -835,45 +876,6 @@
       "why": "A truce that only defers tariff snapback keeps an un-hedgeable cost variable in 2027 numbers for hardware importers and China-exposed revenue lines, which suppresses the multiple investors will pay for those earnings until the expiry is resolved. Sources conflict on the timing: this report frames the expiry as November, while other coverage of the summit describes a two-month extension into January, so the option value of a deal \u2014 and the risk of a snapback \u2014 is being priced against an uncertain clock. Export-control policy is reportedly excluded from the talks, meaning semis carry the tariff risk without the possible upside of licensing relief.",
       "source": "Legis1",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96d01vbi1CaDFCbTkzR0xDZk1UOWg3YmpRUkVicWVTNjhaVEFZck5ELWh6QUZsVVliQnNZdDJVcEVKZGJCS1BQekhKcHAtZjJVaDVQMmdvZ1N0WlhhVV9uSXhKVWQzNFpzcFV6WkxaSnEyR3MyNFVHRHJ3Njl5dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-tsla-semi-nevada-volume-plant-online",
-      "time": "2026-09-25T14:00:00Z",
-      "headline": "Tesla brings its first high-volume Semi plant online in Nevada",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "TSLA"
-      ],
-      "why": "Moving Semi from hand-build to a dedicated volume line converts a demonstration product into a revenue line with fixed-cost absorption, which is the gating step for class-8 unit economics to stop being a drag on automotive gross margin. It also opens a commercial fleet channel whose order sizes and financing terms differ from consumer autos, adding a backlog investors can actually model. Execution risk stays high, so the earnings effect is gradual rather than a step change.",
-      "source": "TIKR",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGhfbGRwenZCM2Y3SXFCaDNlSlJ4ZEo4d205OHdKcnhTTzZHSE94WmZ3dlFPb192dTE2UEtOUGFnNExqNXJxN21VUEZkR1YyTTVQVlYxZENMTjJXS2FJN0ZLaUlyT2RTdUtSRkkzTlFWdVY5aG1vVHZhZVhRd1F3NTl3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260925-mu-post-print-selloff-demand-debate",
-      "time": "2026-09-25T13:30:00Z",
-      "headline": "Micron falls despite strong quarter as investors question durability of memory demand",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "A print that beats but sells off tells you the buy-side is now underwriting a cycle peak rather than an extension, so the debate shifts from this quarter's EPS to the terminal margin and the pricing path for DRAM/HBM into next year. That compresses the multiple investors will pay for every memory and memory-capex dollar even if near-term numbers are fine, and it drags the WFE names whose orders key off memory capex plans. Read-through is negative for the whole AI hardware complex because memory pricing has been the cleanest proxy for accelerator build rates.",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTFM4Sjl6bENqdllSNWVjNXdTMG1nUVlGM09ZX3RDTUpJSXZtanZXV0tnQ05obUd0amlVaktBNWRrZjdBS0VaMmF3OEJHWFY3dG5ibVVoSzVEdjZrcXNodVdCYUYtMmJPb2Z4MTNuMG1IQkFyLU1ZSzQxOEt4UXNnTnFXX3gySFBmaGZmY0tleHFhUHZkMmU4?oc=5",
       "alerted": false
     }
   ]
