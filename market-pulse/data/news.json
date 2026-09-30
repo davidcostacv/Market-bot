@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-30T05:50:27Z",
+  "generated_at": "2026-09-30T12:54:20Z",
   "session_date": "2026-09-30",
   "items": [
+    {
+      "id": "20260930-nvda-jacobs-omniverse-digital-twin-saas",
+      "time": "2026-09-30T12:00:00Z",
+      "headline": "Jacobs selected to deploy Nvidia's Omniverse-based data center digital twin platform at a large-scale US AI R&D facility under a three-year SaaS agreement",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "ANET",
+        "SMCI",
+        "AVGO",
+        "TSM",
+        "MU"
+      ],
+      "why": "Financial terms were not disclosed, so the direct revenue is immaterial against Nvidia's data center run-rate; the value is in mix and lock-in. Omniverse/DSX-style digital-twin engagements move Nvidia further into recurring software and into the engineering phase of gigawatt-scale AI factory design, which both raises switching costs before any GPU order is placed and pulls power, cooling and networking specs toward Nvidia reference architectures \u2014 a read-through for the rack, switch and HBM suppliers that populate those designs. Software attach is also the lever that defends gross margin as the hardware cycle matures.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSm1OZVROYnoxNFF6V1lpWXVvb19fTzI4bkN6UDVZbVMyTV80RF9QWGpoVlVQSzg4d3pNSWlGN3dybFYwYnpjWFpVdERCdWJpNXV2dDJScVFyLTdSejAwZUo2dWh2MVBpcG1OckRiQmM1emJua0xVTDAxbGdtb1JJQnk5YUZsNk9QTUJmUFZ2dDhQUURuLUw3c0JJMHctTHRUenBOODAwelI4S1F5dlEwSzY0V0JOemp3OFEwdExhdjJRVWpPbWplX2JUbEJ4REo5N1NRWVoxdUZlYnVIcVlV?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260930-mu-fy27-outlook-sector-swing-factor",
       "time": "2026-09-30T02:00:00Z",
@@ -100,6 +120,30 @@
       "why": "A higher long-end discount rate compresses the terminal-value component of equity valuations hardest for the longest-duration, highest-multiple AI and software names, so this is multiple contraction rather than an earnings story. A sustained 5%+ 30-year also raises the hurdle rate on debt-funded data-center buildouts and hedges the benefit banks get from steeper curves with mark-to-market and credit-demand drag. With a Fed that has already hiked and signalled more, there is no near-term policy offset to cap yields, so equity risk premium stays squeezed into today's PCE print.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdU92dlh4cVhyZkhtcW9aOEZyZXAwWERYNFdFQXBZZnREZVQ5TFplZnZjMHc0TzFSUWQ1WDN6aEg4a2ROb0g2SmZEWjhENHMybG9OTGJ6cTFCNWlqczROREpCV0tQU2VKbUFXMnZYeDBNTTh0MWNYS3lPZjBhWk5rR0dYYmpDcUhNc0stakhtWkR5OXA1M09nUVFIUUJaVGQ2NnlhT0JBMXo?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260929-macro-williams-no-urgency-front-end-repricing",
+      "time": "2026-09-29T20:30:00Z",
+      "headline": "NY Fed's Williams says 'no urgency' for further action, cutting odds of an October rate hike; 2-year yield reverses off a multi-year high",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "PLTR",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "JPM",
+        "GS"
+      ],
+      "why": "The dominant bear case for equity multiples this month has been a live October hike after the Fed already tightened this month; a sitting NY Fed president saying there is no urgency removes the near-term policy tail and takes the front end down, which is the discount-rate input that matters most for long-duration AI/growth names and for IWM's floating-rate borrowers. The offset is that the repricing was confined to the 2-year \u2014 30-year and other long yields stayed pinned near multi-decade highs, so term premium, not policy, is now the binding constraint on the S&P multiple, and indices still closed lower. For banks, a flatter path of hikes with a steep long end is mixed: less funding-cost pressure and lower AFS mark risk, but weaker NII repricing.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
       "alerted": false
     },
     {
@@ -830,49 +874,6 @@
       "why": "Korea is the marginal supplier of DRAM, NAND and HBM, so a record chip-sector expectations reading from its manufacturers is a forward indicator of order books and fab utilization rather than a sentiment curiosity \u2014 it corroborates that memory makers expect shipment and pricing strength to persist through the December quarter. That firms the demand assumption underpinning equipment capex budgets, which is where ASML, LRCX, KLAC and AMAT earn their revenue. It also front-runs Micron's guide by three days, reducing the odds of a downside pricing shock.",
       "source": "Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTB0djNRcC1wZngtcG12bG5aN0x0OHhYRS1OVlQ3WFNOM2ZFMThaRlRUMU4xMWtfRVJxX0VMT29ibnNaOUtxYkhhSUU4b002bmQzbXFyTkIxUXpLRjRMcUNCWFlIbEVwdXJUWG0tMFA2aWRHOHpVVHZhTkIwcnlJdWp6ZThoaG9ZX2pNSGhOZFV5ckRtVEh3elBvTEgxZVNFSVBGWi14NTJ0QQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-mu-q4-print-setup-implied-move",
-      "time": "2026-09-26T20:00:00Z",
-      "headline": "Micron fiscal Q4 lands Sept 30 with options pricing a near-10% move; consensus at $31.49 EPS on $50.92B revenue",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI",
-        "TSM",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ASML",
-        "MRVL"
-      ],
-      "why": "The print is the sector's cleanest read on whether HBM and conventional DRAM pricing power is still compounding or has begun to plateau, because Micron guides one quarter forward on contracted bit pricing rather than on backlog rhetoric. A guide above consensus validates the memory content assumptions embedded in AI server bills of materials and flows straight to wafer-fab-equipment order expectations; a soft guide on HBM attach timing re-opens the debate about inventory build at hyperscalers. The implied move of roughly 10% means positioning, not the headline number, will dictate the first-day reaction across the complex.",
-      "source": "Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdHBDV09OVk81eFh0ZnlqWHV3NkctV0RlMnhNODduMVNQUWpUam1ZTm1Wa2czTWN1ZzMyaldfQ2NIM2hUSjJFV0owdXcyekN0d2x0MUJTdkFvZ3NZUnN2ZXZYbXBUT0djVFFVbU5EY1gya1A3Uk4tdXdpcnphWDVoMXZHbm5YcU42eEttZWpRQklhOTdCNmp3RWQ2ZmdLdzg2dmk3NFg5ZzllSFpRY3RNNTBR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260926-nvda-wallstreetzen-downgrade",
-      "time": "2026-09-26T12:05:00Z",
-      "headline": "Nvidia cut by Wall Street Zen in a valuation-driven rating change",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "SMCI"
-      ],
-      "why": "This is a quant-screen downgrade rather than a fundamental estimate cut, so it does not change the earnings path, but it adds to the count of rating actions driven purely by price relative to intrinsic value. That matters at the margin because it signals the stock is now clearing the valuation thresholds of systematic screens, which can pull passive and rules-based flow out even while the fundamental sell-side stays positive.",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSTlNM1RBcG1POU1OZDVoNUhseWY3V21HNDVDUUNCSzlwWTdfSzdyV0hoa280ckF3VjIxX2ZIbHNfaUhuaVlLRlhVdThoOVktS01xWUstVG5uaHRra1hJclBteTJoaEFCYjQyZ2h1WExCUWtIZHY3MEpTQUxRemEzc1pKZUJ6eWJxZDVMS2YtbUhxSUpVdzVYaVVwb2E0bVoyWVo0Qy02SXZzbTdlenI1UDV4M3k1eDVDRWRxaQ?oc=5",
       "alerted": false
     }
   ]
