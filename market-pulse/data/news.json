@@ -1,7 +1,130 @@
 {
-  "generated_at": "2026-09-30T12:54:20Z",
+  "generated_at": "2026-09-30T22:29:16Z",
   "session_date": "2026-09-30",
   "items": [
+    {
+      "id": "20260930-mu-inventory-build-cycle-signal",
+      "time": "2026-09-30T21:30:00Z",
+      "headline": "Micron's beat comes with rising inventory on the balance sheet, the one metric bears watch for a memory cycle turn",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "TSM"
+      ],
+      "why": "In memory, days-of-inventory is the leading indicator that matters \u2014 pricing power inflects when supply catches demand, and the gross margin line follows with a one-to-two quarter lag, so a build against record shipments is the first crack in the tight-supply narrative underpinning the ~86% guided margin. The offsetting read is that inventory can be deliberate pre-build against contracted HBM commitments rather than unsold product, which is why coverage of the same print conflicts: some wires describe shares rising on the results and guidance while others report the stock slipping after hours on this line item. Note the headline mislabels the period as Q3; the disclosure is fiscal Q4.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdEVxYWFLVnd6WXlGY29pS0czYXdqMUo1T3FIc0VIZlFJdlJMNGhCVDJlck9xal9tMjlqd1BFYVlqdW1DaU9EOWhZTlpXOGFpY1l4MEdDMUN0Z0ZFejV5Qllab3FfVlBnZDMzMHJzT1o4MkZkekh5eS1jSDV6eE5wVjR1OFBjemw4cVZIcWVJdHI3MERxbExUVUdGdWQwZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260930-macro-fed-ig-powell-cleared-trump-escalation",
+      "time": "2026-09-30T17:00:00Z",
+      "headline": "Fed inspector general finds no criminal misconduct in headquarters renovation; Trump renews demand Powell leave the Board",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS"
+      ],
+      "why": "The renovation probe was the stated legal pretext for a 'for cause' removal, and its collapse narrows the pathway to forcing a governor off the Board \u2014 which should compress the Fed-independence premium that has been embedded in the long end during the current duration selloff. Against that, the White House responding to an exculpatory finding by escalating anyway signals the pressure campaign continues by other means, so term premium and the inflation-breakeven component of yields do not fully unwind. Net effect is on the curve and the dollar rather than on any single issuer's earnings.",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWG83SXJvZy1GV0l2M29kZE54MzRPOHU1cUttOEFlWHNKRm56Q1RpcjFUeWxnMzIzVVpseVdoRzRiNVZLbUJxM2F4YjBRNFlPU3ZPU0VseVBRQ29YVHR4MXBIcmowbXU3ZXBGOHFWTUxoTVd1a25qbXFqZFplZXFvWg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260930-mu-susquehanna-structural-eps-power",
+      "time": "2026-09-30T16:41:00Z",
+      "headline": "Susquehanna frames Micron's earnings power at $30-$40 per quarter near term, potentially $50, on a structurally broader memory customer base",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "NVDA",
+        "AVGO"
+      ],
+      "why": "The call attacks the core bear thesis on memory \u2014 that peak-cycle EPS is a one-off to be capitalised at a trough multiple \u2014 by arguing demand has diversified beyond a handful of hyperscalers, which is what would justify applying a durable rather than cyclical multiple to the current run-rate. If the Street migrates to a normalised-EPS framework rather than a mid-cycle one, the re-rating comes from the denominator of the P/E, not from any new revenue. Sustained memory capex discipline at these margin levels is also the key swing input for wafer-fab equipment order books.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZE52ME5VRlFPNUVUWWJFclNJUFB6T0IxZlJfRHNuM2dOb1BBaVpZdkctQ19RVTgzV3JOdTlyX01lS3BHVUsyTUswYm5xWXNIUlZuQzlaTkw0U0ZaUVhhaVBwODllRkZkTVZjN2d2V3BaOGlmZTltVmJyR19RZ1pUcW81TkZST2NuQlZyVm9hUUFHOTNJNy1JdlZ5MA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260930-amzn-rosenblatt-agentic-ad-model-target-hike",
+      "time": "2026-09-30T15:45:00Z",
+      "headline": "Rosenblatt lifts Amazon target to $360 from $335, arguing agentic shopping does not break retail media economics",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMZN",
+        "GOOGL",
+        "META"
+      ],
+      "why": "The overhang on Amazon's highest-margin segment is the fear that AI agents collapse the discovery-to-purchase funnel and disintermediate sponsored placements, which would hit advertising \u2014 the profit pool that funds AWS capex. The argument here is that the threat is being priced as binary when agent traffic still transacts inside Amazon's own inventory, so the ad take-rate is preserved and the multiple compression is unwarranted. The same disintermediation debate is the live bear case on search and social ad monetisation, so the framework travels to Alphabet and Meta.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay1RNGR6OFBqSE1xM0RQWVNKaUdLNjN6NXFhRTIxZnpTVlAwTzNnQ2RTSWN2MHp6R2RORHJJa2ZsbzA1UnZfYU1iZXVQcFRKRHpSZV9LeFQ2T0szTjE0MTduUTIwYktTY2NXdXFuRDFLM0FZRGk3dGNHODVkbHlQZzNUeVVObmlQZVI4aDFqTlhiLUloRXJIQ3dCYW95NzJHRV9RdVpsaTZ4cG1DTC0tTkZVaTZDU3lqaFZpNm1R?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260930-amd-hpe-helios-vultr-rack-order",
+      "time": "2026-09-30T13:16:00Z",
+      "headline": "HPE books first AMD Helios AI rack order \u2014 $1.2B from Vultr \u2014 and lifts FY27 networking growth outlook",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "ANET",
+        "MRVL",
+        "AVGO",
+        "MU",
+        "TSM"
+      ],
+      "why": "This is the first external, dollar-quantified order for AMD's rack-scale Helios platform, which converts the MI450 roadmap from a slideware promise into bookable backlog and materially de-risks AMD's 2027 data-center revenue build. Rack-scale wins also carry far higher content per deployment than loose accelerators, so the incremental revenue per socket is a step change rather than a unit-share gain. The read-through is that a second credible rack vendor now exists outside Nvidia's NVL franchise, which pressures Nvidia's pricing latitude at the margin while pulling through HBM and advanced-packaging demand at Micron and TSMC; HPE simultaneously raising its networking growth guide is a competitive datapoint against Arista.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUFU4ZWRELVpycTJENm1ZM3pTZU1kQ1Jaa3FQUFZTYnBseXltdjg0QkZMcVN5SzA1Ul94a0N0SkZQSk9HRjVncTZyTnNfQUFRa1dxMVlJa2loMVFZamNKU1BkemQ0MFhQUFRMaXJ5S0NsRmYyNW85TUZ3LVpmX0RLZjRxTmdmeUdjeU1qT3lrUDd4Ui00ZjVjem1OcFNzNnRQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260930-macro-core-pce-undershoot-august",
+      "time": "2026-09-30T12:30:00Z",
+      "headline": "Core PCE slows to 3.0% in August vs 3.3% expected; headline holds at 3.4% against a 3.7% forecast",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA",
+        "PLTR",
+        "JPM",
+        "GS"
+      ],
+      "why": "The Fed's preferred gauge undershot on both headline and core, which directly cuts the probability the committee follows through on the October tightening that futures had been pricing after the prior month's acceleration. A lower policy path lifts the discount-rate input for long-duration equities more than it changes near-term earnings, so the repricing runs through multiples \u2014 heaviest in megacap tech and small caps, which carry the most rate beta. It also takes pressure off the front end just as the long end has been selling off, partially unwinding the duration shock.",
+      "source": "cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQndXXzRXaW96Nkx6SWhIMnZETC0wTWlMelQwWWtkZUhZWjMta0c2akhaMl83Z1dpRjBzOHduOUdrbVlhQXFvR3RYaEUwaHR5MjB6TUVoQzVaclEyQ3VqcDBwVDFNQ0dQM2RpM1JVaDJEX1NVMWZ5U2NYU2NJbUxjRmlNUzdNUlNPbWFvTHZrTHJUSmNCTEdjcnhWOEtXLURId0pXZVFRY3RsM2JKUkRIcnYzb3BNOGVINmFJSERMQ1pjUi1yWnIwZENkcDdYSXfSAdQBQVVfeXFMTXh2SEN5ZlFUdldiYzdtRF9TbUMyVU5NaV9qZUU0NmZMb2RFLTdMMmVfem5YdzBmdXVIM0toa1dTbVg4WnFWa0ZxSWRtZWxCNEl4TERQUDJzU2Nack5QSjU3STZBT0otSWRFZTJuLWQxbWc4QTJtX2FEcW96MTQtem5WbF91VmY0dGlqWVEzdlg0UURrT2RoMXRwQkE2ek5kdGFFX0xOcFVMejNDdzA5YkFoVU9LR1phdlRmekprZHMtLUJmeFR1dF9saGNIU04yeTVPQlU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20260930-nvda-jacobs-omniverse-digital-twin-saas",
       "time": "2026-09-30T12:00:00Z",
@@ -20,6 +143,23 @@
       "why": "Financial terms were not disclosed, so the direct revenue is immaterial against Nvidia's data center run-rate; the value is in mix and lock-in. Omniverse/DSX-style digital-twin engagements move Nvidia further into recurring software and into the engineering phase of gigawatt-scale AI factory design, which both raises switching costs before any GPU order is placed and pulls power, cooling and networking specs toward Nvidia reference architectures \u2014 a read-through for the rack, switch and HBM suppliers that populate those designs. Software attach is also the lever that defends gross margin as the hardware cycle matures.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSm1OZVROYnoxNFF6V1lpWXVvb19fTzI4bkN6UDVZbVMyTV80RF9QWGpoVlVQSzg4d3pNSWlGN3dybFYwYnpjWFpVdERCdWJpNXV2dDJScVFyLTdSejAwZUo2dWh2MVBpcG1OckRiQmM1emJua0xVTDAxbGdtb1JJQnk5YUZsNk9QTUJmUFZ2dDhQUURuLUw3c0JJMHctTHRUenBOODAwelI4S1F5dlEwSzY0V0JOemp3OFEwdExhdjJRVWpPbWplX2JUbEJ4REo5N1NRWVoxdUZlYnVIcVlV?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20260930-mu-burry-long-dated-puts",
+      "time": "2026-09-30T11:00:00Z",
+      "headline": "Michael Burry converts AI shorts into long-dated Micron puts struck far below spot",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "PLTR"
+      ],
+      "why": "Swapping borrow-cost-bleeding shorts for defined-risk puts removes the forced-cover mechanic that has helped fuel the melt-up, so it marginally reduces short-squeeze support in the highest-beta AI names rather than adding immediate selling pressure. The deep out-of-the-money strike and multi-quarter expiry signal a bet on a cycle break rather than a near-term earnings miss, which is why the position is sentiment-relevant but earnings-irrelevant. Its market impact is through hedging flows and narrative \u2014 it gives institutional cover to funds already trimming AI exposure into a crowded print.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT0R0T2VNMDQwQ2lFYXR5QldnNm9SYlZmNjVvT1JSQlpUTlk1V1pUZHY0bHZOUlYwNklaZkh0NlJQSmNia3NNdm1YN19UZlltNm5US1RKeG1zeXpDWTduV25aYVd4X29lOTA2a3ZVdDdVa2I3UTJWUTVBdTNlU3JLdGVpX0F5WWFqOE1qMmVqMUZiZkoxX1N3UlR4dlRiOUg2dUZ0b1l3U3pRNFNna0JBYTY3Ny1telRpaDF4YkFB?oc=5",
       "alerted": false
     },
     {
@@ -714,166 +854,6 @@
       "why": "The binary outcome on Iran sits directly on the crude risk premium, which is the single largest swing factor for integrated-oil cash flow guidance and for the headline-inflation path the Fed is watching into the PCE print. De-escalation compresses the premium and pressures XOM/CVX upstream realizations while easing the inflation impulse that has been keeping the October rate decision live; escalation does the reverse and re-rates energy at the expense of long-duration tech multiples. Equity futures have been trading the de-escalation side, with semiconductor strength absorbing the geopolitical bid, so positioning is now asymmetric if talks break down.",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOTU3UGZCWl9OYy1CTDNNM3BDWHF6cEVkNmhjX2dQSTBqb0pIZlhobTc4eFBKSzlhUHk4ZW9PZ0puY1B2cC14N0owTmNqR0VYR1A3LXNUOHhhWndhMmd2bkRXaUxhN3JaeXJab1QyMmlfeDZJNnJDaTl2V0RBYUJyaGstTlJaY3VRbmV5UlN6aGREeHdzMlVoWHFqRUplUnJSdDl5UzlQa1NLRmxJOG9xSjVjR1hNdGJZNHh5SDZCUFN1a2wwRUtuMjJpQ1lFZl9pWG1NWTBZSHYxUVhyamhLN3NGZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-macro-pce-acceleration-into-october-decision",
-      "time": "2026-09-27T08:00:00Z",
-      "headline": "August core PCE seen accelerating on Sept 30, with payrolls to follow \u2014 sets up the October Fed decision",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "AVGO",
-        "AMD",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "Consensus looks for headline PCE near 3.7% y/y and core near 3.4%, with monthly prints accelerating versus July \u2014 an upside surprise removes the last argument against another Fed move and pushes the discount rate applied to long-duration AI and megacap cash flows higher. Equity multiples, not earnings, do the adjusting here: high-multiple semis and software carry the most duration risk, while banks get a mixed offset from steeper curves versus credit costs. Forecast sets vary slightly across previews on the exact monthly core figure, so the market reaction hinges on rounding at the second decimal.",
-      "source": "tradingkey.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ180TTRScjBNbWlYa2V1ZUZDMnFDX0QyMXdZT0NwTHdjbUt3djk1N09NREtkbDZnSjFma0xSVFBIWl84V3paZC00dkNucUhiaFEwakMzOEFabm9vSkVISEdoMUZkT0FZS3VVQ2tjRzVtYzgxbFdoeTUwSnp1QzdnQkY4NW9xQjNFZWZNblU3cUVfa09hVmJVakhxanFDU0dZSUc3WXI3dkUta3RpNTJvMU9OSmIwNmZ0djZJTXA4ZWwxOGxqSE9OamhmenhQblJra3ltaVozbUJ0aG9mZGc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-amd-beat-and-guide-multiple-compression",
-      "time": "2026-09-27T07:30:00Z",
-      "headline": "AMD topped revenue, profit and guidance yet shares sold off sharply",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "MRVL"
-      ],
-      "why": "When a beat-and-raise is met with selling, the constraint is no longer estimates but the multiple: at a trillion-dollar capitalisation the buy-side bar already discounts the accelerator ramp, so incremental upside has to come from gross-margin mix rather than units. The mechanism to watch is whether the guide was carried by lower-margin system and memory-heavy content, which lifts revenue but dilutes the earnings power per dollar of backlog. Read-through is that AI semis are entering a phase where in-line-to-better prints no longer re-rate the group, raising the risk of similar de-ratings around the next round of prints.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWgycWIzMXpJOU1OaWNtTm1HRll3eGFEcllxZ0htNzgyRVFyWWJ3VHl1NGJSQnBqbUd6RU1tcXVwVVNtM0pEUWhxcmwxa3k0NF9qU1N2dnJIY0NsV2I0ZWZoTzlWamNLVHJxdjhNeEVkYmMwUEl5dUlLRVU3eHI0MDB6Y1NBLXMtRGctcDhzV3NuQ3FFa1dFbTFJNXVJemsxU2FSaDhZQXRWNVpMS3pLWVV2WGVLVTRkT0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-macro-october-hike-odds-cross-sixty",
-      "time": "2026-09-27T06:00:00Z",
-      "headline": "Market-implied odds of an October Fed rate hike push above 60% with long yields above 5%",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "PLTR",
-        "TSLA",
-        "MSFT",
-        "AAPL",
-        "JPM",
-        "GS"
-      ],
-      "why": "A majority-probability hike is a different regime from a hawkish hold: it moves the whole discount curve rather than just the terminal-rate tail, and long-duration AI and software equities lose the most present value per basis point because their cash flows sit furthest out. Rate-sensitive small caps face an additional funding-cost channel through floating-rate debt, while banks get a partially offsetting net-interest-margin benefit against wider credit spreads. With PCE and payrolls landing into this positioning, the data now cuts both ways instead of only supporting the easing case.",
-      "source": "bloomingbit / finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RT05oT3FON3dIb1RNR1VjUldSVjNDbjM3TDBYek5kQk84MzNTNTRUVnVBS2lTS0dGczVJY0dCSDVCRDN5MVZmMkxZVHhyRFNid0NhWQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-kospi-asia-beta-to-us-data-and-mu-print",
-      "time": "2026-09-27T02:00:00Z",
-      "headline": "KOSPI's hold above 7,000 hinges on US PCE and Micron's print, linking Asian memory beta to the US rate path",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "MU",
-        "TSM",
-        "NVDA",
-        "SMCI",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "Korean and Taiwanese memory/foundry complexes now trade as a leveraged proxy for US AI capex expectations, so a hot inflation print transmits into Asian semis overnight and returns to US semis the next session through ADR and futures arbitrage. That two-way linkage means the risk to US chip names this week is not company-specific but a correlated de-rating if Asia gaps down before the US open. Post-holiday repositioning in Seoul and Taipei adds flow pressure independent of fundamentals.",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xVjFBM290Tjl6Q1paandralZKS0NGRmtrN0NwdEtxZk5LOUtjY004OEJaMGMwNmh0bmdzS05LSlBNbVh6M1RhOGdMZzJuSllvMUkyMlVxOU5PZlFLWEVtdUxFNG1ZRWlST2RmTVFreDlMSHNRdFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-semis-xi-trump-summit-controls-status-quo",
-      "time": "2026-09-27T02:00:00Z",
-      "headline": "Export controls stayed off the agenda at the Xi-Trump summit despite Huang and Su seated at the head table",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "INTC"
-      ],
-      "why": "The absence of a controls discussion locks in the current licensing regime as the planning assumption for the next several quarters, which means the China line in accelerator models stays suppressed and semicap China systems and service revenue stays on its existing decay path rather than re-rating. That cuts both ways for the multiple: no relief catalyst, but also no incremental tightening tail risk that would force estimate cuts at ASML, AMAT, LRCX and KLAC. It also frames the separate report of Beijing easing on the import side as a China-driven demand decision rather than a negotiated US concession, which makes it more reversible and argues against capitalising it into terminal estimates.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWxSSjZ0MG1oaGgwOUtqanRtTnRfcUJVZzFJajFjOC1ocFlCeVc3SVprZGRkM3FuSWl2dTg3X0RJRmRSN29KMm9KYXhzY3RTUzJLa1NHQUtCb3d1ZXk1SXVTOEh1ZjJPSndpbWpibGNpQ3FBY2M1RXRsSmM2NTh1V21oS0hsQzUyUE1ybWpEaElTZHlrQW1BbEU5WjTSAZwBQVVfeXFMTjFsUko2dDBtaGhoMDlLamp0bU50X3FCVWcxSWoxYzgtaHBZQnlXN0laa2RkZDNxbklpdnU4N19ESUZkUjdvSjJvSmF4c2N0U1MyS2tTR0FLQm93dWV5NUl1UzhIdWYyT0p3aW1qYmxjaUNxQWNjNUV0bEpjNjU4dVdtaEtIbEM1MlBNcm1qRGhJU2R5a0FtQWxFOVo0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-macro-goldman-positioning-underweight-catchup",
-      "time": "2026-09-27T02:00:00Z",
-      "headline": "Goldman Sachs flags weak investor conviction despite strong index performance, sees scope for a laggard catch-up",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "XOM",
-        "CVX"
-      ],
-      "why": "Light positioning is a mechanical source of demand: if allocators are underweight into a market making highs, pullbacks get bought and the marginal flow goes to names that have not participated rather than to the crowded AI complex. Goldman's framing is that further upside has to come from earnings durability rather than multiple expansion, which argues for rotation into cyclical and value exposure (banks, energy) and against paying up for more re-rating in mega-cap tech. That matters for relative performance of IWM and equal-weight exposure versus QQQ, not for the absolute index level.",
-      "source": "TradingView / Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd1l1cG4tMEJSaHBKUlpmRlBsOXJsdk0tby1FdVhtUGRiWkRZNXJPdjMyblVIWEFxbGJ3X0pkQ0NVYVZ4ZHl6Q2hrbGJlcVZ6SWJXOUxwRks1aWFOa1hibzFhTXVvdTFWVjZsT2F3aVJRVlRjSzZ3dmdWd2EySC1SeWxyNlU4anh2S2JhcE9yelhIenZVNjFjM00wUmF3bi1rY013X1BGNE82OFhfVzlfX3h0VmxxNmNlTUlKVUJCWlRpRmcxMVBVTEcxQTJ4Y1E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260927-semis-korea-q4-sentiment-record-chip-index",
-      "time": "2026-09-27T01:00:00Z",
-      "headline": "Korean manufacturers' Q4 outlook improves as semiconductor sentiment index hits a survey record",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "TSM",
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "Korea is the marginal supplier of DRAM, NAND and HBM, so a record chip-sector expectations reading from its manufacturers is a forward indicator of order books and fab utilization rather than a sentiment curiosity \u2014 it corroborates that memory makers expect shipment and pricing strength to persist through the December quarter. That firms the demand assumption underpinning equipment capex budgets, which is where ASML, LRCX, KLAC and AMAT earn their revenue. It also front-runs Micron's guide by three days, reducing the odds of a downside pricing shock.",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTB0djNRcC1wZngtcG12bG5aN0x0OHhYRS1OVlQ3WFNOM2ZFMThaRlRUMU4xMWtfRVJxX0VMT29ibnNaOUtxYkhhSUU4b002bmQzbXFyTkIxUXpLRjRMcUNCWFlIbEVwdXJUWG0tMFA2aWRHOHpVVHZhTkIwcnlJdWp6ZThoaG9ZX2pNSGhOZFV5ckRtVEh3elBvTEgxZVNFSVBGWi14NTJ0QQ?oc=5",
       "alerted": false
     }
   ]
