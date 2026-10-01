@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-01T13:46:01Z",
+  "generated_at": "2026-10-01T22:50:35Z",
   "session_date": "2026-10-01",
   "items": [
+    {
+      "id": "20261001-macro-long-end-reversal-into-payrolls",
+      "time": "2026-10-01T18:00:00Z",
+      "headline": "Treasury yields reverse lower off multiyear highs as desks position for a soft September payrolls print",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "PLTR",
+        "MSFT",
+        "AMZN",
+        "JPM",
+        "GS"
+      ],
+      "why": "The six-session long-end selloff was the binding constraint on equity multiples \u2014 long-duration growth and unprofitable small caps derate mechanically as the discount rate rises \u2014 so the reversal relieves the valuation pressure that drove September's drawdown even with earnings estimates unchanged. The setup is binary into Friday's BLS release: a weak print validates the rally in rates and re-opens the cut path, while another upside surprise pushes the 10-year back toward its highs and re-compresses P/Es. Bank net interest margin and capital-markets names sit on the opposite side of that trade.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNell5VzVqSmJ4ZnhuUC0wNXU3ZVkyaG0tX0MwMWRrMi04eFlBckNwaXpkeXB6dHA4WEtFUUU3MU5qM0UzX0NqV1EzUTdyQnBvLWYxajlLeWo3UVNNR1JFa29ncm5vQ0hJRUNFS1JnenNuUmdELXJ2UEpYa2JpQmZzYW9sby1rS2hXUXc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261001-acn-bookings-beat-it-services-rerating",
       "time": "2026-10-01T14:00:00Z",
@@ -19,6 +42,27 @@
       "why": "Accenture's new bookings are the earliest observable proxy for discretionary enterprise IT budgets, and an order intake beat with an operating margin that widened year over year argues the deflationary 'AI eats services' thesis is not yet showing up in signings. That removes a specific overhang the market had applied to the software and services complex, where multiples had compressed on the assumption that agentic AI cannibalises seats and billable hours. Read-through is to the enterprise software and hyperscaler consumption names whose growth depends on the same budget line, not to the semis.",
       "source": "Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTlBlNmx2dzRYQWtTZy1QSEx6N3dFcHotNDFheXJ6eFpOM1EyVHEwakoxN3g3RDdNa0RLdWNIV1VQR01ESm1BV3k5Qms4dmtGYUVBNDgtMUxKSXJ4dnlOZ0dwcm03Qmx1ZVZ1b0MwMC0xRnh1SUtXMll6eTlrSE9ndjZpWDhCelVrdGIzbXJ3TzFHbmNmejJueXZ0T1B1WUhaOEx4NDlmUkowb1g5UGpOM0k1LXN4NTN1VEMxeU9pZ0VIdVk?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261001-avgo-anthropic-42b-vendor-financing",
+      "time": "2026-10-01T13:00:00Z",
+      "headline": "Anthropic IPO prospectus reveals Broadcom will lend up to $42B against a five-year, $125.2B TPU compute lease",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "GOOGL",
+        "NVDA",
+        "MU",
+        "TSM",
+        "MRVL",
+        "AMZN"
+      ],
+      "why": "This converts a custom-silicon customer relationship into contracted multi-year backlog: Anthropic is set to become Broadcom's largest compute customer in 2027, which underwrites XPU/networking revenue well beyond the current guidance window and supports a higher multiple on AVGO's AI segment. It also validates the merchant-ASIC/TPU path against Nvidia GPUs and pulls through HBM and foundry content at MU and TSM. The offset is credit and circularity risk \u2014 Broadcom is financing roughly a third of its own customer's lease commitment, with restricted-cash and default-acceleration provisions disclosed in the filing, so a funding stumble at Anthropic now lands on Broadcom's balance sheet.",
+      "source": "Yahoo Finance / Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemFCVVVMbTlzbTRyYUdWeWp4T3BGcUhRUGFGUjk2Nm1jd3BiNHl1TWJ0Qnh0THpsQkRPOGZDS29JM2VtUTFEWjlHdDRBM2NocUg1Z1F4S0ZENzBENFU2Q3V0aUp6UjdWSW1xel9qSmJ5cEZJczExU0lvMUhlb3NQTGo3T3lnRVZrbWFhaFVWdXh2MnNtakw3VlFfY0lVQQ?oc=5",
       "alerted": false
     },
     {
@@ -44,6 +88,26 @@
       "alerted": false
     },
     {
+      "id": "20261001-googl-gemini4-argon-launch",
+      "time": "2026-10-01T12:30:00Z",
+      "headline": "Alphabet ships Gemini 4 Argon, its most capable model, with step-change coding and cybersecurity performance",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "AVGO",
+        "NVDA",
+        "CRM",
+        "AMZN"
+      ],
+      "why": "Frontier-model leadership is the input that drives Google Cloud seat and token consumption and defends search monetisation against assistant substitution, so capability gains translate into Cloud revenue mix and pricing power rather than a one-off headline. A materially better coding model also raises the inference compute base Alphabet must buy, which feeds TPU volumes at its merchant silicon partner. The shares did not respond, implying the market is treating model releases as table stakes until Cloud backlog conversion shows it.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFJYSndhR29UX2xLdWVJSDZJUm5FVEFELXBHTHJRNzBiVlpFVEx6TEVib3ZJODdoWkhpbGhHOXlIdjcyYTVnSnBHNUVzX3E3alZQaDl1SDNwWHd2Z21GZHBfRTREanJmWTBtRDFsWjZRRXA4VlJjYXZNSTh4c2ViaUxWajZMbjd5RUU5NWJlOFJaRlhRV3NiNEQ4MXY2d0pVcGxEdXJ4NTdZSXVHN0FObmY0MldMNW5ZZlFwZWsxUlVXdmYzRGtuRkdDZmZSS3JPMmMtSkNfazk4UQ?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261001-lrcx-briley-target-hike-wfe-readthrough",
       "time": "2026-10-01T12:00:00Z",
       "headline": "B. Riley raises Lam Research price objective to $390 from $350, keeps buy",
@@ -62,6 +126,28 @@
       "alerted": false
     },
     {
+      "id": "20261001-nvda-china-state-funded-grey-market-purchases",
+      "time": "2026-10-01T09:00:00Z",
+      "headline": "Bloomberg: Chinese state-backed leasing entities financed purchases of export-restricted Nvidia AI chips via sale-and-leaseback structures",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Documented state-financed diversion \u2014 with filings later amended to scrub hardware and supplier detail \u2014 is exactly the evidence base Washington uses to tighten end-use verification, widen entity listings and extend controls to leasing and offshore access. That raises the probability of incremental restrictions that cap the addressable China revenue Nvidia and AMD still book, and historically any enforcement tightening also catches WFE vendors through licence delays. It does not change near-term numbers, but it shifts the policy risk premium embedded in China-exposed semiconductor multiples.",
+      "source": "Yahoo Finance Singapore / Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTzBQdXdUWWRIZVBRVk9QelotYzhkaHpEenp5aVpJUUx6ZWp2U2l1cm9fenFUazgxbnl3Sk1YQlpnT1Zva1VSVl9aOXN4ckhJQVpyODVuYU9QRk1PT29RSktqOHpSMHBkdTVGMUJ3X3E4VnF6YnBndkxLVXdNYjlVZXJoWkd2MGlZYkpodUpR?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261001-mu-rosenblatt-target-hike-margin-outlook",
       "time": "2026-10-01T07:56:00Z",
       "headline": "Rosenblatt lifts Micron target to $1,900 from $1,500, buy rating, on the margin outlook",
@@ -73,6 +159,27 @@
       "why": "A target move of this size is an estimate-model change, not a sentiment nudge: it implies the analyst is carrying contracted HBM pricing into out-year gross margin rather than mean-reverting it, which is the single assumption that determines whether memory earns a cyclical or a secular multiple. Mid-tier coverage, so the signal is in the modelling convention spreading across the Street rather than in the flow the note itself generates.",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-raises-micron-stock-price-target-on-margin-outlook-93CH-4926483",
+      "alerted": false
+    },
+    {
+      "id": "20261001-orcl-tencent-offshore-gpu-lease",
+      "time": "2026-10-01T04:00:00Z",
+      "headline": "Tencent signs ~$7B, five-year lease with Oracle for roughly 100,000 AI chips in Asian data centers",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AVGO",
+        "MU",
+        "TSM",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "A multi-year take-or-pay style capacity lease adds contracted RPO at Oracle's cloud unit and improves utilization on non-US capacity, which is the swing variable for OCI gross margin given the heavy depreciation load from its GPU build. Chinese hyperscalers renting offshore compute because restricted parts are unavailable domestically creates a new demand channel that export controls do not currently block, supporting Nvidia-system orders and the downstream memory/networking/server supply chain. The risk is policy: a rule change extending controls to remote access would strand the capacity, so this is a contract with regulatory tail risk attached.",
+      "source": "Mezha / FT",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZFJDcTdzSWZ4aG5QT29kZkNjcjdEN3ZpNnJBSVpFQ0xzZmVMOGNxd3FGWGsxYVZ3RkVjdVo1eEt2dUFLMjhEcVlnakwyaVU0VGZkeUVGc3dGYlpVbWc2b1FnNklWQXo2cXg2MHowOA?oc=5",
       "alerted": false
     },
     {
@@ -726,109 +833,6 @@
       "why": "The marginal buyer of frontier training clusters is a handful of labs, and OpenAI is the single largest swing factor in 2027 accelerator and HBM order books; a self-imposed, open-ended safety pause with no restart date introduces timing risk to compute deliveries and to the lease/prepay commitments that underwrite Oracle-style AI backlog. Even if capex is only deferred rather than cancelled, the market pays a lower multiple for AI revenue that is hostage to safety governance rather than to demand. Management explicitly flagged that pauses will recur as models improve, which converts a one-off into a structural discount on AI-infrastructure visibility.",
       "source": "Federal News Network / AP",
       "url": "https://federalnewsnetwork.com/artificial-intelligence/2026/09/openai-pauses-training-of-latest-models-after-agents-probed-us-government-sites-in-unexpected-ways/",
-      "alerted": false
-    },
-    {
-      "id": "20260928-intc-apple-legacy-design-loss",
-      "time": "2026-09-28T14:20:00Z",
-      "headline": "Intel gives back rally gains as Apple severs remaining legacy design ties",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AAPL",
-        "QCOM",
-        "TSM"
-      ],
-      "why": "The loss removes a residual high-volume socket from Intel's client and connectivity mix at a point when the turnaround case rests on volume to fill fabs and amortize 18A capex \u2014 lower loading is a direct gross-margin drag, not just a revenue line item. For Apple the same move is margin-accretive, shifting spend from an external vendor to in-house silicon fabricated externally. It also reinforces the structural narrative that Intel's merchant share losses are permanent rather than cyclical, which caps any re-rating from the recent bounce.",
-      "source": "timothysykes.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51MGN2UzF1dDkxeXRneHB5eXBab1NDaWxvbDFhbkVwQk1sMEI5SjZrT1l0TmVKeU5mdzhBVjZvQ194UTRqT1hjS2FsZ0tCTk5FbTl4TjM1MV9EdGVoVURQU0NKYjdFOXdrdUNOTG9FQUNoamJJUU9iaWlkY01odw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260928-asml-export-control-pushback",
-      "time": "2026-09-28T14:20:00Z",
-      "headline": "ASML CEO tells Washington that tighter China curbs risk accelerating domestic Chinese toolmaking",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "TSM",
-        "NVDA",
-        "INTC"
-      ],
-      "why": "The equipment names carry two separate China exposures \u2014 current DUV and mature-node system revenue, plus the far higher-margin installed-base service annuity that runs for a decade after a tool ships. Fouquet's argument is that further extraterritorial curbs do not just cut the revenue line, they fund a substitute supply chain that permanently shrinks the served market and the service annuity behind it. For the market this is a discount-rate input rather than a quarter: it raises the probability that WFE China revenue is structurally lost rather than deferred, which is what caps the multiple on ASML, AMAT, LRCX and KLAC even while AI-driven leading-edge orders run hot.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFItbEt1aTVSWG1TdGFqdHk1dzFuTENZVGF1X0dxWWw0UThSOFVyQmdfdEprTWxEZVpPSFREYlAxdXJJUnN5VXJSS0ppU3l4Vms3REpHVDNOSW9DbUxpaTM0dXBZbUlhTFhGR3FPLW1DZEJEMGN3bERmTU5aeTY3U0xnMmhFZmZLQUl3Nnh3QlRCYlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260928-mu-record-revenue-and-forward-guide",
-      "time": "2026-09-28T13:05:00Z",
-      "headline": "Micron posts record quarterly revenue of $41.5B and guides next quarter to roughly $50B",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "A sequential revenue step of that magnitude is a pricing event, not a volume event: HBM and conventional DRAM contract prices are resetting the whole memory cost curve, which raises Micron's incremental margin but also raises bill-of-materials costs for accelerator and server builders like Nvidia, Broadcom and Supermicro. A guide above the current quarter also underwrites another leg of memory capex, which is the direct revenue line for the wafer-fab-equipment names. Note the sources conflict on the revenue base \u2014 UBS's published work modeled FQ4 revenue near $52.4B against the $41.5B reported figure \u2014 so the guide may screen as a miss versus the highest street models even while setting a record.",
-      "source": "tradingkey.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbFdhZ3BMQzl0NU9mT180OHVzekFaQVRoVHJkODNnQmZPbExFSUR0TGJJTkVHUk90bXNINElxUUwwTGZvdnRiMlNlc3d2ZExWNk5oTlJhOF9IaFZZVkNsX0t2VjRDaWZpb2w1WDcxMWJ1eW5jLXlDM3huc1RvT1E5V1pKcmJQajNpc2FyUFdrNzZZZEpKXzVhaWpIanpfTTJiNkttTWVuNzdLclNiVlZtTmVXUmluMEhCZGdIdmVyWkVieHVfYzZkVg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260929-macro-iran-truce-rejection-oil-shock",
-      "time": "2026-09-28T13:00:00Z",
-      "headline": "Washington formally rejects Iran's seven-day Strait of Hormuz truce offer; Brent front-month tops $107 with the curve in steep backwardation, yields and futures reprice lower",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "XOM",
-        "CVX",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MU",
-        "TSM",
-        "AAPL",
-        "MSFT"
-      ],
-      "why": "This converts a negotiable risk premium into a realized supply disruption: with the strait still closed, the prompt contract is pricing physical scarcity rather than headline risk, which feeds directly into the October CPI/PCE path and pushes the Fed's reaction function hawkish just as the market debates an October move. That is a discount-rate event, not an earnings event \u2014 long-duration, zero-dividend growth names with no valuation buffer (semis, high-multiple software) take the multiple compression, while integrated energy sees a straight cash-flow upgrade on higher realized crude. Reported crude levels differ across outlets (Brent above $107 prompt vs roughly $101 December, WTI near $96), reflecting the backwardation rather than conflicting data.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiykFBVV95cUxPQ0huZkZtNEszTkRUY1NtZDBtZGR4NDdNbXpHSzg5UHdCMVNJS3NQTnQ4RGdvd1oxeGtwdGNNQng1cjJ1OUc2b2FZT2t3MldWd1hXV0tOMDB3NjJfeS1IRUtoNFF2NkpvTWdCbjRIRVB3NmVfVGtxbDNBYnNmMVhNb2pfN3RHby1walpzclpqODFKOF8tSThIRUNhYlduYXRpLVdLWllCN0w3ZG9GWEpiamJqYXAzVlAwX0c5RVJWWWRPbElldkdja0JR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260929-tsla-cafe-credit-repeal-and-delivery-cuts",
-      "time": "2026-09-28T12:58:00Z",
-      "headline": "NHTSA finalizes weaker fuel-economy standards and eliminates inter-automaker credit trading, while JPMorgan and Goldman both cut Q3 delivery estimates ahead of the October 2 print",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "TSLA"
-      ],
-      "why": "Ending CAFE credit trading removes a near-100%-gross-margin revenue line that Tesla books with no incremental cost and that has historically carried a meaningful share of operating profit \u2014 this is a permanent structural hit to the earnings base, not a one-quarter timing issue, and it simultaneously removes the compliance pressure that forced legacy OEMs to buy credits or build EVs at all. Layered on top, two bulge-bracket desks marked down Q3 volumes into the October 2 delivery release on softer US and China registrations, with JPMorgan taking its estimate to 482,000 units and its target to $415 and Goldman to 435,000, meaning consensus is now being reset lower on both the volume and the high-margin credit line at the same time.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWWk2YThmRWdIMTQ0SWMxNEVnQ2haSFBKXzZqT0JmbG9rQ05DN2FoeU12RXJfb0Zjdm1jN3R2dWw2MGVlWFA3dUF3bGoyOGF6Vm55VWdsNWF5czlLVnlxZV9CUzZfLVNfakdnRnEwM25OaE9wTXFxanFHNXJOb3ZLdUdrdkdTTjJfdkVPT1h5UlR6dGpHSFFqc0N5UlVKNG9KNWsxMGhnZVJiVHJxZDI4YUt4MllQdktvX1JNM05ESUZ5cWM?oc=5",
       "alerted": false
     }
   ]
