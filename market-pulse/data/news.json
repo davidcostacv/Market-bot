@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-10-02T13:00:53Z",
+  "generated_at": "2026-10-02T22:27:48Z",
   "session_date": "2026-10-02",
   "items": [
+    {
+      "id": "20261002-smci-vera-rubin-rack-shipments",
+      "time": "2026-10-02T18:30:00Z",
+      "headline": "Super Micro begins shipping server racks built for Nvidia's next-generation Vera Rubin architecture",
+      "impact": 6,
+      "direction": "bullish",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AVGO",
+        "MU",
+        "ANET",
+        "AMAT",
+        "TSM"
+      ],
+      "scope": "company",
+      "why": "First-wave rack shipments on a new Nvidia platform are the revenue-recognition trigger for SMCI: rack-scale liquid-cooled systems carry higher ASPs and richer content per unit than prior generations, so a clean ramp pulls forward revenue and supports the mix that has been the swing factor in SMCI's gross margin. It is also a schedule datapoint for the Rubin cycle itself \u2014 shipments starting on time de-risks the next leg of Nvidia's product transition and the attached HBM, networking and foundry content that MU, ANET, AVGO and TSM sell into each rack. The read-through is on timing and volume, not on any new order value.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObWY4dFVwdlNOU2lWQldjRmM1YnFYQ1pQdnl0M0tQbHFrQllNTFFadDhGVm5YU3Y5eTRObWh4Tl9qQm9pSTRYZVF1X2U5ZGN2S0JuWVBwYVZEWlB0NTcweEI4bWxmRFpORTNJSGRGNE9KU19FWENDS0x1NlIzVG0zakVOeDE0ZzdRQXd6U3FEaEVDRV9CNlIzREw0Z3QwR0JM?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261002-macro-september-payrolls-miss",
       "time": "2026-10-02T12:30:00Z",
@@ -121,6 +142,26 @@
       "alerted": false
     },
     {
+      "id": "20261002-asml-duv-total-china-ban-push",
+      "time": "2026-10-02T08:00:00Z",
+      "headline": "China's stockpiling of ASML immersion DUV tools revives US push for a near-total export ban",
+      "impact": 6,
+      "direction": "bearish",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "MU"
+      ],
+      "scope": "sector",
+      "why": "The mechanism is a revenue cliff risk, not a headline: China remains a large slice of ASML's DUV system and service backlog, and a ban extending to servicing would strip recurring high-margin installed-base revenue that investors capitalise at a premium multiple. Evidence that Chinese fabs have accumulated hundreds of immersion systems strengthens the policy case in Washington and raises the probability the Dutch government acts, so the equity carries a widening policy discount until the scope is defined. Pull-forward buying also means any ban is followed by an air pocket in China orders for the whole WFE complex, which is why AMAT, LRCX and KLAC trade with it; the offset is that constraining China's 7nm and advanced-memory capacity protects pricing for TSM and MU.",
+      "source": "SCMP",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVVjMUZ0bk5LNFBPdmF6TllpNzZ4YzhSM2FDelVjdWZ0SnJ4YUJpeUFDWnM1NWYzVEk4VEU0a3lsUWRXTXpUcTVjX3EwYWdqaHhzSjVQdkppVllpYzd0a2ZVS3RDZkc3c0k2Q2paUnZ3dnlEWnlvMlhRRnNPN0JUUGcwMUJwcFJhRHV4R0JxemlkT01NdWRYN0g0SEVaaVNqTFVkazFGa3ZPNGdiMjBUak03MDlWbDE4RE1kdV9oY2hGcHNMSjdR0gHHAUFVX3lxTE16dEZheU9DZm9tUEpNOTk5R25kcEQ5V1VBVk1pM1pGdm5MS0p3OXhFVURjSk5hSjNBU2pJWmVpQzdUbWFSYzlFQS1UZXhaVlkwTG56NmxNRkdSTzVfOXQ0elhQNHJ1SEItZEZrakRURXhBLVhGaU9Oc1lGX0NoM3JxWEh5ME5qdTFGRXdxTFNVSVBuOHZNU2tzOGZiYl90Y0IxaWhBclVEbDk3eDZfTU1HV2h0Q2xYX040dDhLS1VpMUJQcTBVTzg?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261002-amzn-nvda-gpu-sale-leaseback-spv",
       "time": "2026-10-02T04:12:00Z",
       "headline": "Amazon in talks to move ~$8B of installed Nvidia Grace Blackwell systems into an SPV and lease them back (FT)",
@@ -140,6 +181,24 @@
       "why": "Moving already-deployed GPUs off balance sheet converts depreciation and capex into lease expense, protecting reported free cash flow and the credit rating while AI capex keeps climbing \u2014 it changes the quality of AMZN's cash-flow line more than the earnings level. The read-through is the bigger point: if hyperscalers can syndicate GPU assets to outside capital, the funding ceiling on accelerator orders rises, supporting the demand curve for NVDA, AVGO and memory. It also adds to the vendor- and structured-financing stack now visible across AI buildouts, which bears will treat as a late-cycle signal.",
       "source": "Reuters via Investing.com",
       "url": "https://www.investing.com/news/stock-market-news/amazon-seeks-to-offload-8-billion-of-nvidia-chips-to-investors-ft-reports-4928877",
+      "alerted": false
+    },
+    {
+      "id": "20261002-nvda-doj-server-smuggling-arrest",
+      "time": "2026-10-02T04:00:00Z",
+      "headline": "DOJ arrests California server-company CEO over $300m of Nvidia-powered systems routed to China via Malaysia and Singapore",
+      "impact": 5,
+      "direction": "uncertain",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AVGO",
+        "AMD"
+      ],
+      "scope": "sector",
+      "why": "Criminal enforcement against transshipment through Southeast Asia is the practical lever Washington has left, and it changes behaviour faster than rulemaking: integrators and distributors tighten end-user diligence, which chokes off grey-market volume that currently shows up as legitimate demand in Singapore and Malaysia billing. Near term that trims a slice of unofficial China-bound units; it also raises the odds of new licensing requirements on second-tier Asian buyers, a compliance overhang for every US AI server and accelerator vendor. It does not touch sanctioned hyperscaler demand, so the earnings effect is second-order rather than a guide-down risk.",
+      "source": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPTS1ZdWR6VWFvcURsdGFQNUZjODR2QkZVOFk4c3hBT3hBNnlyY0k1Q0oyRzNFNk4wY0Q3VTlKdEU0aVdUdGZHNW1YWkN2LUxpcUE4MmJBdVhSRkFyLTFRSEhocUloZTB1MnFNYnV6TmN0WENtUC01aGc5WkpLazJBZGZuNGYtVzZNYmoyX2pDQjNYS1VYSHd5MklwTk1aVWYwNktaUm1JWms0SGFEbWlTMDBXYzJZRUYtWURTQ2lZaVZxMmptaDdnWDctek81dWJQME4xTHh4a1FQT1NPWHMycWptS0hvUzYxVWhOZXBqVWd2VVgxWWlOWWJRWDg3SGY4OVFMY3lPbGVyU3pXa3QzZnlnTGxtWGRicDhjYjdvbndvTzJGNHlxS05Ja25FRGMyeF96Q1hjLU9JWmlrQ2RBUkw3Tm42dDEzU245ZmxFdVZlT0RtbTVaRUcwTk5TbDJEa3FPdXpyeVZ6OUFxMWY3Yzkwa3JIcERwM0NmX3ozUjJaLWcwY3FXN1FKNm1lMUF4UFE?oc=5",
       "alerted": false
     },
     {
@@ -761,72 +820,6 @@
       "why": "A higher long-end discount rate compresses the terminal-value component of equity valuations hardest for the longest-duration, highest-multiple AI and software names, so this is multiple contraction rather than an earnings story. A sustained 5%+ 30-year also raises the hurdle rate on debt-funded data-center buildouts and hedges the benefit banks get from steeper curves with mark-to-market and credit-demand drag. With a Fed that has already hiked and signalled more, there is no near-term policy offset to cap yields, so equity risk premium stays squeezed into today's PCE print.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdU92dlh4cVhyZkhtcW9aOEZyZXAwWERYNFdFQXBZZnREZVQ5TFplZnZjMHc0TzFSUWQ1WDN6aEg4a2ROb0g2SmZEWjhENHMybG9OTGJ6cTFCNWlqczROREpCV0tQU2VKbUFXMnZYeDBNTTh0MWNYS3lPZjBhWk5rR0dYYmpDcUhNc0stakhtWkR5OXA1M09nUVFIUUJaVGQ2NnlhT0JBMXo?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260929-macro-williams-no-urgency-front-end-repricing",
-      "time": "2026-09-29T20:30:00Z",
-      "headline": "NY Fed's Williams says 'no urgency' for further action, cutting odds of an October rate hike; 2-year yield reverses off a multi-year high",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "PLTR",
-        "MSFT",
-        "AMZN",
-        "TSLA",
-        "JPM",
-        "GS"
-      ],
-      "why": "The dominant bear case for equity multiples this month has been a live October hike after the Fed already tightened this month; a sitting NY Fed president saying there is no urgency removes the near-term policy tail and takes the front end down, which is the discount-rate input that matters most for long-duration AI/growth names and for IWM's floating-rate borrowers. The offset is that the repricing was confined to the 2-year \u2014 30-year and other long yields stayed pinned near multi-decade highs, so term premium, not policy, is now the binding constraint on the S&P multiple, and indices still closed lower. For banks, a flatter path of hikes with a steep long end is mixed: less funding-cost pressure and lower AFS mark risk, but weaker NII repricing.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mrvl-citi-reiteration-into-analyst-day",
-      "time": "2026-09-29T19:55:00Z",
-      "headline": "Marvell outperforms as Citi reiterates Buy with a $275 target into the October 6 investor day",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "GOOGL",
-        "ANET",
-        "NVDA",
-        "TSM"
-      ],
-      "why": "Marvell's re-rating hinges on whether custom-silicon and optical interconnect sockets convert into a credible multi-year revenue ramp, and a large-bank reiteration into a scheduled analyst day raises the probability the Street marks up FY27-28 estimates rather than just the target. The setup matters beyond Marvell because custom ASIC and interconnect commitments from hyperscalers are the direct read-through to Broadcom's XPU pipeline, Alphabet's internal accelerator roadmap and the switching/optics attach that Arista and TSMC monetise. Risk is asymmetric ahead of the event: a soft margin or customer-concentration disclosure on Oct 6 unwinds the move.",
-      "source": "finance.yahoo.com / StockStory",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeUFYYVZ2bmtjSmd1UVlxdnBOdFIwVTBBZXhHYXh6WkV5cFktMVBQbWowMXo0WmVRMnhuTDk3N0FETS1YeGxRRU1uU0dMWWdjUmk4VTBnVVJ2WFdYR09VSkNEazVHN21od1ZYdC1PbTJpTEc1c2RaMFkzSkptVXlhenhxTjRpZGdja1M3ZXg0OThuT0tzMlBuVXMwbnFqWjg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260929-ai-datacenter-warren-moratorium-push",
-      "time": "2026-09-29T16:30:00Z",
-      "headline": "Warren pushes national AI data-center moratorium and probes tax subsidies granted to hyperscalers",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "ORCL",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "The proposal has no near-term legislative path, but it raises the probability that grid-upgrade, water and local infrastructure costs currently socialized onto utilities get pushed back onto developers, which lifts the all-in cost per megawatt and stretches permitting timelines for hyperscaler build-outs. Slower siting approvals translate directly into pushed-out accelerator and networking orders, so the risk is to the timing of AI capex revenue recognition rather than to demand itself. The accompanying document request on AI tax subsidies also creates a headline overhang on the incentive packages that underpin announced data-center economics.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNU243SmxHWWQ1M1htSWIyWVUwbUh6eGwyY2lXRVczdnJBdDJRTzlpV1Nrc3JXSVIzbG5HRFFnZW5HMVFLMHBzUGZPNTNJRm16T0w3aVE0UGl0TnZWaDJrVWFocno2MjVCMkNQeVVDeDhXc3hXV1BIcVdDRTJINUxDM1dycnJITEg0UFE1VGdlLTNDa1RtU19kTDZtN2c0SGpQblc2M2JObnRKeU5NZkdsQm9leVAxTnRnaktqd0s3MjEzLU91MzVHeGVodDFGcXBhbDlDNXItOXZTMmRjZG1vZFd4TkMyZmFqT2c?oc=5",
       "alerted": false
     }
   ]
