@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-03T11:55:44Z",
+  "generated_at": "2026-10-03T16:36:15Z",
   "session_date": "2026-10-03",
   "items": [
+    {
+      "id": "20261003-mu-bofa-memory-tax-estimate-raise",
+      "time": "2026-10-03T11:07:00Z",
+      "headline": "BofA lifts Micron FY27/FY28 EPS sharply on AI 'memory tax', keeps $1,550 target and top-AI-pick status",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "AAPL",
+        "ASML",
+        "LRCX",
+        "AMAT",
+        "KLAC"
+      ],
+      "why": "The note raises FY27 EPS to $171.78 from $140.24 and FY28 to $197.90 from $145.45 while holding a $1,550 target, so the move is an earnings-power reset rather than a multiple call: buyers are now contracting HBM/DRAM supply years ahead, which converts spot-priced cyclical revenue into visible, pre-committed volume and pricing and justifies a lower cyclicality discount on the whole memory complex. The flip side is that the same 'memory tax' lands as a bill-of-materials cost on accelerator, server and device makers, squeezing gross margin at GPU and system vendors unless they pass it through. Multi-year memory commitments also underwrite sustained fab capex, which feeds order books at litho and wafer-fab-equipment suppliers.",
+      "source": "thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWFRQRXM2XzlEZjVWU2phTF9peFhCdTRjMldJRGdrTE54NmNPYnFuN1pQbHpzQXBrQWxQYnY3ZzlQSmpRbk5lRGF4RmNRWl9nWXRQYnBqVDdZQm9CRDFERHN2Uk9tdnFFUVBfRU1rNThTRG5tU2tlOXZaREYxcVlnVzVHaUMwWDJUcmVWNUEzYldkUQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261002-macro-middle-east-troop-deployment-oil-risk",
       "time": "2026-10-02T20:26:00Z",
@@ -782,27 +805,6 @@
       "why": "The Fed's preferred gauge undershot on both headline and core, which directly cuts the probability the committee follows through on the October tightening that futures had been pricing after the prior month's acceleration. A lower policy path lifts the discount-rate input for long-duration equities more than it changes near-term earnings, so the repricing runs through multiples \u2014 heaviest in megacap tech and small caps, which carry the most rate beta. It also takes pressure off the front end just as the long end has been selling off, partially unwinding the duration shock.",
       "source": "cnbc.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQndXXzRXaW96Nkx6SWhIMnZETC0wTWlMelQwWWtkZUhZWjMta0c2akhaMl83Z1dpRjBzOHduOUdrbVlhQXFvR3RYaEUwaHR5MjB6TUVoQzVaclEyQ3VqcDBwVDFNQ0dQM2RpM1JVaDJEX1NVMWZ5U2NYU2NJbUxjRmlNUzdNUlNPbWFvTHZrTHJUSmNCTEdjcnhWOEtXLURId0pXZVFRY3RsM2JKUkRIcnYzb3BNOGVINmFJSERMQ1pjUi1yWnIwZENkcDdYSXfSAdQBQVVfeXFMTXh2SEN5ZlFUdldiYzdtRF9TbUMyVU5NaV9qZUU0NmZMb2RFLTdMMmVfem5YdzBmdXVIM0toa1dTbVg4WnFWa0ZxSWRtZWxCNEl4TERQUDJzU2Nack5QSjU3STZBT0otSWRFZTJuLWQxbWc4QTJtX2FEcW96MTQtem5WbF91VmY0dGlqWVEzdlg0UURrT2RoMXRwQkE2ek5kdGFFX0xOcFVMejNDdzA5YkFoVU9LR1phdlRmekprZHMtLUJmeFR1dF9saGNIU04yeTVPQlU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-macro-adp-september-upside-surprise",
-      "time": "2026-09-30T12:15:00Z",
-      "headline": "ADP private payrolls rise 90,000 in September versus 68,000 consensus, August revised down to 36,000, annual pay up 3.2%",
-      "impact": 6,
-      "direction": "bearish",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "The labour-market-cracking thesis is the main justification for the easing path priced into the curve, and a re-acceleration after three soft months plus still-firm pay growth trims the probability of back-to-back cuts, which is the mechanism behind the ongoing long-end selloff and the discount-rate pressure on the highest-multiple AI names. The downward revision to August cuts the other way and keeps the trend soft, so the print is more of a hurdle-raiser for Friday's payrolls than a resolution. Banks are the offset: steeper curve and resilient employment support net interest income and credit costs.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/30/private-sector-jobs-rose-by-90000-in-september-better-than-expected-adp-reports.html",
       "alerted": false
     }
   ]
