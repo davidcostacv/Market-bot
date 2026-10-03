@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:36:35Z",
+  "generated_at": "2026-10-03T11:55:44Z",
   "session_date": "2026-10-03",
   "items": [
     {
@@ -82,6 +82,31 @@
       "why": "This converts earlier reserve-release talks into a scheduled physical supply addition, which caps the crack-spread windfall that has been driving refining and integrated-energy earnings upgrades; the front-loading into diesel hits the single widest margin product for XOM and CVX downstream units. For the broad index it works the other way \u2014 a mechanical reduction in the energy component of headline CPI loosens the inflation constraint on the Fed and lowers the discount rate applied to long-duration equity. Note sources differ on framing: Bloomberg and Al Jazeera describe it as 'up to' 100 million barrels while the Washington Post states a flat 100 million over four months.",
       "source": "Washington Post / Bloomberg / Al Jazeera",
       "url": "https://www.washingtonpost.com/business/2026/10/02/g-7-agrees-release-oil-reserves-counter-fuel-prices-after-us-pressure/",
+      "alerted": false
+    },
+    {
+      "id": "20261002-avgo-60b-debt-package-blackstone-tranche",
+      "time": "2026-10-02T14:00:00Z",
+      "headline": "Broadcom's Anthropic chip financing upsized to a $60B package: $42B bank-syndicated senior secured tranche plus $18B junior tranche led by Blackstone",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "TSM",
+        "MU",
+        "ANET",
+        "MRVL",
+        "AMD",
+        "ORCL",
+        "GS",
+        "MS",
+        "JPM"
+      ],
+      "why": "The structure now disclosed is larger than the $42B senior piece reported a day earlier, with Blackstone leading an additional $18B of junior debt (roughly $9B from its own funds, the rest syndicated), which converts a customer that cannot self-fund into a financed, multi-year order book for Broadcom's custom XPU and networking silicon and pulls those bookings into near-term backlog. It also hard-codes the wafer, CoWoS and HBM demand behind those systems, so foundry and memory suppliers get the same volume commitment without taking the credit risk. The offset is that an increasing share of AI revenue is now vendor- and private-credit-financed rather than cash-funded, which raises the chance investors apply a lower multiple to those dollars if junior tranches struggle to syndicate.",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62131358/broadcom-chases-nvidia-with-60-billion-financing-plan-for-ai-customers",
       "alerted": false
     },
     {
@@ -778,26 +803,6 @@
       "why": "The labour-market-cracking thesis is the main justification for the easing path priced into the curve, and a re-acceleration after three soft months plus still-firm pay growth trims the probability of back-to-back cuts, which is the mechanism behind the ongoing long-end selloff and the discount-rate pressure on the highest-multiple AI names. The downward revision to August cuts the other way and keeps the trend soft, so the print is more of a hurdle-raiser for Friday's payrolls than a resolution. Banks are the offset: steeper curve and resilient employment support net interest income and credit costs.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/30/private-sector-jobs-rose-by-90000-in-september-better-than-expected-adp-reports.html",
-      "alerted": false
-    },
-    {
-      "id": "20260930-nvda-jacobs-omniverse-digital-twin-saas",
-      "time": "2026-09-30T12:00:00Z",
-      "headline": "Jacobs selected to deploy Nvidia's Omniverse-based data center digital twin platform at a large-scale US AI R&D facility under a three-year SaaS agreement",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "ANET",
-        "SMCI",
-        "AVGO",
-        "TSM",
-        "MU"
-      ],
-      "why": "Financial terms were not disclosed, so the direct revenue is immaterial against Nvidia's data center run-rate; the value is in mix and lock-in. Omniverse/DSX-style digital-twin engagements move Nvidia further into recurring software and into the engineering phase of gigawatt-scale AI factory design, which both raises switching costs before any GPU order is placed and pulls power, cooling and networking specs toward Nvidia reference architectures \u2014 a read-through for the rack, switch and HBM suppliers that populate those designs. Software attach is also the lever that defends gross margin as the hardware cycle matures.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSm1OZVROYnoxNFF6V1lpWXVvb19fTzI4bkN6UDVZbVMyTV80RF9QWGpoVlVQSzg4d3pNSWlGN3dybFYwYnpjWFpVdERCdWJpNXV2dDJScVFyLTdSejAwZUo2dWh2MVBpcG1OckRiQmM1emJua0xVTDAxbGdtb1JJQnk5YUZsNk9QTUJmUFZ2dDhQUURuLUw3c0JJMHctTHRUenBOODAwelI4S1F5dlEwSzY0V0JOemp3OFEwdExhdjJRVWpPbWplX2JUbEJ4REo5N1NRWVoxdUZlYnVIcVlV?oc=5",
       "alerted": false
     }
   ]
