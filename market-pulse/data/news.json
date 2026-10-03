@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-10-02T22:27:48Z",
-  "session_date": "2026-10-02",
+  "generated_at": "2026-10-03T05:36:35Z",
+  "session_date": "2026-10-03",
   "items": [
+    {
+      "id": "20261002-macro-middle-east-troop-deployment-oil-risk",
+      "time": "2026-10-02T20:26:00Z",
+      "headline": "Trump sends 9,000 additional U.S. troops to the Middle East amid the US-Israel conflict with Iran that has driven fuel prices to records",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "IWM"
+      ],
+      "why": "An escalating military footprint keeps a geopolitical risk premium embedded in crude and refined product curves, which is the direct offset to the G7 reserve release announced the same day \u2014 the two headlines push the energy earnings path in opposite directions and the net is genuinely two-sided. For energy producers it preserves realized-price upside that the reserve release would otherwise erode; for the broad index it sustains an input-cost and headline-inflation drag that works against the rate relief the market just repriced. The asymmetry is in the tail: supply disruption risk is a step function, not a gradual one.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-02-2026",
+      "alerted": false
+    },
+    {
+      "id": "20261002-macro-october-fed-hike-odds-priced-out",
+      "time": "2026-10-02T20:00:00Z",
+      "headline": "Rate-hike expectations for the October FOMC fade after soft jobs data; 10-year Treasury yield retreats from its 24-year high and tech leads the tape",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "PLTR"
+      ],
+      "why": "The market had been carrying a tail risk of a Fed hike into October, and that tail being priced out removes the specific scenario that was forcing multiple compression on long-duration growth regardless of earnings delivery. A long-end yield retreat from multi-decade highs lowers the terminal discount rate on the AI capex names whose valuations are most sensitive to the back end of the curve, which is why semis and megacap tech led rather than cyclicals. The constraint now flips from rates to earnings, meaning Q3 prints \u2014 not macro \u2014 set the next leg.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html",
+      "alerted": false
+    },
     {
       "id": "20261002-smci-vera-rubin-rack-shipments",
       "time": "2026-10-02T18:30:00Z",
@@ -21,6 +63,40 @@
       "why": "First-wave rack shipments on a new Nvidia platform are the revenue-recognition trigger for SMCI: rack-scale liquid-cooled systems carry higher ASPs and richer content per unit than prior generations, so a clean ramp pulls forward revenue and supports the mix that has been the swing factor in SMCI's gross margin. It is also a schedule datapoint for the Rubin cycle itself \u2014 shipments starting on time de-risks the next leg of Nvidia's product transition and the attached HBM, networking and foundry content that MU, ANET, AVGO and TSM sell into each rack. The read-through is on timing and volume, not on any new order value.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObWY4dFVwdlNOU2lWQldjRmM1YnFYQ1pQdnl0M0tQbHFrQllNTFFadDhGVm5YU3Y5eTRObWh4Tl9qQm9pSTRYZVF1X2U5ZGN2S0JuWVBwYVZEWlB0NTcweEI4bWxmRFpORTNJSGRGNE9KU19FWENDS0x1NlIzVG0zakVOeDE0ZzdRQXd6U3FEaEVDRV9CNlIzREw0Z3QwR0JM?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261002-macro-g7-100mb-reserve-release-confirmed",
+      "time": "2026-10-02T17:59:00Z",
+      "headline": "G7 confirms coordinated release of up to 100 million barrels of diesel, gasoline and crude over four months, IEA-coordinated and front-loaded with diesel",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "IWM",
+        "QQQ"
+      ],
+      "why": "This converts earlier reserve-release talks into a scheduled physical supply addition, which caps the crack-spread windfall that has been driving refining and integrated-energy earnings upgrades; the front-loading into diesel hits the single widest margin product for XOM and CVX downstream units. For the broad index it works the other way \u2014 a mechanical reduction in the energy component of headline CPI loosens the inflation constraint on the Fed and lowers the discount rate applied to long-duration equity. Note sources differ on framing: Bloomberg and Al Jazeera describe it as 'up to' 100 million barrels while the Washington Post states a flat 100 million over four months.",
+      "source": "Washington Post / Bloomberg / Al Jazeera",
+      "url": "https://www.washingtonpost.com/business/2026/10/02/g-7-agrees-release-oil-reserves-counter-fuel-prices-after-us-pressure/",
+      "alerted": false
+    },
+    {
+      "id": "20261002-tsla-q3-deliveries-beat",
+      "time": "2026-10-02T13:06:00Z",
+      "headline": "Tesla delivers 486,532 vehicles in Q3 2026, well above consensus near 461,100; produced over 464,000 and deployed 13.7 GWh of storage",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "TSLA"
+      ],
+      "why": "Deliveries ran roughly 22,000 units above production, meaning Tesla drew down finished-goods inventory rather than discounting into a build \u2014 that supports automotive gross margin ex-credits rather than just the top line, which is the variable the sell side models. The 13.7 GWh energy deployment figure extends the highest-margin segment's run-rate and shifts mix away from the commoditized Model 3/Y, so the Q3 EPS bridge improves on two axes before any ASP assumption changes. Consensus delivery models for Q4 and FY27 get marked up off a higher base, which is what moves the multiple on a stock valued on volume trajectory.",
+      "source": "Tesla Investor Relations / Qz",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
       "alerted": false
     },
     {
@@ -65,6 +141,25 @@
       "why": "A bulge-bracket top-pick designation moves institutional positioning and sets the anchor multiple for the group; the argued gap is that the stock has gone sideways while bookings and the next-platform ramp advanced, i.e. a de-rating that the analyst expects to close rather than an estimate change. Because the call explicitly rotates the top slot away from memory after its vertical run, it is a relative negative for MU and a relative positive for compute silicon. Combined with the enlarged repurchase authorization, it supports per-share earnings leverage independent of unit demand.",
       "source": "Seeking Alpha",
       "url": "https://seekingalpha.com/news/4649791-nvidia-in-focus-as-morgan-stanley-reinstates-as-top-pick",
+      "alerted": false
+    },
+    {
+      "id": "20261002-storage-toshiba-hdd-capacity-doubling",
+      "time": "2026-10-02T11:48:00Z",
+      "headline": "Nikkei reports Toshiba to spend ~\u00a560bn to double hard-disk capacity at its Philippines plant by FY2027, targeting ~30% share; Seagate and Western Digital sell off hard",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "STX",
+        "WDC",
+        "MU",
+        "SMCI",
+        "NVDA"
+      ],
+      "why": "The AI-storage trade has been underwritten by a three-player HDD oligopoly running sold-out through 2027 with no incremental supply \u2014 a credible capacity doubling from the smallest player breaks the scarcity premise that justified the pricing power, not just the volume math. Pricing, not units, is what carries nearline HDD gross margin, so a share-grab-driven capacity add compresses the forward margin assumption even if demand estimates are untouched. Read-through is mildly negative for Micron's enterprise-SSD narrative, where HDD scarcity had been pushing AI workloads toward datacenter NAND, and mildly positive for server builders like SMCI whose storage BOM cost falls; sources conflict on the size of the move, with reported Seagate declines ranging from roughly 9% to 16%, and Morgan Stanley, Citi and Rosenblatt all reportedly called the reaction overdone.",
+      "source": "Investing.com / Parameter",
+      "url": "https://www.investing.com/news/stock-market-news/seagate-and-western-digital-shares-fall-on-toshiba-hdd-expansion-4929584",
       "alerted": false
     },
     {
@@ -703,123 +798,6 @@
       "why": "Financial terms were not disclosed, so the direct revenue is immaterial against Nvidia's data center run-rate; the value is in mix and lock-in. Omniverse/DSX-style digital-twin engagements move Nvidia further into recurring software and into the engineering phase of gigawatt-scale AI factory design, which both raises switching costs before any GPU order is placed and pulls power, cooling and networking specs toward Nvidia reference architectures \u2014 a read-through for the rack, switch and HBM suppliers that populate those designs. Software attach is also the lever that defends gross margin as the hardware cycle matures.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSm1OZVROYnoxNFF6V1lpWXVvb19fTzI4bkN6UDVZbVMyTV80RF9QWGpoVlVQSzg4d3pNSWlGN3dybFYwYnpjWFpVdERCdWJpNXV2dDJScVFyLTdSejAwZUo2dWh2MVBpcG1OckRiQmM1emJua0xVTDAxbGdtb1JJQnk5YUZsNk9QTUJmUFZ2dDhQUURuLUw3c0JJMHctTHRUenBOODAwelI4S1F5dlEwSzY0V0JOemp3OFEwdExhdjJRVWpPbWplX2JUbEJ4REo5N1NRWVoxdUZlYnVIcVlV?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-burry-long-dated-puts",
-      "time": "2026-09-30T11:00:00Z",
-      "headline": "Michael Burry converts AI shorts into long-dated Micron puts struck far below spot",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "PLTR"
-      ],
-      "why": "Swapping borrow-cost-bleeding shorts for defined-risk puts removes the forced-cover mechanic that has helped fuel the melt-up, so it marginally reduces short-squeeze support in the highest-beta AI names rather than adding immediate selling pressure. The deep out-of-the-money strike and multi-quarter expiry signal a bet on a cycle break rather than a near-term earnings miss, which is why the position is sentiment-relevant but earnings-irrelevant. Its market impact is through hedging flows and narrative \u2014 it gives institutional cover to funds already trimming AI exposure into a crowded print.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT0R0T2VNMDQwQ2lFYXR5QldnNm9SYlZmNjVvT1JSQlpUTlk1V1pUZHY0bHZOUlYwNklaZkh0NlJQSmNia3NNdm1YN19UZlltNm5US1RKeG1zeXpDWTduV25aYVd4X29lOTA2a3ZVdDdVa2I3UTJWUTVBdTNlU3JLdGVpX0F5WWFqOE1qMmVqMUZiZkoxX1N3UlR4dlRiOUg2dUZ0b1l3U3pRNFNna0JBYTY3Ny1telRpaDF4YkFB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-fy27-outlook-sector-swing-factor",
-      "time": "2026-09-30T02:00:00Z",
-      "headline": "Micron's fiscal Q4 report lands today with the FY2027 supply/capex outlook, not the quarter, as the memory complex's swing factor",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML",
-        "SMCI",
-        "AAPL"
-      ],
-      "why": "The quarter is largely pre-announced by guidance, so the repricing variable is how much 2027 HBM and DRAM bit supply Micron commits to and at what capex \u2014 more supply caps the pricing cycle that is currently driving earnings revisions across the memory chain, while restrained supply extends it. Equipment names are levered to the capex number rather than the EPS line, and device assemblers like Apple and Supermicro are on the wrong side of any signal that memory tightness persists into next year. Guidance framing also sets October direction for Asian memory peers, which is how the read-through returns to US semis via overnight beta.",
-      "source": "bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hNDVYS3h3Tm9kZXZFQWl4aGdQeW40aW8ydWE4dHlYZ2NGNkJNQVJMbThEZTVDdDdZVllWVExjZ3FMS0M0N0h6Rl9KV1hhRjZuaVhFdQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-macro-pboc-psl-cut-infrastructure-compute-quotas",
-      "time": "2026-09-30T01:12:00Z",
-      "headline": "PBoC cuts pledged supplementary lending rate 25bp to 1.50% and widens quotas to compute, power-grid and logistics investment ahead of China PMIs",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "AAPL",
-        "TSLA",
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AVGO",
-        "QCOM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Cheaper policy lending plus expanded relending quotas directed at computing, power grids and urban infrastructure is targeted credit for exactly the capex lines that pull semis, equipment and networking gear, and it supports Chinese household demand that drives iPhone and Tesla volumes. The mechanism is nominal demand, not sentiment: PSL funds local-government project pipelines, so orders show up with a lag in China-exposed revenue lines. It also softens the macro tail risk from a China slowdown just as Q3 China numbers are being marked into Q4 estimates.",
-      "source": "Newsquawk",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOM0JFOHhWVmdpWC0wZnlNR3lJYk5FaVFsdTU2M2l1bV91MUFVLVh3UHk4YnZ1OEYtS3pUY3cxdXRiWl9ZNWo5c05hZFBvZXBxUDE5T2RHMVljSjE2Rk9Ld0JFWThxOHkzYkxsS0JjMkRQekJ6M3l4d1pkRkVRMW1VUE16MEE4QTE0RXRsV1VBZUwwMnZPeENyM2ZZNjd0UmcyWUlZTkh3ZnVQWWFzQWx4OVFHSVVsd1dyeUctemo4eTNCX0tzdzFKbEt2ZG1ITTVFQnlLQ29WNWFKaTRROEUxVUMtUkhkbHFrWEU5Q0ZyeEg0X19URnNsSHdkSTZUWFg5VUF4bnRmSUp2bUlrQ0NPZi13U0dFUEtkTDlKcXVUbU02ZXBPR2c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-macro-db-tech-rotation-room-to-run",
-      "time": "2026-09-29T22:00:00Z",
-      "headline": "Deutsche Bank strategists argue the rotation within tech still has room to run",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MRVL",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AMZN",
-        "QQQ"
-      ],
-      "why": "Flow-driven calls from a major bank matter at the margin because they shift where incremental institutional money sits inside the sector rather than changing aggregate earnings \u2014 a rotation thesis implies funding trades in crowded mega-cap AI leaders to buy second-derivative compute, networking and custom-silicon names. With positioning already stretched, the practical effect is relative multiple dispersion inside semis and software, not an index-level move.",
-      "source": "intellectia.ai",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVlVtU0ptUU5YSDBQbUl3UFNJMlVOSWxReWFiRVlvd0NyYVgtOWlpZmUxSkhjaFZLZ255VGJjUW5WSnNIdkNpdHVhVk5nMjFjMElwWnhpYlhQbUJmSFhrNkZjMW1mdWdRNDdodjgzS0lIZmtxdGFPR1l6QkVrbkM3NEl0OW9ZUHZlRzZVQnFxSG9uM0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-macro-longend-selloff-extends-sixth-session",
-      "time": "2026-09-29T20:30:00Z",
-      "headline": "Long-end Treasury selloff extends a sixth session: 30-year tops 5.6% (highest since 2002), 10-year near 5.3%, equities close lower again",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "TSLA",
-        "PLTR",
-        "AVGO",
-        "JPM",
-        "GS"
-      ],
-      "why": "A higher long-end discount rate compresses the terminal-value component of equity valuations hardest for the longest-duration, highest-multiple AI and software names, so this is multiple contraction rather than an earnings story. A sustained 5%+ 30-year also raises the hurdle rate on debt-funded data-center buildouts and hedges the benefit banks get from steeper curves with mark-to-market and credit-demand drag. With a Fed that has already hiked and signalled more, there is no near-term policy offset to cap yields, so equity risk premium stays squeezed into today's PCE print.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdU92dlh4cVhyZkhtcW9aOEZyZXAwWERYNFdFQXBZZnREZVQ5TFplZnZjMHc0TzFSUWQ1WDN6aEg4a2ROb0g2SmZEWjhENHMybG9OTGJ6cTFCNWlqczROREpCV0tQU2VKbUFXMnZYeDBNTTh0MWNYS3lPZjBhWk5rR0dYYmpDcUhNc0stakhtWkR5OXA1M09nUVFIUUJaVGQ2NnlhT0JBMXo?oc=5",
       "alerted": false
     }
   ]
