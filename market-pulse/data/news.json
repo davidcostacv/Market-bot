@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-10-04T12:45:38Z",
+  "generated_at": "2026-10-04T21:48:44Z",
   "session_date": "2026-10-04",
   "items": [
+    {
+      "id": "20261004-mrvl-custom-silicon-catalyst-date",
+      "time": "2026-10-04T11:00:00Z",
+      "headline": "Marvell sets up a single disclosure event that will reprice its custom-AI-silicon pipeline",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "NVDA",
+        "TSM",
+        "ANET"
+      ],
+      "why": "Marvell's valuation rests almost entirely on unquantified custom XPU and optics programmes with a small number of hyperscaler customers, so any socket-level or dollar-content disclosure converts a speculative pipeline into a modellable revenue line. Confirmation of design wins would shift share-of-wallet assumptions away from merchant GPU and toward ASIC vendors; a vague update does the reverse and leaves the stock carrying an unsupported premium. The read-through runs to Broadcom, which is priced on the same custom-accelerator thesis.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkg4VkxVZ1VOSHA0S3c5ekZUQ0VTLVRvVWtmaWRvR09sYWV4Zjd0bl9iV24xczZEUElvY1JIQkNSNm42ajVRNXpLUHNkNGRVM1AydWEwQzZ0cUFQYkphUEh5SEZqWEdETkRSWVh5WEo2LXMtQ0FnamtNR3ZBMEJSQ1BPa1ZWaW9KYWZPWGl4VDVTVktId21qM1FNYjZoWEE5azRRaHdDdy1xeEFYbXlDR25vQ1pBc0xi?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261004-macro-fed-minutes-ism-week-ahead",
+      "time": "2026-10-04T09:00:00Z",
+      "headline": "Fed minutes and ISM services become the rate-path arbiter after the soft payroll print",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "XOM",
+        "CVX"
+      ],
+      "why": "With hiring already decelerating, the minutes are the only near-term read on how much weight the committee places on labour softness versus residual inflation, and that determines the discount rate applied to long-duration tech earnings. A dovish tilt steepens the curve and disproportionately helps small caps and rate-sensitive balance-sheet names; a hawkish tone forces multiple compression in the most extended AI complex. Services ISM carries the incremental information because goods data have been distorted by tariff and inventory effects.",
+      "source": "BBN Times",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWUJuVUlrdEstUEpaQTlFZjJCMmdNOW5HeTdvZUg4d3g4cjVWQzZJYUJDOWktTEtIamI2cFp6WXU4eUpNOG1CLWFNQ25DX3BmbkxSb01KRU84cmNSeG9WRFRlUkdTWEpEdUNkTFJla2ctNWd1WGVNdnhvZXkwMENZS21pTzdjQTVhWUlldkN4RElKMUJUeDhMaVRCVDk3cXRLcGhxUFpvYW1jcnNIUG1zRk8xdHpwZ2syenE5X0JUNA?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261003-smci-backlog-credibility-questioned",
       "time": "2026-10-03T23:00:00Z",
@@ -18,6 +58,26 @@
       "why": "SMCI's equity value rests almost entirely on the conversion rate of announced orders into recognized revenue at a low single-digit operating margin; any doubt about whether the backlog is binding, financed, or concentrated in one customer compresses the multiple far more than it changes near-term revenue. Because server integrators sit downstream of GPU and memory allocation, a credibility discount at SMCI is a sentiment negative for the rack-scale buildout narrative rather than a demand signal for NVDA, AMD or HBM suppliers. Watch whether the orders carry deposits \u2014 unfunded backlog is working-capital-destructive at these margins.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbWY3MWRuZG9kMklRbnp3QnViWG54aGFzT29ZSURmc3Myc05fc2t4Y1JFZ3AxVVF2R0R0dnhRN2RucjNYdjRYNHZNUGNzRGM0dmJpQzhpM3lBd1dqQmRja3VQWmFqOTZpWHcxSjdpNTZSa2phT2hEc3VYdXNwdEdiR3hHMzdLbGZ4aHdMa25YSV9ha3BUcGllVnA0dlg0d05BeDJJRTlYT29mbEVmRHZfcHdvRElvR0s1RE81bHYwQUFsck02Q09pYzc2eGdOczBLeGhoMzJKbzRIQi1lbVJyTXlXcmFnQWNEVFc3ZHFyZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261003-avgo-circular-financing-scrutiny",
+      "time": "2026-10-03T15:00:00Z",
+      "headline": "Vendor-financing structure behind Broadcom's Anthropic chip commitment draws circular-funding scrutiny",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "ORCL",
+        "AMD",
+        "MSFT",
+        "AMZN"
+      ],
+      "why": "The mechanism that matters is accounting and credit quality, not the headline order size: when a supplier funds the customer that buys its silicon, revenue is recognised ahead of the customer's ability to self-fund, so backlog converts into receivable and counterparty risk rather than cash. If investors start discounting AI bookings that carry supplier financing, the multiple on the order book compresses even with no change to reported EPS. It also raises the cost of the debt these vendors are raising to fund the commitments, which is a direct drag on free cash flow.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ2lZZFB3ZmpQSGlxanc4a1d0NjE4ZHBqMkRRREFaYUc0MHZfZ0dPLVBBeGtIeFg5UHBKbjdoZ21FeS1YTFVnOG4wQmhDaUdpSnF6MF93ZmhrUEMzWUV3T050eVZ1eHBSRXF1TnJtaWhuUVdRNmYtc09jU1l2VWlsOWEydEJYRlVxa082ZVZWUUVpN0l4eWo3d1JKd0l4ODd2eEJuTmg4bXVYQzNvZHdOd2ctVE85SWJXcUE0aU9ZUmtuUC1RcW9XV3dPUjFWMzBoSTJydQ?oc=5",
       "alerted": false
     },
     {
@@ -38,6 +98,30 @@
       "why": "Reports now size the total structure at up to roughly $100B versus the ~$60B senior tranche previously disclosed \u2014 the figures conflict because the larger number appears to include junior notes and backstopped paper, so the incremental balance-sheet risk is unclear. Mechanically, vendor-financed XPU demand converts uncertain customer capex into contracted Broadcom revenue, pulling forward the custom-accelerator order book but transferring counterparty credit risk onto AVGO's balance sheet, which argues for a lower multiple on the same earnings. The read-through is positive for foundry and memory content per rack (TSM, MU) and for networking attach (ANET), since financed capacity still gets built.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOFRKRU5aSnMyWWJ1ZUJyWTllSElsRnRzbzBhTmZDRG41eTMzS05oelVOR0F1RllpS0s2OWRlb21fM2lUMU1fZ0JKbEJpdVhWRzNybnhlb2pxbDNaZjBmN1R5U1JOdkFLZTI0SHU2bEZNeVN5SDFKRURGcXl1WkFfclZTRk1PQVFXYWdmZ1Y2WWF4QTJmQjhPeUk3ZHJKZl95eDU0OXRjVHVEbnh5MHIxYVlBcklJX0pUNW5zNVVUczR1N0hVVHZoMUJ6dExhSnRXWHhSdHlTOXBUWXprSE5VUlBjZ00?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261003-mu-memory-tightness-extends-2028",
+      "time": "2026-10-03T12:00:00Z",
+      "headline": "Micron signals memory supply stays short into 2028 as fresh orders lock up output",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "AAPL",
+        "TSM"
+      ],
+      "why": "Extending the tight-supply window a full year beyond the prior 2027 assumption changes the shape of the cycle, not just one quarter: it supports contract-price escalators and lets suppliers book capacity at pre-agreed prices rather than spot, which is what justifies a higher trough-earnings multiple on memory names. New clean-room output arrives with a multi-quarter lag, so incremental capex cannot relieve pricing before 2028, which also sustains the wafer-fab-equipment order book. The flip side is a structural bill-of-materials tax for GPU, server and handset builders, who must either absorb DRAM/HBM cost inflation into gross margin or pass it through and risk unit demand.",
+      "source": "briefasia.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnR6TkNIT2otUFM2Y1U5aGVheDJrZ2JRam1PemVQeWdibVdIdkNlN282Z042NkZLU3NGZkVGRE9FN0dyUkZwRDdpVHBDeE1rbERVVU55cGVac2ZndTctLTZhQXJnTmF0X3VlMFZyUEhLVUsxZlZCOUc2V0VJcktzZVQ2c2hfU0phSFJv?oc=5",
       "alerted": false
     },
     {
@@ -722,79 +806,6 @@
       "why": "Wage inflation in a fab-heavy cost base is sticky and structural, unlike memory pricing, so it compresses the incremental margin investors are underwriting on each dollar of HBM upside and caps how much of the cycle flows to EPS. It also tells the market that labour competition for process and packaging engineers is tightening across the sector, a cost read-through for other leading-edge manufacturers. The offset is that guidance was still set above consensus, so the debate is margin quality rather than demand.",
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX0xiUE1NS0k5MzQxcXd5OUwwZ25XekZGSG0xWkFnbEctNUwwNlFEakExZ2dCeFdrNHNCeG9Yekk1V1dRWnVRVXUzUnZuVkp2OFJRZTJfcG1waGcxVHFzdGtacmU4Z3k5UEtlc29wMEwyajFXOThwN1U2d2kxSG1md2V3VS00RFJ0U0VBREZxaldSSTYwS3U5bFVWSVlMUHlmLUp5V240ZlAwdnZHQUo2eg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-nand-datacenter-ssd-inflection",
-      "time": "2026-09-30T20:30:00Z",
-      "headline": "Micron data center revenue up 11-fold; data center SSD revenue near $10B, more than two-thirds of total NAND",
-      "impact": 7,
-      "direction": "bullish",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "SMCI",
-        "AMD"
-      ],
-      "why": "The mix shift matters more than the headline beat: NAND has been the structurally worse business, and if AI context/KV-cache storage and HDD displacement now drive two-thirds of NAND revenue, the segment re-rates from a loss-making commodity to an AI-levered one, lifting through-cycle consolidated margins. DRAM at 73% of sales plus an AI-driven NAND base narrows the share of revenue exposed to PC and handset demand, which is the part of the cycle investors discount hardest. It also signals AI buildout spend is broadening from compute into storage tiers, a demand pull for server OEMs.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PSFA1cXl4cDVITm14U0I1M1pXYnA3ak9LbDVvbkZ1WE15T3RROE1ockpDdWdBRXhUNXlPRTMzeURtbkZLdVAwLWkwaS1UUVloNDVsUGVQRGhQOTUzNXFld0RJaTNfemRiOFY4enFzdDZqUmdHQ0JyTzNn0gF_QVVfeXFMTmtvM2lhcV9sSWxYSEdxNmNSODBOLVhEN3NzdDNTUVRDNklvOXJWYjFISFkwWkFKaUNNMXdRMnczWi1SVkxkU3hxcEJKRFV2eEFpLWNveDRPbExBYnNITVRlYnVYZjJfM2wySXpqTDU5ZjAtaXRLaEZ2MjJQMkVhVQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-macro-fed-ig-powell-cleared-trump-escalation",
-      "time": "2026-09-30T17:00:00Z",
-      "headline": "Fed inspector general finds no criminal misconduct in headquarters renovation; Trump renews demand Powell leave the Board",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS"
-      ],
-      "why": "The renovation probe was the stated legal pretext for a 'for cause' removal, and its collapse narrows the pathway to forcing a governor off the Board \u2014 which should compress the Fed-independence premium that has been embedded in the long end during the current duration selloff. Against that, the White House responding to an exculpatory finding by escalating anyway signals the pressure campaign continues by other means, so term premium and the inflation-breakeven component of yields do not fully unwind. Net effect is on the curve and the dollar rather than on any single issuer's earnings.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWG83SXJvZy1GV0l2M29kZE54MzRPOHU1cUttOEFlWHNKRm56Q1RpcjFUeWxnMzIzVVpseVdoRzRiNVZLbUJxM2F4YjBRNFlPU3ZPU0VseVBRQ29YVHR4MXBIcmowbXU3ZXBGOHFWTUxoTVd1a25qbXFqZFplZXFvWg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-susquehanna-structural-eps-power",
-      "time": "2026-09-30T16:41:00Z",
-      "headline": "Susquehanna frames Micron's earnings power at $30-$40 per quarter near term, potentially $50, on a structurally broader memory customer base",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "The call attacks the core bear thesis on memory \u2014 that peak-cycle EPS is a one-off to be capitalised at a trough multiple \u2014 by arguing demand has diversified beyond a handful of hyperscalers, which is what would justify applying a durable rather than cyclical multiple to the current run-rate. If the Street migrates to a normalised-EPS framework rather than a mid-cycle one, the re-rating comes from the denominator of the P/E, not from any new revenue. Sustained memory capex discipline at these margin levels is also the key swing input for wafer-fab equipment order books.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZE52ME5VRlFPNUVUWWJFclNJUFB6T0IxZlJfRHNuM2dOb1BBaVpZdkctQ19RVTgzV3JOdTlyX01lS3BHVUsyTUswYm5xWXNIUlZuQzlaTkw0U0ZaUVhhaVBwODllRkZkTVZjN2d2V3BaOGlmZTltVmJyR19RZ1pUcW81TkZST2NuQlZyVm9hUUFHOTNJNy1JdlZ5MA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-amzn-rosenblatt-agentic-ad-model-target-hike",
-      "time": "2026-09-30T15:45:00Z",
-      "headline": "Rosenblatt lifts Amazon target to $360 from $335, arguing agentic shopping does not break retail media economics",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "META"
-      ],
-      "why": "The overhang on Amazon's highest-margin segment is the fear that AI agents collapse the discovery-to-purchase funnel and disintermediate sponsored placements, which would hit advertising \u2014 the profit pool that funds AWS capex. The argument here is that the threat is being priced as binary when agent traffic still transacts inside Amazon's own inventory, so the ad take-rate is preserved and the multiple compression is unwarranted. The same disintermediation debate is the live bear case on search and social ad monetisation, so the framework travels to Alphabet and Meta.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay1RNGR6OFBqSE1xM0RQWVNKaUdLNjN6NXFhRTIxZnpTVlAwTzNnQ2RTSWN2MHp6R2RORHJJa2ZsbzA1UnZfYU1iZXVQcFRKRHpSZV9LeFQ2T0szTjE0MTduUTIwYktTY2NXdXFuRDFLM0FZRGk3dGNHODVkbHlQZzNUeVVObmlQZVI4aDFqTlhiLUloRXJIQ3dCYW95NzJHRV9RdVpsaTZ4cG1DTC0tTkZVaTZDU3lqaFZpNm1R?oc=5",
       "alerted": false
     }
   ]
