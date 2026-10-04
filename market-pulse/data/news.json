@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-10-03T21:39:17Z",
-  "session_date": "2026-10-03",
+  "generated_at": "2026-10-04T06:11:56Z",
+  "session_date": "2026-10-04",
   "items": [
+    {
+      "id": "20261003-smci-backlog-credibility-questioned",
+      "time": "2026-10-03T23:00:00Z",
+      "headline": "Super Micro's disclosed multi-billion AI order book draws investor scrutiny after sharp drawdown, shares stabilize",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "MU"
+      ],
+      "why": "SMCI's equity value rests almost entirely on the conversion rate of announced orders into recognized revenue at a low single-digit operating margin; any doubt about whether the backlog is binding, financed, or concentrated in one customer compresses the multiple far more than it changes near-term revenue. Because server integrators sit downstream of GPU and memory allocation, a credibility discount at SMCI is a sentiment negative for the rack-scale buildout narrative rather than a demand signal for NVDA, AMD or HBM suppliers. Watch whether the orders carry deposits \u2014 unfunded backlog is working-capital-destructive at these margins.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbWY3MWRuZG9kMklRbnp3QnViWG54aGFzT29ZSURmc3Myc05fc2t4Y1JFZ3AxVVF2R0R0dnhRN2RucjNYdjRYNHZNUGNzRGM0dmJpQzhpM3lBd1dqQmRja3VQWmFqOTZpWHcxSjdpNTZSa2phT2hEc3VYdXNwdEdiR3hHMzdLbGZ4aHdMa25YSV9ha3BUcGllVnA0dlg0d05BeDJJRTlYT29mbEVmRHZfcHdvRElvR0s1RE81bHYwQUFsck02Q09pYzc2eGdOczBLeGhoMzJKbzRIQi1lbVJyTXlXcmFnQWNEVFc3ZHFyZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261003-avgo-100b-debt-package-upsize",
+      "time": "2026-10-03T12:30:00Z",
+      "headline": "Broadcom reportedly structuring an AI financing package of up to ~$100B, above the previously reported senior tranche",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "TSM",
+        "MU",
+        "ANET",
+        "AMD"
+      ],
+      "why": "Reports now size the total structure at up to roughly $100B versus the ~$60B senior tranche previously disclosed \u2014 the figures conflict because the larger number appears to include junior notes and backstopped paper, so the incremental balance-sheet risk is unclear. Mechanically, vendor-financed XPU demand converts uncertain customer capex into contracted Broadcom revenue, pulling forward the custom-accelerator order book but transferring counterparty credit risk onto AVGO's balance sheet, which argues for a lower multiple on the same earnings. The read-through is positive for foundry and memory content per rack (TSM, MU) and for networking attach (ANET), since financed capacity still gets built.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOFRKRU5aSnMyWWJ1ZUJyWTllSElsRnRzbzBhTmZDRG41eTMzS05oelVOR0F1RllpS0s2OWRlb21fM2lUMU1fZ0JKbEJpdVhWRzNybnhlb2pxbDNaZjBmN1R5U1JOdkFLZTI0SHU2bEZNeVN5SDFKRURGcXl1WkFfclZTRk1PQVFXYWdmZ1Y2WWF4QTJmQjhPeUk3ZHJKZl95eDU0OXRjVHVEbnh5MHIxYVlBcklJX0pUNW5zNVVUczR1N0hVVHZoMUJ6dExhSnRXWHhSdHlTOXBUWXprSE5VUlBjZ00?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261003-mu-bofa-memory-tax-estimate-raise",
       "time": "2026-10-03T11:07:00Z",
@@ -757,54 +795,6 @@
       "why": "The overhang on Amazon's highest-margin segment is the fear that AI agents collapse the discovery-to-purchase funnel and disintermediate sponsored placements, which would hit advertising \u2014 the profit pool that funds AWS capex. The argument here is that the threat is being priced as binary when agent traffic still transacts inside Amazon's own inventory, so the ad take-rate is preserved and the multiple compression is unwarranted. The same disintermediation debate is the live bear case on search and social ad monetisation, so the framework travels to Alphabet and Meta.",
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay1RNGR6OFBqSE1xM0RQWVNKaUdLNjN6NXFhRTIxZnpTVlAwTzNnQ2RTSWN2MHp6R2RORHJJa2ZsbzA1UnZfYU1iZXVQcFRKRHpSZV9LeFQ2T0szTjE0MTduUTIwYktTY2NXdXFuRDFLM0FZRGk3dGNHODVkbHlQZzNUeVVObmlQZVI4aDFqTlhiLUloRXJIQ3dCYW95NzJHRV9RdVpsaTZ4cG1DTC0tTkZVaTZDU3lqaFZpNm1R?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-amd-hpe-helios-vultr-rack-order",
-      "time": "2026-09-30T13:16:00Z",
-      "headline": "HPE books first AMD Helios AI rack order \u2014 $1.2B from Vultr \u2014 and lifts FY27 networking growth outlook",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "ANET",
-        "MRVL",
-        "AVGO",
-        "MU",
-        "TSM"
-      ],
-      "why": "This is the first external, dollar-quantified order for AMD's rack-scale Helios platform, which converts the MI450 roadmap from a slideware promise into bookable backlog and materially de-risks AMD's 2027 data-center revenue build. Rack-scale wins also carry far higher content per deployment than loose accelerators, so the incremental revenue per socket is a step change rather than a unit-share gain. The read-through is that a second credible rack vendor now exists outside Nvidia's NVL franchise, which pressures Nvidia's pricing latitude at the margin while pulling through HBM and advanced-packaging demand at Micron and TSMC; HPE simultaneously raising its networking growth guide is a competitive datapoint against Arista.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUFU4ZWRELVpycTJENm1ZM3pTZU1kQ1Jaa3FQUFZTYnBseXltdjg0QkZMcVN5SzA1Ul94a0N0SkZQSk9HRjVncTZyTnNfQUFRa1dxMVlJa2loMVFZamNKU1BkemQ0MFhQUFRMaXJ5S0NsRmYyNW85TUZ3LVpmX0RLZjRxTmdmeUdjeU1qT3lrUDd4Ui00ZjVjem1OcFNzNnRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-macro-core-pce-undershoot-august",
-      "time": "2026-09-30T12:30:00Z",
-      "headline": "Core PCE slows to 3.0% in August vs 3.3% expected; headline holds at 3.4% against a 3.7% forecast",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "TSLA",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "The Fed's preferred gauge undershot on both headline and core, which directly cuts the probability the committee follows through on the October tightening that futures had been pricing after the prior month's acceleration. A lower policy path lifts the discount-rate input for long-duration equities more than it changes near-term earnings, so the repricing runs through multiples \u2014 heaviest in megacap tech and small caps, which carry the most rate beta. It also takes pressure off the front end just as the long end has been selling off, partially unwinding the duration shock.",
-      "source": "cnbc.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQndXXzRXaW96Nkx6SWhIMnZETC0wTWlMelQwWWtkZUhZWjMta0c2akhaMl83Z1dpRjBzOHduOUdrbVlhQXFvR3RYaEUwaHR5MjB6TUVoQzVaclEyQ3VqcDBwVDFNQ0dQM2RpM1JVaDJEX1NVMWZ5U2NYU2NJbUxjRmlNUzdNUlNPbWFvTHZrTHJUSmNCTEdjcnhWOEtXLURId0pXZVFRY3RsM2JKUkRIcnYzb3BNOGVINmFJSERMQ1pjUi1yWnIwZENkcDdYSXfSAdQBQVVfeXFMTXh2SEN5ZlFUdldiYzdtRF9TbUMyVU5NaV9qZUU0NmZMb2RFLTdMMmVfem5YdzBmdXVIM0toa1dTbVg4WnFWa0ZxSWRtZWxCNEl4TERQUDJzU2Nack5QSjU3STZBT0otSWRFZTJuLWQxbWc4QTJtX2FEcW96MTQtem5WbF91VmY0dGlqWVEzdlg0UURrT2RoMXRwQkE2ek5kdGFFX0xOcFVMejNDdzA5YkFoVU9LR1phdlRmekprZHMtLUJmeFR1dF9saGNIU04yeTVPQlU?oc=5",
       "alerted": false
     }
   ]
