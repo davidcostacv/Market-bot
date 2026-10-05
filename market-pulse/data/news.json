@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-04T21:48:44Z",
-  "session_date": "2026-10-04",
+  "generated_at": "2026-10-05T06:04:33Z",
+  "session_date": "2026-10-05",
   "items": [
+    {
+      "id": "20261004-mu-samsung-record-q3-memory-preview",
+      "time": "2026-10-04T23:00:00Z",
+      "headline": "Samsung guided to a record quarter on memory, confirming DRAM/NAND pricing power is still accelerating",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "TSM",
+        "NVDA",
+        "SMCI",
+        "AVGO",
+        "AAPL"
+      ],
+      "why": "Samsung is the largest memory supplier, so its preliminary print is the cleanest read on whether contract DRAM/HBM pricing is still rising rather than just spot-driven, which is the single variable that sets Micron's gross margin path for the next several quarters. A record result driven by memory mix implies suppliers are still allocating rather than discounting, which supports Micron's pricing assumptions and pulls forward memory capex that flows to the wafer-fab-equipment names. The flip side is cost: sustained DRAM/HBM inflation is a bill-of-materials headwind for server builders and handset OEMs, and it raises the input cost embedded in AI accelerator systems. Note the coverage conflicts on what the W100tr figure actually measures \u2014 some outlets frame it as a profit milestone, others as a revenue-scale record \u2014 so treat the magnitude as unconfirmed until the official release.",
+      "source": "theinvestor.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GMUZxU0Z3RkpSdmJ2NHdlaHZSQ3dMWnlGRUk5bTJJWHMwb1BVazlZNEJiemZUdlhYTC1iUlJKWGZoOTZGaFg1T0FTZFlDaGZ1TG92bWRFVmlmdw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261004-mrvl-custom-silicon-catalyst-date",
       "time": "2026-10-04T11:00:00Z",
@@ -787,25 +810,6 @@
       "why": "A higher capex envelope converts a record revenue quarter into weaker near-term free cash flow and raises depreciation that will sit in cost of goods for several years, which is why the equity sold off after hours despite the beat. The same dollars are order intake for wafer-fab-equipment vendors, so the read-through runs positive for LRCX, KLAC, AMAT and ASML and signals memory supply is being added into the HBM cycle rather than held tight. Sources conflict on the immediate tape reaction: one wire describes shares dropping after hours, another describes shares rising and a third says shares trimmed gains.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjI1SzNObXNzYk96WkIwamZzTnVyWVJUdDMyVGd6Q1RqQWE3YklDQksxOF82bGZrU0ZUWkdxS0FzcFdISDJXYmp3ZEw5bkVvU3ZiRnIxT212LXhUVHdqYzN2bW9XMkE1d2NpSFBmQThlbG4yUDMzSDRQWUlqbVF3UHZMTjlIQ2hQY0dWYVl4N3ZlSzVBazJR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-labor-cost-margin-drag",
-      "time": "2026-09-30T21:00:00Z",
-      "headline": "Micron flags compensation increases as a drag on margins alongside bullish forecast",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "INTC",
-        "TSM",
-        "AMAT",
-        "LRCX"
-      ],
-      "why": "Wage inflation in a fab-heavy cost base is sticky and structural, unlike memory pricing, so it compresses the incremental margin investors are underwriting on each dollar of HBM upside and caps how much of the cycle flows to EPS. It also tells the market that labour competition for process and packaging engineers is tightening across the sector, a cost read-through for other leading-edge manufacturers. The offset is that guidance was still set above consensus, so the debate is margin quality rather than demand.",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX0xiUE1NS0k5MzQxcXd5OUwwZ25XekZGSG0xWkFnbEctNUwwNlFEakExZ2dCeFdrNHNCeG9Yekk1V1dRWnVRVXUzUnZuVkp2OFJRZTJfcG1waGcxVHFzdGtacmU4Z3k5UEtlc29wMEwyajFXOThwN1U2d2kxSG1md2V3VS00RFJ0U0VBREZxaldSSTYwS3U5bFVWSVlMUHlmLUp5V240ZlAwdnZHQUo2eg?oc=5",
       "alerted": false
     }
   ]
