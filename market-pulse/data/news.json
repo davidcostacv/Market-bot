@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-10-05T06:04:33Z",
+  "generated_at": "2026-10-05T15:09:49Z",
   "session_date": "2026-10-05",
   "items": [
+    {
+      "id": "20261005-msft-melius-upgrade-ai-trust",
+      "time": "2026-10-05T13:00:00Z",
+      "headline": "Melius takes Microsoft to Buy from Hold, $665 target, on enterprise AI-security spend consolidating to trusted vendors",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "NVDA"
+      ],
+      "why": "The upgrade thesis is a margin-mix argument rather than a volume one: if corporate anxiety about AI agent security pushes workloads toward a small set of vendors with identity, compliance and security stacks already embedded, Microsoft monetises AI through high-margin per-seat and security SKUs rather than through capital-intensive raw GPU capacity. That matters because the bear case on MSFT has been capex-driven ROIC compression, and a shift in the revenue mix toward software attach defends the multiple. Read-through is competitive share, not sector direction \u2014 it frames GOOGL and AMZN as the ones giving up enterprise AI seats.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQUWZOU0FFblRkSDR1ZWxwRm9KaUY3VEpsQXBEOW04c204TnpmQW1xbXlWZ25zWGF3NTBVSzdnS0ViT2VLS19NSXdUZXg3cmswQUdyeVd3UGFfbFlpTkpIdlJYQUVpbWJTRUJzbnFDWEZTY0lxMlZ1OG9KR3IycUNYRmNoNTRsaWItYUJDVml6OUNsQjZoQjAzdWx0ZXpNWnNyVTE2VkVnQTk4WXcwMDJjOHFLVnRQSUJyZk5RcUw2MHBkYjQwQTZwMlVoOUhrNGJRcTFGZzhOZ3I5WjAyNlpBY2tVOFUxSUFFZ0xzZnJJSHFEOG1nNmF2ekw4cEFmRjZ3V01NMmhrX0FLNFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-semis-sia-sales-top-1t-ytd",
+      "time": "2026-10-05T12:00:00Z",
+      "headline": "SIA: global semiconductor sales clear $1 trillion year-to-date through August",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AVGO",
+        "TSM",
+        "AMD",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "MRVL"
+      ],
+      "why": "Industry billings data is the denominator check on the AI capex debate: it confirms that reported strength is shipped product rather than booked backlog or vendor-financed orders, which is precisely the credibility question hanging over the group right now. Sustained billings growth supports the case for another leg of fab equipment orders, where AMAT, LRCX, KLAC and ASML earnings lag device revenue by two to three quarters. It is corroborating rather than repricing data, so it defends the current multiple instead of expanding it.",
+      "source": "Semiconductor Industry Association",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFNrVUdsNGV5T3ZDa3B6TWMzRlRsVFZEV2lxeWtRNVBKWUVYNEJyd1FRbmtOLTNmSTVYM00wTFk5SzRsMmVZR3JFOGVlQmNFVGRmRHJCNjBsRWlsNHRDSHQ1anB1bmY0VnMyWU8yVGNpdEp1NDU0S2ZPanBSRmcydUFGX1FCQVZ2U003aVpzbXhCRHJBanFNWDZtc05odU5Qckk0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-intc-tsmc-terafab-talks",
+      "time": "2026-10-05T11:45:00Z",
+      "headline": "TSMC in early talks to join Musk's Texas 'Terafab' venture, undercutting Intel's foundry anchor-customer thesis",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "AMD",
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "TSLA"
+      ],
+      "why": "Intel Foundry's equity story rests on landing a mega-scale external anchor customer to fill 18A/14A capacity; a Musk-scale greenfield US fab routed to TSMC removes the single largest prospective volume pool and pushes Intel's foundry breakeven further right, which is a multi-quarter earnings-path and multiple issue, not a one-day headline. For TSM it reinforces pricing power and sole-source leading-edge status, and any Terafab buildout is incremental WFE demand for AMAT/LRCX/KLAC/ASML regardless of who runs it. Sell-side commentary attached to the move also flagged continuing Intel data-center share loss to AMD as a second leg of the de-rating.",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLThvSlNCWEFYbzVmSTJkTllvb2dHN0gxSE5FSDJ2ZEpBal92MmhxZXhyTWd6cC1vU2J2N2Zxc2JCVFpVelltZk50d2Z5TWREdDdCV054VFR4NlUycUMyVHFCTzkxaXM2R2N3YXVvbkF4M2RnbG9JVWhuNVVGWHhOY1E3aGpnSmRSWkFwNG9ZdEg5aHl1S3dvbWF6Y0EtRmZsemhHSXdfbUh2U0VMcG9Tc1ZUNHU3QVlNRWJySy1GZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-qcom-huawei-ip-cross-license",
+      "time": "2026-10-05T04:30:00Z",
+      "headline": "Qualcomm signs multiyear cross-licence with Huawei spanning 5G, AI, compute and optics IP",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "QCOM",
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "AAPL"
+      ],
+      "why": "QTL licensing is the high-margin annuity that carries Qualcomm's multiple, and a signed multiyear agreement with a major Chinese handset and silicon vendor converts a disputed, litigation-exposed royalty stream into contracted revenue with far less variance \u2014 the kind of thing that lifts the terminal value investors assign to the licensing segment. The reciprocal leg, licensing Huawei's LogicFolding packaging IP, also gives Qualcomm access to advanced-packaging technique at a time when chiplet and co-packaged optics capability is the gating factor on AI silicon roadmaps, a read-through to AVGO and MRVL custom-silicon economics. The offset is that it strengthens a sanctioned Chinese competitor's data-center ambitions, a slow-burn negative for NVDA's China position and a potential magnet for Washington scrutiny of the deal itself.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNFRNYVlaVXdabGFRQjMzanU4S1RFMzQxSHdvZDJOYWNjUjNCY0NVaHRYQ0VVZ21MSmRxWGFHcnYydkZoN29peTlId3hJOUJqTHFFMTJpV2NiUk1sTC0yMXItNmZkOGtxcTA2cE1vNnVFazZSaVJGU1RVNVQxTXBwQjAxb1ZQVFNyUmFMRHVPLU9mRlVpc2RVNFlNX1paSHFFLTQyYkdaQWw1djBMODEtSjllSEdxLWk3bWs0VTk4aXZDcWNPV3lOYkl3SkdCZndlNXhCb2NGcHQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261004-mu-samsung-record-q3-memory-preview",
       "time": "2026-10-04T23:00:00Z",
@@ -145,6 +229,26 @@
       "why": "Extending the tight-supply window a full year beyond the prior 2027 assumption changes the shape of the cycle, not just one quarter: it supports contract-price escalators and lets suppliers book capacity at pre-agreed prices rather than spot, which is what justifies a higher trough-earnings multiple on memory names. New clean-room output arrives with a multi-quarter lag, so incremental capex cannot relieve pricing before 2028, which also sustains the wafer-fab-equipment order book. The flip side is a structural bill-of-materials tax for GPU, server and handset builders, who must either absorb DRAM/HBM cost inflation into gross margin or pass it through and risk unit demand.",
       "source": "briefasia.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnR6TkNIT2otUFM2Y1U5aGVheDJrZ2JRam1PemVQeWdibVdIdkNlN282Z042NkZLU3NGZkVGRE9FN0dyUkZwRDdpVHBDeE1rbERVVU55cGVac2ZndTctLTZhQXJnTmF0X3VlMFZyUEhLVUsxZlZCOUc2V0VJcktzZVQ2c2hfU0phSFJv?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-macro-china-aviation-parts-export-squeeze",
+      "time": "2026-10-03T12:00:00Z",
+      "headline": "Washington slows aircraft-component export licensing to China as leverage in rare-earth and trade talks",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "GE",
+        "SPY",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "QCOM"
+      ],
+      "why": "Using export licensing on a non-semiconductor supply chain as negotiating leverage widens the trade conflict beyond chips and invites symmetrical Chinese retaliation in rare earths and critical materials, which feeds directly into semiconductor and magnet input costs. The immediate P&L exposure sits with aerospace aftermarket and engine suppliers whose China deliveries get delayed, deferring high-margin spares revenue. The second-order risk for the watchlist is that a tit-for-tat cycle raises the probability of fresh Chinese restrictions on US chip purchases, re-introducing a China revenue haircut that had largely been priced out.",
+      "source": "InternationalFinance",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaXg3YjcxZ1dHVzVxUmZHWmk3R1VQcFl4RXc5TXRyTGY4VDVXMGR0VndSSkRXNS1LWjhZLWJ4TVYwR3lUSlpMQlhWVUNwTmdhZk5FM3hUcXZJbGxkay1XZzRNVXJ2SmJJZF81TlRxNkdQc3lmR2ZVRmQyZWZSQ2JEc25nS1JUTlRnWThBRnZndmhzbzRNSDZJT01SclVxSW5KbVJLUmhndm82VWs?oc=5",
       "alerted": false
     },
     {
@@ -706,110 +810,6 @@
       "why": "A multi-year take-or-pay style capacity lease adds contracted RPO at Oracle's cloud unit and improves utilization on non-US capacity, which is the swing variable for OCI gross margin given the heavy depreciation load from its GPU build. Chinese hyperscalers renting offshore compute because restricted parts are unavailable domestically creates a new demand channel that export controls do not currently block, supporting Nvidia-system orders and the downstream memory/networking/server supply chain. The risk is policy: a rule change extending controls to remote access would strand the capacity, so this is a contract with regulatory tail risk attached.",
       "source": "Mezha / FT",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZFJDcTdzSWZ4aG5QT29kZkNjcjdEN3ZpNnJBSVpFQ0xzZmVMOGNxd3FGWGsxYVZ3RkVjdVo1eEt2dUFLMjhEcVlnakwyaVU0VGZkeUVGc3dGYlpVbWc2b1FnNklWQXo2cXg2MHowOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-semis-korea-september-exports-actual",
-      "time": "2026-10-01T00:30:00Z",
-      "headline": "Korean September exports print a record $120.9 billion, driven by semiconductors",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "SMCI",
-        "MRVL"
-      ],
-      "why": "Korean customs data is the earliest hard monthly read on memory and logic shipment volumes and pricing, and a record print confirms that AI server demand is still pulling units through the channel rather than filling distributor inventory. It validates the demand side of Micron's guide and supports the pricing assumptions embedded in HBM and foundry estimates for the December quarter. The actual release replaces the earlier survey estimate, removing a data risk ahead of memory makers' own monthly disclosures.",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORW9GdzNnMW9oNXh1OXJ5a1d2Zlg0NFpFSWNwWEFyZVRkVnoyZkdRZXJCRnV5TVA1YUF3N3NFdnhvbHRIVUl1UEpOVVNpQjRObFVKTVl3SkdBNXJsTmkyeml5SHdycUZOZXNLdVhrSEZ3NVhwUlRBZUtBQUtES0RsTjBTMVlsWHVrZmhEY3gyczZwaHZ6MFQyamVzVG9mTTRhMk1YV25EN0JEQdIBrwFBVV95cUxQVDhmNFBJQWJRMnhkLThMQk8zVnM3OHlVR1pudXA1MDh5c0ZQY1M0QmRnN19WZ3BRTVRXSWxoRXBVSF83NlVtRENnamRMZ3RWZUNWa2xpSHpwV1JuRTZsTDFMM3pSNGU5Ym12bi1mWmlkMUhNb2F2OFFIV3piS0I5ZzFLWHNPR182cDVid2t0OHlKT1ZFSDRBT0dXU1Y0c0JnckVwbHBFZ2QxUldGSkFv?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-sca-backlog-2027-selloutted",
-      "time": "2026-09-30T22:30:00Z",
-      "headline": "Micron says 26 take-or-pay strategic customer agreements now cover 35% of revenue through 2030, with over 75% of 2027 output already committed",
-      "impact": 8,
-      "direction": "bullish",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "SMCI",
-        "AVGO",
-        "AAPL",
-        "TSM"
-      ],
-      "why": "Take-or-pay contracts convert a historically spot-priced, cyclical P&L into contracted volume and price, which is a multiple argument rather than an earnings-beat argument: the bear case on memory has always been that peak EPS is not capitalizable, and locked 2027-2030 minimums at prices management describes as much higher than 2026 remove that discount. Management also said it can only fill roughly half to two-thirds of its largest AI customers' demand, meaning the shortage is rationed rather than cleared. The flip side is input-cost inflation for anyone buying DRAM/HBM by the stack \u2014 GPU, accelerator, server and handset BOMs all get more expensive into 2027, which is a gross-margin headwind for system assemblers and a pass-through test for the chip designers.",
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/10/01/micron-blew-past-estimates-and-says-it-cant-see-when-the-memory-shortage-ends/",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-nvda-custom-hbm4e-nvhbm",
-      "time": "2026-09-30T22:00:00Z",
-      "headline": "Mehrotra says Micron is building the industry's first custom HBM4E implementation with Nvidia for next-gen GPUs and NVLink Fusion platforms",
-      "impact": 7,
-      "direction": "bullish",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "AMD"
-      ],
-      "why": "Custom HBM is a design-in, not a commodity sale: a part co-engineered into Nvidia's next GPU generation and NVLink Fusion carries switching costs, longer qualification cycles and ASPs decoupled from generic DRAM spot pricing, which raises Micron's structural gross margin floor and share-of-wallet beyond the current cycle. For Nvidia it de-risks the memory bottleneck on its roadmap by adding a second non-Korean source tied to its own spec. Read-through to custom-silicon programs at Broadcom and to TSMC packaging, which must land the stacks.",
-      "source": "Benzinga (Q4 2026 earnings call transcript)",
-      "url": "https://www.benzinga.com/news/26/09/62095451/transcript-micron-technology-q4-2026-earnings-conference-call",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-inventory-build-cycle-signal",
-      "time": "2026-09-30T21:30:00Z",
-      "headline": "Micron's beat comes with rising inventory on the balance sheet, the one metric bears watch for a memory cycle turn",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "TSM"
-      ],
-      "why": "In memory, days-of-inventory is the leading indicator that matters \u2014 pricing power inflects when supply catches demand, and the gross margin line follows with a one-to-two quarter lag, so a build against record shipments is the first crack in the tight-supply narrative underpinning the ~86% guided margin. The offsetting read is that inventory can be deliberate pre-build against contracted HBM commitments rather than unsold product, which is why coverage of the same print conflicts: some wires describe shares rising on the results and guidance while others report the stock slipping after hours on this line item. Note the headline mislabels the period as Q3; the disclosure is fiscal Q4.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdEVxYWFLVnd6WXlGY29pS0czYXdqMUo1T3FIc0VIZlFJdlJMNGhCVDJlck9xal9tMjlqd1BFYVlqdW1DaU9EOWhZTlpXOGFpY1l4MEdDMUN0Z0ZFejV5Qllab3FfVlBnZDMzMHJzT1o4MkZkekh5eS1jSDV6eE5wVjR1OFBjemw4cVZIcWVJdHI3MERxbExUVUdGdWQwZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20260930-mu-capex-step-up-wfe-readthrough",
-      "time": "2026-09-30T21:15:00Z",
-      "headline": "Micron's raised capital spending plan overshadows Q4 beat and above-consensus Q1 guidance",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ASML",
-        "TSM",
-        "NVDA",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "A higher capex envelope converts a record revenue quarter into weaker near-term free cash flow and raises depreciation that will sit in cost of goods for several years, which is why the equity sold off after hours despite the beat. The same dollars are order intake for wafer-fab-equipment vendors, so the read-through runs positive for LRCX, KLAC, AMAT and ASML and signals memory supply is being added into the HBM cycle rather than held tight. Sources conflict on the immediate tape reaction: one wire describes shares dropping after hours, another describes shares rising and a third says shares trimmed gains.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjI1SzNObXNzYk96WkIwamZzTnVyWVJUdDMyVGd6Q1RqQWE3YklDQksxOF82bGZrU0ZUWkdxS0FzcFdISDJXYmp3ZEw5bkVvU3ZiRnIxT212LXhUVHdqYzN2bW9XMkE1d2NpSFBmQThlbG4yUDMzSDRQWUlqbVF3UHZMTjlIQ2hQY0dWYVl4N3ZlSzVBazJR?oc=5",
       "alerted": false
     }
   ]
