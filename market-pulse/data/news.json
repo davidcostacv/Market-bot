@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-10-06T06:43:56Z",
+  "generated_at": "2026-10-06T18:32:52Z",
   "session_date": "2026-10-06",
   "items": [
+    {
+      "id": "20261006-mrvl-investor-day-fy31-targets",
+      "time": "2026-10-06T14:25:00Z",
+      "headline": "Marvell investor day sets ~$20B FY2028 revenue goal and $70B-$90B FY2031 target, above consensus",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "NVDA",
+        "TSM",
+        "ANET",
+        "AMD",
+        "MU"
+      ],
+      "why": "A formal multi-year model raise converts Marvell from a story stock into one with a company-sanctioned earnings path: the FY2028 bar moves above the ~$18.2B analysts carried, forcing sell-side models and the terminal-value anchor higher rather than just the next quarter. The FY2031 range implies custom-silicon and optical attach rates far above what was embedded, which validates the hyperscaler ASIC pipeline that also underwrites Broadcom's backlog, TSMC's advanced-packaging loading and HBM/memory content per accelerator. Risk is symmetric: targets this far out are unverifiable, so the multiple now carries execution risk rather than estimate risk.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSktzMjZMQTdhX1c3MlUtdzNxZUo5WlUwQ0hyVHlrWlBLdHN0XzlRMkd1YzZyTzcxbTVwUFg0b0dZemRwZV9JUWdhRllCX01JNS1sVHFhRjRoNGZQMkZIT0dLck0ycnZHNktPSGhQcm9SWXBfYWdtZllxb0JOaDRYSF9tVkdlT2oyZVFUQy1tc0hULXZ5VEF6ZzBfbnllN28zQ2JsRWkzUWpqWlE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261006-amd-citi-cpu-tam-meta-muse",
+      "time": "2026-10-06T12:30:00Z",
+      "headline": "Citi lifts AMD target to $800 from $575 on a $300B 2030 CPU TAM driven by agentic AI workloads",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "META",
+        "NVDA",
+        "TSM",
+        "MU"
+      ],
+      "why": "The call re-rates the part of AMD nobody was paying for: server CPU, by arguing agent inference workloads consume host-CPU cycles at a far higher ratio than training did, expanding the addressable market rather than just shifting share. If the TAM assumption holds, AMD's EPYC mix compounds on top of MI-series accelerator revenue, raising gross-margin-rich volume and the sustainable growth rate used in the multiple. Read-through is two-sided: a bigger CPU pie also helps Intel's server unit, while the implied agent-compute intensity supports accelerator, foundry and memory content per rack.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPalRicUZHUzZhUUF6Vl9xR1ZOblQ1ellGNW5PLXBrcTc5dW1TXzg4VEFEalJXNTNkczJmV2ozcS1kYVE0SEtjZzZyRFVjZWYyZG9FVkIyZEpuWk9zZzZvLUlwR01aX2JvUGtNVnBmS2NqSkFTTkFkR0I4MGMzSVdMLWYwY09NOHRncFlnNThkOGNsanE4cFo0N0p5eFYtWjFSR0xmUWh2c1owSHg3RWdWdFd5bnduQkVzZUx4S0s1cG40QWZXT1k2THAwOA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261006-macro-rare-earth-truce-expiry-nov10",
+      "time": "2026-10-06T08:00:00Z",
+      "headline": "China's rare-earth export-control suspension runs out November 10 with no renewal signalled",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AVGO",
+        "MU",
+        "TSLA",
+        "GE",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "Rare earths and the magnet/polishing-compound chain sit upstream of wafer fabrication, motors and defense electronics, so a lapse re-introduces an input-cost and allocation risk that buyers must hedge by building inventory, pulling working capital forward and compressing margins. The binary calendar date creates an event premium: hedging demand rises into early November regardless of outcome, which widens the risk premium on China-exposed hardware and auto supply chains. It also raises the probability of retaliatory US action, reopening the export-control overhang on accelerator and equipment names just as the group trades at peak multiples.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdnlHOHdWWFJuWGNBMU9KNFNQcHhQMTZuZXFCV29hSE5VYlBqNUNmRVFPaUFScmd5U05yNTdlUG1BcXZUZmdkNGRBWDJidURVQlcweXpibXduTVFZTHpLaFhqM0F1bmZ6eXRrUklkNjFwTlVSa3VfQkE2WVBLMWVTMUZ5Ym55QlB6dGhXcW5yLUhGMmZ1RGQ3QlY2amtGYzZfaVR1R2R3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261006-asml-china-duv-stockpile-huawei-push",
+      "time": "2026-10-05T22:00:00Z",
+      "headline": "Reports of multi-billion Chinese DUV tool stockpiling and Huawei-coordinated domestic equipment push",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "INTC"
+      ],
+      "why": "Pre-buying ahead of possible restrictions pulls equipment revenue forward, which means the China line in 2027 bookings is borrowed from, not recurring \u2014 a backlog-quality issue the sell-side has been treating as run-rate. A Huawei-coordinated domestic toolchain also attacks the service, parts and upgrade annuity that underpins the equipment makers' high-margin installed-base revenue, which is the most defensible part of their multiple. Offsetting it, domestic Chinese capacity remains node-limited, so near-term leading-edge share for TSMC and the US foundry effort is unaffected.",
+      "source": "Global Sources",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZk11dUlxTnE1TmZ0dlk0LXNybkVxUDRKNklWaEtFeks2aWJObGhnUzVOWTNaWU1CNGpjTFFoS2tMUV9YQUNhY0ZkUms3LVNNVFFGNGhIc2s5aHBhMkhoOFRmbmdUdnJJS3BHSE9OeWJkMnhyTHUwZ01mNFZWVU83dWUxVENhbjNzb3FucGhJNmVyVTRtdWRuNXViNmJfdXVWZjRTZTY3VFNTdDl5QVB6TkczNmZnTzQxNm9qdjNiLW1yV0ZRSUIwTmpCcGQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261005-mu-morgan-stanley-ow-1200-target",
       "time": "2026-10-05T19:13:00Z",
@@ -741,85 +825,6 @@
       "why": "The six-session long-end selloff was the binding constraint on equity multiples \u2014 long-duration growth and unprofitable small caps derate mechanically as the discount rate rises \u2014 so the reversal relieves the valuation pressure that drove September's drawdown even with earnings estimates unchanged. The setup is binary into Friday's BLS release: a weak print validates the rally in rates and re-opens the cut path, while another upside surprise pushes the 10-year back toward its highs and re-compresses P/Es. Bank net interest margin and capital-markets names sit on the opposite side of that trade.",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNell5VzVqSmJ4ZnhuUC0wNXU3ZVkyaG0tX0MwMWRrMi04eFlBckNwaXpkeXB6dHA4WEtFUUU3MU5qM0UzX0NqV1EzUTdyQnBvLWYxajlLeWo3UVNNR1JFa29ncm5vQ0hJRUNFS1JnenNuUmdELXJ2UEpYa2JpQmZzYW9sby1rS2hXUXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-hpe-networking-guidance-raise-ai-orders",
-      "time": "2026-10-01T16:35:00Z",
-      "headline": "HPE lifts FY26 networking segment growth outlook to 72-75% and raises full-year EPS/FCF guidance at networking investor day; Networks-for-AI orders now seen above $3B",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "HPE",
-        "ANET",
-        "AVGO",
-        "MRVL",
-        "AMD",
-        "NVDA",
-        "SMCI"
-      ],
-      "why": "This is a guidance raise, not a product announcement: HPE took up FY26 revenue growth, non-GAAP EPS and free-cash-flow ranges, pushed Juniper integration synergies to $800M run-rate by FY28, and now expects fiscal 2026 Networks-for-AI orders above $3B versus a prior $2.5-3.0B frame, with FY27 networking revenue growth guided to high teens. The mechanism for the sector is that back-end/scale-out networking attach is being pulled forward faster than compute itself, which expands the dollar content per AI rack for merchant switching silicon and optics suppliers and validates the second-source accelerator rack (AMD Helios) as a funded, orderable platform rather than a roadmap item. Read-through is two-sided for Arista: a bigger AI-networking TAM supports multiples, but a re-energized Juniper-inside-HPE competing on full-rack bundles raises the risk of price competition in enterprise and neocloud deals.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUFU4ZWRELVpycTJENm1ZM3pTZU1kQ1Jaa3FQUFZTYnBseXltdjg0QkZMcVN5SzA1Ul94a0N0SkZQSk9HRjVncTZyTnNfQUFRa1dxMVlJa2loMVFZamNKU1BkemQ0MFhQUFRMaXJ5S0NsRmYyNW85TUZ3LVpmX0RLZjRxTmdmeUdjeU1qT3lrUDd4Ui00ZjVjem1OcFNzNnRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-acn-bookings-beat-it-services-rerating",
-      "time": "2026-10-01T14:00:00Z",
-      "headline": "Accenture beats on revenue and bookings and guides FY27, dragging global IT services and software higher",
-      "impact": 6,
-      "direction": "bullish",
-      "tickers": [
-        "IBM",
-        "MSFT",
-        "ORCL",
-        "CRM",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "Accenture's new bookings are the earliest observable proxy for discretionary enterprise IT budgets, and an order intake beat with an operating margin that widened year over year argues the deflationary 'AI eats services' thesis is not yet showing up in signings. That removes a specific overhang the market had applied to the software and services complex, where multiples had compressed on the assumption that agentic AI cannibalises seats and billable hours. Read-through is to the enterprise software and hyperscaler consumption names whose growth depends on the same budget line, not to the semis.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTlBlNmx2dzRYQWtTZy1QSEx6N3dFcHotNDFheXJ6eFpOM1EyVHEwakoxN3g3RDdNa0RLdWNIV1VQR01ESm1BV3k5Qms4dmtGYUVBNDgtMUxKSXJ4dnlOZ0dwcm03Qmx1ZVZ1b0MwMC0xRnh1SUtXMll6eTlrSE9ndjZpWDhCelVrdGIzbXJ3TzFHbmNmejJueXZ0T1B1WUhaOEx4NDlmUkowb1g5UGpOM0k1LXN4NTN1VEMxeU9pZ0VIdVk?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-amzn-goldman-conviction-list-add",
-      "time": "2026-10-01T13:10:00Z",
-      "headline": "Goldman Sachs adds Amazon to its U.S. Conviction List with a $375 12-month target",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMZN",
-        "MSFT",
-        "GOOGL",
-        "NVDA"
-      ],
-      "why": "Conviction-list inclusion is a positioning catalyst rather than an estimate change, but it forces long-only accounts benchmarked to the list to revisit underweights in the name. The thesis rests on AI workloads converting into AWS backlog and on retail margin expansion holding, which is where the earnings upside versus consensus sits. It also lands alongside the SPV chip-financing report, both pointing at management optimizing the cash-flow optics of the AI capex cycle.",
-      "source": "Yahoo Finance / MarketWatch",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adds-amazon-conviction-131040547.html",
-      "alerted": false
-    },
-    {
-      "id": "20261001-avgo-anthropic-42b-vendor-financing",
-      "time": "2026-10-01T13:00:00Z",
-      "headline": "Anthropic IPO prospectus reveals Broadcom will lend up to $42B against a five-year, $125.2B TPU compute lease",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AVGO",
-        "GOOGL",
-        "NVDA",
-        "MU",
-        "TSM",
-        "MRVL",
-        "AMZN"
-      ],
-      "why": "This converts a custom-silicon customer relationship into contracted multi-year backlog: Anthropic is set to become Broadcom's largest compute customer in 2027, which underwrites XPU/networking revenue well beyond the current guidance window and supports a higher multiple on AVGO's AI segment. It also validates the merchant-ASIC/TPU path against Nvidia GPUs and pulls through HBM and foundry content at MU and TSM. The offset is credit and circularity risk \u2014 Broadcom is financing roughly a third of its own customer's lease commitment, with restricted-cash and default-acceleration provisions disclosed in the filing, so a funding stumble at Anthropic now lands on Broadcom's balance sheet.",
-      "source": "Yahoo Finance / Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemFCVVVMbTlzbTRyYUdWeWp4T3BGcUhRUGFGUjk2Nm1jd3BiNHl1TWJ0Qnh0THpsQkRPOGZDS29JM2VtUTFEWjlHdDRBM2NocUg1Z1F4S0ZENzBENFU2Q3V0aUp6UjdWSW1xel9qSmJ5cEZJczExU0lvMUhlb3NQTGo3T3lnRVZrbWFhaFVWdXh2MnNtakw3VlFfY0lVQQ?oc=5",
       "alerted": false
     }
   ]
