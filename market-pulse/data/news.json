@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:32:52Z",
+  "generated_at": "2026-10-06T22:45:23Z",
   "session_date": "2026-10-06",
   "items": [
     {
@@ -67,6 +67,32 @@
       "alerted": false
     },
     {
+      "id": "20261006-semis-korea-september-chip-exports-record",
+      "time": "2026-10-06T04:00:00Z",
+      "headline": "South Korea's September semiconductor exports top $60B for the first time as total exports hit a record $120.9B",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "AMD",
+        "MRVL",
+        "SMCI",
+        "QQQ"
+      ],
+      "why": "Korean customs data is the highest-frequency read on global AI hardware demand because Samsung and SK Hynix supply most of the world's HBM and server DRAM; chip shipments more than tripling year over year is physical confirmation that memory volumes and ASPs are both still climbing, not just order books. That validates the forward DRAM/NAND pricing assumptions embedded in Micron's and the WFE names' estimates, so consensus FY27 numbers across memory and equipment are more likely to be revised up than down. It also de-risks the AI capex narrative at a point when the market is paying very high multiples for it.",
+      "source": "The Diplomat",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSTMtdlZzR2M2eEJDNWhJbTVRNkIzcUZUTUdKWDVaV1lMY29IVy0xM19MTDZmNGg4V2h2ODhEMG1ncmxJOFVsQXQ1MzNOUzZRZWk0Q1BqSm91S2VFcGlYTFNRYkd1ZVlYMzlXcU0tWVBhQnZKNVRCZ2p3cGFGajZiSm9semZKWm1oT2RhVUFBSG5nYXhjazhYZkk2WWc0RnZQZmZheU1UZnFQQ0xpRHc?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261006-asml-china-duv-stockpile-huawei-push",
       "time": "2026-10-05T22:00:00Z",
       "headline": "Reports of multi-billion Chinese DUV tool stockpiling and Huawei-coordinated domestic equipment push",
@@ -84,6 +110,48 @@
       "why": "Pre-buying ahead of possible restrictions pulls equipment revenue forward, which means the China line in 2027 bookings is borrowed from, not recurring \u2014 a backlog-quality issue the sell-side has been treating as run-rate. A Huawei-coordinated domestic toolchain also attacks the service, parts and upgrade annuity that underpins the equipment makers' high-margin installed-base revenue, which is the most defensible part of their multiple. Offsetting it, domestic Chinese capacity remains node-limited, so near-term leading-edge share for TSMC and the US foundry effort is unaffected.",
       "source": "Global Sources",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZk11dUlxTnE1TmZ0dlk0LXNybkVxUDRKNklWaEtFeks2aWJObGhnUzVOWTNaWU1CNGpjTFFoS2tMUV9YQUNhY0ZkUms3LVNNVFFGNGhIc2s5aHBhMkhoOFRmbmdUdnJJS3BHSE9OeWJkMnhyTHUwZ01mNFZWVU83dWUxVENhbjNzb3FucGhJNmVyVTRtdWRuNXViNmJfdXVWZjRTZTY3VFNTdDl5QVB6TkczNmZnTzQxNm9qdjNiLW1yV0ZRSUIwTmpCcGQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-macro-equity-records-despite-5pct-long-end",
+      "time": "2026-10-05T20:30:00Z",
+      "headline": "S&P 500 posts its first record close since mid-August and the Nasdaq sets an all-time high with the 10-year holding near multi-decade highs",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "META",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Equities re-rating to records while the long end sits near its highest yields since the early 2000s means the entire index gain is coming from earnings expectations and AI-capex enthusiasm rather than a falling discount rate, which makes the market unusually sensitive to any downgrade in AI revenue visibility. Breadth is concentrated in a handful of semis and megacaps, so index-level risk is effectively a single-factor bet on the AI trade. The bond market's message and the equity market's positioning cannot both be right indefinitely.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-nvda-spacex-exclusive-ai-datacenter-commitment",
+      "time": "2026-10-05T20:00:00Z",
+      "headline": "SpaceX's AI data-center build is Nvidia-exclusive, with a multi-gigawatt compute ramp and a large incremental GPU deployment landing this month",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "MU",
+        "AVGO",
+        "TSM",
+        "ANET"
+      ],
+      "why": "A new non-hyperscaler buyer committing exclusively to Nvidia silicon widens the customer base beyond the four hyperscalers that dominate current revenue, which is the single biggest bear argument against Nvidia's multiple (customer concentration and circular financing). Gigawatt-scale compute translates mechanically into rack, networking, HBM and foundry wafer demand, so the read-through extends to SMCI, Arista, Micron and TSMC. Note the GPU count and timing circulating in secondary coverage are not company-confirmed and differ between write-ups.",
+      "source": "Stocktwits via TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
       "alerted": false
     },
     {
@@ -215,6 +283,25 @@
       "alerted": false
     },
     {
+      "id": "20261005-googl-gemini4-argon-frontier-reclaim",
+      "time": "2026-10-05T13:00:00Z",
+      "headline": "Alphabet's Gemini 4 Argon puts Google back at the frontier, shifting the AI-spend debate toward cloud monetization",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "NVDA",
+        "META"
+      ],
+      "why": "Frontier-model parity changes the pricing power equation for Google Cloud: enterprises choosing an inference platform anchor on benchmark leadership, and a competitive flagship lets Alphabet convert its TPU cost advantage into margin rather than discounting to hold share. It also reframes Alphabet's heavy capex from a free-cash-flow drag into a revenue-generating asset, which is the condition for multiple expansion. The offset is that no public availability date has been set, so monetization timing remains unproven, and third-party growth figures circulating on this are not company-confirmed.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUTJ4aXhBRi1od0swRTNmU1h2cDBOMlBqcGFjd3g2UVo0VTFrNGNJM3RNaGZaeTlNRWIyRGpIeDV6WENMb1ZHT0FWVzhuaUd1UnE0T3VqdXFIQ1lDRUlTUHBHN05GbDRkSWpaR3AxelZ6dFh6a3dmREpyTVpKcm9ORWpsYkYzQnJuMWsya3F6RkVsNWltRTl0SWNWZlVNSEZJSTBrZkFFdWx0UFU?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261005-semis-sia-sales-top-1t-ytd",
       "time": "2026-10-05T12:00:00Z",
       "headline": "SIA: global semiconductor sales clear $1 trillion year-to-date through August",
@@ -236,6 +323,27 @@
       "why": "Industry billings data is the denominator check on the AI capex debate: it confirms that reported strength is shipped product rather than booked backlog or vendor-financed orders, which is precisely the credibility question hanging over the group right now. Sustained billings growth supports the case for another leg of fab equipment orders, where AMAT, LRCX, KLAC and ASML earnings lag device revenue by two to three quarters. It is corroborating rather than repricing data, so it defends the current multiple instead of expanding it.",
       "source": "Semiconductor Industry Association",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFNrVUdsNGV5T3ZDa3B6TWMzRlRsVFZEV2lxeWtRNVBKWUVYNEJyd1FRbmtOLTNmSTVYM00wTFk5SzRsMmVZR3JFOGVlQmNFVGRmRHJCNjBsRWlsNHRDSHQ1anB1bmY0VnMyWU8yVGNpdEp1NDU0S2ZPanBSRmcydUFGX1FCQVZ2U003aVpzbXhCRHJBanFNWDZtc05odU5Qckk0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-mu-clsa-upgrade-fy27-capex-signal",
+      "time": "2026-10-05T12:00:00Z",
+      "headline": "CLSA lifts Micron to Moderate Buy on a two-year tight memory setup; FY27 capex guided above $50B versus $27B in FY26",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "NVDA",
+        "SMCI"
+      ],
+      "why": "The upgrade matters less than the capex arithmetic behind it: a near-doubling of Micron's equipment spend is a direct order book for the deposition, etch and metrology vendors, and it is the clearest evidence that suppliers believe tightness persists rather than reverting. Crucially, capex of that size is being funded out of cash flow from elevated DRAM pricing, so it signals confidence in sustained ASPs rather than a debt-funded supply glut. The risk cuts the other way in 2028 if that capacity lands into softer demand.",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3VRcUFPa2ktNXU0N0FselBIRTZ0TFRGZFFpc1NuTjJRY0V0RVBHMHJwWXlGX2xGM29CNVFYd3FWRGpyRE41TTBLWGptRUkxTEdBS25iUFNvV2duTWxQRDdEbU1PVUF2WWY2TkNEamhKMUQ0dkd5S0RVa29sdGtRMWlKWWNZdFpyYkhJbHJGbEFKbzhaZS05bDk2OUQyTDFjdGZzUzBabFZJdk00R0NSUHJKVzR1SkJmOTlpLQ?oc=5",
       "alerted": false
     },
     {
@@ -718,113 +826,6 @@
       "why": "No cash leaves AMD, so the cost shows up as share count rather than the balance sheet \u2014 accretion depends entirely on whether the spatial-AI software stack pulls Instinct and rack-scale Helios attach rates higher against Nvidia's full-stack position. Until revenue synergies are quantified, the near-term EPS path is diluted while the strategic optionality argues for a higher multiple, hence a two-sided setup. Closing is subject to regulatory approval, which leaves an antitrust-review overhang on timing.",
       "source": "Barchart.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZEtMNEh5WDdUTjhBVmp5ZXhZODRWXzRZaC1pOG1qUC04Zl93Q3JfcHdkRDBqSnhmc2hYY0VXa0xDaS04WmtuNXdBLTl2RnRLV2NnSkZ6TWV4TFBBOFE1M0JOUUZKTGRHeTR2VVA0N3BUWlhSelhiODRzQ29wZHI0RXR0SEFORlB6TkE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261002-macro-asia-riskoff-bond-selloff-resumes",
-      "time": "2026-10-02T08:00:00Z",
-      "headline": "Global long-end selloff resumes overnight, Hong Kong leads Asian equities lower into the US payrolls print",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "META",
-        "AMZN",
-        "GOOGL",
-        "PLTR",
-        "AMD"
-      ],
-      "why": "Thursday's relief in Treasuries did not hold, and the renewed push in global long-end yields raises the discount rate applied to the longest-duration cash flows, which is precisely where AI infrastructure and megacap tech valuations sit after a quarter of multiple expansion. Hong Kong taking the sharpest hit matters beyond China because it is the liquid venue where offshore investors cut AI and semiconductor beta first, so it functions as an early read on positioning rather than on Chinese fundamentals. The setup also raises the asymmetry around today's US employment data: a hot print pushes yields higher and compresses multiples even if it is good for cyclical earnings, while a weak print revives the rate-cut bid but reopens the growth question for enterprise and consumer-facing names.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLW5EbjY3VGs4eW1DUUpkZzVUX1YxZkRMMmVHRUliejBKcXoybm5UMUZhNEhicFBITEVYOUMwWnlfZ3BKN2JUZDFtS28za2JkZ3Y1QklXZ3AydGozaWlvbWdsbjZVcVNWNnRKTkEwZWNKM2J0RjY1STlBY2tVTlZlNkRVajlZM3FSa2dDRnk1cFh1QWF2eW9QREgwZW5WTlQ1TlhnX3BwTWltRFBiWDJGSDBWM3FUTFlrNTh1Vg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261002-asml-duv-total-china-ban-push",
-      "time": "2026-10-02T08:00:00Z",
-      "headline": "China's stockpiling of ASML immersion DUV tools revives US push for a near-total export ban",
-      "impact": 6,
-      "direction": "bearish",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "MU"
-      ],
-      "scope": "sector",
-      "why": "The mechanism is a revenue cliff risk, not a headline: China remains a large slice of ASML's DUV system and service backlog, and a ban extending to servicing would strip recurring high-margin installed-base revenue that investors capitalise at a premium multiple. Evidence that Chinese fabs have accumulated hundreds of immersion systems strengthens the policy case in Washington and raises the probability the Dutch government acts, so the equity carries a widening policy discount until the scope is defined. Pull-forward buying also means any ban is followed by an air pocket in China orders for the whole WFE complex, which is why AMAT, LRCX and KLAC trade with it; the offset is that constraining China's 7nm and advanced-memory capacity protects pricing for TSM and MU.",
-      "source": "SCMP",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVVjMUZ0bk5LNFBPdmF6TllpNzZ4YzhSM2FDelVjdWZ0SnJ4YUJpeUFDWnM1NWYzVEk4VEU0a3lsUWRXTXpUcTVjX3EwYWdqaHhzSjVQdkppVllpYzd0a2ZVS3RDZkc3c0k2Q2paUnZ3dnlEWnlvMlhRRnNPN0JUUGcwMUJwcFJhRHV4R0JxemlkT01NdWRYN0g0SEVaaVNqTFVkazFGa3ZPNGdiMjBUak03MDlWbDE4RE1kdV9oY2hGcHNMSjdR0gHHAUFVX3lxTE16dEZheU9DZm9tUEpNOTk5R25kcEQ5V1VBVk1pM1pGdm5MS0p3OXhFVURjSk5hSjNBU2pJWmVpQzdUbWFSYzlFQS1UZXhaVlkwTG56NmxNRkdSTzVfOXQ0elhQNHJ1SEItZEZrakRURXhBLVhGaU9Oc1lGX0NoM3JxWEh5ME5qdTFGRXdxTFNVSVBuOHZNU2tzOGZiYl90Y0IxaWhBclVEbDk3eDZfTU1HV2h0Q2xYX040dDhLS1VpMUJQcTBVTzg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261002-amzn-nvda-gpu-sale-leaseback-spv",
-      "time": "2026-10-02T04:12:00Z",
-      "headline": "Amazon in talks to move ~$8B of installed Nvidia Grace Blackwell systems into an SPV and lease them back (FT)",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "AMZN",
-        "NVDA",
-        "ORCL",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AVGO",
-        "MU"
-      ],
-      "why": "Moving already-deployed GPUs off balance sheet converts depreciation and capex into lease expense, protecting reported free cash flow and the credit rating while AI capex keeps climbing \u2014 it changes the quality of AMZN's cash-flow line more than the earnings level. The read-through is the bigger point: if hyperscalers can syndicate GPU assets to outside capital, the funding ceiling on accelerator orders rises, supporting the demand curve for NVDA, AVGO and memory. It also adds to the vendor- and structured-financing stack now visible across AI buildouts, which bears will treat as a late-cycle signal.",
-      "source": "Reuters via Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/amazon-seeks-to-offload-8-billion-of-nvidia-chips-to-investors-ft-reports-4928877",
-      "alerted": false
-    },
-    {
-      "id": "20261002-nvda-doj-server-smuggling-arrest",
-      "time": "2026-10-02T04:00:00Z",
-      "headline": "DOJ arrests California server-company CEO over $300m of Nvidia-powered systems routed to China via Malaysia and Singapore",
-      "impact": 5,
-      "direction": "uncertain",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "AVGO",
-        "AMD"
-      ],
-      "scope": "sector",
-      "why": "Criminal enforcement against transshipment through Southeast Asia is the practical lever Washington has left, and it changes behaviour faster than rulemaking: integrators and distributors tighten end-user diligence, which chokes off grey-market volume that currently shows up as legitimate demand in Singapore and Malaysia billing. Near term that trims a slice of unofficial China-bound units; it also raises the odds of new licensing requirements on second-tier Asian buyers, a compliance overhang for every US AI server and accelerator vendor. It does not touch sanctioned hyperscaler demand, so the earnings effect is second-order rather than a guide-down risk.",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPTS1ZdWR6VWFvcURsdGFQNUZjODR2QkZVOFk4c3hBT3hBNnlyY0k1Q0oyRzNFNk4wY0Q3VTlKdEU0aVdUdGZHNW1YWkN2LUxpcUE4MmJBdVhSRkFyLTFRSEhocUloZTB1MnFNYnV6TmN0WENtUC01aGc5WkpLazJBZGZuNGYtVzZNYmoyX2pDQjNYS1VYSHd5MklwTk1aVWYwNktaUm1JWms0SGFEbWlTMDBXYzJZRUYtWURTQ2lZaVZxMmptaDdnWDctek81dWJQME4xTHh4a1FQT1NPWHMycWptS0hvUzYxVWhOZXBqVWd2VVgxWWlOWWJRWDg3SGY4OVFMY3lPbGVyU3pXa3QzZnlnTGxtWGRicDhjYjdvbndvTzJGNHlxS05Ja25FRGMyeF96Q1hjLU9JWmlrQ2RBUkw3Tm42dDEzU245ZmxFdVZlT0RtbTVaRUcwTk5TbDJEa3FPdXpyeVZ6OUFxMWY3Yzkwa3JIcERwM0NmX3ozUjJaLWcwY3FXN1FKNm1lMUF4UFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-macro-long-end-reversal-into-payrolls",
-      "time": "2026-10-01T18:00:00Z",
-      "headline": "Treasury yields reverse lower off multiyear highs as desks position for a soft September payrolls print",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "PLTR",
-        "MSFT",
-        "AMZN",
-        "JPM",
-        "GS"
-      ],
-      "why": "The six-session long-end selloff was the binding constraint on equity multiples \u2014 long-duration growth and unprofitable small caps derate mechanically as the discount rate rises \u2014 so the reversal relieves the valuation pressure that drove September's drawdown even with earnings estimates unchanged. The setup is binary into Friday's BLS release: a weak print validates the rally in rates and re-opens the cut path, while another upside surprise pushes the 10-year back toward its highs and re-compresses P/Es. Bank net interest margin and capital-markets names sit on the opposite side of that trade.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNell5VzVqSmJ4ZnhuUC0wNXU3ZVkyaG0tX0MwMWRrMi04eFlBckNwaXpkeXB6dHA4WEtFUUU3MU5qM0UzX0NqV1EzUTdyQnBvLWYxajlLeWo3UVNNR1JFa29ncm5vQ0hJRUNFS1JnenNuUmdELXJ2UEpYa2JpQmZzYW9sby1rS2hXUXc?oc=5",
       "alerted": false
     }
   ]
