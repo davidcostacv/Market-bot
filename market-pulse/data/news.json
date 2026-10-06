@@ -1,7 +1,100 @@
 {
-  "generated_at": "2026-10-05T15:09:49Z",
-  "session_date": "2026-10-05",
+  "generated_at": "2026-10-06T00:14:56Z",
+  "session_date": "2026-10-06",
   "items": [
+    {
+      "id": "20261005-mu-morgan-stanley-ow-1200-target",
+      "time": "2026-10-05T19:13:00Z",
+      "headline": "Morgan Stanley reiterates Overweight on Micron with a $1,200 target after guidance lands far above its own consensus",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "SMCI"
+      ],
+      "why": "Morgan Stanley is one of the two swing voices on memory cyclicality, so a reiterated Overweight with a target this high signals the sell side is now underwriting HBM/DRAM pricing power well past the usual cycle-peak discount rather than fading it. The firm's own tracked consensus sat materially below Micron's own revenue and EPS guide, which means street models still have to move up \u2014 the earnings revision path, not the multiple, is doing the work. Sustained memory tightness is a cost headwind embedded in NVDA, AMD and SMCI system BOMs and a capex pull for the WFE names.",
+      "source": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbktHN0NOSW9sXzZmNGFWQjhnVHZudkI5b0R3MXp2aWU3cmVFaGYxazc0bHVTX3JRVTVVbjNZdkFnc1lDMWRUNFE0RVJMV2NoN3NtdVBYSldsVzdJM1RFUlF1Wm03X3Q5aElPMWVLU1MyX0hncHNkbzBpMFZNVHdEb1N2X1B2Mm9mU0JvaGg1RUhodlpOQnY3NE5Zc0NqUXJkNnQwd180N0JPUU9BZ2pVMU9ZZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-amd-street-target-hikes-cluster",
+      "time": "2026-10-05T18:00:00Z",
+      "headline": "AMD collects another round of price-target hikes as the semis bid pauses after a two-day run",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "The target raises are not sentiment \u2014 they follow analysts folding MI450/Helios rack-scale volumes and higher server CPU share into 2027 models, which lifts the revenue base the multiple is applied to rather than just the multiple. A clustered move from multiple desks, including a BofA raise to $720, resets the anchoring range buyers use into the November print. Upward AMD accelerator estimates are a direct foundry and HBM volume read-through to TSM and MU, and a rack/networking attach read-through to SMCI and ANET.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT043SWVaUnRPMHFnUjNLSHFrOG84cEt2WXZ5SGRZbUN3a3RJZGVRdlJjblk3UFpuemJOMTlKanpUVFp0YXR6SXYyTHp1ZDZCZGViXzFyRXctOWp3S0VTTm9Ha1psT2JFWTN0emxLclhPZGc0a1dsYjNieEdWZURBRzdxcklMV081MVY1RWlfVlhIZm8?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-amd-stifel-q3-beat-raise-setup",
+      "time": "2026-10-05T14:00:00Z",
+      "headline": "Stifel frames AMD's Q3 as a beat-and-raise on EPYC, with the Q4 guide hinging on MI450 ramp economics and gross margin",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA",
+        "TSM",
+        "MU"
+      ],
+      "why": "The call shifts the debate from accelerator hype to server CPU share gains, which carry far higher incremental margin and are already shipping \u2014 that supports the near-term EPS line independent of MI450 timing. The flagged risk is gross margin dilution as low-margin accelerator racks scale, so the guide's margin framing is what decides whether the stock re-rates or de-rates on the print. Every point of EPYC share is a direct transfer out of Intel's data-center P&L.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWVE3N0duQ2pLemhWeFhjT2ZkajZtRldUQV9DdzBsVkdtRFdaTjZ0WW9BSVFhZE44Z0pBVzNJNmI5TjJoRmt2ZGhEcWtpT2QwWXdFQ25JdkNPc3o1djE2WldxNlozYm5CZHBPOGVUakZVeVFMWkJWM193UmpyVkJYcUNFZndPZ0lGVjhNRWgzQUlQb2FZelZHZzA1NG0zbWFUUEY4NTVkZlV2Ym8wakxKaFlXMElKNnJEa0FpQU1mWDBERlFfMmYwN0R4bkVTZzA1c3Z2azVRcW52emRqYTdpa0hhMHVVVGZ6WmZTQ2VkdXotUG0yMTFJUU5MTXoteXNi?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261005-macro-10y-yield-2002-high",
+      "time": "2026-10-05T13:30:00Z",
+      "headline": "10-year Treasury yield pushes to a fresh high since 2002 as the long-end selloff extends into a fourth session",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AAPL",
+        "TSLA",
+        "PLTR",
+        "ORCL",
+        "CRM",
+        "NFLX",
+        "AVGO",
+        "AMD"
+      ],
+      "why": "The discount rate on long-duration cash flows is the single biggest input into mega-cap tech multiples; a benchmark yield at levels not seen since 2002 mechanically compresses the P/E the market will pay for 2027-2030 AI earnings even if those earnings are unchanged. It also raises the cost of the debt now funding hyperscaler and AI-infrastructure capex, tightening the return hurdle on GPU and data-center spend, and makes dividend-free growth names relatively less attractive versus risk-free paper. Equities have so far absorbed it (Nasdaq at records), which is itself the fragility: the cushion between yields and the AI bid is thinning.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IaFZaeFFMQnFxZVQ0dXBXRmExY1pmcHNKUVM1ejBOSWtSQ3huNTlpV2pnTDVvQlJtbV8xV3pyaWFQT1FTWVF2VWgxZDNuR0ZxT2w0YXFCWGs4My1mNFJtcW5ERU1BeUczVHJPdzNoeFZQVTRMaVE40gF8QVVfeXFMUG5tZW9UYkJTZW05R3NiNGdUb3ZZd2puOFo4S2h0UmZudkJ4R2hRU0d5aDM1WmFXY1BBdy1ZWjQ4aGtjVFBQSHEwSnlFYkNLSlhFeFhzVGFzc050QzZqRTVkczVFdjliZ0RtRDlqdWZXNFV3amY4ZDRlQ25RSw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261005-msft-melius-upgrade-ai-trust",
       "time": "2026-10-05T13:00:00Z",
@@ -735,81 +828,6 @@
       "why": "Frontier-model leadership is the input that drives Google Cloud seat and token consumption and defends search monetisation against assistant substitution, so capability gains translate into Cloud revenue mix and pricing power rather than a one-off headline. A materially better coding model also raises the inference compute base Alphabet must buy, which feeds TPU volumes at its merchant silicon partner. The shares did not respond, implying the market is treating model releases as table stakes until Cloud backlog conversion shows it.",
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFJYSndhR29UX2xLdWVJSDZJUm5FVEFELXBHTHJRNzBiVlpFVEx6TEVib3ZJODdoWkhpbGhHOXlIdjcyYTVnSnBHNUVzX3E3alZQaDl1SDNwWHd2Z21GZHBfRTREanJmWTBtRDFsWjZRRXA4VlJjYXZNSTh4c2ViaUxWajZMbjd5RUU5NWJlOFJaRlhRV3NiNEQ4MXY2d0pVcGxEdXJ4NTdZSXVHN0FObmY0MldMNW5ZZlFwZWsxUlVXdmYzRGtuRkdDZmZSS3JPMmMtSkNfazk4UQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-lrcx-briley-target-hike-wfe-readthrough",
-      "time": "2026-10-01T12:00:00Z",
-      "headline": "B. Riley raises Lam Research price objective to $390 from $350, keeps buy",
-      "impact": 5,
-      "direction": "bullish",
-      "tickers": [
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML",
-        "MU"
-      ],
-      "why": "Deposition and etch tool orders are the downstream claim on the memory capex cycle Micron just stepped up, so a target raise here is really an upward revision to 2027 wafer-fab-equipment spend assumptions rather than a company-specific call. If memory makers are adding greenfield DRAM and NAND capacity against sold-out 2027 output, WFE revenue recognition shifts earlier and the order book lengthens for the whole equipment group. Mid-tier house, so treat as confirmation of the capex read-through rather than a new catalyst.",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaUxwWjdSblJoeGxJbXRCZnVFY1hLMEwyclhKRkM5VEZDQ3BNSVEzYlk4N0c4X2poZXB2SHVTdGRpSFB4UmtITUFUd3dUb2NBQWIzUVVoOGhtbGRyeUtfYVNxRjNyWl80c2o0cUtNNkJHTGtnZ3N5WEF0SkJvMk1aWkRyTGluTmotS3JVU08ybkpXVHFNZWxlbTgzcHQwNW55aGZjOGpSY1RKRk1DSG92c3E3QjQxb2hjbTZVTFhQYVhJRmdfZ0JRRGg1V0lwVmxzLUFPS2hhOU5PZ2cyYVE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-nvda-china-state-funded-grey-market-purchases",
-      "time": "2026-10-01T09:00:00Z",
-      "headline": "Bloomberg: Chinese state-backed leasing entities financed purchases of export-restricted Nvidia AI chips via sale-and-leaseback structures",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Documented state-financed diversion \u2014 with filings later amended to scrub hardware and supplier detail \u2014 is exactly the evidence base Washington uses to tighten end-use verification, widen entity listings and extend controls to leasing and offshore access. That raises the probability of incremental restrictions that cap the addressable China revenue Nvidia and AMD still book, and historically any enforcement tightening also catches WFE vendors through licence delays. It does not change near-term numbers, but it shifts the policy risk premium embedded in China-exposed semiconductor multiples.",
-      "source": "Yahoo Finance Singapore / Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTzBQdXdUWWRIZVBRVk9QelotYzhkaHpEenp5aVpJUUx6ZWp2U2l1cm9fenFUazgxbnl3Sk1YQlpnT1Zva1VSVl9aOXN4ckhJQVpyODVuYU9QRk1PT29RSktqOHpSMHBkdTVGMUJ3X3E4VnF6YnBndkxLVXdNYjlVZXJoWkd2MGlZYkpodUpR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261001-mu-rosenblatt-target-hike-margin-outlook",
-      "time": "2026-10-01T07:56:00Z",
-      "headline": "Rosenblatt lifts Micron target to $1,900 from $1,500, buy rating, on the margin outlook",
-      "impact": 5,
-      "direction": "bullish",
-      "tickers": [
-        "MU"
-      ],
-      "why": "A target move of this size is an estimate-model change, not a sentiment nudge: it implies the analyst is carrying contracted HBM pricing into out-year gross margin rather than mean-reverting it, which is the single assumption that determines whether memory earns a cyclical or a secular multiple. Mid-tier coverage, so the signal is in the modelling convention spreading across the Street rather than in the flow the note itself generates.",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-raises-micron-stock-price-target-on-margin-outlook-93CH-4926483",
-      "alerted": false
-    },
-    {
-      "id": "20261001-orcl-tencent-offshore-gpu-lease",
-      "time": "2026-10-01T04:00:00Z",
-      "headline": "Tencent signs ~$7B, five-year lease with Oracle for roughly 100,000 AI chips in Asian data centers",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "AVGO",
-        "MU",
-        "TSM",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "A multi-year take-or-pay style capacity lease adds contracted RPO at Oracle's cloud unit and improves utilization on non-US capacity, which is the swing variable for OCI gross margin given the heavy depreciation load from its GPU build. Chinese hyperscalers renting offshore compute because restricted parts are unavailable domestically creates a new demand channel that export controls do not currently block, supporting Nvidia-system orders and the downstream memory/networking/server supply chain. The risk is policy: a rule change extending controls to remote access would strand the capacity, so this is a contract with regulatory tail risk attached.",
-      "source": "Mezha / FT",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZFJDcTdzSWZ4aG5QT29kZkNjcjdEN3ZpNnJBSVpFQ0xzZmVMOGNxd3FGWGsxYVZ3RkVjdVo1eEt2dUFLMjhEcVlnakwyaVU0VGZkeUVGc3dGYlpVbWc2b1FnNklWQXo2cXg2MHowOA?oc=5",
       "alerted": false
     }
   ]
