@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-06T22:45:23Z",
-  "session_date": "2026-10-06",
+  "generated_at": "2026-10-07T06:19:42Z",
+  "session_date": "2026-10-07",
   "items": [
+    {
+      "id": "20261007-semis-taiwan-chip-resale-indictments",
+      "time": "2026-10-06T16:00:00Z",
+      "headline": "Taiwan prosecutors indict 10 over alleged resale of restricted US-origin chips into China via Hong Kong",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "TSM",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Criminal enforcement inside Taiwan's supply chain raises the cost and risk of grey-channel diversion, which has been an unmeasured incremental demand sink for high-end accelerators and AI servers. Tighter policing trims that off-book volume at the margin for GPU and server vendors, while also lowering the tail risk of a fresh US licensing clampdown on Taiwan-based ODM/distribution partners. Net earnings effect is small, but it shifts where regulators focus next and adds compliance friction for channel partners.",
+      "source": "Taiwan News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OX1o4cGdlbWVUQVhtam1IZHg0MVF0YXhwQU5GY08tXzVrczNUNFJpblJrVGZoZ1F6VDFlZXBSYzg5TVYxakctQVQ5TE1yRVBxWGNMTVI5UFE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261006-mrvl-investor-day-fy31-targets",
       "time": "2026-10-06T14:25:00Z",
@@ -41,6 +60,23 @@
       "why": "The call re-rates the part of AMD nobody was paying for: server CPU, by arguing agent inference workloads consume host-CPU cycles at a far higher ratio than training did, expanding the addressable market rather than just shifting share. If the TAM assumption holds, AMD's EPYC mix compounds on top of MI-series accelerator revenue, raising gross-margin-rich volume and the sustainable growth rate used in the multiple. Read-through is two-sided: a bigger CPU pie also helps Intel's server unit, while the implied agent-compute intensity supports accelerator, foundry and memory content per rack.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPalRicUZHUzZhUUF6Vl9xR1ZOblQ1ellGNW5PLXBrcTc5dW1TXzg4VEFEalJXNTNkczJmV2ozcS1kYVE0SEtjZzZyRFVjZWYyZG9FVkIyZEpuWk9zZzZvLUlwR01aX2JvUGtNVnBmS2NqSkFTTkFkR0I4MGMzSVdMLWYwY09NOHRncFlnNThkOGNsanE4cFo0N0p5eFYtWjFSR0xmUWh2c1owSHg3RWdWdFd5bnduQkVzZUx4S0s1cG40QWZXT1k2THAwOA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261007-macro-cooling-wages-factory-softness",
+      "time": "2026-10-06T12:30:00Z",
+      "headline": "Index futures slip as cooling wage growth and soft factory data complicate the growth-versus-rates trade",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Decelerating wage growth removes a key input to services inflation, which supports the discount-rate side of equity valuation, but paired with sluggish factory activity it also undercuts the nominal revenue growth embedded in cyclical earnings estimates. That combination argues for continued narrow leadership in AI/secular-growth names over small caps and industrials, since the index-level multiple is being held up by duration rather than broadening profits. The direction depends on which leg the upcoming CPI print confirms.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd2YxTlUyQlJMNlM0LXlIa2JaZldfcHFSekc5MFY5QVFDeXI2QVFmWnlzWEw1QmFpeWM1YS1mQ3JzZHhrbjIyVGN0SVlKTjVyVF9jRi1fRXZQNk94Y1BDanFpNkJXNmpnWDg1M29xcmlINTkxVDE5MXgwbWZxbFZyckxFZFdEaDdHSHo5ZktqWExndw?oc=5",
       "alerted": false
     },
     {
@@ -793,39 +829,6 @@
       "why": "Integrated majors' upstream cash flow tracks the strip almost one-for-one, so a policy-driven supply release compresses forward price decks and the buyback capacity that has underpinned energy valuations, with refining crack support also at risk if distillate barrels are released. Sources differ on the magnitude of the move, with one report citing a roughly 3% drop and price data showing Brent down about 2.6% on the day. The second-order effect is disinflationary and therefore supportive of the broader index on the same day as a weak payroll print.",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261002-tsla-q3-deliveries-print-due",
-      "time": "2026-10-02T10:00:00Z",
-      "headline": "Tesla Q3 vehicle delivery print lands today with the sell side modeling a year-on-year decline",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "TSLA"
-      ],
-      "why": "Deliveries are the only hard quarterly datapoint between earnings reports and they set the automotive gross margin path, because fixed cost absorption across Fremont, Austin, Shanghai and Berlin moves with volume and any shortfall is cleared with price or financing incentives that hit margin directly. Consensus coming into the print clusters around a year-on-year decline against a tough prior-year comp inflated by US EV credit pull-forward, so the risk is skewed to how much of the quarter was discount-driven rather than to the headline unit number. Estimates in circulation conflict, spanning roughly 435,000 to 470,000 units, so the bar itself is unusually loose and the stock reaction will key off mix and energy storage deployments as much as total vehicles.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261002-amd-world-labs-all-stock-deal",
-      "time": "2026-10-02T09:00:00Z",
-      "headline": "AMD's ~$8.2B all-stock purchase of World Labs reframed as an AI capability bet funded by dilution",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "No cash leaves AMD, so the cost shows up as share count rather than the balance sheet \u2014 accretion depends entirely on whether the spatial-AI software stack pulls Instinct and rack-scale Helios attach rates higher against Nvidia's full-stack position. Until revenue synergies are quantified, the near-term EPS path is diluted while the strategic optionality argues for a higher multiple, hence a two-sided setup. Closing is subject to regulatory approval, which leaves an antitrust-review overhang on timing.",
-      "source": "Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZEtMNEh5WDdUTjhBVmp5ZXhZODRWXzRZaC1pOG1qUC04Zl93Q3JfcHdkRDBqSnhmc2hYY0VXa0xDaS04WmtuNXdBLTl2RnRLV2NnSkZ6TWV4TFBBOFE1M0JOUUZKTGRHeTR2VVA0N3BUWlhSelhiODRzQ29wZHI0RXR0SEFORlB6TkE?oc=5",
       "alerted": false
     }
   ]
