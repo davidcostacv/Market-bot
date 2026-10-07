@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-10-07T06:19:42Z",
+  "generated_at": "2026-10-07T13:45:00Z",
   "session_date": "2026-10-07",
   "items": [
+    {
+      "id": "20261007-storage-toshiba-fears-cantor-buy-dip",
+      "time": "2026-10-07T13:30:00Z",
+      "headline": "Memory and storage complex sells off on Toshiba capacity fears; Cantor tells clients the de-rating is a buying opportunity",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "WDC",
+        "SMCI"
+      ],
+      "why": "The market is testing whether incremental HDD/nearline capacity additions break the supply discipline that is driving current memory pricing power; if they do, the 2027 bit-price curve embedded in consensus comes down and the whole group's peak-earnings multiple compresses. Cantor's pushback argues the added capacity is too small and too late to dent AI-driven nearline and DRAM tightness, so the move is sentiment rather than an estimate change. Until pricing data confirms either side, this is a volatility event for memory multiples rather than a confirmed earnings revision.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcXJIbjAyeUJUYnZDLXRNVkNoMEVMMlRXZlFZcUhacWUzbFlWWEt1dHNvV3Jac3NObDFVNldTR0ZHQXhZQkJtOXdCdjB5VlRoRHg4NDhzQ0pGWHhvd0NXVThyLUhCTFRWMGQ4MGxJNmhwQjRjdlVQSllnU0xMcUZlY3ptSjhWMXUwaXVmZkRSSTBac0FCV3gwdldjT2o3QjU3SWdiUWN4cjhxZUJKTGU4ZkZMaUNVUzlBN2JxaEQtTnFCZlJwdUFEMlF2UW5jV3lsdGFQRGdOeXVmT00yNjBKQ1R0cVNvdEpRQUpxalV4b2k1YWhVN2dZNU9YdGFIYU0zTUpvYXdqYmhRczZFTkhQX0JCZFM?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261007-mrvl-tdcowen-upgrade-buy-350",
+      "time": "2026-10-07T11:30:00Z",
+      "headline": "TD Cowen upgrades Marvell to Buy from Hold, target to $350 from $245, calling custom XPU concentration risk 'largely de-risked'",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "TSM",
+        "ANET"
+      ],
+      "why": "The bear case on Marvell has been single-customer XPU concentration; shifting the growth narrative to the connectivity/optical DSP franchise broadens the revenue base and justifies a higher multiple rather than a cyclical one. A major-bank double-notch move (rating plus ~43% target increase) on the heels of the analyst-day framework pulls buy-side models toward the upper end of custom-silicon TAM, which also validates merchant AI connectivity attach rates for Broadcom and the hyperscaler ASIC supply chain. Note the stock fell on the day despite the upgrade, suggesting the de-risking thesis was already partly priced after the prior session's rally.",
+      "source": "TradingView / Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPYVczYXJYRXVsdWRFUlAwZHNFSnlKWjg3d1hEZi1mOVI1S3BqYnkzNV84ZUtrX293QUlLTkZ2ZzJUMEhVRWxyWDJkOWNWem03SU5Pd0Q2bzVuTlAxeFlZUDFsTHFzdjhyeXVfUTRMRlFCOG9zN2cwYXlkdmctR1NfQ05VTWc2Y2N3SDNwbDR1cVhHVVdaSUdvSW1zajRyVlpRN3Boa0RZWWpIUTNXX19iR19SZk5ucUl5LTFnY3kweGVyTkZSVHhndmNZMmRwSkNRRlVmOVFCdDhqZEJselB4cTRxRmxlemQ0Z0N2akdiLTNKbW1qdUpuc01feVJCQQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261007-mu-taiwan-union-strike-mandate",
+      "time": "2026-10-07T11:00:00Z",
+      "headline": "Micron's Taoyuan union secures strike mandate over bonus scheme, putting DRAM/HBM output at the company's largest manufacturing hub at risk",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "Taiwan is Micron's biggest DRAM and HBM production base, so even a short stoppage hits wafer output and HBM qualification schedules at the exact moment supply is sold out and every incremental bit is high-margin. A settlement also resets the labor-cost base permanently, pressuring the gross-margin trajectory that underpins the memory-supercycle earnings model. Read-through is two-sided: lost Micron bits tighten an already tight market, which supports spot DRAM/NAND pricing for rival suppliers while raising the memory bill for AI server and GPU builders.",
+      "source": "Yahoo Finance / Stocktwits (Reuters-sourced)",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNME1KMFBZSWdvYkFJZkhYTzh6TzNsMkRIY0RhcUgtc2lqTWJ4NDc5dEIxMjdvN0FPUDZxN1FfbjJCczJLaks2UnU1eWJEM2ZoX0JjTzNvXzBrdlRoNUpLMGUyOGhXUm41cVJtUE80ZDNWaEg4bS1RRzZIYVpCbU1HZzVGQ2l6TUxBSzdCNnpXN2Nod3Q0cVE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261007-semicap-duv-export-policy-warning",
+      "time": "2026-10-07T02:00:00Z",
+      "headline": "Research institutions warn allied AI-chip lead could erode within 5-10 years if China keeps acquiring immersion DUV lithography and other advanced tools",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "NVDA",
+        "INTC"
+      ],
+      "why": "Think-tank findings of this type are the policy on-ramp to formal rule changes, and immersion DUV is the single largest remaining legal China revenue pool for the tool makers, so a tightening would hit ASML, AMAT, LRCX and KLAC order books directly rather than at the margin. The offsetting risk is the reverse: if restrictions are not tightened, China's domestic capacity build continues to absorb tool demand near term while seeding a future competitor in mature and eventually leading-edge logic. Either path changes the multiple investors assign to semicap China backlog, which is why the report matters beyond the headline.",
+      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774 / GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONnlYb2NZdW9iX3lxaXN2ZUtfcWRNSUZJOHJ0aEcySm54ektZcWxYc3RDN3pfS3Fia3FyQ1ZPV2RZellqRGpGZVlQcXd6X2lQOHFRQ0VZRENUa3FKWGlpOTMxU2FhUG55VlN0QU1ubk5Ba1phV08tRlZIM1A5RWN3aEF4UWNaQWRSbWZjQnJ2SV9CSVVkVXNyRmJUZl9DNHh5X2tVeWhkMm5YQlFmRExoVnhickpSVjYya2ZrUXlrYjk2dE5IaXI5ZWZnODN5akVXMWdJeHNIbXQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261007-semis-taiwan-chip-resale-indictments",
       "time": "2026-10-06T16:00:00Z",
@@ -749,86 +830,6 @@
       "why": "Deliveries ran roughly 22,000 units above production, meaning Tesla drew down finished-goods inventory rather than discounting into a build \u2014 that supports automotive gross margin ex-credits rather than just the top line, which is the variable the sell side models. The 13.7 GWh energy deployment figure extends the highest-margin segment's run-rate and shifts mix away from the commoditized Model 3/Y, so the Q3 EPS bridge improves on two axes before any ASP assumption changes. Consensus delivery models for Q4 and FY27 get marked up off a higher base, which is what moves the multiple on a stock valued on volume trajectory.",
       "source": "Tesla Investor Relations / Qz",
       "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "alerted": false
-    },
-    {
-      "id": "20261002-macro-september-payrolls-miss",
-      "time": "2026-10-02T12:30:00Z",
-      "headline": "September payrolls rise just 29,000 vs ~84-90k expected; unemployment rate unexpectedly rises to 4.2% from 4.1%",
-      "impact": 9,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "JPM",
-        "GS",
-        "PLTR"
-      ],
-      "why": "The hike tail is what has been compressing equity multiples: the 10-year sat at ~5.24% near multiyear highs this week and sell-side houses had begun penciling in a December Fed hike. A payroll print roughly a third of consensus with a rising jobless rate removes the justification for further tightening and lets the long end stabilize, which mechanically lifts the discount-rate component for long-duration growth and small caps. Equity futures extended gains on the release; the offsetting risk is that sub-30k job growth starts to bite 2027 revenue estimates for consumer- and credit-exposed names.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01cmtHQmdfenM3MnQ0MXpPb3FBaXpRbEtTMDBsbFliajA2bUtBS1p0WGs4cE5UdTlnVU1GUm15T3BPaWJ3T0NxLS1UUUplemZLLTBUa3RPTHV3bmltMTFWelBhbkk1NUJDb29feV9lNG54MkdHYlFJSzU5YVBudw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261002-nvda-morgan-stanley-top-semi-pick",
-      "time": "2026-10-02T11:52:00Z",
-      "headline": "Morgan Stanley reinstates Nvidia as its top semiconductor pick on AI product-cycle ramp and valuation",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "ANET"
-      ],
-      "why": "A bulge-bracket top-pick designation moves institutional positioning and sets the anchor multiple for the group; the argued gap is that the stock has gone sideways while bookings and the next-platform ramp advanced, i.e. a de-rating that the analyst expects to close rather than an estimate change. Because the call explicitly rotates the top slot away from memory after its vertical run, it is a relative negative for MU and a relative positive for compute silicon. Combined with the enlarged repurchase authorization, it supports per-share earnings leverage independent of unit demand.",
-      "source": "Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4649791-nvidia-in-focus-as-morgan-stanley-reinstates-as-top-pick",
-      "alerted": false
-    },
-    {
-      "id": "20261002-storage-toshiba-hdd-capacity-doubling",
-      "time": "2026-10-02T11:48:00Z",
-      "headline": "Nikkei reports Toshiba to spend ~\u00a560bn to double hard-disk capacity at its Philippines plant by FY2027, targeting ~30% share; Seagate and Western Digital sell off hard",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "STX",
-        "WDC",
-        "MU",
-        "SMCI",
-        "NVDA"
-      ],
-      "why": "The AI-storage trade has been underwritten by a three-player HDD oligopoly running sold-out through 2027 with no incremental supply \u2014 a credible capacity doubling from the smallest player breaks the scarcity premise that justified the pricing power, not just the volume math. Pricing, not units, is what carries nearline HDD gross margin, so a share-grab-driven capacity add compresses the forward margin assumption even if demand estimates are untouched. Read-through is mildly negative for Micron's enterprise-SSD narrative, where HDD scarcity had been pushing AI workloads toward datacenter NAND, and mildly positive for server builders like SMCI whose storage BOM cost falls; sources conflict on the size of the move, with reported Seagate declines ranging from roughly 9% to 16%, and Morgan Stanley, Citi and Rosenblatt all reportedly called the reaction overdone.",
-      "source": "Investing.com / Parameter",
-      "url": "https://www.investing.com/news/stock-market-news/seagate-and-western-digital-shares-fall-on-toshiba-hdd-expansion-4929584",
-      "alerted": false
-    },
-    {
-      "id": "20261002-energy-crude-slides-stock-release-talks",
-      "time": "2026-10-02T11:00:00Z",
-      "headline": "Crude tumbles on reports of talks over coordinated diesel and crude stockpile releases",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY"
-      ],
-      "why": "Integrated majors' upstream cash flow tracks the strip almost one-for-one, so a policy-driven supply release compresses forward price decks and the buyback capacity that has underpinned energy valuations, with refining crack support also at risk if distillate barrels are released. Sources differ on the magnitude of the move, with one report citing a roughly 3% drop and price data showing Brent down about 2.6% on the day. The second-order effect is disinflationary and therefore supportive of the broader index on the same day as a weak payroll print.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
       "alerted": false
     }
   ]
