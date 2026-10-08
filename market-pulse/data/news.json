@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-10-08T13:53:45Z",
+  "generated_at": "2026-10-08T23:30:30Z",
   "session_date": "2026-10-08",
   "items": [
+    {
+      "id": "20261008-aiinfra-openai-revenue-gap-ft",
+      "time": "2026-10-08T20:35:00Z",
+      "headline": "FT: OpenAI's annualized revenue roughly $20B below figures circulating with investors, triggering broad AI-complex derating",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MRVL",
+        "MSFT",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET",
+        "PLTR"
+      ],
+      "why": "OpenAI is the anchor counterparty behind a large slice of announced 2026-2029 accelerator, custom-silicon and data-center lease commitments, so its revenue run-rate is the collateral underwriting those multi-year backlogs. A ~$20B lower base shortens the runway for OpenAI to self-fund compute and raises the probability that contracted capacity gets deferred or renegotiated, which hits the credibility of supplier backlog rather than current-quarter EPS. The de-rating therefore lands hardest on the multiple assigned to AI order books \u2014 Oracle's RPO, Broadcom's XPU pipeline, Nvidia's and AMD's forward supply agreements \u2014 not on reported numbers.",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSkwtMXREWGFmUlN5QWR0elhHaENfaTJIX2QwSlpYOVNSRHVNUXd0N2w2cEd3QXpVQzRrdm1tOVBhU1E0ZW9aYVpOQlNZWnBVQjNvdlpmcVp5dm43eTl0NjFBSlM1eHQtaUMxMEwtVC1Ha01yMmhwOGZFaEZsNTIzX0N3SmREMU82NWx2TDl3LVgxRTJp?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261008-macro-claims-low-fire-hawkish-input",
+      "time": "2026-10-08T12:36:00Z",
+      "headline": "Initial jobless claims fall to 197,000, a fourth straight week near multi-decade lows despite weak September hiring",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS"
+      ],
+      "why": "Claims are the highest-frequency read on layoffs, and sub-200k prints remove the labour-market deterioration argument that the rates market was leaning on after the soft payrolls number. That keeps the committee's bias toward one more hike this year intact, which lifts the discount rate applied to long-duration tech and caps small-cap outperformance. The split signal \u2014 weak hiring but almost no firing \u2014 means positioning stays hostage to next week's inflation data rather than resolving in either direction.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMWFoUC1DSlZwckJETlF2WXdjTnhwSkt5UlIxVzBMQVoxVXJ0UjNTdjBDdmlwUmR3V2hQWDBGaTNnLTd1X2VIQVhBcVFmZGJHNGtCODU3RE55eHk2Y0FBbVBEUXF1S2lDaW42Y2VnUk9aRExvMXM1TGFIYjNpcnhTSUc5S1V3Nk1KWkZrSDlyTUFpNTZqYWxraw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261008-macro-september-payrolls-miss",
       "time": "2026-10-08T12:30:00Z",
@@ -137,6 +181,26 @@
       "alerted": false
     },
     {
+      "id": "20261008-avgo-openai-50b-vendor-financing",
+      "time": "2026-10-07T21:58:00Z",
+      "headline": "Broadcom in early talks to arrange more than $50B of private-credit financing for OpenAI's custom chip purchases",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "ORCL",
+        "NVDA",
+        "AMD",
+        "MRVL",
+        "GS"
+      ],
+      "why": "The structure converts a chip order into a credit exposure: Broadcom only books the XPU revenue if third-party lenders such as Apollo and Blackstone fund the gap between OpenAI's upfront hardware payments and its later compute revenue. That de-risks the near-term revenue conversion of the 10-gigawatt custom-accelerator program but embeds Broadcom in the customer's funding chain, which the market prices as a lower-quality, more cyclical earnings stream deserving a lower multiple. It also sets a template \u2014 Oracle is pursuing a parallel framework for a gigawatt-scale site \u2014 so the whole AI buildout becomes rate- and credit-spread sensitive rather than purely demand-driven.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObU9Wc2xwM1A2RjNZaWJVM0ZLZWl3MGJBZUJhdHc5V3hQZXVKZGQzZUxrMjMyRE1EMGJXVEk0dmpzSGRZeURZc3Q5Nm1wdGkyeEprcXBILU5jNGRIT3lHcEVzVWZMbkpBYXVyZ2w4VktBdnBtRUtLUFFjMWlKc2JlZlQ3YUlHblRSRmJjQWNxelhoOFZBQm9iOGNsaTFWaWNGSXVsX2VWbWtkdmFLSmhDbUxuSTZkVUhrODBSb19XcUxWdmh0OEl0R2lHYlg3dw?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261007-macro-long-end-yields-record-fade",
       "time": "2026-10-07T20:30:00Z",
       "headline": "Long-dated Treasury yields resume climbing and knock indexes off record closes, with a coming auction as the next test",
@@ -181,6 +245,26 @@
       "why": "Management reaffirmation after a vertical move in the shares matters mainly because it lowers the odds of a guidance reset \u2014 the main bear case on AMD now is that the OpenAI and enterprise-server commitments are back-end loaded and dilution-financed rather than near-term revenue. Confirming demand tone keeps the MI-series ramp assumptions intact in sell-side models, which is what supports the current multiple. Read-through is to the foundry, memory and networking content attached to each AMD rack shipped.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaE9mZjA3U0lzZDl1Z0xaOTEzRWtxaFpnalNLNTNGZ0VCRXB1bzdJblVublFlMEVQV0Z2bVdlaWppR205dXc1dTdkbUI3SXpOR1BYZU5BajEtZ09NT2RaV2xOeXJPNWxBSS1uSkppM1prR214cFVnQ00xZ1JiamtOekVhYzRIWXp3MW9aUzNncGw2cHdJWEozQmo1TlRsSmY4UlNuT1dld0o2UWFDTnhHWEs0MjZ1akZNendpbmE3SlBhanN1OTRncWkwenp6NjFa?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261008-intc-terafab-partnership-reaffirmed",
+      "time": "2026-10-07T20:00:00Z",
+      "headline": "Intel CEO reaffirms the company stays in Musk's Terafab venture after TSMC talks spooked holders",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "TSLA",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The foundry turnaround thesis rests on landing at least one anchor external customer with committed wafer volume; the prior report of Musk exploring TSMC implied Intel could be displaced before any contract is signed. Management confirming continued involvement restores the option value of that volume, which is what supports Intel Foundry utilisation and the path to breakeven gross margin. It is a de-risking of a tail scenario rather than new revenue, so it caps rather than re-rates the stock ahead of the Oct. 22 print.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd0xSeUJMN1Z5WTVsa1dlQzBETmdtYVhnV1VkbXVxVjFNMVVCWXlkd25CaTJYRDhJUWRhUkJVMFc0WlhWQ2Q2VW1wSnRNbm9jQ3ZMcTBnbWJSamgwU05UY1AzbDM0U0xtRXQycnZ3TG03TEtTa1RNa1h2TUlVQzlzODFPbVRkZkpTTWhkRmU1a1RZMnNlTmRRMU9yQ1dVMDhmbU92QmQ3WHBoWTQ?oc=5",
       "alerted": false
     },
     {
@@ -773,91 +857,6 @@
       "why": "Frontier-model parity changes the pricing power equation for Google Cloud: enterprises choosing an inference platform anchor on benchmark leadership, and a competitive flagship lets Alphabet convert its TPU cost advantage into margin rather than discounting to hold share. It also reframes Alphabet's heavy capex from a free-cash-flow drag into a revenue-generating asset, which is the condition for multiple expansion. The offset is that no public availability date has been set, so monetization timing remains unproven, and third-party growth figures circulating on this are not company-confirmed.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUTJ4aXhBRi1od0swRTNmU1h2cDBOMlBqcGFjd3g2UVo0VTFrNGNJM3RNaGZaeTlNRWIyRGpIeDV6WENMb1ZHT0FWVzhuaUd1UnE0T3VqdXFIQ1lDRUlTUHBHN05GbDRkSWpaR3AxelZ6dFh6a3dmREpyTVpKcm9ORWpsYkYzQnJuMWsya3F6RkVsNWltRTl0SWNWZlVNSEZJSTBrZkFFdWx0UFU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-semis-sia-sales-top-1t-ytd",
-      "time": "2026-10-05T12:00:00Z",
-      "headline": "SIA: global semiconductor sales clear $1 trillion year-to-date through August",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "AVGO",
-        "TSM",
-        "AMD",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "MRVL"
-      ],
-      "why": "Industry billings data is the denominator check on the AI capex debate: it confirms that reported strength is shipped product rather than booked backlog or vendor-financed orders, which is precisely the credibility question hanging over the group right now. Sustained billings growth supports the case for another leg of fab equipment orders, where AMAT, LRCX, KLAC and ASML earnings lag device revenue by two to three quarters. It is corroborating rather than repricing data, so it defends the current multiple instead of expanding it.",
-      "source": "Semiconductor Industry Association",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFNrVUdsNGV5T3ZDa3B6TWMzRlRsVFZEV2lxeWtRNVBKWUVYNEJyd1FRbmtOLTNmSTVYM00wTFk5SzRsMmVZR3JFOGVlQmNFVGRmRHJCNjBsRWlsNHRDSHQ1anB1bmY0VnMyWU8yVGNpdEp1NDU0S2ZPanBSRmcydUFGX1FCQVZ2U003aVpzbXhCRHJBanFNWDZtc05odU5Qckk0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-mu-clsa-upgrade-fy27-capex-signal",
-      "time": "2026-10-05T12:00:00Z",
-      "headline": "CLSA lifts Micron to Moderate Buy on a two-year tight memory setup; FY27 capex guided above $50B versus $27B in FY26",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "NVDA",
-        "SMCI"
-      ],
-      "why": "The upgrade matters less than the capex arithmetic behind it: a near-doubling of Micron's equipment spend is a direct order book for the deposition, etch and metrology vendors, and it is the clearest evidence that suppliers believe tightness persists rather than reverting. Crucially, capex of that size is being funded out of cash flow from elevated DRAM pricing, so it signals confidence in sustained ASPs rather than a debt-funded supply glut. The risk cuts the other way in 2028 if that capacity lands into softer demand.",
-      "source": "AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3VRcUFPa2ktNXU0N0FselBIRTZ0TFRGZFFpc1NuTjJRY0V0RVBHMHJwWXlGX2xGM29CNVFYd3FWRGpyRE41TTBLWGptRUkxTEdBS25iUFNvV2duTWxQRDdEbU1PVUF2WWY2TkNEamhKMUQ0dkd5S0RVa29sdGtRMWlKWWNZdFpyYkhJbHJGbEFKbzhaZS05bDk2OUQyTDFjdGZzUzBabFZJdk00R0NSUHJKVzR1SkJmOTlpLQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-intc-tsmc-terafab-talks",
-      "time": "2026-10-05T11:45:00Z",
-      "headline": "TSMC in early talks to join Musk's Texas 'Terafab' venture, undercutting Intel's foundry anchor-customer thesis",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "AMD",
-        "NVDA",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "TSLA"
-      ],
-      "why": "Intel Foundry's equity story rests on landing a mega-scale external anchor customer to fill 18A/14A capacity; a Musk-scale greenfield US fab routed to TSMC removes the single largest prospective volume pool and pushes Intel's foundry breakeven further right, which is a multi-quarter earnings-path and multiple issue, not a one-day headline. For TSM it reinforces pricing power and sole-source leading-edge status, and any Terafab buildout is incremental WFE demand for AMAT/LRCX/KLAC/ASML regardless of who runs it. Sell-side commentary attached to the move also flagged continuing Intel data-center share loss to AMD as a second leg of the de-rating.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLThvSlNCWEFYbzVmSTJkTllvb2dHN0gxSE5FSDJ2ZEpBal92MmhxZXhyTWd6cC1vU2J2N2Zxc2JCVFpVelltZk50d2Z5TWREdDdCV054VFR4NlUycUMyVHFCTzkxaXM2R2N3YXVvbkF4M2RnbG9JVWhuNVVGWHhOY1E3aGpnSmRSWkFwNG9ZdEg5aHl1S3dvbWF6Y0EtRmZsemhHSXdfbUh2U0VMcG9Tc1ZUNHU3QVlNRWJySy1GZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-amd-warrant-dilution-320m-shares",
-      "time": "2026-10-05T10:41:00Z",
-      "headline": "AMD's OpenAI and Meta compute warrants total up to 320 million shares at $0.01, with final tranches tied to a $600 share price",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "META"
-      ],
-      "why": "The warrants are effectively a customer-acquisition cost paid in equity, so every gigawatt AMD books with OpenAI and Meta converts revenue growth into share count rather than pure per-share earnings; the dilution scales with the stock, meaning the better the AI narrative works, the more tranches vest. With the top tranche struck at a $600 share price, the market's upside case now carries a quantifiable EPS haircut that bull models on the MI450 ramp have largely ignored. It also sets the template rivals are being pushed toward, which is why it reads across to how investors price Nvidia's cleaner, un-diluted merchant model.",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/10/05/amd-has-promised-openai-and-meta-up-to-320-million-shares-for-a-penny-each-here-s-what-that-does-to-the-share-count/",
       "alerted": false
     }
   ]
