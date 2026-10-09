@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-10-09T06:32:19Z",
+  "generated_at": "2026-10-09T13:39:20Z",
   "session_date": "2026-10-09",
   "items": [
+    {
+      "id": "20261009-macro-oil-retreat-iran-progress",
+      "time": "2026-10-09T12:40:00Z",
+      "headline": "Crude retreats on hopes of US-Iran progress, easing the Hormuz risk premium that pressured risk assets",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "The energy complex had been carrying a geopolitical premium tied to Strait of Hormuz headlines; its unwind compresses near-term realised prices and therefore upstream cash flow for the integrateds, while simultaneously lowering the inflation impulse that had been pushing yields higher. Lower oil plus softer yields is a direct multiple tailwind for long-duration tech and a direct earnings headwind for XOM and CVX, so the direction splits by sector. This is the mirror image of the earlier Hormuz-control trade.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026",
+      "alerted": false
+    },
+    {
+      "id": "20261009-aiinfra-openai-70b-revenue-reaffirm",
+      "time": "2026-10-09T10:58:00Z",
+      "headline": "OpenAI revenue trajectory reaffirmed above $70B annualized by year-end, reversing prior day's AI-complex selloff",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "TSM",
+        "ANET",
+        "SMCI",
+        "MRVL",
+        "ORCL",
+        "MSFT"
+      ],
+      "why": "The entire AI-hardware order book is underwritten by a handful of frontier labs, so the market treats OpenAI's run-rate as the discount rate on merchant and custom-silicon backlogs. A step up from roughly $50B at end-September toward $70B+ restores confidence that compute commitments are funded by revenue rather than pure leverage, which directly supports the terminal-value assumptions embedded in accelerator, memory and networking multiples. It also de-risks the vendor-financing structures AVGO and NVDA have extended, lowering the implied credit haircut investors were applying.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaUJOSlNrZlY4aGJWb0hjUHAyNnptUVgwelhqc2pIb2ZjcFVIZUdiSjJBRE9yVnB4R0JYdHVrMFFDUW5rS1o5eXpmY1BpZjZGOVZ3dVB1UGZKRHkwZkpOS0JyWEVZNGxlZUdlNklLVFV0NlBpZDhyaFgtclpJUFFfOURRNEFGV1djLWd1WThqRU1zRHVvN0JGd0daLWk?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261009-semis-commerce-codifies-china-warning-letters",
       "time": "2026-10-09T10:30:00Z",
@@ -25,6 +68,49 @@
       "why": "Case-by-case warning letters are discretionary and reversible; codified rules bind license obligations into law and are far harder to unwind in a negotiation, so China-exposed service, spare-parts and tools revenue moves from 'at risk' to structurally capped. For AMAT, LRCX and KLAC the installed-base services line carries the highest gross margin, so a permanent restriction compresses mix as well as revenue. Timing weeks before the US-China truce lapses also raises the probability of Chinese retaliation on rare earths or customs clearance, which widens the risk premium across the whole semi complex.",
       "source": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMVdZd0JTWkxUbmtYR1dObXVhLW5JUEVPMWM0OWxiUmVaeDl4UWh0bDU0ZGdpbVAyUDlUV3liQktrWEZDVWp3Nk5LT1k5TG5zRG5VaTh0ODM5NUNyajVoR1Q3ZWRvOEJzOWdpbllGYTc5T0ltT0ZONDhOMnRjSl92dHZYQlprMFRNMmZ3ejM2d1NWN1cyVVdHTHo3YzdTRWEwN3lRaTVnS0FHUzl1S2c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-amd-samsung-foundry-memory-partnership-talks",
+      "time": "2026-10-09T08:08:00Z",
+      "headline": "AMD confirms it is still evaluating a Samsung foundry and memory partnership after Seoul meetings",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "TSM",
+        "MU",
+        "INTC",
+        "NVDA"
+      ],
+      "why": "A second advanced-node source would relax AMD's single-foundry capacity ceiling, which is currently the binding constraint on data-center GPU and EPYC unit growth, and gives it pricing leverage on wafer costs. Paired with memory sourcing talks, it addresses the HBM and conventional DRAM tightness that is now a bill-of-materials headwind for accelerator makers. The read-through is mildly negative for TSMC's share of leading-edge AI silicon and negative for Intel Foundry's pipeline of marquee external customers, though nothing is contracted yet.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcU40bkowdGJjV3l3Z2gyQlNlUi01U1c4RU9BWWpJTWNuOTJWZ3ZYUk9ZSUk0MXpLSzByVzRBSTY3OHRTalVhcEZRZWJOaGdDRnRaOTVjMDllSzcwMk9XWlVZNkJZTElEVElWZThEUzNVNUVpRk53RFVBcUc4WktHTm8wa2M2Y1ZkT05DS0VyX3B6Wmo5Z012eTZJZnFoNVF4aDBzQXYtSm5kUWctdFRIVHRqSWNBSFltLU1HR3c2YlIzQ1JiMk13TXpqNFpzbjdRaFc5NlN3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-macro-unctad-ai-valuation-leverage-warning",
+      "time": "2026-10-09T08:00:00Z",
+      "headline": "UNCTAD flags AI-linked leverage and index concentration as a systemic correction and margin-call risk",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AAPL",
+        "AVGO",
+        "TSLA",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "The report's mechanism is not valuation per se but the funding chain: successive private rounds and debt-financed compute mean a repricing would hit credit markets and force deleveraging, amplifying an equity drawdown. With the Magnificent Seven at roughly a third of S&P 500 market cap as of August, index-level risk is no longer diversifiable away from AI capex. It adds an official-sector voice to the bubble debate, which raises the risk premium institutions apply even without changing near-term earnings.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVEJIUTlWaUd1SWxWZUI5Y1ZJRWhLbjRaYjhoMDVWOWduX0x3T0RkNEN3TFBwNGdoZUV6UHJ1aVRtZW5TYjA2RkZaZElMbU1SUVp3eDBsV2JidThzZU1JTmxKWVJqTjdYTTRPUFFWX1hRQVpId29wS21Gc1F2THNsTURxUmhwN3hEcFVNN29WTC1MQmhLemdMMUlZOHctSzc1RnU3U3Ywb3gxaHZpbktTMzQyaVU4bWdHRU14RWpOWXU1NTRkQnJ1NEYwTllnWXo4OHQxckhlY0hnYjBCNVRvODUxYw?oc=5",
       "alerted": false
     },
     {
@@ -174,6 +260,31 @@
       "why": "Hormuz carries a large share of seaborne crude and LNG, so any rhetoric about physical control of the chokepoint moves the tail distribution for oil prices and therefore integrated producers' realisations. Higher crude is an earnings upgrade for XOM and CVX but a headline-inflation problem that works against the rate-cut path equities are currently discounting. Direction is genuinely two-sided because the statement implies both escalation risk and a claim of secured transit.",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORjlPY05OQUx4QlM3bkdmcThpa3RWWFRSb3loWE1ieXBETkZ4VmZuY0QwZ1hWUm1sa3ZaclF3UWM2MXE3MHE5X2JvS2VhcFJMTHFIbFRiQTBESk1aSzhoOGN2WGktRkJ3SXNJbEJHeng3aVRyVE9GWnNTRy13dlNEWGpBWGZya3dibHRRUjRXQjhMeWkxYlZySFUxS0U5eEhKSk0wS3BWUVREWmlaTDJxcXVhUTZuVmJJQld4ZHhpV185QQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-semis-taiwan-september-exports-record",
+      "time": "2026-10-08T09:00:00Z",
+      "headline": "Taiwan September exports hit a record $87.22bn, up 60.9% year on year on AI component demand",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MRVL",
+        "ANET",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML"
+      ],
+      "why": "Taiwan's customs data is the cleanest high-frequency proxy for AI server and accelerator shipments, and electronics plus ICT products made up the bulk of the total. A 60.9% year-on-year print implies the supply chain is shipping at full capacity rather than merely building backlog, which supports upward revision of Q4 consensus for foundry, substrate and board-level suppliers. Officials also attributed part of the strength to tight electronics capacity holding export prices up, which is a margin signal, not just a volume one.",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVWh5YzZrMzUwYnp1ZjJKQUxJN3JvblpwRnpEMkVyM0dDdU0wVWV3czdwSW9jX2g0TzdSdWxITVhoWFFHWGVjdnNoQkxsQjhVWVZWVjhIMllxTjlyT1hlS3V5cHNwRkNJdXFLTUppTFRpWHBYRTlvWlF2TURPQVd5T3RfRXVJME9GRVZwNzZaNmpyQkJ0T2V1UFdaM0VNMXpSWXpmZGxR?oc=5",
       "alerted": false
     },
     {
@@ -752,106 +863,6 @@
       "why": "Equities re-rating to records while the long end sits near its highest yields since the early 2000s means the entire index gain is coming from earnings expectations and AI-capex enthusiasm rather than a falling discount rate, which makes the market unusually sensitive to any downgrade in AI revenue visibility. Breadth is concentrated in a handful of semis and megacaps, so index-level risk is effectively a single-factor bet on the AI trade. The bond market's message and the equity market's positioning cannot both be right indefinitely.",
       "source": "Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-nvda-spacex-exclusive-ai-datacenter-commitment",
-      "time": "2026-10-05T20:00:00Z",
-      "headline": "SpaceX's AI data-center build is Nvidia-exclusive, with a multi-gigawatt compute ramp and a large incremental GPU deployment landing this month",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "MU",
-        "AVGO",
-        "TSM",
-        "ANET"
-      ],
-      "why": "A new non-hyperscaler buyer committing exclusively to Nvidia silicon widens the customer base beyond the four hyperscalers that dominate current revenue, which is the single biggest bear argument against Nvidia's multiple (customer concentration and circular financing). Gigawatt-scale compute translates mechanically into rack, networking, HBM and foundry wafer demand, so the read-through extends to SMCI, Arista, Micron and TSMC. Note the GPU count and timing circulating in secondary coverage are not company-confirmed and differ between write-ups.",
-      "source": "Stocktwits via TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-mu-morgan-stanley-ow-1200-target",
-      "time": "2026-10-05T19:13:00Z",
-      "headline": "Morgan Stanley reiterates Overweight on Micron with a $1,200 target after guidance lands far above its own consensus",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "SMCI"
-      ],
-      "why": "Morgan Stanley is one of the two swing voices on memory cyclicality, so a reiterated Overweight with a target this high signals the sell side is now underwriting HBM/DRAM pricing power well past the usual cycle-peak discount rather than fading it. The firm's own tracked consensus sat materially below Micron's own revenue and EPS guide, which means street models still have to move up \u2014 the earnings revision path, not the multiple, is doing the work. Sustained memory tightness is a cost headwind embedded in NVDA, AMD and SMCI system BOMs and a capex pull for the WFE names.",
-      "source": "TheStreet",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbktHN0NOSW9sXzZmNGFWQjhnVHZudkI5b0R3MXp2aWU3cmVFaGYxazc0bHVTX3JRVTVVbjNZdkFnc1lDMWRUNFE0RVJMV2NoN3NtdVBYSldsVzdJM1RFUlF1Wm03X3Q5aElPMWVLU1MyX0hncHNkbzBpMFZNVHdEb1N2X1B2Mm9mU0JvaGg1RUhodlpOQnY3NE5Zc0NqUXJkNnQwd180N0JPUU9BZ2pVMU9ZZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-amd-street-target-hikes-cluster",
-      "time": "2026-10-05T18:00:00Z",
-      "headline": "AMD collects another round of price-target hikes as the semis bid pauses after a two-day run",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "The target raises are not sentiment \u2014 they follow analysts folding MI450/Helios rack-scale volumes and higher server CPU share into 2027 models, which lifts the revenue base the multiple is applied to rather than just the multiple. A clustered move from multiple desks, including a BofA raise to $720, resets the anchoring range buyers use into the November print. Upward AMD accelerator estimates are a direct foundry and HBM volume read-through to TSM and MU, and a rack/networking attach read-through to SMCI and ANET.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT043SWVaUnRPMHFnUjNLSHFrOG84cEt2WXZ5SGRZbUN3a3RJZGVRdlJjblk3UFpuemJOMTlKanpUVFp0YXR6SXYyTHp1ZDZCZGViXzFyRXctOWp3S0VTTm9Ha1psT2JFWTN0emxLclhPZGc0a1dsYjNieEdWZURBRzdxcklMV081MVY1RWlfVlhIZm8?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-amd-stifel-q3-beat-raise-setup",
-      "time": "2026-10-05T14:00:00Z",
-      "headline": "Stifel frames AMD's Q3 as a beat-and-raise on EPYC, with the Q4 guide hinging on MI450 ramp economics and gross margin",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
-      "why": "The call shifts the debate from accelerator hype to server CPU share gains, which carry far higher incremental margin and are already shipping \u2014 that supports the near-term EPS line independent of MI450 timing. The flagged risk is gross margin dilution as low-margin accelerator racks scale, so the guide's margin framing is what decides whether the stock re-rates or de-rates on the print. Every point of EPYC share is a direct transfer out of Intel's data-center P&L.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWVE3N0duQ2pLemhWeFhjT2ZkajZtRldUQV9DdzBsVkdtRFdaTjZ0WW9BSVFhZE44Z0pBVzNJNmI5TjJoRmt2ZGhEcWtpT2QwWXdFQ25JdkNPc3o1djE2WldxNlozYm5CZHBPOGVUakZVeVFMWkJWM193UmpyVkJYcUNFZndPZ0lGVjhNRWgzQUlQb2FZelZHZzA1NG0zbWFUUEY4NTVkZlV2Ym8wakxKaFlXMElKNnJEa0FpQU1mWDBERlFfMmYwN0R4bkVTZzA1c3Z2azVRcW52emRqYTdpa0hhMHVVVGZ6WmZTQ2VkdXotUG0yMTFJUU5MTXoteXNi?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-aapl-october-13-event-confirmed",
-      "time": "2026-10-05T13:51:00Z",
-      "headline": "Apple to hold an October 13 product event, per Bloomberg's Gurman; Mac/iPad/home refresh expected alongside folding iPhone Duo on-sale period",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "A staged event rather than press releases concentrates the M6 Mac, iPad and home-hub refresh into the December-quarter sell-in window, which pulls units and ASP mix forward into the guided quarter instead of spreading them across 1H27. A first smart-home hub would open a new hardware category and more services attach, the only lever that re-rates Apple's multiple beyond iPhone replacement cycles. Silicon content flows straight to TSMC's leading-edge wafer loadings and to Apple's RF/connectivity suppliers.",
-      "source": "9to5Mac",
-      "url": "https://9to5mac.com/2026/10/05/apple-event-is-reportedly-happening-next-week-per-mark-gurman",
       "alerted": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-09T06:32:19Z",
+  "last_run": "2026-10-09T13:39:20Z",
   "alert_threshold": 8,
   "alerted_ids": [
     "20260827-crm-okta-crwd",
@@ -11,5 +11,5 @@
     "20260828-warsh-jacksonhole",
     "20260828-warsh-speech-inflation-concerning"
   ],
-  "runs": 147
+  "runs": 148
 }
