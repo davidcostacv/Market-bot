@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-09T13:39:20Z",
+  "generated_at": "2026-10-09T22:48:48Z",
   "session_date": "2026-10-09",
   "items": [
+    {
+      "id": "20261009-macro-umich-sentiment-current-conditions-record-low",
+      "time": "2026-10-09T14:00:00Z",
+      "headline": "UMich preliminary October sentiment falls to 46.3 with current conditions at an all-time low and 1-year inflation expectations up to 4.7%",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "WMT",
+        "COST",
+        "HD",
+        "MCD",
+        "KO",
+        "PG",
+        "DIS",
+        "TSLA",
+        "AAPL",
+        "AMZN",
+        "JPM",
+        "BAC",
+        "WFC"
+      ],
+      "why": "The split between a collapsing current-conditions read and rising year-ahead inflation expectations is the stagflationary combination that squeezes consumer-facing earnings while capping how fast the Fed can ease, so the discount rate does not fall to offset weaker volumes. Lower-income demand erosion feeds directly into retail, restaurant and consumer-credit loss assumptions heading into next week's bank reports, and it argues for continued narrow leadership in AI capex names that are insulated from the household cycle. Rising inflation expectations also raise the bar for the next CPI print to validate current cut pricing.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/10/09/economy/us-economy-consumer-sentiment",
+      "alerted": false
+    },
     {
       "id": "20261009-macro-oil-retreat-iran-progress",
       "time": "2026-10-09T12:40:00Z",
@@ -19,6 +49,28 @@
       "why": "The energy complex had been carrying a geopolitical premium tied to Strait of Hormuz headlines; its unwind compresses near-term realised prices and therefore upstream cash flow for the integrateds, while simultaneously lowering the inflation impulse that had been pushing yields higher. Lower oil plus softer yields is a direct multiple tailwind for long-duration tech and a direct earnings headwind for XOM and CVX, so the direction splits by sector. This is the mirror image of the earlier Hormuz-control trade.",
       "source": "TheStreet",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026",
+      "alerted": false
+    },
+    {
+      "id": "20261009-macro-week-ahead-bank-earnings-cpi",
+      "time": "2026-10-09T11:00:00Z",
+      "headline": "Bank earnings and CPI set up next week's repricing test with the S&P 500 near records",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "JPM",
+        "GS",
+        "MS",
+        "BAC",
+        "WFC",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Large-bank results are the first hard read on credit quality, net interest income under a falling-rate path and capital-markets fee recovery, which resets the earnings base for roughly a fifth of S&P 500 profits and is the main non-AI support for index EPS. A CPI print landing against this week's softer labor data determines whether the easing already embedded in the long end holds, which drives the multiple on the index far more than any single company headline. With the index at records, positioning is asymmetric: in-line data is largely priced, an upside inflation surprise is not.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
       "alerted": false
     },
     {
@@ -821,48 +873,6 @@
       "why": "Korean customs data is the highest-frequency read on global AI hardware demand because Samsung and SK Hynix supply most of the world's HBM and server DRAM; chip shipments more than tripling year over year is physical confirmation that memory volumes and ASPs are both still climbing, not just order books. That validates the forward DRAM/NAND pricing assumptions embedded in Micron's and the WFE names' estimates, so consensus FY27 numbers across memory and equipment are more likely to be revised up than down. It also de-risks the AI capex narrative at a point when the market is paying very high multiples for it.",
       "source": "The Diplomat",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSTMtdlZzR2M2eEJDNWhJbTVRNkIzcUZUTUdKWDVaV1lMY29IVy0xM19MTDZmNGg4V2h2ODhEMG1ncmxJOFVsQXQ1MzNOUzZRZWk0Q1BqSm91S2VFcGlYTFNRYkd1ZVlYMzlXcU0tWVBhQnZKNVRCZ2p3cGFGajZiSm9semZKWm1oT2RhVUFBSG5nYXhjazhYZkk2WWc0RnZQZmZheU1UZnFQQ0xpRHc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261006-asml-china-duv-stockpile-huawei-push",
-      "time": "2026-10-05T22:00:00Z",
-      "headline": "Reports of multi-billion Chinese DUV tool stockpiling and Huawei-coordinated domestic equipment push",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "INTC"
-      ],
-      "why": "Pre-buying ahead of possible restrictions pulls equipment revenue forward, which means the China line in 2027 bookings is borrowed from, not recurring \u2014 a backlog-quality issue the sell-side has been treating as run-rate. A Huawei-coordinated domestic toolchain also attacks the service, parts and upgrade annuity that underpins the equipment makers' high-margin installed-base revenue, which is the most defensible part of their multiple. Offsetting it, domestic Chinese capacity remains node-limited, so near-term leading-edge share for TSMC and the US foundry effort is unaffected.",
-      "source": "Global Sources",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZk11dUlxTnE1TmZ0dlk0LXNybkVxUDRKNklWaEtFeks2aWJObGhnUzVOWTNaWU1CNGpjTFFoS2tMUV9YQUNhY0ZkUms3LVNNVFFGNGhIc2s5aHBhMkhoOFRmbmdUdnJJS3BHSE9OeWJkMnhyTHUwZ01mNFZWVU83dWUxVENhbjNzb3FucGhJNmVyVTRtdWRuNXViNmJfdXVWZjRTZTY3VFNTdDl5QVB6TkczNmZnTzQxNm9qdjNiLW1yV0ZRSUIwTmpCcGQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-macro-equity-records-despite-5pct-long-end",
-      "time": "2026-10-05T20:30:00Z",
-      "headline": "S&P 500 posts its first record close since mid-August and the Nasdaq sets an all-time high with the 10-year holding near multi-decade highs",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "META",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "Equities re-rating to records while the long end sits near its highest yields since the early 2000s means the entire index gain is coming from earnings expectations and AI-capex enthusiasm rather than a falling discount rate, which makes the market unusually sensitive to any downgrade in AI revenue visibility. Breadth is concentrated in a handful of semis and megacaps, so index-level risk is effectively a single-factor bet on the AI trade. The bond market's message and the equity market's positioning cannot both be right indefinitely.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
       "alerted": false
     }
   ]
