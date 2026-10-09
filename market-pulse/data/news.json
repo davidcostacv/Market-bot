@@ -1,7 +1,69 @@
 {
-  "generated_at": "2026-10-08T23:30:30Z",
-  "session_date": "2026-10-08",
+  "generated_at": "2026-10-09T06:32:19Z",
+  "session_date": "2026-10-09",
   "items": [
+    {
+      "id": "20261009-semis-commerce-codifies-china-warning-letters",
+      "time": "2026-10-09T10:30:00Z",
+      "headline": "Commerce converts informal China chip warning letters into binding regulation ahead of truce expiry",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "NVDA",
+        "AMD",
+        "ASML",
+        "INTC",
+        "TSM",
+        "MU",
+        "AVGO",
+        "QCOM"
+      ],
+      "why": "Case-by-case warning letters are discretionary and reversible; codified rules bind license obligations into law and are far harder to unwind in a negotiation, so China-exposed service, spare-parts and tools revenue moves from 'at risk' to structurally capped. For AMAT, LRCX and KLAC the installed-base services line carries the highest gross margin, so a permanent restriction compresses mix as well as revenue. Timing weeks before the US-China truce lapses also raises the probability of Chinese retaliation on rare earths or customs clearance, which widens the risk premium across the whole semi complex.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMVdZd0JTWkxUbmtYR1dObXVhLW5JUEVPMWM0OWxiUmVaeDl4UWh0bDU0ZGdpbVAyUDlUV3liQktrWEZDVWp3Nk5LT1k5TG5zRG5VaTh0ODM5NUNyajVoR1Q3ZWRvOEJzOWdpbllGYTc5T0ltT0ZONDhOMnRjSl92dHZYQlprMFRNMmZ3ejM2d1NWN1cyVVdHTHo3YzdTRWEwN3lRaTVnS0FHUzl1S2c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-nvda-firmus-pulls-5b-ipo",
+      "time": "2026-10-09T04:00:00Z",
+      "headline": "Nvidia-backed data centre operator Firmus shelves $5B IPO, citing market conditions and weak demand",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AMD",
+        "AVGO",
+        "MU",
+        "ANET"
+      ],
+      "why": "The marginal buyer of AI accelerators is increasingly a leveraged neocloud whose order book depends on raising external equity; a pulled mega-listing on poor demand signals that public capital is no longer available at the valuations these builders modelled. That pushes them toward costlier private capital or smaller deployments, which lengthens the conversion of announced GPU pipelines into actual shipments for NVDA and its server and memory suppliers. It reinforces the same financing-stress signal that has been pressuring AI infrastructure multiples rather than near-term reported earnings.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0tPRVlOaXFiejd4S1N1R01zMDEzZHJuaW9hbmpZcXpzd0QwLWd0TVg0Z0UtQmZvR3JtVHRiWDZOMzdoZWc2MmxlX0FWN3JGTDA0bmZBVjJDNGswQjdhSncweGl4aThWMUFFeEdpZVpJSENxc01BUkh0MjlCRUxmOHI5SThHNkhKejRxbEtXOTA5UUlL?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261008-cmg-sbux-takeover-exploration-report",
+      "time": "2026-10-08T21:00:00Z",
+      "headline": "Report: Starbucks explored a takeover of Chipotle, which would be the largest restaurant-sector deal on record",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "CMG",
+        "SBUX",
+        "MCD"
+      ],
+      "why": "A credible approach puts a control premium floor under CMG shares and resets its valuation from a same-store-sales story to a deal-probability story, so the stock now trades on takeout odds rather than traffic trends. For SBUX the read is the opposite: funding a transaction of that size implies equity issuance or leverage against a turnaround that is not yet finished, which pressures its multiple and raises execution risk. Direction is listed for the target; the acquirer side is the mirror image and the companies have not confirmed any transaction.",
+      "source": "Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWjBXQm9fT2dram04amh6TDZQSEFLN05fd2NHcFhCRGh4dGExQW15di1MWGNrOGNpZzQta1psY1hYYXV2RXFLajRjRzR6Sk9TNEh2UENrQnJzMnJtdTBIQkpoWjNfN1RodkxqZUs1R0xJSTFpRFBHQTdKLW85cThob2ZmWC05VmZaZUgzZVZ0emRKVXFEQVlGZEdNUHE1WXNNT25zUDhGOC16SGxkN1JncFRqeVBlclZwWWc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261008-aiinfra-openai-revenue-gap-ft",
       "time": "2026-10-08T20:35:00Z",
@@ -790,73 +852,6 @@
       "why": "A staged event rather than press releases concentrates the M6 Mac, iPad and home-hub refresh into the December-quarter sell-in window, which pulls units and ASP mix forward into the guided quarter instead of spreading them across 1H27. A first smart-home hub would open a new hardware category and more services attach, the only lever that re-rates Apple's multiple beyond iPhone replacement cycles. Silicon content flows straight to TSMC's leading-edge wafer loadings and to Apple's RF/connectivity suppliers.",
       "source": "9to5Mac",
       "url": "https://9to5mac.com/2026/10/05/apple-event-is-reportedly-happening-next-week-per-mark-gurman",
-      "alerted": false
-    },
-    {
-      "id": "20261005-macro-10y-yield-2002-high",
-      "time": "2026-10-05T13:30:00Z",
-      "headline": "10-year Treasury yield pushes to a fresh high since 2002 as the long-end selloff extends into a fourth session",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "AAPL",
-        "TSLA",
-        "PLTR",
-        "ORCL",
-        "CRM",
-        "NFLX",
-        "AVGO",
-        "AMD"
-      ],
-      "why": "The discount rate on long-duration cash flows is the single biggest input into mega-cap tech multiples; a benchmark yield at levels not seen since 2002 mechanically compresses the P/E the market will pay for 2027-2030 AI earnings even if those earnings are unchanged. It also raises the cost of the debt now funding hyperscaler and AI-infrastructure capex, tightening the return hurdle on GPU and data-center spend, and makes dividend-free growth names relatively less attractive versus risk-free paper. Equities have so far absorbed it (Nasdaq at records), which is itself the fragility: the cushion between yields and the AI bid is thinning.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IaFZaeFFMQnFxZVQ0dXBXRmExY1pmcHNKUVM1ejBOSWtSQ3huNTlpV2pnTDVvQlJtbV8xV3pyaWFQT1FTWVF2VWgxZDNuR0ZxT2w0YXFCWGs4My1mNFJtcW5ERU1BeUczVHJPdzNoeFZQVTRMaVE40gF8QVVfeXFMUG5tZW9UYkJTZW05R3NiNGdUb3ZZd2puOFo4S2h0UmZudkJ4R2hRU0d5aDM1WmFXY1BBdy1ZWjQ4aGtjVFBQSHEwSnlFYkNLSlhFeFhzVGFzc050QzZqRTVkczVFdjliZ0RtRDlqdWZXNFV3amY4ZDRlQ25RSw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-msft-melius-upgrade-ai-trust",
-      "time": "2026-10-05T13:00:00Z",
-      "headline": "Melius takes Microsoft to Buy from Hold, $665 target, on enterprise AI-security spend consolidating to trusted vendors",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "NVDA"
-      ],
-      "why": "The upgrade thesis is a margin-mix argument rather than a volume one: if corporate anxiety about AI agent security pushes workloads toward a small set of vendors with identity, compliance and security stacks already embedded, Microsoft monetises AI through high-margin per-seat and security SKUs rather than through capital-intensive raw GPU capacity. That matters because the bear case on MSFT has been capex-driven ROIC compression, and a shift in the revenue mix toward software attach defends the multiple. Read-through is competitive share, not sector direction \u2014 it frames GOOGL and AMZN as the ones giving up enterprise AI seats.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQUWZOU0FFblRkSDR1ZWxwRm9KaUY3VEpsQXBEOW04c204TnpmQW1xbXlWZ25zWGF3NTBVSzdnS0ViT2VLS19NSXdUZXg3cmswQUdyeVd3UGFfbFlpTkpIdlJYQUVpbWJTRUJzbnFDWEZTY0lxMlZ1OG9KR3IycUNYRmNoNTRsaWItYUJDVml6OUNsQjZoQjAzdWx0ZXpNWnNyVTE2VkVnQTk4WXcwMDJjOHFLVnRQSUJyZk5RcUw2MHBkYjQwQTZwMlVoOUhrNGJRcTFGZzhOZ3I5WjAyNlpBY2tVOFUxSUFFZ0xzZnJJSHFEOG1nNmF2ekw4cEFmRjZ3V01NMmhrX0FLNFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261005-googl-gemini4-argon-frontier-reclaim",
-      "time": "2026-10-05T13:00:00Z",
-      "headline": "Alphabet's Gemini 4 Argon puts Google back at the frontier, shifting the AI-spend debate toward cloud monetization",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "GOOGL",
-        "MSFT",
-        "AMZN",
-        "NVDA",
-        "META"
-      ],
-      "why": "Frontier-model parity changes the pricing power equation for Google Cloud: enterprises choosing an inference platform anchor on benchmark leadership, and a competitive flagship lets Alphabet convert its TPU cost advantage into margin rather than discounting to hold share. It also reframes Alphabet's heavy capex from a free-cash-flow drag into a revenue-generating asset, which is the condition for multiple expansion. The offset is that no public availability date has been set, so monetization timing remains unproven, and third-party growth figures circulating on this are not company-confirmed.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUTJ4aXhBRi1od0swRTNmU1h2cDBOMlBqcGFjd3g2UVo0VTFrNGNJM3RNaGZaeTlNRWIyRGpIeDV6WENMb1ZHT0FWVzhuaUd1UnE0T3VqdXFIQ1lDRUlTUHBHN05GbDRkSWpaR3AxelZ6dFh6a3dmREpyTVpKcm9ORWpsYkYzQnJuMWsya3F6RkVsNWltRTl0SWNWZlVNSEZJSTBrZkFFdWx0UFU?oc=5",
       "alerted": false
     }
   ]
