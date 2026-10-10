@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:54:39Z",
+  "generated_at": "2026-10-10T21:55:49Z",
   "session_date": "2026-10-10",
   "items": [
     {
@@ -25,6 +25,27 @@
       "alerted": false
     },
     {
+      "id": "20261010-nvda-reflection-ai-acquisition-talks",
+      "time": "2026-10-09T22:30:00Z",
+      "headline": "Nvidia in talks to acquire open-model startup Reflection AI, per FT report",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Buying a frontier open-weights model lab moves Nvidia further up the stack from silicon into models and software, which carries higher gross margin and recurring-revenue characteristics than GPU hardware and supports a higher multiple rather than just higher EPS. It also locks a model developer onto CUDA and Nvidia systems, defending the installed base against custom-ASIC substitution from Broadcom and AMD. Deal is reported as talks only, so the earnings effect is prospective and terms are unconfirmed.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLXZ1ZEtGRWFDZGoycHJ5WVN6ZllVd3R0dXI1TnJxX0ljT21hODJQR014QlJLMzkzRjlmS1ZzV3VKX0djUnI5QmxHT0pQMmJnVXFUQTNoTDlPdDBsUnJVZjZ6REJHYXhsamZzc045TTJScTBud25kVnRXZm51T1pFVzRtS24tM2xy?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261009-pltr-goldman-upgrade-buy-230",
       "time": "2026-10-09T20:00:00Z",
       "headline": "Palantir hits record high after Goldman Sachs upgrades to Buy with $230 target on sovereign-AI TAM expansion",
@@ -40,6 +61,49 @@
       "why": "A bulge-bracket firm moving off the sidelines on the most valuation-contested AI software name removes the main bear anchor institutions were citing, which expands the pool of marginal buyers rather than changing near-term numbers. The upgrade thesis rests on sovereign/government AI deployments and verticalized applications widening the addressable base, which supports a durable high-teens-plus revenue trajectory and therefore a structurally higher multiple. Read-through is mildly negative-relative for other enterprise software names, since the call explicitly distinguishes AI-native monetization from legacy seat-based SaaS.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLW9OaGctZ0NCRzJTM3E5OFQ4MTdTbmRtMzBieHJFbUh4elBXVGxiSURhSHBibTFMU28tMWpfWXdBbGFDZkhnMnIzOFdieFJjTGRVaGh1VzN6ZUxQOGRUVjZReW9ONVJVS21tVzdJSklvWTlNODVQbnJaNExVT3RJWVYxM3RiOC1aTXItS055RWVWWnl5ZnFaaFpHZjJMT2RaaUtaalEyM01iaWkzVUp1UFpDd3p3RnRod0JoRmZncF91cEtQVVdv?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261010-macro-rate-hike-odds-collapse",
+      "time": "2026-10-09T20:00:00Z",
+      "headline": "Market-implied odds of another Fed hike this month shift sharply lower after soft labor data",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "PLTR",
+        "AMD",
+        "MU",
+        "JPM",
+        "GS",
+        "TSLA"
+      ],
+      "why": "A hike that is priced out lowers the front-end discount rate and removes a tail risk that was compressing multiples on long-duration, high-growth names, which is why the beta-heavy AI complex and small caps react most. For banks the read-through is mixed: lower policy rates trim net interest margin but reduce credit-loss and funding-stress risk. The repricing is in rates expectations only, not an actual Fed action, so it can reverse on a hot CPI print this week.",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOS29mQ1pvZmJTYWVmUDhoUGRPX3NCOHZEZjBMTVl5ZndZRGM4eHNPdThSb0VhYzctaGhrckNfd0JVN1ZCVmJvODc0ckxtMWRIZG5talp3Tmp4UU5nOXV3YnVmUkFubkZMRzYzdk9CU1JqWTZpdjh3ZUt4MGV4TkNaeXphOTQ4OC10TEhUcGlGUGxNYmd6Q0VPQVEzcjZBSTdrUHZ4S3JSV09tdnNqQTRBU01zTG9paG5XWFQxcFRacHhnSTJNQkJtVTNHY0hoR2xXSk9aeDZXOThNaUFLdHNxR3JpY0prdnduT3k1S1NSLVAzZ00?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261010-mu-netlist-deal-selloff",
+      "time": "2026-10-09T19:45:00Z",
+      "headline": "Micron falls despite Netlist resolution, strong results and dividend affirmation",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Resolving the Netlist memory-patent overhang removes a contingent-liability and royalty-rate risk that had sat against future DRAM and HBM gross margin, and the dividend affirmation signals management confidence in through-cycle free cash flow. The share decline against that news set is a positioning and profit-taking signal rather than a fundamental one, implying the market had already discounted both the legal win and the earnings beat. Deal terms and any payment size are not specified in the source.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYXVaYi1qSFhBLXJpSFhNV2NSdkdpcW5JTDFRb21sSHBjZDVxMUI2QmUtRElVMF9tbktvc1kwY2EyZ1JFcU9wUDllZDFYNmtwbldjeFdBemgzSkZBYVlRNFdmUE8wOG5aLUd6alJCYzIzYnYyajlKXzNCdDRQNmtvd3NEMnd2U2VEcmFJ?oc=5",
       "alerted": false
     },
     {
@@ -80,6 +144,47 @@
       "why": "Scale-up/scale-out interconnect is the current bottleneck in AI racks, and the silicon that moves packets carries switch-ASIC plus optics content that attaches to every accelerator shipped. An open-standard Ethernet plus co-packaged-optics stack lets hyperscalers avoid a proprietary fabric, which raises Broadcom's dollar content per GPU deployed and compresses the fabric premium embedded in Nvidia's rack economics. Read-through is mixed for Arista and Marvell, which compete for the same switching and optical DSP sockets.",
       "source": "Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-stocks-rise-higher-open-173254322.html",
+      "alerted": false
+    },
+    {
+      "id": "20261010-macro-payrolls-benchmark-revision",
+      "time": "2026-10-09T17:00:00Z",
+      "headline": "More than 800,000 prior US job gains revised away, showing a materially weaker labor market",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "XOM",
+        "CVX",
+        "AMZN",
+        "TSLA"
+      ],
+      "why": "Benchmark revisions of this size change the baseline the Fed is reacting to, reinforcing the dovish rate path that is currently supporting equity multiples. The offset is to earnings: a weaker labor market pressures consumer-facing revenue, credit quality at the money-center banks and energy demand, so the multiple tailwind and the estimate headwind work against each other. Cyclicals and lenders carry the downside skew while duration-sensitive tech carries the upside.",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lbEhpOHRvR3pIOHRaYlBWWk5qYzNwcG5JOEE5bHlESzlvS1FWSnpzUXFkSF9xTmJ1Tl9SV1ZWRHE3MmpyNWJITmxtMkdyR3F2aEo4MXFERUJaaFVHQWtSQnM2RjV3Zy1EMFBHX0pKVQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261010-smci-export-smuggling-guilty-plea",
+      "time": "2026-10-09T16:00:00Z",
+      "headline": "Broker pleads guilty in AI-chip diversion case as Super Micro co-founder contests charges",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "A guilty plea from a co-conspirator strengthens the government's case and raises the probability of fines, export-privilege restrictions or supply-allocation consequences for Super Micro, which depends on uninterrupted Nvidia GPU allocation to convert its server backlog. Compliance overhangs of this type also deter hyperscaler customers from signing large multi-quarter commitments, directly hitting the revenue line. Read-through for the GPU vendors is tighter end-customer diligence and slower channel shipments into Asia.",
+      "source": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPR1lWUk94RXlmQ3JBdXBDTHVsc25tS2xSQ3Q0VWVFUVhnRVlXQ1FidXpPeXpkOGVrZEhhY1IwMFlWaW5OWVI4T3dwN0dyWmlYWnJaLVNBQVVFVjlsUV9vZ1EzT3NCaXJfd0lLWEp4SWJONF9EYU5CWWR6WkF6S0tWcXphMEZLTTBtQjNXWHU0UGtvVTJiaEVGYTg4QVpzRGhUanY0R01sb3paMEJtTGdJc3RVT2dqblYxdDdyYzFYalBNQnBDN2E1OTIzYUM4MlRyT24tWlpBVXlsdWZVNjZmeTZCdDlhLTlUb2t2c0htaGhLencxcVdKZTNnRVJwWVdPdGZmQnNUeXZ6WlNkejVsU1pJcGgzeFBubkxmZWZ5MnNGUGo3T0dfQjZLaVVHWVRxdWJkVG5DRkN6NUZPNEtlcWZMVnFLaGZBeExR?oc=5",
       "alerted": false
     },
     {
@@ -760,116 +865,6 @@
       "why": "Co-development agreements with both leading-edge logic foundries lock Applied into the tool-selection loop years before process nodes freeze, which is how semicap vendors convert R&D spend into share-of-wallet at high-volume ramp. For Intel it de-risks the advanced-packaging roadmap that its foundry pitch depends on, since packaging and interconnect \u2014 not transistor density alone \u2014 now gate AI accelerator performance. Revenue impact is deferred, but it shifts the market's confidence in both companies' ability to hold node-transition share.",
       "source": "shattered.io",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14X1VTakw4QjR1U294ZHg2Q2h4S1RXM1lsc196MVpCZ01LbWh6MnZja1VlZ01wZVh3OFVCNUlrblFnNGhGckl6OEljSG1wckNxeHNfXzZDRHljdTJaUHN4OGxIeHdLdmJva2FXZU5YVlM5cWFXUEp2TUpB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-macro-q3-eps-growth-ai-concentration",
-      "time": "2026-10-07T12:00:00Z",
-      "headline": "Q3 S&P 500 EPS seen rising 27% with AI capex up 116% y/y and two chipmakers carrying over a third of the growth",
-      "impact": 6,
-      "direction": "uncertain",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "NVDA",
-        "MU",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "SMCI",
-        "ANET"
-      ],
-      "scope": "macro",
-      "why": "This reframes index earnings as a leveraged bet on a handful of semiconductor P&Ls: if the top contributors deliver, the index EPS base resets higher and justifies current multiples, but any single guide-down removes a disproportionate share of aggregate growth with no breadth to absorb it. The 116% capex figure is also a two-sided signal \u2014 it is revenue for the chip and networking supply chain but a rising depreciation drag on the hyperscalers funding it, which compresses their forward margins. Positioning into the print is therefore asymmetric rather than simply bullish.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByWFczMGQwd2lQLU44ZHgzemJvQ0pSLVdmRjFyOWlabkYzX3pNLUV1RHowa2VqcnBILVJfbENvUUhqNWRJR000Q3ZOcVpSc2FTbkxyU29rSklfdjFGVlJWNVFHSzNIYmZwS2x0cUtQSjk2a21LRFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-mrvl-tdcowen-upgrade-buy-350",
-      "time": "2026-10-07T11:30:00Z",
-      "headline": "TD Cowen upgrades Marvell to Buy from Hold, target to $350 from $245, calling custom XPU concentration risk 'largely de-risked'",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "GOOGL",
-        "AMZN",
-        "NVDA",
-        "TSM",
-        "ANET"
-      ],
-      "why": "The bear case on Marvell has been single-customer XPU concentration; shifting the growth narrative to the connectivity/optical DSP franchise broadens the revenue base and justifies a higher multiple rather than a cyclical one. A major-bank double-notch move (rating plus ~43% target increase) on the heels of the analyst-day framework pulls buy-side models toward the upper end of custom-silicon TAM, which also validates merchant AI connectivity attach rates for Broadcom and the hyperscaler ASIC supply chain. Note the stock fell on the day despite the upgrade, suggesting the de-risking thesis was already partly priced after the prior session's rally.",
-      "source": "TradingView / Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPYVczYXJYRXVsdWRFUlAwZHNFSnlKWjg3d1hEZi1mOVI1S3BqYnkzNV84ZUtrX293QUlLTkZ2ZzJUMEhVRWxyWDJkOWNWem03SU5Pd0Q2bzVuTlAxeFlZUDFsTHFzdjhyeXVfUTRMRlFCOG9zN2cwYXlkdmctR1NfQ05VTWc2Y2N3SDNwbDR1cVhHVVdaSUdvSW1zajRyVlpRN3Boa0RZWWpIUTNXX19iR19SZk5ucUl5LTFnY3kweGVyTkZSVHhndmNZMmRwSkNRRlVmOVFCdDhqZEJselB4cTRxRmxlemQ0Z0N2akdiLTNKbW1qdUpuc01feVJCQQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-mu-taiwan-union-strike-mandate",
-      "time": "2026-10-07T11:00:00Z",
-      "headline": "Micron's Taoyuan union secures strike mandate over bonus scheme, putting DRAM/HBM output at the company's largest manufacturing hub at risk",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "Taiwan is Micron's biggest DRAM and HBM production base, so even a short stoppage hits wafer output and HBM qualification schedules at the exact moment supply is sold out and every incremental bit is high-margin. A settlement also resets the labor-cost base permanently, pressuring the gross-margin trajectory that underpins the memory-supercycle earnings model. Read-through is two-sided: lost Micron bits tighten an already tight market, which supports spot DRAM/NAND pricing for rival suppliers while raising the memory bill for AI server and GPU builders.",
-      "source": "Yahoo Finance / Stocktwits (Reuters-sourced)",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNME1KMFBZSWdvYkFJZkhYTzh6TzNsMkRIY0RhcUgtc2lqTWJ4NDc5dEIxMjdvN0FPUDZxN1FfbjJCczJLaks2UnU1eWJEM2ZoX0JjTzNvXzBrdlRoNUpLMGUyOGhXUm41cVJtUE80ZDNWaEg4bS1RRzZIYVpCbU1HZzVGQ2l6TUxBSzdCNnpXN2Nod3Q0cVE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-memory-skhynix-earnings-caution-divergence",
-      "time": "2026-10-07T06:30:00Z",
-      "headline": "SK Hynix drops on pre-earnings caution over FX and bonus provisions while Micron holds firm",
-      "impact": 5,
-      "direction": "uncertain",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "NVDA",
-        "LRCX",
-        "KLAC",
-        "AMAT"
-      ],
-      "scope": "sector",
-      "why": "The weakness is cost-line and currency-driven \u2014 a stronger won and labour provisions compress reported Korean won earnings \u2014 rather than any deterioration in DRAM/HBM pricing or AI demand, so it should not be read as a cycle signal for US memory names. That divergence is the actionable part: if US investors mark Micron down in sympathy on a translation artefact, the dislocation is mechanical. A Goldman note also flags an index rebalancing flow building behind the Korean name that the current selling ignores.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTVpiRVVfTnJaRkE2UFVXdTVpMHlLOE84NUQ2ZzJCYk92S3VxVnJFd1MxS3BMTWxEWUROejdqend3a21zS2dRWW8teTFhMmpyX0ZzdkJOZ2RsM0xWNGUwWTVoYWdBSnlNdnVYSW80NkJXTDdjV25yVDNicmZ6eVgxUHdYLWZxc1AzbHEtRFBqeVZiMmtz?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-semicap-duv-export-policy-warning",
-      "time": "2026-10-07T02:00:00Z",
-      "headline": "Research institutions warn allied AI-chip lead could erode within 5-10 years if China keeps acquiring immersion DUV lithography and other advanced tools",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "NVDA",
-        "INTC"
-      ],
-      "why": "Think-tank findings of this type are the policy on-ramp to formal rule changes, and immersion DUV is the single largest remaining legal China revenue pool for the tool makers, so a tightening would hit ASML, AMAT, LRCX and KLAC order books directly rather than at the margin. The offsetting risk is the reverse: if restrictions are not tightened, China's domestic capacity build continues to absorb tool demand near term while seeding a future competitor in mature and eventually leading-edge logic. Either path changes the multiple investors assign to semicap China backlog, which is why the report matters beyond the headline.",
-      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774 / GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONnlYb2NZdW9iX3lxaXN2ZUtfcWRNSUZJOHJ0aEcySm54ektZcWxYc3RDN3pfS3Fia3FyQ1ZPV2RZellqRGpGZVlQcXd6X2lQOHFRQ0VZRENUa3FKWGlpOTMxU2FhUG55VlN0QU1ubk5Ba1phV08tRlZIM1A5RWN3aEF4UWNaQWRSbWZjQnJ2SV9CSVVkVXNyRmJUZl9DNHh5X2tVeWhkMm5YQlFmRExoVnhickpSVjYya2ZrUXlrYjk2dE5IaXI5ZWZnODN5akVXMWdJeHNIbXQ?oc=5",
       "alerted": false
     }
   ]
