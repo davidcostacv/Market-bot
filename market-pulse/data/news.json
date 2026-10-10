@@ -1,7 +1,65 @@
 {
-  "generated_at": "2026-10-09T22:48:48Z",
-  "session_date": "2026-10-09",
+  "generated_at": "2026-10-10T06:14:18Z",
+  "session_date": "2026-10-10",
   "items": [
+    {
+      "id": "20261009-amd-supply-investment-scaleup-backlog",
+      "time": "2026-10-10T03:34:00Z",
+      "headline": "AMD to lift supply-chain investment beyond the $10B announced in May as AI backlog outruns capacity",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "MU",
+        "AVGO"
+      ],
+      "why": "A supply-constrained book means revenue is capped by wafers, advanced packaging and HBM rather than by demand, so pricing and mix hold up and gross margin risk shifts from discounting to input cost. Committing multiples of the prior investment figure converts AMD's backlog into firm, dated orders for foundry capacity, packaging and deposition/etch/metrology tools, which is the transmission channel to TSMC and the equipment names. The offset is that the revenue is deferred into 2027 and capital intensity rises, so free cash flow conversion lags the order book.",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa2Y4cTNBWlVIRkg5blpTc0tMZTQyZjI3TlN1ZHB0S3R4VG1TMklMNng0S0ZSLVo5LXc1ZWotZHNiWkZvWVpRbl9Cd0dhaVlXNFBHb1Vrdm1hamMtZVdLUGRGX2JicWM5Mkcxdk51azR4OUpoQ2J5TXJiY0FfLWlmQ256WGpEUWRJRzJVTkMxMFExdDV5bTVrbHBGaGZBUnIyenJQcVRSRGE0NzFWMEJsWXJvN2dmSngwOVp5UXl4TVh4dVl2ZTMzS0ZNRWh0LXZSRkY1TUM3Z3dadw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-pltr-goldman-upgrade-buy-230",
+      "time": "2026-10-09T20:00:00Z",
+      "headline": "Palantir hits record high after Goldman Sachs upgrades to Buy with $230 target on sovereign-AI TAM expansion",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "PLTR",
+        "CRM",
+        "MSFT",
+        "ORCL"
+      ],
+      "why": "A bulge-bracket firm moving off the sidelines on the most valuation-contested AI software name removes the main bear anchor institutions were citing, which expands the pool of marginal buyers rather than changing near-term numbers. The upgrade thesis rests on sovereign/government AI deployments and verticalized applications widening the addressable base, which supports a durable high-teens-plus revenue trajectory and therefore a structurally higher multiple. Read-through is mildly negative-relative for other enterprise software names, since the call explicitly distinguishes AI-native monetization from legacy seat-based SaaS.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLW9OaGctZ0NCRzJTM3E5OFQ4MTdTbmRtMzBieHJFbUh4elBXVGxiSURhSHBibTFMU28tMWpfWXdBbGFDZkhnMnIzOFdieFJjTGRVaGh1VzN6ZUxQOGRUVjZReW9ONVJVS21tVzdJSklvWTlNODVQbnJaNExVT3RJWVYxM3RiOC1aTXItS055RWVWWnl5ZnFaaFpHZjJMT2RaaUtaalEyM01iaWkzVUp1UFpDd3p3RnRod0JoRmZncF91cEtQVVdv?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-mu-buyback-authorization-expansion",
+      "time": "2026-10-09T18:00:00Z",
+      "headline": "Micron board approves expanded share repurchase authorization, effective December",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "WDC",
+        "SMCI",
+        "NVDA"
+      ],
+      "why": "Memory is a cash-flow business in the up-leg of a pricing cycle, and committing incremental HBM/DRAM cash flow to buybacks rather than only to fab capex signals management believes the current cycle is earnings-durable, not a peak to be reinvested into oversupply. Mechanically it shrinks the share count against a rising EPS base, compounding the per-share earnings path, and it addresses the discount investors apply to cyclicals that historically reinvested at the top. The restraint on capacity reinvestment is also supportive for industry-wide memory pricing into 2027.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjVqZlBSSE84U0U5UU9Selc4bTl1QU1iSjN1b0cxeWdrREhBQWplWm43VlRXU2ppbzFrbEt1U1R1N3Z0U2Nab0lGeDh2VGd4a0pRdTk4VFZGbTMzb0RJQ3J1RS1vWV8tcFpXbS1sc1QzaXVqQjE2Xzg3aGNXLTBNODFZdlRuOUlv?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261009-macro-umich-sentiment-current-conditions-record-low",
       "time": "2026-10-09T14:00:00Z",
@@ -30,6 +88,27 @@
       "why": "The split between a collapsing current-conditions read and rising year-ahead inflation expectations is the stagflationary combination that squeezes consumer-facing earnings while capping how fast the Fed can ease, so the discount rate does not fall to offset weaker volumes. Lower-income demand erosion feeds directly into retail, restaurant and consumer-credit loss assumptions heading into next week's bank reports, and it argues for continued narrow leadership in AI capex names that are insulated from the household cycle. Rising inflation expectations also raise the bar for the next CPI print to validate current cut pricing.",
       "source": "CNN",
       "url": "https://www.cnn.com/2026/10/09/economy/us-economy-consumer-sentiment",
+      "alerted": false
+    },
+    {
+      "id": "20261009-nvda-spacex-40b-chip-financing-demand",
+      "time": "2026-10-09T14:00:00Z",
+      "headline": "SpaceX's Apollo-led $40B debt raise to buy Nvidia AI chips adds a new non-hyperscaler demand pool",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET",
+        "AMD"
+      ],
+      "why": "Nvidia's bear case is customer concentration in four hyperscalers whose capex is budget-constrained; a privately funded buyer using third-party credit broadens the demand base and lengthens the visible order runway without consuming hyperscaler budget. The orders pull through the full rack stack \u2014 HBM, foundry wafers, networking and server assembly \u2014 so the read-through extends well past Nvidia. The caveat is that this demand is debt-financed rather than cash-funded, so it is more sensitive to credit spreads than hyperscaler capex and raises the same vendor-financing quality-of-revenue question now attached to other AI chip deals.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeUNPVHo0YTZjZXo4UGxobTZVOFZxRnp3WmlzSEoyUnYtcU9CZ1R4eUJ2Uk1BZ2hqSVR0OUdkSEhibXY3dTV1aDdNZ0o5Wi1Vdnlkek82ZG5nQmdoZDZCSDU4TWdUZUNjRHhnMDB2ZVIzZkFoUHlzTVd2LXBaTUVXRXl4eXQzV0o4V0gtVDJEZ05oeEw5cEhtVGQ2dk83bjJYbWln?oc=5",
       "alerted": false
     },
     {
@@ -787,92 +866,6 @@
       "why": "A formal multi-year model raise converts Marvell from a story stock into one with a company-sanctioned earnings path: the FY2028 bar moves above the ~$18.2B analysts carried, forcing sell-side models and the terminal-value anchor higher rather than just the next quarter. The FY2031 range implies custom-silicon and optical attach rates far above what was embedded, which validates the hyperscaler ASIC pipeline that also underwrites Broadcom's backlog, TSMC's advanced-packaging loading and HBM/memory content per accelerator. Risk is symmetric: targets this far out are unverifiable, so the multiple now carries execution risk rather than estimate risk.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSktzMjZMQTdhX1c3MlUtdzNxZUo5WlUwQ0hyVHlrWlBLdHN0XzlRMkd1YzZyTzcxbTVwUFg0b0dZemRwZV9JUWdhRllCX01JNS1sVHFhRjRoNGZQMkZIT0dLck0ycnZHNktPSGhQcm9SWXBfYWdtZllxb0JOaDRYSF9tVkdlT2oyZVFUQy1tc0hULXZ5VEF6ZzBfbnllN28zQ2JsRWkzUWpqWlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261006-amd-citi-cpu-tam-meta-muse",
-      "time": "2026-10-06T12:30:00Z",
-      "headline": "Citi lifts AMD target to $800 from $575 on a $300B 2030 CPU TAM driven by agentic AI workloads",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "META",
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
-      "why": "The call re-rates the part of AMD nobody was paying for: server CPU, by arguing agent inference workloads consume host-CPU cycles at a far higher ratio than training did, expanding the addressable market rather than just shifting share. If the TAM assumption holds, AMD's EPYC mix compounds on top of MI-series accelerator revenue, raising gross-margin-rich volume and the sustainable growth rate used in the multiple. Read-through is two-sided: a bigger CPU pie also helps Intel's server unit, while the implied agent-compute intensity supports accelerator, foundry and memory content per rack.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPalRicUZHUzZhUUF6Vl9xR1ZOblQ1ellGNW5PLXBrcTc5dW1TXzg4VEFEalJXNTNkczJmV2ozcS1kYVE0SEtjZzZyRFVjZWYyZG9FVkIyZEpuWk9zZzZvLUlwR01aX2JvUGtNVnBmS2NqSkFTTkFkR0I4MGMzSVdMLWYwY09NOHRncFlnNThkOGNsanE4cFo0N0p5eFYtWjFSR0xmUWh2c1owSHg3RWdWdFd5bnduQkVzZUx4S0s1cG40QWZXT1k2THAwOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-macro-cooling-wages-factory-softness",
-      "time": "2026-10-06T12:30:00Z",
-      "headline": "Index futures slip as cooling wage growth and soft factory data complicate the growth-versus-rates trade",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Decelerating wage growth removes a key input to services inflation, which supports the discount-rate side of equity valuation, but paired with sluggish factory activity it also undercuts the nominal revenue growth embedded in cyclical earnings estimates. That combination argues for continued narrow leadership in AI/secular-growth names over small caps and industrials, since the index-level multiple is being held up by duration rather than broadening profits. The direction depends on which leg the upcoming CPI print confirms.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd2YxTlUyQlJMNlM0LXlIa2JaZldfcHFSekc5MFY5QVFDeXI2QVFmWnlzWEw1QmFpeWM1YS1mQ3JzZHhrbjIyVGN0SVlKTjVyVF9jRi1fRXZQNk94Y1BDanFpNkJXNmpnWDg1M29xcmlINTkxVDE5MXgwbWZxbFZyckxFZFdEaDdHSHo5ZktqWExndw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261006-macro-rare-earth-truce-expiry-nov10",
-      "time": "2026-10-06T08:00:00Z",
-      "headline": "China's rare-earth export-control suspension runs out November 10 with no renewal signalled",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AVGO",
-        "MU",
-        "TSLA",
-        "GE",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "Rare earths and the magnet/polishing-compound chain sit upstream of wafer fabrication, motors and defense electronics, so a lapse re-introduces an input-cost and allocation risk that buyers must hedge by building inventory, pulling working capital forward and compressing margins. The binary calendar date creates an event premium: hedging demand rises into early November regardless of outcome, which widens the risk premium on China-exposed hardware and auto supply chains. It also raises the probability of retaliatory US action, reopening the export-control overhang on accelerator and equipment names just as the group trades at peak multiples.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdnlHOHdWWFJuWGNBMU9KNFNQcHhQMTZuZXFCV29hSE5VYlBqNUNmRVFPaUFScmd5U05yNTdlUG1BcXZUZmdkNGRBWDJidURVQlcweXpibXduTVFZTHpLaFhqM0F1bmZ6eXRrUklkNjFwTlVSa3VfQkE2WVBLMWVTMUZ5Ym55QlB6dGhXcW5yLUhGMmZ1RGQ3QlY2amtGYzZfaVR1R2R3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261006-semis-korea-september-chip-exports-record",
-      "time": "2026-10-06T04:00:00Z",
-      "headline": "South Korea's September semiconductor exports top $60B for the first time as total exports hit a record $120.9B",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "AMD",
-        "MRVL",
-        "SMCI",
-        "QQQ"
-      ],
-      "why": "Korean customs data is the highest-frequency read on global AI hardware demand because Samsung and SK Hynix supply most of the world's HBM and server DRAM; chip shipments more than tripling year over year is physical confirmation that memory volumes and ASPs are both still climbing, not just order books. That validates the forward DRAM/NAND pricing assumptions embedded in Micron's and the WFE names' estimates, so consensus FY27 numbers across memory and equipment are more likely to be revised up than down. It also de-risks the AI capex narrative at a point when the market is paying very high multiples for it.",
-      "source": "The Diplomat",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSTMtdlZzR2M2eEJDNWhJbTVRNkIzcUZUTUdKWDVaV1lMY29IVy0xM19MTDZmNGg4V2h2ODhEMG1ncmxJOFVsQXQ1MzNOUzZRZWk0Q1BqSm91S2VFcGlYTFNRYkd1ZVlYMzlXcU0tWVBhQnZKNVRCZ2p3cGFGajZiSm9semZKWm1oT2RhVUFBSG5nYXhjazhYZkk2WWc0RnZQZmZheU1UZnFQQ0xpRHc?oc=5",
       "alerted": false
     }
   ]
