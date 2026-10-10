@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:14:18Z",
+  "generated_at": "2026-10-10T12:54:39Z",
   "session_date": "2026-10-10",
   "items": [
     {
@@ -58,6 +58,28 @@
       "why": "Memory is a cash-flow business in the up-leg of a pricing cycle, and committing incremental HBM/DRAM cash flow to buybacks rather than only to fab capex signals management believes the current cycle is earnings-durable, not a peak to be reinvested into oversupply. Mechanically it shrinks the share count against a rising EPS base, compounding the per-share earnings path, and it addresses the discount investors apply to cyclicals that historically reinvested at the top. The restraint on capacity reinvestment is also supportive for industry-wide memory pricing into 2027.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjVqZlBSSE84U0U5UU9Selc4bTl1QU1iSjN1b0cxeWdrREhBQWplWm43VlRXU2ppbzFrbEt1U1R1N3Z0U2Nab0lGeDh2VGd4a0pRdTk4VFZGbTMzb0RJQ3J1RS1vWV8tcFpXbS1sc1QzaXVqQjE2Xzg3aGNXLTBNODFZdlRuOUlv?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-avgo-ocp-open-networking-cpo",
+      "time": "2026-10-09T17:32:00Z",
+      "headline": "Broadcom pushes open Ethernet networking and co-packaged optics for AI clusters at OCP Summit",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "ANET",
+        "MRVL",
+        "META",
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "why": "Scale-up/scale-out interconnect is the current bottleneck in AI racks, and the silicon that moves packets carries switch-ASIC plus optics content that attaches to every accelerator shipped. An open-standard Ethernet plus co-packaged-optics stack lets hyperscalers avoid a proprietary fabric, which raises Broadcom's dollar content per GPU deployed and compresses the fabric premium embedded in Nvidia's rack economics. Read-through is mixed for Arista and Marvell, which compete for the same switching and optical DSP sockets.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-stocks-rise-higher-open-173254322.html",
       "alerted": false
     },
     {
@@ -262,6 +284,28 @@
       "why": "The marginal buyer of AI accelerators is increasingly a leveraged neocloud whose order book depends on raising external equity; a pulled mega-listing on poor demand signals that public capital is no longer available at the valuations these builders modelled. That pushes them toward costlier private capital or smaller deployments, which lengthens the conversion of announced GPU pipelines into actual shipments for NVDA and its server and memory suppliers. It reinforces the same financing-stress signal that has been pressuring AI infrastructure multiples rather than near-term reported earnings.",
       "source": "Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0tPRVlOaXFiejd4S1N1R01zMDEzZHJuaW9hbmpZcXpzd0QwLWd0TVg0Z0UtQmZvR3JtVHRiWDZOMzdoZWc2MmxlX0FWN3JGTDA0bmZBVjJDNGswQjdhSncweGl4aThWMUFFeEdpZVpJSENxc01BUkh0MjlCRUxmOHI5SThHNkhKejRxbEtXOTA5UUlL?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261009-macro-korea-chip-exports-current-account",
+      "time": "2026-10-09T01:00:00Z",
+      "headline": "Korea current account surplus swells to $46.1 billion on semiconductor export strength",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "TSM",
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "SMCI"
+      ],
+      "why": "Korean trade data is the cleanest high-frequency proxy for memory and logic shipment volumes and pricing, because Samsung and SK Hynix dominate DRAM/HBM supply. A surplus of this size implies ASPs are still rising rather than units simply being pulled forward, which supports Micron's pricing assumptions for coming quarters and keeps wafer-fab equipment order books intact. It is a confirming datapoint for the cycle, not a new catalyst, so it affects conviction in estimates more than the estimates themselves.",
+      "source": "Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNC1CVjhkLXEtUU52R1YtSDYwdlVvYTNtRGtWODA0V3VoMldVSnlIVWJEcnU0TkR2dXdGdExNN3JUcF9ZT0FWeE9hcE9zZUt3Q2g3Yld3bWpXY3lWc2h6YXpCSVlFaVdDNmNmcjZCZFYwWHVqQ3lqaFhPN0gxQjRfS0JSVFB5SU1UUGVtT0hqTnJpbDUtX2U1ZHRHMUw3Zw?oc=5",
       "alerted": false
     },
     {
@@ -826,46 +870,6 @@
       "why": "Think-tank findings of this type are the policy on-ramp to formal rule changes, and immersion DUV is the single largest remaining legal China revenue pool for the tool makers, so a tightening would hit ASML, AMAT, LRCX and KLAC order books directly rather than at the margin. The offsetting risk is the reverse: if restrictions are not tightened, China's domestic capacity build continues to absorb tool demand near term while seeding a future competitor in mature and eventually leading-edge logic. Either path changes the multiple investors assign to semicap China backlog, which is why the report matters beyond the headline.",
       "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774 / GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONnlYb2NZdW9iX3lxaXN2ZUtfcWRNSUZJOHJ0aEcySm54ektZcWxYc3RDN3pfS3Fia3FyQ1ZPV2RZellqRGpGZVlQcXd6X2lQOHFRQ0VZRENUa3FKWGlpOTMxU2FhUG55VlN0QU1ubk5Ba1phV08tRlZIM1A5RWN3aEF4UWNaQWRSbWZjQnJ2SV9CSVVkVXNyRmJUZl9DNHh5X2tVeWhkMm5YQlFmRExoVnhickpSVjYya2ZrUXlrYjk2dE5IaXI5ZWZnODN5akVXMWdJeHNIbXQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-semis-taiwan-chip-resale-indictments",
-      "time": "2026-10-06T16:00:00Z",
-      "headline": "Taiwan prosecutors indict 10 over alleged resale of restricted US-origin chips into China via Hong Kong",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "TSM",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "Criminal enforcement inside Taiwan's supply chain raises the cost and risk of grey-channel diversion, which has been an unmeasured incremental demand sink for high-end accelerators and AI servers. Tighter policing trims that off-book volume at the margin for GPU and server vendors, while also lowering the tail risk of a fresh US licensing clampdown on Taiwan-based ODM/distribution partners. Net earnings effect is small, but it shifts where regulators focus next and adds compliance friction for channel partners.",
-      "source": "Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OX1o4cGdlbWVUQVhtam1IZHg0MVF0YXhwQU5GY08tXzVrczNUNFJpblJrVGZoZ1F6VDFlZXBSYzg5TVYxakctQVQ5TE1yRVBxWGNMTVI5UFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261006-mrvl-investor-day-fy31-targets",
-      "time": "2026-10-06T14:25:00Z",
-      "headline": "Marvell investor day sets ~$20B FY2028 revenue goal and $70B-$90B FY2031 target, above consensus",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "NVDA",
-        "TSM",
-        "ANET",
-        "AMD",
-        "MU"
-      ],
-      "why": "A formal multi-year model raise converts Marvell from a story stock into one with a company-sanctioned earnings path: the FY2028 bar moves above the ~$18.2B analysts carried, forcing sell-side models and the terminal-value anchor higher rather than just the next quarter. The FY2031 range implies custom-silicon and optical attach rates far above what was embedded, which validates the hyperscaler ASIC pipeline that also underwrites Broadcom's backlog, TSMC's advanced-packaging loading and HBM/memory content per accelerator. Risk is symmetric: targets this far out are unverifiable, so the multiple now carries execution risk rather than estimate risk.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSktzMjZMQTdhX1c3MlUtdzNxZUo5WlUwQ0hyVHlrWlBLdHN0XzlRMkd1YzZyTzcxbTVwUFg0b0dZemRwZV9JUWdhRllCX01JNS1sVHFhRjRoNGZQMkZIT0dLck0ycnZHNktPSGhQcm9SWXBfYWdtZllxb0JOaDRYSF9tVkdlT2oyZVFUQy1tc0hULXZ5VEF6ZzBfbnllN28zQ2JsRWkzUWpqWlE?oc=5",
       "alerted": false
     }
   ]
