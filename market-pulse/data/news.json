@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-10-11T06:13:37Z",
+  "generated_at": "2026-10-11T13:18:25Z",
   "session_date": "2026-10-11",
   "items": [
+    {
+      "id": "20261011-tsm-q3-report-oct15-setup",
+      "time": "2026-10-11T09:00:00Z",
+      "headline": "TSMC Q3 report lands Oct. 15 with full-year growth guidance the key swing factor for the AI complex",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MRVL",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "TSMC's quarter covers most of Nvidia's current fiscal period and its capex/full-year growth guide is the cleanest forward read on AI accelerator wafer demand before any US chipmaker reports. A reiteration or raise of the full-year growth outlook validates consensus 2027 accelerator units and supports multiples across foundry customers and WFE suppliers; a trim would force estimate cuts through NVDA, AVGO and AMD and compress the equipment names fastest since their orders key off TSMC capex.",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRUNhWGRfMVQ4a1FsWHpxQ0V5M2pKQUIzRXZobDNfaUZxcmtTZWNGYlZrcGlmMkNacEFONEZuTFpHcFpsTktMSVVTX21KdXQ5ZUNjbmtaOGdweEV4WEQwOU9Sak5fTlpuZ1kteDlDWlJpUzFBSTZlOGZiVkVqVi1FbGk1WENuXzl3c0N3ZG9iZHkyOHZlNDZLUnJ0VUR6Q3FvN2oyYlhqU1BWY2ZLM3I3X0k1UXdIOWdHZ2c3NnJfdXZkSk8wUjI5MXVGZG5wcEVEOHlJWXd2X2dXVGQxOGZBSkJMZlFCWWRCdlFGa3FDWEhLZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261010-ai-anthropic-china-distillation-policy-risk",
+      "time": "2026-10-10T23:00:00Z",
+      "headline": "Anthropic alleges Chinese AI developers covertly distilled Claude; SCMP questions the evidence",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MSFT",
+        "GOOGL",
+        "META"
+      ],
+      "why": "If US agencies treat model distillation as a national-security leakage channel, the policy response lands on API access and model-weight controls rather than just hardware, widening the compliance perimeter for US AI platform vendors and adding a second front to existing chip export rules. The second-order read is on China demand assumptions embedded in NVDA and AMD estimates, which already exclude top-end parts; tighter model-access rules would also signal Chinese labs remain compute- and capability-constrained, supporting the US incumbents' moat. The claims are contested, so the direction is unresolved until any regulatory action is actually proposed.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcU5IUV9xT0ZDRFFfX2tGRHVUTjBfZWtUNWtsR3BXeTNOTDVuMTVKdmFMNkdWallQTGE3U2t5cjhPWDE2bjJfVEdpeFkweWpLT1JTSU1Nc1hzcVRjYlZQSXltN24yNVhtck91b2lNMGNYMm9ZVW1wX2ZWSXA0c1pkRE45a3NEc0JDWXd3d1hNelFnSmd0UVU5X3RGdktvQTFET2JjOS11YXhqUDAwRTVWOXJn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261011-mu-aapl-memory-pricing-profit-shift",
+      "time": "2026-10-10T22:30:00Z",
+      "headline": "Micron's fiscal Q4 net income ($37.7B) exceeds Apple's June-quarter profit as memory shortage hands pricing power to suppliers",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "AAPL",
+        "SMCI",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "AMD"
+      ],
+      "why": "The mechanism is a transfer of margin along the AI hardware chain: with DRAM/NAND/HBM supply tight, memory vendors are setting price and capturing dollars that previously accrued to device and system OEMs. That supports a higher sustainable earnings base for MU (and by read-through SK Hynix/Samsung capacity peers) while raising input-cost risk for hardware assemblers and device makers such as AAPL and SMCI, whose gross margins absorb the memory bill. It also argues memory is the binding constraint on AI server builds rather than logic, a positive volume signal for the broader accelerator supply chain.",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMW5wQ1BkZzFZYzdCRWNjSDl5bk82YU1wajFram16WnNIUExmU0dQSURBNnlMeGg1blBxYVdnOWdITzlXMF82OERtQ09Db0RSc1hsYmtxSmlxT09oRmN3cmJwSWJkWms0MHNtWkx6X3NmZDdhbVlFUm5aaUF6ZzYyZmptOEpKdEFrdWpF?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261010-semis-us-import-reliance-tariff-risk",
       "time": "2026-10-10T13:00:00Z",
@@ -810,71 +873,6 @@
       "why": "A tightening bias that extends past the current meeting raises the discount rate applied to the longest-duration cash flows, which is where the entire AI complex sits after a record-high run; the repricing hits multiples, not earnings. It also removes the cushion the market had assumed from soft payrolls and cooling wages, meaning weak labour data now reads as stagflationary rather than dovish. Coverage conflicts on timing \u2014 some wires still framed the minutes as pending while others reported the hawkish content \u2014 and market-implied odds favour December over the October meeting for the next move.",
       "source": "BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSY1BEQVpXbDB1VmstcEdJOFpVUlphWlQzdkhaeUVWcFFUR25tOWlGakxVN1YwMlBZV3FUZ2tkLXp1T1pPMUtqRTRFWUZXak5NMVhYS05DVndUTTRGczFLVlpLS0ItZ0lnbmc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-nvda-moonshot-blackwell-diversion-risk",
-      "time": "2026-10-07T18:00:00Z",
-      "headline": "China's Moonshot reportedly seeking more Blackwell capacity days after a White House official alleged export-control circumvention",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "A documented case of restricted parts reaching a Chinese frontier lab through third-party cloud capacity hands Commerce the evidence base to tighten end-user and transshipment rules, which historically arrives as a blanket licensing regime rather than a targeted fix. The earnings mechanism is not the lost Moonshot revenue \u2014 Nvidia already books near-zero China datacenter \u2014 but the risk that enforcement widens to Southeast Asian cloud intermediaries that currently absorb real GPU volume. Secondary risk is a Beijing retaliation loop that re-opens the rare-earth and equipment-export front for the semicap names.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV2tyTkstdkVkNmJVTGdqcG9xempJVWVqb1Z5WHhvOTExVC1PRXJFUUJkQW1NN0VYeXJNMlk3MGdOWER6TGpiRzRYVXViZFlQdzE5WkpmcURMeEgxQndUVkN6dEVRbWFCTVN2eFdneXl3STNWb0ZoSVRvNHNYU2lCcGhUNkp1eWNvUEkyYUNWX2VaT1NrOXF3dXZGNmg5SDF3MHRUWVRLai1sSmpXT1ZUUmFOQS1WdWdWM1BJTF8xMXd4dmMySFhhbUJMVVFvU0drNTE2a2ln?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-mu-dadavidson-street-high-3000",
-      "time": "2026-10-07T17:20:00Z",
-      "headline": "D.A. Davidson sets Street-high Micron target, lifting it to $3,000 from $2,100 on multi-year memory tightness",
-      "impact": 6,
-      "direction": "bullish",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "SMCI",
-        "LRCX",
-        "KLAC",
-        "AMAT"
-      ],
-      "scope": "company",
-      "why": "The mechanism is a change in the assumed duration of the cycle, not the next quarter: Gil Luria argues long-term supply contract agreements lock DRAM/HBM pricing years forward, so memory stops being modelled as a cyclical trough-to-peak business and starts being capitalised on a higher, more durable earnings base. That is a multiple argument as much as an EPS one, and it drags the whole memory-levered chain \u2014 wafer-fab equipment order visibility, HBM-attached accelerator costs for NVDA/AMD buyers \u2014 along with it. Note the implied upside is roughly 200% from spot, which is an outlier versus the rest of the Street.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTlNhekVOT05jc21zc3N2ME0ydXVHdzJldG1ncGMySVhMVWpmOVVySmhfcVlNZGk3bFhpeWdHR1RMb3ljRnN5V1NIc2lDSG9OTXNnZHg3d19MUjJoQVlxS2doNUMxVDZvbktVU3dXbkFOXzNuUnFORHNDLTZ4MDlxUWtyOFliVGJrb3c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-amd-hpe-enterprise-ai-server-expansion",
-      "time": "2026-10-07T14:45:00Z",
-      "headline": "HPE expands its AMD-powered enterprise AI server line, opening a new on-prem channel for AMD silicon",
-      "impact": 5,
-      "direction": "bullish",
-      "tickers": [
-        "AMD",
-        "HPE",
-        "INTC",
-        "SMCI",
-        "DELL",
-        "NVDA"
-      ],
-      "scope": "company",
-      "why": "Enterprise on-prem AI is a higher-margin, stickier revenue pool than hyperscaler bulk purchasing, and OEM platform slots convert into multi-year attach for both AMD server CPUs and accelerators rather than one-off orders. Each incremental AMD-based SKU at a tier-one OEM is a direct socket transfer away from Intel's x86 server franchise, which is where the read-through bites. For box builders it is margin-dilutive volume, so the earnings benefit is weighted toward the silicon supplier.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU0FDdkdKWHpBaldPcVplbmF0Z3gyMEFHWmRGNjF3VmY1RFZ2X01YODVUbnZEejhQblFzdV9kdE93bUNCLXFtT1dZOF9mbXBxX295X0ZCVjQtNkZJR3ZrdmZPRnpvUVBJcS1JNkQwVzYwSFpSWmFURlBPenFuSlBKaQ?oc=5",
       "alerted": false
     }
   ]
