@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-10-10T21:55:49Z",
-  "session_date": "2026-10-10",
+  "generated_at": "2026-10-11T06:13:37Z",
+  "session_date": "2026-10-11",
   "items": [
+    {
+      "id": "20261010-semis-us-import-reliance-tariff-risk",
+      "time": "2026-10-10T13:00:00Z",
+      "headline": "US chip trade deficit reported at $90.5B for 2026 as AI data-center build-out deepens reliance on foreign-fabbed silicon",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "INTC",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MRVL",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "The quantified import gap is the factual predicate Washington uses to justify Section 232-style semiconductor tariffs and domestic-content requirements; a tariff on imported logic/memory or on systems containing it would hit gross margins for fabless designers (NVDA, AMD, AVGO, MRVL) and box builders (SMCI, ANET) who source wafers from Taiwan and HBM from Korea, while being a relative subsidy to INTC's US fab base. For the equipment names the same policy logic argues for more US greenfield capacity, which is incremental tool demand rather than a margin hit. Direction is genuinely two-sided because the cost exposure and the capex benefit land on different parts of the same supply chain.",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRXhSYTVzVDJTUXNGcUtEbGdQU3VlTXdVRVg5R1RXQnRnTEFhNUF2eE5vanNnS2Z6M3RETDFIOHJ0V3J1ZUlrM2RldHp4WkFSS2g2WnFQMUY4bTZNOFJmTVJSZ3p2cUpNU3ZNSTVvcElOUXMzelJNbDRpbTJ4b0JkZW53am1NMjlOa0hvZ0lGY0o1eHZSdDkxcmRmbXpsdXBmLXJJTmp1R2d5anBaSFpUbkstRHY3cVBsRU1iNWhn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261010-asml-q3-bookings-catalyst-oct14",
+      "time": "2026-10-10T12:00:00Z",
+      "headline": "ASML Q3 results and order book land October 14, immediately ahead of TSMC, setting the first hard read on 2027 AI capex",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "NVDA",
+        "MU",
+        "INTC",
+        "AMD"
+      ],
+      "why": "ASML's quarterly net bookings are the only forward-looking, contractually committed datapoint on leading-edge and memory capacity additions roughly two years out, so the print resets the discount rate the market applies to the entire AI capex chain rather than just ASML's own quarter. A strong EUV/High-NA order number validates the 2nm and HBM capacity assumptions embedded in TSM, MU and the deposition/etch names; a soft one re-opens the digestion debate right as the group sits near record highs. Pairing it with TSMC the next day concentrates sector-wide gamma into a 48-hour window.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa083SHc3M0hqZF9kcjg4Q09yNjM1aEh1dHhNX2tucVpSQXlLTmpRSWRvRTN2RXBjN3ptakpoZnhhSDNJcVVEaGVtaktfcHdiNjhWbU1NNUlhMjVwZFRQYjc4M3FFNEp0a2ZCTzIyWUhSYnhBV3p3ODRkbER5RTV1WDJoNWZVa1dXVEduQk81MGRHUWdR?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261009-amd-supply-investment-scaleup-backlog",
       "time": "2026-10-10T03:34:00Z",
@@ -826,45 +875,6 @@
       "why": "Enterprise on-prem AI is a higher-margin, stickier revenue pool than hyperscaler bulk purchasing, and OEM platform slots convert into multi-year attach for both AMD server CPUs and accelerators rather than one-off orders. Each incremental AMD-based SKU at a tier-one OEM is a direct socket transfer away from Intel's x86 server franchise, which is where the read-through bites. For box builders it is margin-dilutive volume, so the earnings benefit is weighted toward the silicon supplier.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU0FDdkdKWHpBaldPcVplbmF0Z3gyMEFHWmRGNjF3VmY1RFZ2X01YODVUbnZEejhQblFzdV9kdE93bUNCLXFtT1dZOF9mbXBxX295X0ZCVjQtNkZJR3ZrdmZPRnpvUVBJcS1JNkQwVzYwSFpSWmFURlBPenFuSlBKaQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-storage-toshiba-fears-cantor-buy-dip",
-      "time": "2026-10-07T13:30:00Z",
-      "headline": "Memory and storage complex sells off on Toshiba capacity fears; Cantor tells clients the de-rating is a buying opportunity",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "WDC",
-        "SMCI"
-      ],
-      "why": "The market is testing whether incremental HDD/nearline capacity additions break the supply discipline that is driving current memory pricing power; if they do, the 2027 bit-price curve embedded in consensus comes down and the whole group's peak-earnings multiple compresses. Cantor's pushback argues the added capacity is too small and too late to dent AI-driven nearline and DRAM tightness, so the move is sentiment rather than an estimate change. Until pricing data confirms either side, this is a volatility event for memory multiples rather than a confirmed earnings revision.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcXJIbjAyeUJUYnZDLXRNVkNoMEVMMlRXZlFZcUhacWUzbFlWWEt1dHNvV3Jac3NObDFVNldTR0ZHQXhZQkJtOXdCdjB5VlRoRHg4NDhzQ0pGWHhvd0NXVThyLUhCTFRWMGQ4MGxJNmhwQjRjdlVQSllnU0xMcUZlY3ptSjhWMXUwaXVmZkRSSTBac0FCV3gwdldjT2o3QjU3SWdiUWN4cjhxZUJKTGU4ZkZMaUNVUzlBN2JxaEQtTnFCZlJwdUFEMlF2UW5jV3lsdGFQRGdOeXVmT00yNjBKQ1R0cVNvdEpRQUpxalV4b2k1YWhVN2dZNU9YdGFIYU0zTUpvYXdqYmhRczZFTkhQX0JCZFM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-amat-intc-epic-center-packaging-rd",
-      "time": "2026-10-07T13:00:00Z",
-      "headline": "Intel joins TSMC as an anchor partner in Applied Materials' EPIC Center, targeting Foveros-class 3D packaging and interconnect R&D",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMAT",
-        "INTC",
-        "TSM",
-        "LRCX",
-        "KLAC",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "Co-development agreements with both leading-edge logic foundries lock Applied into the tool-selection loop years before process nodes freeze, which is how semicap vendors convert R&D spend into share-of-wallet at high-volume ramp. For Intel it de-risks the advanced-packaging roadmap that its foundry pitch depends on, since packaging and interconnect \u2014 not transistor density alone \u2014 now gate AI accelerator performance. Revenue impact is deferred, but it shifts the market's confidence in both companies' ability to hold node-transition share.",
-      "source": "shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14X1VTakw4QjR1U294ZHg2Q2h4S1RXM1lsc196MVpCZ01LbWh6MnZja1VlZ01wZVh3OFVCNUlrblFnNGhGckl6OEljSG1wckNxeHNfXzZDRHljdTJaUHN4OGxIeHdLdmJva2FXZU5YVlM5cWFXUEp2TUpB?oc=5",
       "alerted": false
     }
   ]
