@@ -1,7 +1,152 @@
 {
-  "generated_at": "2026-10-12T06:21:36Z",
+  "generated_at": "2026-10-12T15:55:46Z",
   "session_date": "2026-10-12",
   "items": [
+    {
+      "id": "20261012-mu-cxmt-dram-competition",
+      "time": "2026-10-12T13:00:00Z",
+      "headline": "Micron falls as Chinese DRAM maker CXMT advances a new chip",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "NVDA"
+      ],
+      "why": "The memory multiple currently embeds a belief that supply is structurally constrained and that Chinese capacity cannot reach competitive nodes. Credible progress by CXMT on a more advanced DRAM part attacks that premise at the margin \u2014 it threatens the commodity-DRAM price floor into 2027 and shortens the duration investors assign to the current up-cycle, which is a multiple issue rather than a near-term EPS issue. Read-through is negative for memory-levered equipment demand but neutral for HBM, where packaging and qualification barriers remain.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-semis-yields-oil-derating",
+      "time": "2026-10-12T12:30:00Z",
+      "headline": "Semis sell off pre-market as long-end yields and crude squeeze the AI complex",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "INTC",
+        "AVGO",
+        "SMCI",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "The AI trade is the longest-duration cash-flow stream in the index, so the discount rate does more to its price than any single quarter of orders; a higher long end plus firmer crude mechanically compresses the terminal multiple before any estimate changes. Energy costs also feed directly into datacenter opex, which is the variable most likely to disappoint on AI-infrastructure gross margin. Note the sources conflict on the rate direction \u2014 one wire describes yields pressing multi-decade highs while another reports renewed bid at the long end.",
+      "source": "NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQOEJRR3FIZ2pKeXBlSDF1enljNklVOV9LYTBuVF9aMTBCSDFpNkd4Q2lmOVRoOFdteXhCbWhER2U3WENTWl9ZWmp0azE0QVFUU2MxQklQaGZCako0eE5NTFVlc2VuQV82cm9UQ2ZUNUNtWDRieVMzUzhINUhTYklHZjVvcWNMTE1yd1pWUGJ4Q2lfaHhQY0h6ZldjVUJwNTNmU0tuTXEtT1lNNnNWMHhhclZxdElLVEZzcEZzb1FtSlE3R0EyQ1JQYXN6RTdtc2d4Z3JGczdhZ2NIVEFDek1USTZkNU9QRlE2YWd4a0p3OWxsYnJfdXdEelJIQ3JucktQOEHSAYoCQVVfeXFMTkNpSXpaOU4tOThCLTJkSVRXb2JhOWo4YTRVZVY2M1A3b2JqX0hyeXlua19CTWt6NWRocTlLQzlhZHZTM2F2WG9reHNha240V09COWxPR05oaGozOWhfOTZ1OXlSOXVoNGd3WmpwSXJsZkxHbGlYMG5pZkt5NWlKejU3aUVXY2I0Um0wcUlzZVR3TVNKOHhzUkVGeTVtZGNQVE1hZEs1ZGpRODZNd0dJZy05TVZOWXRLSXNoNmRZWkY4eE5qd2hISUtZbG1COTNIWENidkpDUGhZVnVhVDIwbk1XcUFqajlXaEw5cFk2T0ZrNGxvdWdyRm1yaUR0VHBkdHFlaUVCTVdlNWc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-sndk-citi-micron-readthrough",
+      "time": "2026-10-12T12:00:00Z",
+      "headline": "Citigroup names SanDisk the top beneficiary of Micron's results",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "SNDK",
+        "MU",
+        "WDC"
+      ],
+      "why": "A major-bank call that explicitly transfers Micron's realized pricing into a smaller NAND-levered name changes consensus revenue per bit for the follower, not just sentiment. SanDisk's earnings are almost pure operating leverage on contract NAND pricing, so a sell-side reset of the pricing deck moves the forward EPS line far more than it does at diversified Micron. It also marks the point where buy-side money rotates down the memory cap-structure.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWloMjdkeUI1aFRMZW9iazRiaXF4ZVllMXNfTnJqb2Rwbm9NM3dMOFBxTWRocm1sZFluRXBaclFGdjR4aXNWTnJnR1d6WGw5VVdHNjRjZ091cGRJMHVGOVNOVWU5aW1nZmFlTGs3bjJjWDlSQ2R0azVQSVRQV2ppMTRjazY1eVJ3Ml8zV1UyQ2hrMXZrRGh5VVhlV1BfbDhUc2hTZERIa1I2a1dhTGp1cl83YVRSdU9zZ3RlYXhJZElUOUw4STBQaHRfT3FnQ2V6ZEdFY0g0TUhaZ2c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-macro-iran-response-inadequate",
+      "time": "2026-10-12T11:00:00Z",
+      "headline": "Iran calls US response to peace terms inadequate, keeping an energy risk premium in the tape",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AAPL"
+      ],
+      "why": "A stalled de-escalation leaves a crude risk premium embedded in the inflation path right into a CPI print, which raises the odds that breakevens rather than growth drive the next leg in rates. That is a direct multiple headwind for the index's long-duration leadership and a direct earnings tailwind for integrated energy. The split tape \u2014 cyclicals bid, Nasdaq offered \u2014 is the market pricing exactly that rotation.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxONklYUmFnQ01oSXpoS2NFNVpGOU8xZGhPbXlPMUprTXYyRmQ5MXlWbTJmMmVJTFVCX2xwV09XU0pGTzZNYVM0cUNmLVdMX2szbUR1SHFrVmRRNVRFNmpiMWIyY1Y2QnZTSnJ5aThXcDJScy1YY3JXUFQwUFlaazVra1NtY25KdDd2ajJKN253SWVzZ3NtWi1EbmJ3cFpqQThweldFM0RBZlJpaFFhM0wzbjB6amp2UmdGd09ZTU1BZ05ycFl2RUZLNG56OXp1c3QyeXNlaW51ZV9iZE1qc1oyOVN2RWFjVG9jaVNSYmxlSjR2eVRndDdqRVVUY1htcEJNY0RNbm0zVFhxUFBXQkx5dWlqVUloQ0FEcE1IajhQVVhuR0dEeWJ2WA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-macro-cpi-bank-earnings-setup",
+      "time": "2026-10-12T10:30:00Z",
+      "headline": "Index futures split ahead of the CPI print and the start of bank earnings",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "MS",
+        "BAC",
+        "WFC"
+      ],
+      "why": "Bank results set the loan-loss and net-interest-income assumptions the whole financials complex is marked against, and they arrive before the index has repriced the rate path, so the two inputs land on top of each other. Capital-markets revenue is the swing factor for GS and MS and feeds directly into the buyback math investors are underwriting. A hot inflation print would hit the long-duration names hardest while leaving bank NII estimates intact, which is why the futures are moving in opposite directions.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZU9kcU5IdFk4dDE4bzRxZHlqT2JmSVoxeXFMQm02a1RPbjF0VGtSQkxJLU82ZXdEZkdJamRicmoyVG9sY1JGbEZuSF9KdWhLQURHcTNJVGRwajlYbDVvYy1pWGxYeEdqX0d5S2diUnJGd3Y0UmZTRFlNS0FPYzhhZGp1NzhGTXlaLUJGYUlvLXJoNXRTUmJ0MWswdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-memory-dram-server-allocation",
+      "time": "2026-10-12T09:00:00Z",
+      "headline": "AI server demand is pulling DRAM capacity away from conventional end-markets",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "WDC",
+        "NVDA",
+        "SMCI",
+        "AAPL",
+        "AMD"
+      ],
+      "why": "Wafer starts reallocated to HBM and server DIMMs shrink the bit supply available to phones and PCs, so the pricing power shows up in segments that carry no HBM premium at all \u2014 that is an industry-wide margin mix upgrade rather than a single-vendor win. For system builders and handset OEMs the same mechanism is a bill-of-materials cost increase that lands in gross margin a couple of quarters out. It also tightens the supply backdrop that the CXMT competitive story is arguing against.",
+      "source": "TrendForce",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wTG5DV3A3c1RlRDZkMGJQSklZeTRmTGFwUEQ5YkhYaE04dERpSFZ2VkNjQnFERnJMTGxoT2J3NXAtZy1lb1NVOE5vdmxnWHdhX1Z5RE5lM05udE0wT0NV?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-macro-ms-bond-market-tightening",
+      "time": "2026-10-12T08:00:00Z",
+      "headline": "Morgan Stanley argues the bond market has already delivered the equivalent of 120bp of tightening",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "why": "If financial conditions have tightened without the Fed acting, the hurdle for an equity rebound becomes a fall in term premium rather than a cut, which changes which assets lead off the bottom. The framing matters because it implies the next Fed move is less important to equity multiples than the long end, and megacap duration is the most sensitive expression of that. It directly contradicts the 'yields at multi-decade highs are a one-way headwind' read circulating in the same session.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84cEhIOVhGODZMbV9zNnJ0Q2cxQlNGZnY5eDNwc2t4Z25CeVZYejk4Ukpta2N0OU5SeXZ5MEZRVEFURWltNkZQcXh1ZWEydFAtR1V4YmtBcWh4V1l6M2dHbDRySGo1aXByMUZacUpVYTNqUTRpY2c?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261012-macro-riyadh-airport-attack-oil",
       "time": "2026-10-12T06:00:00Z",
@@ -706,165 +851,6 @@
       "why": "Claims are the highest-frequency read on layoffs, and sub-200k prints remove the labour-market deterioration argument that the rates market was leaning on after the soft payrolls number. That keeps the committee's bias toward one more hike this year intact, which lifts the discount rate applied to long-duration tech and caps small-cap outperformance. The split signal \u2014 weak hiring but almost no firing \u2014 means positioning stays hostage to next week's inflation data rather than resolving in either direction.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMWFoUC1DSlZwckJETlF2WXdjTnhwSkt5UlIxVzBMQVoxVXJ0UjNTdjBDdmlwUmR3V2hQWDBGaTNnLTd1X2VIQVhBcVFmZGJHNGtCODU3RE55eHk2Y0FBbVBEUXF1S2lDaW42Y2VnUk9aRExvMXM1TGFIYjNpcnhTSUc5S1V3Nk1KWkZrSDlyTUFpNTZqYWxraw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-macro-september-payrolls-miss",
-      "time": "2026-10-08T12:30:00Z",
-      "headline": "September nonfarm payrolls undershoot consensus; index futures turn higher as rate-cut odds firm",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "NVDA",
-        "AMD",
-        "MSFT",
-        "PLTR"
-      ],
-      "why": "A softer labour print shifts the policy distribution toward further easing, which lowers the discount rate applied to long-duration tech cash flows and is the main driver of multiple expansion in this tape. Small caps and leveraged balance sheets get the largest mechanical benefit because their funding cost resets fastest. The offset is that persistent labour weakness eventually undercuts the cyclical earnings line, so the equity reaction is a duration trade rather than a growth upgrade.",
-      "source": "\u5bcc\u9014\u725b\u725b",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnM1TC1yMEN2SE1JZjZ1aVhxaTRBNUFRSHo1V0kyUG5kM0tqeWUtRU8xdm00RWFhSFVwajIyQ2w1SFV4YlltSklKV1B4RFk1bkF4QjVtR1Fnb1FoV1RUME1YcnliTHVnT3ZBQXBUS3J3UTd2UkRNY3RIZHVZZWZFOHhMSkkwNF9td0FPRE5qNkowYzczMEtNS3dYUVJSNU5FaFJXQ21LZHcwX1FwSlM0ODJRdUYyUFNZ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-tsm-september-sales-beat",
-      "time": "2026-10-08T12:00:00Z",
-      "headline": "TSMC September sales come in ahead of target, confirming no let-up in AI foundry loading",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MRVL",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ANET",
-        "SMCI",
-        "MU"
-      ],
-      "why": "TSMC's monthly revenue disclosure is the cleanest high-frequency read on actual wafer starts for every leading-edge AI accelerator, so an above-plan print de-risks Q4 revenue for the fabless names that buy that capacity before they report. It also feeds forward into 2027 capex intentions, which is the single variable that sets the order book for the deposition, etch and metrology vendors. A beat pushes the Street to mark up utilization assumptions rather than just sentiment, tightening the gap between consensus and the bull case.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbzNMTERPNzI1VXExX0tfckJ5WUFwdkZWQVBqMlo5RWRJS2xGUVFENVdrdDl2T1ZCS3J0bHo2ZHlab2JjTTgxX3NNSHJtMVRfei1kaFRhWWtyR0tBTzJ1UmxySE9qSmtwSjF5dHpSdXlVUHVHRlc1ZFlsRmVrWGtvUERXRU9rWW1pZDVVOXRhdWdCZ0YxM1E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-macro-hormuz-control-claim-energy",
-      "time": "2026-10-08T11:00:00Z",
-      "headline": "Trump claims US 'control' of the Strait of Hormuz, injecting fresh geopolitical risk premium into crude",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Hormuz carries a large share of seaborne crude and LNG, so any rhetoric about physical control of the chokepoint moves the tail distribution for oil prices and therefore integrated producers' realisations. Higher crude is an earnings upgrade for XOM and CVX but a headline-inflation problem that works against the rate-cut path equities are currently discounting. Direction is genuinely two-sided because the statement implies both escalation risk and a claim of secured transit.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORjlPY05OQUx4QlM3bkdmcThpa3RWWFRSb3loWE1ieXBETkZ4VmZuY0QwZ1hWUm1sa3ZaclF3UWM2MXE3MHE5X2JvS2VhcFJMTHFIbFRiQTBESk1aSzhoOGN2WGktRkJ3SXNJbEJHeng3aVRyVE9GWnNTRy13dlNEWGpBWGZya3dibHRRUjRXQjhMeWkxYlZySFUxS0U5eEhKSk0wS3BWUVREWmlaTDJxcXVhUTZuVmJJQld4ZHhpV185QQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-semis-taiwan-september-exports-record",
-      "time": "2026-10-08T09:00:00Z",
-      "headline": "Taiwan September exports hit a record $87.22bn, up 60.9% year on year on AI component demand",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MRVL",
-        "ANET",
-        "SMCI",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML"
-      ],
-      "why": "Taiwan's customs data is the cleanest high-frequency proxy for AI server and accelerator shipments, and electronics plus ICT products made up the bulk of the total. A 60.9% year-on-year print implies the supply chain is shipping at full capacity rather than merely building backlog, which supports upward revision of Q4 consensus for foundry, substrate and board-level suppliers. Officials also attributed part of the strength to tight electronics capacity holding export prices up, which is a margin signal, not just a volume one.",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVWh5YzZrMzUwYnp1ZjJKQUxJN3JvblpwRnpEMkVyM0dDdU0wVWV3czdwSW9jX2g0TzdSdWxITVhoWFFHWGVjdnNoQkxsQjhVWVZWVjhIMllxTjlyT1hlS3V5cHNwRkNJdXFLTUppTFRpWHBYRTlvWlF2TURPQVd5T3RfRXVJME9GRVZwNzZaNmpyQkJ0T2V1UFdaM0VNMXpSWXpmZGxR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-asml-hybrid-bonding-fear-pushback",
-      "time": "2026-10-08T08:00:00Z",
-      "headline": "Morningstar pushes back on the hybrid-bonding threat to ASML, arguing HBM adoption is the real swing factor",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MU",
-        "TSM"
-      ],
-      "why": "The bear case circulating on ASML is that advanced packaging displaces litho layers and caps the tool intensity per wafer; rebutting that reframes the driver as HBM stack volume, which is expanding rather than substituting. If the market accepts that advanced packaging is additive instead of cannibalistic, the terminal-value discount currently embedded in semicap multiples narrows. This is a multiple argument, not an earnings revision, which caps the magnitude.",
-      "source": "Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVjBOVHNRUVNjdTVxNkpYR1J0LWNqeWNnZE51Vm5zMXRfSUxhb29qUnZGdDE4WG1SOWVPaHFjNGdDU1BmOHQxeGtMMV9GTnN1ckRuVXFvUlBVSFdRQ19lTnJKQmtlTjgzdEZUWEpoa3o5UXVKeUk0dHIyUWU1Q3BtaW9pd1ZqdHctb1VqYnpvdkdRWkdycW5qUTRTQXN0NWpRa2kzMHFOcF9wYjFNaVhCaDNhU3NnQXV6eGQ3aGlCdTRMNVJFbFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-macro-citi-tech-earnings-surprise-call",
-      "time": "2026-10-08T06:00:00Z",
-      "headline": "Citi tells clients the large majority of tech names should beat this reporting season, singling out NVDA and AMD",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "A major-bank framing of the beat rate going into reporting season is what sets positioning ahead of the prints, and it raises the implied bar: a beat becomes the base case and only a guidance raise gets paid. For the AI complex specifically, it argues the sell-side revenue models have not yet caught up to realised accelerator and memory pricing. The risk cuts both ways \u2014 if consensus is already positioned for near-universal beats, in-line results become a de-rating event.",
-      "source": "\u5bcc\u9014\u725b\u725b",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVjJjRXRKUDNtVjgwbnlhUTM4Vk9IOEtVcGlabnEwcVFseXA3MkZRSTI2OHRQQmZiaHRxb0lXUEJqWmJRb1lNenRGai1ZZkp3RGpiREhCak5ZMDRUVU5IQUtLZGpNYlJZZmFPRFBETkk4eFpvTGs4OWRla2E0bXpCR0ZpZUt0NU4zOHBpd3hSTlBBMWdySzhBNDY4ajdGTG1WSThJ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-memory-samsung-q3-record-preliminary",
-      "time": "2026-10-07T23:30:00Z",
-      "headline": "Samsung posts record preliminary Q3 operating profit, up roughly eight-fold year over year on memory pricing",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "Samsung is the cleanest real-time read on DRAM/NAND contract pricing, and a profit step-change of this size confirms that memory ASPs \u2014 not unit volumes \u2014 are driving the cycle, which is the same lever running through Micron's gross margin. It also validates that HBM and conventional DRAM are tightening simultaneously, so hyperscaler memory budgets rise and the cost line for AI server builders like SMCI gets worse even as the supply chain's earnings power re-rates. Reported figures conflict across wires (one source cites 107.4 trillion won, another 105.41 trillion won preliminary), so treat the precise level as unsettled while the direction is not.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2drdFk1d3hSOHhXYURMV0M2UVhWWHFCRUx2a3RfdmtPOHNiZnRjV182cjlTNko1akJqS2g0eC1Dem1Lb1FBYVhFX2trY0lndExqMjJkd3NUUmxpaHNIaG9YLWhxUnFtTzZmOU4yNmlRZUFZQnVfZUV1MTA5SGNLaWJkbXRJZXdRQVlnRjRHMTFKT2hqV3Y3UnZPZ2p0LTZWVnVIaFg4TF94dw?oc=5",
       "alerted": false
     }
   ]
