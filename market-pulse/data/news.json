@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-10-11T22:18:54Z",
-  "session_date": "2026-10-11",
+  "generated_at": "2026-10-12T06:21:36Z",
+  "session_date": "2026-10-12",
   "items": [
+    {
+      "id": "20261012-macro-riyadh-airport-attack-oil",
+      "time": "2026-10-12T06:00:00Z",
+      "headline": "Repeat missile attacks on Riyadh's King Khalid airport spike crude, then prices round-trip lower",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Strikes on the capital of the world's largest crude exporter inject a supply-risk premium into oil that flows straight into integrated producers' realized prices and into headline CPI expectations just days before the September print. The round-trip in crude \u2014 an initial surge followed by a pullback as no export infrastructure was confirmed hit \u2014 means the energy earnings upgrade is not yet locked in, while a sustained bid would tighten financial conditions and compress the equity multiple via the rates channel.",
+      "source": "\u6df1\u6f6eTechFlow",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLT080ZFdGRVBabzhXLXFyODBGekNvTl9EWXZVcHR1dmJ3VVVYdkd3a3FHTjF6MHpQOEszbm9BYUF2Tm42Q2h3S2lNSmVybXJENjYyLXNPdy1wR2Vl?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-china-csrc-ashare-support-tech",
+      "time": "2026-10-12T02:00:00Z",
+      "headline": "CSRC convenes weekend symposium to backstop A-shares after tech hardware rout",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "QCOM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "TSM",
+        "AAPL"
+      ],
+      "why": "The Chinese tech-hardware de-rating had become a sentiment source for the global AI trade, with valuation anxiety there feeding the same multiple compression argument applied to US semis. An explicit regulatory backstop removes a forced-selling tail risk and stabilizes the demand signal from China-exposed revenue lines at the equipment makers and analog/handset chip names. This supports the multiple rather than near-term earnings.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmhJU3JVNUhkM3FXMEdVLVhtT1czZjNVNm5xeXhUZDVLd2xnZk44Z0hFNGJVbDVtb0NVRXlGN2E5b2tPclFZRXZIa0ZXVEhNY1Q5V1RESVcxMTFJUzhEdmxBdHpBVWZoU2V5bng3RlM5cDJWUTlwN1pZQ1c1MHo3OTAycHJQbk1tSE5jZklwOXlKMER0Q1NIRWRXLVIzWGpTVjRDZ19GSmYwVHZUZVU1Ym5JX0hZNkVN0gG4AUFVX3lxTE9yMENIenRwbDJ2blBZMXJ0c2NWaFhsMVl0Ty1iMERiRm1Da3BxNW1Zc0tXeDBwMG9FbFdfZXppVDFaR2s5bS1yYjAwOVEtNEZFejBpODJmTE15ZTd3cUdfUkFuUUhENVRNSGFTOVdjLXdFTVJIWENpVmVaRFFtVjR4ZnpUUFZtcDhFSng2NkotY3BodXRwbFE1eEtFRlFJQXJCTmI5blNQNXRyV3RlS2xDeVlYT29za2g?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-semis-korea-early-october-export-surge",
+      "time": "2026-10-12T01:09:00Z",
+      "headline": "Korea's first-10-days October exports hit a record, driven by semiconductors",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "TSM",
+        "NVDA",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SMCI"
+      ],
+      "why": "Korean customs data is the highest-frequency read on memory and logic shipment volumes and average selling prices, and it arrives weeks ahead of US reported results. A record early-month print argues the memory price cycle and AI server build rate are still accelerating into Q4, which supports upward revisions to MU's margin path and to the WFE order book, and corroborates the bill-of-materials demand implied by TSMC's monthly sales ahead of its Oct 15 report.",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYUh3dG1Gak50VkZQVWNZdFhpTlA1TTFEd1c1WWNmZ3NVd3laVW16UW1CaFVncUZ5dDJIeGZSN00zeVppXzVUTFVway1uNDVCY0QzUk1MMEJycHhxaTV5MjhkVmRHb3YzNlU5SEk5U3E1eEdFSVgtTG1qbndyRkxzM3BXemN1bGpaRkJDdXVuM2MwU2ZkeWluQU9iNldsT1p1RmJoS3k2cEJuOU5GSGpvelhSeVJqakF5RnhOZg?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261011-tsm-q3-report-oct15-setup",
       "time": "2026-10-11T09:00:00Z",
@@ -801,73 +865,6 @@
       "why": "Samsung is the cleanest real-time read on DRAM/NAND contract pricing, and a profit step-change of this size confirms that memory ASPs \u2014 not unit volumes \u2014 are driving the cycle, which is the same lever running through Micron's gross margin. It also validates that HBM and conventional DRAM are tightening simultaneously, so hyperscaler memory budgets rise and the cost line for AI server builders like SMCI gets worse even as the supply chain's earnings power re-rates. Reported figures conflict across wires (one source cites 107.4 trillion won, another 105.41 trillion won preliminary), so treat the precise level as unsettled while the direction is not.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR2drdFk1d3hSOHhXYURMV0M2UVhWWHFCRUx2a3RfdmtPOHNiZnRjV182cjlTNko1akJqS2g0eC1Dem1Lb1FBYVhFX2trY0lndExqMjJkd3NUUmxpaHNIaG9YLWhxUnFtTzZmOU4yNmlRZUFZQnVfZUV1MTA5SGNLaWJkbXRJZXdRQVlnRjRHMTFKT2hqV3Y3UnZPZ2p0LTZWVnVIaFg4TF94dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-avgo-openai-50b-vendor-financing",
-      "time": "2026-10-07T21:58:00Z",
-      "headline": "Broadcom in early talks to arrange more than $50B of private-credit financing for OpenAI's custom chip purchases",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "AVGO",
-        "ORCL",
-        "NVDA",
-        "AMD",
-        "MRVL",
-        "GS"
-      ],
-      "why": "The structure converts a chip order into a credit exposure: Broadcom only books the XPU revenue if third-party lenders such as Apollo and Blackstone fund the gap between OpenAI's upfront hardware payments and its later compute revenue. That de-risks the near-term revenue conversion of the 10-gigawatt custom-accelerator program but embeds Broadcom in the customer's funding chain, which the market prices as a lower-quality, more cyclical earnings stream deserving a lower multiple. It also sets a template \u2014 Oracle is pursuing a parallel framework for a gigawatt-scale site \u2014 so the whole AI buildout becomes rate- and credit-spread sensitive rather than purely demand-driven.",
-      "source": "Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObU9Wc2xwM1A2RjNZaWJVM0ZLZWl3MGJBZUJhdHc5V3hQZXVKZGQzZUxrMjMyRE1EMGJXVEk0dmpzSGRZeURZc3Q5Nm1wdGkyeEprcXBILU5jNGRIT3lHcEVzVWZMbkpBYXVyZ2w4VktBdnBtRUtLUFFjMWlKc2JlZlQ3YUlHblRSRmJjQWNxelhoOFZBQm9iOGNsaTFWaWNGSXVsX2VWbWtkdmFLSmhDbUxuSTZkVUhrODBSb19XcUxWdmh0OEl0R2lHYlg3dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261007-macro-long-end-yields-record-fade",
-      "time": "2026-10-07T20:30:00Z",
-      "headline": "Long-dated Treasury yields resume climbing and knock indexes off record closes, with a coming auction as the next test",
-      "impact": 6,
-      "direction": "bearish",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "META",
-        "GOOGL",
-        "AMZN",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "scope": "macro",
-      "why": "The move is being driven by term-premium and fiscal-supply concerns rather than growth, so it compresses equity risk premia without any offsetting upgrade to earnings \u2014 the pure definition of de-rating. A soft auction would validate the bid-side scarcity thesis and force a further multiple adjustment in the most richly valued megacap and AI-infrastructure names. Financials are the partial offset, since steeper curves support net interest margin.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlBxMHUzb2ZDaHpMY3JBZUl2Rk9XSE94bjQ2aFVndHhYeU4zS1Rwb2I1SlFJWjVpaE9sS0V4c2ZiQ2JsMzd0R0lydzlFejhJVkNYbU5ZTGVjeW9tWUJtTmUzX2VwY0N1SnpLVmdvQWRvM20xS25hRmhXRDdHVUppRk9hS2JhVExxdVUtX0hfQlNqWnd0OUhHWEpaa2w1Z3hXNVRkaw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-amd-su-demand-commentary-reaffirm",
-      "time": "2026-10-07T20:00:00Z",
-      "headline": "AMD CEO reiterates bullish AI accelerator demand framing into the November print",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "MU",
-        "ANET",
-        "SMCI",
-        "AVGO"
-      ],
-      "why": "Management reaffirmation after a vertical move in the shares matters mainly because it lowers the odds of a guidance reset \u2014 the main bear case on AMD now is that the OpenAI and enterprise-server commitments are back-end loaded and dilution-financed rather than near-term revenue. Confirming demand tone keeps the MI-series ramp assumptions intact in sell-side models, which is what supports the current multiple. Read-through is to the foundry, memory and networking content attached to each AMD rack shipped.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaE9mZjA3U0lzZDl1Z0xaOTEzRWtxaFpnalNLNTNGZ0VCRXB1bzdJblVublFlMEVQV0Z2bVdlaWppR205dXc1dTdkbUI3SXpOR1BYZU5BajEtZ09NT2RaV2xOeXJPNWxBSS1uSkppM1prR214cFVnQ00xZ1JiamtOekVhYzRIWXp3MW9aUzNncGw2cHdJWEozQmo1TlRsSmY4UlNuT1dld0o2UWFDTnhHWEs0MjZ1akZNendpbmE3SlBhanN1OTRncWkwenp6NjFa?oc=5",
       "alerted": false
     }
   ]
