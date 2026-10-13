@@ -1,7 +1,171 @@
 {
-  "generated_at": "2026-10-13T00:55:07Z",
+  "generated_at": "2026-10-13T14:29:00Z",
   "session_date": "2026-10-13",
   "items": [
+    {
+      "id": "20261013-macro-bank-earnings-tech-rotation",
+      "time": "2026-10-13T14:00:00Z",
+      "headline": "Rotation accelerates: money moves out of AI/semis into bank earnings beats as Nasdaq lags",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO"
+      ],
+      "why": "This is a funding-source rotation rather than a de-risking event: with financials delivering visible, cash-generative beats, the marginal dollar is being sourced from the most extended AI positions, which mechanically compresses semiconductor multiples even without any change to their earnings. Because index weight is so concentrated in the AI complex, QQQ and SPY can fall while market breadth improves, making headline index moves a poor guide to underlying risk appetite. The durability of the move depends on whether upcoming inflation data keeps real yields from backing up further.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDBxMVh3eDN5d2lJNllhUGJhOG5PWjU5VTdPUThTbWtYbF9EMzJrQmpDTWIzTFZhSy1seDBpZ2NDWDhUNldaZUFyUy1LOEVFeENxUmZiU3BBQ0NqT2xTeUlEeGVLS3paYkYwUU1yclhxVHlYTTRYZ3VtOGp1UEdncFNQdXVTQXNvWGgzaGdVaTVnaDR3dXprLTc4akg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-mu-musk-china-memory-commodity-warning",
+      "time": "2026-10-13T13:00:00Z",
+      "headline": "Musk's commentary on Chinese memory scaling adds to the de-rating of Micron and storage peers",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "The bull case for Micron's current multiple rests on memory having escaped commodity economics because HBM and advanced packaging are capacity-constrained; a credible, high-profile buyer publicly arguing that China can out-scale on standard DRAM and LPDDR directly attacks the pricing-durability assumption behind consensus FY27 estimates. Margin, not volume, is what is at risk \u2014 commodity bit supply from Chinese fabs would cap contract pricing even while AI-driven demand grows. Note this amplifies, rather than replaces, the prior Chinese memory design-progress story that already hit the group.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGluY1JiRXZzd0lhWDJfclZvZHVMTGdYZl9reDBxamZCRU5jYy1tMER0cGFrNVN4eUI3UHpzWF9tQXZudkZNcXBzeVp4MXhBdFdLSnhrc1pYQVZmMEhhREpqZkVzNWpuZ0RBRzVUWFM3Wk1iMTZLamVLcUlPZzgxLVBJSGhLdFQ3QXY4?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-amd-credo-terabyte-memory-systems",
+      "time": "2026-10-13T12:00:00Z",
+      "headline": "AMD and Credo to demonstrate terabyte-class memory AI systems built on merchant silicon",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "MRVL",
+        "MU",
+        "NVDA",
+        "AVGO"
+      ],
+      "why": "Large-memory-footprint inference is where AMD has the clearest architectural edge over Nvidia, and showing it with off-the-shelf parts shortens the customer evaluation cycle versus waiting on custom ASIC programmes \u2014 that pulls forward potential MI-series design wins into the 2027 revenue window. It also strengthens the merchant-silicon case against the custom-accelerator thesis that underpins part of Broadcom's and Marvell's valuations. Memory-heavy system architectures raise DRAM content per accelerator, a modest positive for Micron volumes.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOblFCaUhhdC0xSkRXWHBHRUt0S2tyaGdhcU14UUJCc0otaXY3WDg2UU4zakFERjhCYU9jazF1ZEFHSlVJZXhENjdhdnAtRzhzLUM0X2g0OFFVVnNQcGI0c0VDR1RFaE1TS0w4WXdKaEZidmVVYjU3Qml3THJKbHJDYWwtVGswWlB1Uk5RS0ZjNWgxRGpFcl9QOTRhNjVQUTczci1zVE1LT3haRmVDVWsybVI5VkszSmtDdW9vaTNR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-gs-q3-2026-earnings-beat",
+      "time": "2026-10-13T11:30:00Z",
+      "headline": "Goldman Sachs posts Q3 EPS of $17.01 on $18.68bn net revenues with 18.7% annualised ROE",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "GS",
+        "JPM",
+        "MS",
+        "BAC",
+        "WFC"
+      ],
+      "why": "A high-teens return on equity with net earnings of $5.29bn validates that capital-markets activity \u2014 advisory, underwriting and trading \u2014 has reaccelerated, which is the swing factor for Goldman's earnings power and the main justification for banks trading above book. Sustained ROE at this level compounds book value quickly and supports larger buybacks, directly lifting forward EPS. It also sets a constructive read for the other capital-markets-levered banks reporting this week and feeds the rotation out of crowded AI exposure into financials.",
+      "source": "Goldman Sachs",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results",
+      "alerted": false
+    },
+    {
+      "id": "20261013-macro-imf-gfsr-ai-correction-risk",
+      "time": "2026-10-13T09:00:00Z",
+      "headline": "IMF Global Financial Stability Report flags AI-equity correction as a systemic risk from concentration and circular vendor financing",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AVGO",
+        "ORCL",
+        "PLTR",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "The mechanism is the multiple, not earnings: an official-sector body naming index concentration, hyperscaler-AI financing arrangements held largely off public markets, and thinner bank capital buffers gives institutional allocators cover to cut AI beta and raises the risk premium applied to long-duration tech cash flows. It also increases the chance regulators begin scrutinising vendor-financed compute deals, which is precisely the structure underwriting a large slice of Nvidia's and Oracle's forward backlog. Timing matters because it lands into an already-fragile semis tape rather than a calm one.",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWjc5Sy1zc0U2MS1Vb0RqVmFBQXl6T1V3Mk1ESWtSMDV2eTBUY2RSVlI1MS1tdzBJZ2NfdExldHF5M0s0X3NvNW1TMzczM3F6OUJ4SE1TMmFFU3hpYUZlRlMyamJTcC1hVGw2SGNyWHZkQnFJZWlqVmZsenVuNkRYOGhLamNlLU5vbjVuTmdhMGJzOVRyZDhZc1gzUmZvQldJUFJfbFpGVWtfZ0R1?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-semis-kospi-memory-derating",
+      "time": "2026-10-13T07:00:00Z",
+      "headline": "Korean chip complex suffers another violent de-rating; Samsung and SK Hynix lead Kospi sharply lower on AI-durability and China-memory fears",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "SMCI",
+        "LRCX",
+        "KLAC",
+        "AMAT"
+      ],
+      "why": "Korean memory names are the highest-beta expression of the AI capex cycle, so a two-day collapse there is the market marking down the assumed duration of the DRAM/HBM up-cycle, not just sentiment. The trigger combination \u2014 a Broadcom-sourced warning on AI demand durability plus Chinese memory design progress that would relieve the supply tightness underpinning current pricing \u2014 attacks the pricing power assumption inside Micron's and the WFE names' forward estimates. Sources conflict on the magnitude of Tuesday's Kospi move, variously described as more than 7% and about 5.5%.",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNm9QNWNsODRFdDVWRlBkRjN4dWVKSy04SHFDMkNRVFRtamJjRjdxUm5rMEFpNjlmdnlfRDRDcVM5a0Q0QzA3d2E1a3FYRXQ0TC1iR1YzV2d3bkZ4Q0FFRlB2UEl1bHpnbnNiZ09LQU9TcjIyT2RlSVdjMEhPSUQ1REdUaVZuckRwaVNjU01LZGRoLVM5WmlsUTk1QkxNTW55NUV6V2txWHpIaWVSWjRsWUVycE05RzA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-nvda-china-share-34-huawei-idc",
+      "time": "2026-10-13T06:30:00Z",
+      "headline": "IDC data: Nvidia's China data-centre AI chip share fell to 34% in H1 2026 as Huawei reached 28%",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI"
+      ],
+      "why": "This quantifies permanent demand destruction rather than a timing delay: Nvidia's China accelerator shipments fell about 44% year-on-year to roughly 678,000 units while Huawei shipped about 572,000, meaning the installed base being built in China now runs on a non-CUDA software stack. Every quarter of that substitution lowers the terminal value investors assign to Nvidia's China TAM and raises the odds domestic parts eventually compete outside China. Read-through is negative for AVGO/AMD China accelerator hopes and for TSM/MU content attached to China-bound Nvidia systems, though some sell-side work argues the current price already discounts zero China data-centre revenue.",
+      "source": "Seeking Alpha / Reuters citing IDC",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVm9JY1RJX0hYcERmWjVPcW1oUktJejViVE9kZUdNY3ZfVWJndWtrZjFrZnhydk90MmtVOU1DblcwQ2tuRkM4YjVhck1GTmtQRjJRakE5bGRjZmhkS3Z3YkNfNTAtc1lZNWhEdUJQYV9MV0Nlbzs5ckluMzlybk91WGNqUzhIeTE5TTNTN1RRZUtRNFo5ZlpHRjYyXzRYZVdReDZMN3E2R0ZnWlJOdHdFVQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-huawei-kirin-100m-chip-milestone",
+      "time": "2026-10-13T04:00:00Z",
+      "headline": "Huawei passes 100 million Kirin chips shipped, underscoring domestic design-plus-foundry scale despite sanctions",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "QCOM",
+        "NVDA",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "Volume at this scale proves the domestic SMIC-plus-Huawei chain can sustain yield and throughput, which permanently removes a block of Chinese handset SoC sockets that Qualcomm once served and funds the R&D feeding Huawei's Ascend AI roadmap. The same learning curve is what is letting Huawei take accelerator share from Nvidia inside China, so the two stories compound rather than sit separately. The effect is a slow erosion of Western share-of-wallet in China rather than a single-quarter revenue hit.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlhabXlCZE0tS1hVWjhxVzIzSnFMN2c5cC1BMWx6TlAtUU5MY2tKX3dqZkd2VGZOR29fd2p5MDJndXN5NWFXSzRXd2NraE05alNPY043ZTNiT2QxelE3aHRSZGlsUG9qMmtzWjU4S0oyakhzN1VzZWFVYm83M283dldBTWZ2MEp1YlZ5OXR2Y3FQd25fZ0o1ZEdyZUU5VVFERlJ3VGFBNzkwQ1pwc2J4N2MzNFRldTR4aWFNZzJtYjE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261012-aiinfra-intc-avgo-ceos-capital-access-warning",
       "time": "2026-10-13T00:11:00Z",
@@ -670,180 +834,6 @@
       "why": "The split between a collapsing current-conditions read and rising year-ahead inflation expectations is the stagflationary combination that squeezes consumer-facing earnings while capping how fast the Fed can ease, so the discount rate does not fall to offset weaker volumes. Lower-income demand erosion feeds directly into retail, restaurant and consumer-credit loss assumptions heading into next week's bank reports, and it argues for continued narrow leadership in AI capex names that are insulated from the household cycle. Rising inflation expectations also raise the bar for the next CPI print to validate current cut pricing.",
       "source": "CNN",
       "url": "https://www.cnn.com/2026/10/09/economy/us-economy-consumer-sentiment",
-      "alerted": false
-    },
-    {
-      "id": "20261009-nvda-spacex-40b-chip-financing-demand",
-      "time": "2026-10-09T14:00:00Z",
-      "headline": "SpaceX's Apollo-led $40B debt raise to buy Nvidia AI chips adds a new non-hyperscaler demand pool",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "AMD"
-      ],
-      "why": "Nvidia's bear case is customer concentration in four hyperscalers whose capex is budget-constrained; a privately funded buyer using third-party credit broadens the demand base and lengthens the visible order runway without consuming hyperscaler budget. The orders pull through the full rack stack \u2014 HBM, foundry wafers, networking and server assembly \u2014 so the read-through extends well past Nvidia. The caveat is that this demand is debt-financed rather than cash-funded, so it is more sensitive to credit spreads than hyperscaler capex and raises the same vendor-financing quality-of-revenue question now attached to other AI chip deals.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeUNPVHo0YTZjZXo4UGxobTZVOFZxRnp3WmlzSEoyUnYtcU9CZ1R4eUJ2Uk1BZ2hqSVR0OUdkSEhibXY3dTV1aDdNZ0o5Wi1Vdnlkek82ZG5nQmdoZDZCSDU4TWdUZUNjRHhnMDB2ZVIzZkFoUHlzTVd2LXBaTUVXRXl4eXQzV0o4V0gtVDJEZ05oeEw5cEhtVGQ2dk83bjJYbWln?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-macro-oil-retreat-iran-progress",
-      "time": "2026-10-09T12:40:00Z",
-      "headline": "Crude retreats on hopes of US-Iran progress, easing the Hormuz risk premium that pressured risk assets",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "The energy complex had been carrying a geopolitical premium tied to Strait of Hormuz headlines; its unwind compresses near-term realised prices and therefore upstream cash flow for the integrateds, while simultaneously lowering the inflation impulse that had been pushing yields higher. Lower oil plus softer yields is a direct multiple tailwind for long-duration tech and a direct earnings headwind for XOM and CVX, so the direction splits by sector. This is the mirror image of the earlier Hormuz-control trade.",
-      "source": "TheStreet",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026",
-      "alerted": false
-    },
-    {
-      "id": "20261009-macro-week-ahead-bank-earnings-cpi",
-      "time": "2026-10-09T11:00:00Z",
-      "headline": "Bank earnings and CPI set up next week's repricing test with the S&P 500 near records",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "JPM",
-        "GS",
-        "MS",
-        "BAC",
-        "WFC",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Large-bank results are the first hard read on credit quality, net interest income under a falling-rate path and capital-markets fee recovery, which resets the earnings base for roughly a fifth of S&P 500 profits and is the main non-AI support for index EPS. A CPI print landing against this week's softer labor data determines whether the easing already embedded in the long end holds, which drives the multiple on the index far more than any single company headline. With the index at records, positioning is asymmetric: in-line data is largely priced, an upside inflation surprise is not.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-aiinfra-openai-70b-revenue-reaffirm",
-      "time": "2026-10-09T10:58:00Z",
-      "headline": "OpenAI revenue trajectory reaffirmed above $70B annualized by year-end, reversing prior day's AI-complex selloff",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MU",
-        "TSM",
-        "ANET",
-        "SMCI",
-        "MRVL",
-        "ORCL",
-        "MSFT"
-      ],
-      "why": "The entire AI-hardware order book is underwritten by a handful of frontier labs, so the market treats OpenAI's run-rate as the discount rate on merchant and custom-silicon backlogs. A step up from roughly $50B at end-September toward $70B+ restores confidence that compute commitments are funded by revenue rather than pure leverage, which directly supports the terminal-value assumptions embedded in accelerator, memory and networking multiples. It also de-risks the vendor-financing structures AVGO and NVDA have extended, lowering the implied credit haircut investors were applying.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaUJOSlNrZlY4aGJWb0hjUHAyNnptUVgwelhqc2pIb2ZjcFVIZUdiSjJBRE9yVnB4R0JYdHVrMFFDUW5rS1o5eXpmY1BpZjZGOVZ3dVB1UGZKRHkwZkpOS0JyWEVZNGxlZUdlNklLVFV0NlBpZDhyaFgtclpJUFFfOURRNEFGV1djLWd1WThqRU1zRHVvN0JGd0daLWk?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-semis-commerce-codifies-china-warning-letters",
-      "time": "2026-10-09T10:30:00Z",
-      "headline": "Commerce converts informal China chip warning letters into binding regulation ahead of truce expiry",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "NVDA",
-        "AMD",
-        "ASML",
-        "INTC",
-        "TSM",
-        "MU",
-        "AVGO",
-        "QCOM"
-      ],
-      "why": "Case-by-case warning letters are discretionary and reversible; codified rules bind license obligations into law and are far harder to unwind in a negotiation, so China-exposed service, spare-parts and tools revenue moves from 'at risk' to structurally capped. For AMAT, LRCX and KLAC the installed-base services line carries the highest gross margin, so a permanent restriction compresses mix as well as revenue. Timing weeks before the US-China truce lapses also raises the probability of Chinese retaliation on rare earths or customs clearance, which widens the risk premium across the whole semi complex.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMVdZd0JTWkxUbmtYR1dObXVhLW5JUEVPMWM0OWxiUmVaeDl4UWh0bDU0ZGdpbVAyUDlUV3liQktrWEZDVWp3Nk5LT1k5TG5zRG5VaTh0ODM5NUNyajVoR1Q3ZWRvOEJzOWdpbllGYTc5T0ltT0ZONDhOMnRjSl92dHZYQlprMFRNMmZ3ejM2d1NWN1cyVVdHTHo3YzdTRWEwN3lRaTVnS0FHUzl1S2c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-amd-samsung-foundry-memory-partnership-talks",
-      "time": "2026-10-09T08:08:00Z",
-      "headline": "AMD confirms it is still evaluating a Samsung foundry and memory partnership after Seoul meetings",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "TSM",
-        "MU",
-        "INTC",
-        "NVDA"
-      ],
-      "why": "A second advanced-node source would relax AMD's single-foundry capacity ceiling, which is currently the binding constraint on data-center GPU and EPYC unit growth, and gives it pricing leverage on wafer costs. Paired with memory sourcing talks, it addresses the HBM and conventional DRAM tightness that is now a bill-of-materials headwind for accelerator makers. The read-through is mildly negative for TSMC's share of leading-edge AI silicon and negative for Intel Foundry's pipeline of marquee external customers, though nothing is contracted yet.",
-      "source": "Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcU40bkowdGJjV3l3Z2gyQlNlUi01U1c4RU9BWWpJTWNuOTJWZ3ZYUk9ZSUk0MXpLSzByVzRBSTY3OHRTalVhcEZRZWJOaGdDRnRaOTVjMDllSzcwMk9XWlVZNkJZTElEVElWZThEUzNVNUVpRk53RFVBcUc4WktHTm8wa2M2Y1ZkT05DS0VyX3B6Wmo5Z012eTZJZnFoNVF4aDBzQXYtSm5kUWctdFRIVHRqSWNBSFltLU1HR3c2YlIzQ1JiMk13TXpqNFpzbjdRaFc5NlN3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-macro-unctad-ai-valuation-leverage-warning",
-      "time": "2026-10-09T08:00:00Z",
-      "headline": "UNCTAD flags AI-linked leverage and index concentration as a systemic correction and margin-call risk",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "AAPL",
-        "AVGO",
-        "TSLA",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "The report's mechanism is not valuation per se but the funding chain: successive private rounds and debt-financed compute mean a repricing would hit credit markets and force deleveraging, amplifying an equity drawdown. With the Magnificent Seven at roughly a third of S&P 500 market cap as of August, index-level risk is no longer diversifiable away from AI capex. It adds an official-sector voice to the bubble debate, which raises the risk premium institutions apply even without changing near-term earnings.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVEJIUTlWaUd1SWxWZUI5Y1ZJRWhLbjRaYjhoMDVWOWduX0x3T0RkNEN3TFBwNGdoZUV6UHJ1aVRtZW5TYjA2RkZaZElMbU1SUVp3eDBsV2JidThzZU1JTmxKWVJqTjdYTTRPUFFWX1hRQVpId29wS21Gc1F2THNsTURxUmhwN3hEcFVNN29WTC1MQmhLemdMMUlZOHctSzc1RnU3U3Ywb3gxaHZpbktTMzQyaVU4bWdHRU14RWpOWXU1NTRkQnJ1NEYwTllnWXo4OHQxckhlY0hnYjBCNVRvODUxYw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-nvda-firmus-pulls-5b-ipo",
-      "time": "2026-10-09T04:00:00Z",
-      "headline": "Nvidia-backed data centre operator Firmus shelves $5B IPO, citing market conditions and weak demand",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "AMD",
-        "AVGO",
-        "MU",
-        "ANET"
-      ],
-      "why": "The marginal buyer of AI accelerators is increasingly a leveraged neocloud whose order book depends on raising external equity; a pulled mega-listing on poor demand signals that public capital is no longer available at the valuations these builders modelled. That pushes them toward costlier private capital or smaller deployments, which lengthens the conversion of announced GPU pipelines into actual shipments for NVDA and its server and memory suppliers. It reinforces the same financing-stress signal that has been pressuring AI infrastructure multiples rather than near-term reported earnings.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0tPRVlOaXFiejd4S1N1R01zMDEzZHJuaW9hbmpZcXpzd0QwLWd0TVg0Z0UtQmZvR3JtVHRiWDZOMzdoZWc2MmxlX0FWN3JGTDA0bmZBVjJDNGswQjdhSncweGl4aThWMUFFeEdpZVpJSENxc01BUkh0MjlCRUxmOHI5SThHNkhKejRxbEtXOTA5UUlL?oc=5",
       "alerted": false
     }
   ]
