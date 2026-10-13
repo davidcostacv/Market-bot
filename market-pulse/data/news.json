@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-10-13T14:29:00Z",
+  "generated_at": "2026-10-13T23:01:13Z",
   "session_date": "2026-10-13",
   "items": [
+    {
+      "id": "20261013-nflx-huber-double-downgrade-underweight",
+      "time": "2026-10-13T17:03:00Z",
+      "headline": "Netflix double-downgraded to Underweight from Overweight at Huber Research on engagement and pricing concerns, with price target cut",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NFLX",
+        "DIS"
+      ],
+      "why": "A two-notch cut straight into the print argues the subscriber-plus-price growth algorithm that justified the premium multiple is maturing, so further ARPU increases risk churn rather than incremental revenue. The analyst also flags reported plans for a roughly 5% headcount reduction and management's openness to acquisitions, which the market reads as an admission that organic content economics alone no longer sustain the growth rate \u2014 a cost cut framed defensively is multiple-negative even when it is margin-accretive.",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/netflix-double-downgraded-at-huber-research-amid-engagement-pricing-concerns-4947305",
+      "alerted": false
+    },
+    {
+      "id": "20261013-amat-semicon-west-no-wfe-forecast",
+      "time": "2026-10-13T16:53:00Z",
+      "headline": "Applied Materials declines to give near-term WFE spending forecast at SEMICON West investor day; semicap complex sells off (AMAT -7%, LRCX and KLAC -4%)",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "TSM",
+        "MU",
+        "INTC"
+      ],
+      "why": "Applied framed a long-dated 2030 outperformance target tied to AI logic, DRAM and advanced packaging but withheld a near-term industry wafer-fab-equipment number, which removes the anchor buy-side models use to underwrite 2027 tool orders after an 80% YTD run. Equipment earnings are order-timing businesses: absent a capex envelope, the market defaults to de-rating the multiple rather than cutting EPS, which is why the drawdown is far sharper in tools than in the broader chip tape. It sets a cautious tone directly into ASML's Q3 bookings print, the single cleanest read on leading-edge capex intentions.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUlZuWlJCaHNsNjJNLTZ2ZUVXcGdsQkhZZDFsb25WaEUyQTZRY2VfOGJxTGE4clJGUTF4Y0U5WHpCMFV4ajZQcGhZVHo3dVRJU0hrM0NIRFhkXzlfOThEa3lVaFN4Ui0zeGJoaWhLZ3hPSk80bU9RZ0o3ZlhyTWFVV0xvdmgtTkRJaWFsMkhnQkQyZXFVZDN5SGJRSXViMmZ2NHRkbjh2YmZYeGUtemVGWC0wbi1lU1VscGJsVllkN2JzX0JRRDVIRXIwMzRuT1V3TDU1MVIydHAwbnl2UmYwcjdLQjd5eWNtN24tZDVrR0gxM0k4alF3OGtneE5sRlppcTBxLVRR?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261013-macro-bank-earnings-tech-rotation",
       "time": "2026-10-13T14:00:00Z",
@@ -23,6 +60,26 @@
       "why": "This is a funding-source rotation rather than a de-risking event: with financials delivering visible, cash-generative beats, the marginal dollar is being sourced from the most extended AI positions, which mechanically compresses semiconductor multiples even without any change to their earnings. Because index weight is so concentrated in the AI complex, QQQ and SPY can fall while market breadth improves, making headline index moves a poor guide to underlying risk appetite. The durability of the move depends on whether upcoming inflation data keeps real yields from backing up further.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDBxMVh3eDN5d2lJNllhUGJhOG5PWjU5VTdPUThTbWtYbF9EMzJrQmpDTWIzTFZhSy1seDBpZ2NDWDhUNldaZUFyUy1LOEVFeENxUmZiU3BBQ0NqT2xTeUlEeGVLS3paYkYwUU1yclhxVHlYTTRYZ3VtOGp1UEdncFNQdXVTQXNvWGgzaGdVaTVnaDR3dXprLTc4akg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-amd-fermi-matador-credit-support",
+      "time": "2026-10-13T13:43:00Z",
+      "headline": "AMD signs credit support agreement backstopping Fermi's 222 MW Project Matador lease in Texas",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "ORCL",
+        "AVGO",
+        "MRVL",
+        "SMCI"
+      ],
+      "why": "AMD is lending its balance sheet to make a zero-revenue power-and-campus developer financeable, which converts a speculative deployment site into contracted Instinct capacity but also moves AMD further into vendor-financing territory where accelerator revenue is underwritten by AMD's own credit. That inflates the quality-of-revenue debate already attached to the OpenAI arrangement and raises contingent-liability risk if Phase 1 financing stalls. For the wider AI-infrastructure complex it signals that chip vendors, not capital markets, are now the marginal funder of new megawatts.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdnJsZ01lRUVnTnlyUVMwdjJtTWhaYjJLd1F1Sk4zS04yVVNfZjFTU19Pc2UwbVlMSmtHNi1EVFVQZTJVbE42WWtsS2dxQk83eUtpdWlJeWprQWxwNTZocUc5Qy1XUkpVME5uU05yMUVQUEUzUDUxZXRpY2ZYUGJhcEh5bmFyZw?oc=5",
       "alerted": false
     },
     {
@@ -60,6 +117,25 @@
       "why": "Large-memory-footprint inference is where AMD has the clearest architectural edge over Nvidia, and showing it with off-the-shelf parts shortens the customer evaluation cycle versus waiting on custom ASIC programmes \u2014 that pulls forward potential MI-series design wins into the 2027 revenue window. It also strengthens the merchant-silicon case against the custom-accelerator thesis that underpins part of Broadcom's and Marvell's valuations. Memory-heavy system architectures raise DRAM content per accelerator, a modest positive for Micron volumes.",
       "source": "Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOblFCaUhhdC0xSkRXWHBHRUt0S2tyaGdhcU14UUJCc0otaXY3WDg2UU4zakFERjhCYU9jazF1ZEFHSlVJZXhENjdhdnAtRzhzLUM0X2g0OFFVVnNQcGI0c0VDR1RFaE1TS0w4WXdKaEZidmVVYjU3Qml3THJKbHJDYWwtVGswWlB1Uk5RS0ZjNWgxRGpFcl9QOTRhNjVQUTczci1zVE1LT3haRmVDVWsybVI5VkszSmtDdW9vaTNR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-orcl-tencent-nvidia-compute-lease",
+      "time": "2026-10-13T12:00:00Z",
+      "headline": "Tencent to lease ~100,000 Nvidia accelerators via Oracle's Southeast Asia data centres in a reported ~$7bn five-year deal",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU"
+      ],
+      "why": "Remote access contracts let Chinese hyperscalers rent compute they cannot import, converting blocked China silicon demand into booked RPO for a US cloud and sustaining Nvidia unit volumes outside the export-controlled channel \u2014 the report cites roughly $2.1bn collected upfront, which is high-visibility backlog for Oracle's capital-hungry cloud build. The offset is policy risk: this is precisely the loophole Washington could close by extending controls to remote access, so the revenue carries regulatory tail risk. Note the timing is contested \u2014 some outlets describe the arrangement as first reported last month and recirculated today.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUkhmVTV0YzVEYUQ2NTUzYkVHdHowX2tpXzBRckdHVmRIZnlnN3V1bF9rWGxUSVc3V1Z3S01kaUdlVTVrRlJLZmFLbWxhVzhNQ0NRQUFYazRMaGdWRmwtNi1hVThxRmtEOE1wRjVadGN2UVMtVmpaUnNEQ2dmcEs0ZEVPMXR1WkZjVXc2S3JYQVNxNnZGclJ4MVZISjJobXlrQXBRcw?oc=5",
       "alerted": false
     },
     {
@@ -741,99 +817,6 @@
       "why": "Memory is a cash-flow business in the up-leg of a pricing cycle, and committing incremental HBM/DRAM cash flow to buybacks rather than only to fab capex signals management believes the current cycle is earnings-durable, not a peak to be reinvested into oversupply. Mechanically it shrinks the share count against a rising EPS base, compounding the per-share earnings path, and it addresses the discount investors apply to cyclicals that historically reinvested at the top. The restraint on capacity reinvestment is also supportive for industry-wide memory pricing into 2027.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjVqZlBSSE84U0U5UU9Selc4bTl1QU1iSjN1b0cxeWdrREhBQWplWm43VlRXU2ppbzFrbEt1U1R1N3Z0U2Nab0lGeDh2VGd4a0pRdTk4VFZGbTMzb0RJQ3J1RS1vWV8tcFpXbS1sc1QzaXVqQjE2Xzg3aGNXLTBNODFZdlRuOUlv?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-avgo-ocp-open-networking-cpo",
-      "time": "2026-10-09T17:32:00Z",
-      "headline": "Broadcom pushes open Ethernet networking and co-packaged optics for AI clusters at OCP Summit",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AVGO",
-        "NVDA",
-        "ANET",
-        "MRVL",
-        "META",
-        "MSFT",
-        "GOOGL",
-        "AMZN"
-      ],
-      "why": "Scale-up/scale-out interconnect is the current bottleneck in AI racks, and the silicon that moves packets carries switch-ASIC plus optics content that attaches to every accelerator shipped. An open-standard Ethernet plus co-packaged-optics stack lets hyperscalers avoid a proprietary fabric, which raises Broadcom's dollar content per GPU deployed and compresses the fabric premium embedded in Nvidia's rack economics. Read-through is mixed for Arista and Marvell, which compete for the same switching and optical DSP sockets.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-stocks-rise-higher-open-173254322.html",
-      "alerted": false
-    },
-    {
-      "id": "20261010-macro-payrolls-benchmark-revision",
-      "time": "2026-10-09T17:00:00Z",
-      "headline": "More than 800,000 prior US job gains revised away, showing a materially weaker labor market",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "XOM",
-        "CVX",
-        "AMZN",
-        "TSLA"
-      ],
-      "why": "Benchmark revisions of this size change the baseline the Fed is reacting to, reinforcing the dovish rate path that is currently supporting equity multiples. The offset is to earnings: a weaker labor market pressures consumer-facing revenue, credit quality at the money-center banks and energy demand, so the multiple tailwind and the estimate headwind work against each other. Cyclicals and lenders carry the downside skew while duration-sensitive tech carries the upside.",
-      "source": "AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lbEhpOHRvR3pIOHRaYlBWWk5qYzNwcG5JOEE5bHlESzlvS1FWSnpzUXFkSF9xTmJ1Tl9SV1ZWRHE3MmpyNWJITmxtMkdyR3F2aEo4MXFERUJaaFVHQWtSQnM2RjV3Zy1EMFBHX0pKVQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261010-smci-export-smuggling-guilty-plea",
-      "time": "2026-10-09T16:00:00Z",
-      "headline": "Broker pleads guilty in AI-chip diversion case as Super Micro co-founder contests charges",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "A guilty plea from a co-conspirator strengthens the government's case and raises the probability of fines, export-privilege restrictions or supply-allocation consequences for Super Micro, which depends on uninterrupted Nvidia GPU allocation to convert its server backlog. Compliance overhangs of this type also deter hyperscaler customers from signing large multi-quarter commitments, directly hitting the revenue line. Read-through for the GPU vendors is tighter end-customer diligence and slower channel shipments into Asia.",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPR1lWUk94RXlmQ3JBdXBDTHVsc25tS2xSQ3Q0VWVFUVhnRVlXQ1FidXpPeXpkOGVrZEhhY1IwMFlWaW5OWVI4T3dwN0dyWmlYWnJaLVNBQVVFVjlsUV9vZ1EzT3NCaXJfd0lLWEp4SWJONF9EYU5CWWR6WkF6S0tWcXphMEZLTTBtQjNXWHU0UGtvVTJiaEVGYTg4QVpzRGhUanY0R01sb3paMEJtTGdJc3RVT2dqblYxdDdyYzFYalBNQnBDN2E1OTIzYUM4MlRyT24tWlpBVXlsdWZVNjZmeTZCdDlhLTlUb2t2c0htaGhLencxcVdKZTNnRVJwWVdPdGZmQnNUeXZ6WlNkejVsU1pJcGgzeFBubkxmZWZ5MnNGUGo3T0dfQjZLaVVHWVRxdWJkVG5DRkN6NUZPNEtlcWZMVnFLaGZBeExR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-macro-umich-sentiment-current-conditions-record-low",
-      "time": "2026-10-09T14:00:00Z",
-      "headline": "UMich preliminary October sentiment falls to 46.3 with current conditions at an all-time low and 1-year inflation expectations up to 4.7%",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "WMT",
-        "COST",
-        "HD",
-        "MCD",
-        "KO",
-        "PG",
-        "DIS",
-        "TSLA",
-        "AAPL",
-        "AMZN",
-        "JPM",
-        "BAC",
-        "WFC"
-      ],
-      "why": "The split between a collapsing current-conditions read and rising year-ahead inflation expectations is the stagflationary combination that squeezes consumer-facing earnings while capping how fast the Fed can ease, so the discount rate does not fall to offset weaker volumes. Lower-income demand erosion feeds directly into retail, restaurant and consumer-credit loss assumptions heading into next week's bank reports, and it argues for continued narrow leadership in AI capex names that are insulated from the household cycle. Rising inflation expectations also raise the bar for the next CPI print to validate current cut pricing.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/10/09/economy/us-economy-consumer-sentiment",
       "alerted": false
     }
   ]
