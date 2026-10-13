@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-10-12T15:55:46Z",
-  "session_date": "2026-10-12",
+  "generated_at": "2026-10-13T00:55:07Z",
+  "session_date": "2026-10-13",
   "items": [
+    {
+      "id": "20261012-aiinfra-intc-avgo-ceos-capital-access-warning",
+      "time": "2026-10-13T00:11:00Z",
+      "headline": "Intel's Lip-Bu Tan and Broadcom's Hock Tan flag capital access as the binding constraint on AI buildouts",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "INTC",
+        "NVDA",
+        "AMD",
+        "ORCL",
+        "SMCI",
+        "MU"
+      ],
+      "why": "Order books for accelerators, custom ASICs, memory and servers are funded by debt and private credit at the hyperscaler and neocloud layer, so financing availability \u2014 not demand \u2014 is now the swing variable on 2027 unit volumes. When the two suppliers with the best visibility into customer commitments publicly name funding as the risk, it validates the market's move to discount backlog conversion rather than extrapolate it, which compresses the multiple before it touches revenue. This is sentiment-level today but it is the same mechanism that would turn a guidance beat into a muted stock reaction this earnings season.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/12/intel-broadcom-ceos-flag-ai-industry-challenges-trends-at-financial-event",
+      "alerted": false
+    },
+    {
+      "id": "20261012-nvda-vera-rubin-ocp-open-architecture",
+      "time": "2026-10-12T16:00:00Z",
+      "headline": "Nvidia opens the Vera Rubin rack architecture to the Open Compute Project ecosystem at the OCP Global Summit",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AVGO",
+        "ANET",
+        "CSCO",
+        "TSM"
+      ],
+      "why": "Publishing the rack-scale spec pushes ODMs, power and cooling vendors to tool for Nvidia's next platform ahead of volume, which shortens the deployment lag between silicon availability and revenue recognition and defends against Ethernet/ASIC-based open racks taking share at gigawatt scale. Standard-setting is a moat mechanism, not a product launch: it makes Nvidia the reference design others build around, raising the switching cost for customers evaluating merchant accelerators. Server integrators and the optics/networking supply chain get a clearer 2027 build schedule, which supports their backlog visibility rather than this quarter's numbers.",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/latest",
+      "alerted": false
+    },
     {
       "id": "20261012-mu-cxmt-dram-competition",
       "time": "2026-10-12T13:00:00Z",
@@ -20,6 +61,23 @@
       "why": "The memory multiple currently embeds a belief that supply is structurally constrained and that Chinese capacity cannot reach competitive nodes. Credible progress by CXMT on a more advanced DRAM part attacks that premise at the margin \u2014 it threatens the commodity-DRAM price floor into 2027 and shortens the duration investors assign to the current up-cycle, which is a multiple issue rather than a near-term EPS issue. Read-through is negative for memory-levered equipment demand but neutral for HBM, where packaging and qualification barriers remain.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-adbe-wells-fargo-double-downgrade-underweight",
+      "time": "2026-10-12T12:52:00Z",
+      "headline": "Wells Fargo double-downgrades Adobe to Underweight, PT cut to $225 from $270 on collapsing net-new ARR",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ADBE",
+        "CRM",
+        "NOW"
+      ],
+      "why": "The call reframes Adobe's slowdown as structural rather than cyclical: organic net new ARR reportedly fell more than 40% in the September quarter, which means Q4 bookings must roughly double to hit the implied full-year target \u2014 an arithmetic bar that, if missed, forces consensus ARR and FY27 revenue down, not just sentiment. A two-notch cut from Overweight to Underweight removes a marginal buyer and revives the generative-AI substitution discount for creative software. Note the same-day conflict in the tape: one major bank capitulated bullish on SaaS (Salesforce) while another capitulated bearish on Adobe, so the read-through is name-specific execution, not a uniform sector verdict.",
+      "source": "Barron's / Wells Fargo",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWWUzUWdiczJpSTdGWGZYYXROWmUzUHdoM2h4SHRDcHpZTG1WZWxrNGJVUHhNNENUVTdaS0RFUEF5U2FtanlXMElvNFFoczFWZ2tzUU53WXBpa191Vm1yanQteVFwa1JMb3VFbXFLLWhVVDgxOEZ1Wi1YVDI4X3BFcVpMZTlnc21fQ2ZvYw?oc=5",
       "alerted": false
     },
     {
@@ -102,6 +160,24 @@
       "why": "Bank results set the loan-loss and net-interest-income assumptions the whole financials complex is marked against, and they arrive before the index has repriced the rate path, so the two inputs land on top of each other. Capital-markets revenue is the swing factor for GS and MS and feeds directly into the buyback math investors are underwriting. A hot inflation print would hit the long-duration names hardest while leaving bank NII estimates intact, which is why the futures are moving in opposite directions.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZU9kcU5IdFk4dDE4bzRxZHlqT2JmSVoxeXFMQm02a1RPbjF0VGtSQkxJLU82ZXdEZkdJamRicmoyVG9sY1JGbEZuSF9KdWhLQURHcTNJVGRwajlYbDVvYy1pWGxYeEdqX0d5S2diUnJGd3Y0UmZTRFlNS0FPYzhhZGp1NzhGTXlaLUJGYUlvLXJoNXRTUmJ0MWswdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261012-crm-bofa-double-upgrade-loops-deal",
+      "time": "2026-10-12T10:05:00Z",
+      "headline": "BofA double-upgrades Salesforce to Buy (PT $285 from $160) as it reverses AI-disruption call; CRM buys AI analytics startup Loops",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY"
+      ],
+      "why": "The bear case that priced CRM at a trough multiple was seat-based AI cannibalization; the sell-side firm that held the lowest rating conceding that AI deepens platform dependence removes the main multiple cap rather than changing near-term numbers. A move from Underperform straight to Buy with a price target raised to $285 from $160 is a de-rating reversal, and it re-rates the whole 'SaaSpocalypse' complex where peers carry the same discount. The Loops tuck-in (analytics folded into Tableau, closing expected early in fiscal 2027) is immaterial to revenue but supports the agentic-AI product narrative the upgrade rests on.",
+      "source": "Barron's / BofA Securities",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUjREZkF6WlN1UWlQZ1FiOUVOY3AxRzBKMURiSGFMVURKMlB4dHU0YUJCR05FcFdTWldhOHF4VUtzV25OSGtmVEFPMmVvdERxZ3hQNkgyRVRSMlZwSnFDbVJZTDEwdzhtRnVqLXN2dC1vSXdGcGJCcUJNUVQyd1FZQzBLakNERzQ?oc=5",
       "alerted": false
     },
     {
@@ -768,89 +844,6 @@
       "why": "The marginal buyer of AI accelerators is increasingly a leveraged neocloud whose order book depends on raising external equity; a pulled mega-listing on poor demand signals that public capital is no longer available at the valuations these builders modelled. That pushes them toward costlier private capital or smaller deployments, which lengthens the conversion of announced GPU pipelines into actual shipments for NVDA and its server and memory suppliers. It reinforces the same financing-stress signal that has been pressuring AI infrastructure multiples rather than near-term reported earnings.",
       "source": "Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0tPRVlOaXFiejd4S1N1R01zMDEzZHJuaW9hbmpZcXpzd0QwLWd0TVg0Z0UtQmZvR3JtVHRiWDZOMzdoZWc2MmxlX0FWN3JGTDA0bmZBVjJDNGswQjdhSncweGl4aThWMUFFeEdpZVpJSENxc01BUkh0MjlCRUxmOHI5SThHNkhKejRxbEtXOTA5UUlL?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-macro-korea-chip-exports-current-account",
-      "time": "2026-10-09T01:00:00Z",
-      "headline": "Korea current account surplus swells to $46.1 billion on semiconductor export strength",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "TSM",
-        "NVDA",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "SMCI"
-      ],
-      "why": "Korean trade data is the cleanest high-frequency proxy for memory and logic shipment volumes and pricing, because Samsung and SK Hynix dominate DRAM/HBM supply. A surplus of this size implies ASPs are still rising rather than units simply being pulled forward, which supports Micron's pricing assumptions for coming quarters and keeps wafer-fab equipment order books intact. It is a confirming datapoint for the cycle, not a new catalyst, so it affects conviction in estimates more than the estimates themselves.",
-      "source": "Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNC1CVjhkLXEtUU52R1YtSDYwdlVvYTNtRGtWODA0V3VoMldVSnlIVWJEcnU0TkR2dXdGdExNN3JUcF9ZT0FWeE9hcE9zZUt3Q2g3Yld3bWpXY3lWc2h6YXpCSVlFaVdDNmNmcjZCZFYwWHVqQ3lqaFhPN0gxQjRfS0JSVFB5SU1UUGVtT0hqTnJpbDUtX2U1ZHRHMUw3Zw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-cmg-sbux-takeover-exploration-report",
-      "time": "2026-10-08T21:00:00Z",
-      "headline": "Report: Starbucks explored a takeover of Chipotle, which would be the largest restaurant-sector deal on record",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "CMG",
-        "SBUX",
-        "MCD"
-      ],
-      "why": "A credible approach puts a control premium floor under CMG shares and resets its valuation from a same-store-sales story to a deal-probability story, so the stock now trades on takeout odds rather than traffic trends. For SBUX the read is the opposite: funding a transaction of that size implies equity issuance or leverage against a turnaround that is not yet finished, which pressures its multiple and raises execution risk. Direction is listed for the target; the acquirer side is the mirror image and the companies have not confirmed any transaction.",
-      "source": "Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWjBXQm9fT2dram04amh6TDZQSEFLN05fd2NHcFhCRGh4dGExQW15di1MWGNrOGNpZzQta1psY1hYYXV2RXFLajRjRzR6Sk9TNEh2UENrQnJzMnJtdTBIQkpoWjNfN1RodkxqZUs1R0xJSTFpRFBHQTdKLW85cThob2ZmWC05VmZaZUgzZVZ0emRKVXFEQVlGZEdNUHE1WXNNT25zUDhGOC16SGxkN1JncFRqeVBlclZwWWc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-aiinfra-openai-revenue-gap-ft",
-      "time": "2026-10-08T20:35:00Z",
-      "headline": "FT: OpenAI's annualized revenue roughly $20B below figures circulating with investors, triggering broad AI-complex derating",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MRVL",
-        "MSFT",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "PLTR"
-      ],
-      "why": "OpenAI is the anchor counterparty behind a large slice of announced 2026-2029 accelerator, custom-silicon and data-center lease commitments, so its revenue run-rate is the collateral underwriting those multi-year backlogs. A ~$20B lower base shortens the runway for OpenAI to self-fund compute and raises the probability that contracted capacity gets deferred or renegotiated, which hits the credibility of supplier backlog rather than current-quarter EPS. The de-rating therefore lands hardest on the multiple assigned to AI order books \u2014 Oracle's RPO, Broadcom's XPU pipeline, Nvidia's and AMD's forward supply agreements \u2014 not on reported numbers.",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSkwtMXREWGFmUlN5QWR0elhHaENfaTJIX2QwSlpYOVNSRHVNUXd0N2w2cEd3QXpVQzRrdm1tOVBhU1E0ZW9aYVpOQlNZWnBVQjNvdlpmcVp5dm43eTl0NjFBSlM1eHQtaUMxMEwtVC1Ha01yMmhwOGZFaEZsNTIzX0N3SmREMU82NWx2TDl3LVgxRTJp?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261008-macro-claims-low-fire-hawkish-input",
-      "time": "2026-10-08T12:36:00Z",
-      "headline": "Initial jobless claims fall to 197,000, a fourth straight week near multi-decade lows despite weak September hiring",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS"
-      ],
-      "why": "Claims are the highest-frequency read on layoffs, and sub-200k prints remove the labour-market deterioration argument that the rates market was leaning on after the soft payrolls number. That keeps the committee's bias toward one more hike this year intact, which lifts the discount rate applied to long-duration tech and caps small-cap outperformance. The split signal \u2014 weak hiring but almost no firing \u2014 means positioning stays hostage to next week's inflation data rather than resolving in either direction.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMWFoUC1DSlZwckJETlF2WXdjTnhwSkt5UlIxVzBMQVoxVXJ0UjNTdjBDdmlwUmR3V2hQWDBGaTNnLTd1X2VIQVhBcVFmZGJHNGtCODU3RE55eHk2Y0FBbVBEUXF1S2lDaW42Y2VnUk9aRExvMXM1TGFIYjNpcnhTSUc5S1V3Nk1KWkZrSDlyTUFpNTZqYWxraw?oc=5",
       "alerted": false
     }
   ]
