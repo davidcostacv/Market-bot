@@ -1,7 +1,72 @@
 {
-  "generated_at": "2026-10-14T05:14:21Z",
+  "generated_at": "2026-10-14T12:15:10Z",
   "session_date": "2026-10-14",
   "items": [
+    {
+      "id": "20261014-bac-q3-2026-nii-beat",
+      "time": "2026-10-14T10:45:00Z",
+      "headline": "Bank of America reports Q3 net income of $6.9B ($0.91/sh) on $30.0B revenue, net interest income up 8%, $8.3B returned to shareholders",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "BAC",
+        "JPM",
+        "WFC",
+        "GS",
+        "MS",
+        "C"
+      ],
+      "why": "BAC is the most rate-sensitive of the money-centre banks, so 8% net interest income growth with loans up 7% and deposits up 2% confirms that the higher-for-longer curve is repricing the asset book faster than deposit costs \u2014 that is a durable earnings tailwind rather than a one-quarter trading windfall. Softer investment banking and trading alongside a regulatory settlement charge caps the beat, but $8.3 billion of buybacks and dividends signals capital headroom, which supports book-value compounding and the multiple. Read-through is to the rest of the lending-heavy group whose NII guides are set off the same curve.",
+      "source": "TipRanks",
+      "url": "https://www.tipranks.com/news/company-announcements/bank-of-america-posts-solid-q3-2026-earnings",
+      "alerted": false
+    },
+    {
+      "id": "20261014-asml-revenue-shortfall-semis-priced-in",
+      "time": "2026-10-14T08:30:00Z",
+      "headline": "ASML Q3 revenue lands just shy of consensus and the stock reaction turns negative, dragging memory and logic names premarket",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "MU",
+        "INTC",
+        "LRCX",
+        "AMAT",
+        "KLAC"
+      ],
+      "why": "Revenue recognition at ASML is timing-driven \u2014 tools shipped but not yet accepted push sales into the next quarter \u2014 so a small top-line shortfall with a large EPS beat is not an earnings event, but it removes the upside catalyst a sector trading on expanded multiples needed. The mechanism that matters here is positioning, not fundamentals: when the single best-informed read on AI capex delivers good news and the shares still fall, it signals the capex upside is already in the price, which compresses multiples across semicap and memory into TSMC's print. Sources conflict on the actual move \u2014 Fortune reports the shares up about 3% while Barron's and TradingKey describe a decline of roughly 3% \u2014 so treat the direction of the tape as unresolved intraday.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb0JxTkl3akF0Tml1Wk1MbmhrMmF4Qnp2NU5JbzYwejVEVFlTclQ2dkRTeW5RNk13dkxKVm5HVVRaVTBiTENCVjM2M0J1ZGMzbTRmSWs4MEdnczF0OGZSSC1PNmNLc1JSaVpXLXR3OEJhakRMeV9HY3NIZ0lpdVk2YTJncm5NSHhnbHh2T2IzVDRmeUU5QXpZU1lOZGM1UQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261014-asml-q3-guide-raise-capacity-2030-orders",
+      "time": "2026-10-14T05:00:00Z",
+      "headline": "ASML posts \u20ac11.7B Q3 sales and \u20ac5.0B net income, lifts FY26 floor to \u20ac44\u201345B, guides Q4 to \u20ac14.2\u201315.2B and says customers want 2029\u20132030 slots",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "TSM",
+        "INTC",
+        "MU",
+        "NVDA",
+        "AVGO",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "The monopoly supplier of EUV telling the market that planned 2027\u20132028 supply will not cover customer demand, and that it is studying capacity expansion beyond the previously flagged 30% increase for 2028, converts the AI capex debate from a demand question into a supply-allocation question \u2014 that supports tool pricing, mix and gross margin (57.5% in Q3) for several years rather than one quarter. Customer interest in placing orders as far out as 2029\u20132030 extends the visible backlog beyond the normal 12\u201318 month window, which is what justifies a higher multiple on the whole wafer-fab-equipment complex and on the foundry/logic/memory customers doing the ordering. The raised Q4 guide and lifted lower bound of FY26 sales mechanically pull up 2027 consensus starting points.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSDQ3Zy1uUWZHZDRSQmVCRGY2VEpzVHZOZkNBQ29vM2sxbkpqRFlQTFlXX1Zub1otNmREVGFyMFVucU9KZXRWOFJCSUo5N1JBNGprZUtsYlJXX1A2N3ZJX2ZBeE1KbjlGRUtEakNwZjVWQVlYLWdMeVExODZzYmFqX2Z6QzZuUdIBiwFBVV95cUxPYXpNR093eFN2OXh5eGdjX1JZM3hDQURoa3VhOWZPUzBjaFkwTXRFVVlPbXo1WlVPQ2diYmotb0pCSmNyeERpOVpJNUtYa1JzR0NVRnFjSzVGaGdkRktPWHhyNllYdHhMbEJ1RGhPY2JqaWYyUExCeFlFZjJ1cDJVVXNQal9ZeURTMU5Z?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261013-china-ic-exports-september-surge",
       "time": "2026-10-13T23:00:00Z",
@@ -766,67 +831,6 @@
       "why": "Replacement parts and service are the annuity, high-margin half of a litho vendor's P&L, and an across-the-board uplift accepted by the two largest memory buyers converts customer super-profits from the memory upcycle directly into equipment-vendor gross margin with no incremental unit volume required. It also confirms that WFE supply is tight enough that pricing power has shifted to the toolmakers, which supports multiple expansion for the broader equipment complex rather than just ASML. The flip side is a structurally higher fab opex line for memory and foundry customers as they scale HBM and leading-edge capacity. Note this is sourced to Korean press reports, not an ASML release, so the exact scope is unconfirmed ahead of the company's own quarterly update.",
       "source": "KuCoin / Korean press reports",
       "url": "https://www.kucoin.com/news/flash/asml-to-raise-prices-for-samsung-and-sk-hynix-semiconductor-components-by-10",
-      "alerted": false
-    },
-    {
-      "id": "20261009-amd-supply-investment-scaleup-backlog",
-      "time": "2026-10-10T03:34:00Z",
-      "headline": "AMD to lift supply-chain investment beyond the $10B announced in May as AI backlog outruns capacity",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "MU",
-        "AVGO"
-      ],
-      "why": "A supply-constrained book means revenue is capped by wafers, advanced packaging and HBM rather than by demand, so pricing and mix hold up and gross margin risk shifts from discounting to input cost. Committing multiples of the prior investment figure converts AMD's backlog into firm, dated orders for foundry capacity, packaging and deposition/etch/metrology tools, which is the transmission channel to TSMC and the equipment names. The offset is that the revenue is deferred into 2027 and capital intensity rises, so free cash flow conversion lags the order book.",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa2Y4cTNBWlVIRkg5blpTc0tMZTQyZjI3TlN1ZHB0S3R4VG1TMklMNng0S0ZSLVo5LXc1ZWotZHNiWkZvWVpRbl9Cd0dhaVlXNFBHb1Vrdm1hamMtZVdLUGRGX2JicWM5Mkcxdk51azR4OUpoQ2J5TXJiY0FfLWlmQ256WGpEUWRJRzJVTkMxMFExdDV5bTVrbHBGaGZBUnIyenJQcVRSRGE0NzFWMEJsWXJvN2dmSngwOVp5UXl4TVh4dVl2ZTMzS0ZNRWh0LXZSRkY1TUM3Z3dadw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261010-nvda-reflection-ai-acquisition-talks",
-      "time": "2026-10-09T22:30:00Z",
-      "headline": "Nvidia in talks to acquire open-model startup Reflection AI, per FT report",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AMZN",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "Buying a frontier open-weights model lab moves Nvidia further up the stack from silicon into models and software, which carries higher gross margin and recurring-revenue characteristics than GPU hardware and supports a higher multiple rather than just higher EPS. It also locks a model developer onto CUDA and Nvidia systems, defending the installed base against custom-ASIC substitution from Broadcom and AMD. Deal is reported as talks only, so the earnings effect is prospective and terms are unconfirmed.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLXZ1ZEtGRWFDZGoycHJ5WVN6ZllVd3R0dXI1TnJxX0ljT21hODJQR014QlJLMzkzRjlmS1ZzV3VKX0djUnI5QmxHT0pQMmJnVXFUQTNoTDlPdDBsUnJVZjZ6REJHYXhsamZzc045TTJScTBud25kVnRXZm51T1pFVzRtS24tM2xy?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-pltr-goldman-upgrade-buy-230",
-      "time": "2026-10-09T20:00:00Z",
-      "headline": "Palantir hits record high after Goldman Sachs upgrades to Buy with $230 target on sovereign-AI TAM expansion",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "PLTR",
-        "CRM",
-        "MSFT",
-        "ORCL"
-      ],
-      "why": "A bulge-bracket firm moving off the sidelines on the most valuation-contested AI software name removes the main bear anchor institutions were citing, which expands the pool of marginal buyers rather than changing near-term numbers. The upgrade thesis rests on sovereign/government AI deployments and verticalized applications widening the addressable base, which supports a durable high-teens-plus revenue trajectory and therefore a structurally higher multiple. Read-through is mildly negative-relative for other enterprise software names, since the call explicitly distinguishes AI-native monetization from legacy seat-based SaaS.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLW9OaGctZ0NCRzJTM3E5OFQ4MTdTbmRtMzBieHJFbUh4elBXVGxiSURhSHBibTFMU28tMWpfWXdBbGFDZkhnMnIzOFdieFJjTGRVaGh1VzN6ZUxQOGRUVjZReW9ONVJVS21tVzdJSklvWTlNODVQbnJaNExVT3RJWVYxM3RiOC1aTXItS055RWVWWnl5ZnFaaFpHZjJMT2RaaUtaalEyM01iaWkzVUp1UFpDd3p3RnRod0JoRmZncF91cEtQVVdv?oc=5",
       "alerted": false
     }
   ]
