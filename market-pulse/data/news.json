@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-10-13T23:01:13Z",
-  "session_date": "2026-10-13",
+  "generated_at": "2026-10-14T05:14:21Z",
+  "session_date": "2026-10-14",
   "items": [
+    {
+      "id": "20261013-china-ic-exports-september-surge",
+      "time": "2026-10-13T23:00:00Z",
+      "headline": "China September integrated-circuit exports hit $44.95B, up 136% y/y, as total exports jumped 36.3%",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM",
+        "AMD",
+        "AVGO",
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "INTC"
+      ],
+      "why": "A 136% jump in chip export value against far slower unit growth is largely price, confirming that memory and AI-adjacent component ASPs are still inflating \u2014 that is the revenue mechanism behind memory margin expansion and the input-cost squeeze on device OEMs. It also shows three years of export controls have not dented China's downstream electronics output, which keeps demand for foreign tooling and logic wafers intact. The offset is political: a record trade surplus running toward $1 trillion raises the odds of fresh US and EU tariff or control action that would hit the same supply chain, so the net effect on multiples is two-sided.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1NmelJwNHJNc3Y1M2VveDFDeHFkMGVDdXdXd3psdlVET0x3NlFNaXRlcUxmTWlrVjdNWE9iRnZIbTdwUHlsQ2tXd20zYWFqbnVXNFMwY2tiaVJJajFLb05JV2FEeEE0a0RCdVRkZ1lYV0JDOE1McVkxUHg1c2NXaklsUVA4SkprazlqQ3J1eU5xM1dleHIycE9jQ1M?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-macro-williams-no-2027-hikes",
+      "time": "2026-10-13T19:23:00Z",
+      "headline": "NY Fed's Williams backs one more 2026 hike but sees no need to raise rates in 2027, pushing back on market pricing",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "PLTR",
+        "JPM",
+        "GS"
+      ],
+      "why": "The terminal-rate path, not the next single hike, sets the discount rate on long-duration tech cash flows; Williams capping the cycle after one more 2026 move truncates the hiking tail that futures had been pricing into 2027. A lower assumed terminal rate mechanically lifts equity multiples and relieves the Treasury-yield pressure that has been compressing high-multiple AI names, while flattening the net-interest-margin tailwind banks had been discounting. His vice-chair status on the FOMC makes this a policy signal rather than regional-president commentary, and it lands hours before the September CPI print that will test the thesis.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
+      "alerted": false
+    },
     {
       "id": "20261013-nflx-huber-double-downgrade-underweight",
       "time": "2026-10-13T17:03:00Z",
@@ -37,6 +88,26 @@
       "why": "Applied framed a long-dated 2030 outperformance target tied to AI logic, DRAM and advanced packaging but withheld a near-term industry wafer-fab-equipment number, which removes the anchor buy-side models use to underwrite 2027 tool orders after an 80% YTD run. Equipment earnings are order-timing businesses: absent a capex envelope, the market defaults to de-rating the multiple rather than cutting EPS, which is why the drawdown is far sharper in tools than in the broader chip tape. It sets a cautious tone directly into ASML's Q3 bookings print, the single cleanest read on leading-edge capex intentions.",
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUlZuWlJCaHNsNjJNLTZ2ZUVXcGdsQkhZZDFsb25WaEUyQTZRY2VfOGJxTGE4clJGUTF4Y0U5WHpCMFV4ajZQcGhZVHo3dVRJU0hrM0NIRFhkXzlfOThEa3lVaFN4Ui0zeGJoaWhLZ3hPSk80bU9RZ0o3ZlhyTWFVV0xvdmgtTkRJaWFsMkhnQkQyZXFVZDN5SGJRSXViMmZ2NHRkbjh2YmZYeGUtemVGWC0wbi1lU1VscGJsVllkN2JzX0JRRDVIRXIwMzRuT1V3TDU1MVIydHAwbnl2UmYwcjdLQjd5eWNtN24tZDVrR0gxM0k4alF3OGtneE5sRlppcTBxLVRR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261013-nvda-europe-2b-ai-investment",
+      "time": "2026-10-13T16:07:00Z",
+      "headline": "Huang to unveil $2B of European AI deals within a week, on top of $8B deployed on the continent over the past year",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "MU",
+        "ANET",
+        "SMCI"
+      ],
+      "why": "Nvidia is again using balance-sheet capital to seed the customers that will buy its systems, converting sovereign and startup AI budgets in France, the UK and Germany into forward GPU demand that is structurally insulated from China export-control risk. That matters for the revenue-mix debate currently depressing the multiple, since the bear case assumes China data-center sales go to zero. Downstream suppliers of HBM, foundry capacity, networking and server assembly inherit the same volume pull-through if the pipeline converts at GTC Berlin.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
       "alerted": false
     },
     {
@@ -756,67 +827,6 @@
       "why": "A bulge-bracket firm moving off the sidelines on the most valuation-contested AI software name removes the main bear anchor institutions were citing, which expands the pool of marginal buyers rather than changing near-term numbers. The upgrade thesis rests on sovereign/government AI deployments and verticalized applications widening the addressable base, which supports a durable high-teens-plus revenue trajectory and therefore a structurally higher multiple. Read-through is mildly negative-relative for other enterprise software names, since the call explicitly distinguishes AI-native monetization from legacy seat-based SaaS.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLW9OaGctZ0NCRzJTM3E5OFQ4MTdTbmRtMzBieHJFbUh4elBXVGxiSURhSHBibTFMU28tMWpfWXdBbGFDZkhnMnIzOFdieFJjTGRVaGh1VzN6ZUxQOGRUVjZReW9ONVJVS21tVzdJSklvWTlNODVQbnJaNExVT3RJWVYxM3RiOC1aTXItS055RWVWWnl5ZnFaaFpHZjJMT2RaaUtaalEyM01iaWkzVUp1UFpDd3p3RnRod0JoRmZncF91cEtQVVdv?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261010-macro-rate-hike-odds-collapse",
-      "time": "2026-10-09T20:00:00Z",
-      "headline": "Market-implied odds of another Fed hike this month shift sharply lower after soft labor data",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "PLTR",
-        "AMD",
-        "MU",
-        "JPM",
-        "GS",
-        "TSLA"
-      ],
-      "why": "A hike that is priced out lowers the front-end discount rate and removes a tail risk that was compressing multiples on long-duration, high-growth names, which is why the beta-heavy AI complex and small caps react most. For banks the read-through is mixed: lower policy rates trim net interest margin but reduce credit-loss and funding-stress risk. The repricing is in rates expectations only, not an actual Fed action, so it can reverse on a hot CPI print this week.",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOS29mQ1pvZmJTYWVmUDhoUGRPX3NCOHZEZjBMTVl5ZndZRGM4eHNPdThSb0VhYzctaGhrckNfd0JVN1ZCVmJvODc0ckxtMWRIZG5talp3Tmp4UU5nOXV3YnVmUkFubkZMRzYzdk9CU1JqWTZpdjh3ZUt4MGV4TkNaeXphOTQ4OC10TEhUcGlGUGxNYmd6Q0VPQVEzcjZBSTdrUHZ4S3JSV09tdnNqQTRBU01zTG9paG5XWFQxcFRacHhnSTJNQkJtVTNHY0hoR2xXSk9aeDZXOThNaUFLdHNxR3JpY0prdnduT3k1S1NSLVAzZ00?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261010-mu-netlist-deal-selloff",
-      "time": "2026-10-09T19:45:00Z",
-      "headline": "Micron falls despite Netlist resolution, strong results and dividend affirmation",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "SMCI",
-        "NVDA",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "Resolving the Netlist memory-patent overhang removes a contingent-liability and royalty-rate risk that had sat against future DRAM and HBM gross margin, and the dividend affirmation signals management confidence in through-cycle free cash flow. The share decline against that news set is a positioning and profit-taking signal rather than a fundamental one, implying the market had already discounted both the legal win and the earnings beat. Deal terms and any payment size are not specified in the source.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYXVaYi1qSFhBLXJpSFhNV2NSdkdpcW5JTDFRb21sSHBjZDVxMUI2QmUtRElVMF9tbktvc1kwY2EyZ1JFcU9wUDllZDFYNmtwbldjeFdBemgzSkZBYVlRNFdmUE8wOG5aLUd6alJCYzIzYnYyajlKXzNCdDRQNmtvd3NEMnd2U2VEcmFJ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261009-mu-buyback-authorization-expansion",
-      "time": "2026-10-09T18:00:00Z",
-      "headline": "Micron board approves expanded share repurchase authorization, effective December",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "WDC",
-        "SMCI",
-        "NVDA"
-      ],
-      "why": "Memory is a cash-flow business in the up-leg of a pricing cycle, and committing incremental HBM/DRAM cash flow to buybacks rather than only to fab capex signals management believes the current cycle is earnings-durable, not a peak to be reinvested into oversupply. Mechanically it shrinks the share count against a rising EPS base, compounding the per-share earnings path, and it addresses the discount investors apply to cyclicals that historically reinvested at the top. The restraint on capacity reinvestment is also supportive for industry-wide memory pricing into 2027.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjVqZlBSSE84U0U5UU9Selc4bTl1QU1iSjN1b0cxeWdrREhBQWplWm43VlRXU2ppbzFrbEt1U1R1N3Z0U2Nab0lGeDh2VGd4a0pRdTk4VFZGbTMzb0RJQ3J1RS1vWV8tcFpXbS1sc1QzaXVqQjE2Xzg3aGNXLTBNODFZdlRuOUlv?oc=5",
       "alerted": false
     }
   ]
