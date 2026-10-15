@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-15T17:16:23Z",
+  "generated_at": "2026-10-15T21:39:07Z",
   "session_date": "2026-10-15",
   "items": [
+    {
+      "id": "20261015-smci-export-control-case-overhang",
+      "time": "2026-10-15T14:30:00Z",
+      "headline": "Super Micro pressured as export-control prosecution tied to diverted Nvidia AI servers keeps weighing on the stock",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "DELL"
+      ],
+      "why": "A guilty plea by a contractor linked to Super Micro in a scheme to route Nvidia-powered AI servers into China puts the company back inside the BIS/DOJ enforcement perimeter, which raises the odds of compliance remediation costs, tighter channel diligence and slower shipment recognition on grey-market-exposed geographies. For a low-gross-margin box assembler, incremental compliance friction and any customer re-vetting hit volume and working capital directly, and it reinforces the governance discount investors already apply after the accounting episode and this week's CFO change. Read-through to Nvidia is reputational, not financial: it strengthens the case in Washington for tighter server-level end-use controls on the whole channel.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHpZUmNmdUh3VXgtS0ZnQlcxV2dZMlB2UjNCUGlfeVRDMjk0VzVBVHZSNEZrMlR4anJhZ2dITWxkX29TeTBkRkltVlQ4U2RvUlpLRDE1WjRSbHk2ZE54dDVyQkM5N1JYUG92bjFQV2t4bDdXb01JdFNjXzJkaFlpaFdZMWtkM05hVWJIUFBFeWF0M1dqWjhoMFhUSzlIUjQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261015-smci-cfo-swap-immediate",
       "time": "2026-10-15T13:30:00Z",
@@ -19,6 +36,24 @@
       "why": "An immediate-effect finance chief swap at a company with a prior auditor resignation and delayed-filing history reopens the governance discount that had been slowly bleeding out of the multiple, regardless of the orderly-transition framing \u2014 investors pay less per dollar of revenue when the controls function is in flux. Weigand had run the function since early 2021 and covered the entire restatement episode, so his exit removes the continuity that underwrote the clean-up narrative. The earnings path itself is unchanged, but the risk premium on an already thin-margin AI server assembler widens, and it is a mild negative sentiment marker for the GPU-server channel that resells NVDA and AMD accelerators.",
       "source": "Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaHV6cU9scllvR3Y0Y3A1TlRPMDJHcEpjcVg4YVV2dlBkMDNWckQySTFDaVBnY0VEU0xJNUhrOS1jVEdwRG4tRWZQdE12S0VTNjJVNk9DYjBtX1NUZzRpeFlFZmR0dDM5MDNTelNWWDRVRTdHY244Wi1paU95cEFJWDU5bVlxMXh0MDFJc3FLaVJpUGxDWlIyQ3l2WEhkbXFldFNCMG1R?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261015-nvda-huang-china-ai-engagement-push",
+      "time": "2026-10-15T13:00:00Z",
+      "headline": "Nvidia CEO publicly lobbies for US/UK engagement with Chinese AI labs on safety",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU"
+      ],
+      "why": "China datacenter revenue is currently excluded from Nvidia's guided numbers, so the entire China opportunity sits as off-model optionality whose value moves with the perceived direction of US policy rather than with demand. Huang framing cooperation as the alternative to restriction is an attempt to shift that policy prior, and it cuts against the simultaneous push in Washington for harder chip export controls and the SK Hynix licence bargaining now in play. The near-term earnings effect is zero; the effect is on the probability distribution investors assign to a China re-opening versus a further tightening that would also clip AMD accelerators and memory demand.",
+      "source": "The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUlBVd1J5N2ZsMVNsdlFEZVFJay12ZUpReWVaSTFKQkNDX1hvMS0wYnZkTDVmcnpWRDJGSUhWejdPYi04OTNPV0pLNnROQUNjM1hBU0JxNHliRDVpOFMzTXduZDdqc0QzWFZham0tbzNxY01ScHJlckJrQkplUlZGU3RDei1VSjljX0xDTDRHRmx6dw?oc=5",
       "alerted": false
     },
     {
@@ -66,6 +101,23 @@
       "why": "A halo product adds almost nothing to near-term deliveries or margin, but it functions as the narrative anchor that lets Tesla keep a technology multiple while core auto volumes and pricing stay under pressure. The commercial question is whether pricing, timing and any demonstrated new drivetrain technology are specific enough to be modelled, or whether it is another deferred-date reveal. Risk is two-sided: a vague event removes a support for the story rather than adding one.",
       "source": "Drive Tesla Canada",
       "url": "https://driveteslacanada.ca/news/tesla-roadster-unveiling-livestream-october-15-2026/",
+      "alerted": false
+    },
+    {
+      "id": "20261015-intc-israel-fab-blast-supply-risk",
+      "time": "2026-10-15T08:30:00Z",
+      "headline": "Fatal explosion and fire at Intel's Kiryat Gat wafer fab in Israel; production impact undisclosed",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "AMD"
+      ],
+      "why": "Kiryat Gat is Intel's largest manufacturing site outside the US and the blast involved nitrogen trifluoride, a chamber-clean gas, which means a hazmat investigation and tool/line downtime are plausible even if the damage is localised. Intel has not quantified any wafer-output loss, so the market has to price an unquantified supply, remediation and liability tail into the December quarter two weeks ahead of the Oct 29 print, on top of an already fragile foundry ramp story. Any sustained output loss is a marginal share gain for TSMC-supplied competitors rather than a sector-wide supply event.",
+      "source": "Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYlJlenY2eE9BME1YOG91X2Z0VG1SVjU2Y2QtT2NVX1RJNmpmSVJ3VmxfLTRpd095aGVqM21yTlZQc1NaVjBlX3JTaGZsY1hPb3FvcFZRck1iTFhnNHplTjJjYlJFVU9IZ3RJcVo0SFItWExwWVJWeUdlSlJnbTNqb3hpRkVNb1doVHZJZkNGdGx6dTFlbkZGV2cyQmRhTWFT?oc=5",
       "alerted": false
     },
     {
@@ -814,67 +866,6 @@
       "why": "The mechanism is the multiple, not earnings: an official-sector body naming index concentration, hyperscaler-AI financing arrangements held largely off public markets, and thinner bank capital buffers gives institutional allocators cover to cut AI beta and raises the risk premium applied to long-duration tech cash flows. It also increases the chance regulators begin scrutinising vendor-financed compute deals, which is precisely the structure underwriting a large slice of Nvidia's and Oracle's forward backlog. Timing matters because it lands into an already-fragile semis tape rather than a calm one.",
       "source": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWjc5Sy1zc0U2MS1Vb0RqVmFBQXl6T1V3Mk1ESWtSMDV2eTBUY2RSVlI1MS1tdzBJZ2NfdExldHF5M0s0X3NvNW1TMzczM3F6OUJ4SE1TMmFFU3hpYUZlRlMyamJTcC1hVGw2SGNyWHZkQnFJZWlqVmZsenVuNkRYOGhLamNlLU5vbjVuTmdhMGJzOVRyZDhZc1gzUmZvQldJUFJfbFpGVWtfZ0R1?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-semis-kospi-memory-derating",
-      "time": "2026-10-13T07:00:00Z",
-      "headline": "Korean chip complex suffers another violent de-rating; Samsung and SK Hynix lead Kospi sharply lower on AI-durability and China-memory fears",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "LRCX",
-        "KLAC",
-        "AMAT"
-      ],
-      "why": "Korean memory names are the highest-beta expression of the AI capex cycle, so a two-day collapse there is the market marking down the assumed duration of the DRAM/HBM up-cycle, not just sentiment. The trigger combination \u2014 a Broadcom-sourced warning on AI demand durability plus Chinese memory design progress that would relieve the supply tightness underpinning current pricing \u2014 attacks the pricing power assumption inside Micron's and the WFE names' forward estimates. Sources conflict on the magnitude of Tuesday's Kospi move, variously described as more than 7% and about 5.5%.",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNm9QNWNsODRFdDVWRlBkRjN4dWVKSy04SHFDMkNRVFRtamJjRjdxUm5rMEFpNjlmdnlfRDRDcVM5a0Q0QzA3d2E1a3FYRXQ0TC1iR1YzV2d3bkZ4Q0FFRlB2UEl1bHpnbnNiZ09LQU9TcjIyT2RlSVdjMEhPSUQ1REdUaVZuckRwaVNjU01LZGRoLVM5WmlsUTk1QkxNTW55NUV6V2txWHpIaWVSWjRsWUVycE05RzA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-nvda-china-share-34-huawei-idc",
-      "time": "2026-10-13T06:30:00Z",
-      "headline": "IDC data: Nvidia's China data-centre AI chip share fell to 34% in H1 2026 as Huawei reached 28%",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI"
-      ],
-      "why": "This quantifies permanent demand destruction rather than a timing delay: Nvidia's China accelerator shipments fell about 44% year-on-year to roughly 678,000 units while Huawei shipped about 572,000, meaning the installed base being built in China now runs on a non-CUDA software stack. Every quarter of that substitution lowers the terminal value investors assign to Nvidia's China TAM and raises the odds domestic parts eventually compete outside China. Read-through is negative for AVGO/AMD China accelerator hopes and for TSM/MU content attached to China-bound Nvidia systems, though some sell-side work argues the current price already discounts zero China data-centre revenue.",
-      "source": "Seeking Alpha / Reuters citing IDC",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVm9JY1RJX0hYcERmWjVPcW1oUktJejViVE9kZUdNY3ZfVWJndWtrZjFrZnhydk90MmtVOU1DblcwQ2tuRkM4YjVhck1GTmtQRjJRakE5bGRjZmhkS3Z3YkNfNTAtc1lZNWhEdUJQYV9MV0Nlbzs5ckluMzlybk91WGNqUzhIeTE5TTNTN1RRZUtRNFo5ZlpHRjYyXzRYZVdReDZMN3E2R0ZnWlJOdHdFVQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-huawei-kirin-100m-chip-milestone",
-      "time": "2026-10-13T04:00:00Z",
-      "headline": "Huawei passes 100 million Kirin chips shipped, underscoring domestic design-plus-foundry scale despite sanctions",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "QCOM",
-        "NVDA",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "Volume at this scale proves the domestic SMIC-plus-Huawei chain can sustain yield and throughput, which permanently removes a block of Chinese handset SoC sockets that Qualcomm once served and funds the R&D feeding Huawei's Ascend AI roadmap. The same learning curve is what is letting Huawei take accelerator share from Nvidia inside China, so the two stories compound rather than sit separately. The effect is a slow erosion of Western share-of-wallet in China rather than a single-quarter revenue hit.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlhabXlCZE0tS1hVWjhxVzIzSnFMN2c5cC1BMWx6TlAtUU5MY2tKX3dqZkd2VGZOR29fd2p5MDJndXN5NWFXSzRXd2NraE05alNPY043ZTNiT2QxelE3aHRSZGlsUG9qMmtzWjU4S0oyakhzN1VzZWFVYm83M283dldBTWZ2MEp1YlZ5OXR2Y3FQd25fZ0o1ZEdyZUU5VVFERlJ3VGFBNzkwQ1pwc2J4N2MzNFRldTR4aWFNZzJtYjE?oc=5",
       "alerted": false
     }
   ]
