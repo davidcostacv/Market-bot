@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:01:34Z",
+  "generated_at": "2026-10-15T11:56:44Z",
   "session_date": "2026-10-15",
   "items": [
     {
@@ -15,6 +15,26 @@
       "why": "A halo product adds almost nothing to near-term deliveries or margin, but it functions as the narrative anchor that lets Tesla keep a technology multiple while core auto volumes and pricing stay under pressure. The commercial question is whether pricing, timing and any demonstrated new drivetrain technology are specific enough to be modelled, or whether it is another deferred-date reveal. Risk is two-sided: a vague event removes a support for the story rather than adding one.",
       "source": "Drive Tesla Canada",
       "url": "https://driveteslacanada.ca/news/tesla-roadster-unveiling-livestream-october-15-2026/",
+      "alerted": false
+    },
+    {
+      "id": "20261015-intc-terafab-tsmc-confirmation",
+      "time": "2026-10-15T07:50:00Z",
+      "headline": "TSMC publicly confirms Terafab talks, pressuring Intel's only named foundry showcase win",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "TSLA",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Intel's foundry multiple is built almost entirely on the option value of landing external 14A/18A volume, and Terafab in Texas was the single named anchor customer backing that thesis. TSMC moving from rumor to acknowledged negotiation \u2014 while insisting on owning and operating any fab \u2014 shifts the probability that the Musk-linked capacity gets built on TSMC process rather than Intel's, removing a key pillar from Intel's external-revenue ramp and pushing the payoff further out. Read-through is mildly positive for TSMC's US capacity pipeline and for WFE suppliers tied to whichever fab footprint is funded.",
+      "source": "StocksToTrade",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuNFVtTGRKcVRCdXh6T0t0ekpFcVlueWJsc2lJVDJFY1M5SHpfWHVtbF8yS1IxNWlHQ2VUQUhfT3BBbElPd3M0LXJjYjJua2FtZ0p2dzVYaWJ4MGtxdDlNcmdZd18zY1RwRWNyU054b3luSHRuZ2RueE1R?oc=5",
       "alerted": false
     },
     {
@@ -38,6 +58,34 @@
       "why": "The discount rate, not estimate revisions, did the damage to high-multiple tech after the hot print, so a retracement in the long end mechanically rebuilds the present value of out-year AI earnings and is most powerful for the longest-duration names. It also signals the bond market is treating the inflation upside as an energy-led impulse rather than a sustained reacceleration that forces the Fed to hike. The offset is that yields near 5% remain a structurally higher bar than equity multiples were set against.",
       "source": "Trading Economics",
       "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "alerted": false
+    },
+    {
+      "id": "20261015-ai-infra-credit-funding-cost-repricing",
+      "time": "2026-10-15T05:00:00Z",
+      "headline": "Credit markets wobble on data-centre debt, turning AI capex financing cost into the sector's binding constraint",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AMD",
+        "MU",
+        "TSM",
+        "AVGO",
+        "SMCI",
+        "ANET",
+        "MRVL",
+        "META",
+        "MSFT",
+        "PLTR",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "A growing share of 2026-27 accelerator demand sits with neoclouds and levered builders who fund GPUs with debt rather than operating cash flow, so a widening in data-centre credit after the hot CPI print directly throttles the order book regardless of end demand. This is a discount-rate and volume shock at once: higher funding costs both compress the multiple on long-duration AI earnings and raise the odds that announced capex slips or gets cancelled, which is why suppliers with the least diversified customer base (SMCI, MRVL, memory) fall hardest. Vendor-financing and prepay structures mean the credit stress is not ringfenced to the borrowers.",
+      "source": "Yahoo Finance / Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
       "alerted": false
     },
     {
@@ -81,6 +129,27 @@
       "why": "If Commerce grants the licences, incremental DRAM/NAND capacity gets added inside China at a moment when memory pricing is the single biggest earnings swing factor for Micron \u2014 more supply caps the pricing cycle that has driven memory estimates higher. The same approval is a direct revenue unlock for US wafer-fab-equipment vendors, who have been fencing off China demand under the current curbs. The structure also sets a precedent that US fab commitments can be traded for export relief, which changes how investors handicap future restriction risk.",
       "source": "Reuters",
       "url": "https://www.yahoo.com/news/articles/exclusive-sk-hynix-conditions-us-020530651.html",
+      "alerted": false
+    },
+    {
+      "id": "20261015-anthropic-q3-revenue-ai-demand-readthrough",
+      "time": "2026-10-14T22:22:00Z",
+      "headline": "Anthropic discloses $16.8B Q3 revenue and first adjusted profit ahead of IPO; futures still fall",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "AVGO",
+        "TSM",
+        "ORCL"
+      ],
+      "why": "Frontier-model revenue is the ultimate demand signal underwriting hyperscaler capex and merchant accelerator orders, so a 45% sequential step-up plus first adjusted profitability argues the token economics funding AI infrastructure are real rather than subsidized. The bearish read is that futures fell anyway: with the AI complex now priced for acceleration, even a strong private disclosure fails to clear the bar, which is itself evidence the marginal buyer has shifted from demand-driven to funding-cost-driven. A near-term IPO also creates a new large liquid vehicle that competes for the same AI-exposure dollars currently parked in NVDA and the hyperscalers.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkt6ekRhM01GYllSNng3cnhNQjJHZlBSVjZ0d2d3aElqTFpSd2hWOWxOdG54ZHhSa0wtSUFtX2JLSXcxRnF6TVNtcUV1ZXhlb2ZqdHZ6YzFlb3BVV0pmaEVlZzgyU1RXZDB5c3RFNEpmT3ZsZXI1NjBKcDVCQjRmUExrakhTWDFJODI2bHlfV29nZXlJYTdMcFlpLVhXbEFta0xMSlQyM2FiYlNDOXNWM2s4NVdCUWp0eUlJQkpoUVFEQ0FpM2JnUjlCTFVDMDVxLUtsUUZ3?oc=5",
       "alerted": false
     },
     {
@@ -791,62 +860,6 @@
       "why": "The memory multiple currently embeds a belief that supply is structurally constrained and that Chinese capacity cannot reach competitive nodes. Credible progress by CXMT on a more advanced DRAM part attacks that premise at the margin \u2014 it threatens the commodity-DRAM price floor into 2027 and shortens the duration investors assign to the current up-cycle, which is a multiple issue rather than a near-term EPS issue. Read-through is negative for memory-levered equipment demand but neutral for HBM, where packaging and qualification barriers remain.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-adbe-wells-fargo-double-downgrade-underweight",
-      "time": "2026-10-12T12:52:00Z",
-      "headline": "Wells Fargo double-downgrades Adobe to Underweight, PT cut to $225 from $270 on collapsing net-new ARR",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ADBE",
-        "CRM",
-        "NOW"
-      ],
-      "why": "The call reframes Adobe's slowdown as structural rather than cyclical: organic net new ARR reportedly fell more than 40% in the September quarter, which means Q4 bookings must roughly double to hit the implied full-year target \u2014 an arithmetic bar that, if missed, forces consensus ARR and FY27 revenue down, not just sentiment. A two-notch cut from Overweight to Underweight removes a marginal buyer and revives the generative-AI substitution discount for creative software. Note the same-day conflict in the tape: one major bank capitulated bullish on SaaS (Salesforce) while another capitulated bearish on Adobe, so the read-through is name-specific execution, not a uniform sector verdict.",
-      "source": "Barron's / Wells Fargo",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWWUzUWdiczJpSTdGWGZYYXROWmUzUHdoM2h4SHRDcHpZTG1WZWxrNGJVUHhNNENUVTdaS0RFUEF5U2FtanlXMElvNFFoczFWZ2tzUU53WXBpa191Vm1yanQteVFwa1JMb3VFbXFLLWhVVDgxOEZ1Wi1YVDI4X3BFcVpMZTlnc21fQ2ZvYw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-semis-yields-oil-derating",
-      "time": "2026-10-12T12:30:00Z",
-      "headline": "Semis sell off pre-market as long-end yields and crude squeeze the AI complex",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "INTC",
-        "AVGO",
-        "SMCI",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "The AI trade is the longest-duration cash-flow stream in the index, so the discount rate does more to its price than any single quarter of orders; a higher long end plus firmer crude mechanically compresses the terminal multiple before any estimate changes. Energy costs also feed directly into datacenter opex, which is the variable most likely to disappoint on AI-infrastructure gross margin. Note the sources conflict on the rate direction \u2014 one wire describes yields pressing multi-decade highs while another reports renewed bid at the long end.",
-      "source": "NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQOEJRR3FIZ2pKeXBlSDF1enljNklVOV9LYTBuVF9aMTBCSDFpNkd4Q2lmOVRoOFdteXhCbWhER2U3WENTWl9ZWmp0azE0QVFUU2MxQklQaGZCako0eE5NTFVlc2VuQV82cm9UQ2ZUNUNtWDRieVMzUzhINUhTYklHZjVvcWNMTE1yd1pWUGJ4Q2lfaHhQY0h6ZldjVUJwNTNmU0tuTXEtT1lNNnNWMHhhclZxdElLVEZzcEZzb1FtSlE3R0EyQ1JQYXN6RTdtc2d4Z3JGczdhZ2NIVEFDek1USTZkNU9QRlE2YWd4a0p3OWxsYnJfdXdEelJIQ3JucktQOEHSAYoCQVVfeXFMTkNpSXpaOU4tOThCLTJkSVRXb2JhOWo4YTRVZVY2M1A3b2JqX0hyeXlua19CTWt6NWRocTlLQzlhZHZTM2F2WG9reHNha240V09COWxPR05oaGozOWhfOTZ1OXlSOXVoNGd3WmpwSXJsZkxHbGlYMG5pZkt5NWlKejU3aUVXY2I0Um0wcUlzZVR3TVNKOHhzUkVGeTVtZGNQVE1hZEs1ZGpRODZNd0dJZy05TVZOWXRLSXNoNmRZWkY4eE5qd2hISUtZbG1COTNIWENidkpDUGhZVnVhVDIwbk1XcUFqajlXaEw5cFk2T0ZrNGxvdWdyRm1yaUR0VHBkdHFlaUVCTVdlNWc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-sndk-citi-micron-readthrough",
-      "time": "2026-10-12T12:00:00Z",
-      "headline": "Citigroup names SanDisk the top beneficiary of Micron's results",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "SNDK",
-        "MU",
-        "WDC"
-      ],
-      "why": "A major-bank call that explicitly transfers Micron's realized pricing into a smaller NAND-levered name changes consensus revenue per bit for the follower, not just sentiment. SanDisk's earnings are almost pure operating leverage on contract NAND pricing, so a sell-side reset of the pricing deck moves the forward EPS line far more than it does at diversified Micron. It also marks the point where buy-side money rotates down the memory cap-structure.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWloMjdkeUI1aFRMZW9iazRiaXF4ZVllMXNfTnJqb2Rwbm9NM3dMOFBxTWRocm1sZFluRXBaclFGdjR4aXNWTnJnR1d6WGw5VVdHNjRjZ091cGRJMHVGOVNOVWU5aW1nZmFlTGs3bjJjWDlSQ2R0azVQSVRQV2ppMTRjazY1eVJ3Ml8zV1UyQ2hrMXZrRGh5VVhlV1BfbDhUc2hTZERIa1I2a1dhTGp1cl83YVRSdU9zZ3RlYXhJZElUOUw4STBQaHRfT3FnQ2V6ZEdFY0g0TUhaZ2c?oc=5",
       "alerted": false
     }
   ]
