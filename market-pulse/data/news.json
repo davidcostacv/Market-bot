@@ -1,7 +1,155 @@
 {
-  "generated_at": "2026-10-14T21:52:53Z",
-  "session_date": "2026-10-14",
+  "generated_at": "2026-10-15T05:01:34Z",
+  "session_date": "2026-10-15",
   "items": [
+    {
+      "id": "20261015-tsla-roadster-unveil",
+      "time": "2026-10-15T12:00:00Z",
+      "headline": "Tesla confirms next-generation Roadster unveiling livestream for today",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "TSLA"
+      ],
+      "why": "A halo product adds almost nothing to near-term deliveries or margin, but it functions as the narrative anchor that lets Tesla keep a technology multiple while core auto volumes and pricing stay under pressure. The commercial question is whether pricing, timing and any demonstrated new drivetrain technology are specific enough to be modelled, or whether it is another deferred-date reveal. Risk is two-sided: a vague event removes a support for the story rather than adding one.",
+      "source": "Drive Tesla Canada",
+      "url": "https://driveteslacanada.ca/news/tesla-roadster-unveiling-livestream-october-15-2026/",
+      "alerted": false
+    },
+    {
+      "id": "20261015-macro-treasury-rally-unwinds-cpi-shock",
+      "time": "2026-10-15T05:00:00Z",
+      "headline": "Treasuries rally back, 10-year yield eases to 5.10% as the post-CPI rate-hike panic partly unwinds",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "AMZN",
+        "PLTR",
+        "ORCL"
+      ],
+      "why": "The discount rate, not estimate revisions, did the damage to high-multiple tech after the hot print, so a retracement in the long end mechanically rebuilds the present value of out-year AI earnings and is most powerful for the longest-duration names. It also signals the bond market is treating the inflation upside as an energy-led impulse rather than a sustained reacceleration that forces the Fed to hike. The offset is that yields near 5% remain a structurally higher bar than equity multiples were set against.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "alerted": false
+    },
+    {
+      "id": "20261015-asia-tech-rout-session-two",
+      "time": "2026-10-15T03:00:00Z",
+      "headline": "Asia tech complex sells off again as Korean and Japanese chip names extend the AI de-rating",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "TSM",
+        "AMD",
+        "AVGO",
+        "SMCI",
+        "QQQ",
+        "SPY"
+      ],
+      "view": null,
+      "why": "Korea and Japan are where the memory and equipment cash flows actually sit, so a second consecutive session of heavy selling there is a real-money reduction of AI exposure rather than a US futures wobble \u2014 it drains the marginal bid that has supported the whole semi complex. Combined with higher implied Fed path, it pressures the multiple on long-duration AI earnings even where order books are unchanged. Sources conflict on the Kospi decline, with Reuters citing roughly 5.6% and other outlets more than 7%.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261015-skhynix-china-equipment-license-bid",
+      "time": "2026-10-15T02:05:00Z",
+      "headline": "SK Hynix ties new US fab to Washington approving US chipmaking equipment exports for its China plants",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ASML",
+        "INTC"
+      ],
+      "why": "If Commerce grants the licences, incremental DRAM/NAND capacity gets added inside China at a moment when memory pricing is the single biggest earnings swing factor for Micron \u2014 more supply caps the pricing cycle that has driven memory estimates higher. The same approval is a direct revenue unlock for US wafer-fab-equipment vendors, who have been fencing off China demand under the current curbs. The structure also sets a precedent that US fab commitments can be traded for export relief, which changes how investors handicap future restriction risk.",
+      "source": "Reuters",
+      "url": "https://www.yahoo.com/news/articles/exclusive-sk-hynix-conditions-us-020530651.html",
+      "alerted": false
+    },
+    {
+      "id": "20261014-meta-sellside-downgrade",
+      "time": "2026-10-14T20:00:00Z",
+      "headline": "Meta Platforms de-rates on a sell-side downgrade, underperforming the megacap group",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "META",
+        "GOOGL",
+        "AMZN",
+        "MSFT"
+      ],
+      "why": "Meta is the megacap where AI capex is funded entirely out of a single advertising profit pool, so a rating cut lands on the free-cash-flow line rather than on revenue growth \u2014 the market is being asked to pay a lower multiple for earnings that are increasingly reinvested into depreciating compute. With the rate path repricing higher, that reinvestment burden is valued less generously. The read-through is to the other hyperscalers whose capex intensity is rising against the same discount rate.",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/price-meta-platforms-nasdaq-meta-shares-down-33-following-analyst-downgrade-2026-10-14/",
+      "alerted": false
+    },
+    {
+      "id": "20261015-tsm-q3-print-sector-catalyst",
+      "time": "2026-10-14T19:01:00Z",
+      "headline": "TSMC Q3 report lands as the swing catalyst for the entire semi complex; consensus looks for a sixth straight record profit",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MRVL",
+        "QCOM",
+        "INTC"
+      ],
+      "why": "TSMC's capex guide \u2014 already lifted to $60-64bn for this year on the July call \u2014 is the single cleanest read on 2027 wafer-fab-equipment orders, so the number resets estimates at ASML, AMAT, LRCX and KLAC regardless of what TSMC's own margin does. Advanced-node and CoWoS commentary is the only hard datapoint on whether AI accelerator demand is still supply-constrained, which is the question the ASML print and the CoreWeave credit move have just put in play. With the sector de-rating on financing fears, the print either validates the order book or confirms the air pocket.",
+      "source": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/tsmc-expected-to-report-sixth-straight-quarter-of-record-profit-thanks-to-ai-boom-4950243",
+      "alerted": false
+    },
+    {
+      "id": "20261014-crwv-ai-credit-distress",
+      "time": "2026-10-14T15:29:00Z",
+      "headline": "CoreWeave bonds blow out to distressed levels, yields near 15%, dragging AI-infrastructure complex",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "CRWV",
+        "NBIS",
+        "ORCL",
+        "DELL",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "The debt market, not the equity market, is now setting the clearing price for the AI build-out: if a leveraged neocloud has to fund GPU purchases at mid-teens yields, the hurdle rate on new data-center capacity rises and marginal orders get deferred or cancelled. That directly threatens the back-half order book of the GPU, networking, memory and server suppliers whose revenue has been underwritten by debt-financed buyers, and it compresses the multiple investors pay for 'backlog' that depends on customer financing. Sources conflict on the size of the equity move (one report cites a 15% drop, another 16%, another 10%); the bond-yield move toward 15% is the consistent signal.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+      "alerted": false
+    },
     {
       "id": "20261014-macro-rate-hike-bets-equity-derating",
       "time": "2026-10-14T14:00:00Z",
@@ -699,152 +847,6 @@
       "why": "A major-bank call that explicitly transfers Micron's realized pricing into a smaller NAND-levered name changes consensus revenue per bit for the follower, not just sentiment. SanDisk's earnings are almost pure operating leverage on contract NAND pricing, so a sell-side reset of the pricing deck moves the forward EPS line far more than it does at diversified Micron. It also marks the point where buy-side money rotates down the memory cap-structure.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWloMjdkeUI1aFRMZW9iazRiaXF4ZVllMXNfTnJqb2Rwbm9NM3dMOFBxTWRocm1sZFluRXBaclFGdjR4aXNWTnJnR1d6WGw5VVdHNjRjZ091cGRJMHVGOVNOVWU5aW1nZmFlTGs3bjJjWDlSQ2R0azVQSVRQV2ppMTRjazY1eVJ3Ml8zV1UyQ2hrMXZrRGh5VVhlV1BfbDhUc2hTZERIa1I2a1dhTGp1cl83YVRSdU9zZ3RlYXhJZElUOUw4STBQaHRfT3FnQ2V6ZEdFY0g0TUhaZ2c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-macro-iran-response-inadequate",
-      "time": "2026-10-12T11:00:00Z",
-      "headline": "Iran calls US response to peace terms inadequate, keeping an energy risk premium in the tape",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AAPL"
-      ],
-      "why": "A stalled de-escalation leaves a crude risk premium embedded in the inflation path right into a CPI print, which raises the odds that breakevens rather than growth drive the next leg in rates. That is a direct multiple headwind for the index's long-duration leadership and a direct earnings tailwind for integrated energy. The split tape \u2014 cyclicals bid, Nasdaq offered \u2014 is the market pricing exactly that rotation.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxONklYUmFnQ01oSXpoS2NFNVpGOU8xZGhPbXlPMUprTXYyRmQ5MXlWbTJmMmVJTFVCX2xwV09XU0pGTzZNYVM0cUNmLVdMX2szbUR1SHFrVmRRNVRFNmpiMWIyY1Y2QnZTSnJ5aThXcDJScy1YY3JXUFQwUFlaazVra1NtY25KdDd2ajJKN253SWVzZ3NtWi1EbmJ3cFpqQThweldFM0RBZlJpaFFhM0wzbjB6amp2UmdGd09ZTU1BZ05ycFl2RUZLNG56OXp1c3QyeXNlaW51ZV9iZE1qc1oyOVN2RWFjVG9jaVNSYmxlSjR2eVRndDdqRVVUY1htcEJNY0RNbm0zVFhxUFBXQkx5dWlqVUloQ0FEcE1IajhQVVhuR0dEeWJ2WA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-macro-cpi-bank-earnings-setup",
-      "time": "2026-10-12T10:30:00Z",
-      "headline": "Index futures split ahead of the CPI print and the start of bank earnings",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "MS",
-        "BAC",
-        "WFC"
-      ],
-      "why": "Bank results set the loan-loss and net-interest-income assumptions the whole financials complex is marked against, and they arrive before the index has repriced the rate path, so the two inputs land on top of each other. Capital-markets revenue is the swing factor for GS and MS and feeds directly into the buyback math investors are underwriting. A hot inflation print would hit the long-duration names hardest while leaving bank NII estimates intact, which is why the futures are moving in opposite directions.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZU9kcU5IdFk4dDE4bzRxZHlqT2JmSVoxeXFMQm02a1RPbjF0VGtSQkxJLU82ZXdEZkdJamRicmoyVG9sY1JGbEZuSF9KdWhLQURHcTNJVGRwajlYbDVvYy1pWGxYeEdqX0d5S2diUnJGd3Y0UmZTRFlNS0FPYzhhZGp1NzhGTXlaLUJGYUlvLXJoNXRTUmJ0MWswdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-crm-bofa-double-upgrade-loops-deal",
-      "time": "2026-10-12T10:05:00Z",
-      "headline": "BofA double-upgrades Salesforce to Buy (PT $285 from $160) as it reverses AI-disruption call; CRM buys AI analytics startup Loops",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "CRM",
-        "NOW",
-        "ADBE",
-        "WDAY"
-      ],
-      "why": "The bear case that priced CRM at a trough multiple was seat-based AI cannibalization; the sell-side firm that held the lowest rating conceding that AI deepens platform dependence removes the main multiple cap rather than changing near-term numbers. A move from Underperform straight to Buy with a price target raised to $285 from $160 is a de-rating reversal, and it re-rates the whole 'SaaSpocalypse' complex where peers carry the same discount. The Loops tuck-in (analytics folded into Tableau, closing expected early in fiscal 2027) is immaterial to revenue but supports the agentic-AI product narrative the upgrade rests on.",
-      "source": "Barron's / BofA Securities",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUjREZkF6WlN1UWlQZ1FiOUVOY3AxRzBKMURiSGFMVURKMlB4dHU0YUJCR05FcFdTWldhOHF4VUtzV25OSGtmVEFPMmVvdERxZ3hQNkgyRVRSMlZwSnFDbVJZTDEwdzhtRnVqLXN2dC1vSXdGcGJCcUJNUVQyd1FZQzBLakNERzQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-memory-dram-server-allocation",
-      "time": "2026-10-12T09:00:00Z",
-      "headline": "AI server demand is pulling DRAM capacity away from conventional end-markets",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "WDC",
-        "NVDA",
-        "SMCI",
-        "AAPL",
-        "AMD"
-      ],
-      "why": "Wafer starts reallocated to HBM and server DIMMs shrink the bit supply available to phones and PCs, so the pricing power shows up in segments that carry no HBM premium at all \u2014 that is an industry-wide margin mix upgrade rather than a single-vendor win. For system builders and handset OEMs the same mechanism is a bill-of-materials cost increase that lands in gross margin a couple of quarters out. It also tightens the supply backdrop that the CXMT competitive story is arguing against.",
-      "source": "TrendForce",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wTG5DV3A3c1RlRDZkMGJQSklZeTRmTGFwUEQ5YkhYaE04dERpSFZ2VkNjQnFERnJMTGxoT2J3NXAtZy1lb1NVOE5vdmxnWHdhX1Z5RE5lM05udE0wT0NV?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-macro-ms-bond-market-tightening",
-      "time": "2026-10-12T08:00:00Z",
-      "headline": "Morgan Stanley argues the bond market has already delivered the equivalent of 120bp of tightening",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META"
-      ],
-      "why": "If financial conditions have tightened without the Fed acting, the hurdle for an equity rebound becomes a fall in term premium rather than a cut, which changes which assets lead off the bottom. The framing matters because it implies the next Fed move is less important to equity multiples than the long end, and megacap duration is the most sensitive expression of that. It directly contradicts the 'yields at multi-decade highs are a one-way headwind' read circulating in the same session.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84cEhIOVhGODZMbV9zNnJ0Q2cxQlNGZnY5eDNwc2t4Z25CeVZYejk4Ukpta2N0OU5SeXZ5MEZRVEFURWltNkZQcXh1ZWEydFAtR1V4YmtBcWh4V1l6M2dHbDRySGo1aXByMUZacUpVYTNqUTRpY2c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-macro-riyadh-airport-attack-oil",
-      "time": "2026-10-12T06:00:00Z",
-      "headline": "Repeat missile attacks on Riyadh's King Khalid airport spike crude, then prices round-trip lower",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Strikes on the capital of the world's largest crude exporter inject a supply-risk premium into oil that flows straight into integrated producers' realized prices and into headline CPI expectations just days before the September print. The round-trip in crude \u2014 an initial surge followed by a pullback as no export infrastructure was confirmed hit \u2014 means the energy earnings upgrade is not yet locked in, while a sustained bid would tighten financial conditions and compress the equity multiple via the rates channel.",
-      "source": "\u6df1\u6f6eTechFlow",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLT080ZFdGRVBabzhXLXFyODBGekNvTl9EWXZVcHR1dmJ3VVVYdkd3a3FHTjF6MHpQOEszbm9BYUF2Tm42Q2h3S2lNSmVybXJENjYyLXNPdy1wR2Vl?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-china-csrc-ashare-support-tech",
-      "time": "2026-10-12T02:00:00Z",
-      "headline": "CSRC convenes weekend symposium to backstop A-shares after tech hardware rout",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "QCOM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "TSM",
-        "AAPL"
-      ],
-      "why": "The Chinese tech-hardware de-rating had become a sentiment source for the global AI trade, with valuation anxiety there feeding the same multiple compression argument applied to US semis. An explicit regulatory backstop removes a forced-selling tail risk and stabilizes the demand signal from China-exposed revenue lines at the equipment makers and analog/handset chip names. This supports the multiple rather than near-term earnings.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmhJU3JVNUhkM3FXMEdVLVhtT1czZjNVNm5xeXhUZDVLd2xnZk44Z0hFNGJVbDVtb0NVRXlGN2E5b2tPclFZRXZIa0ZXVEhNY1Q5V1RESVcxMTFJUzhEdmxBdHpBVWZoU2V5bng3RlM5cDJWUTlwN1pZQ1c1MHo3OTAycHJQbk1tSE5jZklwOXlKMER0Q1NIRWRXLVIzWGpTVjRDZ19GSmYwVHZUZVU1Ym5JX0hZNkVN0gG4AUFVX3lxTE9yMENIenRwbDJ2blBZMXJ0c2NWaFhsMVl0Ty1iMERiRm1Da3BxNW1Zc0tXeDBwMG9FbFdfZXppVDFaR2s5bS1yYjAwOVEtNEZFejBpODJmTE15ZTd3cUdfUkFuUUhENVRNSGFTOVdjLXdFTVJIWENpVmVaRFFtVjR4ZnpUUFZtcDhFSng2NkotY3BodXRwbFE1eEtFRlFJQXJCTmI5blNQNXRyV3RlS2xDeVlYT29za2g?oc=5",
       "alerted": false
     }
   ]
