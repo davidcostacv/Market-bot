@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-10-15T11:56:44Z",
+  "generated_at": "2026-10-15T17:16:23Z",
   "session_date": "2026-10-15",
   "items": [
+    {
+      "id": "20261015-smci-cfo-swap-immediate",
+      "time": "2026-10-15T13:30:00Z",
+      "headline": "Supermicro replaces CFO David Weigand with Mark Long effective immediately; predecessor retained only for handover",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "MU",
+        "DELL"
+      ],
+      "why": "An immediate-effect finance chief swap at a company with a prior auditor resignation and delayed-filing history reopens the governance discount that had been slowly bleeding out of the multiple, regardless of the orderly-transition framing \u2014 investors pay less per dollar of revenue when the controls function is in flux. Weigand had run the function since early 2021 and covered the entire restatement episode, so his exit removes the continuity that underwrote the clean-up narrative. The earnings path itself is unchanged, but the risk premium on an already thin-margin AI server assembler widens, and it is a mild negative sentiment marker for the GPU-server channel that resells NVDA and AMD accelerators.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaHV6cU9scllvR3Y0Y3A1TlRPMDJHcEpjcVg4YVV2dlBkMDNWckQySTFDaVBnY0VEU0xJNUhrOS1jVEdwRG4tRWZQdE12S0VTNjJVNk9DYjBtX1NUZzRpeFlFZmR0dDM5MDNTelNWWDRVRTdHY244Wi1paU95cEFJWDU5bVlxMXh0MDFJc3FLaVJpUGxDWlIyQ3l2WEhkbXFldFNCMG1R?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261015-macro-september-ppi-shock-retail-sales",
+      "time": "2026-10-15T12:30:00Z",
+      "headline": "September PPI jumps 1.3% m/m and 6.3% y/y \u2014 biggest annual gain since 2022 \u2014 while retail sales rise 0.8%, hardening October Fed hike risk",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "PLTR",
+        "JPM",
+        "GS",
+        "XOM",
+        "CVX"
+      ],
+      "why": "Producer prices are the input side of the margin equation: a 1.3% monthly print with core PPI at its fastest in four years means cost pass-through pressure that either compresses 2027 gross margins or feeds back into consumer prices, and the hot retail sales number removes the demand-weakness argument the Fed would need to stay on hold. Together they shift the policy path from pause toward a second hike into the Oct 27-28 meeting, raising the discount rate applied to the long-duration AI complex exactly as those multiples are already being questioned. Note the composition caveat \u2014 energy drove the bulk of PPI and gasoline drove most of retail sales, with ex-gas-station retail up only 0.2% \u2014 so the growth signal is weaker than the headline, which is the worst mix for equities: sticky inflation without real demand.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
+      "alerted": false
+    },
     {
       "id": "20261015-tsla-roadster-unveil",
       "time": "2026-10-15T12:00:00Z",
@@ -35,6 +86,31 @@
       "why": "Intel's foundry multiple is built almost entirely on the option value of landing external 14A/18A volume, and Terafab in Texas was the single named anchor customer backing that thesis. TSMC moving from rumor to acknowledged negotiation \u2014 while insisting on owning and operating any fab \u2014 shifts the probability that the Musk-linked capacity gets built on TSMC process rather than Intel's, removing a key pillar from Intel's external-revenue ramp and pushing the payoff further out. Read-through is mildly positive for TSMC's US capacity pipeline and for WFE suppliers tied to whichever fab footprint is funded.",
       "source": "StocksToTrade",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuNFVtTGRKcVRCdXh6T0t0ekpFcVlueWJsc2lJVDJFY1M5SHpfWHVtbF8yS1IxNWlHQ2VUQUhfT3BBbElPd3M0LXJjYjJua2FtZ0p2dzVYaWJ4MGtxdDlNcmdZd18zY1RwRWNyU054b3luSHRuZ2RueE1R?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261015-tsm-q4-guide-capex-2028-wfe-readthrough",
+      "time": "2026-10-15T06:00:00Z",
+      "headline": "TSMC guides Q4 revenue to $52.3-54.3B with 65-67% gross margin and flags 2026-2028 capital spending as 'even more significant'",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MRVL",
+        "ANET",
+        "INTC"
+      ],
+      "why": "The Q4 guide implies roughly 14% sequential and ~58% year-over-year dollar growth at the midpoint with gross margin held in the mid-60s despite overseas fab dilution, which means leading-edge and advanced-packaging pricing power is still intact rather than peaking \u2014 that is the single best proxy for the AI silicon order book one to two quarters forward. More important for the supply chain, management framed capex across 2026-2028 as stepping up further, which converts a one-year spending cycle into a multi-year equipment revenue base and is the direct earnings driver for AMAT, LRCX, KLAC and ASML. For fabless AI names the read-through is capacity, not demand: the constraint on NVDA, AVGO and AMD unit shipments eases on this trajectory.",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695",
       "alerted": false
     },
     {
@@ -799,67 +875,6 @@
       "why": "Volume at this scale proves the domestic SMIC-plus-Huawei chain can sustain yield and throughput, which permanently removes a block of Chinese handset SoC sockets that Qualcomm once served and funds the R&D feeding Huawei's Ascend AI roadmap. The same learning curve is what is letting Huawei take accelerator share from Nvidia inside China, so the two stories compound rather than sit separately. The effect is a slow erosion of Western share-of-wallet in China rather than a single-quarter revenue hit.",
       "source": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlhabXlCZE0tS1hVWjhxVzIzSnFMN2c5cC1BMWx6TlAtUU5MY2tKX3dqZkd2VGZOR29fd2p5MDJndXN5NWFXSzRXd2NraE05alNPY043ZTNiT2QxelE3aHRSZGlsUG9qMmtzWjU4S0oyakhzN1VzZWFVYm83M283dldBTWZ2MEp1YlZ5OXR2Y3FQd25fZ0o1ZEdyZUU5VVFERlJ3VGFBNzkwQ1pwc2J4N2MzNFRldTR4aWFNZzJtYjE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261012-aiinfra-intc-avgo-ceos-capital-access-warning",
-      "time": "2026-10-13T00:11:00Z",
-      "headline": "Intel's Lip-Bu Tan and Broadcom's Hock Tan flag capital access as the binding constraint on AI buildouts",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AVGO",
-        "INTC",
-        "NVDA",
-        "AMD",
-        "ORCL",
-        "SMCI",
-        "MU"
-      ],
-      "why": "Order books for accelerators, custom ASICs, memory and servers are funded by debt and private credit at the hyperscaler and neocloud layer, so financing availability \u2014 not demand \u2014 is now the swing variable on 2027 unit volumes. When the two suppliers with the best visibility into customer commitments publicly name funding as the risk, it validates the market's move to discount backlog conversion rather than extrapolate it, which compresses the multiple before it touches revenue. This is sentiment-level today but it is the same mechanism that would turn a guidance beat into a muted stock reaction this earnings season.",
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/10/12/intel-broadcom-ceos-flag-ai-industry-challenges-trends-at-financial-event",
-      "alerted": false
-    },
-    {
-      "id": "20261012-nvda-vera-rubin-ocp-open-architecture",
-      "time": "2026-10-12T16:00:00Z",
-      "headline": "Nvidia opens the Vera Rubin rack architecture to the Open Compute Project ecosystem at the OCP Global Summit",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "AVGO",
-        "ANET",
-        "CSCO",
-        "TSM"
-      ],
-      "why": "Publishing the rack-scale spec pushes ODMs, power and cooling vendors to tool for Nvidia's next platform ahead of volume, which shortens the deployment lag between silicon availability and revenue recognition and defends against Ethernet/ASIC-based open racks taking share at gigawatt scale. Standard-setting is a moat mechanism, not a product launch: it makes Nvidia the reference design others build around, raising the switching cost for customers evaluating merchant accelerators. Server integrators and the optics/networking supply chain get a clearer 2027 build schedule, which supports their backlog visibility rather than this quarter's numbers.",
-      "source": "NVIDIA Newsroom",
-      "url": "https://nvidianews.nvidia.com/news/latest",
-      "alerted": false
-    },
-    {
-      "id": "20261012-mu-cxmt-dram-competition",
-      "time": "2026-10-12T13:00:00Z",
-      "headline": "Micron falls as Chinese DRAM maker CXMT advances a new chip",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "NVDA"
-      ],
-      "why": "The memory multiple currently embeds a belief that supply is structurally constrained and that Chinese capacity cannot reach competitive nodes. Credible progress by CXMT on a more advanced DRAM part attacks that premise at the margin \u2014 it threatens the commodity-DRAM price floor into 2027 and shortens the duration investors assign to the current up-cycle, which is a multiple issue rather than a near-term EPS issue. Read-through is negative for memory-levered equipment demand but neutral for HBM, where packaging and qualification barriers remain.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
       "alerted": false
     }
   ]
