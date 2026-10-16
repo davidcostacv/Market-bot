@@ -1,7 +1,90 @@
 {
-  "generated_at": "2026-10-15T21:39:07Z",
-  "session_date": "2026-10-15",
+  "generated_at": "2026-10-16T04:51:09Z",
+  "session_date": "2026-10-16",
   "items": [
+    {
+      "id": "20261016-msft-maia300-nvda-pricing-power",
+      "time": "2026-10-16T09:00:00Z",
+      "headline": "Microsoft's Maia 300 custom accelerator moves to multi-gigawatt 2027 deployment, challenging Nvidia's pricing leverage",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MSFT",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MRVL",
+        "AMD"
+      ],
+      "why": "A credible in-house part at multi-gigawatt scale changes the negotiating geometry at Nvidia's single largest buyer: even if Microsoft still buys GPUs, the option value of a substitute caps the gross-margin premium Nvidia can extract on the next contract cycle, which is where the bear case on NVDA's ~70%+ margin structure lives. The offset is that custom silicon volume accrues to the ASIC design and foundry chain (AVGO, MRVL, TSM), so the sector dollar pool is not shrinking, only shifting. For MSFT it is a cost-per-token lever that improves Azure AI unit economics in 2027-28, so the read is bullish MSFT, negative for Nvidia's pricing multiple, neutral-to-positive for the supply chain.",
+      "source": "The Rundown AI",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nLTlyODNySUZ4OVNfVTVPSU5mYWVzX2wxa1V4VlQ3UnNRQ0dCMDhTOEtCWEVqMGg1eGRXQXdUMmpPb20xaTBxSlR4ZVIxWElja0NrM0J3UGdhOUppSXo5OGJYZ1FSN1pLc21QM0I0SUQzZVg5Uk1lajd3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-aapl-defensive-bid-megacap-crown",
+      "time": "2026-10-16T07:00:00Z",
+      "headline": "Apple becomes the defensive destination for AI-complex outflows, closing in on the top market-cap spot",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AAPL",
+        "NVDA",
+        "MSFT",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "Apple is the one mega-cap whose earnings are not levered to data-centre capex, so during an AI-capex confidence shock it absorbs flow as a quasi-defensive with mega-cap liquidity \u2014 multiple expansion driven by positioning, not by any change to iPhone units. The practical effect is index-level: if the largest weight re-rates while the semis complex de-rates, headline S&P damage from an AI unwind is muted. The risk is symmetric \u2014 the same flow reverses instantly if AI sentiment stabilises, so this is a positioning trade rather than a fundamental re-rating.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUGlIbjdvUDhZRGNUVzZVUTJ1ZUgzc2NoN2FFMDZzMFBqVEdvTWFMbkFydGNQWkFVZlRhbTMxRXlqVnlZQ1M3emVjLUZFZkp0SzBnd3ZaNkQzcHQ2WVN5azFNUVREZnlCV0xsNmtFX19ERnEyelQ4UUx5R1VOMlpIbHV2YkduTUM0M0ZrSHBiQVFtaUEweEFFQjRROWJMS05KX2J6MXFLYnliOWE4QUozcDBB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-nvda-china-share-erosion-huawei",
+      "time": "2026-10-16T06:30:00Z",
+      "headline": "Nvidia's China data-centre AI share drops to 34% as Huawei closes to 28% on 44% shipment decline",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU"
+      ],
+      "why": "This converts the export-control story from a temporary revenue air-pocket into permanent share loss: once Chinese hyperscalers qualify a domestic accelerator and build the software stack around it, that socket does not come back even if Washington later relaxes licensing. The mechanism hits the terminal-value assumption in Nvidia's TAM rather than the next quarter, which is why it compresses the multiple more than the EPS line. Read-through is negative for the HBM and foundry content attached to China-bound Nvidia parts and mildly negative for AMD's parallel China ambitions.",
+      "source": "IDNFinancials",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ1pjb2xDZVNjZ29SLThfMUJhM05rT1lPbElyazd3clhMRkFsc1dTa3ZBLXdHc1Z6R2RmbXhpVFZiU0IzTjkyaFp5VE9PMWJ3ZFNwamJnWHpJb2JqdnR5TzhrUVBtNGhVWldpYkcydnZNaDJOUW5EbzVacFo2aGFaSnVIWC1pNjlYeHJ2SVIySThJUjNlWUcwT1VVMllrUTRnZFpZLTFqMVhVQQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-macro-semis-to-breadth-rotation",
+      "time": "2026-10-15T20:10:00Z",
+      "headline": "Chip sell-off turns into a rotation: money exits semis into the rest of the index and into Treasuries",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "MU",
+        "AVGO",
+        "TSM",
+        "JPM",
+        "GS"
+      ],
+      "why": "The important signal is not the drawdown but its composition \u2014 the semis index fell hard while the broad index and cyclicals held, meaning this is a de-grossing of one crowded factor rather than a growth scare, which keeps the earnings path for the non-AI 480 intact. That mechanically compresses the relative multiple of AI hardware versus everything else and supports equal-weight and small-cap exposure against QQQ. With bonds bid at the same time, the marginal buyer is treating AI hardware risk, not duration risk, as the thing to hedge.",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QURFNXNKc2JOay1PenlxMHdlOGxDMzd5a2xiV1ZXWmtmT2FEWTJ0NVJPSVBOTGs2YnFXUFJQWWtPQ3phYnhIMXZheTRfc051QUczOU9Md1NFRFdhZlVnZ0R3Y1pvSGU0SlBHV1l5TFBydjdwS3c?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261015-smci-export-control-case-overhang",
       "time": "2026-10-15T14:30:00Z",
@@ -785,87 +868,6 @@
       "why": "The hardware itself is immaterial to group revenue, but it is the first paid-for distribution point for the rebuilt Siri stack, which matters because Apple's AI credibility gap is the main reason its multiple lagged the other megacaps this cycle. A larger installed base of always-on Siri endpoints raises attach rates for services and subscriptions, the highest-margin part of the P&L. It also pressures the Echo Show and Nest Hub franchises at AMZN and GOOGL at the premium end of the category.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
-      "alerted": false
-    },
-    {
-      "id": "20261013-amd-credo-terabyte-memory-systems",
-      "time": "2026-10-13T12:00:00Z",
-      "headline": "AMD and Credo to demonstrate terabyte-class memory AI systems built on merchant silicon",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "MRVL",
-        "MU",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "Large-memory-footprint inference is where AMD has the clearest architectural edge over Nvidia, and showing it with off-the-shelf parts shortens the customer evaluation cycle versus waiting on custom ASIC programmes \u2014 that pulls forward potential MI-series design wins into the 2027 revenue window. It also strengthens the merchant-silicon case against the custom-accelerator thesis that underpins part of Broadcom's and Marvell's valuations. Memory-heavy system architectures raise DRAM content per accelerator, a modest positive for Micron volumes.",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOblFCaUhhdC0xSkRXWHBHRUt0S2tyaGdhcU14UUJCc0otaXY3WDg2UU4zakFERjhCYU9jazF1ZEFHSlVJZXhENjdhdnAtRzhzLUM0X2g0OFFVVnNQcGI0c0VDR1RFaE1TS0w4WXdKaEZidmVVYjU3Qml3THJKbHJDYWwtVGswWlB1Uk5RS0ZjNWgxRGpFcl9QOTRhNjVQUTczci1zVE1LT3haRmVDVWsybVI5VkszSmtDdW9vaTNR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-orcl-tencent-nvidia-compute-lease",
-      "time": "2026-10-13T12:00:00Z",
-      "headline": "Tencent to lease ~100,000 Nvidia accelerators via Oracle's Southeast Asia data centres in a reported ~$7bn five-year deal",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU"
-      ],
-      "why": "Remote access contracts let Chinese hyperscalers rent compute they cannot import, converting blocked China silicon demand into booked RPO for a US cloud and sustaining Nvidia unit volumes outside the export-controlled channel \u2014 the report cites roughly $2.1bn collected upfront, which is high-visibility backlog for Oracle's capital-hungry cloud build. The offset is policy risk: this is precisely the loophole Washington could close by extending controls to remote access, so the revenue carries regulatory tail risk. Note the timing is contested \u2014 some outlets describe the arrangement as first reported last month and recirculated today.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUkhmVTV0YzVEYUQ2NTUzYkVHdHowX2tpXzBRckdHVmRIZnlnN3V1bF9rWGxUSVc3V1Z3S01kaUdlVTVrRlJLZmFLbWxhVzhNQ0NRQUFYazRMaGdWRmwtNi1hVThxRmtEOE1wRjVadGN2UVMtVmpaUnNEQ2dmcEs0ZEVPMXR1WkZjVXc2S3JYQVNxNnZGclJ4MVZISjJobXlrQXBRcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-gs-q3-2026-earnings-beat",
-      "time": "2026-10-13T11:30:00Z",
-      "headline": "Goldman Sachs posts Q3 EPS of $17.01 on $18.68bn net revenues with 18.7% annualised ROE",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "GS",
-        "JPM",
-        "MS",
-        "BAC",
-        "WFC"
-      ],
-      "why": "A high-teens return on equity with net earnings of $5.29bn validates that capital-markets activity \u2014 advisory, underwriting and trading \u2014 has reaccelerated, which is the swing factor for Goldman's earnings power and the main justification for banks trading above book. Sustained ROE at this level compounds book value quickly and supports larger buybacks, directly lifting forward EPS. It also sets a constructive read for the other capital-markets-levered banks reporting this week and feeds the rotation out of crowded AI exposure into financials.",
-      "source": "Goldman Sachs",
-      "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results",
-      "alerted": false
-    },
-    {
-      "id": "20261013-macro-imf-gfsr-ai-correction-risk",
-      "time": "2026-10-13T09:00:00Z",
-      "headline": "IMF Global Financial Stability Report flags AI-equity correction as a systemic risk from concentration and circular vendor financing",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "AVGO",
-        "ORCL",
-        "PLTR",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "The mechanism is the multiple, not earnings: an official-sector body naming index concentration, hyperscaler-AI financing arrangements held largely off public markets, and thinner bank capital buffers gives institutional allocators cover to cut AI beta and raises the risk premium applied to long-duration tech cash flows. It also increases the chance regulators begin scrutinising vendor-financed compute deals, which is precisely the structure underwriting a large slice of Nvidia's and Oracle's forward backlog. Timing matters because it lands into an already-fragile semis tape rather than a calm one.",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWjc5Sy1zc0U2MS1Vb0RqVmFBQXl6T1V3Mk1ESWtSMDV2eTBUY2RSVlI1MS1tdzBJZ2NfdExldHF5M0s0X3NvNW1TMzczM3F6OUJ4SE1TMmFFU3hpYUZlRlMyamJTcC1hVGw2SGNyWHZkQnFJZWlqVmZsenVuNkRYOGhLamNlLU5vbjVuTmdhMGJzOVRyZDhZc1gzUmZvQldJUFJfbFpGVWtfZ0R1?oc=5",
       "alerted": false
     }
   ]
