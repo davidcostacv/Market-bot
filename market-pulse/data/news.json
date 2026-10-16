@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:51:09Z",
+  "generated_at": "2026-10-16T11:47:20Z",
   "session_date": "2026-10-16",
   "items": [
     {
@@ -61,6 +61,57 @@
       "alerted": false
     },
     {
+      "id": "20261016-macro-warsh-no-guidance-october-hold",
+      "time": "2026-10-16T06:00:00Z",
+      "headline": "Fed Chair Warsh refuses to pre-commit on October and December decisions at IMF meetings, leaving the hike path data-dependent",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA",
+        "JPM",
+        "GS",
+        "PLTR"
+      ],
+      "why": "With the Fed having already hiked in September and a hot CPI print behind it, the absence of forward guidance means the discount rate on long-duration tech is set by each incoming data point rather than by the chair, which keeps rate volatility and equity risk premia elevated into the late-October meeting. Sources frame the same remarks differently: Bloomberg reads them as boosting odds of an October hold, while other accounts stress he gave no steer at all and a separate Fed speaker questioned whether policy is tight enough. For leveraged AI-infrastructure borrowers the funding-cost channel, not earnings, is now the swing variable for the multiple.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+      "alerted": false
+    },
+    {
+      "id": "20261016-taiwan-ai-chip-export-controls-china",
+      "time": "2026-10-16T05:00:00Z",
+      "headline": "Taiwan to add AI servers and advanced chips to controlled-items list, making shipments to China a criminal offense under US trade deal",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "AMD",
+        "AVGO",
+        "MU",
+        "INTC",
+        "DELL",
+        "ANET",
+        "MRVL"
+      ],
+      "why": "Taipei is moving the chokepoint from US re-export rules to Taiwanese criminal law, which closes the grey-market and reseller channel through which Taiwan-assembled AI servers and GPUs have still reached Chinese buyers. That removes a residual revenue stream that was never in guidance but was supporting unit volumes at the box and component level, and it raises compliance, on-site verification and legal-liability costs for US vendors whose ODM/assembly base sits in Taiwan. It also hardens the policy floor for Chinese domestic substitution, shrinking the addressable China TAM for accelerators, HBM and networking over multiple quarters rather than one print.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261016-macro-semis-to-breadth-rotation",
       "time": "2026-10-15T20:10:00Z",
       "headline": "Chip sell-off turns into a rotation: money exits semis into the rest of the index and into Treasuries",
@@ -83,6 +134,28 @@
       "why": "The important signal is not the drawdown but its composition \u2014 the semis index fell hard while the broad index and cyclicals held, meaning this is a de-grossing of one crowded factor rather than a growth scare, which keeps the earnings path for the non-AI 480 intact. That mechanically compresses the relative multiple of AI hardware versus everything else and supports equal-weight and small-cap exposure against QQQ. With bonds bid at the same time, the marginal buyer is treating AI hardware risk, not duration risk, as the thing to hedge.",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QURFNXNKc2JOay1PenlxMHdlOGxDMzd5a2xiV1ZXWmtmT2FEWTJ0NVJPSVBOTGs2YnFXUFJQWWtPQ3phYnhIMXZheTRfc051QUczOU9Md1NFRFdhZlVnZ0R3Y1pvSGU0SlBHV1l5TFBydjdwS3c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-asml-capacity-cap-supply-bottleneck",
+      "time": "2026-10-15T15:45:00Z",
+      "headline": "ASML says planned ~30% annual capacity expansion in 2027-28 will not meet booked demand, shifting the debate from orders to output",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "TSM",
+        "NVDA",
+        "INTC"
+      ],
+      "why": "If litho tool slots, not customer appetite, are the binding constraint through 2028, then ASML's revenue line becomes a throughput-and-pricing story (shorter assembly times, field upgrades, faster models) rather than a demand-risk story, which supports gross margin even if the cycle softens. The read-through is tighter for memory: DRAM and NAND makers locking EUV slots for 2028 means wafer supply cannot respond quickly to AI memory demand, underpinning pricing for Micron and limiting the oversupply tail risk. It also caps how fast foundry capacity for leading-edge accelerators can be added, which is supportive for incumbent leading-edge share.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXhjVzlpdUwzS1JPM0o3VFFnRXZfTnF5SndiVS1jOGNaUU9BWnowWWoySnRvbFpabjFEQVlZaWdhSFo0NnJmMTJaYXZWQ3R2c3I3dmNIdkY5TjVZQklTd0xTbXhGald1NjJGdVhBVTVkU2pjbll0MXA0NmpzSWFxNTlKVWxzeXRKWmtSMks1VGdMbkUzOG8zRWx4REZUb2RwNmFUd2ZkN1F5YXVaQ2pmREFBY1pxMl9tcmNF?oc=5",
       "alerted": false
     },
     {
@@ -813,61 +886,6 @@
       "why": "This is a funding-source rotation rather than a de-risking event: with financials delivering visible, cash-generative beats, the marginal dollar is being sourced from the most extended AI positions, which mechanically compresses semiconductor multiples even without any change to their earnings. Because index weight is so concentrated in the AI complex, QQQ and SPY can fall while market breadth improves, making headline index moves a poor guide to underlying risk appetite. The durability of the move depends on whether upcoming inflation data keeps real yields from backing up further.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDBxMVh3eDN5d2lJNllhUGJhOG5PWjU5VTdPUThTbWtYbF9EMzJrQmpDTWIzTFZhSy1seDBpZ2NDWDhUNldaZUFyUy1LOEVFeENxUmZiU3BBQ0NqT2xTeUlEeGVLS3paYkYwUU1yclhxVHlYTTRYZ3VtOGp1UEdncFNQdXVTQXNvWGgzaGdVaTVnaDR3dXprLTc4akg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-amd-fermi-matador-credit-support",
-      "time": "2026-10-13T13:43:00Z",
-      "headline": "AMD signs credit support agreement backstopping Fermi's 222 MW Project Matador lease in Texas",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "ORCL",
-        "AVGO",
-        "MRVL",
-        "SMCI"
-      ],
-      "why": "AMD is lending its balance sheet to make a zero-revenue power-and-campus developer financeable, which converts a speculative deployment site into contracted Instinct capacity but also moves AMD further into vendor-financing territory where accelerator revenue is underwritten by AMD's own credit. That inflates the quality-of-revenue debate already attached to the OpenAI arrangement and raises contingent-liability risk if Phase 1 financing stalls. For the wider AI-infrastructure complex it signals that chip vendors, not capital markets, are now the marginal funder of new megawatts.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdnJsZ01lRUVnTnlyUVMwdjJtTWhaYjJLd1F1Sk4zS04yVVNfZjFTU19Pc2UwbVlMSmtHNi1EVFVQZTJVbE42WWtsS2dxQk83eUtpdWlJeWprQWxwNTZocUc5Qy1XUkpVME5uU05yMUVQUEUzUDUxZXRpY2ZYUGJhcEh5bmFyZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-mu-musk-china-memory-commodity-warning",
-      "time": "2026-10-13T13:00:00Z",
-      "headline": "Musk's commentary on Chinese memory scaling adds to the de-rating of Micron and storage peers",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "SMCI",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "The bull case for Micron's current multiple rests on memory having escaped commodity economics because HBM and advanced packaging are capacity-constrained; a credible, high-profile buyer publicly arguing that China can out-scale on standard DRAM and LPDDR directly attacks the pricing-durability assumption behind consensus FY27 estimates. Margin, not volume, is what is at risk \u2014 commodity bit supply from Chinese fabs would cap contract pricing even while AI-driven demand grows. Note this amplifies, rather than replaces, the prior Chinese memory design-progress story that already hit the group.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGluY1JiRXZzd0lhWDJfclZvZHVMTGdYZl9reDBxamZCRU5jYy1tMER0cGFrNVN4eUI3UHpzWF9tQXZudkZNcXBzeVp4MXhBdFdLSnhrc1pYQVZmMEhhREpqZkVzNWpuZ0RBRzVUWFM3Wk1iMTZLamVLcUlPZzgxLVBJSGhLdFQ3QXY4?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261014-aapl-homeview-smart-home-push",
-      "time": "2026-10-13T13:00:00Z",
-      "headline": "Apple launches $299 HomeView smart display plus refreshed Apple TV 4K and HomePod mini as Siri AI showcase",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "The hardware itself is immaterial to group revenue, but it is the first paid-for distribution point for the rebuilt Siri stack, which matters because Apple's AI credibility gap is the main reason its multiple lagged the other megacaps this cycle. A larger installed base of always-on Siri endpoints raises attach rates for services and subscriptions, the highest-margin part of the P&L. It also pressures the Echo Show and Nest Hub franchises at AMZN and GOOGL at the premium end of the category.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
       "alerted": false
     }
   ]
