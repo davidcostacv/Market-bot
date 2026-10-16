@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:52:08Z",
+  "generated_at": "2026-10-16T21:34:47Z",
   "session_date": "2026-10-16",
   "items": [
     {
@@ -182,6 +182,69 @@
       "why": "Taipei is moving the chokepoint from US re-export rules to Taiwanese criminal law, which closes the grey-market and reseller channel through which Taiwan-assembled AI servers and GPUs have still reached Chinese buyers. That removes a residual revenue stream that was never in guidance but was supporting unit volumes at the box and component level, and it raises compliance, on-site verification and legal-liability costs for US vendors whose ODM/assembly base sits in Taiwan. It also hardens the policy floor for Chinese domestic substitution, shrinking the addressable China TAM for accelerators, HBM and networking over multiple quarters rather than one print.",
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-semis-short-positioning-squeeze-setup",
+      "time": "2026-10-15T22:00:00Z",
+      "headline": "Short sellers booked roughly $32B in paper gains over the past week on the chipmaker selloff",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "TSM",
+        "SMCI",
+        "INTC",
+        "MRVL",
+        "QQQ"
+      ],
+      "why": "The scale of realized short profits signals that bearish positioning in semis has become crowded rather than tactical, which changes the mechanics of the next move: a single positive datapoint can force covering and amplify a rebound well beyond the fundamental news. Conversely, if shorts roll gains into fresh exposure, the marginal seller remains price-insensitive into earnings. This is a flow and positioning signal, not an earnings signal, so it affects the multiple and realized volatility rather than estimates.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWGRDX3ItNVZ5aVZpUzdmdUtNTHpCRldVaXlKT1ktbHFjQkdwTzFjaFF6YjhWOU9TQkR0eWZ3OFdfcTlraTVDY0h5eTZhempFM3F0R2hNc0VLZHU1MzVka210OG5tSE51RFo4enFGLVh5QS1Ec2Z3QUpncThQMHZmdGlaYkhUc0NpT3dpNU0wbGFpaGVzcVZRaFI1aTg5OFRvTFJZSXJ0THhrTVRCaldPYlEySFA0QllEc3pRNGtQQ1dIYnR6Mzl1bFZZcng1OVNtTEVoenE3cmhXbGc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-saas-multiple-compression-spillover",
+      "time": "2026-10-15T21:00:00Z",
+      "headline": "Samsara, HubSpot, Asana and Braze shares plummet in broad software de-rating",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "CRM",
+        "MSFT",
+        "ORCL",
+        "PLTR"
+      ],
+      "why": "A simultaneous drop across unrelated subscription-software names points to multiple compression on the seat-based SaaS model rather than any single company's execution, as investors price in AI agents displacing per-seat licence growth and higher discount rates on long-duration cash flows. That mechanism transfers directly to the large-cap application vendors whose valuations rest on the same renewal-and-expansion math. It also pressures PLTR, where the premium multiple assumes software budgets keep expanding.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbV9Qay1PMlhsZW8zaWhMSWdBNkk0YVg0SDVfZ2hBbmVGWEhoY2w2OVNFRXBxeWFtSk1USEplbjFMT3lXVmFMaERWbEpsT0JtUnE4MkNMaXF2WEZuTnQwVHFLZU9TTldNSTItS2VmRTBnWDc1NjI2T3Fvd3NzaHhQWU55RHA4M2U3MTRBUzNQQnJHblZmdmlSOUJWOTYyVzlVQldCSHo3YzBicHdQTXlOSmExWl9nb1R4MU9aMVNQQVhIRnNKRnFibg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-avgo-hock-tan-capital-intensity-warning",
+      "time": "2026-10-15T20:30:00Z",
+      "headline": "Broadcom slides 4% after CEO Hock Tan's capital warning on AI chip buildouts; Marvell falls in sympathy",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AVGO",
+        "MRVL",
+        "NVDA",
+        "AMD",
+        "TSM",
+        "ANET",
+        "SMCI",
+        "MU"
+      ],
+      "why": "Commentary from the custom-ASIC franchise's own CEO about the capital required to sustain AI accelerator programs undercuts the key bull assumption that hyperscaler XPU orders convert cleanly into multi-year revenue at stable margins. If customers must fund escalating capex and NRE themselves, order timing slips to the right and the backlog that supports AVGO's and MRVL's premium multiples becomes less bankable. The read-through hits the whole merchant-silicon and AI-networking complex, since the same customer budgets fund NVDA racks, TSM wafers and ANET switching.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeHE5YjRkQnVyTUw0NnFHNE9FZEQwOHM5S3NSYkVNeXMycGFmcG15SVVVQlBHM1RTTy1vRnp1eHFGbUlpeFBEOERhVDdjM0Fnd0hndFVnTWZXTFA5YTRQTDRmTW9UMEdNOGZHMjhCSHZ6ZlIxZ1NhdnpUYXlrMHVvNnJTamJaLS1tQlNneV85c2NSN0pGb1ViMXJweHl3WkJGaThSaHpERURXUTU1OVhTZjlEYzVXMFl6YTZ5XzZaY3lHMjhBamVtag?oc=5",
       "alerted": false
     },
     {
@@ -822,76 +885,6 @@
       "why": "Revenue recognition at ASML is timing-driven \u2014 tools shipped but not yet accepted push sales into the next quarter \u2014 so a small top-line shortfall with a large EPS beat is not an earnings event, but it removes the upside catalyst a sector trading on expanded multiples needed. The mechanism that matters here is positioning, not fundamentals: when the single best-informed read on AI capex delivers good news and the shares still fall, it signals the capex upside is already in the price, which compresses multiples across semicap and memory into TSMC's print. Sources conflict on the actual move \u2014 Fortune reports the shares up about 3% while Barron's and TradingKey describe a decline of roughly 3% \u2014 so treat the direction of the tape as unresolved intraday.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb0JxTkl3akF0Tml1Wk1MbmhrMmF4Qnp2NU5JbzYwejVEVFlTclQ2dkRTeW5RNk13dkxKVm5HVVRaVTBiTENCVjM2M0J1ZGMzbTRmSWs4MEdnczF0OGZSSC1PNmNLc1JSaVpXLXR3OEJhakRMeV9HY3NIZ0lpdVk2YTJncm5NSHhnbHh2T2IzVDRmeUU5QXpZU1lOZGM1UQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261014-asml-china-sales-109-export-risk",
-      "time": "2026-10-14T06:30:00Z",
-      "headline": "ASML's China equipment revenue more than doubles year over year even as Washington pushes for tighter tool export curbs",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "INTC",
-        "MU"
-      ],
-      "why": "A China mix this large means a meaningful slice of the order book and the 2027-2030 capacity commitments sits behind a policy variable rather than an end-demand variable, so any incremental licensing restriction converts directly into a backlog write-down risk rather than a timing delay. It also raises the probability that part of the current strength is pull-forward buying ahead of expected curbs, which would borrow from future quarters. The same exposure math applies to the US deposition, etch and metrology vendors whose China share has been running at similarly elevated levels.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON1ZuNTA4Z0Njb0RacXdMQ01yR1VtOFIwWngwZHFyMTZSdFQxak85VllQZXpleUFOdlozckVSWFF0WlVaNnF6YmZ4bEtEZGJ2dFhva2FiTkxwSmNZckdSTk9SSlJ1T0FwTWhrQ1hXeXkyRTZmSjJnVktkb3FFSDdvbWtDVE9sc2RXMy1sUURQUFg1MFFpaFFCdEIteXByWDhjX1Fxc1JZc1FkdDNpQ0V1amVBS1pWc0M2OTE1RtIBvAFBVV95cUxQcHVPYlNqUFY2RWZJaUY2NFhFRWhEUnBFUVVvOG45RHpQNUdJSXl0cXB6WmwwZkd0ZENoc0gxN2VVTGhkWFo4TFhhUHlkN0l2aFJHUlQ4LUZkMXJCM1hUVTBhSEh2aG1FZldLSHAzeUFOcXQ3M2ZRMHlPNjNFby1qQkFHVU9LSWRPQjI5dG1ILWdLVHZOSkhPMHpGTkJfWWloT3JZMG9CQ3EwWnotSF9MelRuc3lLVXZRR1Vkbw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261014-asml-q3-guide-raise-capacity-2030-orders",
-      "time": "2026-10-14T05:00:00Z",
-      "headline": "ASML posts \u20ac11.7B Q3 sales and \u20ac5.0B net income, lifts FY26 floor to \u20ac44\u201345B, guides Q4 to \u20ac14.2\u201315.2B and says customers want 2029\u20132030 slots",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "TSM",
-        "INTC",
-        "MU",
-        "NVDA",
-        "AVGO",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "The monopoly supplier of EUV telling the market that planned 2027\u20132028 supply will not cover customer demand, and that it is studying capacity expansion beyond the previously flagged 30% increase for 2028, converts the AI capex debate from a demand question into a supply-allocation question \u2014 that supports tool pricing, mix and gross margin (57.5% in Q3) for several years rather than one quarter. Customer interest in placing orders as far out as 2029\u20132030 extends the visible backlog beyond the normal 12\u201318 month window, which is what justifies a higher multiple on the whole wafer-fab-equipment complex and on the foundry/logic/memory customers doing the ordering. The raised Q4 guide and lifted lower bound of FY26 sales mechanically pull up 2027 consensus starting points.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSDQ3Zy1uUWZHZDRSQmVCRGY2VEpzVHZOZkNBQ29vM2sxbkpqRFlQTFlXX1Zub1otNmREVGFyMFVucU9KZXRWOFJCSUo5N1JBNGprZUtsYlJXX1A2N3ZJX2ZBeE1KbjlGRUtEakNwZjVWQVlYLWdMeVExODZzYmFqX2Z6QzZuUdIBiwFBVV95cUxPYXpNR093eFN2OXh5eGdjX1JZM3hDQURoa3VhOWZPUzBjaFkwTXRFVVlPbXo1WlVPQ2diYmotb0pCSmNyeERpOVpJNUtYa1JzR0NVRnFjSzVGaGdkRktPWHhyNllYdHhMbEJ1RGhPY2JqaWYyUExCeFlFZjJ1cDJVVXNQal9ZeURTMU5Z?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-china-ic-exports-september-surge",
-      "time": "2026-10-13T23:00:00Z",
-      "headline": "China September integrated-circuit exports hit $44.95B, up 136% y/y, as total exports jumped 36.3%",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AMD",
-        "AVGO",
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "INTC"
-      ],
-      "why": "A 136% jump in chip export value against far slower unit growth is largely price, confirming that memory and AI-adjacent component ASPs are still inflating \u2014 that is the revenue mechanism behind memory margin expansion and the input-cost squeeze on device OEMs. It also shows three years of export controls have not dented China's downstream electronics output, which keeps demand for foreign tooling and logic wafers intact. The offset is political: a record trade surplus running toward $1 trillion raises the odds of fresh US and EU tariff or control action that would hit the same supply chain, so the net effect on multiples is two-sided.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1NmelJwNHJNc3Y1M2VveDFDeHFkMGVDdXdXd3psdlVET0x3NlFNaXRlcUxmTWlrVjdNWE9iRnZIbTdwUHlsQ2tXd20zYWFqbnVXNFMwY2tiaVJJajFLb05JV2FEeEE0a0RCdVRkZ1lYV0JDOE1McVkxUHg1c2NXaklsUVA4SkprazlqQ3J1eU5xM1dleHIycE9jQ1M?oc=5",
       "alerted": false
     }
   ]
