@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-10-16T11:47:20Z",
+  "generated_at": "2026-10-16T16:52:08Z",
   "session_date": "2026-10-16",
   "items": [
+    {
+      "id": "20261016-mu-sellside-target-lifts-hbm-pricing",
+      "time": "2026-10-16T12:00:00Z",
+      "headline": "Micron fair-value estimates edge up as analysts raise targets on AI memory demand",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The upward revisions are being driven by HBM and conventional DRAM contract pricing assumptions moving higher, which flows through almost one-for-one to gross margin because memory is a fixed-cost business with sold-out capacity. Rising memory ASPs are simultaneously a cost headwind for accelerator and server builders, so the read-through is positive for Micron and mildly negative for the bill of materials at Nvidia and AMD. The divergence between upgraded fundamentals and a falling share price is the setup that sell-side is trying to arbitrage.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkRfLWk1VEVQTHVMMWg2YVlveFVfVnlfN0NTOVhoTWViNGljSkF0bWxCbk0wVkhIX2xsdTgtZ0k0cjJTOERNckszY3RDT2NBSGZBR3U0RVNJb1N0TXlpVHZ4Z21sc3ZkVXBEd2NOQkpTbl82aUhCMm9mZjhoUVpac2VNUzVGQ0Fqai0tSDc1Q0w3cldlVEE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-nvda-taiwan-texas-supplier-parks",
+      "time": "2026-10-16T11:00:00Z",
+      "headline": "Taiwan plans up to $4bn of Texas industrial parks to host Nvidia's AI hardware suppliers",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "AVGO",
+        "ANET",
+        "MRVL"
+      ],
+      "why": "Nvidia's constraint is physical supply, not demand, so state-backed capital that relocates substrate, power, cooling and assembly vendors next to US fabs and server lines directly attacks the bottleneck that caps shippable units. Onshoring the second and third tier of the chain also hedges tariff and Taiwan-strait risk, which is a de-rating factor currently embedded in the whole AI hardware complex. The spend is multi-year, so it lifts the 2028 revenue ceiling and the terminal multiple more than the next two quarters.",
+      "source": "Yahoo Finance / Bloomberg",
+      "url": "https://finance.yahoo.com/technology/articles/taiwan-planning-4-billion-industrial-110001272.html",
+      "alerted": false
+    },
     {
       "id": "20261016-msft-maia300-nvda-pricing-power",
       "time": "2026-10-16T09:00:00Z",
@@ -20,6 +61,38 @@
       "why": "A credible in-house part at multi-gigawatt scale changes the negotiating geometry at Nvidia's single largest buyer: even if Microsoft still buys GPUs, the option value of a substitute caps the gross-margin premium Nvidia can extract on the next contract cycle, which is where the bear case on NVDA's ~70%+ margin structure lives. The offset is that custom silicon volume accrues to the ASIC design and foundry chain (AVGO, MRVL, TSM), so the sector dollar pool is not shrinking, only shifting. For MSFT it is a cost-per-token lever that improves Azure AI unit economics in 2027-28, so the read is bullish MSFT, negative for Nvidia's pricing multiple, neutral-to-positive for the supply chain.",
       "source": "The Rundown AI",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nLTlyODNySUZ4OVNfVTVPSU5mYWVzX2wxa1V4VlQ3UnNRQ0dCMDhTOEtCWEVqMGg1eGRXQXdUMmpPb20xaTBxSlR4ZVIxWElja0NrM0J3UGdhOUppSXo5OGJYZ1FSN1pLc21QM0I0SUQzZVg5Uk1lajd3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-china-outbound-ai-tech-export-catalog",
+      "time": "2026-10-16T08:00:00Z",
+      "headline": "China drafts export restrictions on 40 technologies spanning AI models, chips and solar",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "TSM",
+        "MU",
+        "QCOM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AAPL",
+        "TSLA",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "Beijing moving to control outbound flow of its own AI models, agent tech and chip know-how turns the tech war two-way, creating a new retaliation lever alongside rare earths that sits directly on top of the Taiwan/US chip curbs. For US names the earnings read is mixed: cheap Chinese open-weight models leaving the global market protects pricing for US compute and software stacks, but any tit-for-tat escalation raises the probability of China restricting inputs or access that hardware supply chains and Apple/Tesla China operations depend on. The comment period keeps this as a persistent headline-risk discount on the semis multiple rather than an immediate earnings hit.",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT29aZXRiY19TanJRalZkMnRoXzdUYkxkdzM0Y2hnUXppLWZzQWlWLVUzM2dHT25ucVF1RF9qSnVjaWtTWk1sS21MRmFQbU5qalZPWnFYcmx5R290eU1SMXVZMTVLVV9tZTBXZ1BreFBCOVZXX1RZUnNWdU9ld1REN1g5MVVDX1ZXQ2NVSC16c3Y2V2VuVGFqTERoS21xR3NSOTZFRlVsd2pPNFEwa0dDWjUxN1BwVk1KNzR5ZEdwM0FERGV4YXI2LXNaRG1uV3l3ckxNeEFQVnBTdw?oc=5",
       "alerted": false
     },
     {
@@ -134,6 +207,48 @@
       "why": "The important signal is not the drawdown but its composition \u2014 the semis index fell hard while the broad index and cyclicals held, meaning this is a de-grossing of one crowded factor rather than a growth scare, which keeps the earnings path for the non-AI 480 intact. That mechanically compresses the relative multiple of AI hardware versus everything else and supports equal-weight and small-cap exposure against QQQ. With bonds bid at the same time, the marginal buyer is treating AI hardware risk, not duration risk, as the thing to hedge.",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QURFNXNKc2JOay1PenlxMHdlOGxDMzd5a2xiV1ZXWmtmT2FEWTJ0NVJPSVBOTGs2YnFXUFJQWWtPQ3phYnhIMXZheTRfc051QUczOU9Md1NFRFdhZlVnZ0R3Y1pvSGU0SlBHV1l5TFBydjdwS3c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-nvda-huang-rejects-coreweave-backstop",
+      "time": "2026-10-15T16:28:00Z",
+      "headline": "Huang rules out an Nvidia backstop for CoreWeave as its CDS prints a record",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "ORCL",
+        "AVGO",
+        "MU",
+        "AMD",
+        "ANET",
+        "MRVL"
+      ],
+      "why": "Nvidia's vendor-financing and offtake arrangements with neoclouds have been an implicit credit enhancement supporting their ability to fund GPU purchases; an explicit statement that no backstop is coming removes that assumption and raises the cost of capital for the leveraged buyers who sit at the margin of 2027 GPU and server orders. Record default-swap pricing on a flagship AI lessee means debt-funded data-centre capex gets rationed first, which hits backlog visibility for compute, memory and networking suppliers before it ever shows in hyperscaler budgets. Direction is negative for the AI-infrastructure complex even though it is neutral for Nvidia's own balance sheet.",
+      "source": "Yahoo Finance / Investing.com",
+      "url": "https://au.finance.yahoo.com/news/nvidia-ceo-says-coreweave-needs-162812633.html",
+      "alerted": false
+    },
+    {
+      "id": "20261016-asml-bofa-target-trim-multiple-compression",
+      "time": "2026-10-15T15:52:00Z",
+      "headline": "BofA trims ASML target while raising earnings estimates, signalling multiple compression not demand weakness",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "INTC"
+      ],
+      "why": "Cutting the target while lifting EPS is an explicit statement that the sell-side is paying less per unit of litho earnings, which is a valuation call tied to higher discount rates and China-exposure risk rather than to order intake. That matters for the whole WFE group because ASML's multiple anchors the de-rating of the equipment names, which have been carried by backlog narratives rather than near-term shipments. Note the numbers conflict across trackers: one source shows BofA raising the euro target earlier in October, while the current action is a dollar-target trim with a Buy rating retained.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaUlZQ09xM0V2c1d2c0V3NWNweC1hSnJLRk1SanZ5dDNIb0Q3VUNma2dzdTZ4dHJYNHhIYV9VZm1ZNU5uVXM5ZmN2MjJCQngzZi1qcm5GWG5hdFBJTDJHUmdVVFd3Q0lGcEtPazZJSkJEQ2VYWFNVSHlDQkljVGRoSkxzVHpPb19qa1FYdFdOUGZJZHlKVWc?oc=5",
       "alerted": false
     },
     {
@@ -257,6 +372,25 @@
       "why": "A halo product adds almost nothing to near-term deliveries or margin, but it functions as the narrative anchor that lets Tesla keep a technology multiple while core auto volumes and pricing stay under pressure. The commercial question is whether pricing, timing and any demonstrated new drivetrain technology are specific enough to be modelled, or whether it is another deferred-date reveal. Risk is two-sided: a vague event removes a support for the story rather than adding one.",
       "source": "Drive Tesla Canada",
       "url": "https://driveteslacanada.ca/news/tesla-roadster-unveiling-livestream-october-15-2026/",
+      "alerted": false
+    },
+    {
+      "id": "20261016-wmt-deutsche-bank-upgrade-buy",
+      "time": "2026-10-15T09:11:00Z",
+      "headline": "Deutsche Bank upgrades Walmart to Buy, lifts target to $136 from $113 on inflation-driven trade-down",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "WMT",
+        "COST",
+        "PG",
+        "KO",
+        "SPY"
+      ],
+      "why": "The call reframes the hot CPI/PPI prints as a revenue tailwind rather than a margin problem: sticky grocery inflation pushes higher-income shoppers into Walmart, lifting ticket and share while the mix shift to advertising and marketplace defends gross margin. A roughly 20% target increase from a bulge-bracket house with a rating change is the kind of action that resets buy-side numbers for FY27 comps. It also supports the defensive-staples leg of the rotation out of AI-levered tech.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/15/walmart-deutsche-bank-upgrade.html",
       "alerted": false
     },
     {
@@ -758,134 +892,6 @@
       "why": "A 136% jump in chip export value against far slower unit growth is largely price, confirming that memory and AI-adjacent component ASPs are still inflating \u2014 that is the revenue mechanism behind memory margin expansion and the input-cost squeeze on device OEMs. It also shows three years of export controls have not dented China's downstream electronics output, which keeps demand for foreign tooling and logic wafers intact. The offset is political: a record trade surplus running toward $1 trillion raises the odds of fresh US and EU tariff or control action that would hit the same supply chain, so the net effect on multiples is two-sided.",
       "source": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1NmelJwNHJNc3Y1M2VveDFDeHFkMGVDdXdXd3psdlVET0x3NlFNaXRlcUxmTWlrVjdNWE9iRnZIbTdwUHlsQ2tXd20zYWFqbnVXNFMwY2tiaVJJajFLb05JV2FEeEE0a0RCdVRkZ1lYV0JDOE1McVkxUHg1c2NXaklsUVA4SkprazlqQ3J1eU5xM1dleHIycE9jQ1M?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261014-amd-guide-beat-sold",
-      "time": "2026-10-13T21:00:00Z",
-      "headline": "AMD shares fall in extended trading despite an above-consensus quarterly outlook",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "INTC",
-        "AVGO",
-        "MRVL",
-        "TSM",
-        "MU"
-      ],
-      "why": "Beating the guide is no longer sufficient when the shares already embed a multi-year accelerator ramp; the marginal buyer now needs upside to the size and margin of the AI GPU book, not to the blended company number. A sell-the-beat reaction raises the bar for every other AI-levered reporter in the window and implies the market is discounting datacenter share gains that have not yet shown up in reported revenue. Read-through is mildly negative for the merchant silicon and foundry chain that is sized off the same accelerator unit assumptions.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQkI4alA1bXU0N1AyNGtpVUtZUWNMblFycGdDX2ZZR3lGTVFXQkRUM2RacnNTSjMxNll1UThKQkR0dUN2Y2R1T0MtNm9HSkgyYjhZVlhONEtkUXg3RVFhMVNkRmozTGpkdWlZQ3BGd05temFndzc0U1l5alE3Rm5vcjcxblNZeHdtLUN1anVuQ1kzdGRvZHRmakVJMHJibWtBMWdOdm4tSW81eGtTUllXa0d3UmJDRjVmdUJnLV9LY0QzQQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-macro-williams-no-2027-hikes",
-      "time": "2026-10-13T19:23:00Z",
-      "headline": "NY Fed's Williams backs one more 2026 hike but sees no need to raise rates in 2027, pushing back on market pricing",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "The terminal-rate path, not the next single hike, sets the discount rate on long-duration tech cash flows; Williams capping the cycle after one more 2026 move truncates the hiking tail that futures had been pricing into 2027. A lower assumed terminal rate mechanically lifts equity multiples and relieves the Treasury-yield pressure that has been compressing high-multiple AI names, while flattening the net-interest-margin tailwind banks had been discounting. His vice-chair status on the FOMC makes this a policy signal rather than regional-president commentary, and it lands hours before the September CPI print that will test the thesis.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-      "alerted": false
-    },
-    {
-      "id": "20261013-nflx-huber-double-downgrade-underweight",
-      "time": "2026-10-13T17:03:00Z",
-      "headline": "Netflix double-downgraded to Underweight from Overweight at Huber Research on engagement and pricing concerns, with price target cut",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NFLX",
-        "DIS"
-      ],
-      "why": "A two-notch cut straight into the print argues the subscriber-plus-price growth algorithm that justified the premium multiple is maturing, so further ARPU increases risk churn rather than incremental revenue. The analyst also flags reported plans for a roughly 5% headcount reduction and management's openness to acquisitions, which the market reads as an admission that organic content economics alone no longer sustain the growth rate \u2014 a cost cut framed defensively is multiple-negative even when it is margin-accretive.",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/netflix-double-downgraded-at-huber-research-amid-engagement-pricing-concerns-4947305",
-      "alerted": false
-    },
-    {
-      "id": "20261013-amat-semicon-west-no-wfe-forecast",
-      "time": "2026-10-13T16:53:00Z",
-      "headline": "Applied Materials declines to give near-term WFE spending forecast at SEMICON West investor day; semicap complex sells off (AMAT -7%, LRCX and KLAC -4%)",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "TSM",
-        "MU",
-        "INTC"
-      ],
-      "why": "Applied framed a long-dated 2030 outperformance target tied to AI logic, DRAM and advanced packaging but withheld a near-term industry wafer-fab-equipment number, which removes the anchor buy-side models use to underwrite 2027 tool orders after an 80% YTD run. Equipment earnings are order-timing businesses: absent a capex envelope, the market defaults to de-rating the multiple rather than cutting EPS, which is why the drawdown is far sharper in tools than in the broader chip tape. It sets a cautious tone directly into ASML's Q3 bookings print, the single cleanest read on leading-edge capex intentions.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUlZuWlJCaHNsNjJNLTZ2ZUVXcGdsQkhZZDFsb25WaEUyQTZRY2VfOGJxTGE4clJGUTF4Y0U5WHpCMFV4ajZQcGhZVHo3dVRJU0hrM0NIRFhkXzlfOThEa3lVaFN4Ui0zeGJoaWhLZ3hPSk80bU9RZ0o3ZlhyTWFVV0xvdmgtTkRJaWFsMkhnQkQyZXFVZDN5SGJRSXViMmZ2NHRkbjh2YmZYeGUtemVGWC0wbi1lU1VscGJsVllkN2JzX0JRRDVIRXIwMzRuT1V3TDU1MVIydHAwbnl2UmYwcjdLQjd5eWNtN24tZDVrR0gxM0k4alF3OGtneE5sRlppcTBxLVRR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261013-nvda-europe-2b-ai-investment",
-      "time": "2026-10-13T16:07:00Z",
-      "headline": "Huang to unveil $2B of European AI deals within a week, on top of $8B deployed on the continent over the past year",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MU",
-        "ANET",
-        "SMCI"
-      ],
-      "why": "Nvidia is again using balance-sheet capital to seed the customers that will buy its systems, converting sovereign and startup AI budgets in France, the UK and Germany into forward GPU demand that is structurally insulated from China export-control risk. That matters for the revenue-mix debate currently depressing the multiple, since the bear case assumes China data-center sales go to zero. Downstream suppliers of HBM, foundry capacity, networking and server assembly inherit the same volume pull-through if the pipeline converts at GTC Berlin.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
-      "alerted": false
-    },
-    {
-      "id": "20261013-macro-bank-earnings-tech-rotation",
-      "time": "2026-10-13T14:00:00Z",
-      "headline": "Rotation accelerates: money moves out of AI/semis into bank earnings beats as Nasdaq lags",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "NVDA",
-        "AMD",
-        "MU",
-        "AVGO"
-      ],
-      "why": "This is a funding-source rotation rather than a de-risking event: with financials delivering visible, cash-generative beats, the marginal dollar is being sourced from the most extended AI positions, which mechanically compresses semiconductor multiples even without any change to their earnings. Because index weight is so concentrated in the AI complex, QQQ and SPY can fall while market breadth improves, making headline index moves a poor guide to underlying risk appetite. The durability of the move depends on whether upcoming inflation data keeps real yields from backing up further.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDBxMVh3eDN5d2lJNllhUGJhOG5PWjU5VTdPUThTbWtYbF9EMzJrQmpDTWIzTFZhSy1seDBpZ2NDWDhUNldaZUFyUy1LOEVFeENxUmZiU3BBQ0NqT2xTeUlEeGVLS3paYkYwUU1yclhxVHlYTTRYZ3VtOGp1UEdncFNQdXVTQXNvWGgzaGdVaTVnaDR3dXprLTc4akg?oc=5",
       "alerted": false
     }
   ]
