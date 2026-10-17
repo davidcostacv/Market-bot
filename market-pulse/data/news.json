@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-17T11:04:04Z",
+  "generated_at": "2026-10-17T15:49:51Z",
   "session_date": "2026-10-17",
   "items": [
+    {
+      "id": "20261017-macro-soft-jobs-report-fed-minutes",
+      "time": "2026-10-17T11:20:00Z",
+      "headline": "Index futures firm after a soft labor print shifts the rate path ahead of Fed minutes",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "NVDA",
+        "PLTR",
+        "TSLA"
+      ],
+      "why": "A weaker labor read pulls forward easing expectations and lowers the discount rate applied to long-duration tech and unprofitable growth, which is the single biggest lever on equity multiples right now given the AI-credit scare. Small caps and rate-sensitive financials gear hardest to the front-end move, while banks face offsetting net-interest-margin pressure if cuts arrive faster. The Fed minutes are the confirmation risk: hawkish internal debate would unwind the move quickly.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzVlR1JMN3VsbVl5aTR1NWFnYXZBX2V2OXF0N3ZleC1YOW1paTRnX1R5dnpDa0ZCdU5hazRNMUVFSjVsTzIxTWlCSWgzUmJnRnB4azB3X284SGx0V1hKMXhFbkRubFcyVTZCTkx5UFM1V1BBZEw5bFZSSHZNT05qb2M1ejVreEFMNTVLWEMwNFZnT3VDeTZoQkRGdDEyUW1lcWhXZExQX3RwdUZOSklZWWxBVGxTQ1g2UFpUR2dVd3F4cGszQ2xOaDVBbV8yalRyYm1kazdUQ3pmNVZfUUhwZFk2d2xMNmZQZU9FbmtzWmQtWlVDOVBKTzlyYmhSVWdERWN3MTJITm8xcjBlSGtoeXV2d1o?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261017-macro-earnings-season-takes-over-from-ai-trade",
       "time": "2026-10-17T10:00:00Z",
@@ -25,6 +47,24 @@
       "why": "When index returns stop being driven by a single thematic cohort, the marginal buyer starts paying for delivered cash flow instead of capex narratives, which compresses multiples on the most crowded semis and expands them where guidance is beatable. That rotation mechanically widens breadth and favours financials and other reported-earnings names over the AI capex chain in the near term. It also raises single-name dispersion, so index-level moves understate the repricing happening underneath.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261017-mrvl-nvda-gf-securities-buy-the-drawdown",
+      "time": "2026-10-17T09:05:00Z",
+      "headline": "GF Securities frames Marvell and Nvidia outlooks as entry points into the selloff",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MRVL",
+        "NVDA",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "A sell-side house arguing the forward order book is intact pushes back on the idea that the drawdown reflects demand deterioration rather than funding and positioning. For Marvell specifically the custom-silicon pipeline is the earnings driver, and reaffirmed outlooks defend out-year estimates that the tape has started to discount. This is a mid-tier action, so it supports sentiment without resetting numbers.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVkY3aEhBc0FxcVMwX3BianlVdFM0bm5tbUNqYklzbHpkU0ozMWV3RmhmS1owVmUwRmswOFlvUkVyVkgwUm9jbk9kRjZTdlR5bmNpUlVXTFNWZVdBeGJIWFB6ajNFRGhGbzJqSUV0dDlRTmw5MmlnTGVNb2lYVWZWSFFSTmlQS3VPM1Q5SzVBdU9YVUNGYzJMYWRrREEtM0U1YnJsM0REWjczRHc0VXFWRUN2MA?oc=5",
       "alerted": false
     },
     {
@@ -138,6 +178,28 @@
       "alerted": false
     },
     {
+      "id": "20261017-amd-q3-guide-valuation-reset",
+      "time": "2026-10-16T20:45:00Z",
+      "headline": "AMD guides Q3 above consensus but shares fall after hours as bar sits above the print",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "A guide above consensus normally lifts the forward EPS line, but the negative after-hours reaction shows the accelerator complex is now priced for beats of a size AMD did not deliver, so the de-rating comes through the multiple rather than estimates. That is the key read-through for every AI silicon name: the marginal buyer is no longer paying up for in-line-to-better AI compute guidance. Foundry and memory suppliers inherit the same sentiment discount even though AMD's unit demand commentary is unchanged.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQkI4alA1bXU0N1AyNGtpVUtZUWNMblFycGdDX2ZZR3lGTVFXQkRUM2RacnNTSjMxNll1UThKQkR0dUN2Y2R1T0MtNm9HSkgyYjhZVlhONEtkUXg3RVFhMVNkRmozTGpkdWlZQ3BGd05temFndzc0U1l5alE3Rm5vcjcxblNZeHdtLUN1anVuQ1kzdGRvZHRmakVJMHJibWtBMWdOdm4tSW81eGtTUllXa0d3UmJDRjVmdUJnLV9LY0QzQQ?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261016-macro-brent-110-hormuz-supply-shock",
       "time": "2026-10-16T20:31:00Z",
       "headline": "Brent crude tops $110 on Strait of Hormuz ship attacks and strikes on Saudi infrastructure",
@@ -158,6 +220,54 @@
       "why": "A physical-supply disruption, not a demand story, resets the crude strip higher and flows straight into integrated majors' upstream cash margins, which is why XOM and CVX earnings estimates move up while the index does not. The second-order effect is the damaging one: with September CPI already hot and the Fed declining to guide on October, a fuel-led push to headline inflation raises the odds the terminal rate stays higher for longer, compressing the multiple on long-duration tech and squeezing consumer discretionary input costs. This is the first macro shock of the week that is independent of the AI-credit narrative, so it adds a second, uncorrelated source of index downside.",
       "source": "Rigzone / Bloomberg",
       "url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
+      "alerted": false
+    },
+    {
+      "id": "20261017-macro-ai-debt-confidence-break-nasdaq",
+      "time": "2026-10-16T20:10:00Z",
+      "headline": "Nasdaq drops over 2% as debt-funded data center buildouts trigger a confidence break in AI capex",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "MU",
+        "SMCI",
+        "ORCL",
+        "PLTR",
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "why": "The market is shifting from scoring AI demand to scoring who funds it, which means the cost of capital for hyperscaler and neocloud buildouts is now the swing variable in chip order books rather than end demand. If credit tightens for leveraged buyers, backlog converts to revenue more slowly and the duration investors assign to AI earnings shortens, compressing multiples before any estimate is cut. Cash-funded megacaps are relatively insulated, which is why the damage concentrates in leveraged compute buyers and their silicon suppliers.",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLaXBzTHdSMHNvM2RaR1A4d29PXy1NVHJKY1FoOTlTWHFsbFZmOHZsLW9wMW44QzRwT3E1QXkxQXg5bUhRVzV3OE5OS0RlUjllVklOY0xKSVNuTFdLVzJ2eE8wdVpRSlZYeHZLcUw3OERFLTQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261017-coreweave-debt-stress-ai-capex-readthrough",
+      "time": "2026-10-16T18:30:00Z",
+      "headline": "CoreWeave equity slides as its debt trades poorly, putting a price on neocloud funding risk",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "MU",
+        "AVGO",
+        "ANET",
+        "MSFT",
+        "ORCL"
+      ],
+      "why": "Neocloud GPU purchases are financed against the residual value of the hardware, so weakness in that paper directly raises the hurdle rate on incremental cluster orders and can delay or shrink them. Nvidia, Supermicro, memory and networking suppliers carry concentrated exposure to this buyer class, and the market now has an observable credit price to mark that risk against rather than a narrative. It also raises receivable and vendor-financing scrutiny across the AI supply chain.",
+      "source": "Real Investment Advice",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3NNR2x6N1FQQmdXTmhkaGdIdllnNHRhOVowWTVLQ2lTTklTaV9VOTBhaVBLU25OREFGSHA1QWNwZ3U4Q2RIbFZyMlVUSmphRTNiNFo2Wm0wN3lqTVZMN0tRdWwzRkg3d3BVRTZ3UW1HVDMyd2ZOVlVxdnl2YnM5NktFbFNYWVd4Wmd2RmVyeThXM2xZX2xPSEtn?oc=5",
       "alerted": false
     },
     {
@@ -761,113 +871,6 @@
       "why": "A growing share of 2026-27 accelerator demand sits with neoclouds and levered builders who fund GPUs with debt rather than operating cash flow, so a widening in data-centre credit after the hot CPI print directly throttles the order book regardless of end demand. This is a discount-rate and volume shock at once: higher funding costs both compress the multiple on long-duration AI earnings and raise the odds that announced capex slips or gets cancelled, which is why suppliers with the least diversified customer base (SMCI, MRVL, memory) fall hardest. Vendor-financing and prepay structures mean the credit stress is not ringfenced to the borrowers.",
       "source": "Yahoo Finance / Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261015-asia-tech-rout-session-two",
-      "time": "2026-10-15T03:00:00Z",
-      "headline": "Asia tech complex sells off again as Korean and Japanese chip names extend the AI de-rating",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "TSM",
-        "AMD",
-        "AVGO",
-        "SMCI",
-        "QQQ",
-        "SPY"
-      ],
-      "view": null,
-      "why": "Korea and Japan are where the memory and equipment cash flows actually sit, so a second consecutive session of heavy selling there is a real-money reduction of AI exposure rather than a US futures wobble \u2014 it drains the marginal bid that has supported the whole semi complex. Combined with higher implied Fed path, it pressures the multiple on long-duration AI earnings even where order books are unchanged. Sources conflict on the Kospi decline, with Reuters citing roughly 5.6% and other outlets more than 7%.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261015-skhynix-china-equipment-license-bid",
-      "time": "2026-10-15T02:05:00Z",
-      "headline": "SK Hynix ties new US fab to Washington approving US chipmaking equipment exports for its China plants",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML",
-        "INTC"
-      ],
-      "why": "If Commerce grants the licences, incremental DRAM/NAND capacity gets added inside China at a moment when memory pricing is the single biggest earnings swing factor for Micron \u2014 more supply caps the pricing cycle that has driven memory estimates higher. The same approval is a direct revenue unlock for US wafer-fab-equipment vendors, who have been fencing off China demand under the current curbs. The structure also sets a precedent that US fab commitments can be traded for export relief, which changes how investors handicap future restriction risk.",
-      "source": "Reuters",
-      "url": "https://www.yahoo.com/news/articles/exclusive-sk-hynix-conditions-us-020530651.html",
-      "alerted": false
-    },
-    {
-      "id": "20261015-anthropic-q3-revenue-ai-demand-readthrough",
-      "time": "2026-10-14T22:22:00Z",
-      "headline": "Anthropic discloses $16.8B Q3 revenue and first adjusted profit ahead of IPO; futures still fall",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "AVGO",
-        "TSM",
-        "ORCL"
-      ],
-      "why": "Frontier-model revenue is the ultimate demand signal underwriting hyperscaler capex and merchant accelerator orders, so a 45% sequential step-up plus first adjusted profitability argues the token economics funding AI infrastructure are real rather than subsidized. The bearish read is that futures fell anyway: with the AI complex now priced for acceleration, even a strong private disclosure fails to clear the bar, which is itself evidence the marginal buyer has shifted from demand-driven to funding-cost-driven. A near-term IPO also creates a new large liquid vehicle that competes for the same AI-exposure dollars currently parked in NVDA and the hyperscalers.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkt6ekRhM01GYllSNng3cnhNQjJHZlBSVjZ0d2d3aElqTFpSd2hWOWxOdG54ZHhSa0wtSUFtX2JLSXcxRnF6TVNtcUV1ZXhlb2ZqdHZ6YzFlb3BVV0pmaEVlZzgyU1RXZDB5c3RFNEpmT3ZsZXI1NjBKcDVCQjRmUExrakhTWDFJODI2bHlfV29nZXlJYTdMcFlpLVhXbEFta0xMSlQyM2FiYlNDOXNWM2s4NVdCUWp0eUlJQkpoUVFEQ0FpM2JnUjlCTFVDMDVxLUtsUUZ3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261014-meta-sellside-downgrade",
-      "time": "2026-10-14T20:00:00Z",
-      "headline": "Meta Platforms de-rates on a sell-side downgrade, underperforming the megacap group",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "META",
-        "GOOGL",
-        "AMZN",
-        "MSFT"
-      ],
-      "why": "Meta is the megacap where AI capex is funded entirely out of a single advertising profit pool, so a rating cut lands on the free-cash-flow line rather than on revenue growth \u2014 the market is being asked to pay a lower multiple for earnings that are increasingly reinvested into depreciating compute. With the rate path repricing higher, that reinvestment burden is valued less generously. The read-through is to the other hyperscalers whose capex intensity is rising against the same discount rate.",
-      "source": "MarketBeat",
-      "url": "https://www.marketbeat.com/instant-alerts/price-meta-platforms-nasdaq-meta-shares-down-33-following-analyst-downgrade-2026-10-14/",
-      "alerted": false
-    },
-    {
-      "id": "20261015-tsm-q3-print-sector-catalyst",
-      "time": "2026-10-14T19:01:00Z",
-      "headline": "TSMC Q3 report lands as the swing catalyst for the entire semi complex; consensus looks for a sixth straight record profit",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MRVL",
-        "QCOM",
-        "INTC"
-      ],
-      "why": "TSMC's capex guide \u2014 already lifted to $60-64bn for this year on the July call \u2014 is the single cleanest read on 2027 wafer-fab-equipment orders, so the number resets estimates at ASML, AMAT, LRCX and KLAC regardless of what TSMC's own margin does. Advanced-node and CoWoS commentary is the only hard datapoint on whether AI accelerator demand is still supply-constrained, which is the question the ASML print and the CoreWeave credit move have just put in play. With the sector de-rating on financing fears, the print either validates the order book or confirms the air pocket.",
-      "source": "Reuters via Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/tsmc-expected-to-report-sixth-straight-quarter-of-record-profit-thanks-to-ai-boom-4950243",
       "alerted": false
     }
   ]
