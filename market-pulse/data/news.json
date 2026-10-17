@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:49:51Z",
+  "generated_at": "2026-10-17T20:50:27Z",
   "session_date": "2026-10-17",
   "items": [
     {
@@ -87,6 +87,26 @@
       "why": "The discount rate, not the inflation print, is what sets equity multiples \u2014 if long yields refuse to rise after upside CPI and PPI surprises, the bond market is signalling the shocks are transitory or demand-destructive, and the duration-heavy megacap complex keeps its valuation support. That removes the main transmission channel through which a hot print would force a derating on high-multiple tech. The caveat is that yields staying anchored on growth fears rather than inflation relief would hit cyclicals and small caps instead.",
       "source": "MarketWatch",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEtYTk1yYWJKNmZxYWk4RVFDN1NfVDZ6bk8xcFBGOVRZeV9HZGgtdThzV0c0MUI1STNqUHUyTUctNFFfbEpMbkdTWHZFQzU2TU5idmgxd0ppRFE5bGtkZ3pFU2VfN0s4NDRBX3R0LUlvWHRtOFNCbjZLWWZiNnY0SGw1ZWRaLV9ZV2dUVnY0ZlR6c2tFUW90c0ZTelRzRzZncmhrb1VHYUF3d2h0U0I2dlBNbjBrcHlULWVwRnNfa254RmpEQm9GMm9oMWtJdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261017-mu-taiwan-strike-supply-risk",
+      "time": "2026-10-17T06:00:00Z",
+      "headline": "Micron Taiwan bonus dispute escalates toward strike at fabs that supply most of its DRAM/HBM output",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "SMCI",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "Micron manufactures the majority of its DRAM and HBM in Taiwan, so a labor stoppage hits wafer output at the exact nodes that are already allocated \u2014 management has said 2027 capacity from the new fab is sold out, meaning lost days cannot be made up from inventory. The mechanism cuts two ways: shipment slippage and a richer bonus settlement raise unit costs and risk a quarter of revenue timing for MU, while tighter memory supply pushes contract DRAM/HBM pricing higher and raises the bill-of-materials for AI server builders. Presidential-level intervention in Taipei signals the dispute is no longer a routine wage negotiation.",
+      "source": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uUEVfSzQtd2JfNjNORDNmSmtWX3ZBaHJrRnRIQjVaR2NlOFBlWGdGSVdRLVF3UEV6Z2I2UmYxS1FOSjlBZC15b1RtbXI5eFJuNDB2SjhDV0l6MXB2N2hyaVpKZDM4VHp3MzZfd3dwZXpoSU5Kek9Oa0JUcWRIdw?oc=5",
       "alerted": false
     },
     {
@@ -247,6 +267,26 @@
       "why": "The market is shifting from scoring AI demand to scoring who funds it, which means the cost of capital for hyperscaler and neocloud buildouts is now the swing variable in chip order books rather than end demand. If credit tightens for leveraged buyers, backlog converts to revenue more slowly and the duration investors assign to AI earnings shortens, compressing multiples before any estimate is cut. Cash-funded megacaps are relatively insulated, which is why the damage concentrates in leveraged compute buyers and their silicon suppliers.",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLaXBzTHdSMHNvM2RaR1A4d29PXy1NVHJKY1FoOTlTWHFsbFZmOHZsLW9wMW44QzRwT3E1QXkxQXg5bUhRVzV3OE5OS0RlUjllVklOY0xKSVNuTFdLVzJ2eE8wdVpRSlZYeHZLcUw3OERFLTQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261016-orcl-cds-widening-ig-downgrade-risk",
+      "time": "2026-10-16T20:00:00Z",
+      "headline": "Oracle credit default swaps widen sharply as investors treat it as the investment-grade canary for AI buildout debt",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MSFT",
+        "SMCI"
+      ],
+      "why": "Oracle is funding an OpenAI-scale capacity buildout with balance-sheet debt, so a wider CDS raises its marginal cost of capital and compresses the return on each incremental data-center dollar \u2014 the project economics only clear at low single-digit spreads. A move toward a sub-investment-grade rating would force index-constrained IG holders to sell, repricing the whole AI-infrastructure credit complex and slowing order flow to the compute and networking suppliers that depend on debt-financed capex. This is a financing-channel hit to 2027 capex visibility, not a demand signal.",
+      "source": "Neo Reports Daily AI Investment Brief",
+      "url": "https://neoreports.substack.com/p/daily-ai-investment-brief-261016",
       "alerted": false
     },
     {
@@ -820,57 +860,6 @@
       "why": "The Q4 guide implies roughly 14% sequential and ~58% year-over-year dollar growth at the midpoint with gross margin held in the mid-60s despite overseas fab dilution, which means leading-edge and advanced-packaging pricing power is still intact rather than peaking \u2014 that is the single best proxy for the AI silicon order book one to two quarters forward. More important for the supply chain, management framed capex across 2026-2028 as stepping up further, which converts a one-year spending cycle into a multi-year equipment revenue base and is the direct earnings driver for AMAT, LRCX, KLAC and ASML. For fabless AI names the read-through is capacity, not demand: the constraint on NVDA, AVGO and AMD unit shipments eases on this trajectory.",
       "source": "Investing.com",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695",
-      "alerted": false
-    },
-    {
-      "id": "20261015-macro-treasury-rally-unwinds-cpi-shock",
-      "time": "2026-10-15T05:00:00Z",
-      "headline": "Treasuries rally back, 10-year yield eases to 5.10% as the post-CPI rate-hike panic partly unwinds",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "PLTR",
-        "ORCL"
-      ],
-      "why": "The discount rate, not estimate revisions, did the damage to high-multiple tech after the hot print, so a retracement in the long end mechanically rebuilds the present value of out-year AI earnings and is most powerful for the longest-duration names. It also signals the bond market is treating the inflation upside as an energy-led impulse rather than a sustained reacceleration that forces the Fed to hike. The offset is that yields near 5% remain a structurally higher bar than equity multiples were set against.",
-      "source": "Trading Economics",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-      "alerted": false
-    },
-    {
-      "id": "20261015-ai-infra-credit-funding-cost-repricing",
-      "time": "2026-10-15T05:00:00Z",
-      "headline": "Credit markets wobble on data-centre debt, turning AI capex financing cost into the sector's binding constraint",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "AMD",
-        "MU",
-        "TSM",
-        "AVGO",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "META",
-        "MSFT",
-        "PLTR",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "A growing share of 2026-27 accelerator demand sits with neoclouds and levered builders who fund GPUs with debt rather than operating cash flow, so a widening in data-centre credit after the hot CPI print directly throttles the order book regardless of end demand. This is a discount-rate and volume shock at once: higher funding costs both compress the multiple on long-duration AI earnings and raise the odds that announced capex slips or gets cancelled, which is why suppliers with the least diversified customer base (SMCI, MRVL, memory) fall hardest. Vendor-financing and prepay structures mean the credit stress is not ringfenced to the borrowers.",
-      "source": "Yahoo Finance / Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
       "alerted": false
     }
   ]
