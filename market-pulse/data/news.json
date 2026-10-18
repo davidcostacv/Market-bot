@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-10-18T16:04:01Z",
+  "generated_at": "2026-10-18T20:57:37Z",
   "session_date": "2026-10-18",
   "items": [
+    {
+      "id": "20261018-asml-demand-exceeds-capacity-2028",
+      "time": "2026-10-18T11:30:00Z",
+      "headline": "ASML posts record results and says it cannot meet lithography demand until 2028",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "INTC",
+        "MU",
+        "NVDA",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "A capacity-constrained tool vendor converts cyclical orders into multi-year contracted backlog, which lengthens revenue visibility and justifies a higher terminal multiple rather than a trough-cycle one. It also confirms that leading-edge and HBM fab buildouts by TSMC, Micron and Intel are being supply-gated rather than demand-gated, so wafer-fab-equipment peers should see order books extend rather than roll over. The constraint is a risk flag for the downstream logic and memory chipmakers whose AI capacity ramps now depend on a single lithography bottleneck.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeGdMS3I1Qm93Q0E4YzA3UjJUazZnU1dxV1VjYUF0LTFFMXBCWl9MNnMwTlYxekRadXNUTm83SXZYOFp1SldLeTVRbWhKVURCdjZ5T3BIdEtHdFJ0Q29QQVBXZXlQdFBVOVNIdkVZQmVZbEZaQkNUYVo2RVlGSkdKXy1udEpteXVrMFBvZ2V1VDFGVWp6NkE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261018-spx-record-preannounced-upbeat-guidance",
       "time": "2026-10-18T10:30:00Z",
@@ -57,6 +81,26 @@
       "alerted": false
     },
     {
+      "id": "20261018-nvda-spacex-accelerator-commitment",
+      "time": "2026-10-18T09:00:00Z",
+      "headline": "SpaceX results put scale of its Nvidia accelerator commitment in focus; NVDA firms while SPCX slides",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "SMCI",
+        "ANET",
+        "MU",
+        "TSM"
+      ],
+      "why": "A privately-funded, non-hyperscaler buyer disclosing a large GPU commitment widens Nvidia's demand base beyond the four cloud capex budgets investors stress-test, which is the core bear case on 2027 order durability. The spend is financed off a different balance sheet than the AI-debt complex that has been pressuring sentiment, so it carries less perceived credit risk. Rack-scale orders of this type pull through networking, memory and system integration revenue alongside the silicon.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261018-mrvl-sellside-upgrades-into-print",
       "time": "2026-10-18T08:00:00Z",
       "headline": "Marvell jumps as multiple large sell-side desks turn constructive ahead of its quarter",
@@ -97,6 +141,27 @@
       "why": "When the foundry is the bottleneck rather than end demand, pricing power shifts to TSMC and allocation decides which fabless names can actually ship, so revenue for NVDA, AVGO and MRVL becomes a supply number rather than a demand number. Sustained sold-out leading edge and advanced packaging also underwrites multi-year equipment orders at ASML, AMAT, LRCX and KLAC, supporting their backlog visibility. The read-through is bullish for the capex chain but caps upside surprise for customers who cannot get wafers.",
       "source": "TIKR.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYWdnaHNZN3lTZl9FdktvUVdIa2RZbUFVYkVrZEJhaXNKZnlnNlk0ZGo3RUxPWHlzLV8wSFF4emJVMy1jN0JNV1h0eW1HV2ZJLVluMURPaWEyd3d3a0k5VlNSbHVXa05YZVl4MEEyWTdpY3ZEV3BkNXJ0WEFUXzhkcw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261018-nvda-blackwell-rubin-visibility",
+      "time": "2026-10-18T07:00:00Z",
+      "headline": "Nvidia frames combined Blackwell\u2013Rubin cycle revenue visibility as the offset to the share-price pullback",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MU",
+        "AVGO",
+        "ANET",
+        "SMCI",
+        "AMD"
+      ],
+      "why": "Management quantifying cumulative bookings across two product generations converts what the market treats as a one-year cyclical peak into a contracted multi-year revenue base, which is the single variable that determines whether the stock is valued on peak or normalized earnings. If the visibility figure holds, forward estimates stop being a function of quarterly order sentiment. Read-through is direct to the CoWoS foundry supplier, HBM vendors and the rack/networking content chain that ships alongside each generation.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ0l0Z1U0RWwtZmFTdVlhZngtdU5OejFYU05Kd0lCejVFWlpWN2hrWElyUjFEWU1MdVhWVGNXUnFBU3VRTE9fUFNpSm5nVURIczhsa3dmWV8tazdtcnhGQ29jM01sMU9UclkzbkV1U09uQVhLeUU4UVd5bHpzZXJRYW02S3F3ODIzSzRCU1FrNUJsTHdBNC1sdW12aUZ1VVQwakwzdF83dVp3cko4MEhsREphaHNGTEhHbGNMSHZKa0g?oc=5",
       "alerted": false
     },
     {
@@ -167,6 +232,33 @@
       "why": "Raising list prices is normally margin-accretive, so a negative tape reaction implies investors read the hike as cost pass-through from tariffs and memory inflation rather than pricing power, with unit elasticity threatening the installed-base growth that supports Services. If upgrade cycles stretch, the read-through hits Qualcomm modem volumes and Apple's foundry wafer bookings. Apple also carries heavy index weight, so a de-rating there drains the defensive megacap bid that has been offsetting semis weakness.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlJXaVg4MFRqczZmNnJxbTRROGN1VmFxRlh3bFd6aU5rcXRRRUZGdHBibDIwOVdjYl9VUjRwU25OVTM1WU5TSXNmRWtoZ1lkck5pOTk1aWtaTTBFTC1QMWZ5dXZkQ1RpUUNlSjJBbk01M0VtUGRwbXJ4NmVXeUJHWXVDdjBDd3lST25pbGJIMHl0dFRQeWFvSkNVRDNZdzdzOWFVWTdvVWg1YmtLOEIwdVFOZDZPY0ZRcXJ5SHN6bVd6UnRnV3RVblh3LUdpOHBER0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261018-macro-cpi-print-rate-hike-fears-fade",
+      "time": "2026-10-18T01:00:00Z",
+      "headline": "Equities close higher as CPI data defuses fears of an earlier-than-expected rate hike",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "PLTR",
+        "JPM",
+        "GS"
+      ],
+      "why": "The market had begun pricing a policy path that included tightening sooner than the Fed's own guidance; an inflation print that removes that tail lowers the front end of the curve and the discount rate applied to long-duration tech cash flows. Multiple expansion, not earnings, is the transmission channel here, which is why high-multiple AI and small-cap names benefit most. It also restores the rate cushion under a market that had been de-rating semis on positioning rather than fundamentals.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSnJ1cGhiVS1rWExabVhYNnFyekN5ZGgzYXFzSXoxSFM2WmNmNy1Cckd6X19pN05yWmRnTjRFVDV2SVNyUUtaY0h2OHdZRzA2dklaQmgtLVRwbGlWWEJ6S3lqT3hwSXd6RDVzS1NldUU5amZLT0RaMmVhVF9mak5ObVFzcWlNYTRMX25mOUFQVkNLSnFyQ0FmSGNjcy15WC1SMkRBZUVZV0U4T3NoeWJ2bnQ3ajhIZlF2VXJQUmQ2ZFRUNjUtOGVoYjdFM18?oc=5",
       "alerted": false
     },
     {
@@ -813,91 +905,6 @@
       "why": "Swapping the executive who controls the content slate right after a ~6% workforce reduction signals a shift in how the biggest line on the P&L \u2014 content amortization \u2014 will be allocated, with Rice's live-events and linear background pointing toward sports and event programming rather than volume originals. The timing matters because it lands immediately before the October 20 print, so guidance commentary now carries strategy risk on top of subscriber and ad-tier math. The stock fell on the news despite the cost cuts, implying the market reads execution risk rather than margin relief.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/15/netflix-bela-bajaria-peter-rice.html",
-      "alerted": false
-    },
-    {
-      "id": "20261015-anthropic-ipo-valuation-markdown-readthrough",
-      "time": "2026-10-15T21:05:00Z",
-      "headline": "Investors push Anthropic to cut IPO valuation to $1.5T from $2T ahead of November listing",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "AVGO",
-        "QQQ"
-      ],
-      "why": "Private AI marks are the collateral behind the public AI capex cycle: a 25% haircut on the most-watched pre-IPO comp lowers the implied carrying value of Alphabet's and Amazon's stakes and, more importantly, resets what investors will pay for compute-dependent revenue growth across the stack. A weak reception for the first mega-cap AI listing also raises the cost of equity for every private model lab and neocloud that is currently pre-committing to GPU purchases, which is the demand that underwrites Nvidia and Broadcom backlog. This is a valuation-channel event rather than an earnings event, but it directly feeds the funding question driving the current de-rating.",
-      "source": "Investing.com / Reuters",
-      "url": "https://www.investing.com/news/stock-market-news/some-investors-push-anthropic-to-cut-ipo-valuation-to-15-trillion--report-4952696",
-      "alerted": false
-    },
-    {
-      "id": "20261016-saas-multiple-compression-spillover",
-      "time": "2026-10-15T21:00:00Z",
-      "headline": "Samsara, HubSpot, Asana and Braze shares plummet in broad software de-rating",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "CRM",
-        "MSFT",
-        "ORCL",
-        "PLTR"
-      ],
-      "why": "A simultaneous drop across unrelated subscription-software names points to multiple compression on the seat-based SaaS model rather than any single company's execution, as investors price in AI agents displacing per-seat licence growth and higher discount rates on long-duration cash flows. That mechanism transfers directly to the large-cap application vendors whose valuations rest on the same renewal-and-expansion math. It also pressures PLTR, where the premium multiple assumes software budgets keep expanding.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbV9Qay1PMlhsZW8zaWhMSWdBNkk0YVg0SDVfZ2hBbmVGWEhoY2w2OVNFRXBxeWFtSk1USEplbjFMT3lXVmFMaERWbEpsT0JtUnE4MkNMaXF2WEZuTnQwVHFLZU9TTldNSTItS2VmRTBnWDc1NjI2T3Fvd3NzaHhQWU55RHA4M2U3MTRBUzNQQnJHblZmdmlSOUJWOTYyVzlVQldCSHo3YzBicHdQTXlOSmExWl9nb1R4MU9aMVNQQVhIRnNKRnFibg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-avgo-hock-tan-capital-intensity-warning",
-      "time": "2026-10-15T20:30:00Z",
-      "headline": "Broadcom slides 4% after CEO Hock Tan's capital warning on AI chip buildouts; Marvell falls in sympathy",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AVGO",
-        "MRVL",
-        "NVDA",
-        "AMD",
-        "TSM",
-        "ANET",
-        "SMCI",
-        "MU"
-      ],
-      "why": "Commentary from the custom-ASIC franchise's own CEO about the capital required to sustain AI accelerator programs undercuts the key bull assumption that hyperscaler XPU orders convert cleanly into multi-year revenue at stable margins. If customers must fund escalating capex and NRE themselves, order timing slips to the right and the backlog that supports AVGO's and MRVL's premium multiples becomes less bankable. The read-through hits the whole merchant-silicon and AI-networking complex, since the same customer budgets fund NVDA racks, TSM wafers and ANET switching.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeHE5YjRkQnVyTUw0NnFHNE9FZEQwOHM5S3NSYkVNeXMycGFmcG15SVVVQlBHM1RTTy1vRnp1eHFGbUlpeFBEOERhVDdjM0Fnd0hndFVnTWZXTFA5YTRQTDRmTW9UMEdNOGZHMjhCSHZ6ZlIxZ1NhdnpUYXlrMHVvNnJTamJaLS1tQlNneV85c2NSN0pGb1ViMXJweHl3WkJGaThSaHpERURXUTU1OVhTZjlEYzVXMFl6YTZ5XzZaY3lHMjhBamVtag?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-macro-semis-to-breadth-rotation",
-      "time": "2026-10-15T20:10:00Z",
-      "headline": "Chip sell-off turns into a rotation: money exits semis into the rest of the index and into Treasuries",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "SMCI",
-        "MU",
-        "AVGO",
-        "TSM",
-        "JPM",
-        "GS"
-      ],
-      "why": "The important signal is not the drawdown but its composition \u2014 the semis index fell hard while the broad index and cyclicals held, meaning this is a de-grossing of one crowded factor rather than a growth scare, which keeps the earnings path for the non-AI 480 intact. That mechanically compresses the relative multiple of AI hardware versus everything else and supports equal-weight and small-cap exposure against QQQ. With bonds bid at the same time, the marginal buyer is treating AI hardware risk, not duration risk, as the thing to hedge.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QURFNXNKc2JOay1PenlxMHdlOGxDMzd5a2xiV1ZXWmtmT2FEWTJ0NVJPSVBOTGs2YnFXUFJQWWtPQ3phYnhIMXZheTRfc051QUczOU9Md1NFRFdhZlVnZ0R3Y1pvSGU0SlBHV1l5TFBydjdwS3c?oc=5",
       "alerted": false
     }
   ]
