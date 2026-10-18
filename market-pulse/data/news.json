@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-10-18T04:58:35Z",
+  "generated_at": "2026-10-18T11:34:43Z",
   "session_date": "2026-10-18",
   "items": [
+    {
+      "id": "20261018-macro-meta-tsla-china-gdp-catalyst-week",
+      "time": "2026-10-18T06:00:00Z",
+      "headline": "Heavy catalyst week set up: China Q3 GDP and Financial Street Forum, then Tesla and Meta earnings land into a bruised AI trade",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "META",
+        "TSLA",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Meta and Tesla are the first mega-caps to report after the derating in semis and AI-adjacent credit, so their capex commentary becomes the market's live test of whether accelerator demand is being funded or deferred \u2014 a Meta capex raise flows straight into Nvidia, Broadcom and memory order books, a trim does the reverse. Tesla supplies the separate consumer-demand and auto-margin read that the market has stopped getting from macro prints. China's Q3 GDP and the Financial Street Forum set the policy backdrop for semis demand and for any retaliation framing around export controls, making this a week where positioning, not narrative, gets repriced.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kVE5ZRXdIWEZQRUlZaEJaQWhjRGZJN2N5UGhGWGFVY0QzMHNwSHM1NmVfdVVvbGhzY2FtM3FjMnZwd1FDR3dRMEdrMGIzdE5BUlJTQkVkOTlldWJtOGNwVzFBZndPWGNSTlFqOXlQMXFTTEE1bmc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261018-lrcx-ai-fab-capex-into-print",
+      "time": "2026-10-17T22:14:00Z",
+      "headline": "Fresh AI fab build-out news fails to lift Lam Research as the stock stays at full valuation ahead of its quarterly report",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ASML",
+        "TSM",
+        "MU",
+        "INTC"
+      ],
+      "why": "Wafer-fab equipment orders are the lagged derivative of leading-edge and HBM capacity announcements, so new fab news normally lifts the WFE book-to-bill expectation two to three quarters out. The signal here is that it did not: the equipment complex is already discounting an AI capex cycle at peak, which caps upside and makes the upcoming print asymmetric \u2014 an in-line guide gets sold while only a visible order-backlog step-up supports the multiple. Read-through is to the whole tool chain, since LRCX etch and deposition demand moves with the same TSMC and memory capex budgets that drive AMAT, KLAC and ASML.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOFhjdG5TNUZQS2FzUWU0R3paMUZQVWV1ckR3TkdsdnhreHF5b2VLcnJadmdxM1I4YlJqd0hpN2hBWnluSkJuZ25UY1luLXVEdG9lWTJRc2xYcFg0dEloSVFnR055QmxoZXRXNXBjZEdIUHVNZXdXU3dvbm5GaHgtdmc0U1lxN01jVzRyU1hUVGp1d3lxeGJxTFZ3?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261017-ai-datacenter-moratorium-regulatory-risk",
       "time": "2026-10-17T20:37:00Z",
@@ -75,6 +122,27 @@
       "why": "The mechanism is cost of capital, not end demand: AI capacity is increasingly debt-funded, so higher yields and widening credit spreads raise the hurdle rate on every incremental GPU/HBM/WFE order and compress the multiple investors pay for 2027-28 capex-driven earnings. A streak of this length with no fundamental guidance cut means the move is pure de-rating, which makes semis hostage to the bond market and to any sign that hyperscaler or neocloud financing is tightening. Sources conflict on the count: Investing.com/Yahoo cite eight straight sessions for the SOX (longest since October 2008), while GuruFocus describes nine straight down days for the SOXX ETF (longest since May 2006).",
       "source": "Yahoo Finance / Investing.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkdxRllqcjRqT3VRQjZSRmJULUEyZTJKZVQweXhCTEZwa0cxOVM4bWlJRmNCdlhMVkxfN3hueFptZDhKem50OURiY0ZBV25CbkFZbmh6Y3VYOU9veEhVWlQtTEIzQ0p1VW1JM1RvS1N5UE9ET25mS08xMlF4RW81VWluY01QanlSazY3c0dla0NKS05KX3Aw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261018-intc-white-house-stake-noninterference",
+      "time": "2026-10-17T12:00:00Z",
+      "headline": "Intel CEO Lip-Bu Tan says Washington has no policy of using its equity stake to steer Intel's strategy, and rates Chinese chips as close behind US technology",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The government, SoftBank and Nvidia equity stakes have carried an unquantified governance discount: investors have been pricing the risk that capital allocation, foundry customer selection and pricing get set politically rather than on return on invested capital. An explicit CEO statement that there is no interference policy narrows that discount without changing near-term earnings, so it is a multiple item, not an estimate item. His read that Chinese silicon is not far behind cuts the other way for the China-exposed merchant names, since it implies faster domestic substitution against Nvidia and AMD accelerators.",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOTRLN00xUm9ReEdDNDlXOWxiRUg5U0V5eXhCSTNBQlhBaHZiQWFtbjl6VHh6aTd3ZEhvaWFXYWdoTWtZbGdsUm1TTUN1UWFpYS1qdGhBSzhaMnhvb3Q5bFVrdmdzd01EVWVDMzlVOFBsU0lHVjJZSV9Sd21qOUVTRGxyVzFnS2Y0dkNKQ3k2c2l6ZDJmbEctVEx0eTdOWVhYeS1fUVNLNkZfdkZBMGdkTE96RVJSUG9pcUdpVEhuN3Jrb0t5eXc?oc=5",
       "alerted": false
     },
     {
@@ -807,72 +875,6 @@
       "why": "China datacenter revenue is currently excluded from Nvidia's guided numbers, so the entire China opportunity sits as off-model optionality whose value moves with the perceived direction of US policy rather than with demand. Huang framing cooperation as the alternative to restriction is an attempt to shift that policy prior, and it cuts against the simultaneous push in Washington for harder chip export controls and the SK Hynix licence bargaining now in play. The near-term earnings effect is zero; the effect is on the probability distribution investors assign to a China re-opening versus a further tightening that would also clip AMD accelerators and memory demand.",
       "source": "The Tech Buzz",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUlBVd1J5N2ZsMVNsdlFEZVFJay12ZUpReWVaSTFKQkNDX1hvMS0wYnZkTDVmcnpWRDJGSUhWejdPYi04OTNPV0pLNnROQUNjM1hBU0JxNHliRDVpOFMzTXduZDdqc0QzWFZham0tbzNxY01ScHJlckJrQkplUlZGU3RDei1VSjljX0xDTDRHRmx6dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261015-macro-september-ppi-shock-retail-sales",
-      "time": "2026-10-15T12:30:00Z",
-      "headline": "September PPI jumps 1.3% m/m and 6.3% y/y \u2014 biggest annual gain since 2022 \u2014 while retail sales rise 0.8%, hardening October Fed hike risk",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "AVGO",
-        "AMD",
-        "MU",
-        "PLTR",
-        "JPM",
-        "GS",
-        "XOM",
-        "CVX"
-      ],
-      "why": "Producer prices are the input side of the margin equation: a 1.3% monthly print with core PPI at its fastest in four years means cost pass-through pressure that either compresses 2027 gross margins or feeds back into consumer prices, and the hot retail sales number removes the demand-weakness argument the Fed would need to stay on hold. Together they shift the policy path from pause toward a second hike into the Oct 27-28 meeting, raising the discount rate applied to the long-duration AI complex exactly as those multiples are already being questioned. Note the composition caveat \u2014 energy drove the bulk of PPI and gasoline drove most of retail sales, with ex-gas-station retail up only 0.2% \u2014 so the growth signal is weaker than the headline, which is the worst mix for equities: sticky inflation without real demand.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
-      "alerted": false
-    },
-    {
-      "id": "20261015-tsla-roadster-unveil",
-      "time": "2026-10-15T12:00:00Z",
-      "headline": "Tesla confirms next-generation Roadster unveiling livestream for today",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "TSLA"
-      ],
-      "why": "A halo product adds almost nothing to near-term deliveries or margin, but it functions as the narrative anchor that lets Tesla keep a technology multiple while core auto volumes and pricing stay under pressure. The commercial question is whether pricing, timing and any demonstrated new drivetrain technology are specific enough to be modelled, or whether it is another deferred-date reveal. Risk is two-sided: a vague event removes a support for the story rather than adding one.",
-      "source": "Drive Tesla Canada",
-      "url": "https://driveteslacanada.ca/news/tesla-roadster-unveiling-livestream-october-15-2026/",
-      "alerted": false
-    },
-    {
-      "id": "20261016-wmt-deutsche-bank-upgrade-buy",
-      "time": "2026-10-15T09:11:00Z",
-      "headline": "Deutsche Bank upgrades Walmart to Buy, lifts target to $136 from $113 on inflation-driven trade-down",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "WMT",
-        "COST",
-        "PG",
-        "KO",
-        "SPY"
-      ],
-      "why": "The call reframes the hot CPI/PPI prints as a revenue tailwind rather than a margin problem: sticky grocery inflation pushes higher-income shoppers into Walmart, lifting ticket and share while the mix shift to advertising and marketplace defends gross margin. A roughly 20% target increase from a bulge-bracket house with a rating change is the kind of action that resets buy-side numbers for FY27 comps. It also supports the defensive-staples leg of the rotation out of AI-levered tech.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/15/walmart-deutsche-bank-upgrade.html",
       "alerted": false
     }
   ]
