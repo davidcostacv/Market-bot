@@ -1,7 +1,82 @@
 {
-  "generated_at": "2026-10-17T20:50:27Z",
-  "session_date": "2026-10-17",
+  "generated_at": "2026-10-18T04:58:35Z",
+  "session_date": "2026-10-18",
   "items": [
+    {
+      "id": "20261017-ai-datacenter-moratorium-regulatory-risk",
+      "time": "2026-10-17T20:37:00Z",
+      "headline": "BlackRock's Fink warns spreading state-level data center moratorium bills would hit US growth",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MU",
+        "SMCI",
+        "ANET",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "ORCL",
+        "PLTR"
+      ],
+      "why": "Permitting and power access, not chip supply, is now the binding constraint on AI buildout; local moratorium bills moving from Indiana to Texas introduce a siting risk that can delay or relocate committed capacity and push revenue recognition for compute, networking and memory suppliers to the right. The second-order channel is utility-bill politics, which raises the odds of cost-recovery rules that make hyperscaler power contracts more expensive and lower the ROIC on announced data center programs. For the hyperscalers it is two-sided: slower buildout trims capex and flatters free cash flow but caps the revenue case that justifies current AI multiples.",
+      "source": "TheStreet",
+      "url": "https://thestreet.com/economy/larry-fink-warns-data-center-ban-us-recession",
+      "alerted": false
+    },
+    {
+      "id": "20261017-nvda-rtx-spark-client-ai-gtc-berlin",
+      "time": "2026-10-17T16:16:00Z",
+      "headline": "Nvidia pushes RTX Spark AI PCs into global OEM channel ahead of GTC Berlin (Oct 20-22)",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "QCOM",
+        "INTC",
+        "MSFT",
+        "TSM"
+      ],
+      "why": "This opens a second, non-data-center revenue pool for Nvidia silicon at a moment when investors are questioning the durability of hyperscaler capex, diversifying the mix away from a handful of cloud buyers and attaching Nvidia's software stack to the Windows installed base. It directly contests the on-device AI narrative that underpins x86 and Arm client roadmaps, a share headwind for AMD, Intel and Qualcomm client units. GTC Berlin next week is a near-term catalyst window for European sovereign-AI and partner announcements that could reset consensus on non-US demand.",
+      "source": "NVIDIA Newsroom",
+      "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+      "alerted": false
+    },
+    {
+      "id": "20261017-semis-sox-eight-session-derating",
+      "time": "2026-10-17T12:34:00Z",
+      "headline": "Philadelphia Semiconductor Index logs longest losing streak since the 2008 crisis as AI financing costs bite",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "TSM",
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "MRVL",
+        "SMCI",
+        "ANET",
+        "INTC",
+        "QCOM",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "The mechanism is cost of capital, not end demand: AI capacity is increasingly debt-funded, so higher yields and widening credit spreads raise the hurdle rate on every incremental GPU/HBM/WFE order and compress the multiple investors pay for 2027-28 capex-driven earnings. A streak of this length with no fundamental guidance cut means the move is pure de-rating, which makes semis hostage to the bond market and to any sign that hyperscaler or neocloud financing is tightening. Sources conflict on the count: Investing.com/Yahoo cite eight straight sessions for the SOX (longest since October 2008), while GuruFocus describes nine straight down days for the SOXX ETF (longest since May 2006).",
+      "source": "Yahoo Finance / Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkdxRllqcjRqT3VRQjZSRmJULUEyZTJKZVQweXhCTEZwa0cxOVM4bWlJRmNCdlhMVkxfN3hueFptZDhKem50OURiY0ZBV25CbkFZbmh6Y3VYOU9veEhVWlQtTEIzQ0p1VW1JM1RvS1N5UE9ET25mS08xMlF4RW81VWluY01QanlSazY3c0dla0NKS05KX3Aw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261017-macro-soft-jobs-report-fed-minutes",
       "time": "2026-10-17T11:20:00Z",
@@ -798,68 +873,6 @@
       "why": "The call reframes the hot CPI/PPI prints as a revenue tailwind rather than a margin problem: sticky grocery inflation pushes higher-income shoppers into Walmart, lifting ticket and share while the mix shift to advertising and marketplace defends gross margin. A roughly 20% target increase from a bulge-bracket house with a rating change is the kind of action that resets buy-side numbers for FY27 comps. It also supports the defensive-staples leg of the rotation out of AI-levered tech.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/15/walmart-deutsche-bank-upgrade.html",
-      "alerted": false
-    },
-    {
-      "id": "20261015-intc-israel-fab-blast-supply-risk",
-      "time": "2026-10-15T08:30:00Z",
-      "headline": "Fatal explosion and fire at Intel's Kiryat Gat wafer fab in Israel; production impact undisclosed",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "AMD"
-      ],
-      "why": "Kiryat Gat is Intel's largest manufacturing site outside the US and the blast involved nitrogen trifluoride, a chamber-clean gas, which means a hazmat investigation and tool/line downtime are plausible even if the damage is localised. Intel has not quantified any wafer-output loss, so the market has to price an unquantified supply, remediation and liability tail into the December quarter two weeks ahead of the Oct 29 print, on top of an already fragile foundry ramp story. Any sustained output loss is a marginal share gain for TSMC-supplied competitors rather than a sector-wide supply event.",
-      "source": "Quiver Quantitative",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYlJlenY2eE9BME1YOG91X2Z0VG1SVjU2Y2QtT2NVX1RJNmpmSVJ3VmxfLTRpd095aGVqM21yTlZQc1NaVjBlX3JTaGZsY1hPb3FvcFZRck1iTFhnNHplTjJjYlJFVU9IZ3RJcVo0SFItWExwWVJWeUdlSlJnbTNqb3hpRkVNb1doVHZJZkNGdGx6dTFlbkZGV2cyQmRhTWFT?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261015-intc-terafab-tsmc-confirmation",
-      "time": "2026-10-15T07:50:00Z",
-      "headline": "TSMC publicly confirms Terafab talks, pressuring Intel's only named foundry showcase win",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "TSLA",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Intel's foundry multiple is built almost entirely on the option value of landing external 14A/18A volume, and Terafab in Texas was the single named anchor customer backing that thesis. TSMC moving from rumor to acknowledged negotiation \u2014 while insisting on owning and operating any fab \u2014 shifts the probability that the Musk-linked capacity gets built on TSMC process rather than Intel's, removing a key pillar from Intel's external-revenue ramp and pushing the payoff further out. Read-through is mildly positive for TSMC's US capacity pipeline and for WFE suppliers tied to whichever fab footprint is funded.",
-      "source": "StocksToTrade",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuNFVtTGRKcVRCdXh6T0t0ekpFcVlueWJsc2lJVDJFY1M5SHpfWHVtbF8yS1IxNWlHQ2VUQUhfT3BBbElPd3M0LXJjYjJua2FtZ0p2dzVYaWJ4MGtxdDlNcmdZd18zY1RwRWNyU054b3luSHRuZ2RueE1R?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261015-tsm-q4-guide-capex-2028-wfe-readthrough",
-      "time": "2026-10-15T06:00:00Z",
-      "headline": "TSMC guides Q4 revenue to $52.3-54.3B with 65-67% gross margin and flags 2026-2028 capital spending as 'even more significant'",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MRVL",
-        "ANET",
-        "INTC"
-      ],
-      "why": "The Q4 guide implies roughly 14% sequential and ~58% year-over-year dollar growth at the midpoint with gross margin held in the mid-60s despite overseas fab dilution, which means leading-edge and advanced-packaging pricing power is still intact rather than peaking \u2014 that is the single best proxy for the AI silicon order book one to two quarters forward. More important for the supply chain, management framed capex across 2026-2028 as stepping up further, which converts a one-year spending cycle into a multi-year equipment revenue base and is the direct earnings driver for AMAT, LRCX, KLAC and ASML. For fabless AI names the read-through is capacity, not demand: the constraint on NVDA, AVGO and AMD unit shipments eases on this trajectory.",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695",
       "alerted": false
     }
   ]
