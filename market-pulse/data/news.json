@@ -1,7 +1,108 @@
 {
-  "generated_at": "2026-10-19T05:06:44Z",
+  "generated_at": "2026-10-19T13:48:47Z",
   "session_date": "2026-10-19",
   "items": [
+    {
+      "id": "20261019-mu-revenue-target-figures-conflict",
+      "time": "2026-10-19T13:30:00Z",
+      "headline": "Micron's forward revenue target in focus, with sources citing conflicting figures",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AVGO",
+        "SMCI",
+        "LRCX",
+        "AMAT"
+      ],
+      "why": "The size of Micron's forward revenue base is the single input that determines whether the stock is trading on peak-cycle or mid-cycle earnings, and the figures now circulating are materially different \u2014 TradingView cites a $61.5bn target while earlier coverage of the fiscal guide pointed to roughly $50bn. Sources conflict on the number, so until it is reconciled the dispersion itself widens the plausible EPS range and justifies a higher option-implied move. A top-line step-up of that magnitude flows almost entirely to operating leverage in memory, where incremental bits carry high contribution margin.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZTNEUlduVHROMm9yNG1sdnRHUVBzY0JkWWhxbm9KUWRKdzZwUmVRdHhYdEZfbW1EdEdIcnV2dUhrekNCQjM2bUFkM1lXMU9rZDhiR3lnbTFaeGxpeTVJbWV6N0NRb2oyMjltVDhfNEtmbWtCRVRjZmVQRnZRLVlUc2RlRm1LaDU4UzlYMjZUam15TzJqdExia3BxM3NIelE4QmpnNlV0YTlmcHZzc1BMWmFwVlRsMlB5MnZYdjJnNA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261019-intc-jpmorgan-upgrade",
+      "time": "2026-10-19T13:00:00Z",
+      "headline": "JPMorgan upgrades Intel after steep pullback; INTC and AMD both rise ~4%",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "A bulge-bracket upgrade after a sharp drawdown shifts the marginal buyer base and compresses the risk premium on Intel's foundry turnaround, which had been priced for execution failure. Because the call is framed as valuation support rather than Intel share gains, AMD trades with it instead of against it, signalling the move is a sector-wide de-risking of x86 and domestic-fab exposure rather than a share-shift story. It raises the floor on multiples for the lagging semis after an eight-session derating.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3gzbjBVYjhaNWZIbUVubDdTLXNaTFFzQXFrZFRURlZLQWhsN2FpQllWTFdKbEQzVVV4X3FvMjI5ZnViNFlIaUx4Y3h5Ukg3MENBQnFZdy0wdlQxQl9oTEdzMUhqd1RxYmpaRmpSSFZsVXRRdU1iQ3JBUXdsMUlWc1hZYm9hQWRHVzRwdm5QSjBoZW1yYUk0aFBOMnlob1lHQnp4SHZ5LWVFT2xrSkw1bC1Lb3JjbkJfRXVadTlXTEp3aTBZR1VQRTlWZWg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261019-mu-china-rival-memory-cycle-confirm",
+      "time": "2026-10-19T12:30:00Z",
+      "headline": "Micron rallies as Chinese memory rival guides to a revenue boom",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "SMCI",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "ASML"
+      ],
+      "why": "A domestic Chinese DRAM maker guiding revenue sharply higher is normally a supply threat, but the market is reading it as independent confirmation that memory contract pricing and bit demand are inflecting across the whole industry, not just at Micron's HBM franchise. Commodity DRAM/NAND pricing is the swing factor in Micron's gross margin, so a corroborated upcycle moves the multi-quarter EPS path more than any single order. It also implies more aggressive capacity adds, which feeds the wafer-fab-equipment order book.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzgycjVEZy1udFpGVjlVc0hxamM0WWNWZWRLazhJZGxqeFo3YThfRkFYX0VDVURZUVZSbWpCMXJCTEt3OEdNcFZTb0VnaTF3RUVOR3hKanBUZzJOQVJQOHJoVldMTWo5aF9IdVdxV2JkVHB4WEF3TFB4Q2ZWanR5MFo4aw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261019-nvda-moonshot-blackwell-enforcement-risk",
+      "time": "2026-10-19T11:00:00Z",
+      "headline": "China's Moonshot reportedly seeks more Nvidia Blackwell access days after a US official flagged an export-control breach",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI",
+        "TSM"
+      ],
+      "why": "This pairs genuine incremental Chinese demand for top-end accelerators with fresh evidence that Washington believes existing controls are being circumvented, which raises the odds of tighter licensing or enforcement actions that would strand China revenue that is currently carried at or near zero in consensus. The asymmetry matters: the demand signal is worth little to earnings if it cannot be legally fulfilled, while an enforcement crackdown imposes diligence costs and channel risk across the whole accelerator supply chain. It keeps a policy discount embedded in the multiple rather than changing near-term shipments.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV2tyTkstdkVkNmJVTGdqcG9xempJVWVqb1Z5WHhvOTExVC1PRXJFUUJkQW1NN0VYeXJNMlk3MGdOWER6TGpiRzRYVXViZFlQdzE5WkpmcURMeEgxQndUVkN6dEVRbWFCTVN2eFdneXl3STNWb0ZoSVRvNHNYU2lCcGhUNkp1eWNvUEkyYUNWX2VaT1NrOXF3dXZGNmg5SDF3MHRUWVRLai1sSmpXT1ZUUmFOQS1WdWdWM1BJTF8xMXd4dmMySFhhbUJMVVFvU0drNTE2a2ln?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261019-sk-hynix-korea-supplier-loan-guarantees",
+      "time": "2026-10-19T09:00:00Z",
+      "headline": "SK hynix and Korean government to provide $1.5bn in loan guarantees to semiconductor suppliers",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ASML",
+        "NVDA",
+        "SMCI"
+      ],
+      "why": "State-backed credit for the supplier base removes a working-capital constraint on memory capacity expansion, which is the mechanism by which an HBM upcycle actually converts into equipment orders and wafer starts. It signals SK hynix is committing to a multi-year capex ramp rather than harvesting the current pricing cycle, which is directly additive to the WFE order book. The second-order effect on Micron is mixed \u2014 more industry supply eventually caps DRAM pricing \u2014 but near term it validates that HBM demand exceeds installed capacity.",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQREtRX3hHWU9KVEtDRVFXZzE2QktuUnptZW1tTUV6YmVmNGNVUEVyM3hnVDRpYTk3Z2tBTmE4dTFMcVUxcmU5aHBISGlWdk5WNXZvSGhtZU5GQS1pRzkyMEFfQ1hKWkY1YkhDemFRLXJKVlM1am9uOXBGcnJlS2ZoVm5iQVFnWUxrNUd5X3J3TXJZelJhOEx1SDlERW9FanplN1czSlFBakJFWnNadUJyRXltY05vYXdNaUhKdXNWZHptd0VFMkxJR2Y4T3ptY3ZXeG5NS9IB1AFBVV95cUxQREtRX3hHWU9KVEtDRVFXZzE2QktuUnptZW1tTUV6YmVmNGNVUEVyM3hnVDRpYTk3Z2tBTmE4dTFMcVUxcmU5aHBISGlWdk5WNXZvSGhtZU5GQS1pRzkyMEFfQ1hKWkY1YkhDemFRLXJKVlM1am9uOXBGcnJlS2ZoVm5iQVFnWUxrNUd5X3J3TXJZelJhOEx1SDlERW9FanplN1czSlFBakJFWnNadUJyRXltY05vYXdNaUhKdXNWZHptd0VFMkxJR2Y4T3ptY3ZXeG5NSw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261019-deepseek-model-ai-chip-demand-derating",
       "time": "2026-10-19T03:00:00Z",
@@ -790,127 +891,6 @@
       "why": "A credible in-house part at multi-gigawatt scale changes the negotiating geometry at Nvidia's single largest buyer: even if Microsoft still buys GPUs, the option value of a substitute caps the gross-margin premium Nvidia can extract on the next contract cycle, which is where the bear case on NVDA's ~70%+ margin structure lives. The offset is that custom silicon volume accrues to the ASIC design and foundry chain (AVGO, MRVL, TSM), so the sector dollar pool is not shrinking, only shifting. For MSFT it is a cost-per-token lever that improves Azure AI unit economics in 2027-28, so the read is bullish MSFT, negative for Nvidia's pricing multiple, neutral-to-positive for the supply chain.",
       "source": "The Rundown AI",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nLTlyODNySUZ4OVNfVTVPSU5mYWVzX2wxa1V4VlQ3UnNRQ0dCMDhTOEtCWEVqMGg1eGRXQXdUMmpPb20xaTBxSlR4ZVIxWElja0NrM0J3UGdhOUppSXo5OGJYZ1FSN1pLc21QM0I0SUQzZVg5Uk1lajd3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-china-outbound-ai-tech-export-catalog",
-      "time": "2026-10-16T08:00:00Z",
-      "headline": "China drafts export restrictions on 40 technologies spanning AI models, chips and solar",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "TSM",
-        "MU",
-        "QCOM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AAPL",
-        "TSLA",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "Beijing moving to control outbound flow of its own AI models, agent tech and chip know-how turns the tech war two-way, creating a new retaliation lever alongside rare earths that sits directly on top of the Taiwan/US chip curbs. For US names the earnings read is mixed: cheap Chinese open-weight models leaving the global market protects pricing for US compute and software stacks, but any tit-for-tat escalation raises the probability of China restricting inputs or access that hardware supply chains and Apple/Tesla China operations depend on. The comment period keeps this as a persistent headline-risk discount on the semis multiple rather than an immediate earnings hit.",
-      "source": "The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT29aZXRiY19TanJRalZkMnRoXzdUYkxkdzM0Y2hnUXppLWZzQWlWLVUzM2dHT25ucVF1RF9qSnVjaWtTWk1sS21MRmFQbU5qalZPWnFYcmx5R290eU1SMXVZMTVLVV9tZTBXZ1BreFBCOVZXX1RZUnNWdU9ld1REN1g5MVVDX1ZXQ2NVSC16c3Y2V2VuVGFqTERoS21xR3NSOTZFRlVsd2pPNFEwa0dDWjUxN1BwVk1KNzR5ZEdwM0FERGV4YXI2LXNaRG1uV3l3ckxNeEFQVnBTdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-aapl-defensive-bid-megacap-crown",
-      "time": "2026-10-16T07:00:00Z",
-      "headline": "Apple becomes the defensive destination for AI-complex outflows, closing in on the top market-cap spot",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "NVDA",
-        "MSFT",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "Apple is the one mega-cap whose earnings are not levered to data-centre capex, so during an AI-capex confidence shock it absorbs flow as a quasi-defensive with mega-cap liquidity \u2014 multiple expansion driven by positioning, not by any change to iPhone units. The practical effect is index-level: if the largest weight re-rates while the semis complex de-rates, headline S&P damage from an AI unwind is muted. The risk is symmetric \u2014 the same flow reverses instantly if AI sentiment stabilises, so this is a positioning trade rather than a fundamental re-rating.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUGlIbjdvUDhZRGNUVzZVUTJ1ZUgzc2NoN2FFMDZzMFBqVEdvTWFMbkFydGNQWkFVZlRhbTMxRXlqVnlZQ1M3emVjLUZFZkp0SzBnd3ZaNkQzcHQ2WVN5azFNUVREZnlCV0xsNmtFX19ERnEyelQ4UUx5R1VOMlpIbHV2YkduTUM0M0ZrSHBiQVFtaUEweEFFQjRROWJMS05KX2J6MXFLYnliOWE4QUozcDBB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-nvda-china-share-erosion-huawei",
-      "time": "2026-10-16T06:30:00Z",
-      "headline": "Nvidia's China data-centre AI share drops to 34% as Huawei closes to 28% on 44% shipment decline",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU"
-      ],
-      "why": "This converts the export-control story from a temporary revenue air-pocket into permanent share loss: once Chinese hyperscalers qualify a domestic accelerator and build the software stack around it, that socket does not come back even if Washington later relaxes licensing. The mechanism hits the terminal-value assumption in Nvidia's TAM rather than the next quarter, which is why it compresses the multiple more than the EPS line. Read-through is negative for the HBM and foundry content attached to China-bound Nvidia parts and mildly negative for AMD's parallel China ambitions.",
-      "source": "IDNFinancials",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ1pjb2xDZVNjZ29SLThfMUJhM05rT1lPbElyazd3clhMRkFsc1dTa3ZBLXdHc1Z6R2RmbXhpVFZiU0IzTjkyaFp5VE9PMWJ3ZFNwamJnWHpJb2JqdnR5TzhrUVBtNGhVWldpYkcydnZNaDJOUW5EbzVacFo2aGFaSnVIWC1pNjlYeHJ2SVIySThJUjNlWUcwT1VVMllrUTRnZFpZLTFqMVhVQQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-macro-warsh-no-guidance-october-hold",
-      "time": "2026-10-16T06:00:00Z",
-      "headline": "Fed Chair Warsh refuses to pre-commit on October and December decisions at IMF meetings, leaving the hike path data-dependent",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "META",
-        "TSLA",
-        "JPM",
-        "GS",
-        "PLTR"
-      ],
-      "why": "With the Fed having already hiked in September and a hot CPI print behind it, the absence of forward guidance means the discount rate on long-duration tech is set by each incoming data point rather than by the chair, which keeps rate volatility and equity risk premia elevated into the late-October meeting. Sources frame the same remarks differently: Bloomberg reads them as boosting odds of an October hold, while other accounts stress he gave no steer at all and a separate Fed speaker questioned whether policy is tight enough. For leveraged AI-infrastructure borrowers the funding-cost channel, not earnings, is now the swing variable for the multiple.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
-      "alerted": false
-    },
-    {
-      "id": "20261016-taiwan-ai-chip-export-controls-china",
-      "time": "2026-10-16T05:00:00Z",
-      "headline": "Taiwan to add AI servers and advanced chips to controlled-items list, making shipments to China a criminal offense under US trade deal",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "SMCI",
-        "AMD",
-        "AVGO",
-        "MU",
-        "INTC",
-        "DELL",
-        "ANET",
-        "MRVL"
-      ],
-      "why": "Taipei is moving the chokepoint from US re-export rules to Taiwanese criminal law, which closes the grey-market and reseller channel through which Taiwan-assembled AI servers and GPUs have still reached Chinese buyers. That removes a residual revenue stream that was never in guidance but was supporting unit volumes at the box and component level, and it raises compliance, on-site verification and legal-liability costs for US vendors whose ODM/assembly base sits in Taiwan. It also hardens the policy floor for Chinese domestic substitution, shrinking the addressable China TAM for accelerators, HBM and networking over multiple quarters rather than one print.",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
       "alerted": false
     }
   ]
