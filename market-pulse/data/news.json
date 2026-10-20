@@ -1,7 +1,82 @@
 {
-  "generated_at": "2026-10-19T22:34:02Z",
-  "session_date": "2026-10-19",
+  "generated_at": "2026-10-20T05:08:43Z",
+  "session_date": "2026-10-20",
   "items": [
+    {
+      "id": "20261020-china-domestic-chip-earnings-substitution",
+      "time": "2026-10-20T03:00:00Z",
+      "headline": "Chinese chipmakers post sharply higher nine-month earnings as domestic AI buildout and substitution absorb orders",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "INTC"
+      ],
+      "why": "Profitable domestic suppliers can self-fund capacity, which permanently shrinks the China served market for US accelerator and memory vendors that export controls have already fenced off \u2014 the structural China revenue line keeps eroding regardless of how the policy negotiation lands. The offsetting effect is that these firms still buy non-restricted process equipment and materials, so near-term WFE order books in China hold up even as the design-win pool narrows. The net is a lower long-run terminal share for US names against resilient near-term equipment revenue.",
+      "source": "Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zenY1Vk4xYlgyUlNEdWhLaEcySkdqTU5kdldWcEs4QmJXQ1VBZkh0RUZpQkUwSUp6WFpZWl9vWk1SeG1ZNVkxcXB6eGtiOXhNUDJDaXBOVHIxNzFjMkFGd0xB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-avgo-docomo-10yr-vmware-agreement",
+      "time": "2026-10-20T01:00:00Z",
+      "headline": "Broadcom signs first 10-year VMware Cloud Foundation agreement in Japan with NTT DOCOMO",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AVGO"
+      ],
+      "why": "The value here is contract duration, not headline size: a decade-long licensing, support and maintenance commitment from a tier-one carrier locks in subscription revenue and validates Broadcom's post-acquisition VMware pricing model against the churn thesis bears use to discount the software segment. Infrastructure-software renewals at this tenor support a higher multiple on AVGO's non-semi earnings because they convert a contested conversion cycle into visible deferred revenue. Offsetting it, management's own public framing of AI investment as speculative keeps sentiment around the semiconductor side unsettled, so the net stock reaction has been modest.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSUlDZnc3Vm9HV3NPcjVZQUlDWDJ2VUFFNlAxcmE3Z3VCWk5faUdkT2V5LU1vcThmVmRhdGhlaHdITWNGemowZi1hY2FSbk5SRGRQVWNKMXNzOHpMZk82RTlrdEkzdXEzMGNfc2NEdjF1OEFaWXJBYXc2clltdzRPaVpyQ2JhNG1YMFBqSTJ2TW1qTXphSVpoT0wzcG9VakFRNHhRTUcxVUZCMU9JWFJxdS1QbUZIdVlTRWxIR3lpakFFbGZUVGJNR1NlRQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-baba-riscv-6bn-units-arch-substitution",
+      "time": "2026-10-20T00:45:00Z",
+      "headline": "Alibaba's Damo Academy says more than 6 billion chips have shipped using its XuanTie RISC-V IP, with AI and automotive targeted next",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "QCOM",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Volume at this scale moves RISC-V past the hobbyist stage into a credible licensing alternative, which erodes the pricing power that proprietary instruction-set royalties depend on and gives Chinese designers a path around US-controlled architecture IP. The immediate earnings effect on western names is small because current shipments are embedded and edge-class parts, but it lowers the long-run royalty and attach assumptions baked into IP-levered multiples. It also blunts export controls as a chokepoint, since architecture licensing is harder to police than fab tooling.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0l6UTVzY3VjU0hzUlg1QlBGRmNJaWI3N2o3dHJobHRIZVZMNkZQWkwxeFg4V2JsaGs3MFdDYTRRWlRZMmp6Qk1Sb2lLWDdjRF9hZnJqUEViSHA5bGtwclAwcWpQZGExM1l4aTJxMkVTYUlMR0xPMzNCTHpGaV91WGxlQmgwZXhYUkdtajhmM3dLOHI2UHFSRU1ybkpEY3QwWDAwdDlRV1hKMjItTHdTSFBHbUF0cjV5c3h4SUM4aUsxZDJ2Q2pleDFLUjJwZ9IBzgFBVV95cUxQT0l6UTVzY3VjU0hzUlg1QlBGRmNJaWI3N2o3dHJobHRIZVZMNkZQWkwxeFg4V2JsaGs3MFdDYTRRWlRZMmp6Qk1Sb2lLWDdjRF9hZnJqUEViSHA5bGtwclAwcWpQZGExM1l4aTJxMkVTYUlMR0xPMzNCTHpGaV91WGxlQmgwZXhYUkdtajhmM3dLOHI2UHFSRU1ybkpEY3QwWDAwdDlRV1hKMjItTHdTSFBHbUF0cjV5c3h4SUM4aUsxZDJ2Q2pleDFLUjJwZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-kospi-leverage-unwind-memory-readthrough",
+      "time": "2026-10-20T00:13:00Z",
+      "headline": "KOSPI gaps down 3.5% at the Tuesday open as the chip-led unwind cuts its 2026 gain to roughly 31% from about 116% at the June peak",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "SMCI",
+        "TSM",
+        "AMD",
+        "AVGO",
+        "QQQ"
+      ],
+      "why": "Korea is the purest listed proxy for the memory and AI-hardware cycle, and the magnitude of the round-trip points to a margin-debt liquidation rather than a change in fundamental demand \u2014 forced selling compresses multiples across the complex regardless of DRAM and HBM contract pricing. That matters for US memory and accelerator names because Samsung and SK Hynix marks are the overnight anchor for how US chip desks reprice at the open. Note the conflicting tape: US chip indices rebounded in Monday's session even as the Asian session reopened sharply lower, so the two signals have not yet reconciled.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWF9qWFhBckY1SG9TdnVQblhtajNyQktPaXFvU0ROUlpaSTd3U1FVOFl4bUYyT0VYaEdFT19LZmhuWk56YktTMmt4alpHLXFEZERyWnoxT3h6MFZLTG9vRFlFSDQ3SkV2bUVES0FnNzdXcmFoS2RidFFSdGc5eFJFcHY4T0xSOHJvS0VhbFZZY1VQSWlTazRv?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261019-samsung-memory-margin-readthrough-mu",
       "time": "2026-10-19T15:50:00Z",
@@ -41,6 +116,23 @@
       "why": "The size of Micron's forward revenue base is the single input that determines whether the stock is trading on peak-cycle or mid-cycle earnings, and the figures now circulating are materially different \u2014 TradingView cites a $61.5bn target while earlier coverage of the fiscal guide pointed to roughly $50bn. Sources conflict on the number, so until it is reconciled the dispersion itself widens the plausible EPS range and justifies a higher option-implied move. A top-line step-up of that magnitude flows almost entirely to operating leverage in memory, where incremental bits carry high contribution margin.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZTNEUlduVHROMm9yNG1sdnRHUVBzY0JkWWhxbm9KUWRKdzZwUmVRdHhYdEZfbW1EdEdIcnV2dUhrekNCQjM2bUFkM1lXMU9rZDhiR3lnbTFaeGxpeTVJbWV6N0NRb2oyMjltVDhfNEtmbWtCRVRjZmVQRnZRLVlUc2RlRm1LaDU4UzlYMjZUam15TzJqdExia3BxM3NIelE4QmpnNlV0YTlmcHZzc1BMWmFwVlRsMlB5MnZYdjJnNA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-amd-td-cowen-agentic-inference-cpu-tam",
+      "time": "2026-10-19T13:06:00Z",
+      "headline": "TD Cowen reiterates Buy on AMD at $675, arguing agentic AI and production inference expand the server CPU opportunity",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA"
+      ],
+      "why": "The argument shifts the earnings driver away from the GPU share debate, where AMD is the clear number two, toward server CPU attach: production inference and agentic workloads are CPU-heavy on orchestration and data prep, so every incremental AI rack pulls EPYC content that carries higher margin than accelerators. If the sell-side consensus adopts this framing into the Nov. 3 print, the data-center estimate base broadens and the stock de-rates less on any single GPU datapoint. The read-through is negative for Intel, since AMD's server CPU dollars come largely out of x86 share.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qSEl3bUFUaUFRdGg4YjZVa3hPRklUQkJGRmo5YWNxNjB6UWhmem4xdzN0RDcxTDN3N3kyX2JVOGkyT2Zwa2FoNXA3TWlsY1NFWjQ2NDFEWjhWWlluVThuNmwyZzFjdTFTSnF1eC14VVlnWTBVSnlDTjRlb2JPZw?oc=5",
       "alerted": false
     },
     {
@@ -209,6 +301,26 @@
       "why": "China remains the single largest end-market for both companies' non-AI silicon and, for Qualcomm, for licensing royalties, so re-engagement defends a revenue line the market has largely written down. The offset is policy: any deal struck while export rules are being tightened can be revoked or politically contested, as prior licence revocations showed, so the cash flow carries a higher discount rate than comparable Western revenue. Net effect is a wider distribution of outcomes rather than a clean earnings upgrade.",
       "source": "Global Sources",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWWVIT1RpVzhtbGswUTB3eUkweTd4akZmalNUSmlHc0pJZWlJbGNCSVNBRTNSUV9XZ2FZb1UtLU1GZXlpRHNaZkxaTU5UcU5JcXZWNFFGR0tZUWlHamo5V0xxd3hYcWhMdEZrR3lkeHRoaFNvQ2dlaHRjWXU3X0M3ZDRoaTMzZktHNUI4djVTMVpKUHZ6cG9lVVNza2pwd3EwWWMyTHpGMjVnVG5HVDNwYVlrNVpxVWRwYkktZXgxQjJzYUlkdm11WXFSZVVCaVE2QUVOa19kU1dvblVRNGMzbDFR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-krw-two-year-high-memory-export-confirm",
+      "time": "2026-10-19T06:30:00Z",
+      "headline": "Korean won strengthens to a more than two-year high near 1,330 as semiconductor export receipts flood the market with dollars",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "FX is a clean, unmanipulable confirmation of physical memory shipments: exporter dollar conversion of this size can only come from invoiced volume at elevated ASPs, which corroborates that the DRAM and HBM upcycle underpinning Micron's revenue path is real rather than channel restocking. A stronger won also squeezes the won-denominated cost base of Samsung and SK Hynix, reducing their incentive to compete on price and supporting industry-wide pricing discipline into next year's contract negotiations. Equipment names benefit indirectly because sustained memory cash flow is what funds the next capex tranche.",
+      "source": "Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZVV5bFY3ZHdnaDZpaS1ySVoxOFJuemxlMmRXc0JDeGV4dlZHZEdBR3I1Nkd0Qi1wek1CN1BXWnFDTGJ2Z0RZdVNOb0RpUHpDVzg1Z3hRdlduUjloS1ByR09hWGxmXzd4ZEc4VFhSNkZ5ZVJQdjJBT1RlTVZhVFBaN3FrT1NHbWtFU3M0clB4dHJWWlhncUxNNnVLZGY1akg3?oc=5",
       "alerted": false
     },
     {
@@ -757,146 +869,6 @@
       "why": "The earnings line that matters is datacenter CPU mix, not accelerators: each point of server share taken from Intel carries far higher incremental margin than client silicon and is sticky across a multi-year refresh cycle, so the segment split will drive the revision more than the headline beat. Any TAM reframing also resets the terminal-growth input investors use for the accelerator business, which is what the current multiple rests on. Intel is the direct zero-sum counterparty.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTG1mRHJCN2YyeHhXR0NoRkxaa3NvQUotSVFKZi1BSXk3bmlJTlVCWXN3QmRxMEpReENVUktFbWpuOHMwU18zekVPWTliajFrNjJUNnNXTVdZR2dJNUotaHljb3BRTFg3bHhPNG5mc2FzTUlyRVRieldjd2M1S3hwOXM1LXFoaUFEODVHWk5mX3Fmd2NkTm5HdGtrZUwxQXluVFFJUUNhWEFrUUk3MnZ3TFVoLTAwV2wxWS1YcXBTWG1sdjE0RDBhd3dpS1pKZ0dXdUItN3lCV1k?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-taiwan-criminal-penalties-chip-export-trade-deal",
-      "time": "2026-10-17T01:00:00Z",
-      "headline": "Taiwan attaches criminal liability to illegal AI chip exports and ties curbs to a US trade deal",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MRVL",
-        "SMCI",
-        "INTC",
-        "ASML"
-      ],
-      "why": "Moving from administrative licensing to criminal prosecution changes supplier behaviour rather than just paperwork: foundry and OSAT customers must now police end-use on every tape-out, which raises compliance cost, lengthens order qualification and shuts the grey-market rerouting that has quietly absorbed excess accelerator and server supply. Binding the regime to a bilateral US trade agreement makes it durable across administrations, so the lost China demand should be modelled as a permanent haircut to the addressable market rather than a temporary licence delay. Server integrators with China-adjacent channels carry the most direct revenue exposure.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04YWtwcGpkVC04QjEtdkhINlZ2TUM3LTZxYm83MlVxc0NzSlY2MmR3Z1IyX3AwcFNCZmxsSlVUNTFqc2NEeHZnUF9VeVJ5ZXhyX3FDSTlWcV93RzRmSE44a0FJWXhjRDF2d09BUkZtM09PSmVmYlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-ai-software-debt-financing-derating",
-      "time": "2026-10-16T22:09:00Z",
-      "headline": "Goldman Sachs debt-financing warning triggers $260B single-day wipeout in AI software; Palantir enters correction",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "PLTR",
-        "ORCL",
-        "CRM",
-        "MSFT",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "QQQ"
-      ],
-      "why": "The sell-off has migrated from the hardware layer to the application and hyperscaler-adjacent software layer, which means the market is no longer just marking down chip unit assumptions but questioning whether the end customers can fund the deployments at all. For names like Palantir and Oracle, the de-rating is multiple-driven rather than estimate-driven for now, but if AI buildouts are funded at wider credit spreads, the capex that underwrites consensus revenue for the whole stack gets stretched or deferred. A major-bank credit desk flagging the funding channel is what converts a positioning unwind into a fundamental re-underwriting.",
-      "source": "The Motley Fool / Yahoo Finance",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-tech-stocks-plunge-as-ai-software-valuations-reverse/",
-      "alerted": false
-    },
-    {
-      "id": "20261017-mu-fy-revenue-guide-50b",
-      "time": "2026-10-16T21:30:00Z",
-      "headline": "Micron guides to roughly $50 billion revenue on sold-out AI memory capacity",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ASML"
-      ],
-      "why": "A company-set revenue frame of this size implies HBM and conventional DRAM bits are pre-committed at contracted prices, which converts memory from a cyclical price-taker into a backlog business and lifts the floor on gross margin for several quarters. That read-through supports memory-content assumptions inside accelerator BOMs at NVDA/AMD and underpins wafer-fab-equipment order books at LRCX/KLAC/AMAT. Direction is uncertain because the tape is refusing to pay for the guide \u2014 the shares fell on the session, implying investors are discounting the multiple rather than the earnings line.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVW44UW9zZ0wyM0k4VzA1ZTJDaTBDWnZUSjl5dWdfSl9Na1p5bzBQdUstYk5nUlRsZDRsbnZDb0o5UWhaTlVJV2hRUUpQZnZ6b1dGRGxxOUVQbGZpekRyaG85T3FqNkNKdVplX3RPaTF3eGRXNEJJRUtLbGxmdEt4eEFERjRHbXA0MXdEdUdZdXZpV3dBY0lad1pHUXZzOU1URWE2aTgtRkFLVTdEeW5JQmhWR24?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-amd-q3-guide-valuation-reset",
-      "time": "2026-10-16T20:45:00Z",
-      "headline": "AMD guides Q3 above consensus but shares fall after hours as bar sits above the print",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "MRVL",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "A guide above consensus normally lifts the forward EPS line, but the negative after-hours reaction shows the accelerator complex is now priced for beats of a size AMD did not deliver, so the de-rating comes through the multiple rather than estimates. That is the key read-through for every AI silicon name: the marginal buyer is no longer paying up for in-line-to-better AI compute guidance. Foundry and memory suppliers inherit the same sentiment discount even though AMD's unit demand commentary is unchanged.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQkI4alA1bXU0N1AyNGtpVUtZUWNMblFycGdDX2ZZR3lGTVFXQkRUM2RacnNTSjMxNll1UThKQkR0dUN2Y2R1T0MtNm9HSkgyYjhZVlhONEtkUXg3RVFhMVNkRmozTGpkdWlZQ3BGd05temFndzc0U1l5alE3Rm5vcjcxblNZeHdtLUN1anVuQ1kzdGRvZHRmakVJMHJibWtBMWdOdm4tSW81eGtTUllXa0d3UmJDRjVmdUJnLV9LY0QzQQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261016-macro-brent-110-hormuz-supply-shock",
-      "time": "2026-10-16T20:31:00Z",
-      "headline": "Brent crude tops $110 on Strait of Hormuz ship attacks and strikes on Saudi infrastructure",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM",
-        "TSLA",
-        "AMZN",
-        "WMT",
-        "COST"
-      ],
-      "why": "A physical-supply disruption, not a demand story, resets the crude strip higher and flows straight into integrated majors' upstream cash margins, which is why XOM and CVX earnings estimates move up while the index does not. The second-order effect is the damaging one: with September CPI already hot and the Fed declining to guide on October, a fuel-led push to headline inflation raises the odds the terminal rate stays higher for longer, compressing the multiple on long-duration tech and squeezing consumer discretionary input costs. This is the first macro shock of the week that is independent of the AI-credit narrative, so it adds a second, uncorrelated source of index downside.",
-      "source": "Rigzone / Bloomberg",
-      "url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/",
-      "alerted": false
-    },
-    {
-      "id": "20261017-macro-ai-debt-confidence-break-nasdaq",
-      "time": "2026-10-16T20:10:00Z",
-      "headline": "Nasdaq drops over 2% as debt-funded data center buildouts trigger a confidence break in AI capex",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "QQQ",
-        "SPY",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MRVL",
-        "MU",
-        "SMCI",
-        "ORCL",
-        "PLTR",
-        "MSFT",
-        "AMZN",
-        "META"
-      ],
-      "why": "The market is shifting from scoring AI demand to scoring who funds it, which means the cost of capital for hyperscaler and neocloud buildouts is now the swing variable in chip order books rather than end demand. If credit tightens for leveraged buyers, backlog converts to revenue more slowly and the duration investors assign to AI earnings shortens, compressing multiples before any estimate is cut. Cash-funded megacaps are relatively insulated, which is why the damage concentrates in leveraged compute buyers and their silicon suppliers.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLaXBzTHdSMHNvM2RaR1A4d29PXy1NVHJKY1FoOTlTWHFsbFZmOHZsLW9wMW44QzRwT3E1QXkxQXg5bUhRVzV3OE5OS0RlUjllVklOY0xKSVNuTFdLVzJ2eE8wdVpRSlZYeHZLcUw3OERFLTQ?oc=5",
       "alerted": false
     }
   ]
