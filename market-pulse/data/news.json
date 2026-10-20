@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:57:40Z",
+  "generated_at": "2026-10-20T21:47:57Z",
   "session_date": "2026-10-20",
   "items": [
     {
@@ -120,6 +120,38 @@
       "why": "Korea is the purest listed proxy for the memory and AI-hardware cycle, and the magnitude of the round-trip points to a margin-debt liquidation rather than a change in fundamental demand \u2014 forced selling compresses multiples across the complex regardless of DRAM and HBM contract pricing. That matters for US memory and accelerator names because Samsung and SK Hynix marks are the overnight anchor for how US chip desks reprice at the open. Note the conflicting tape: US chip indices rebounded in Monday's session even as the Asian session reopened sharply lower, so the two signals have not yet reconciled.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWF9qWFhBckY1SG9TdnVQblhtajNyQktPaXFvU0ROUlpaSTd3U1FVOFl4bUYyT0VYaEdFT19LZmhuWk56YktTMmt4alpHLXFEZERyWnoxT3h6MFZLTG9vRFlFSDQ3SkV2bUVES0FnNzdXcmFoS2RidFFSdGc5eFJFcHY4T0xSOHJvS0VhbFZZY1VQSWlTazRv?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-smci-sales-estimate-guidance-beat",
+      "time": "2026-10-20T00:00:00Z",
+      "headline": "AI platform demand pushes Supermicro's sales estimate above guidance",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Super Micro Computer indicated that accelerating market demand for AI server platforms has driven revenue projections above its previous management guidance. Increased server rack shipments provide immediate positive read-through for accelerator vendors NVDA and AMD, confirming strong server deployment trends across tier-1 hyperscalers.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0R0SXYwbzd5b3NpWF9NWGVfR0oyQ0gyaGZhdUwzbTdEUmc0d00yclcwNmkyUjdaQXBJdVRucEh1dDhIT283NmZVWHRrY3ZZV3JzYml4ZkFUQndURkxUSjVCb3lDU2h3VDg3Z1pKRnhtQ2J5WVRLcmZyd2FnekVzNXFqblhwZnlEX3lsd09zX3pjUk5iNllpZDdKb1pHSFp6ZlR4VTdFcTNiOUdvaUo5WFBCQWhoVzdQdk8teQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261020-aapl-loop-capital-downgrade",
+      "time": "2026-10-20T00:00:00Z",
+      "headline": "AAPL Price Prediction: Loop Capital's Downgrade Puts $330 in Frame as Binance Futures Lean Short",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AAPL"
+      ],
+      "why": "Loop Capital issued a broker downgrade on Apple, warning of risk to near-term hardware earnings multi-quarter paths and limited valuation expansion potential. Lower sell-side estimates force market participants to re-evaluate earnings projections and compress the price-to-earnings multiple headwind into upcoming quarterly earnings.",
+      "source": "Blockchain News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcDg3SjNrbWszWFVPSjlSMG50UUlVZWJzT0JRUVZoTlJFSVFXa1RaYnZTOS1TNzJUZmtqdkVTYnJNWEZsSjRDMVV0MTRjOElJeEQ0U290RGIxWGRFSTNLZFREM0xlNGVQUUwzTURBb2NLVnZLYjBxUmpuNVo4Rm45c1FHTjg0dWhiQ2VZYk0yODFmbnMxeGVITU5qRQ?oc=5",
       "alerted": false
     },
     {
@@ -834,46 +866,6 @@
       "why": "When index returns stop being driven by a single thematic cohort, the marginal buyer starts paying for delivered cash flow instead of capex narratives, which compresses multiples on the most crowded semis and expands them where guidance is beatable. That rotation mechanically widens breadth and favours financials and other reported-earnings names over the AI capex chain in the near term. It also raises single-name dispersion, so index-level moves understate the repricing happening underneath.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-mrvl-nvda-gf-securities-buy-the-drawdown",
-      "time": "2026-10-17T09:05:00Z",
-      "headline": "GF Securities frames Marvell and Nvidia outlooks as entry points into the selloff",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "NVDA",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "A sell-side house arguing the forward order book is intact pushes back on the idea that the drawdown reflects demand deterioration rather than funding and positioning. For Marvell specifically the custom-silicon pipeline is the earnings driver, and reaffirmed outlooks defend out-year estimates that the tape has started to discount. This is a mid-tier action, so it supports sentiment without resetting numbers.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVkY3aEhBc0FxcVMwX3BianlVdFM0bm5tbUNqYklzbHpkU0ozMWV3RmhmS1owVmUwRmswOFlvUkVyVkgwUm9jbk9kRjZTdlR5bmNpUlVXTFNWZVdBeGJIWFB6ajNFRGhGbzJqSUV0dDlRTmw5MmlnTGVNb2lYVWZWSFFSTmlQS3VPM1Q5SzVBdU9YVUNGYzJMYWRrREEtM0U1YnJsM0REWjczRHc0VXFWRUN2MA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-macro-bond-market-absorbs-inflation-shocks",
-      "time": "2026-10-17T08:00:00Z",
-      "headline": "Treasury market declines to reprice after back-to-back hot inflation prints",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "JPM",
-        "GS"
-      ],
-      "why": "The discount rate, not the inflation print, is what sets equity multiples \u2014 if long yields refuse to rise after upside CPI and PPI surprises, the bond market is signalling the shocks are transitory or demand-destructive, and the duration-heavy megacap complex keeps its valuation support. That removes the main transmission channel through which a hot print would force a derating on high-multiple tech. The caveat is that yields staying anchored on growth fears rather than inflation relief would hit cyclicals and small caps instead.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEtYTk1yYWJKNmZxYWk4RVFDN1NfVDZ6bk8xcFBGOVRZeV9HZGgtdThzV0c0MUI1STNqUHUyTUctNFFfbEpMbkdTWHZFQzU2TU5idmgxd0ppRFE5bGtkZ3pFU2VfN0s4NDRBX3R0LUlvWHRtOFNCbjZLWWZiNnY0SGw1ZWRaLV9ZV2dUVnY0ZlR6c2tFUW90c0ZTelRzRzZncmhrb1VHYUF3d2h0U0I2dlBNbjBrcHlULWVwRnNfa254RmpEQm9GMm9oMWtJdw?oc=5",
       "alerted": false
     }
   ]
