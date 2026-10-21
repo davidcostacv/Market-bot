@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-10-20T21:47:57Z",
-  "session_date": "2026-10-20",
+  "generated_at": "2026-10-21T05:10:11Z",
+  "session_date": "2026-10-21",
   "items": [
+    {
+      "id": "20261021-amd-wedbush-bullish-server-cpu",
+      "time": "2026-10-21T00:00:00Z",
+      "headline": "Wedbush Turns Bullish on AMD Ahead of Earnings: Server CPUs Lead the Charge, While 2027 Guidance Remains to Be Tested",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA"
+      ],
+      "why": "Wedbush issued a bullish research note on AMD ahead of its upcoming earnings release, citing accelerating market share gains in enterprise server CPUs against Intel as cloud providers expand host nodes for AI accelerators. Robust x86 CPU demand improves high-margin server revenue visibility, though long-term multi-year AI accelerator targets remain the main benchmark for valuation upside.",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1ZZdlItUzFmSHBVcnZjVEc1ampaaXRJYTliUXBEZ3BEbS0xc3Q4UXFjOEJmbUlqWDdMVE4xa0tqdEtJY0J5dDZDdkNfMlAwSkJ0dFJkV016NUIyS1U1MENKSlZRUG55M1VUbWJkcXk1OTBUX21XemVlOUs3WEh5MlBpbEU5MEhfNG9nbmNBZW9tUTZIUDN5Q2pDdjZPZlltX2JacUdB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-china-japan-rare-earth-supply-squeeze",
+      "time": "2026-10-21T00:00:00Z",
+      "headline": "Japan Nears Rare Earth Shortage as China Tightens Supply",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSLA",
+        "TM",
+        "AMAT",
+        "LRCX"
+      ],
+      "why": "China's ongoing tightening of rare earth export quotas is pushing Japanese industrial manufacturers toward critical inventory shortages for specialized magnets and electronic subassemblies. Supply constraints on these key raw materials threaten input cost inflation and potential component bottlenecks for electric vehicle powertrains and semiconductor capital equipment suppliers dependent on Japanese advanced materials.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUZZQ1FPS2Vnc3d6LS04YjRmSG5NTTJ6alAtQXBldkE4YzRYU0xoT29ZdDkyc2tDVWRNWmg2SUpDVndiYkR4NHFrY3ZXZ1RPcXktWXJJMGlWb1hIcXhXdnpUdGFYaU9QZjBpaUxFd1h3YjFMV0s5N2RaTFJhdmU1M2lqeGpYMURfYzlpOHprUmgxaDVVQ2Qwa1V0U08?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261020-nvda-china-rtxpro5500-35bn-orders",
       "time": "2026-10-20T09:00:00Z",
@@ -819,53 +854,6 @@
       "why": "The government, SoftBank and Nvidia equity stakes have carried an unquantified governance discount: investors have been pricing the risk that capital allocation, foundry customer selection and pricing get set politically rather than on return on invested capital. An explicit CEO statement that there is no interference policy narrows that discount without changing near-term earnings, so it is a multiple item, not an estimate item. His read that Chinese silicon is not far behind cuts the other way for the China-exposed merchant names, since it implies faster domestic substitution against Nvidia and AMD accelerators.",
       "source": "Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOTRLN00xUm9ReEdDNDlXOWxiRUg5U0V5eXhCSTNBQlhBaHZiQWFtbjl6VHh6aTd3ZEhvaWFXYWdoTWtZbGdsUm1TTUN1UWFpYS1qdGhBSzhaMnhvb3Q5bFVrdmdzd01EVWVDMzlVOFBsU0lHVjJZSV9Sd21qOUVTRGxyVzFnS2Y0dkNKQ3k2c2l6ZDJmbEctVEx0eTdOWVhYeS1fUVNLNkZfdkZBMGdkTE96RVJSUG9pcUdpVEhuN3Jrb0t5eXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-macro-soft-jobs-report-fed-minutes",
-      "time": "2026-10-17T11:20:00Z",
-      "headline": "Index futures firm after a soft labor print shifts the rate path ahead of Fed minutes",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "NVDA",
-        "PLTR",
-        "TSLA"
-      ],
-      "why": "A weaker labor read pulls forward easing expectations and lowers the discount rate applied to long-duration tech and unprofitable growth, which is the single biggest lever on equity multiples right now given the AI-credit scare. Small caps and rate-sensitive financials gear hardest to the front-end move, while banks face offsetting net-interest-margin pressure if cuts arrive faster. The Fed minutes are the confirmation risk: hawkish internal debate would unwind the move quickly.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzVlR1JMN3VsbVl5aTR1NWFnYXZBX2V2OXF0N3ZleC1YOW1paTRnX1R5dnpDa0ZCdU5hazRNMUVFSjVsTzIxTWlCSWgzUmJnRnB4azB3X284SGx0V1hKMXhFbkRubFcyVTZCTkx5UFM1V1BBZEw5bFZSSHZNT05qb2M1ejVreEFMNTVLWEMwNFZnT3VDeTZoQkRGdDEyUW1lcWhXZExQX3RwdUZOSklZWWxBVGxTQ1g2UFpUR2dVd3F4cGszQ2xOaDVBbV8yalRyYm1kazdUQ3pmNVZfUUhwZFk2d2xMNmZQZU9FbmtzWmQtWlVDOVBKTzlyYmhSVWdERWN3MTJITm8xcjBlSGtoeXV2d1o?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-macro-earnings-season-takes-over-from-ai-trade",
-      "time": "2026-10-17T10:00:00Z",
-      "headline": "Leadership baton passes from the AI complex to broad earnings season",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AVGO",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "JPM",
-        "GS"
-      ],
-      "why": "When index returns stop being driven by a single thematic cohort, the marginal buyer starts paying for delivered cash flow instead of capex narratives, which compresses multiples on the most crowded semis and expands them where guidance is beatable. That rotation mechanically widens breadth and favours financials and other reported-earnings names over the AI capex chain in the near term. It also raises single-name dispersion, so index-level moves understate the repricing happening underneath.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0cyVkR4czJqcmtMVHU0c21pVnRHR1h1Q3VFRUdyX1FtSzg1alVJSFRqSmI0al95bGpvRkJpRG1EUy14djN1Y2xWXzlfVC04X2xIcUt4QkROSTR6V01la3plVWVhX202alJTYmhJSXIxQTJrM3VyTVZOVXhmWExqYVFWMVJQWUt3X3VUb0loWEp1SmphZ3E4MDVXS0ZZX3dkSThsTFAtMmEzRHpHMzFxTWhrblZQZFRoT1lFdXN5X3M5Y0dUQ0I5bzBR?oc=5",
       "alerted": false
     }
   ]
