@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:12:42Z",
+  "generated_at": "2026-10-21T21:53:50Z",
   "session_date": "2026-10-21",
   "items": [
     {
@@ -53,6 +53,96 @@
       "why": "OpenAI is stepping back from an aggressive federal lobbying push regarding semiconductor industrial policy and export restriction mechanics ahead of the congressional lame-duck session. The retreat reduces immediate legislative disruption to existing fab subsidy distributions and solidifies near-term commercial reliance on incumbent merchant hardware from Nvidia and TSMC.",
       "source": "Politico",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-lrcx-q3-outlook-disappoints",
+      "time": "2026-10-21T04:00:00Z",
+      "headline": "Lam Research Stock Falls As Chip-Gear Maker's Outlook Fails To Impress",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ASML",
+        "TSM"
+      ],
+      "why": "Lam Research reported quarterly revenue that met expectations, but issued forward guidance below Wall Street targets due to delayed customer tool installations and softening fab capacity expansion plans. The reduced outlook signals near-term revenue friction for semiconductor capital equipment manufacturers as chipmakers recalibrate capital expenditure budgets. This creates negative sentiment across semiconductor equipment peers like Applied Materials and KLA.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSGZaejNyQnBERjBSTU10QUMydnA2Rmx5MXpjZXJjYTJqLWVxYVBYTzZpRVRwa3p6cFg3WHFUNDFjXzdVa3d4NllQWlpZSU14MG1DbUhSX_lvUUQ1Ymx2Vy1EXy11ZE9GNENVSnp1dlA0SU51cVBHUGRhMW9jNkFTTHFoNWFoNGF5SUwtd3JPazlaMXJQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-mu-taiwan-labor-walkout",
+      "time": "2026-10-21T03:30:00Z",
+      "headline": "Micron Is Making Record Profits. Its Taiwan Workers Are Walking Out",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "why": "Workers at Micron's Taiwan manufacturing facilities have initiated labor walkouts over wage disputes despite record corporate earnings. Taiwan houses critical DRAM and high-bandwidth memory (HBM) packaging lines essential for supplying AI accelerator hardware to Nvidia and AMD. Any sustained operational disruption in Taiwan risks constraining HBM delivery timelines and elevating Micron's unit production costs.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQl_BQ0hFRnJnZVRPMUxrbGhfMVlrWFV2dGtPcl9sUlIwSmtNOE1IUWxmeS1OdXIycDJJcW5rSWlLclVHN29ndmxiVUE1dGhEcnZ1RU1DdDNPbk9MYUhpQjhVQWJObHJCVGJYWGNNOTlmNHpIS0k3c29OWGM2OXFtR0dIVnp6Z0pmVDZHX1J1ZzF4dFFsa3ZIRUxhalUwdEVER0E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-susquehanna-chip-pt-changes",
+      "time": "2026-10-21T02:15:00Z",
+      "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts \u2014 Susquehanna Sees \u2018Modest Upside\u2019 For Chip Earnings",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "QCOM",
+        "INTC",
+        "COHR",
+        "NVDA"
+      ],
+      "why": "Susquehanna adjusted price targets across top semiconductor names ahead of earnings, raising targets for AMD and Qualcomm while cutting estimates for Intel and Coherent. The broker cited bifurcated demand trends where data center server CPU share gains and mobile connectivity favor AMD and Qualcomm, while PC market softness and legacy platform margin pressures drag on Intel.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMVlhVmwtMzY3VXU0T0Y4c0M1MUNpeE9pZE1GaWhBd0pSTTBoWEdJOXJSNVlOMDZRQk9aQ0N5R05VMFlHbUsyUUJfM003Z3d3R0JtTXYtM3ZPZGgwWTVjcTRYQ2QyMDNnZExhNWlHTTlkVV9rQWpnUTgyQ2tCZS0yTEtHbVlHRlE3QTZfM3N3a2V4enZIMlY3NHVn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-samsung-skhynix-china-nand-upgrade",
+      "time": "2026-10-21T01:45:00Z",
+      "headline": "Samsung, SK Hynix Modernise China Plants To Produce Advanced NAND Chips",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "AMAT"
+      ],
+      "why": "Samsung and SK Hynix are upgrading their fab equipment in China to produce higher-layer advanced NAND flash memory, maintaining cost competitiveness through existing infrastructure. The modernization increases bit supply density in global memory markets, providing lower component input costs for storage buyers while driving incremental equipment refresh demand for WFE suppliers like Lam Research and Applied Materials.",
+      "source": "Arise News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbHBsaS1oY01wV3BpMFFCZDI0SE90Q2J1d2ZSN0xCU1E0T1E1ay1fNmVHaWM0QV_PajNUN0xiME1yYWlodUFGNHJPcmNoZWVUdUtzdjFMazR3MUpEMWZmV252T2YtdGU5SmRtTnEtNk9qaGV0LWFadThUdFpzVDZ4OFkza3JPdkpPQ3l0eGQ3MmQtR1lSbTBr?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-gm-q3-guidance-cut",
+      "time": "2026-10-21T01:00:00Z",
+      "headline": "General Motors plunges after earnings as profit guidance falls short of expectations",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "GM",
+        "F",
+        "TSLA"
+      ],
+      "why": "General Motors shares dropped over 6% after issuing full-year profit guidance that fell short of market expectations despite meeting quarterly revenue targets. Increased promotional pricing, higher EV unit costs, and inventory adjustments in North America pressured operational margins, sending a negative demand signal across automotive OEMs.",
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQm4wbmd2R2dVNnE3M0MtMDhLUzFROEZBakM5ZmdyRmFNcTJKUGk4Z0tCUlhsb2tXeHBOQldIaVJUMFVyUzh4Ymo4WjlVdE9LaVg5bzNyRUtWWGlzbVVfeXpjcl_5ZnVqUkxURC1EN2VSSWNFLWRvUE1mU1pTQm5IZFBrSFczdGdBWmJtbDFGNWV2Z2VsZlZTbmZiVTREdHBCY0QteThGRWFNSVJuMWJEQ0dNcw?oc=5",
       "alerted": false
     },
     {
@@ -718,124 +808,6 @@
       "why": "Licensing requirements on model weights and chip-adjacent know-how cut the free flow of Chinese open-weight models that currently seed cheap global inference demand, and they create a reciprocal lever Beijing can pull against US restrictions. For US silicon vendors, the mechanism is retaliation risk on remaining China revenue and on Chinese-owned assembly and materials supply; for hyperscalers it narrows the pipeline of low-cost open models they resell. Scope is still a draft, so the market prices a risk premium rather than a quantified revenue hit.",
       "source": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-macro-meta-tsla-china-gdp-catalyst-week",
-      "time": "2026-10-18T06:00:00Z",
-      "headline": "Heavy catalyst week set up: China Q3 GDP and Financial Street Forum, then Tesla and Meta earnings land into a bruised AI trade",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "META",
-        "TSLA",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Meta and Tesla are the first mega-caps to report after the derating in semis and AI-adjacent credit, so their capex commentary becomes the market's live test of whether accelerator demand is being funded or deferred \u2014 a Meta capex raise flows straight into Nvidia, Broadcom and memory order books, a trim does the reverse. Tesla supplies the separate consumer-demand and auto-margin read that the market has stopped getting from macro prints. China's Q3 GDP and the Financial Street Forum set the policy backdrop for semis demand and for any retaliation framing around export controls, making this a week where positioning, not narrative, gets repriced.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kVE5ZRXdIWEZQRUlZaEJaQWhjRGZJN2N5UGhGWGFVY0QzMHNwSHM1NmVfdVVvbGhzY2FtM3FjMnZwd1FDR3dRMEdrMGIzdE5BUlJTQkVkOTlldWJtOGNwVzFBZndPWGNSTlFqOXlQMXFTTEE1bmc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-aapl-pricing-action-demand-elasticity",
-      "time": "2026-10-18T05:45:00Z",
-      "headline": "Apple hardware price increases draw a sharp negative reaction from the market",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AAPL",
-        "QCOM",
-        "TSM",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "Raising list prices is normally margin-accretive, so a negative tape reaction implies investors read the hike as cost pass-through from tariffs and memory inflation rather than pricing power, with unit elasticity threatening the installed-base growth that supports Services. If upgrade cycles stretch, the read-through hits Qualcomm modem volumes and Apple's foundry wafer bookings. Apple also carries heavy index weight, so a de-rating there drains the defensive megacap bid that has been offsetting semis weakness.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlJXaVg4MFRqczZmNnJxbTRROGN1VmFxRlh3bFd6aU5rcXRRRUZGdHBibDIwOVdjYl9VUjRwU25OVTM1WU5TSXNmRWtoZ1lkck5pOTk1aWtaTTBFTC1QMWZ5dXZkQ1RpUUNlSjJBbk01M0VtUGRwbXJ4NmVXeUJHWXVDdjBDd3lST25pbGJIMHl0dFRQeWFvSkNVRDNZdzdzOWFVWTdvVWg1YmtLOEIwdVFOZDZPY0ZRcXJ5SHN6bVd6UnRnV3RVblh3LUdpOHBER0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-macro-cpi-print-rate-hike-fears-fade",
-      "time": "2026-10-18T01:00:00Z",
-      "headline": "Equities close higher as CPI data defuses fears of an earlier-than-expected rate hike",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "PLTR",
-        "JPM",
-        "GS"
-      ],
-      "why": "The market had begun pricing a policy path that included tightening sooner than the Fed's own guidance; an inflation print that removes that tail lowers the front end of the curve and the discount rate applied to long-duration tech cash flows. Multiple expansion, not earnings, is the transmission channel here, which is why high-multiple AI and small-cap names benefit most. It also restores the rate cushion under a market that had been de-rating semis on positioning rather than fundamentals.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSnJ1cGhiVS1rWExabVhYNnFyekN5ZGgzYXFzSXoxSFM2WmNmNy1Cckd6X19pN05yWmRnTjRFVDV2SVNyUUtaY0h2OHdZRzA2dklaQmgtLVRwbGlWWEJ6S3lqT3hwSXd6RDVzS1NldUU5amZLT0RaMmVhVF9mak5ObVFzcWlNYTRMX25mOUFQVkNLSnFyQ0FmSGNjcy15WC1SMkRBZUVZV0U4T3NoeWJ2bnQ3ajhIZlF2VXJQUmQ2ZFRUNjUtOGVoYjdFM18?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-lrcx-ai-fab-capex-into-print",
-      "time": "2026-10-17T22:14:00Z",
-      "headline": "Fresh AI fab build-out news fails to lift Lam Research as the stock stays at full valuation ahead of its quarterly report",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML",
-        "TSM",
-        "MU",
-        "INTC"
-      ],
-      "why": "Wafer-fab equipment orders are the lagged derivative of leading-edge and HBM capacity announcements, so new fab news normally lifts the WFE book-to-bill expectation two to three quarters out. The signal here is that it did not: the equipment complex is already discounting an AI capex cycle at peak, which caps upside and makes the upcoming print asymmetric \u2014 an in-line guide gets sold while only a visible order-backlog step-up supports the multiple. Read-through is to the whole tool chain, since LRCX etch and deposition demand moves with the same TSMC and memory capex budgets that drive AMAT, KLAC and ASML.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOFhjdG5TNUZQS2FzUWU0R3paMUZQVWV1ckR3TkdsdnhreHF5b2VLcnJadmdxM1I4YlJqd0hpN2hBWnluSkJuZ25UY1luLXVEdG9lWTJRc2xYcFg0dEloSVFnR055QmxoZXRXNXBjZEdIUHVNZXdXU3dvbm5GaHgtdmc0U1lxN01jVzRyU1hUVGp1d3lxeGJxTFZ3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261017-ai-datacenter-moratorium-regulatory-risk",
-      "time": "2026-10-17T20:37:00Z",
-      "headline": "BlackRock's Fink warns spreading state-level data center moratorium bills would hit US growth",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "MU",
-        "SMCI",
-        "ANET",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "ORCL",
-        "PLTR"
-      ],
-      "why": "Permitting and power access, not chip supply, is now the binding constraint on AI buildout; local moratorium bills moving from Indiana to Texas introduce a siting risk that can delay or relocate committed capacity and push revenue recognition for compute, networking and memory suppliers to the right. The second-order channel is utility-bill politics, which raises the odds of cost-recovery rules that make hyperscaler power contracts more expensive and lower the ROIC on announced data center programs. For the hyperscalers it is two-sided: slower buildout trims capex and flatters free cash flow but caps the revenue case that justifies current AI multiples.",
-      "source": "TheStreet",
-      "url": "https://thestreet.com/economy/larry-fink-warns-data-center-ban-us-recession",
       "alerted": false
     }
   ]
