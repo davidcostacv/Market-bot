@@ -1,7 +1,60 @@
 {
-  "generated_at": "2026-10-21T05:10:11Z",
+  "generated_at": "2026-10-21T12:12:42Z",
   "session_date": "2026-10-21",
   "items": [
+    {
+      "id": "20261021-nvda-nokia-ai-ran-telecom",
+      "time": "2026-10-21T07:10:00Z",
+      "headline": "Nokia and NVIDIA are helping phone networks run AI closer to users.",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TMUS"
+      ],
+      "why": "Nvidia and Nokia expanded their technical partnership to deploy AI-RAN solutions, allowing telecom infrastructure to execute localized AI inference alongside mobile network traffic. The initiative opens a secular hardware upgrade cycle in cellular base stations, incrementally expanding Nvidia's addressable market beyond core hyperscale data centers.",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX2Y0R3BTQ19ySmdveEp3M3NNTF8wekpwWDBmemFPY19aM3ZmQmRWekszZG95ZkoxN0M4cVk3cGhvNEJhdTAwN0t1UVVkUEhleklBeEhzczNTZWw4XzhuX0ZaRElBanFtWkZNbFdpYVBFX2F2SkVfSHFDQ3N2a05IM3R0ekJjZ3czcVkwcHQ2S01rcU1QV244Sjh4YTIzOTNfTnJXUGFUMWZoUC1GOFdsbk5OZjhlNVk?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-korea-daily-exports-record-chip-supercycle",
+      "time": "2026-10-21T06:30:00Z",
+      "headline": "Korea's Daily Exports Hit Record 6.4 Trillion Won on Chip Supercycle",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM",
+        "AMD",
+        "QQQ"
+      ],
+      "why": "South Korea's customs data for the first 20 days of October showed daily exports reached an all-time record of 6.4 trillion won, powered by high-bandwidth memory (HBM) and advanced logic shipments. As the premier global leading indicator for semiconductor demand, this record run-rate confirms persistent memory pricing power and sustained enterprise AI accelerator uptake.",
+      "source": "Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR1FvVFhOY25Dd1Q5OEMtRW9oMkRHXzI4ekVEbExiRnpWVmZodS1ydXFES1AxRGkyakRKV2FJRE1uVVBMSm5oYWx5WXhUUkNEY3Jkc3BWZ0d4TjgzNHpJLUdCT1VRVDBjcUQweHZjQzNTNmpYaElna3FPQ1J4LWZJVnNycG9HWHZBQWRMQndOOVlQdGkzMTFiblRRYkg5Zw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261021-openai-chips-lame-duck-pullback",
+      "time": "2026-10-21T04:15:00Z",
+      "headline": "As lame-duck battle over chips heats up, OpenAI pulls back",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "TSM",
+        "INTC"
+      ],
+      "why": "OpenAI is stepping back from an aggressive federal lobbying push regarding semiconductor industrial policy and export restriction mechanics ahead of the congressional lame-duck session. The retreat reduces immediate legislative disruption to existing fab subsidy distributions and solidifies near-term commercial reliance on incumbent merchant hardware from Nvidia and TSMC.",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261021-amd-wedbush-bullish-server-cpu",
       "time": "2026-10-21T00:00:00Z",
@@ -783,77 +836,6 @@
       "why": "Permitting and power access, not chip supply, is now the binding constraint on AI buildout; local moratorium bills moving from Indiana to Texas introduce a siting risk that can delay or relocate committed capacity and push revenue recognition for compute, networking and memory suppliers to the right. The second-order channel is utility-bill politics, which raises the odds of cost-recovery rules that make hyperscaler power contracts more expensive and lower the ROIC on announced data center programs. For the hyperscalers it is two-sided: slower buildout trims capex and flatters free cash flow but caps the revenue case that justifies current AI multiples.",
       "source": "TheStreet",
       "url": "https://thestreet.com/economy/larry-fink-warns-data-center-ban-us-recession",
-      "alerted": false
-    },
-    {
-      "id": "20261017-nvda-rtx-spark-client-ai-gtc-berlin",
-      "time": "2026-10-17T16:16:00Z",
-      "headline": "Nvidia pushes RTX Spark AI PCs into global OEM channel ahead of GTC Berlin (Oct 20-22)",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "QCOM",
-        "INTC",
-        "MSFT",
-        "TSM"
-      ],
-      "why": "This opens a second, non-data-center revenue pool for Nvidia silicon at a moment when investors are questioning the durability of hyperscaler capex, diversifying the mix away from a handful of cloud buyers and attaching Nvidia's software stack to the Windows installed base. It directly contests the on-device AI narrative that underpins x86 and Arm client roadmaps, a share headwind for AMD, Intel and Qualcomm client units. GTC Berlin next week is a near-term catalyst window for European sovereign-AI and partner announcements that could reset consensus on non-US demand.",
-      "source": "NVIDIA Newsroom",
-      "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
-      "alerted": false
-    },
-    {
-      "id": "20261017-semis-sox-eight-session-derating",
-      "time": "2026-10-17T12:34:00Z",
-      "headline": "Philadelphia Semiconductor Index logs longest losing streak since the 2008 crisis as AI financing costs bite",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "AVGO",
-        "TSM",
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "MRVL",
-        "SMCI",
-        "ANET",
-        "INTC",
-        "QCOM",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "The mechanism is cost of capital, not end demand: AI capacity is increasingly debt-funded, so higher yields and widening credit spreads raise the hurdle rate on every incremental GPU/HBM/WFE order and compress the multiple investors pay for 2027-28 capex-driven earnings. A streak of this length with no fundamental guidance cut means the move is pure de-rating, which makes semis hostage to the bond market and to any sign that hyperscaler or neocloud financing is tightening. Sources conflict on the count: Investing.com/Yahoo cite eight straight sessions for the SOX (longest since October 2008), while GuruFocus describes nine straight down days for the SOXX ETF (longest since May 2006).",
-      "source": "Yahoo Finance / Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkdxRllqcjRqT3VRQjZSRmJULUEyZTJKZVQweXhCTEZwa0cxOVM4bWlJRmNCdlhMVkxfN3hueFptZDhKem50OURiY0ZBV25CbkFZbmh6Y3VYOU9veEhVWlQtTEIzQ0p1VW1JM1RvS1N5UE9ET25mS08xMlF4RW81VWluY01QanlSazY3c0dla0NKS05KX3Aw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-intc-white-house-stake-noninterference",
-      "time": "2026-10-17T12:00:00Z",
-      "headline": "Intel CEO Lip-Bu Tan says Washington has no policy of using its equity stake to steer Intel's strategy, and rates Chinese chips as close behind US technology",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "The government, SoftBank and Nvidia equity stakes have carried an unquantified governance discount: investors have been pricing the risk that capital allocation, foundry customer selection and pricing get set politically rather than on return on invested capital. An explicit CEO statement that there is no interference policy narrows that discount without changing near-term earnings, so it is a multiple item, not an estimate item. His read that Chinese silicon is not far behind cuts the other way for the China-exposed merchant names, since it implies faster domestic substitution against Nvidia and AMD accelerators.",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOTRLN00xUm9ReEdDNDlXOWxiRUg5U0V5eXhCSTNBQlhBaHZiQWFtbjl6VHh6aTd3ZEhvaWFXYWdoTWtZbGdsUm1TTUN1UWFpYS1qdGhBSzhaMnhvb3Q5bFVrdmdzd01EVWVDMzlVOFBsU0lHVjJZSV9Sd21qOUVTRGxyVzFnS2Y0dkNKQ3k2c2l6ZDJmbEctVEx0eTdOWVhYeS1fUVNLNkZfdkZBMGdkTE96RVJSUG9pcUdpVEhuN3Jrb0t5eXc?oc=5",
       "alerted": false
     }
   ]
