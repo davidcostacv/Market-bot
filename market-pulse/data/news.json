@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-10-22T05:14:08Z",
+  "generated_at": "2026-10-22T12:15:30Z",
   "session_date": "2026-10-22",
   "items": [
+    {
+      "id": "20261022-smci-nvda-vera-cpu-rack",
+      "time": "2026-10-22T00:00:00Z",
+      "headline": "Nvidia Is Moving Deeper Into Intel, AMD Territory: Supermicro Rolls Out 256-CPU Vera Rack",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "INTC",
+        "AMD"
+      ],
+      "why": "Super Micro's deployment of server racks powered by 256 standalone Nvidia Vera ARM-based CPUs represents a direct competitive push into traditional enterprise server compute, threatening Intel and AMD's core x86 CPU market share. The architecture expansion creates a new multi-billion dollar addressable market for Nvidia's data center ecosystem while driving server assembly demand for Super Micro.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYlVNZi1uMVFOT3dmeGVuZVM0Tnk2WFN0dlZGZkRoQkVlcmQ4YnRQZ3BJNl9yNE50dDgtMXVDMFJxYmcwbUFWVmR2OGZYd1FhWG5PWERXcXMtV2RBOTlhcjc3cE8wUFFPUjZYbkFPVEJ3NS1EMUo5Ti1lQjlOVzdhNnlDRV94dm5OZXN6dHdFWXRSQV9nQzRYWGxB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261022-csi300-china-stock-bear-market",
+      "time": "2026-10-22T00:00:00Z",
+      "headline": "China's stock market sinks into bear territory as CSI 300 extends 10-week rout",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "AAPL",
+        "QCOM",
+        "TSLA",
+        "FXI",
+        "SPY"
+      ],
+      "why": "China's benchmark CSI 300 falling 20% from its June peak into a technical bear market confirms persistent macroeconomic stagnation and weakening domestic demand in the region. This prolonged downturn creates significant earnings headwind risks and multiple compression for mega-cap US multinationals that rely on China for a substantial portion of hardware and consumer revenue.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWmt2MnVkcmdCNXBPMzNIaHJwWlFIV2J2SU5pNk52MENwNi10dW56Q2duNHZBc181R1BQeXBQNlQwSzY0V2RSWlR1U3k4OFdRMDJyR25tTEVveUVCNWl4d08tVXhZY3BKTmFVNXA2V3BNMGpjSmxUZ09SOGtFc29MS1Fn0gGHAUFVX3lxTE9JbzZ4T01zVW93dG8xM0Q1TUtoU1hCYWVULTVQX285THphbnRNYWdvVVp5Wml4VDBGSlBHUFdEZFlHOU1TSWZFR1ZXUFVJVl9xbDRGeTBjUUkzY21fTVp4ZXpTSW9rdDBNNUZlY2QzMll0VGtyM1lVYnNFM0JoVFlhZ3NvX3pjRQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261021-nvda-nokia-ai-ran-telecom",
       "time": "2026-10-21T07:10:00Z",
@@ -762,52 +799,6 @@
       "why": "When the foundry is the bottleneck rather than end demand, pricing power shifts to TSMC and allocation decides which fabless names can actually ship, so revenue for NVDA, AVGO and MRVL becomes a supply number rather than a demand number. Sustained sold-out leading edge and advanced packaging also underwrites multi-year equipment orders at ASML, AMAT, LRCX and KLAC, supporting their backlog visibility. The read-through is bullish for the capex chain but caps upside surprise for customers who cannot get wafers.",
       "source": "TIKR.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYWdnaHNZN3lTZl9FdktvUVdIa2RZbUFVYkVrZEJhaXNKZnlnNlk0ZGo3RUxPWHlzLV8wSFF4emJVMy1jN0JNV1h0eW1HV2ZJLVluMURPaWEyd3d3a0k5VlNSbHVXa05YZVl4MEEyWTdpY3ZEV3BkNXJ0WEFUXzhkcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-nvda-blackwell-rubin-visibility",
-      "time": "2026-10-18T07:00:00Z",
-      "headline": "Nvidia frames combined Blackwell\u2013Rubin cycle revenue visibility as the offset to the share-price pullback",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "MU",
-        "AVGO",
-        "ANET",
-        "SMCI",
-        "AMD"
-      ],
-      "why": "Management quantifying cumulative bookings across two product generations converts what the market treats as a one-year cyclical peak into a contracted multi-year revenue base, which is the single variable that determines whether the stock is valued on peak or normalized earnings. If the visibility figure holds, forward estimates stop being a function of quarterly order sentiment. Read-through is direct to the CoWoS foundry supplier, HBM vendors and the rack/networking content chain that ships alongside each generation.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ0l0Z1U0RWwtZmFTdVlhZngtdU5OejFYU05Kd0lCejVFWlpWN2hrWElyUjFEWU1MdVhWVGNXUnFBU3VRTE9fUFNpSm5nVURIczhsa3dmWV8tazdtcnhGQ29jM01sMU9UclkzbkV1U09uQVhLeUU4UVd5bHpzZXJRYW02S3F3ODIzSzRCU1FrNUJsTHdBNC1sdW12aUZ1VVQwakwzdF83dVp3cko4MEhsREphaHNGTEhHbGNMSHZKa0g?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-china-ai-export-controls-open-weight-models",
-      "time": "2026-10-18T06:30:00Z",
-      "headline": "Beijing's proposed AI export rules extend beyond chips to models and open-weight releases",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AMZN",
-        "QCOM",
-        "ASML"
-      ],
-      "why": "Licensing requirements on model weights and chip-adjacent know-how cut the free flow of Chinese open-weight models that currently seed cheap global inference demand, and they create a reciprocal lever Beijing can pull against US restrictions. For US silicon vendors, the mechanism is retaliation risk on remaining China revenue and on Chinese-owned assembly and materials supply; for hyperscalers it narrows the pipeline of low-cost open models they resell. Scope is still a draft, so the market prices a risk premium rather than a quantified revenue hit.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn?oc=5",
       "alerted": false
     }
   ]
