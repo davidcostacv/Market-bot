@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-10-23T17:21:56Z",
+  "generated_at": "2026-10-23T21:34:51Z",
   "session_date": "2026-10-23",
   "items": [
+    {
+      "id": "20261023-us-treasury-china-outbound-investment-rule",
+      "time": "2026-10-23T12:00:00Z",
+      "headline": "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AMD",
+        "QCOM",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The U.S. Department of the Treasury proposed a regulatory framework establishing prohibitions and mandatory notifications for U.S. outbound investments into China covering artificial intelligence, advanced microelectronics, and quantum computing. The rule restricts venture capital, private equity, and joint venture funding into Chinese tech entities, creating long-term compliance friction and narrowing monetization pathways for U.S. semiconductor design and equipment majors.",
+      "source": "ABC News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdEI3RkxUZzhTUHYzSEFMMGdxdkdreTlvdHRYOTVsZUk2UXpXNTJOMEZ3azVyelBoRlhLWDRfX0w2QWs0TURDVE5rcWRvODZvejNLLUVCYnJ2dEVQOE42bkxPbnYzNWxSQXVCYkxJVzl2UmZ0bno1d2Q2aTE2a1Jvam5LR2ppVEFYY1R2SzhVZWtxc0FFTGl5bzFWSlnSAaIBQVVfeXFMTWZMN0xnYlhiaWx6TjJWQ0ZGV3hWNFlNUnlnNzhKZEhZd0ZWekJaYWo0T0g1dlI4dk9vVXppVUt1NVk4Qm9rQ0YxR2o3N2MyRVZCMWR1azRNa0JKRXZ6bVRTSm5jRVZJdFZCZldldmc1Vms1VmVSZ1hHRmgyeU5LZ1NyTllDblNzaXBUSWZRT1poQThNZUh2UUpnTlBBOGNuUThn?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261023-meta-tsla-capex-guidance",
       "time": "2026-10-23T08:00:00Z",
@@ -758,29 +779,6 @@
       "why": "A capacity-constrained tool vendor converts cyclical orders into multi-year contracted backlog, which lengthens revenue visibility and justifies a higher terminal multiple rather than a trough-cycle one. It also confirms that leading-edge and HBM fab buildouts by TSMC, Micron and Intel are being supply-gated rather than demand-gated, so wafer-fab-equipment peers should see order books extend rather than roll over. The constraint is a risk flag for the downstream logic and memory chipmakers whose AI capacity ramps now depend on a single lithography bottleneck.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeGdMS3I1Qm93Q0E4YzA3UjJUazZnU1dxV1VjYUF0LTFFMXBCWl9MNnMwTlYxekRadXNUTm83SXZYOFp1SldLeTVRbWhKVURCdjZ5T3BIdEtHdFJ0Q29QQVBXZXlQdFBVOVNIdkVZQmVZbEZaQkNUYVo2RVlGSkdKXy1udEpteXVrMFBvZ2V1VDFGVWp6NkE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-spx-record-preannounced-upbeat-guidance",
-      "time": "2026-10-18T10:30:00Z",
-      "headline": "Record share of S&P 500 companies pre-announced above-consensus guidance into reporting season",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "JPM",
-        "GS"
-      ],
-      "why": "Pre-announcement skew is a leading indicator for the aggregate revision breadth that drives forward index EPS, and an unusually positive skew means consensus estimates are likely too low rather than too high going into prints. That supports earnings-driven rather than multiple-driven index returns, which matters now that the AI leadership trade is wobbling and breadth has narrowed. The offset is that upbeat pre-guides raise the hurdle, so in-line results get sold.",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQQ2JwX3JHdkNPVHowRHl2QWpncXZKZ3hYR0NvUmxZbnVMNjF0X2IybEljbFV5SFY2R1JEd2U3anZMeFJPczdEMkFXRjhia0FhRFI5bHVKaS1EZ1lkT0tmd096RG96S29Gd1VSb01iNDN6R1BkX1JtbXB5NHR0endqS0lob2h4N1dJZng2c2dYTkJMUG1MZkc4WXNvdW5pZmZkUFJteFFCU3lBV0RNOGZ6andUNlVzaWlnWWpGclRKYVNqQkFMM2RhRkhQLTFKU2lrbmo0bEJMbzlVTjA3bVJTcW1ZTl9Mb0RoOTBqNVZQcXpYa1FnTXI2OV9UM1FkbUQ5V2cweGtiR3U1MlNQRU1rcllrNlB6YURGMzBaZlh3?oc=5",
       "alerted": false
     }
   ]
