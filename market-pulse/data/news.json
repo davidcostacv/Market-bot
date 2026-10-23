@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-10-23T11:57:06Z",
+  "generated_at": "2026-10-23T17:21:56Z",
   "session_date": "2026-10-23",
   "items": [
+    {
+      "id": "20261023-meta-tsla-capex-guidance",
+      "time": "2026-10-23T08:00:00Z",
+      "headline": "Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New Stock Class - Bloomberg.com",
+      "impact": 8,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "META",
+        "TSLA",
+        "NVDA",
+        "AVGO",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "Meta's upward revision to its AI spending outlook provides direct read-through demand visibility for key infrastructure suppliers like Nvidia and Broadcom, validating sustained hyperscaler capital allocation. Conversely, Tesla reducing its capital expenditure guidance signals tighter cost controls or deferred growth initiatives, impacting expected compute deployment and capital efficiency expectations.",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeThRcDBIMGM5Zmc3MFZOMGpvbkpWY0k5X0t3akl4TXNiQ3o3OW9uVVllNkY2ZF9vd2xVU0lNeVNCYXNHY2ZWMko0WWZCUWZaQkVqUDZHVmpldFdVZmFPT0JfY1c3WWR0MDNGYzRSUjdkTjNwYlJrQlB4UjNFZFVvYUlRTzRLc2M3Mm5aOVlQWkNtdXppT0ZmUi1fOHNFWDRDTGc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261023-tsm-china-rare-earth-export-controls",
       "time": "2026-10-23T04:00:00Z",
@@ -760,37 +781,6 @@
       "why": "Pre-announcement skew is a leading indicator for the aggregate revision breadth that drives forward index EPS, and an unusually positive skew means consensus estimates are likely too low rather than too high going into prints. That supports earnings-driven rather than multiple-driven index returns, which matters now that the AI leadership trade is wobbling and breadth has narrowed. The offset is that upbeat pre-guides raise the hurdle, so in-line results get sold.",
       "source": "The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQQ2JwX3JHdkNPVHowRHl2QWpncXZKZ3hYR0NvUmxZbnVMNjF0X2IybEljbFV5SFY2R1JEd2U3anZMeFJPczdEMkFXRjhia0FhRFI5bHVKaS1EZ1lkT0tmd096RG96S29Gd1VSb01iNDN6R1BkX1JtbXB5NHR0endqS0lob2h4N1dJZng2c2dYTkJMUG1MZkc4WXNvdW5pZmZkUFJteFFCU3lBV0RNOGZ6andUNlVzaWlnWWpGclRKYVNqQkFMM2RhRkhQLTFKU2lrbmo0bEJMbzlVTjA3bVJTcW1ZTl9Mb0RoOTBqNVZQcXpYa1FnTXI2OV9UM1FkbUQ5V2cweGtiR3U1MlNQRU1rcllrNlB6YURGMzBaZlh3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-semis-trump-tariff-expansion-trade-fight",
-      "time": "2026-10-18T09:00:00Z",
-      "headline": "Chip stocks rally on Nvidia results, but reported new Trump tariff plans threaten to widen the trade fight",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MRVL",
-        "QCOM",
-        "INTC",
-        "SMCI",
-        "ANET",
-        "AAPL",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "A fresh tariff tranche aimed at hardware and components would land directly on semiconductor cost of goods, since nearly all leading-edge die, substrates and assembly cross a border before reaching a US datacenter. Even if AI demand is unchanged, tariffs compress gross margin or force price increases that slow hyperscaler order cadence, and they invite retaliation that puts China-exposed revenue lines at risk. The result is a wider distribution of 2027 EPS outcomes, which caps the multiple the group can hold regardless of a strong print.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM09VbW80Rm9TVkJDdVdOaVp0cC1fS0N5UVZEdFgwNVZuaXVmTXhMcmpYdFU3aEZrVlRWbmthS3gtNEhyR0tDRDY3NEtfMnAyZHRSbzFkNDdGQ0NEbDRrcks5TVp3OXJhQ0lJajNVMTBvMUxKWktFQ1Q0VUZhSU1iUTVVWFBNVXlXSTBtblVkTjgxbUVSd0JBVFVPd01wci1DUUxacW1XdFRDT0RxWjFseTc0WEZhdzBkUFE?oc=5",
       "alerted": false
     }
   ]
