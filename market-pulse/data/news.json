@@ -1,7 +1,62 @@
 {
-  "generated_at": "2026-10-22T21:51:12Z",
-  "session_date": "2026-10-22",
+  "generated_at": "2026-10-23T05:12:39Z",
+  "session_date": "2026-10-23",
   "items": [
+    {
+      "id": "20261023-tsm-china-rare-earth-export-controls",
+      "time": "2026-10-23T04:00:00Z",
+      "headline": "TSMC Seeks Rare-Earth-Free Factory Equipment as China\u2019s Export Controls Threaten Chip Supply Chains - Tekedia",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "China's tightening export restrictions on critical rare earth elements are forcing TSMC to actively demand tool redesigns and seek rare-earth-free wafer manufacturing equipment. This threatens tool delivery timelines and raises capital expenditure costs for leading foundries and equipment manufacturers as re-engineering equipment introduces supply chain friction.",
+      "source": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPekdXOEJ6V21jR0xORmpRNTdkS0RwOEl2Y0FnYmJJd25LQzRybVZLbThmR1RJY1pYbWgyZEE3V2Jkc1pKWjAxcDlMcDU3QUYwREVHSUxLbnJPbFhJdkFnUzhCZFkxRzBMdmtCekF2V1lFUHdtMUlCTXI5NTdDaVlzVUl2WTJISE5Yb3BQaDR3MUFyd1RRdFMyT0Vrcl_xbXNfblgtUUZkRDEweFREa0pWQnc0VlFsZUhRM0RZaW1iR24?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261023-mrna-melanoma-data-leak",
+      "time": "2026-10-23T02:30:00Z",
+      "headline": "Moderna stock crashes as leaked melanoma data threatens its record August rally - Yahoo Finance",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "MRNA",
+        "PFE",
+        "BNTX"
+      ],
+      "why": "Leaked clinical trial data regarding Moderna's melanoma cancer vaccine sparked immediate execution and efficacy concerns, derailing the core pillar of the company's post-COVID pipeline valuation. The leak threatens expected commercialization timelines and forces investors to re-evaluate non-respiratory product revenue forecasts.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdUVQQU5Ndy00WUljMXBBdnFBendjMjdrVkRKVGFMWTJBWjZLaGFobFg3SlRnR2Jzbnp4RFRVM2htdVJVaGJkVW1TVU05eUpV08tkQVNHXzlyOXQ1RDJWZXNfaXZva0FpeVJIZHlDMkxVX0IyYW9mVS1LX29RYTBFcklsNklNdzRkOUk2RDQ5Wl_fV3ZaVVg2UkhiQ2hwcFpUWkxTYl9mOWlBakIybE11MXdSZlc4d1ZnNmxkcXJuNGx1eDFPSVJyLTNkY0JvS2VBenc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261023-intc-senate-chip-export-controls",
+      "time": "2026-10-23T01:15:00Z",
+      "headline": "Intel Lobbying Rises as Senate Advances Chip Export Controls - Legis1",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "TSM"
+      ],
+      "why": "The U.S. Senate is advancing stricter legislative chip export restrictions targeting high-performance silicon and equipment sales, triggering increased lobbying from major semiconductor companies. Stricter statutory mandates risk further curtailing U.S. chipmakers' addressable market in China beyond existing administrative rules.",
+      "source": "Legis1",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RbVplTFFDckJtNGtGTnFYbnJBZkp1SzFkUjVIYUJwaVpabjJDTEd1OGNtdy1UTVAybFZpMXZxZ0FWOWVsQi0zUVdBb3NBQTFNT0hfS3hZVG1HdkNWd0JnUjloNGZiZ2xDLTR3S1c2YjMxR3RGempPN3BR?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261022-smci-nvda-vera-cpu-rack",
       "time": "2026-10-22T00:00:00Z",
@@ -736,69 +791,6 @@
       "why": "A fresh tariff tranche aimed at hardware and components would land directly on semiconductor cost of goods, since nearly all leading-edge die, substrates and assembly cross a border before reaching a US datacenter. Even if AI demand is unchanged, tariffs compress gross margin or force price increases that slow hyperscaler order cadence, and they invite retaliation that puts China-exposed revenue lines at risk. The result is a wider distribution of 2027 EPS outcomes, which caps the multiple the group can hold regardless of a strong print.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM09VbW80Rm9TVkJDdVdOaVp0cC1fS0N5UVZEdFgwNVZuaXVmTXhMcmpYdFU3aEZrVlRWbmthS3gtNEhyR0tDRDY3NEtfMnAyZHRSbzFkNDdGQ0NEbDRrcks5TVp3OXJhQ0lJajNVMTBvMUxKWktFQ1Q0VUZhSU1iUTVVWFBNVXlXSTBtblVkTjgxbUVSd0JBVFVPd01wci1DUUxacW1XdFRDT0RxWjFseTc0WEZhdzBkUFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-nvda-spacex-accelerator-commitment",
-      "time": "2026-10-18T09:00:00Z",
-      "headline": "SpaceX results put scale of its Nvidia accelerator commitment in focus; NVDA firms while SPCX slides",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "SMCI",
-        "ANET",
-        "MU",
-        "TSM"
-      ],
-      "why": "A privately-funded, non-hyperscaler buyer disclosing a large GPU commitment widens Nvidia's demand base beyond the four cloud capex budgets investors stress-test, which is the core bear case on 2027 order durability. The spend is financed off a different balance sheet than the AI-debt complex that has been pressuring sentiment, so it carries less perceived credit risk. Rack-scale orders of this type pull through networking, memory and system integration revenue alongside the silicon.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMm5xUXJpQ2xDNEhnWURseDBQRnN6NEU2ZmxkYy0yV3JPazBQMWlNT0pkeTQ5M3hrWk5MU2Y3TVRwOHBsTU43cm1UbGh6YkFEakpaa19STGhDeFp0QmJheklJRjhvVl9reGQzRWNzLWhUbnFKWENsQ1FXcDlVTmpwamJ1TGg1QVlNYmVabGVxTEF4RTN5SFRfZVNEVjlLdEdWZHZKR2J2c18tWV93WlgxQTkwczlfNHJsc1piNVNEeFR2TjFybW9sMDcyZTJaXzVfOHJiYTkyT2JSOU9keHNOQTdaRFhTT2NwWXlXVHdKZmFTZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-mrvl-sellside-upgrades-into-print",
-      "time": "2026-10-18T08:00:00Z",
-      "headline": "Marvell jumps as multiple large sell-side desks turn constructive ahead of its quarter",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "NVDA",
-        "TSM",
-        "ANET"
-      ],
-      "why": "Pre-print upgrades on Marvell typically reflect channel work on custom ASIC and optical DSP content per rack, which is the line item that decides whether the company is a share donor or share gainer versus Broadcom in hyperscaler accelerators. A positive revision cycle here raises the implied total addressable spend on non-Nvidia silicon and lifts the attach-rate read for Arista networking and TSMC packaging. The move is positioning-driven, so it raises the bar the actual guide must clear.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-tsm-capacity-tight-into-2027",
-      "time": "2026-10-18T07:15:00Z",
-      "headline": "TSMC output still trailing AI order book, leaving foundry capacity the binding constraint",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MRVL",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MU"
-      ],
-      "why": "When the foundry is the bottleneck rather than end demand, pricing power shifts to TSMC and allocation decides which fabless names can actually ship, so revenue for NVDA, AVGO and MRVL becomes a supply number rather than a demand number. Sustained sold-out leading edge and advanced packaging also underwrites multi-year equipment orders at ASML, AMAT, LRCX and KLAC, supporting their backlog visibility. The read-through is bullish for the capex chain but caps upside surprise for customers who cannot get wafers.",
-      "source": "TIKR.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYWdnaHNZN3lTZl9FdktvUVdIa2RZbUFVYkVrZEJhaXNKZnlnNlk0ZGo3RUxPWHlzLV8wSFF4emJVMy1jN0JNV1h0eW1HV2ZJLVluMURPaWEyd3d3a0k5VlNSbHVXa05YZVl4MEEyWTdpY3ZEV3BkNXJ0WEFUXzhkcw?oc=5",
       "alerted": false
     }
   ]
