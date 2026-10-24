@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:26:49Z",
+  "generated_at": "2026-10-24T16:10:05Z",
   "session_date": "2026-10-24",
   "items": [
     {
@@ -17,6 +17,24 @@
       "why": "Instacart shares rallied following reports that the grocery delivery platform is holding preliminary acquisition discussions with delivery rivals Uber and DoorDash. Consolidation in the last-mile delivery space would significantly reduce promotional competition and marketing spend across the sector, while offering Instacart shareholders a direct M&A takeout premium.",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW9OalFzdGVlajNjUG9oZ184SjBrbWlTcjhWN21WdUtPZXR1Y2Vudzg3MEZtSlk0Wm5IcUxJQ1dvR2QxM2JNdHo3dXFSMUt0dW1fSWdEb0ZlUU5kd2VmR1J1U285TnFiS0tNUjRhUmYybEJDRXctWG9pdHcydzNGUVVZSGxFc2JPMElwcmVKLXNERW9oRS1wNFVFZFRyS3ZISkVwN04zTmxlbjZLQjl1cA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261024-cambricon-sales-miss-output-constraints",
+      "time": "2026-10-24T06:00:00Z",
+      "headline": "AI Chipmaker Cambricon Sales Miss Signals Output Constraint",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "ASML",
+        "TSM"
+      ],
+      "why": "Cambricon's revenue shortfall highlights severe volume production bottlenecks at domestic foundries operating under US lithography export restrictions. The capacity ceiling limits the ability of Chinese tech firms to replace Western silicon at scale, reinforcing long-term enterprise dependency on foreign AI hardware despite trade barriers.",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQW5LVWJoYmcwMDUwMXFTa3VMWHRmajBZWjNOdzFja25YSWN0bkcwdXpkY3VMS3h4aDRXSUd3cU5UQ0lTT3BZT04xRDdpUjljaW1DWnhubzRqOUg1c3lIZThIYi1pZF9IZnQtZmRweGVtZnVmMVBOZzJfLXRMdllkNmZXc05ReGlimjL3vYJtwNVxkq1UTec-2puBZ9ninjw4kwSqW7vmLM4Dw?oc=5",
       "alerted": false
     },
     {
@@ -754,24 +772,6 @@
       "why": "The bear case is not a demand cancellation but a compute-efficiency argument: if a frontier-class model can be trained and served with materially less accelerator time, the implied tokens-per-GPU rises and the dollar value of the installed-base refresh cycle falls, which compresses the terminal-year revenue assumptions embedded in AI semis multiples rather than near-term bookings. Layered on top is the funding channel \u2014 the marginal buyer of accelerators is now debt- and SPV-financed neocloud capacity, so a wider credit spread directly throttles order flow to NVDA, and through it to HBM (MU), foundry (TSM), networking (ANET, MRVL) and server ODMs (SMCI). Note the tape conflicts: Asian chip names fell while US index futures were quoted higher into the Monday open, so the derating is so far concentrated in Asia-listed supply-chain names.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-fuels-chip-demand-concerns",
-      "alerted": false
-    },
-    {
-      "id": "20261018-wfe-duv-export-control-policy-push",
-      "time": "2026-10-18T12:00:00Z",
-      "headline": "New think-tank report makes the case for extending US export controls to DUV lithography and tool servicing into China",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "DUV tools and the consumables/service annuity attached to them are the last large, legal China revenue line for wafer-fab-equipment vendors; extending controls from EUV to DUV would convert a recurring installed-base service stream into a stranded asset rather than merely delaying shipments. The policy research channel matters because prior WFE control rounds were preceded by exactly this kind of published analysis, so it raises the probability weighting the market must apply to a China revenue haircut at ASML, AMAT, LRCX and KLAC even before any rule is drafted. Offsetting it, tighter controls lengthen the domestic-fab capex cycle these same vendors sell into.",
-      "source": "ChinaTalk",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SaDMtOTFEdUJOMy1pSk9HWW5kVFFQMjBpa09OS1p4em80N1hham1SdGg4QXlVbV9sa1dBbUUyVzVnX0dyMWs5SlZHTnp1WUNrY3MzcHVPMWZpYU5oME5EQmoycmRsd1I2clRYVUhHTU5wZUU?oc=5",
       "alerted": false
     }
   ]
