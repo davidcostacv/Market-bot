@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-23T21:34:51Z",
-  "session_date": "2026-10-23",
+  "generated_at": "2026-10-24T04:55:12Z",
+  "session_date": "2026-10-24",
   "items": [
+    {
+      "id": "20261024-cart-uber-dash-sale-talks",
+      "time": "2026-10-24T12:00:00Z",
+      "headline": "Instacart Rallies on Report of Sale Talks With Uber, DoorDash",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "CART",
+        "UBER",
+        "DASH"
+      ],
+      "why": "Instacart shares rallied following reports that the grocery delivery platform is holding preliminary acquisition discussions with delivery rivals Uber and DoorDash. Consolidation in the last-mile delivery space would significantly reduce promotional competition and marketing spend across the sector, while offering Instacart shareholders a direct M&A takeout premium.",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW9OalFzdGVlajNjUG9oZ184SjBrbWlTcjhWN21WdUtPZXR1Y2Vudzg3MEZtSlk0Wm5IcUxJQ1dvR2QxM2JNdHo3dXFSMUt0dW1fSWdEb0ZlUU5kd2VmR1J1U285TnFiS0tNUjRhUmYybEJDRXctWG9pdHcydzNGUVVZSGxFc2JPMElwcmVKLXNERW9oRS1wNFVFZFRyS3ZISkVwN04zTmxlbjZLQjl1cA?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261023-us-treasury-china-outbound-investment-rule",
       "time": "2026-10-23T12:00:00Z",
@@ -755,30 +772,6 @@
       "why": "DUV tools and the consumables/service annuity attached to them are the last large, legal China revenue line for wafer-fab-equipment vendors; extending controls from EUV to DUV would convert a recurring installed-base service stream into a stranded asset rather than merely delaying shipments. The policy research channel matters because prior WFE control rounds were preceded by exactly this kind of published analysis, so it raises the probability weighting the market must apply to a China revenue haircut at ASML, AMAT, LRCX and KLAC even before any rule is drafted. Offsetting it, tighter controls lengthen the domestic-fab capex cycle these same vendors sell into.",
       "source": "ChinaTalk",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SaDMtOTFEdUJOMy1pSk9HWW5kVFFQMjBpa09OS1p4em80N1hham1SdGg4QXlVbV9sa1dBbUUyVzVnX0dyMWs5SlZHTnp1WUNrY3MzcHVPMWZpYU5oME5EQmoycmRsd1I2clRYVUhHTU5wZUU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261018-asml-demand-exceeds-capacity-2028",
-      "time": "2026-10-18T11:30:00Z",
-      "headline": "ASML posts record results and says it cannot meet lithography demand until 2028",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "INTC",
-        "MU",
-        "NVDA",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "A capacity-constrained tool vendor converts cyclical orders into multi-year contracted backlog, which lengthens revenue visibility and justifies a higher terminal multiple rather than a trough-cycle one. It also confirms that leading-edge and HBM fab buildouts by TSMC, Micron and Intel are being supply-gated rather than demand-gated, so wafer-fab-equipment peers should see order books extend rather than roll over. The constraint is a risk flag for the downstream logic and memory chipmakers whose AI capacity ramps now depend on a single lithography bottleneck.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeGdMS3I1Qm93Q0E4YzA3UjJUazZnU1dxV1VjYUF0LTFFMXBCWl9MNnMwTlYxekRadXNUTm83SXZYOFp1SldLeTVRbWhKVURCdjZ5T3BIdEtHdFJ0Q29QQVBXZXlQdFBVOVNIdkVZQmVZbEZaQkNUYVo2RVlGSkdKXy1udEpteXVrMFBvZ2V1VDFGVWp6NkE?oc=5",
       "alerted": false
     }
   ]
