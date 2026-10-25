@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-25T11:55:09Z",
+  "generated_at": "2026-10-25T21:06:37Z",
   "session_date": "2026-10-25",
   "items": [
+    {
+      "id": "20261025-nvda-huang-export-curbs-memory-demand",
+      "time": "2026-10-25T08:00:00Z",
+      "headline": "Nvidia CEO Jensen Huang Says US Export Curbs Accelerated China Chip Push, Rules Out AI Memory Glut",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "TSM",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Nvidia CEO Jensen Huang stated that U.S. export restrictions have accelerated China's domestic chip capabilities while effectively cutting off Nvidia's presence in China's AI accelerator market. However, Huang dismissed growing investor concerns over an AI memory oversupply, providing a demand backstop for High-Bandwidth Memory (HBM) suppliers like Micron.",
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSXhVdG8yaGI1VEtyWFpDT3hVQ1RzWjhJTENLdlVuSWF4VVU2VVBiRHBlMXRJRWdweVZLTU9kTTI5UzFpcnluWThFQktadXgxeGxWdU5ONElma3Rid3FBRFZyZ3RVS3NvSS1xc0xQaVQxNVcxejFNUnJub1A3S19qNm5jVEdsR1JyS1F0Y09pUVowa08ydE1RMm9oUXI0SmtnS2xtUU5Fa3gwMWFhMmd2OEoxSzIxMThfUG41cEdkY21jQkhHYmZkc3dEQ3Q4NV9HczVYTFdOZ09yX0xUOXNtcDVFZzE0dWx1cmdxaXpmQ0xWbWlYUnFhaVFR0gH_AUFVX3lxTE11a0xvWEIxWTg0Zk5SZWt2ellLdlRHX3Y1Tmo5T1hoOFU3aV92TlhYcTR0TTVvYmlpaEF2NWVidk5uZTYya2p6X0cyUWV4TnN4UmVQOEcyWkdYX0YxVl9BNFZpeXp3dm4zekpBZzFxOE1hSy0yNWlhYmZHRFhNUU56VTVWRDkxbi1Xd0Jfd3BNTVZocVdTdWpEanRmaWpsQzZ4YWx1dXJlcmdCWS1rNS1KX3dXVnZ4X0x3Y3hzZ2szY01FX2ZFRFZfaVZTSG5lMlpMbExmcUQ4YlZXRzdiLU5NTEdJNndWcXZXZWMtS1R1aVVuRUhTTWhnZFk2dkdlcw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261025-nvda-china-telecom-b300-gpus-export-breach",
       "time": "2026-10-25T04:00:00Z",
@@ -743,26 +762,6 @@
       "why": "China remains the single largest end-market for both companies' non-AI silicon and, for Qualcomm, for licensing royalties, so re-engagement defends a revenue line the market has largely written down. The offset is policy: any deal struck while export rules are being tightened can be revoked or politically contested, as prior licence revocations showed, so the cash flow carries a higher discount rate than comparable Western revenue. Net effect is a wider distribution of outcomes rather than a clean earnings upgrade.",
       "source": "Global Sources",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWWVIT1RpVzhtbGswUTB3eUkweTd4akZmalNUSmlHc0pJZWlJbGNCSVNBRTNSUV9XZ2FZb1UtLU1GZXlpRHNaZkxaTU5UcU5JcXZWNFFGR0tZUWlHamo5V0xxd3hYcWhMdEZrR3lkeHRoaFNvQ2dlaHRjWXU3X0M3ZDRoaTMzZktHNUI4djVTMVpKUHZ6cG9lVVNza2pwd3EwWWMyTHpGMjVnVG5HVDNwYVlrNVpxVWRwYkktZXgxQjJzYUlkdm11WXFSZVVCaVE2QUVOa19kU1dvblVRNGMzbDFR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261020-krw-two-year-high-memory-export-confirm",
-      "time": "2026-10-19T06:30:00Z",
-      "headline": "Korean won strengthens to a more than two-year high near 1,330 as semiconductor export receipts flood the market with dollars",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "SMCI",
-        "NVDA",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "FX is a clean, unmanipulable confirmation of physical memory shipments: exporter dollar conversion of this size can only come from invoiced volume at elevated ASPs, which corroborates that the DRAM and HBM upcycle underpinning Micron's revenue path is real rather than channel restocking. A stronger won also squeezes the won-denominated cost base of Samsung and SK Hynix, reducing their incentive to compete on price and supporting industry-wide pricing discipline into next year's contract negotiations. Equipment names benefit indirectly because sustained memory cash flow is what funds the next capex tranche.",
-      "source": "Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZVV5bFY3ZHdnaDZpaS1ySVoxOFJuemxlMmRXc0JDeGV4dlZHZEdBR3I1Nkd0Qi1wek1CN1BXWnFDTGJ2Z0RZdVNOb0RpUHpDVzg1Z3hRdlduUjloS1ByR09hWGxmXzd4ZEc4VFhSNkZ5ZVJQdjJBT1RlTVZhVFBaN3FrT1NHbWtFU3M0clB4dHJWWlhncUxNNnVLZGY1akg3?oc=5",
       "alerted": false
     }
   ]
