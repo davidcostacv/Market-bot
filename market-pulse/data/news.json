@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-25T05:07:29Z",
+  "generated_at": "2026-10-25T11:55:09Z",
   "session_date": "2026-10-25",
   "items": [
+    {
+      "id": "20261025-nvda-china-telecom-b300-gpus-export-breach",
+      "time": "2026-10-25T04:00:00Z",
+      "headline": "Security Firm Discovers 32 NVIDIA B300 GPUs Operating Inside China Telecom, Showing U.S. Export Controls Aren\u2019t Curbing Top-Tier AI Hardware From Getting Out",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "AMD"
+      ],
+      "why": "Cybersecurity researchers discovered 32 flagship NVIDIA B300 Blackwell GPUs actively running workloads within state-owned China Telecom's infrastructure, signaling ongoing leaks in U.S. export control enforcement. The confirmed deployment of top-tier AI hardware inside a state-run Chinese telecommunications firm escalates regulatory risks for NVIDIA, including potential Department of Commerce audits, compliance mandates, and stricter distribution controls.",
+      "source": "Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02N0VveFBrVzd2cFlHbC1Wa25McVJEdnRtMjZJNGIzRXJtc2dacEVXLUdwRFdkcDBwVVYyd0lGWmI2c1Nlb0xLVEUySV85MnR0SGtmVjBnSWNNRlVQdmZHYmVPcEtCci1ub2tVd0ZUSXNhcmVwZTF4SUtub0xIQdIBgwFBVV95cUxOdmtNUy1BdjdidV9DalNOcWswVmxYcWNKRUhVUGdsX29QNXktaHdjRUczbHJCRlJZbDFmNzE5Y0h2U1dSbWNweU42bm5SU05mWTB3TDNaYnljZkxCQXh5VXVEMUJMeGN4dU9wbjFCN0p6WDM2VzlMVXRMQUpsN1VuOThZWQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261024-cart-uber-dash-sale-talks",
       "time": "2026-10-24T12:00:00Z",
@@ -745,33 +763,6 @@
       "why": "FX is a clean, unmanipulable confirmation of physical memory shipments: exporter dollar conversion of this size can only come from invoiced volume at elevated ASPs, which corroborates that the DRAM and HBM upcycle underpinning Micron's revenue path is real rather than channel restocking. A stronger won also squeezes the won-denominated cost base of Samsung and SK Hynix, reducing their incentive to compete on price and supporting industry-wide pricing discipline into next year's contract negotiations. Equipment names benefit indirectly because sustained memory cash flow is what funds the next capex tranche.",
       "source": "Seoul Economic Daily",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZVV5bFY3ZHdnaDZpaS1ySVoxOFJuemxlMmRXc0JDeGV4dlZHZEdBR3I1Nkd0Qi1wek1CN1BXWnFDTGJ2Z0RZdVNOb0RpUHpDVzg1Z3hRdlduUjloS1ByR09hWGxmXzd4ZEc4VFhSNkZ5ZVJQdjJBT1RlTVZhVFBaN3FrT1NHbWtFU3M0clB4dHJWWlhncUxNNnVLZGY1akg3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-deepseek-model-ai-chip-demand-derating",
-      "time": "2026-10-19T03:00:00Z",
-      "headline": "DeepSeek's newest model and AI-financing worries drive a second leg down in Asian chip stocks, with a Bloomberg gauge of Asian chipmakers at its lowest since July",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "MRVL",
-        "ANET",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ASML",
-        "INTC"
-      ],
-      "why": "The bear case is not a demand cancellation but a compute-efficiency argument: if a frontier-class model can be trained and served with materially less accelerator time, the implied tokens-per-GPU rises and the dollar value of the installed-base refresh cycle falls, which compresses the terminal-year revenue assumptions embedded in AI semis multiples rather than near-term bookings. Layered on top is the funding channel \u2014 the marginal buyer of accelerators is now debt- and SPV-financed neocloud capacity, so a wider credit spread directly throttles order flow to NVDA, and through it to HBM (MU), foundry (TSM), networking (ANET, MRVL) and server ODMs (SMCI). Note the tape conflicts: Asian chip names fell while US index futures were quoted higher into the Monday open, so the derating is so far concentrated in Asia-listed supply-chain names.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-fuels-chip-demand-concerns",
       "alerted": false
     }
   ]
