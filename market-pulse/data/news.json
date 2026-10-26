@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-10-26T13:28:00Z",
+  "generated_at": "2026-10-26T22:49:39Z",
   "session_date": "2026-10-26",
   "items": [
+    {
+      "id": "20261026-anthropic-ipo-filing-ai-stocks",
+      "time": "2026-10-26T14:30:00Z",
+      "headline": "Equities Rise as Anthropic's IPO Filing Buoys AI and Tech Stocks",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "why": "Anthropic's public IPO filing provides an explicit valuation benchmark for commercial foundation model labs and validates accelerating enterprise AI deployment. The filing serves as a positive balance-sheet and revaluation catalyst for primary backers Amazon and Alphabet, while expanding multi-year revenue visibility for compute providers Microsoft and Nvidia.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261026-intc-new-street-upgrade-server-cpu-shortage",
+      "time": "2026-10-26T12:00:00Z",
+      "headline": "Intel Upgraded at New Street Citing Server CPU Shortage; Shares Rise Along With AMD and Nvidia",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA"
+      ],
+      "why": "New Street Research upgraded Intel following reports of tightening server CPU supply, which supports higher average selling prices and enterprise data center margin expansion. Tightness in server CPU capacity indicates resilient data center refresh demand, offering positive read-through for rival x86 vendor AMD and AI host-processor supplier Nvidia.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON3Z3eDViNUE2OFRBVWFNRVp3WlpiM2lTbEZCUm1CVFNYMC12S3BCSDA2N0xqeEJpLTZJdlNpX084M01MNHF4bFRQeTZwcnE4UEJMR2F0cUpHdFdLbXZrV3VqSW51ZWFqNFpWWEJETWllSVdhLWgtTEZfY2Y2Z0xWcUlGTWhjVkhnQ3VBSTUwbENTd0xEdXFXaw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261026-meta-35bn-offering-semiconductor-investments",
       "time": "2026-10-26T10:00:00Z",
@@ -717,47 +752,6 @@
       "why": "A domestic Chinese DRAM maker guiding revenue sharply higher is normally a supply threat, but the market is reading it as independent confirmation that memory contract pricing and bit demand are inflecting across the whole industry, not just at Micron's HBM franchise. Commodity DRAM/NAND pricing is the swing factor in Micron's gross margin, so a corroborated upcycle moves the multi-quarter EPS path more than any single order. It also implies more aggressive capacity adds, which feeds the wafer-fab-equipment order book.",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzgycjVEZy1udFpGVjlVc0hxamM0WWNWZWRLazhJZGxqeFo3YThfRkFYX0VDVURZUVZSbWpCMXJCTEt3OEdNcFZTb0VnaTF3RUVOR3hKanBUZzJOQVJQOHJoVldMTWo5aF9IdVdxV2JkVHB4WEF3TFB4Q2ZWanR5MFo4aw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-nvda-moonshot-blackwell-enforcement-risk",
-      "time": "2026-10-19T11:00:00Z",
-      "headline": "China's Moonshot reportedly seeks more Nvidia Blackwell access days after a US official flagged an export-control breach",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI",
-        "TSM"
-      ],
-      "why": "This pairs genuine incremental Chinese demand for top-end accelerators with fresh evidence that Washington believes existing controls are being circumvented, which raises the odds of tighter licensing or enforcement actions that would strand China revenue that is currently carried at or near zero in consensus. The asymmetry matters: the demand signal is worth little to earnings if it cannot be legally fulfilled, while an enforcement crackdown imposes diligence costs and channel risk across the whole accelerator supply chain. It keeps a policy discount embedded in the multiple rather than changing near-term shipments.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV2tyTkstdkVkNmJVTGdqcG9xempJVWVqb1Z5WHhvOTExVC1PRXJFUUJkQW1NN0VYeXJNMlk3MGdOWER6TGpiRzRYVXViZFlQdzE5WkpmcURMeEgxQndUVkN6dEVRbWFCTVN2eFdneXl3STNWb0ZoSVRvNHNYU2lCcGhUNkp1eWNvUEkyYUNWX2VaT1NrOXF3dXZGNmg5SDF3MHRUWVRLai1sSmpXT1ZUUmFOQS1WdWdWM1BJTF8xMXd4dmMySFhhbUJMVVFvU0drNTE2a2ln?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-ai-labs-export-control-leverage-dod",
-      "time": "2026-10-19T11:00:00Z",
-      "headline": "Senior Pentagon official says export controls could be turned on domestic AI labs that do not cooperate with the government",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "PLTR",
-        "ORCL",
-        "AMD"
-      ],
-      "why": "Export controls have so far been an outbound-to-China instrument; extending the threat to US model developers creates a new compliance overhang on the frontier-lab customers who place the largest accelerator orders. If labs must trade commercial freedom for government access, international deployment revenue and sovereign-cloud contracts carry policy risk, which widens the discount investors apply to out-year AI revenue. It also raises the option value for defense-aligned vendors that already sit inside the clearance perimeter.",
-      "source": "TOKENPOST",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mdHZFVjZieTdUdmZSVHFqSS1CQXhwbFpqRng0d2RPZVVrTS1GMHA0Zk51SkE5dDFIUGZkd3ZUSjF1am5XVkpkRTRDa0ZrUmtfekxRWWota3NpTm8?oc=5",
       "alerted": false
     }
   ]
