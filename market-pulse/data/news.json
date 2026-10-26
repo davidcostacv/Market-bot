@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-10-26T05:09:55Z",
+  "generated_at": "2026-10-26T13:28:00Z",
   "session_date": "2026-10-26",
   "items": [
+    {
+      "id": "20261026-meta-35bn-offering-semiconductor-investments",
+      "time": "2026-10-26T10:00:00Z",
+      "headline": "Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment",
+      "impact": 8,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "META",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "Meta announced a massive $35 billion stock offering alongside plans for a $60 billion program in 2027 to finance its aggressive AI infrastructure buildout. Semiconductor partners Nvidia, AMD, and Broadcom are reportedly considering up to $5 billion in strategic investment, cementing vendor balance sheet integration with hyperscaler compute expansion. While equity dilution creates near-term downside pressure on Meta shares, the liquidity guarantees multi-quarter capex visibility and sustained high-volume order flow for major chipmakers.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRUZTaHN0QlFyYk9uM1pRZWtkcWV4T19femtzQ3FwWXpGQnhDZDh0WFdQUU1EREtESlhjeUVKRUpfTkxfUjVhVGFFNFFnSUJ6NEc4RWNoUkJqZ19WdlNUNDZMb3U3N3RKUzZKa24zaTd0dkM0R0VLdThfUThyM1lIU2NOdlRXSHJTVXJyeUxfS1AtUnZqaVotNElVakI2QQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261026-a16z-gpu-rental-rates-rising",
+      "time": "2026-10-26T08:00:00Z",
+      "headline": "NVDA Stock Ticks Higher Overnight: a16z Data Shows GPU Rental Prices Rising Sharply, Even For Older Chips",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "Data from Andreessen Horowitz indicates secondary market and cloud GPU rental rates are surging, with pricing power extending even to older legacy accelerator hardware. The firming of rental yields signals that aggregate enterprise AI training and inference demand continues to outstrip cloud supply. Extended compute yield dynamics directly alleviate fears of an impending GPU inventory glut and bolster return-on-invested-capital calculations for hyperscale capex.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVzhIbU14cHlhdjlKTUNmTkpxbXBMTXRHb2U5Wk1rMVg0dEhwX216VVJmUEhfT3l5SUtKZVB0ZU91QklIdERHMDRzSXhmcExnMmJxSUxNMUhJNmpYdEN4bUFMTXlwbjY4WjRENmZyR0JfQWMwTWxramtEVi0teDZWOUVMTUVFRjJSTGg2NjJ6eTVXYmFxWllIT1BQeHFGemM?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261026-us-helium-critical-material-semiconductors",
       "time": "2026-10-26T00:00:00Z",
@@ -721,49 +758,6 @@
       "why": "Export controls have so far been an outbound-to-China instrument; extending the threat to US model developers creates a new compliance overhang on the frontier-lab customers who place the largest accelerator orders. If labs must trade commercial freedom for government access, international deployment revenue and sovereign-cloud contracts carry policy risk, which widens the discount investors apply to out-year AI revenue. It also raises the option value for defense-aligned vendors that already sit inside the clearance perimeter.",
       "source": "TOKENPOST",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mdHZFVjZieTdUdmZSVHFqSS1CQXhwbFpqRng0d2RPZVVrTS1GMHA0Zk51SkE5dDFIUGZkd3ZUSjF1am5XVkpkRTRDa0ZrUmtfekxRWWota3NpTm8?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-macro-fed-ai-capex-inflation-burden-shift",
-      "time": "2026-10-19T10:04:00Z",
-      "headline": "Fed officials frame AI build-out as a source of inflation that rate policy can only cool outside the AI economy",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "JPM",
-        "GS",
-        "NVDA",
-        "MSFT",
-        "AMZN"
-      ],
-      "why": "If the Fed treats datacenter-driven power, construction and equipment demand as price-insensitive to policy, the committee must hold rates higher for longer to extract the same disinflation from households and small business. That is a duration headwind for the index multiple and a direct earnings risk for consumer-credit-exposed lenders and small caps, while the AI capex cycle itself keeps running. The asymmetry argues for AI-levered large caps over rate-sensitive IWM constituents rather than a blanket de-risking.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWZLVGpmVmN6M1o1UUJnRXhSMmVWdjY2Mm4tR0IyeXk0OHZzOVRPamx6eEdEVjhEUHVXMlkzeFhoWkg4Qnl0a3lYQ0xJdWNzVHcydDA0NFdVb0ctbEVoMExGek50RHoxWF9TRThVMXRENDhWV2RUbVRGOVhvOEtoTmlTS1NlZGk0UldmSEY4N0tRVVRBeWc5SmJqRGlaVWwzeHRPa1hHZDNHZ3UxUjhwZHBGQXo0YlIw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-sk-hynix-korea-supplier-loan-guarantees",
-      "time": "2026-10-19T09:00:00Z",
-      "headline": "SK hynix and Korean government to provide $1.5bn in loan guarantees to semiconductor suppliers",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML",
-        "NVDA",
-        "SMCI"
-      ],
-      "why": "State-backed credit for the supplier base removes a working-capital constraint on memory capacity expansion, which is the mechanism by which an HBM upcycle actually converts into equipment orders and wafer starts. It signals SK hynix is committing to a multi-year capex ramp rather than harvesting the current pricing cycle, which is directly additive to the WFE order book. The second-order effect on Micron is mixed \u2014 more industry supply eventually caps DRAM pricing \u2014 but near term it validates that HBM demand exceeds installed capacity.",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQREtRX3hHWU9KVEtDRVFXZzE2QktuUnptZW1tTUV6YmVmNGNVUEVyM3hnVDRpYTk3Z2tBTmE4dTFMcVUxcmU5aHBISGlWdk5WNXZvSGhtZU5GQS1pRzkyMEFfQ1hKWkY1YkhDemFRLXJKVlM1am9uOXBGcnJlS2ZoVm5iQVFnWUxrNUd5X3J3TXJZelJhOEx1SDlERW9FanplN1czSlFBakJFWnNadUJyRXltY05vYXdNaUhKdXNWZHptd0VFMkxJR2Y4T3ptY3ZXeG5NS9IB1AFBVV95cUxQREtRX3hHWU9KVEtDRVFXZzE2QktuUnptZW1tTUV6YmVmNGNVUEVyM3hnVDRpYTk3Z2tBTmE4dTFMcVUxcmU5aHBISGlWdk5WNXZvSGhtZU5GQS1pRzkyMEFfQ1hKWkY1YkhDemFRLXJKVlM1am9uOXBGcnJlS2ZoVm5iQVFnWUxrNUd5X3J3TXJZelJhOEx1SDlERW9FanplN1czSlFBakJFWnNadUJyRXltY05vYXdNaUhKdXNWZHptd0VFMkxJR2Y4T3ptY3ZXeG5NSw?oc=5",
       "alerted": false
     }
   ]
