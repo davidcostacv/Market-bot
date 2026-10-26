@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-25T21:06:37Z",
-  "session_date": "2026-10-25",
+  "generated_at": "2026-10-26T05:09:55Z",
+  "session_date": "2026-10-26",
   "items": [
+    {
+      "id": "20261026-us-helium-critical-material-semiconductors",
+      "time": "2026-10-26T00:00:00Z",
+      "headline": "US designates helium as a critical material, citing its importance for semiconductors",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "TSM",
+        "MU",
+        "AMAT",
+        "LRCX",
+        "NVDA"
+      ],
+      "why": "The U.S. government has officially designated helium as a critical material to safeguard semiconductor manufacturing supply chains against severe supply chain bottlenecks. The decision enables strategic federal support, production incentives, and supply prioritization for fab operators that rely on ultra-pure helium for wafer cooling and process carrier gas.",
+      "source": "electronics.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPTDhDRVRJSnlWM3BrS3hTUWxrZHF6c3k4MU9ST3g5RFBOR01JT21LUnpWLUdtQThKXzdFQWhTcjI0M0F3MUR0QTU4b1JKdTRhenNSNFg2MW9MZnw1T2Z1RUNBcmFYQ3JpVDNuNTVlbjVNT3E4OHBMa1hJNUIxM3NjSXdjek10Wi1XZ0s5QmxwVzBiZnZzYUMzSXBDMTBpUzdaQUJWeE5rYkFhWUlfMTBwWHNNSTA3WnE2TjNjQmtXeEc1dF9FQnZhQ3ZENjB0b1F6MzBPNHJzTjZuaEVobDQ3eTczSHgwTWhPaHFSUTdhMjFSVS1vckgyQ1E4Uy0wR19tdXNJVkU1SnZHeEVXa0dKRXR6cXYtendQY3hiMXhXbDNQeGJJbGlDWmVsZ1k3SlIz0gH_AUFVX3lxTFBxS3IzLWR0mkh3eD3I3d3lRbDFqU01KWlowMUFfaVpYNXhEZ2d6Y3Z4b0tSa0pkbkZWRlhLamJOUl9fRG9Xal9LZmlWa3hVaEFxTFRoYmtEOTFHbnlKYlVNRFd4RFVNMDFtNk5yZzZyWHgtLUg5MDgwMVR6RV9RczZ0eUNLUUQ3QTBwOWpnSmt1YnZ4cjYxR2hBOVdzMXhONFJYZ3VjVEdRdTZITzU5dzFsUXpaZk1MS3RnNFZkSUZCaTdMX210V2xLZ0F6ak81MFlDSlc2ejNJRzFzb09WUlN1Y0VXM0FpZzRWcnBPNDM0YzREQ2k1b3dEcmFNRQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261025-nvda-huang-export-curbs-memory-demand",
       "time": "2026-10-25T08:00:00Z",
@@ -744,24 +764,6 @@
       "why": "State-backed credit for the supplier base removes a working-capital constraint on memory capacity expansion, which is the mechanism by which an HBM upcycle actually converts into equipment orders and wafer starts. It signals SK hynix is committing to a multi-year capex ramp rather than harvesting the current pricing cycle, which is directly additive to the WFE order book. The second-order effect on Micron is mixed \u2014 more industry supply eventually caps DRAM pricing \u2014 but near term it validates that HBM demand exceeds installed capacity.",
       "source": "The Korea Times",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQREtRX3hHWU9KVEtDRVFXZzE2QktuUnptZW1tTUV6YmVmNGNVUEVyM3hnVDRpYTk3Z2tBTmE4dTFMcVUxcmU5aHBISGlWdk5WNXZvSGhtZU5GQS1pRzkyMEFfQ1hKWkY1YkhDemFRLXJKVlM1am9uOXBGcnJlS2ZoVm5iQVFnWUxrNUd5X3J3TXJZelJhOEx1SDlERW9FanplN1czSlFBakJFWnNadUJyRXltY05vYXdNaUhKdXNWZHptd0VFMkxJR2Y4T3ptY3ZXeG5NS9IB1AFBVV95cUxQREtRX3hHWU9KVEtDRVFXZzE2QktuUnptZW1tTUV6YmVmNGNVUEVyM3hnVDRpYTk3Z2tBTmE4dTFMcVUxcmU5aHBISGlWdk5WNXZvSGhtZU5GQS1pRzkyMEFfQ1hKWkY1YkhDemFRLXJKVlM1am9uOXBGcnJlS2ZoVm5iQVFnWUxrNUd5X3J3TXJZelJhOEx1SDlERW9FanplN1czSlFBakJFWnNadUJyRXltY05vYXdNaUhKdXNWZHptd0VFMkxJR2Y4T3ptY3ZXeG5NSw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-qcom-intc-china-engagement-sanction-risk",
-      "time": "2026-10-19T09:00:00Z",
-      "headline": "Qualcomm and Intel deepen commercial ties with Chinese customers even as Washington tightens China tech rules",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "QCOM",
-        "INTC",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "China remains the single largest end-market for both companies' non-AI silicon and, for Qualcomm, for licensing royalties, so re-engagement defends a revenue line the market has largely written down. The offset is policy: any deal struck while export rules are being tightened can be revoked or politically contested, as prior licence revocations showed, so the cash flow carries a higher discount rate than comparable Western revenue. Net effect is a wider distribution of outcomes rather than a clean earnings upgrade.",
-      "source": "Global Sources",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWWVIT1RpVzhtbGswUTB3eUkweTd4akZmalNUSmlHc0pJZWlJbGNCSVNBRTNSUV9XZ2FZb1UtLU1GZXlpRHNaZkxaTU5UcU5JcXZWNFFGR0tZUWlHamo5V0xxd3hYcWhMdEZrR3lkeHRoaFNvQ2dlaHRjWXU3X0M3ZDRoaTMzZktHNUI4djVTMVpKUHZ6cG9lVVNza2pwd3EwWWMyTHpGMjVnVG5HVDNwYVlrNVpxVWRwYkktZXgxQjJzYUlkdm11WXFSZVVCaVE2QUVOa19kU1dvblVRNGMzbDFR?oc=5",
       "alerted": false
     }
   ]
