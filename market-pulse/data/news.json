@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:34:58Z",
+  "generated_at": "2026-10-27T18:12:31Z",
   "session_date": "2026-10-27",
   "items": [
     {
@@ -56,6 +56,59 @@
       "why": "Rambus beat Q3 earnings estimates but traded down after delivering weaker-than-expected forward guidance. Because Rambus licenses critical high-speed memory architecture and produces DDR5 memory interface chips, a conservative outlook points to potential inventory digestion or softer demand in traditional enterprise server memory channels relative to HBM.",
       "source": "Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1kzVXBYWTZoTVUxcE9fTE1ROUlTMTZ5c3E2dVhpOE9oV2hvRjhrVUhyTDAxVmNHUHJOeVMxSXZib3RzT0x3REl6a2FIdndSSkZQTzhjeXBNRlNRN1I0bXFleENvdWFOWTQydmhQZERpVHBkUHBrTGRZSnY0empXT2FPRml5aTlnWXVR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261027-ko-q3-earnings-guidance-raise",
+      "time": "2026-10-27T00:00:00Z",
+      "headline": "Coca-Cola Earnings Beat Q3 Estimates as Company Raises 2026 Guidance",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "KO",
+        "PEP"
+      ],
+      "why": "Coca-Cola reported third-quarter financial results that topped Wall Street expectations and raised its full-year 2026 financial guidance. Resilient organic volume growth and pricing power drove the outperformance, demonstrating strong earnings visibility despite broader consumer staples cost pressures.",
+      "source": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeV9KbTdzb3FrbDgtWlYwcGw0YVlJSXJ0aGlodXZ6VEZQdW93TlJxNllOZGtSSEJJdzFxeFllbUtRNmtKMXZGaUJRc2JFM3pXbUVjelpOV055UkRRMWMwMllFNl9GeE5Lb1lNOUE0d0ExOHVZdlVmcDNRQjFkcWx1MTk4MHhXTUxTcDl6MnVmOXB1YlJBcGlpRlVIUmpPNTNGa2M5RHVHaEQyMzBLbzU3aDln0gGyAUFVX3lxTE15X0ptN3NvcWtsOC1aVjBwbDRhWUlJcnRoaWh1dnpURlB1b3dOUnE2WU5ka1JIQkl3MXF4WWVtS1E2a0oxdkZpQlFzYkUzeldtRWN6Wk5XTnlSRFExYzAyWUU2X0Z4TktvWU05QTR3QTE4dVl2VWZwM1FCMWRxbHUxOTgweFdNTFNwOXoydWY5cHViUkFwaWlGVUhSak81M0ZrYzlEdUdoRDIzMEtvNTNoOWc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261027-avgo-da-davidson-upgrade-target-raise",
+      "time": "2026-10-27T00:00:00Z",
+      "headline": "Broadcom Rises 3% on DA Davidson Upgrade and $400 Target Tied to Anthropic IPO",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "NVDA",
+        "AMD",
+        "MRVL",
+        "TSM"
+      ],
+      "why": "DA Davidson upgraded Broadcom and raised its price target to $400, citing expanding custom ASIC demand linked to Anthropic's deployment scale. The upgrade underscores Broadcom's expanding margin profile and market share capture in custom AI accelerators alongside merchant GPU suppliers.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTWc1OERHME1fZTZOWUVoaVJDbWtSeGNWQ3ZRb0hsY0NxMzZmVmk2dGcxem5yVk5PaXlYTW9jRTI0eFBNZktaOWJuLXM0REowUXFabXdhU2twa3pUbkVxRjRsVDJNQ1R0UlZQZV9jN1RHOUV6TWlVUTVVM0ZZVjFJTU80MXZzZy1jSEQ4a0ZGTmhaa0N2TlBqWTNkVDZQN2VGX2JMQXV2VGpSeDVrbGlfX0FuZ3dEMWl1aGRRYm04UWViSTJDZ3ZwNkpoeUhxLWFmWmpGYi1SM3VhZFVqekxEWg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261027-tsm-japan-rapidus-funding-2nm",
+      "time": "2026-10-27T00:00:00Z",
+      "headline": "Japan Injects Massive Funding into Rapidus, Accelerating Entry into the Advanced 2-Nanometer Foundry Market",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "ASML",
+        "INTC",
+        "AMAT"
+      ],
+      "why": "Japan has committed additional state subsidies to foundry startup Rapidus to accelerate construction and production timelines for 2nm process nodes. While government capital injection expands long-term foundry capacity options and boosts semiconductor equipment demand, it introduces eventual competitive supply against incumbents TSMC and Intel.",
+      "source": "https://economy.ac/",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxUEpkTU8xejAxY2xJd0pEcDMzdVRtV081WFBBZW8zVC1KNDR1aEJiQ3kyWGJxWGJZUnRPV0NZWmdSelpZZ2xwSFhPOUlMM0JQYUpSeXZQOA?oc=5",
       "alerted": false
     },
     {
@@ -684,64 +737,6 @@
       "why": "Loop Capital issued a broker downgrade on Apple, warning of risk to near-term hardware earnings multi-quarter paths and limited valuation expansion potential. Lower sell-side estimates force market participants to re-evaluate earnings projections and compress the price-to-earnings multiple headwind into upcoming quarterly earnings.",
       "source": "Blockchain News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcDg3SjNrbWszWFVPSjlSMG50UUlVZWJzT0JRUVZoTlJFSVFXa1RaYnZTOS1TNzJUZmtqdkVTYnJNWEZsSjRDMVV0MTRjOElJeEQ0U290RGIxWGRFSTNLZFREM0xlNGVQUUwzTURBb2NLVnZLYjBxUmpuNVo4Rm45c1FHTjg0dWhiQ2VZYk0yODFmbnMxeGVITU5qRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-samsung-memory-margin-readthrough-mu",
-      "time": "2026-10-19T15:50:00Z",
-      "headline": "Samsung heads into Q3 print with record memory-driven profit, setting the margin benchmark for the DRAM/HBM cycle",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ASML",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "Samsung is the price-setter in commodity DRAM, so a record quarter driven by memory margin rather than handsets confirms that contract pricing \u2014 not just HBM allocation \u2014 is carrying the cycle, which is the swing variable in Micron's gross margin. Confirmation that the largest supplier is earning well above mid-cycle margins also removes the discipline argument for restraint and pulls forward memory capex, the demand input for the wafer-fab equipment names. Estimates for Samsung's quarter vary across local press, so treat the specific profit figure as unsettled.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWS14Zm82NGxaZ3hYNVk1blhQQ2g2bzN5MnZmXzBQNHZ2TlFsVW9DV292WXRoem02S0JUX0tNSGpvdmlHS2pObXFwbnVvbjRJNkVzbkcxOXI3ZEVYeTFoU0lFdE5rYUhfbUYzRFhFdk9zRUtGdjZ6T2ZkczJCWURSWHpLdEZEbWtxbDFSenM3VlNZUFJ0bmhSdHdBX3FaMl8zQ2NwT3FtS2RhbHg4a0RkVXg0TF8?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-mu-revenue-target-figures-conflict",
-      "time": "2026-10-19T13:30:00Z",
-      "headline": "Micron's forward revenue target in focus, with sources citing conflicting figures",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "SMCI",
-        "LRCX",
-        "AMAT"
-      ],
-      "why": "The size of Micron's forward revenue base is the single input that determines whether the stock is trading on peak-cycle or mid-cycle earnings, and the figures now circulating are materially different \u2014 TradingView cites a $61.5bn target while earlier coverage of the fiscal guide pointed to roughly $50bn. Sources conflict on the number, so until it is reconciled the dispersion itself widens the plausible EPS range and justifies a higher option-implied move. A top-line step-up of that magnitude flows almost entirely to operating leverage in memory, where incremental bits carry high contribution margin.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZTNEUlduVHROMm9yNG1sdnRHUVBzY0JkWWhxbm9KUWRKdzZwUmVRdHhYdEZfbW1EdEdIcnV2dUhrekNCQjM2bUFkM1lXMU9rZDhiR3lnbTFaeGxpeTVJbWV6N0NRb2oyMjltVDhfNEtmbWtCRVRjZmVQRnZRLVlUc2RlRm1LaDU4UzlYMjZUam15TzJqdExia3BxM3NIelE4QmpnNlV0YTlmcHZzc1BMWmFwVlRsMlB5MnZYdjJnNA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261020-amd-td-cowen-agentic-inference-cpu-tam",
-      "time": "2026-10-19T13:06:00Z",
-      "headline": "TD Cowen reiterates Buy on AMD at $675, arguing agentic AI and production inference expand the server CPU opportunity",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA"
-      ],
-      "why": "The argument shifts the earnings driver away from the GPU share debate, where AMD is the clear number two, toward server CPU attach: production inference and agentic workloads are CPU-heavy on orchestration and data prep, so every incremental AI rack pulls EPYC content that carries higher margin than accelerators. If the sell-side consensus adopts this framing into the Nov. 3 print, the data-center estimate base broadens and the stock de-rates less on any single GPU datapoint. The read-through is negative for Intel, since AMD's server CPU dollars come largely out of x86 share.",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qSEl3bUFUaUFRdGg4YjZVa3hPRklUQkJGRmo5YWNxNjB6UWhmem4xdzN0RDcxTDN3N3kyX2JVOGkyT2Zwa2FoNXA3TWlsY1NFWjQ2NDFEWjhWWlluVThuNmwyZzFjdTFTSnF1eC14VVlnWTBVSnlDTjRlb2JPZw?oc=5",
       "alerted": false
     }
   ]
