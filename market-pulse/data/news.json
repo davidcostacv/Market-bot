@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-27T05:24:43Z",
+  "generated_at": "2026-10-27T12:34:58Z",
   "session_date": "2026-10-27",
   "items": [
+    {
+      "id": "20261027-bok-korea-chip-export-warning",
+      "time": "2026-10-27T04:00:00Z",
+      "headline": "Bank of Korea warns country's chip exports could fall by up to $100 billion if AI spending slows",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "The Bank of Korea published a stress-test scenario modeling that South Korea's semiconductor exports could contract by $50 billion to $100 billion if U.S. technology giants temper their current AI infrastructure investment velocity. The analysis underscores how high-bandwidth memory and advanced chip supplier revenues are heavily dependent on sustained hyperscaler capital expenditure, posing downside risk to valuation multiples across the semiconductor supply chain.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVUNZS1BDcWhYVDJvcFJDblFsVWcyRHZPWEVndVl3alk3SHFYUDRXaXkyMnJTUjZYWDhuT2JZMzlLUUUyVTdqMlZ2SmlielRBTEg1ckpnLXdPV2VtaDBLRlNqa3VnZG9BenAxaDF4eFJxTWtHektWV2wxSU9nb3RYSGZNeWFoTHhJZTM5Q1hnNWFjZw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261027-skorea-q3-gdp-chip-export-surge",
       "time": "2026-10-27T00:00:00Z",
@@ -723,26 +742,6 @@
       "why": "The argument shifts the earnings driver away from the GPU share debate, where AMD is the clear number two, toward server CPU attach: production inference and agentic workloads are CPU-heavy on orchestration and data prep, so every incremental AI rack pulls EPYC content that carries higher margin than accelerators. If the sell-side consensus adopts this framing into the Nov. 3 print, the data-center estimate base broadens and the stock de-rates less on any single GPU datapoint. The read-through is negative for Intel, since AMD's server CPU dollars come largely out of x86 share.",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qSEl3bUFUaUFRdGg4YjZVa3hPRklUQkJGRmo5YWNxNjB6UWhmem4xdzN0RDcxTDN3N3kyX2JVOGkyT2Zwa2FoNXA3TWlsY1NFWjQ2NDFEWjhWWlluVThuNmwyZzFjdTFTSnF1eC14VVlnWTBVSnlDTjRlb2JPZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-intc-jpmorgan-upgrade",
-      "time": "2026-10-19T13:00:00Z",
-      "headline": "JPMorgan upgrades Intel after steep pullback; INTC and AMD both rise ~4%",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "A bulge-bracket upgrade after a sharp drawdown shifts the marginal buyer base and compresses the risk premium on Intel's foundry turnaround, which had been priced for execution failure. Because the call is framed as valuation support rather than Intel share gains, AMD trades with it instead of against it, signalling the move is a sector-wide de-risking of x86 and domestic-fab exposure rather than a share-shift story. It raises the floor on multiples for the lagging semis after an eight-session derating.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3gzbjBVYjhaNWZIbUVubDdTLXNaTFFzQXFrZFRURlZLQWhsN2FpQllWTFdKbEQzVVV4X3FvMjI5ZnViNFlIaUx4Y3h5Ukg3MENBQnFZdy0wdlQxQl9oTEdzMUhqd1RxYmpaRmpSSFZsVXRRdU1iQ3JBUXdsMUlWc1hZYm9hQWRHVzRwdm5QSjBoZW1yYUk0aFBOMnlob1lHQnp4SHZ5LWVFT2xrSkw1bC1Lb3JjbkJfRXVadTlXTEp3aTBZR1VQRTlWZWg?oc=5",
       "alerted": false
     }
   ]
