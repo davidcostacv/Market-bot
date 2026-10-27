@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-10-26T22:49:39Z",
-  "session_date": "2026-10-26",
+  "generated_at": "2026-10-27T05:24:43Z",
+  "session_date": "2026-10-27",
   "items": [
+    {
+      "id": "20261027-skorea-q3-gdp-chip-export-surge",
+      "time": "2026-10-27T00:00:00Z",
+      "headline": "Korea's Q3 GDP Grows 1.0% on Chip Boom, Tripling BOK Forecast",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "South Korea's Q3 GDP expanded by 1.0% quarter-on-quarter, tripling central bank forecasts due to a historic surge in semiconductor exports. The official economic data provides hard validation of sustained global demand for high-bandwidth memory (HBM) and advanced logic chips, reinforcing revenue visibility for memory providers like Micron and broad AI hardware suppliers.",
+      "source": "Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0UERwTE0zcndqQ3haMmZ6VTlLSHJjUFk4aDNYUERFWGtpZmI2a3Z1WVZkVmVvUjRmQ2hQYnhibU1oQXlmeDRQRnlFV3loVzBBTS0xQi0wd0t3ZG4xZnVDNWRDV3VIaTZ0dTBUcG5PSU5kU05w?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261027-rambus-q3-earnings-guidance-cut",
+      "time": "2026-10-27T00:00:00Z",
+      "headline": "Rambus falls despite earnings beat on muted guidance outlook",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "RMBS",
+        "MU",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Rambus beat Q3 earnings estimates but traded down after delivering weaker-than-expected forward guidance. Because Rambus licenses critical high-speed memory architecture and produces DDR5 memory interface chips, a conservative outlook points to potential inventory digestion or softer demand in traditional enterprise server memory channels relative to HBM.",
+      "source": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1kzVXBYWTZoTVUxcE9fTE1ROUlTMTZ5c3E2dVhpOE9oV2hvRjhrVUhyTDAxVmNHUHJOeVMxSXZib3RzT0x3REl6a2FIdndSSkZQTzhjeXBNRlNRN1I0bXFleENvdWFOWTQydmhQZERpVHBkUHBrTGRZSnY0empXT2FPRml5aTlnWXVR?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261026-anthropic-ipo-filing-ai-stocks",
       "time": "2026-10-26T14:30:00Z",
@@ -706,52 +743,6 @@
       "why": "A bulge-bracket upgrade after a sharp drawdown shifts the marginal buyer base and compresses the risk premium on Intel's foundry turnaround, which had been priced for execution failure. Because the call is framed as valuation support rather than Intel share gains, AMD trades with it instead of against it, signalling the move is a sector-wide de-risking of x86 and domestic-fab exposure rather than a share-shift story. It raises the floor on multiples for the lagging semis after an eight-session derating.",
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3gzbjBVYjhaNWZIbUVubDdTLXNaTFFzQXFrZFRURlZLQWhsN2FpQllWTFdKbEQzVVV4X3FvMjI5ZnViNFlIaUx4Y3h5Ukg3MENBQnFZdy0wdlQxQl9oTEdzMUhqd1RxYmpaRmpSSFZsVXRRdU1iQ3JBUXdsMUlWc1hZYm9hQWRHVzRwdm5QSjBoZW1yYUk0aFBOMnlob1lHQnp4SHZ5LWVFT2xrSkw1bC1Lb3JjbkJfRXVadTlXTEp3aTBZR1VQRTlWZWg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-crwv-goldman-upgrade-ai-infra-rerate",
-      "time": "2026-10-19T13:00:00Z",
-      "headline": "Goldman Sachs upgrades CoreWeave to buy on contract economics, lifting the AI-infrastructure complex",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "MU",
-        "AMD",
-        "ANET",
-        "MRVL",
-        "SMCI",
-        "ORCL",
-        "MSFT",
-        "AMZN",
-        "TSM"
-      ],
-      "why": "The bear case that cracked AI stocks last week was financing, not demand: neocloud leverage and the residual value of GPU fleets. A bulge-bracket desk underwriting the customer-contract economics and residual-value assumptions directly attacks that argument, which lowers the perceived cost of capital for the whole GPU-leasing chain and therefore sustains the order book that NVDA, AVGO, MRVL, ANET and HBM suppliers are being valued on. It is a multiple event for the suppliers rather than an earnings event.",
-      "source": "The Star / Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOajZMY2h4VmxtQlQzY21PQm52ajR3LTdWUUhxbk1Zb1BITjZ2enJ3aXZEU1NoQ2VCNkdrZkFIajU4TXJOTVIyNFlUSHJBeWg2MGZQUVJwMTMzajczdjFvdF83dU4xWTJrd0pwWXV2cWR4Uko4aTJQLXhyM1lTZ2NsMEVZTERqYjFBNjdWVWUwS0I1bm80SWNEYURoV2R5NnNwanFPSXZnbkJGbWcyTF9zYXJn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261019-mu-china-rival-memory-cycle-confirm",
-      "time": "2026-10-19T12:30:00Z",
-      "headline": "Micron rallies as Chinese memory rival guides to a revenue boom",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "SMCI",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ASML"
-      ],
-      "why": "A domestic Chinese DRAM maker guiding revenue sharply higher is normally a supply threat, but the market is reading it as independent confirmation that memory contract pricing and bit demand are inflecting across the whole industry, not just at Micron's HBM franchise. Commodity DRAM/NAND pricing is the swing factor in Micron's gross margin, so a corroborated upcycle moves the multi-quarter EPS path more than any single order. It also implies more aggressive capacity adds, which feeds the wafer-fab-equipment order book.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzgycjVEZy1udFpGVjlVc0hxamM0WWNWZWRLazhJZGxqeFo3YThfRkFYX0VDVURZUVZSbWpCMXJCTEt3OEdNcFZTb0VnaTF3RUVOR3hKanBUZzJOQVJQOHJoVldMTWo5aF9IdVdxV2JkVHB4WEF3TFB4Q2ZWanR5MFo4aw?oc=5",
       "alerted": false
     }
   ]
