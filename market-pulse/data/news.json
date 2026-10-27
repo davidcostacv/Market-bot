@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-10-27T18:12:31Z",
+  "generated_at": "2026-10-27T22:30:04Z",
   "session_date": "2026-10-27",
   "items": [
+    {
+      "id": "20261027-stx-q1-earnings-slide",
+      "time": "2026-10-27T13:30:00Z",
+      "headline": "Seagate Stock Slides Despite Earnings Beat, Adding To Slump For AI Stock",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "STX",
+        "WDC",
+        "MU",
+        "NVDA"
+      ],
+      "why": "Despite beating quarterly earnings expectations, Seagate shares fell as forward guidance failed to meet high market expectations for AI data center storage demand. The post-earnings decline reflects investor sensitivity to valuation multiples and margin trajectory across data center hardware suppliers. The selloff creates negative read-through pressure for competitor Western Digital and enterprise memory suppliers.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONF8xSzdQaTJlZHB6ZkFUcUNaOXU4MXNHREVSWW5yeU1QYS1vMkFrZzVtOHJEWGxrSldxMERxa3Y5MmZwbVdUaTQzakNqM1Rzeko5YUlDR0xxSHAxbkR0cUk2NjRlWkFZdzE4TnRWaFVNczhvQUZxT0wwSDBZRUc5MjdlZ3hKRTJEVWF3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261027-amd-meta-ai-infrastructure-deal",
+      "time": "2026-10-27T12:00:00Z",
+      "headline": "AMD stock rallies on expanded Meta AI infrastructure deal and broader chip rally",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "META",
+        "NVDA",
+        "TSM",
+        "MU"
+      ],
+      "why": "Meta's expanded AI infrastructure agreement with AMD validates ongoing commercial adoption of AMD's Instinct accelerator platform alongside market leader Nvidia. The deal boosts AMD's data center revenue visibility into upcoming quarters while confirming that hyperscaler capex remains supportive. Read-through benefits extend to contract foundries and memory providers supporting high-performance computing deployment.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDhaMUlBSC1CWUlWZGcxLU5GRnJ3NlZROGRCdHpOZW5VZDlYOTJCRlprelVEX1ZoM2xWdGVJdFUtNUFfMFpOQzh5T1V0ZGZ5N3VsWmNZUi0wU19feVJCRUVSd25jTzlFOEFUbnBRVlFneF95WThxZlROVVYxS0JFdU51RTBmSmp6QkJmd1NuLVZKOHZ0VjFQaGhrRQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261027-bok-korea-chip-export-warning",
       "time": "2026-10-27T04:00:00Z",
@@ -705,38 +742,6 @@
       "why": "Korea is the purest listed proxy for the memory and AI-hardware cycle, and the magnitude of the round-trip points to a margin-debt liquidation rather than a change in fundamental demand \u2014 forced selling compresses multiples across the complex regardless of DRAM and HBM contract pricing. That matters for US memory and accelerator names because Samsung and SK Hynix marks are the overnight anchor for how US chip desks reprice at the open. Note the conflicting tape: US chip indices rebounded in Monday's session even as the Asian session reopened sharply lower, so the two signals have not yet reconciled.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWF9qWFhBckY1SG9TdnVQblhtajNyQktPaXFvU0ROUlpaSTd3U1FVOFl4bUYyT0VYaEdFT19LZmhuWk56YktTMmt4alpHLXFEZERyWnoxT3h6MFZLTG9vRFlFSDQ3SkV2bUVES0FnNzdXcmFoS2RidFFSdGc5eFJFcHY4T0xSOHJvS0VhbFZZY1VQSWlTazRv?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261020-smci-sales-estimate-guidance-beat",
-      "time": "2026-10-20T00:00:00Z",
-      "headline": "AI platform demand pushes Supermicro's sales estimate above guidance",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Super Micro Computer indicated that accelerating market demand for AI server platforms has driven revenue projections above its previous management guidance. Increased server rack shipments provide immediate positive read-through for accelerator vendors NVDA and AMD, confirming strong server deployment trends across tier-1 hyperscalers.",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0R0SXYwbzd5b3NpWF9NWGVfR0oyQ0gyaGZhdUwzbTdEUmc0d00yclcwNmkyUjdaQXBJdVRucEh1dDhIT283NmZVWHRrY3ZZV3JzYml4ZkFUQndURkxUSjVCb3lDU2h3VDg3Z1pKRnhtQ2J5WVRLcmZyd2FnekVzNXFqblhwZnlEX3lsd09zX3pjUk5iNllpZDdKb1pHSFp6ZlR4VTdFcTNiOUdvaUo5WFBCQWhoVzdQdk8teQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261020-aapl-loop-capital-downgrade",
-      "time": "2026-10-20T00:00:00Z",
-      "headline": "AAPL Price Prediction: Loop Capital's Downgrade Puts $330 in Frame as Binance Futures Lean Short",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AAPL"
-      ],
-      "why": "Loop Capital issued a broker downgrade on Apple, warning of risk to near-term hardware earnings multi-quarter paths and limited valuation expansion potential. Lower sell-side estimates force market participants to re-evaluate earnings projections and compress the price-to-earnings multiple headwind into upcoming quarterly earnings.",
-      "source": "Blockchain News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcDg3SjNrbWszWFVPSjlSMG50UUlVZWJzT0JRUVZoTlJFSVFXa1RaYnZTOS1TNzJUZmtqdkVTYnJNWEZsSjRDMVV0MTRjOElJeEQ0U290RGIxWGRFSTNLZFREM0xlNGVQUUwzTURBb2NLVnZLYjBxUmpuNVo4Rm45c1FHTjg0dWhiQ2VZYk0yODFmbnMxeGVITU5qRQ?oc=5",
       "alerted": false
     }
   ]
