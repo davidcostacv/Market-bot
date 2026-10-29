@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-29T06:16:11Z",
+  "generated_at": "2026-10-29T13:32:06Z",
   "session_date": "2026-10-29",
   "items": [
+    {
+      "id": "20261029-samsung-earnings-memory-selloff",
+      "time": "2026-10-29T06:00:00Z",
+      "headline": "Samsung Stock Plunges After Earnings, Dragging Micron, SanDisk, and Western Digital Down Over 3% Pre-Market as Market Focuses on SanDisk Earnings - TradingKey",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "WDC",
+        "SSNLF"
+      ],
+      "why": "Samsung's post-earnings stock plunge signals broader pricing and demand headwinds across the semiconductor memory market. The disappointment creates a direct negative read-through for peer memory chipmakers, compressing valuation multiples and lowering near-term earnings expectations for pure-play memory suppliers.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNakRJaWlSeUc3b3V6MTVnYTFNdEw3VTAwQko1UHI2RXBoUW94MGFhYkRaY1_lMzl6WjZ6MC02ZW82Uk56UUxSWFZkX0xkdl_oV3p0Wk1BbmptRFNPMEszMW10Y25YMi1YMEJTNEVRbmFaV2lqdzlaVGtWWnJVQjBEX0diaVRJN3dZX0tBdVBZTTZmWU9YMS1rSHFHdlNXbzJXbk5RWTJZaUs3SFFuaGRIQjUwZFNjV05lYkppUHJkUXI2T2NMOW1Ka1I3bjU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261029-nvda-malaysia-chip-seizure",
       "time": "2026-10-29T00:00:00Z",
@@ -720,23 +737,6 @@
       "why": "General Motors shares dropped over 6% after issuing full-year profit guidance that fell short of market expectations despite meeting quarterly revenue targets. Increased promotional pricing, higher EV unit costs, and inventory adjustments in North America pressured operational margins, sending a negative demand signal across automotive OEMs.",
       "source": "\u5bcc\u9014\u725b\u725b",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQm4wbmd2R2dVNnE3M0MtMDhLUzFROEZBakM5ZmdyRmFNcTJKUGk4Z0tCUlhsb2tXeHBOQldIaVJUMFVyUzh4Ymo4WjlVdE9LaVg5bzNyRUtWWGlzbVVfeXpjcl_5ZnVqUkxURC1EN2VSSWNFLWRvUE1mU1pTQm5IZFBrSFczdGdBWmJtbDFGNWV2Z2VsZlZTbmZiVTREdHBCY0QteThGRWFNSVJuMWJEQ0dNcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-amd-wedbush-bullish-server-cpu",
-      "time": "2026-10-21T00:00:00Z",
-      "headline": "Wedbush Turns Bullish on AMD Ahead of Earnings: Server CPUs Lead the Charge, While 2027 Guidance Remains to Be Tested",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA"
-      ],
-      "why": "Wedbush issued a bullish research note on AMD ahead of its upcoming earnings release, citing accelerating market share gains in enterprise server CPUs against Intel as cloud providers expand host nodes for AI accelerators. Robust x86 CPU demand improves high-margin server revenue visibility, though long-term multi-year AI accelerator targets remain the main benchmark for valuation upside.",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1ZZdlItUzFmSHBVcnZjVEc1ampaaXRJYTliUXBEZ3BEbS0xc3Q4UXFjOEJmbUlqWDdMVE4xa0tqdEtJY0J5dDZDdkNfMlAwSkJ0dFJkV016NUIyS1U1MENKSlZRUG55M1VUbWJkcXk1OTBUX21XemVlOUs3WEh5MlBpbEU5MEhfNG9nbmNBZW9tUTZIUDN5Q2pDdjZPZlltX2JacUdB?oc=5",
       "alerted": false
     }
   ]
