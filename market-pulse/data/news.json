@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:32:06Z",
+  "generated_at": "2026-10-29T22:54:36Z",
   "session_date": "2026-10-29",
   "items": [
     {
@@ -17,6 +17,60 @@
       "why": "Samsung's post-earnings stock plunge signals broader pricing and demand headwinds across the semiconductor memory market. The disappointment creates a direct negative read-through for peer memory chipmakers, compressing valuation multiples and lowering near-term earnings expectations for pure-play memory suppliers.",
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNakRJaWlSeUc3b3V6MTVnYTFNdEw3VTAwQko1UHI2RXBoUW94MGFhYkRaY1_lMzl6WjZ6MC02ZW82Uk56UUxSWFZkX0xkdl_oV3p0Wk1BbmptRFNPMEszMW10Y25YMi1YMEJTNEVRbmFaV2lqdzlaVGtWWnJVQjBEX0diaVRJN3dZX0tBdVBZTTZmWU9YMS1rSHFHdlNXbzJXbk5RWTJZaUs3SFFuaGRIQjUwZFNjV05lYkppUHJkUXI2T2NMOW1Ka1I3bjU?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261029-intc-q3-earnings-q4-guidance-cut",
+      "time": "2026-10-29T06:00:00Z",
+      "headline": "Intel plunges 20% as weak Q4 forecast overshadows earnings beat",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "TSM",
+        "MU"
+      ],
+      "why": "Intel reported mixed Q3 financial results but issued a significantly lower-than-expected fourth-quarter outlook, citing persistent PC market weakness and supply bottlenecks. The outlook downgrade dims near-term margin recovery prospects and signals sluggish consumer PC demand, pressuring market earnings expectations for x86 processor competitors like AMD.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlczFWcC1WVTdsdENmNVdsNnJpczI0SzZqRkZuel9NLTdsUG85UlJDVEV4NllwUmRUXy1QZGV6ci1BamdFQTVtQ2hlelhiR21LNzJsQ2dCSzdTc1JCQUdDVU90bGY2a3hIeldPa043TnYtelgtZFh2b04xblrSAYIBQVVfeXFMT0lPRHpDdlR4ZlpnZWc1SS1mTHNjZGE3VVItSnA5bndoU3ByQVFPa2Rzakx2QlFoWW52ZVM1dF9aWjdlczFEby05eHhwaEQ5YllseUJlbjkwRzNva0VWdkM0Tkp3a2tZcTZydktHUXdmZEZwamdwMTBuUUNwY3hDZHRDZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261029-googl-q3-earnings-selloff",
+      "time": "2026-10-29T05:30:00Z",
+      "headline": "Alphabet sinks 11.8% following quarterly earnings fumble and cloud growth concerns",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "why": "Alphabet shares tumbled after quarterly financial results highlighted slowing growth in cloud operations alongside sharply higher capital expenditures dedicated to AI infrastructure buildouts. The margin compression and elevated expenditure plan triggered a selloff across hyper-scaler software and digital advertising peers.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRXZiTHlKd3N6MWVLSlRvTks5WTJuUmRkQk1DelN3SEUwT0VRZnNKaGhHcjRPRHNKMFl0RjNaclhJN0ZRNTJSRUl2dHRCdkMtTGs2dXJiZFllUmxXNG9pdVNjTVlfeUpReTdDUHRaMk5BX3pTZFNnSS1yamEtV2RkMWtJSlRzY2g1OFJpSkxscjVxcnYzdFhJdDVRcG1wWldXTnBLYmJUREwxQ3UweUZFZXFQbXJselBDTkFIN2QxMldNam1oY3FTa1dkNUV4RWxr?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261029-us-gdp-inflation-snapshot",
+      "time": "2026-10-29T04:00:00Z",
+      "headline": "U.S. economy shows stronger GDP growth alongside sticky inflation ahead of midterms",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "The final economic print prior to midterms indicated solid GDP growth alongside persistent underlying inflation. While resilient consumer spending supports corporate revenue bases, sticky inflation caps broad equity valuation multiples by limiting the Fed's room for aggressive interest rate cuts.",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CcHgwbVpMWEZWTm5kOVlEdWVjaXU3c1VHVzNpaXRsdGVOYUkzMjlOamtjbXRIZUF0SEtCTF9SYnllaDRKMjBIelJGRm5JN1BwWXBKUzBKUHAxblpDSHZDaThBVVdvV0tnRUYyWkVaeEtELWF1UEE?oc=5",
       "alerted": false
     },
     {
@@ -684,59 +738,6 @@
       "why": "Workers at Micron's Taiwan manufacturing facilities have initiated labor walkouts over wage disputes despite record corporate earnings. Taiwan houses critical DRAM and high-bandwidth memory (HBM) packaging lines essential for supplying AI accelerator hardware to Nvidia and AMD. Any sustained operational disruption in Taiwan risks constraining HBM delivery timelines and elevating Micron's unit production costs.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQl_BQ0hFRnJnZVRPMUxrbGhfMVlrWFV2dGtPcl9sUlIwSmtNOE1IUWxmeS1OdXIycDJJcW5rSWlLclVHN29ndmxiVUE1dGhEcnZ1RU1DdDNPbk9MYUhpQjhVQWJObHJCVGJYWGNNOTlmNHpIS0k3c29OWGM2OXFtR0dIVnp6Z0pmVDZHX1J1ZzF4dFFsa3ZIRUxhalUwdEVER0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-susquehanna-chip-pt-changes",
-      "time": "2026-10-21T02:15:00Z",
-      "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts \u2014 Susquehanna Sees \u2018Modest Upside\u2019 For Chip Earnings",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "QCOM",
-        "INTC",
-        "COHR",
-        "NVDA"
-      ],
-      "why": "Susquehanna adjusted price targets across top semiconductor names ahead of earnings, raising targets for AMD and Qualcomm while cutting estimates for Intel and Coherent. The broker cited bifurcated demand trends where data center server CPU share gains and mobile connectivity favor AMD and Qualcomm, while PC market softness and legacy platform margin pressures drag on Intel.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMVlhVmwtMzY3VXU0T0Y4c0M1MUNpeE9pZE1GaWhBd0pSTTBoWEdJOXJSNVlOMDZRQk9aQ0N5R05VMFlHbUsyUUJfM003Z3d3R0JtTXYtM3ZPZGgwWTVjcTRYQ2QyMDNnZExhNWlHTTlkVV9rQWpnUTgyQ2tCZS0yTEtHbVlHRlE3QTZfM3N3a2V4enZIMlY3NHVn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-samsung-skhynix-china-nand-upgrade",
-      "time": "2026-10-21T01:45:00Z",
-      "headline": "Samsung, SK Hynix Modernise China Plants To Produce Advanced NAND Chips",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "LRCX",
-        "AMAT"
-      ],
-      "why": "Samsung and SK Hynix are upgrading their fab equipment in China to produce higher-layer advanced NAND flash memory, maintaining cost competitiveness through existing infrastructure. The modernization increases bit supply density in global memory markets, providing lower component input costs for storage buyers while driving incremental equipment refresh demand for WFE suppliers like Lam Research and Applied Materials.",
-      "source": "Arise News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbHBsaS1oY01wV3BpMFFCZDI0SE90Q2J1d2ZSN0xCU1E0T1E1ay1fNmVHaWM0QV_PajNUN0xiME1yYWlodUFGNHJPcmNoZWVUdUtzdjFMazR3MUpEMWZmV252T2YtdGU5SmRtTnEtNk9qaGV0LWFadThUdFpzVDZ4OFkza3JPdkpPQ3l0eGQ3MmQtR1lSbTBr?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-gm-q3-guidance-cut",
-      "time": "2026-10-21T01:00:00Z",
-      "headline": "General Motors plunges after earnings as profit guidance falls short of expectations",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "GM",
-        "F",
-        "TSLA"
-      ],
-      "why": "General Motors shares dropped over 6% after issuing full-year profit guidance that fell short of market expectations despite meeting quarterly revenue targets. Increased promotional pricing, higher EV unit costs, and inventory adjustments in North America pressured operational margins, sending a negative demand signal across automotive OEMs.",
-      "source": "\u5bcc\u9014\u725b\u725b",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQm4wbmd2R2dVNnE3M0MtMDhLUzFROEZBakM5ZmdyRmFNcTJKUGk4Z0tCUlhsb2tXeHBOQldIaVJUMFVyUzh4Ymo4WjlVdE9LaVg5bzNyRUtWWGlzbVVfeXpjcl_5ZnVqUkxURC1EN2VSSWNFLWRvUE1mU1pTQm5IZFBrSFczdGdBWmJtbDFGNWV2Z2VsZlZTbmZiVTREdHBCY0QteThGRWFNSVJuMWJEQ0dNcw?oc=5",
       "alerted": false
     }
   ]
