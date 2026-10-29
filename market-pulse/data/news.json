@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-28T22:45:49Z",
-  "session_date": "2026-10-28",
+  "generated_at": "2026-10-29T06:16:11Z",
+  "session_date": "2026-10-29",
   "items": [
+    {
+      "id": "20261029-nvda-malaysia-chip-seizure",
+      "time": "2026-10-29T00:00:00Z",
+      "headline": "Malaysia Seizes $12 Million in Advanced AI Chips Hidden in Servers Amid Export Control Crackdown",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "SMCI"
+      ],
+      "why": "Malaysian customs intercepted $12 million of server hardware containing restricted AI processors, targeting an illicit transshipment network using Southeast Asia to bypass U.S. export controls. The crackdown signals stricter enforcement on regional proxy channels, raising compliance friction and curtailing unauthorized sales volume for top AI chipmakers and server assemblers.",
+      "source": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQYm5lT0dvV3hLY1BycjB4eUFwUjVPem5WWkt4UmNyV2dFZno4V1I4dU5ocVE4U25Mb0h0b2tVWDRzS2QyZndWZnozYi1meGM1S2RsUWplZ2JVZDRMbjJETUU2dzdZaWxxdkd1TEtrMkI3X3hsT3pXdE9Qc09uSFdyOXB4eGZVX0FMcnBPQXNFMXp3OXVGU2ZJYzRkVUhac1_SKZnEnXdXOHVoTTN5Z1dvV3Y3eFBrdTllZ3ZLQlNlbVJ6MDMyRHRzUTZreTJ3cWNlOW1FbjJ5LUMxaURHUHplcnpfcEJFOGh0ZWpkMmZibDJFSVNqWGZxQm9ScjRVY3daT19RLTJFdXV2MDZ2X0FMSTg4M3N0Q0hyNzFpUkU1XzlsSVNVdjdydDhONXc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261028-fed-fomc-holds-rates-steady",
       "time": "2026-10-28T18:00:00Z",
@@ -719,24 +737,6 @@
       "why": "Wedbush issued a bullish research note on AMD ahead of its upcoming earnings release, citing accelerating market share gains in enterprise server CPUs against Intel as cloud providers expand host nodes for AI accelerators. Robust x86 CPU demand improves high-margin server revenue visibility, though long-term multi-year AI accelerator targets remain the main benchmark for valuation upside.",
       "source": "Moomoo",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1ZZdlItUzFmSHBVcnZjVEc1ampaaXRJYTliUXBEZ3BEbS0xc3Q4UXFjOEJmbUlqWDdMVE4xa0tqdEtJY0J5dDZDdkNfMlAwSkJ0dFJkV016NUIyS1U1MENKSlZRUG55M1VUbWJkcXk1OTBUX21XemVlOUs3WEh5MlBpbEU5MEhfNG9nbmNBZW9tUTZIUDN5Q2pDdjZPZlltX2JacUdB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-china-japan-rare-earth-supply-squeeze",
-      "time": "2026-10-21T00:00:00Z",
-      "headline": "Japan Nears Rare Earth Shortage as China Tightens Supply",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "TSLA",
-        "TM",
-        "AMAT",
-        "LRCX"
-      ],
-      "why": "China's ongoing tightening of rare earth export quotas is pushing Japanese industrial manufacturers toward critical inventory shortages for specialized magnets and electronic subassemblies. Supply constraints on these key raw materials threaten input cost inflation and potential component bottlenecks for electric vehicle powertrains and semiconductor capital equipment suppliers dependent on Japanese advanced materials.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUZZQ1FPS2Vnc3d6LS04YjRmSG5NTTJ6alAtQXBldkE4YzRYU0xoT29ZdDkyc2tDVWRNWmg2SUpDVndiYkR4NHFrY3ZXZ1RPcXktWXJJMGlWb1hIcXhXdnpUdGFYaU9QZjBpaUxFd1h3YjFMV0s5N2RaTFJhdmU1M2lqeGpYMURfYzlpOHprUmgxaDVVQ2Qwa1V0U08?oc=5",
       "alerted": false
     }
   ]
