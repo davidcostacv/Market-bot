@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:22:57Z",
+  "generated_at": "2026-10-30T22:35:04Z",
   "session_date": "2026-10-30",
   "items": [
     {
@@ -37,6 +37,38 @@
       "why": "Japan reported a 41% year-over-year surge in semiconductor exports, propelled by memory price recovery and heavy AI infrastructure capex across Asia. The data reinforces strong multi-quarter demand visibility for silicon wafer processing equipment and memory fabricators.",
       "source": "Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHE1V2o4SERfSUE1X3I1X3BrN1NGbE90UnhUTEc5UFNlUFBmTGtEUmFjYldvWkloM0FfVmJnYzZ3OUpSSnRWMVJRb2Q4aldHM1ZZZTZqUmtkd0ZNb0JyYlpobEptRy1vWHRDalBZTWFLLXpjMXFHM2pwZkdYT2xXZ2tVeFVINEhZdkMxTXh1dWlMMXFWeUVUZjFXMWNuZnZGeUxRdmc2eWJNbVFQX0xURw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261030-nvda-chinese-intelligence-diversion-report",
+      "time": "2026-10-30T04:00:00Z",
+      "headline": "Nvidia CEO Jensen Huang Target of Suspected Chinese Intelligence Asset Over AI Chip Diversion Concerns",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA"
+      ],
+      "why": "Reports alleging that Nvidia's leadership was targeted by suspected Chinese intelligence assets increase geopolitical and regulatory scrutiny regarding illicit advanced AI GPU diversion into China. Heightened compliance monitoring or prospective enforcement actions by the US Bureau of Industry and Security could slow international enterprise shipments and raise oversight costs.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPTlhQMU5zQ3dvX1YyWlByVVNTaGdkWFJudkREcUsyX3U2NHI4ZzlSZzhmanh5RTQ1TjJhcG41NTZhaEc5LTRzc0Ixc1N6aEN6a25XbEhJNmdKUWZOZmhUcm1WM1dqemZ3ZTh5SHVwTUFVNHJibUN4U2piRUVWT0txeWdQcU1WWUZQaEU5Xy1ZVDRQTFpidURiRW1XWERtd3dydWRJekxkWGh5dzNrcU0xekE0WTdFUDFjbVBxYzBYQms3eXVQSjg0X0VZZmFiTkFyVHVQRUhITVFwcGw4ZlAxM3daaHZXVUwzSzljeTFOU2xsWHd4WkRXZkw4bUMyclRKVTNhbDZUWklTaGVkejNyVUk3UVRqODRBVXZr?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261030-taiwan-ai-chip-smuggling-criminalization",
+      "time": "2026-10-30T03:30:00Z",
+      "headline": "Taiwan Moves to Make AI Chip Smuggling to China a Crime",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "Taiwan's legislative push to criminalize unauthorized AI chip transfers to China creates direct legal sanctions for illicit intermediate routing of advanced silicon. While this protects key foundry IP and strengthens alignment with US sanctions enforcement, it increases compliance burdens and operational risks for semiconductor foundries and design customers operating across East Asian supply chains.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT3BqNTFma1VNRDVINm5jUWF4TjNRY0NOaEl5ZjBUUk1ldTNCQ3FTQkF3TWUwMHBDcjNpRzVPcVVXMENYVVRzV0hPVkItVURzclZ6VkdtckdRb252ZFdmb1ZtY2NZX1F3VkxwUk5JNDlKZ3RNRG5XU3JxVmVFYlRUUVh4RWtRR3ZZdGRz?oc=5",
       "alerted": false
     },
     {
@@ -701,43 +733,6 @@
       "why": "Nvidia and Nokia expanded their technical partnership to deploy AI-RAN solutions, allowing telecom infrastructure to execute localized AI inference alongside mobile network traffic. The initiative opens a secular hardware upgrade cycle in cellular base stations, incrementally expanding Nvidia's addressable market beyond core hyperscale data centers.",
       "source": "Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX2Y0R3BTQ19ySmdveEp3M3NNTF8wekpwWDBmemFPY19aM3ZmQmRWekszZG95ZkoxN0M4cVk3cGhvNEJhdTAwN0t1UVVkUEhleklBeEhzczNTZWw4XzhuX0ZaRElBanFtWkZNbFdpYVBFX2F2SkVfSHFDQ3N2a05IM3R0ekJjZ3czcVkwcHQ2S01rcU1QV244Sjh4YTIzOTNfTnJXUGFUMWZoUC1GOFdsbk5OZjhlNVk?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-korea-daily-exports-record-chip-supercycle",
-      "time": "2026-10-21T06:30:00Z",
-      "headline": "Korea's Daily Exports Hit Record 6.4 Trillion Won on Chip Supercycle",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AMD",
-        "QQQ"
-      ],
-      "why": "South Korea's customs data for the first 20 days of October showed daily exports reached an all-time record of 6.4 trillion won, powered by high-bandwidth memory (HBM) and advanced logic shipments. As the premier global leading indicator for semiconductor demand, this record run-rate confirms persistent memory pricing power and sustained enterprise AI accelerator uptake.",
-      "source": "Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR1FvVFhOY25Dd1Q5OEMtRW9oMkRHXzI4ekVEbExiRnpWVmZodS1ydXFES1AxRGkyakRKV2FJRE1uVVBMSm5oYWx5WXhUUkNEY3Jkc3BWZ0d4TjgzNHpJLUdCT1VRVDBjcUQweHZjQzNTNmpYaElna3FPQ1J4LWZJVnNycG9HWHZBQWRMQndOOVlQdGkzMTFiblRRYkg5Zw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-openai-chips-lame-duck-pullback",
-      "time": "2026-10-21T04:15:00Z",
-      "headline": "As lame-duck battle over chips heats up, OpenAI pulls back",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "TSM",
-        "INTC"
-      ],
-      "why": "OpenAI is stepping back from an aggressive federal lobbying push regarding semiconductor industrial policy and export restriction mechanics ahead of the congressional lame-duck session. The retreat reduces immediate legislative disruption to existing fab subsidy distributions and solidifies near-term commercial reliance on incumbent merchant hardware from Nvidia and TSMC.",
-      "source": "Politico",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
       "alerted": false
     }
   ]
