@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-10-30T06:17:14Z",
+  "generated_at": "2026-10-30T13:22:57Z",
   "session_date": "2026-10-30",
   "items": [
+    {
+      "id": "20261030-amd-pc-market-spillover-intel",
+      "time": "2026-10-30T10:00:00Z",
+      "headline": "AMD Shares Fall 6.5% as Intel\u2019s Weak PC Market Forecast Raises Semiconductor Demand Concerns",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA",
+        "DELL"
+      ],
+      "why": "Intel's cautious Q4 guidance and warnings of a persistent PC client market slump triggered a sector-wide selloff, dragging rival AMD down 6.5%. The market is pricing in structural x86 desktop and laptop demand softness that could weigh on AMD's upcoming earnings and margin trajectory.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUoycS1rbkxSeHhVdV9DR3ZpQkhGem5HUGJNQ3pqM0ctRkE4a0tHdjl4Zi1mZG51dGpQTEdvN0RSTmFVUDJwZ0hYbkpGS2pRVnJIYzBRWWx2S29VajhNeEhZRmJuZmhWeVhzWXdjRFliQ0lybnpVbkd4UFBsUm1NWEFTV1ExbUxBZ0ZNNw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261030-japan-chip-exports-surge",
+      "time": "2026-10-30T07:30:00Z",
+      "headline": "AI boom, soaring memory prices lift Japan's chip exports 41%",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Japan reported a 41% year-over-year surge in semiconductor exports, propelled by memory price recovery and heavy AI infrastructure capex across Asia. The data reinforces strong multi-quarter demand visibility for silicon wafer processing equipment and memory fabricators.",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHE1V2o4SERfSUE1X3I1X3BrN1NGbE90UnhUTEc5UFNlUFBmTGtEUmFjYldvWkloM0FfVmJnYzZ3OUpSSnRWMVJRb2Q4aldHM1ZZZTZqUmtkd0ZNb0JyYlpobEptRy1vWHRDalBZTWFLLXpjMXFHM2pwZkdYT2xXZ2tVeFVINEhZdkMxTXh1dWlMMXFWeUVUZjFXMWNuZnZGeUxRdmc2eWJNbVFQX0xURw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261029-samsung-earnings-memory-selloff",
       "time": "2026-10-29T06:00:00Z",
@@ -701,43 +738,6 @@
       "why": "OpenAI is stepping back from an aggressive federal lobbying push regarding semiconductor industrial policy and export restriction mechanics ahead of the congressional lame-duck session. The retreat reduces immediate legislative disruption to existing fab subsidy distributions and solidifies near-term commercial reliance on incumbent merchant hardware from Nvidia and TSMC.",
       "source": "Politico",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-lrcx-q3-outlook-disappoints",
-      "time": "2026-10-21T04:00:00Z",
-      "headline": "Lam Research Stock Falls As Chip-Gear Maker's Outlook Fails To Impress",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "LRCX",
-        "AMAT",
-        "KLAC",
-        "ASML",
-        "TSM"
-      ],
-      "why": "Lam Research reported quarterly revenue that met expectations, but issued forward guidance below Wall Street targets due to delayed customer tool installations and softening fab capacity expansion plans. The reduced outlook signals near-term revenue friction for semiconductor capital equipment manufacturers as chipmakers recalibrate capital expenditure budgets. This creates negative sentiment across semiconductor equipment peers like Applied Materials and KLA.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSGZaejNyQnBERjBSTU10QUMydnA2Rmx5MXpjZXJjYTJqLWVxYVBYTzZpRVRwa3p6cFg3WHFUNDFjXzdVa3d4NllQWlpZSU14MG1DbUhSX_lvUUQ1Ymx2Vy1EXy11ZE9GNENVSnp1dlA0SU51cVBHUGRhMW9jNkFTTHFoNWFoNGF5SUwtd3JPazlaMXJQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-mu-taiwan-labor-walkout",
-      "time": "2026-10-21T03:30:00Z",
-      "headline": "Micron Is Making Record Profits. Its Taiwan Workers Are Walking Out",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "TSM"
-      ],
-      "why": "Workers at Micron's Taiwan manufacturing facilities have initiated labor walkouts over wage disputes despite record corporate earnings. Taiwan houses critical DRAM and high-bandwidth memory (HBM) packaging lines essential for supplying AI accelerator hardware to Nvidia and AMD. Any sustained operational disruption in Taiwan risks constraining HBM delivery timelines and elevating Micron's unit production costs.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQl_BQ0hFRnJnZVRPMUxrbGhfMVlrWFV2dGtPcl9sUlIwSmtNOE1IUWxmeS1OdXIycDJJcW5rSWlLclVHN29ndmxiVUE1dGhEcnZ1RU1DdDNPbk9MYUhpQjhVQWJObHJCVGJYWGNNOTlmNHpIS0k3c29OWGM2OXFtR0dIVnp6Z0pmVDZHX1J1ZzF4dFFsa3ZIRUxhalUwdEVER0E?oc=5",
       "alerted": false
     }
   ]
