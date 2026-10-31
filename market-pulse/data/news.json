@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-31T12:57:15Z",
+  "generated_at": "2026-10-31T21:47:47Z",
   "session_date": "2026-10-31",
   "items": [
+    {
+      "id": "20261031-nvda-megaspeed-export-control-scrutiny",
+      "time": "2026-10-31T00:00:00Z",
+      "headline": "Nvidia\u2019s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "U.S. regulators are increasing scrutiny on Nvidia's shipments to Megaspeed, a Singapore-based data center operator, over concerns that advanced AI processors are being leased to Chinese entities. Expanded Commerce Department enforcement targeting third-party hubs in Southeast Asia could force stricter export licensing rules and restrict sales volumes to intermediary operators.",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOclh4d1VCTjRJSHVjZFZQbU8tX3c5Mi1uVmNMaWJ6WFo4VUI4aERWaG8zLU0ydWxVeFVqOFEtZmxKR0biWWp4dEZzcWE0a2lrdjBZeWR3R0FDbU9zbU9rd1pjTGd3aVQxdGszeWZBOWxkUXJEZkZwczV5blNrU2MwZ1NxMGtSYndyRVAwSWxZQWtjZnNzRGVJOV9DdnFKYjRob1VLalVwSDFVS09pWjZhQTRMdEtMcnFVd0VKdlNrcFpwSnFiUWtqOENtaE4tVWVBZE9IaUM2R1N3OGtfRDNndFhTTUVOR1FuUlZB?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261030-amd-pc-market-spillover-intel",
       "time": "2026-10-30T10:00:00Z",
@@ -717,22 +734,6 @@
       "why": "China's benchmark CSI 300 falling 20% from its June peak into a technical bear market confirms persistent macroeconomic stagnation and weakening domestic demand in the region. This prolonged downturn creates significant earnings headwind risks and multiple compression for mega-cap US multinationals that rely on China for a substantial portion of hardware and consumer revenue.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWmt2MnVkcmdCNXBPMzNIaHJwWlFIV2J2SU5pNk52MENwNi10dW56Q2duNHZBc181R1BQeXBQNlQwSzY0V2RSWlR1U3k4OFdRMDJyR25tTEVveUVCNWl4d08tVXhZY3BKTmFVNXA2V3BNMGpjSmxUZ09SOGtFc29MS1Fn0gGHAUFVX3lxTE9JbzZ4T01zVW93dG8xM0Q1TUtoU1hCYWVULTVQX285THphbnRNYWdvVVp5Wml4VDBGSlBHUFdEZFlHOU1TSWZFR1ZXUFVJVl9xbDRGeTBjUUkzY21fTVp4ZXpTSW9rdDBNNUZlY2QzMll0VGtyM1lVYnNFM0JoVFlhZ3NvX3pjRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261021-nvda-nokia-ai-ran-telecom",
-      "time": "2026-10-21T07:10:00Z",
-      "headline": "Nokia and NVIDIA are helping phone networks run AI closer to users.",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TMUS"
-      ],
-      "why": "Nvidia and Nokia expanded their technical partnership to deploy AI-RAN solutions, allowing telecom infrastructure to execute localized AI inference alongside mobile network traffic. The initiative opens a secular hardware upgrade cycle in cellular base stations, incrementally expanding Nvidia's addressable market beyond core hyperscale data centers.",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX2Y0R3BTQ19ySmdveEp3M3NNTF8wekpwWDBmemFPY19aM3ZmQmRWekszZG95ZkoxN0M4cVk3cGhvNEJhdTAwN0t1UVVkUEhleklBeEhzczNTZWw4XzhuX0ZaRElBanFtWkZNbFdpYVBFX2F2SkVfSHFDQ3N2a05IM3R0ekJjZ3czcVkwcHQ2S01rcU1QV244Sjh4YTIzOTNfTnJXUGFUMWZoUC1GOFdsbk5OZjhlNVk?oc=5",
       "alerted": false
     }
   ]
