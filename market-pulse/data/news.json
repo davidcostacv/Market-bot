@@ -1,7 +1,62 @@
 {
-  "generated_at": "2026-10-31T21:47:47Z",
-  "session_date": "2026-10-31",
+  "generated_at": "2026-11-01T06:38:51Z",
+  "session_date": "2026-11-01",
   "items": [
+    {
+      "id": "20261101-amzn-q3-earnings-miss",
+      "time": "2026-11-01T12:00:00Z",
+      "headline": "Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "NVDA"
+      ],
+      "why": "Amazon reported third-quarter results where both earnings per share and top-line revenue missed Wall Street consensus estimates, pushing shares lower. The dual miss raises concerns over potential growth deceleration in AWS cloud services and retail segment margins, pressuring multi-quarter earnings models and valuation multiples for major cloud and AI infrastructure peers.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMkRXbWJ6Z1Q4VFZHek93U0htb1drVWtuSHVTQnFYRTd4NUptTnozdDFMYVd2Q3gxd3kzMFR2RFNCenZNSTBWOXEtTlMwNm8zUnF4NE1DTFFIVG5yZi1BR01FWDdfNWlBYUowc2lqdmhxQXlNTTJMcDBpbkVJZWdISkFPaw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261101-openai-ipo-valuation-target-cut",
+      "time": "2026-11-01T10:00:00Z",
+      "headline": "OpenAI IPO Valuation Target Reportedly Trimmed By $150B After Nasdaq 100 Registers Worst Month Since March 2025 Following Brutal Tech Sell-Off",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "PLTR"
+      ],
+      "why": "Reports indicate that target valuation expectations for OpenAI's eventual public offering were cut by $150 billion following macro weakness and a sharp tech market pullback. The downward re-rating in private generative AI market caps compresses forward earnings multiples for major software platforms and primary strategic investors like Microsoft.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOEtJV1h1b1BodkhIN1ByZnZNVFhoU29HRGt5Z1dzNGIyMkZiTlg4ek5VOUxORmx6Q0xuRGt5UnVtemYwOGs5MXFITElwUUI0OTR3YmY3Q3JwUzFHMHhHTnhxbXcyTUl6T0UzUzgyVDJ5V0wyYkx1ck5maUE0THE5ZEE3cFRLQXBlYzlrTElHQmhfc1RaU05HNVV1LVNlVGVZcnpnSkVR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261101-skorea-october-chip-exports-record",
+      "time": "2026-11-01T08:00:00Z",
+      "headline": "Korea's monthly exports hit $115.3 bil. in Oct. on record chip sales",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "South Korea's monthly export volume reached a record $115.3 billion in October, propelled by historic chip sales for global AI infrastructure buildouts. The trade data serves as a strong leading indicator of sustained end-market demand for high-bandwidth memory (HBM) and advanced logic silicon, supporting near-term revenue estimates across semiconductor suppliers.",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGJOeHlLeDRWTDBvaEpWTUF4MjhyM2N0QjBVRHN5LTRjdFlSaXMtc3hQVGtocWV3S1BUNXlWOEYxYmp5OEwwYndvTXUyeERMeGVkYm5IMTI4YlJxTTE4WWVUa1JScFZJZVI2RkRyR29TZXVDYkp3Qm52QnZZeGFMWGVldFQ4Qm1mbWpNLXhKdHZTY3hSUkVvUzF4aFVFSlpqbzRBWXF3T2FCTVhIU085mUlCaw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261031-nvda-megaspeed-export-control-scrutiny",
       "time": "2026-10-31T00:00:00Z",
@@ -678,62 +733,6 @@
       "why": "Leaked clinical trial data regarding Moderna's melanoma cancer vaccine sparked immediate execution and efficacy concerns, derailing the core pillar of the company's post-COVID pipeline valuation. The leak threatens expected commercialization timelines and forces investors to re-evaluate non-respiratory product revenue forecasts.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdUVQQU5Ndy00WUljMXBBdnFBendjMjdrVkRKVGFMWTJBWjZLaGFobFg3SlRnR2Jzbnp4RFRVM2htdVJVaGJkVW1TVU05eUpV08tkQVNHXzlyOXQ1RDJWZXNfaXZva0FpeVJIZHlDMkxVX0IyYW9mVS1LX29RYTBFcklsNklNdzRkOUk2RDQ5Wl_fV3ZaVVg2UkhiQ2hwcFpUWkxTYl9mOWlBakIybE11MXdSZlc4d1ZnNmxkcXJuNGx1eDFPSVJyLTNkY0JvS2VBenc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261023-intc-senate-chip-export-controls",
-      "time": "2026-10-23T01:15:00Z",
-      "headline": "Intel Lobbying Rises as Senate Advances Chip Export Controls - Legis1",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "INTC",
-        "NVDA",
-        "AMAT",
-        "LRCX",
-        "TSM"
-      ],
-      "why": "The U.S. Senate is advancing stricter legislative chip export restrictions targeting high-performance silicon and equipment sales, triggering increased lobbying from major semiconductor companies. Stricter statutory mandates risk further curtailing U.S. chipmakers' addressable market in China beyond existing administrative rules.",
-      "source": "Legis1",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RbVplTFFDckJtNGtGTnFYbnJBZkp1SzFkUjVIYUJwaVpabjJDTEd1OGNtdy1UTVAybFZpMXZxZ0FWOWVsQi0zUVdBb3NBQTFNT0hfS3hZVG1HdkNWd0JnUjloNGZiZ2xDLTR3S1c2YjMxR3RGempPN3BR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261022-smci-nvda-vera-cpu-rack",
-      "time": "2026-10-22T00:00:00Z",
-      "headline": "Nvidia Is Moving Deeper Into Intel, AMD Territory: Supermicro Rolls Out 256-CPU Vera Rack",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "INTC",
-        "AMD"
-      ],
-      "why": "Super Micro's deployment of server racks powered by 256 standalone Nvidia Vera ARM-based CPUs represents a direct competitive push into traditional enterprise server compute, threatening Intel and AMD's core x86 CPU market share. The architecture expansion creates a new multi-billion dollar addressable market for Nvidia's data center ecosystem while driving server assembly demand for Super Micro.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYlVNZi1uMVFOT3dmeGVuZVM0Tnk2WFN0dlZGZkRoQkVlcmQ4YnRQZ3BJNl9yNE50dDgtMXVDMFJxYmcwbUFWVmR2OGZYd1FhWG5PWERXcXMtV2RBOTlhcjc3cE8wUFFPUjZYbkFPVEJ3NS1EMUo5Ti1lQjlOVzdhNnlDRV94dm5OZXN6dHdFWXRSQV9nQzRYWGxB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261022-csi300-china-stock-bear-market",
-      "time": "2026-10-22T00:00:00Z",
-      "headline": "China's stock market sinks into bear territory as CSI 300 extends 10-week rout",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "AAPL",
-        "QCOM",
-        "TSLA",
-        "FXI",
-        "SPY"
-      ],
-      "why": "China's benchmark CSI 300 falling 20% from its June peak into a technical bear market confirms persistent macroeconomic stagnation and weakening domestic demand in the region. This prolonged downturn creates significant earnings headwind risks and multiple compression for mega-cap US multinationals that rely on China for a substantial portion of hardware and consumer revenue.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWmt2MnVkcmdCNXBPMzNIaHJwWlFIV2J2SU5pNk52MENwNi10dW56Q2duNHZBc181R1BQeXBQNlQwSzY0V2RSWlR1U3k4OFdRMDJyR25tTEVveUVCNWl4d08tVXhZY3BKTmFVNXA2V3BNMGpjSmxUZ09SOGtFc29MS1Fn0gGHAUFVX3lxTE9JbzZ4T01zVW93dG8xM0Q1TUtoU1hCYWVULTVQX285THphbnRNYWdvVVp5Wml4VDBGSlBHUFdEZFlHOU1TSWZFR1ZXUFVJVl9xbDRGeTBjUUkzY21fTVp4ZXpTSW9rdDBNNUZlY2QzMll0VGtyM1lVYnNFM0JoVFlhZ3NvX3pjRQ?oc=5",
       "alerted": false
     }
   ]
