@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:38:51Z",
+  "generated_at": "2026-11-01T18:01:59Z",
   "session_date": "2026-11-01",
   "items": [
     {
@@ -55,6 +55,25 @@
       "why": "South Korea's monthly export volume reached a record $115.3 billion in October, propelled by historic chip sales for global AI infrastructure buildouts. The trade data serves as a strong leading indicator of sustained end-market demand for high-bandwidth memory (HBM) and advanced logic silicon, supporting near-term revenue estimates across semiconductor suppliers.",
       "source": "The Korea Times",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGJOeHlLeDRWTDBvaEpWTUF4MjhyM2N0QjBVRHN5LTRjdFlSaXMtc3hQVGtocWV3S1BUNXlWOEYxYmp5OEwwYndvTXUyeERMeGVkYm5IMTI4YlJxTTE4WWVUa1JScFZJZVI2RkRyR29TZXVDYkp3Qm52QnZZeGFMWGVldFQ4Qm1mbWpNLXhKdHZTY3hSUkVvUzF4aFVFSlpqbzRBWXF3T2FCTVhIU085mUlCaw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261101-china-regulators-banks-market-stabilization-meeting",
+      "time": "2026-11-01T00:00:00Z",
+      "headline": "China\u2019s banks, regulators to meet on measures to arrest stock slide",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "FXI",
+        "KWEB",
+        "BABA",
+        "BIDU",
+        "PDD"
+      ],
+      "why": "Chinese regulatory agencies and major state-backed lenders are convening emergency talks to coordinate potential stabilization interventions following recent domestic market weakness. Direct government intervention and policy support expectations often trigger short covering and boost liquidity across Chinese equity benchmarks and US-listed ADRs.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbnVpR3RTV0xFNGdDTV9DaWFoY2ZBQXo2eWJhVVBVdEdrQVB0eXlZT2xLSTkwRGZYMVNsdk9STU1XRWVyamR1YmllRVZWVnl3MW5MaGdnWVNSYjlxWlFVUXhQdkRKcE5LQUNHMmZaZW13bWVmVVlCdHlCVmYzazQxSTRzOXozSHQyeVBpeXdJb1VqNlhrdzV0QUZxMFFxNDRfVnhQakpXbHA2ek1GbmJ1d0ttM0lGYTIw0gG4AUFVX3lxTE92VlhfX3NVOHJhSWowSl9rZXdqSE1KRHRSOHA2Mm1WVldPVFBtWURxZ0liRGFvRVRWMTYtRmpwaU1IM1RKN2p3Q04yd2g0akRCYmpTS0sydmszX25mSktxRjhMSXhEZDdRcHRTMVYyblJDbjZOZ3pDSTNoVXNFRnhtaDlXV0FfWnpnTmxmY1Nfb013RnpRSkowM243MTZyOHJ5Z2VqUTc3d0w3aTE5dWxYMXBEdUxld00?oc=5",
       "alerted": false
     },
     {
@@ -716,23 +735,6 @@
       "why": "China's tightening export restrictions on critical rare earth elements are forcing TSMC to actively demand tool redesigns and seek rare-earth-free wafer manufacturing equipment. This threatens tool delivery timelines and raises capital expenditure costs for leading foundries and equipment manufacturers as re-engineering equipment introduces supply chain friction.",
       "source": "Tekedia",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPekdXOEJ6V21jR0xORmpRNTdkS0RwOEl2Y0FnYmJJd25LQzRybVZLbThmR1RJY1pYbWgyZEE3V2Jkc1pKWjAxcDlMcDU3QUYwREVHSUxLbnJPbFhJdkFnUzhCZFkxRzBMdmtCekF2V1lFUHdtMUlCTXI5NTdDaVlzVUl2WTJISE5Yb3BQaDR3MUFyd1RRdFMyT0Vrcl_xbXNfblgtUUZkRDEweFREa0pWQnc0VlFsZUhRM0RZaW1iR24?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261023-mrna-melanoma-data-leak",
-      "time": "2026-10-23T02:30:00Z",
-      "headline": "Moderna stock crashes as leaked melanoma data threatens its record August rally - Yahoo Finance",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MRNA",
-        "PFE",
-        "BNTX"
-      ],
-      "why": "Leaked clinical trial data regarding Moderna's melanoma cancer vaccine sparked immediate execution and efficacy concerns, derailing the core pillar of the company's post-COVID pipeline valuation. The leak threatens expected commercialization timelines and forces investors to re-evaluate non-respiratory product revenue forecasts.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdUVQQU5Ndy00WUljMXBBdnFBendjMjdrVkRKVGFMWTJBWjZLaGFobFg3SlRnR2Jzbnp4RFRVM2htdVJVaGJkVW1TVU05eUpV08tkQVNHXzlyOXQ1RDJWZXNfaXZva0FpeVJIZHlDMkxVX0IyYW9mVS1LX29RYTBFcklsNklNdzRkOUk2RDQ5Wl_fV3ZaVVg2UkhiQ2hwcFpUWkxTYl9mOWlBakIybE11MXdSZlc4d1ZnNmxkcXJuNGx1eDFPSVJyLTNkY0JvS2VBenc?oc=5",
       "alerted": false
     }
   ]
