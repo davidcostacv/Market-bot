@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-11-01T22:15:34Z",
-  "session_date": "2026-11-01",
+  "generated_at": "2026-11-02T06:38:09Z",
+  "session_date": "2026-11-02",
   "items": [
+    {
+      "id": "20261102-pboc-relending-facility-expansion",
+      "time": "2026-11-02T04:00:00Z",
+      "headline": "Chinese stocks rebound on optimism PBOC set to expand US$45b relending facility - South China Morning Post",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "BABA",
+        "JD",
+        "PDD",
+        "BIDU",
+        "FXI"
+      ],
+      "why": "The People's Bank of China is preparing to expand its $45 billion (300 billion yuan) re-lending facility designed to fund share buybacks and institutional equity investments. This targeted central bank liquidity reduces financing costs for listed companies and provides a direct backstop for Chinese tech equities.",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZzZYVjdfVTBqdHM0SEtrMFJ4cDAtdG4zMkkteTR4eEZwZXVsUXpMQTVIOTZYVUdypE54Q09ZUFNSZllNVVF4c0JpRzY3RFpfZkIwekZtdldNN0NDV3NHNG5wVk9lWklxNVBqcERsVF9qOEhxbDRKUTdtU21raC1jbE92bmNpRF9zY29naWpHTHZMU21CSWZYMi1SWTFSX2J4QnNDRUx2Y1FEUWpJY2xYWFc0SXpIcXRKUUFNNTFJOWxMdG1yWklvaEk1dllOV0xONlHSAdIBQVVfeXFMTWVPSm9tS1ltQVllRzhmSGltcDZBSFVRdGxmeU9Xc0RITzJMa3hZV1N3pEppTEdLc29aRXpmZVJ4MFNteTdQRUVLTDJZcVdhY1ZoNEJ4dmtQY3dTRXF1d3hrTEs0S0dYY0thSV9kZkwzald5bjhVbmsyNU5nbTh0OU9PbFIwbGdpS2ViZFlqUWY3aG5Bcm9YdTBlYjViZFpiUUxKLUxHN19nRXM2eXFTMVZ5MHVjYWNudS1wSDJ2R1JaZW1ldlJlMUJDbERFRy1ua0p3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261102-china-nexperia-chip-export-exemption",
+      "time": "2026-11-02T02:00:00Z",
+      "headline": "China grants export exemption easing Nexperia chip crisis for automakers - Startup Fortune",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TSLA",
+        "ON",
+        "NXPI"
+      ],
+      "why": "Chinese regulators issued export exemptions for Nexperia automotive microchips, averting critical assembly line disruptions across global carmakers. The regulatory carve-out protects vehicle build rates by restoring shipments of basic power discretes essential for automotive electronics.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTE5aREFwY0JQeDNCcUhpREI0ZmNVejVaeDRJN3NjNkF4Tk1xcnJOQXzafi...?",
+      "alerted": false
+    },
     {
       "id": "20261101-amzn-q3-earnings-miss",
       "time": "2026-11-01T12:00:00Z",
@@ -695,46 +731,6 @@
       "why": "The U.S. Department of the Treasury proposed a regulatory framework establishing prohibitions and mandatory notifications for U.S. outbound investments into China covering artificial intelligence, advanced microelectronics, and quantum computing. The rule restricts venture capital, private equity, and joint venture funding into Chinese tech entities, creating long-term compliance friction and narrowing monetization pathways for U.S. semiconductor design and equipment majors.",
       "source": "ABC News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdEI3RkxUZzhTUHYzSEFMMGdxdkdreTlvdHRYOTVsZUk2UXpXNTJOMEZ3azVyelBoRlhLWDRfX0w2QWs0TURDVE5rcWRvODZvejNLLUVCYnJ2dEVQOE42bkxPbnYzNWxSQXVCYkxJVzl2UmZ0bno1d2Q2aTE2a1Jvam5LR2ppVEFYY1R2SzhVZWtxc0FFTGl5bzFWSlnSAaIBQVVfeXFMTWZMN0xnYlhiaWx6TjJWQ0ZGV3hWNFlNUnlnNzhKZEhZd0ZWekJaYWo0T0g1dlI4dk9vVXppVUt1NVk4Qm9rQ0YxR2o3N2MyRVZCMWR1azRNa0JKRXZ6bVRTSm5jRVZJdFZCZldldmc1Vms1VmVSZ1hHRmgyeU5LZ1NyTllDblNzaXBUSWZRT1poQThNZUh2UUpnTlBBOGNuUThn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261023-meta-tsla-capex-guidance",
-      "time": "2026-10-23T08:00:00Z",
-      "headline": "Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New Stock Class - Bloomberg.com",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "META",
-        "TSLA",
-        "NVDA",
-        "AVGO",
-        "MSFT",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "Meta's upward revision to its AI spending outlook provides direct read-through demand visibility for key infrastructure suppliers like Nvidia and Broadcom, validating sustained hyperscaler capital allocation. Conversely, Tesla reducing its capital expenditure guidance signals tighter cost controls or deferred growth initiatives, impacting expected compute deployment and capital efficiency expectations.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeThRcDBIMGM5Zmc3MFZOMGpvbkpWY0k5X0t3akl4TXNiQ3o3OW9uVVllNkY2ZF9vd2xVU0lNeVNCYXNHY2ZWMko0WWZCUWZaQkVqUDZHVmpldFdVZmFPT0JfY1c3WWR0MDNGYzRSUjdkTjNwYlJrQlB4UjNFZFVvYUlRTzRLc2M3Mm5aOVlQWkNtdXppT0ZmUi1fOHNFWDRDTGc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261023-tsm-china-rare-earth-export-controls",
-      "time": "2026-10-23T04:00:00Z",
-      "headline": "TSMC Seeks Rare-Earth-Free Factory Equipment as China\u2019s Export Controls Threaten Chip Supply Chains - Tekedia",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "China's tightening export restrictions on critical rare earth elements are forcing TSMC to actively demand tool redesigns and seek rare-earth-free wafer manufacturing equipment. This threatens tool delivery timelines and raises capital expenditure costs for leading foundries and equipment manufacturers as re-engineering equipment introduces supply chain friction.",
-      "source": "Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPekdXOEJ6V21jR0xORmpRNTdkS0RwOEl2Y0FnYmJJd25LQzRybVZLbThmR1RJY1pYbWgyZEE3V2Jkc1pKWjAxcDlMcDU3QUYwREVHSUxLbnJPbFhJdkFnUzhCZFkxRzBMdmtCekF2V1lFUHdtMUlCTXI5NTdDaVlzVUl2WTJISE5Yb3BQaDR3MUFyd1RRdFMyT0Vrcl_xbXNfblgtUUZkRDEweFREa0pWQnc0VlFsZUhRM0RZaW1iR24?oc=5",
       "alerted": false
     }
   ]
