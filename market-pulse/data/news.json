@@ -1,7 +1,65 @@
 {
-  "generated_at": "2026-11-02T06:38:09Z",
+  "generated_at": "2026-11-02T21:52:21Z",
   "session_date": "2026-11-02",
   "items": [
+    {
+      "id": "20261102-melius-cuts-ai-semiconductor-price-targets",
+      "time": "2026-11-02T09:00:00Z",
+      "headline": "Nvidia, AMD, Marvell Targets Cut: Melius Pulls Back on AI Stocks as Big Tech Lines Up to Raise Cash",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MRVL",
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "why": "Melius Research lowered target prices on premier AI chipmakers, citing near-term multiple compression risks as hyperscale customers prepare cash-raising efforts to fund massive capital expenditures. The firm noted that heavy capital requirements among Cloud Service Providers could temporize stock multiples despite robust baseline hardware demand.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmFVNG00aDdBdENWS1RKQmJYMzdKaUpwVGEzS05BbzZEdGY1cDV1MFplNWROcFpXQ0gtMEN0d2hCUmEwclFucHJaTDd4NmlGbTNxWTdFTmxzekJSTG9zWVA4VE5mRDlpMFpuMFc4UEpUbGl5S1NsV1RzR01JdnVMeE9nR3llVHFWUnVuY09iTGZzdkg4R0lLWnJIc0ZMSmVVYjVNX0ZZODJpNW54Q1B5ZzVYajVYVHJnRk1uUFAxbzI?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261102-mrvl-lite-acquisition-announcement",
+      "time": "2026-11-02T08:00:00Z",
+      "headline": "Marvell announces $115B all-stock deal for Lumentum (MRVL:NASDAQ)",
+      "impact": 9,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MRVL",
+        "LITE",
+        "CIEN",
+        "AVGO",
+        "NVDA"
+      ],
+      "why": "Marvell announced an all-stock transaction to acquire optical technology leader Lumentum, aiming to expand its high-speed optical interconnect portfolio for AI data centers. The deal accelerates consolidation in optical transceiver architecture as hyperscalers scale up next-generation AI cluster bandwidth.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWkQwSUpsZG0yNVlsSGNQb0QzMi1HcUZib3NuN0kxeVdLRWtVUTJDaUl1QnZqeVJPdzFZUk5xYU5tdWdsTGFWdVloZUh6MkRmZ3RmLUptZWZDQlI5NnVKcXQtaE80ajhvYTNDWGxQemRTazhFLXpJSDdJc0lyNzA0a1BsNTJ1Y25HVmx4OUtONmx2Zw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261102-kioxia-guidance-memory-selloff-mu-wdc",
+      "time": "2026-11-02T07:30:00Z",
+      "headline": "Micron Falls 4% as Kioxia's Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "WDC",
+        "STX",
+        "NVDA",
+        "TSM"
+      ],
+      "why": "A cautious demand outlook from Japanese flash memory manufacturer Kioxia reignited concerns over non-AI NAND and DRAM inventory digestion. The commentary dragged down peer valuations as markets reprice near-term average selling prices and profit margins across storage providers.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd24xZ3lROHBoV1M2WWN3VmlMUjNjZ1ZfZnNNNGFmWnhZZ2d5Qnl4TjZMd3FPSm44N0VIRFhVM2s2RkNpVmdvMWJYeUZnRWR5YWhIdmtKdUpiQndZV1_vaFlFRU1hZ1FfTk9GRzJ4M3lXLVJHclZ0cmpzYW9CbkJvb1BYNGNDYmpJTkJhWkRmMklmN3EtM2ZYc2V2bzEzdGZCVTJtZmVvVVk1SjhTQUQtNzZ2MDlQaXQ3T3NSaVBjQ0FCRm53Mkc3UEtzOGNWaUc2XzhVb0NNS3Ryc1JsZkVN?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261102-pboc-relending-facility-expansion",
       "time": "2026-11-02T04:00:00Z",
@@ -675,62 +733,6 @@
       "why": "Cybersecurity researchers discovered 32 flagship NVIDIA B300 Blackwell GPUs actively running workloads within state-owned China Telecom's infrastructure, signaling ongoing leaks in U.S. export control enforcement. The confirmed deployment of top-tier AI hardware inside a state-run Chinese telecommunications firm escalates regulatory risks for NVIDIA, including potential Department of Commerce audits, compliance mandates, and stricter distribution controls.",
       "source": "Wccftech",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02N0VveFBrVzd2cFlHbC1Wa25McVJEdnRtMjZJNGIzRXJtc2dacEVXLUdwRFdkcDBwVVYyd0lGWmI2c1Nlb0xLVEUySV85MnR0SGtmVjBnSWNNRlVQdmZHYmVPcEtCci1ub2tVd0ZUSXNhcmVwZTF4SUtub0xIQdIBgwFBVV95cUxOdmtNUy1BdjdidV9DalNOcWswVmxYcWNKRUhVUGdsX29QNXktaHdjRUczbHJCRlJZbDFmNzE5Y0h2U1dSbWNweU42bm5SU05mWTB3TDNaYnljZkxCQXh5VXVEMUJMeGN4dU9wbjFCN0p6WDM2VzlMVXRMQUpsN1VuOThZWQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261024-cart-uber-dash-sale-talks",
-      "time": "2026-10-24T12:00:00Z",
-      "headline": "Instacart Rallies on Report of Sale Talks With Uber, DoorDash",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "CART",
-        "UBER",
-        "DASH"
-      ],
-      "why": "Instacart shares rallied following reports that the grocery delivery platform is holding preliminary acquisition discussions with delivery rivals Uber and DoorDash. Consolidation in the last-mile delivery space would significantly reduce promotional competition and marketing spend across the sector, while offering Instacart shareholders a direct M&A takeout premium.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW9OalFzdGVlajNjUG9oZ184SjBrbWlTcjhWN21WdUtPZXR1Y2Vudzg3MEZtSlk0Wm5IcUxJQ1dvR2QxM2JNdHo3dXFSMUt0dW1fSWdEb0ZlUU5kd2VmR1J1U285TnFiS0tNUjRhUmYybEJDRXctWG9pdHcydzNGUVVZSGxFc2JPMElwcmVKLXNERW9oRS1wNFVFZFRyS3ZISkVwN04zTmxlbjZLQjl1cA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261024-cambricon-sales-miss-output-constraints",
-      "time": "2026-10-24T06:00:00Z",
-      "headline": "AI Chipmaker Cambricon Sales Miss Signals Output Constraint",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "ASML",
-        "TSM"
-      ],
-      "why": "Cambricon's revenue shortfall highlights severe volume production bottlenecks at domestic foundries operating under US lithography export restrictions. The capacity ceiling limits the ability of Chinese tech firms to replace Western silicon at scale, reinforcing long-term enterprise dependency on foreign AI hardware despite trade barriers.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQW5LVWJoYmcwMDUwMXFTa3VMWHRmajBZWjNOdzFja25YSWN0bkcwdXpkY3VMS3h4aDRXSUd3cU5UQ0lTT3BZT04xRDdpUjljaW1DWnhubzRqOUg1c3lIZThIYi1pZF9IZnQtZmRweGVtZnVmMVBOZzJfLXRMdllkNmZXc05ReGlimjL3vYJtwNVxkq1UTec-2puBZ9ninjw4kwSqW7vmLM4Dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261023-us-treasury-china-outbound-investment-rule",
-      "time": "2026-10-23T12:00:00Z",
-      "headline": "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "INTC",
-        "AMD",
-        "QCOM",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "The U.S. Department of the Treasury proposed a regulatory framework establishing prohibitions and mandatory notifications for U.S. outbound investments into China covering artificial intelligence, advanced microelectronics, and quantum computing. The rule restricts venture capital, private equity, and joint venture funding into Chinese tech entities, creating long-term compliance friction and narrowing monetization pathways for U.S. semiconductor design and equipment majors.",
-      "source": "ABC News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdEI3RkxUZzhTUHYzSEFMMGdxdkdreTlvdHRYOTVsZUk2UXpXNTJOMEZ3azVyelBoRlhLWDRfX0w2QWs0TURDVE5rcWRvODZvejNLLUVCYnJ2dEVQOE42bkxPbnYzNWxSQXVCYkxJVzl2UmZ0bno1d2Q2aTE2a1Jvam5LR2ppVEFYY1R2SzhVZWtxc0FFTGl5bzFWSlnSAaIBQVVfeXFMTWZMN0xnYlhiaWx6TjJWQ0ZGV3hWNFlNUnlnNzhKZEhZd0ZWekJaYWo0T0g1dlI4dk9vVXppVUt1NVk4Qm9rQ0YxR2o3N2MyRVZCMWR1azRNa0JKRXZ6bVRTSm5jRVZJdFZCZldldmc1Vms1VmVSZ1hHRmgyeU5LZ1NyTllDblNzaXBUSWZRT1poQThNZUh2UUpnTlBBOGNuUThn?oc=5",
       "alerted": false
     }
   ]
