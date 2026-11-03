@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-11-02T21:52:21Z",
-  "session_date": "2026-11-02",
+  "generated_at": "2026-11-03T07:07:57Z",
+  "session_date": "2026-11-03",
   "items": [
+    {
+      "id": "20261103-taiwan-china-chip-export-controls-tightened",
+      "time": "2026-11-03T00:00:00Z",
+      "headline": "Taiwan Tightens China Chip Export Controls, Adds Penalties and Closes Transshipment Loopholes",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "ASML"
+      ],
+      "why": "Taiwan regulatory authorities have introduced stricter export controls and enhanced criminal penalties targeting unauthorized advanced chip transfers and sub-7nm process node access for Chinese entities. The tightening closes legal loopholes used by gray-market intermediaries to circumvent export restrictions, increasing compliance overhead for TSMC and constraining secondary revenue channels for US fabless chipmakers targeting mainland hardware developers.",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeHZFWjZ4WXJFNUhWZHNxTGdpR21LMVdYMlRSY3dJd1BnV2Q2ZFZtT3dtZTlFWGY1QXBKZ1E4NUFDSnRPMnlmZEJRVU5taXkyQ21BX0NVM2pQVktGbnVJYUNMN2l4QWNDNU1SaVEtbWdIV0VCZVFUMVVhSTVrTERpQVBNcXA1dmlxWHBydGpCdERjS2hya2c4TmkwaVPSAZwBQVVfeXFMT3h2RVo2eFlyRTVIVmRzcUxnaUdtSzFXWDJUUmN3SXdQZ1dkNmRWbU93bWU5RVhmNUFwSmdRODVBQ0p0TzJ5ZmRCUVVObWl5MkNtQV9DVTNqUFZLRm51SVFDTDdpeEFjQzVNUmlRLW1nSFdFQmVRVDFVYUk1a0xEaUFQTXFwNXZpcVhwcnRqQnREY0tocmtnOE5pMGlT?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261103-synopsys-job-cuts-ansys-integration",
+      "time": "2026-11-03T00:00:00Z",
+      "headline": "Synopsys to Cut 2,000 Jobs Following Closing of $35 Billion Ansys Acquisition",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ],
+      "why": "Synopsys is cutting approximately 2,000 positions to eliminate duplicate organizational roles following the integration of software firm Ansys. Workforce restructuring accelerates post-merger cost synergies and margin expansion, boosting free cash flow expectations across the EDA design software market.",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcHplYTd4NFgwcjJwbFJNN2JVa01BTWRWaEgtN3FPRzFkTlZfT0YzejJUYnBteEYtNXRKeUVjcnB6MVdobUZ0WEFXQUdBb3VndGY0ajdQaGlGbzBlVko5dnd5SVlxVzUxZkI2X0RSdENabUsybXlqbVFuRDNScmh6Vkx0Z1VUMU1UVGRGdUplMmZsU01NSmFKdldR?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261102-melius-cuts-ai-semiconductor-price-targets",
       "time": "2026-11-02T09:00:00Z",
@@ -696,43 +730,6 @@
       "why": "The U.S. government has officially designated helium as a critical material to safeguard semiconductor manufacturing supply chains against severe supply chain bottlenecks. The decision enables strategic federal support, production incentives, and supply prioritization for fab operators that rely on ultra-pure helium for wafer cooling and process carrier gas.",
       "source": "electronics.economictimes.indiatimes.com",
       "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPTDhDRVRJSnlWM3BrS3hTUWxrZHF6c3k4MU9ST3g5RFBOR01JT21LUnpWLUdtQThKXzdFQWhTcjI0M0F3MUR0QTU4b1JKdTRhenNSNFg2MW9MZnw1T2Z1RUNBcmFYQ3JpVDNuNTVlbjVNT3E4OHBMa1hJNUIxM3NjSXdjek10Wi1XZ0s5QmxwVzBiZnZzYUMzSXBDMTBpUzdaQUJWeE5rYkFhWUlfMTBwWHNNSTA3WnE2TjNjQmtXeEc1dF9FQnZhQ3ZENjB0b1F6MzBPNHJzTjZuaEVobDQ3eTczSHgwTWhPaHFSUTdhMjFSVS1vckgyQ1E4Uy0wR19tdXNJVkU1SnZHeEVXa0dKRXR6cXYtendQY3hiMXhXbDNQeGJJbGlDWmVsZ1k3SlIz0gH_AUFVX3lxTFBxS3IzLWR0mkh3eD3I3d3lRbDFqU01KWlowMUFfaVpYNXhEZ2d6Y3Z4b0tSa0pkbkZWRlhLamJOUl9fRG9Xal9LZmlWa3hVaEFxTFRoYmtEOTFHbnlKYlVNRFd4RFVNMDFtNk5yZzZyWHgtLUg5MDgwMVR6RV9RczZ0eUNLUUQ3QTBwOWpnSmt1YnZ4cjYxR2hBOVdzMXhONFJYZ3VjVEdRdTZITzU5dzFsUXpaZk1MS3RnNFZkSUZCaTdMX210V2xLZ0F6ak81MFlDSlc2ejNJRzFzb09WUlN1Y0VXM0FpZzRWcnBPNDM0YzREQ2k1b3dEcmFNRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261025-nvda-huang-export-curbs-memory-demand",
-      "time": "2026-10-25T08:00:00Z",
-      "headline": "Nvidia CEO Jensen Huang Says US Export Curbs Accelerated China Chip Push, Rules Out AI Memory Glut",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "TSM",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "Nvidia CEO Jensen Huang stated that U.S. export restrictions have accelerated China's domestic chip capabilities while effectively cutting off Nvidia's presence in China's AI accelerator market. However, Huang dismissed growing investor concerns over an AI memory oversupply, providing a demand backstop for High-Bandwidth Memory (HBM) suppliers like Micron.",
-      "source": "Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSXhVdG8yaGI1VEtyWFpDT3hVQ1RzWjhJTENLdlVuSWF4VVU2VVBiRHBlMXRJRWdweVZLTU9kTTI5UzFpcnluWThFQktadXgxeGxWdU5ONElma3Rid3FBRFZyZ3RVS3NvSS1xc0xQaVQxNVcxejFNUnJub1A3S19qNm5jVEdsR1JyS1F0Y09pUVowa08ydE1RMm9oUXI0SmtnS2xtUU5Fa3gwMWFhMmd2OEoxSzIxMThfUG41cEdkY21jQkhHYmZkc3dEQ3Q4NV9HczVYTFdOZ09yX0xUOXNtcDVFZzE0dWx1cmdxaXpmQ0xWbWlYUnFhaVFR0gH_AUFVX3lxTE11a0xvWEIxWTg0Zk5SZWt2ellLdlRHX3Y1Tmo5T1hoOFU3aV92TlhYcTR0TTVvYmlpaEF2NWVidk5uZTYya2p6X0cyUWV4TnN4UmVQOEcyWkdYX0YxVl9BNFZpeXp3dm4zekpBZzFxOE1hSy0yNWlhYmZHRFhNUU56VTVWRDkxbi1Xd0Jfd3BNTVZocVdTdWpEanRmaWpsQzZ4YWx1dXJlcmdCWS1rNS1KX3dXVnZ4X0x3Y3hzZ2szY01FX2ZFRFZfaVZTSG5lMlpMbExmcUQ4YlZXRzdiLU5NTEdJNndWcXZXZWMtS1R1aVVuRUhTTWhnZFk2dkdlcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261025-nvda-china-telecom-b300-gpus-export-breach",
-      "time": "2026-10-25T04:00:00Z",
-      "headline": "Security Firm Discovers 32 NVIDIA B300 GPUs Operating Inside China Telecom, Showing U.S. Export Controls Aren\u2019t Curbing Top-Tier AI Hardware From Getting Out",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "SMCI",
-        "AMD"
-      ],
-      "why": "Cybersecurity researchers discovered 32 flagship NVIDIA B300 Blackwell GPUs actively running workloads within state-owned China Telecom's infrastructure, signaling ongoing leaks in U.S. export control enforcement. The confirmed deployment of top-tier AI hardware inside a state-run Chinese telecommunications firm escalates regulatory risks for NVIDIA, including potential Department of Commerce audits, compliance mandates, and stricter distribution controls.",
-      "source": "Wccftech",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02N0VveFBrVzd2cFlHbC1Wa25McVJEdnRtMjZJNGIzRXJtc2dacEVXLUdwRFdkcDBwVVYyd0lGWmI2c1Nlb0xLVEUySV85MnR0SGtmVjBnSWNNRlVQdmZHYmVPcEtCci1ub2tVd0ZUSXNhcmVwZTF4SUtub0xIQdIBgwFBVV95cUxOdmtNUy1BdjdidV9DalNOcWswVmxYcWNKRUhVUGdsX29QNXktaHdjRUczbHJCRlJZbDFmNzE5Y0h2U1dSbWNweU42bm5SU05mWTB3TDNaYnljZkxCQXh5VXVEMUJMeGN4dU9wbjFCN0p6WDM2VzlMVXRMQUpsN1VuOThZWQ?oc=5",
       "alerted": false
     }
   ]
