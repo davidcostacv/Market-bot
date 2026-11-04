@@ -1,7 +1,81 @@
 {
-  "generated_at": "2026-11-03T19:43:09Z",
-  "session_date": "2026-11-03",
+  "generated_at": "2026-11-04T19:58:03Z",
+  "session_date": "2026-11-04",
   "items": [
+    {
+      "id": "20261104-us-midterms-democratic-sweep-ai-stocks",
+      "time": "2026-11-04T12:00:00Z",
+      "headline": "AI data-center stocks slide, renewables rally after Democratic US midterm sweep",
+      "impact": 8,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "why": "Democratic gains in the U.S. midterm elections prompted sector rotation across U.S. equities. While broad indices rallied, AI semiconductor and data center stocks faced downward pressure due to investor anticipation of increased regulatory oversight and antitrust scrutiny on artificial intelligence tech giants.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcW5CTURXaGFocTExc3NDZk9feEYwc1dTaDVuTkVqUEZxejUwS1ZkZkhaMlNZUnh0UkY5VFo5ZXczeFBPMDFzMVBvUTc0SEUxREtORkRSTE5maGlaZWVMREY5ZXduYlZRQUFPNGNnUFhqNlpiQUhKYWhKeVNscEF2ZGNSaG5ha19TZ3ZkYXJxbVpPZ0RId1g3VXBCM0RfTzdqWnBxbEFqanIxS1NYUGJKOTNPcUlNOEhzM0xvMkt0RlhPcDB1aWF6MnRUaktaQ0R0YWRJ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261104-smci-earnings-margin-compression-concern",
+      "time": "2026-11-04T10:00:00Z",
+      "headline": "SMCI Stock Near 3-Month Low: Super Micro\u2019s Earnings Beat Fails To Ease Analyst Concerns Over Margins",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA"
+      ],
+      "why": "Super Micro Computer's stock sank toward multi-month lows despite beating quarterly top-line earnings, as persistent gross margin compression troubled analysts. Elevated component input costs and competitive pricing pressures on liquid-cooled AI server racks continue to weigh on net profitability.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ0pNOS1rQUh4R01BRHBteHBvaTh3NjM0WFRXWkw5TEd3Wms1bXBFbXFXRGsxbGlSR1Npb3RqRmROWWJ3eVlXeFNmUG4yTnhOdmxXazIwZm96Ynhsb04wT1FFX2hPNDZ2TXhfQnlHeWJuNjItR01rREtqRlNRNER0Z2NVLUV3NjBaZWgtbW5ERngwSnFIRGhCYkRyU2htaXV3SFd0Wm96ZVN0TERNVmJHNC1DM3V5QWhaUzVJVWJoWGE4LS14MWhDREtUOTZrcTNFQm5MR3A0N0JqOC10N0V6VW1pTjVsbXpBdlowYm1YWTNEUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261104-amd-q3-earnings-q4-guidance-beat",
+      "time": "2026-11-04T08:00:00Z",
+      "headline": "AMD Shares Surge Nearly 8% as Q3 Earnings Beat Forecasts and Revenue Outlook Exceeds Expectations",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "TSM",
+        "INTC",
+        "MU",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "AMD reported third-quarter revenue and earnings that topped consensus estimates, driven by data center revenue nearly doubling year-over-year. Robust guidance for fourth-quarter growth reaffirmed sustained hyperscaler investment in AI accelerators, easing broader market concerns regarding near-term AI infrastructure spending.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbGNWalV5bFpTYUN0WGhMV1pRcVJyQ0d1RkdmRHQ0WXNhcFY5T011ZTJIbXI0dEF2ZDlCeksxVm54YmhXR1VRMTJFSS1OdTNiTi1zOGktQUFXSmQ4cmJqbUYzMHVCQ1pDNUJTMlcwWmFLb0V1ajRXWFdQdXBMdFdteDlOTTY1MlRxczBjSzJWMXh1Y3ox?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261104-hbm-chip-smuggling-export-control-evasion",
+      "time": "2026-11-04T06:00:00Z",
+      "headline": "Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "TSM"
+      ],
+      "why": "Reports detailing sophisticated evasion methods to deliver advanced High Bandwidth Memory into China via server packaging assemblies increase the likelihood of secondary Commerce Department trade sanctions. Heightened enforcement could impose stricter audit compliance burdens and restrict sales channels for memory manufacturers and foundry partners.",
+      "source": "Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObk9vTDhwNFNSblVDay15eFVQeDV4TjhkbkFPR1VycVVudlJLaVprSEF5Um1MbGxYcXFIbnBTOXlPTXJHdzg3NEc5LU5YQTIxMmR5SDh2b05mUnhxRnprbVctTVhrQ2xvcnNfQ0p6a29tcDFNQ19HWGpxMWdfSWQ5QjRIVTBIS3NXZk9GWXN1S2o0SXZVYnJ0TXBVY3Y2bDlTSW5udjdYQdIBrAFBVV95cUxNRHljOV93M3ZHZ2Nka0RXTkd2ODUxWEI4RTdPYldZdFNGVVA1cU1mMXFhMzFpaUctTGpJZy1KQXNzVDdodzZXN1JWS1VCN0xGbDZWbXZDUVY4WWxQLW4tTktmQ1c5VDJPT3FMN2kwYnhIRzg4blJ2anhmc2xLdHB3QVFaalVlNGE2LU9YeEdTWmFQNVVObjVRTld1bDJKZTQzWi1mR0p1YUttdnhx?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261103-taiwan-china-chip-export-controls-tightened",
       "time": "2026-11-03T00:00:00Z",
@@ -651,78 +725,6 @@
       "why": "Coca-Cola reported third-quarter financial results that topped Wall Street expectations and raised its full-year 2026 financial guidance. Resilient organic volume growth and pricing power drove the outperformance, demonstrating strong earnings visibility despite broader consumer staples cost pressures.",
       "source": "Coinpedia",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeV9KbTdzb3FrbDgtWlYwcGw0YVlJSXJ0aGlodXZ6VEZQdW93TlJxNllOZGtSSEJJdzFxeFllbUtRNmtKMXZGaUJRc2JFM3pXbUVjelpOV055UkRRMWMwMllFNl9GeE5Lb1lNOUE0d0ExOHVZdlVmcDNRQjFkcWx1MTk4MHhXTUxTcDl6MnVmOXB1YlJBcGlpRlVIUmpPNTNGa2M5RHVHaEQyMzBLbzU3aDln0gGyAUFVX3lxTE15X0ptN3NvcWtsOC1aVjBwbDRhWUlJcnRoaWh1dnpURlB1b3dOUnE2WU5ka1JIQkl3MXF4WWVtS1E2a0oxdkZpQlFzYkUzeldtRWN6Wk5XTnlSRFExYzAyWUU2X0Z4TktvWU05QTR3QTE4dVl2VWZwM1FCMWRxbHUxOTgweFdNTFNwOXoydWY5cHViUkFwaWlGVUhSak81M0ZrYzlEdUdoRDIzMEtvNTNoOWc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-avgo-da-davidson-upgrade-target-raise",
-      "time": "2026-10-27T00:00:00Z",
-      "headline": "Broadcom Rises 3% on DA Davidson Upgrade and $400 Target Tied to Anthropic IPO",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AVGO",
-        "NVDA",
-        "AMD",
-        "MRVL",
-        "TSM"
-      ],
-      "why": "DA Davidson upgraded Broadcom and raised its price target to $400, citing expanding custom ASIC demand linked to Anthropic's deployment scale. The upgrade underscores Broadcom's expanding margin profile and market share capture in custom AI accelerators alongside merchant GPU suppliers.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTWc1OERHME1fZTZOWUVoaVJDbWtSeGNWQ3ZRb0hsY0NxMzZmVmk2dGcxem5yVk5PaXlYTW9jRTI0eFBNZktaOWJuLXM0REowUXFabXdhU2twa3pUbkVxRjRsVDJNQ1R0UlZQZV9jN1RHOUV6TWlVUTVVM0ZZVjFJTU80MXZzZy1jSEQ4a0ZGTmhaa0N2TlBqWTNkVDZQN2VGX2JMQXV2VGpSeDVrbGlfX0FuZ3dEMWl1aGRRYm04UWViSTJDZ3ZwNkpoeUhxLWFmWmpGYi1SM3VhZFVqekxEWg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-tsm-japan-rapidus-funding-2nm",
-      "time": "2026-10-27T00:00:00Z",
-      "headline": "Japan Injects Massive Funding into Rapidus, Accelerating Entry into the Advanced 2-Nanometer Foundry Market",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "ASML",
-        "INTC",
-        "AMAT"
-      ],
-      "why": "Japan has committed additional state subsidies to foundry startup Rapidus to accelerate construction and production timelines for 2nm process nodes. While government capital injection expands long-term foundry capacity options and boosts semiconductor equipment demand, it introduces eventual competitive supply against incumbents TSMC and Intel.",
-      "source": "https://economy.ac/",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxUEpkTU8xejAxY2xJd0pEcDMzdVRtV081WFBBZW8zVC1KNDR1aEJiQ3kyWGJxWGJZUnRPV0NZWmdSelpZZ2xwSFhPOUlMM0JQYUpSeXZQOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261026-anthropic-ipo-filing-ai-stocks",
-      "time": "2026-10-26T14:30:00Z",
-      "headline": "Equities Rise as Anthropic's IPO Filing Buoys AI and Tech Stocks",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA"
-      ],
-      "why": "Anthropic's public IPO filing provides an explicit valuation benchmark for commercial foundation model labs and validates accelerating enterprise AI deployment. The filing serves as a positive balance-sheet and revaluation catalyst for primary backers Amazon and Alphabet, while expanding multi-year revenue visibility for compute providers Microsoft and Nvidia.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261026-intc-new-street-upgrade-server-cpu-shortage",
-      "time": "2026-10-26T12:00:00Z",
-      "headline": "Intel Upgraded at New Street Citing Server CPU Shortage; Shares Rise Along With AMD and Nvidia",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "NVDA"
-      ],
-      "why": "New Street Research upgraded Intel following reports of tightening server CPU supply, which supports higher average selling prices and enterprise data center margin expansion. Tightness in server CPU capacity indicates resilient data center refresh demand, offering positive read-through for rival x86 vendor AMD and AI host-processor supplier Nvidia.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON3Z3eDViNUE2OFRBVWFNRVp3WlpiM2lTbEZCUm1CVFNYMC12S3BCSDA2N0xqeEJpLTZJdlNpX084M01MNHF4bFRQeTZwcnE4UEJMR2F0cUpHdFdLbXZrV3VqSW51ZWFqNFpWWEJETWllSVdhLWgtTEZfY2Y2Z0xWcUlGTWhjVkhnQ3VBSTUwbENTd0xEdXFXaw?oc=5",
       "alerted": false
     }
   ]
