@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:12:12Z",
+  "generated_at": "2026-11-05T20:12:16Z",
   "session_date": "2026-11-05",
   "items": [
     {
@@ -19,6 +19,56 @@
       "why": "Arista Networks reported strong Q3 earnings beating Wall Street expectations, driven by accelerating enterprise and cloud hyperscaler demand for AI data center switching hardware. Robust adoption of high-speed Ethernet backbones in AI cluster deployments expands Arista's addressable market and improves multi-quarter revenue visibility across cloud networking hardware providers.",
       "source": "Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdk5waTd5dkFDWTBVcXV1Tnl5dkNGZVV0Q2hBUHJTbnRxV3pkZ2QyY0l3N0FFajByMnZ5UWVWZ2hxQTlHLUNhOGNIVEtFSl9HX2FqamFtWWJ1RXhscWFfdUpYNWc4czhLQ1lOa1hSdm9nbjlIb2dwdHlGSzIyM3VZRktiVFg2UTct?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261105-orcl-tencent-ai-leasing-deal-canceled",
+      "time": "2026-11-05T00:00:00Z",
+      "headline": "Oracle Drops Rs 66,000 Crore AI Chip Leasing Agreement With Tencent Under US Pressure",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "ORCL",
+        "NVDA"
+      ],
+      "why": "Oracle terminated a multi-billion dollar AI compute leasing contract with Tencent following US regulatory pressure intended to close foreign cloud access loopholes to advanced silicon. The cancellation directly reduces Oracle Cloud Infrastructure's forward revenue pipeline and diminishes enterprise GPU order backlogs for Nvidia.",
+      "source": "The 420.in",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc3dGTWoyUVFvMEFQd0Y2dk9OMzRKODF0UEI5ZDVfRjJrYkxub0lkMzl2WE5ia0xsZ2RZekh4Zmg2cnFMNUFTTWRQTVBvNFU2VmQzZ21wYVhQME1vQWVIWWpVRzNYVVE2X1ROMy1aNVdNSHQzZ21CeFpSZnlTcHNZTW9ZZTFmY0FJR1gyZ3JhajJoYXNjb0czaHRQdW9OME82bU5TY1pR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261105-nvda-china-import-clearance-delay",
+      "time": "2026-11-05T00:00:00Z",
+      "headline": "Nvidia chips pile up in Hong Kong as China withholds import approval",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AMD"
+      ],
+      "why": "Chinese regulatory authorities are withholding import clearance for Nvidia hardware, resulting in inventory build-ups across Hong Kong transit hubs. The administrative bottleneck presents near-term revenue recognition risks for Nvidia's China-tailored product lines and threatens demand visibility for foundry partners.",
+      "source": "ET Manufacturing",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZDZmR0x2YnRxWW1SckJzUmtPMjA5NmdySGpTbUZpdldfaXhaQU05NzVYYVYyZGpYekJHRm9UR05tZTlWRXdWQWgyR2NTV3Z1ZzJSeXJWOVlvaHpsdlZRd0lDWXZ5a2lPdmozbnJVOEFtM1htVkxDYzVTX2tNakZNYURfc3pfcklOUjgydlh1Q3hKenBIVlhtb0pJblZOdkZDUlJUaW4yeUNtOXd6QThjeXdKQkE3Mm90TXJKVTJCd1FJckk2VDYtWkdsOFRtSXluZjg2Ml_QM2VDN1lhV2p1WnZpZ2ptTGdBVEo3c283eGl4ODB6TdIB3gFBVV95cUxNZUxwM294VkFjdDN0d2k5V1kwM2p3RldlMXYyd1N6M1N5VkpBU3FJLV9YY196N0EwbFdKNmh1d2NYSFdWYnpPalpEVmF1RGJ2a0JQc2htVXZpZnU4MnVKdGstMlpXczJHR2pOWXE0bnRkLXBrVWFlWnFaQ1EtcW9WbjJ6VVR4ekI5VXlZVUZNSE4wYnUyN21QWWFiLU8zSV9yUGo1N25PdGVmVlp3OW5Vb20tcS1tTVpZcnJMSzVTRHZ5NWROX0g4UWxFLWlhMmsxbkZEMG9XSnQ5LWxvUVE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261105-eu-chip-design-investment",
+      "time": "2026-11-05T00:00:00Z",
+      "headline": "EU Launches \u20ac525m Chip Design Investment to Challenge US and China",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "NVDA",
+        "AMD"
+      ],
+      "why": "The European Union allocated \u20ac525 million in public funding targeting sovereign semiconductor design and software infrastructure. While modest relative to total industry capex, the initiative provides long-term structural tailwinds for regional semiconductor IP and design tool adoption.",
+      "source": "EU Today",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMDMxRW9Xb0lCZFB0djZWMy1INjRaUEV4UzlsUXk3LXNqci14ZzFUMHdRVlpUNVoyZlBSUHI3Vk9NdHVNNllkeWZpQThNTFJEUFBkVTdEWVpXYXdocmZPY3pQSEhkcEVpSUVrMGRIUzBZSTJEM1E?oc=5",
       "alerted": false
     },
     {
@@ -672,62 +722,6 @@
       "why": "Meta's expanded AI infrastructure agreement with AMD validates ongoing commercial adoption of AMD's Instinct accelerator platform alongside market leader Nvidia. The deal boosts AMD's data center revenue visibility into upcoming quarters while confirming that hyperscaler capex remains supportive. Read-through benefits extend to contract foundries and memory providers supporting high-performance computing deployment.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDhaMUlBSC1CWUlWZGcxLU5GRnJ3NlZROGRCdHpOZW5VZDlYOTJCRlprelVEX1ZoM2xWdGVJdFUtNUFfMFpOQzh5T1V0ZGZ5N3VsWmNZUi0wU19feVJCRUVSd25jTzlFOEFUbnBRVlFneF95WThxZlROVVYxS0JFdU51RTBmSmp6QkJmd1NuLVZKOHZ0VjFQaGhrRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-bok-korea-chip-export-warning",
-      "time": "2026-10-27T04:00:00Z",
-      "headline": "Bank of Korea warns country's chip exports could fall by up to $100 billion if AI spending slows",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "The Bank of Korea published a stress-test scenario modeling that South Korea's semiconductor exports could contract by $50 billion to $100 billion if U.S. technology giants temper their current AI infrastructure investment velocity. The analysis underscores how high-bandwidth memory and advanced chip supplier revenues are heavily dependent on sustained hyperscaler capital expenditure, posing downside risk to valuation multiples across the semiconductor supply chain.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVUNZS1BDcWhYVDJvcFJDblFsVWcyRHZPWEVndVl3alk3SHFYUDRXaXkyMnJTUjZYWDhuT2JZMzlLUUUyVTdqMlZ2SmlielRBTEg1ckpnLXdPV2VtaDBLRlNqa3VnZG9BenAxaDF4eFJxTWtHektWV2wxSU9nb3RYSGZNeWFoTHhJZTM5Q1hnNWFjZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-skorea-q3-gdp-chip-export-surge",
-      "time": "2026-10-27T00:00:00Z",
-      "headline": "Korea's Q3 GDP Grows 1.0% on Chip Boom, Tripling BOK Forecast",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "South Korea's Q3 GDP expanded by 1.0% quarter-on-quarter, tripling central bank forecasts due to a historic surge in semiconductor exports. The official economic data provides hard validation of sustained global demand for high-bandwidth memory (HBM) and advanced logic chips, reinforcing revenue visibility for memory providers like Micron and broad AI hardware suppliers.",
-      "source": "Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0UERwTE0zcndqQ3haMmZ6VTlLSHJjUFk4aDNYUERFWGtpZmI2a3Z1WVZkVmVvUjRmQ2hQYnhibU1oQXlmeDRQRnlFV3loVzBBTS0xQi0wd0t3ZG4xZnVDNWRDV3VIaTZ0dTBUcG5PSU5kU05w?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-rambus-q3-earnings-guidance-cut",
-      "time": "2026-10-27T00:00:00Z",
-      "headline": "Rambus falls despite earnings beat on muted guidance outlook",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "RMBS",
-        "MU",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Rambus beat Q3 earnings estimates but traded down after delivering weaker-than-expected forward guidance. Because Rambus licenses critical high-speed memory architecture and produces DDR5 memory interface chips, a conservative outlook points to potential inventory digestion or softer demand in traditional enterprise server memory channels relative to HBM.",
-      "source": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1kzVXBYWTZoTVUxcE9fTE1ROUlTMTZ5c3E2dVhpOE9oV2hvRjhrVUhyTDAxVmNHUHJOeVMxSXZib3RzT0x3REl6a2FIdndSSkZQTzhjeXBNRlNRN1I0bXFleENvdWFOWTQydmhQZERpVHBkUHBrTGRZSnY0empXT2FPRml5aTlnWXVR?oc=5",
       "alerted": false
     }
   ]
