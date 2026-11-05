@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-04T19:58:03Z",
-  "session_date": "2026-11-04",
+  "generated_at": "2026-11-05T07:12:12Z",
+  "session_date": "2026-11-05",
   "items": [
+    {
+      "id": "20261105-anet-q3-earnings-rally",
+      "time": "2026-11-05T00:00:00Z",
+      "headline": "Arista Networks (ANET) Stock Price Rallies After Q3 Earnings Shock",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ANET",
+        "CSCO",
+        "NVDA",
+        "AVGO",
+        "MRVL"
+      ],
+      "why": "Arista Networks reported strong Q3 earnings beating Wall Street expectations, driven by accelerating enterprise and cloud hyperscaler demand for AI data center switching hardware. Robust adoption of high-speed Ethernet backbones in AI cluster deployments expands Arista's addressable market and improves multi-quarter revenue visibility across cloud networking hardware providers.",
+      "source": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdk5waTd5dkFDWTBVcXV1Tnl5dkNGZVV0Q2hBUHJTbnRxV3pkZ2QyY0l3N0FFajByMnZ5UWVWZ2hxQTlHLUNhOGNIVEtFSl9HX2FqamFtWWJ1RXhscWFfdUpYNWc4czhLQ1lOa1hSdm9nbjlIb2dwdHlGSzIyM3VZRktiVFg2UTct?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261104-us-midterms-democratic-sweep-ai-stocks",
       "time": "2026-11-04T12:00:00Z",
@@ -709,22 +728,6 @@
       "why": "Rambus beat Q3 earnings estimates but traded down after delivering weaker-than-expected forward guidance. Because Rambus licenses critical high-speed memory architecture and produces DDR5 memory interface chips, a conservative outlook points to potential inventory digestion or softer demand in traditional enterprise server memory channels relative to HBM.",
       "source": "Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1kzVXBYWTZoTVUxcE9fTE1ROUlTMTZ5c3E2dVhpOE9oV2hvRjhrVUhyTDAxVmNHUHJOeVMxSXZib3RzT0x3REl6a2FIdndSSkZQTzhjeXBNRlNRN1I0bXFleENvdWFOWTQydmhQZERpVHBkUHBrTGRZSnY0empXT2FPRml5aTlnWXVR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-ko-q3-earnings-guidance-raise",
-      "time": "2026-10-27T00:00:00Z",
-      "headline": "Coca-Cola Earnings Beat Q3 Estimates as Company Raises 2026 Guidance",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "KO",
-        "PEP"
-      ],
-      "why": "Coca-Cola reported third-quarter financial results that topped Wall Street expectations and raised its full-year 2026 financial guidance. Resilient organic volume growth and pricing power drove the outperformance, demonstrating strong earnings visibility despite broader consumer staples cost pressures.",
-      "source": "Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeV9KbTdzb3FrbDgtWlYwcGw0YVlJSXJ0aGlodXZ6VEZQdW93TlJxNllOZGtSSEJJdzFxeFllbUtRNmtKMXZGaUJRc2JFM3pXbUVjelpOV055UkRRMWMwMllFNl9GeE5Lb1lNOUE0d0ExOHVZdlVmcDNRQjFkcWx1MTk4MHhXTUxTcDl6MnVmOXB1YlJBcGlpRlVIUmpPNTNGa2M5RHVHaEQyMzBLbzU3aDln0gGyAUFVX3lxTE15X0ptN3NvcWtsOC1aVjBwbDRhWUlJcnRoaWh1dnpURlB1b3dOUnE2WU5ka1JIQkl3MXF4WWVtS1E2a0oxdkZpQlFzYkUzeldtRWN6Wk5XTnlSRFExYzAyWUU2X0Z4TktvWU05QTR3QTE4dVl2VWZwM1FCMWRxbHUxOTgweFdNTFNwOXoydWY5cHViUkFwaWlGVUhSak81M0ZrYzlEdUdoRDIzMEtvNTNoOWc?oc=5",
       "alerted": false
     }
   ]
