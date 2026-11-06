@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-11-06T07:12:09Z",
+  "generated_at": "2026-11-06T19:37:46Z",
   "session_date": "2026-11-06",
   "items": [
+    {
+      "id": "20261106-nvda-1gw-datacenter-retrofitting-project",
+      "time": "2026-11-06T14:00:00Z",
+      "headline": "NVIDIA Surges Over 6% as It Plans Data Center Retrofitting Projects with Capacity Reaching 1 Gigawatt",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "AMD",
+        "VRT"
+      ],
+      "why": "Nvidia unveiled plans to execute data center retrofitting initiatives reaching up to 1 gigawatt of power capacity to accommodate next-generation AI accelerators. The massive infrastructure buildout reinforces long-term demand visibility for high-performance AI chips and data center power management suppliers.",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGs5d3lFcWd5WEVwZlBvelNFUWdkUFpJeEgwNGhxckJ1aVdHTmlEVHpmbnZyUEZFMHJnbnZ3c1JVUE1zZmx6eXFhUG04dnp4RzBrRF9Xa3RjVjA3ektfYmZhb0NEaFR3MVFMOUU2QTJDeGZuR2owUTJoYTVYWWdOTnZJRmkzaHhqYlBJMWlHTlZfWWpXTng2V3BzSWFPa2kzWlE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261106-us-october-jobs-report",
+      "time": "2026-11-06T12:30:00Z",
+      "headline": "The US economy added 165,000 jobs in October and the unemployment rate fell",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "Nonfarm payrolls expanded by 165,000 in October alongside a decline in the unemployment rate, demonstrating robust economic fundamentals despite high interest rates. The strong labor market print alleviates immediate recession concerns while maintaining monetary policy flexibility for the Federal Reserve, supporting broader equity valuations.",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qWk8wMEdtNmQzcFpkelNRdjNtZjJYRkJNWkpKM2xBenpzMnRxeUVKdkUzTFlPZkNmTTE5dmNlN0lzaWJZck5ENmNEc054d280UGNkdEo4MXVUYUVEMjM4RmV5T1ZrV0VWMzRxdDhR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261106-intc-ceo-insider-stock-purchase",
+      "time": "2026-11-06T11:00:00Z",
+      "headline": "Intel CEO buys $9.7M stock after shares plunge nearly 50% in a month",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "INTC"
+      ],
+      "why": "Intel's Chief Executive Officer executed a open-market purchase of $9.7 million in company stock following a nearly 50% month-over-month decline. Significant insider buying provides institutional investors with a positive signal regarding management's confidence in Intel's long-term restructuring and foundry turnaround.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZEJuV08xSUZqdmk3V29PM2hiMVJ6RFJVdWJETmxLdG1tVEJrd1VabzVENVl3bVBHN01Fa1FJM29OeHdnbWlpV2d3X3ZVXzJpZ3VNdTVzbUIzZXNVU2JMTlVOSjQ1UmhIdklpb3JpXzBkNjVtaEhqU2RrbkRmOFUtc1puNkxCRkRsc0R6OUlIMHFGdnFjUzJz?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261105-sp500-tech-ai-selloff",
       "time": "2026-11-05T21:00:00Z",
@@ -671,62 +722,6 @@
       "why": "KLA delivered Q1 top- and bottom-line beats supported by steady demand for process control and yield management tooling in advanced chip manufacturing nodes. Strong equipment utilization signals durable capital spending requirements across major foundry and logic customers.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQmUyRjRmX00tcHAwa0NyeWRUaW9QZHZNclhwNlpjWmZmTmRITHZyQVNoMFhvdWhUUEVBdkVybFhtaWpPTGIydWtsblFHWHBhdEJRTmM3MTFQc09VZzJkczNUREFiZVJ2MnA0dVlYUTRLa3d2dmVZUTlEQTMzMFNkOWhtMUlmU0RLMjhYdGh1YVd0S1dVRlowR0s1MA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261028-vrt-q3-earnings-guidance-raise",
-      "time": "2026-10-28T06:00:00Z",
-      "headline": "Nvidia Partner Vertiv Soars After Blowout Earnings, Strong Guidance",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "VRT",
-        "NVDA",
-        "SMCI",
-        "ANET",
-        "AVGO"
-      ],
-      "why": "Vertiv delivered earnings above market expectations and raised full-year guidance on accelerating orders for thermal cooling and power management infrastructure equipment. The strong results offer a clear positive read-through for high-density AI server hardware buildouts, confirming sustained capital expenditure by hyperscale data centers.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNDZPY1d5Sks1YmYybHAyUTBMdFRrMkFTaThYc1huMm5uOVExWXhwbWgzY1J3b2YxQ1p0TUdvRUlVTTZZNXBvRm02UUdqSGltYlFtMUNGUkZiNzMwMV80ZjZlazVMODJZcUFqVEpYaTVfY19XbHpqcGU0SThVek9DY2NnbGZLOEoxcjR5Vg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261028-china-ai-technology-export-curbs",
-      "time": "2026-10-28T04:00:00Z",
-      "headline": "China's new export curbs draw a line around its AI crown jewels",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "BABA",
-        "BIDU"
-      ],
-      "why": "Beijing introduced expanded export controls targeting advanced domestic artificial intelligence technologies and software frameworks to preserve key capabilities within national borders. The policy move increases regulatory fragmentation and geopolitical risk for multinational tech companies, while restricting monetization options for major domestic Chinese firms.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQS1XZ0liaXgydVhrTDZ3Z3piOTUyYVlBNFZXdTVPenctR01Hb0RnZEtvNVZObkFHRE9Pb0dkTURvamlKanJVQm1hX2k5cERiSnpQbmRsaTJSS2VZY0NEaEpGanlxODFiR1IxbFozM0p4a3Y0Sl9NdFFMd1Zrd05lQlQyaS1ZYlJqQURvYXpxNVFzSEJUd3JKZ1lGbWtGSDNqaWhR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-stx-q1-earnings-slide",
-      "time": "2026-10-27T13:30:00Z",
-      "headline": "Seagate Stock Slides Despite Earnings Beat, Adding To Slump For AI Stock",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "STX",
-        "WDC",
-        "MU",
-        "NVDA"
-      ],
-      "why": "Despite beating quarterly earnings expectations, Seagate shares fell as forward guidance failed to meet high market expectations for AI data center storage demand. The post-earnings decline reflects investor sensitivity to valuation multiples and margin trajectory across data center hardware suppliers. The selloff creates negative read-through pressure for competitor Western Digital and enterprise memory suppliers.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONF8xSzdQaTJlZHB6ZkFUcUNaOXU4MXNHREVSWW5yeU1QYS1vMkFrZzVtOHJEWGxrSldxMERxa3Y5MmZwbVdUaTQzakNqM1Rzeko5YUlDR0xxSHAxbkR0cUk2NjRlWkFZdzE4TnRWaFVNczhvQUZxT0wwSDBZRUc5MjdlZ3hKRTJEVWF3?oc=5",
       "alerted": false
     }
   ]
