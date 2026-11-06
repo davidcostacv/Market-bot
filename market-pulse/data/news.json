@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-11-05T20:12:16Z",
-  "session_date": "2026-11-05",
+  "generated_at": "2026-11-06T07:12:09Z",
+  "session_date": "2026-11-06",
   "items": [
+    {
+      "id": "20261105-sp500-tech-ai-selloff",
+      "time": "2026-11-05T21:00:00Z",
+      "headline": "S&P 500 Tumbles 4.4% in Worst Single-Day Drop Since April 2025 as AI Chip Selloff Deepens",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA"
+      ],
+      "why": "Escalating investor skepticism around near-term return on investment for massive artificial intelligence infrastructure spending triggered a sharp contraction in mega-cap technology valuation multiples. The S&P 500 dropped 4.4% in its largest single-day loss since April 2025, wiping out over $2.5 trillion in market equity as semiconductor and cloud leaders faced broad-based institutional liquidation.",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta1_OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261105-anet-q3-earnings-rally",
       "time": "2026-11-05T00:00:00Z",
@@ -703,25 +727,6 @@
       "why": "Despite beating quarterly earnings expectations, Seagate shares fell as forward guidance failed to meet high market expectations for AI data center storage demand. The post-earnings decline reflects investor sensitivity to valuation multiples and margin trajectory across data center hardware suppliers. The selloff creates negative read-through pressure for competitor Western Digital and enterprise memory suppliers.",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONF8xSzdQaTJlZHB6ZkFUcUNaOXU4MXNHREVSWW5yeU1QYS1vMkFrZzVtOHJEWGxrSldxMERxa3Y5MmZwbVdUaTQzakNqM1Rzeko5YUlDR0xxSHAxbkR0cUk2NjRlWkFZdzE4TnRWaFVNczhvQUZxT0wwSDBZRUc5MjdlZ3hKRTJEVWF3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261027-amd-meta-ai-infrastructure-deal",
-      "time": "2026-10-27T12:00:00Z",
-      "headline": "AMD stock rallies on expanded Meta AI infrastructure deal and broader chip rally",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "META",
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
-      "why": "Meta's expanded AI infrastructure agreement with AMD validates ongoing commercial adoption of AMD's Instinct accelerator platform alongside market leader Nvidia. The deal boosts AMD's data center revenue visibility into upcoming quarters while confirming that hyperscaler capex remains supportive. Read-through benefits extend to contract foundries and memory providers supporting high-performance computing deployment.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDhaMUlBSC1CWUlWZGcxLU5GRnJ3NlZROGRCdHpOZW5VZDlYOTJCRlprelVEX1ZoM2xWdGVJdFUtNUFfMFpOQzh5T1V0ZGZ5N3VsWmNZUi0wU19feVJCRUVSd25jTzlFOEFUbnBRVlFneF95WThxZlROVVYxS0JFdU51RTBmSmp6QkJmd1NuLVZKOHZ0VjFQaGhrRQ?oc=5",
       "alerted": false
     }
   ]
