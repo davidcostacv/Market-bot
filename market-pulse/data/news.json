@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-11-07T06:25:54Z",
+  "generated_at": "2026-11-07T13:26:25Z",
   "session_date": "2026-11-07",
   "items": [
+    {
+      "id": "20261107-barclays-sp500-target-upgrade",
+      "time": "2026-11-07T07:15:00Z",
+      "headline": "S&P 500 Forecast: Barclays Raises Year-End Target to 7,950",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IVV"
+      ],
+      "why": "Barclays raised its year-end benchmark price target for the S&P 500 to 7,950, pointing to resilient enterprise earnings power and durable macroeconomic conditions. Higher Wall Street institutional targets improve broad equities positioning and lift index valuation floors following tech-led market pullbacks.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261107-moonshot-ai-europe-neocloud-chip-bypass",
+      "time": "2026-11-07T06:30:00Z",
+      "headline": "Moonshot AI Bypasses U.S. Chip Curbs Via Europe Neocloud Deal",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "why": "Chinese AI entity Moonshot AI reportedly accessed high-performance GPU clusters by leasing capacity from European neocloud providers, circumventing direct physical hardware export controls on Nvidia compute. This loophole increases legislative and BIS pressure to expand U.S. export restrictions to remote cloud compute and IaaS licensing models.",
+      "source": "The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ6aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261106-nvda-1gw-datacenter-retrofitting-project",
       "time": "2026-11-06T14:00:00Z",
@@ -685,43 +719,6 @@
       "why": "Department of Justice antitrust scrutiny into Nvidia's proposed $12.9 billion acquisition of Hugging Face creates regulatory execution obstacles for Nvidia's software stack strategy. Regulatory pushback risks slowing Nvidia's vertical integration into open-source AI platform infrastructure and developer workflows.",
       "source": "Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3BPemE4ZmVhMkhtWTBnRW5hZXp1SW5xSDhlUWJHR2padGpzcEdUUVZrcWkwZWZyR21hSzVDYWcwZ203OVlrTlE1am1kS0Y1aDVYUjZzamF4U2dGWE1yejJsLVczNVZIaFh4Mzl2R0o0V3Z3SktuSHlqYjZyczQ1X1Blb3p1a0ZQM2ozY3dQbTJLWDVhdFBHcDdOVW9ncUxIREdmb0NmY215QXpmRWswNHh2STR0R255bHlXd29mS05DN3RybHlRcWNXLVMyRllBQjlSSDNYQXNiUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261028-lite-mrvl-takeover-talk",
-      "time": "2026-10-28T14:15:00Z",
-      "headline": "Lumentum Stock Soars 17% on Marvell Takeover Talk - Benzinga",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "LITE",
-        "MRVL",
-        "CIEN",
-        "NVDA"
-      ],
-      "why": "Acquisition rumors indicating Marvell Technology could acquire optical interconnect vendor Lumentum sparked a 17% rally in Lumentum while pressuring Marvell over integration and financing considerations. Consolidating optical transceivers would strengthen Marvell's high-speed data center connectivity portfolio for AI compute clusters.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWx2TXlWVzBIN0tzUzBQbkZlUWtEdEFKUDNJUk5PYTY5UXlIWUhFel8xMDV4dzFhTlZ1bmtIZkxJNnhyS0UyLUgzMXdzUUZ0VXZXb2QyUUxfb0UyMklYZWFmMzhiaUdzRTFnR2lUMXRUekVDR0lFcVItLUktVExOdGRuVnBITWpSQ1ZuQ3F3aVJQUnBiSmlZ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261028-klac-q1-earnings-beat",
-      "time": "2026-10-28T12:00:00Z",
-      "headline": "KLA (KLAC) Surpasses Q1 Earnings and Revenue Estimates - Yahoo Finance",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "KLAC",
-        "AMAT",
-        "LRCX",
-        "ASML",
-        "TSM"
-      ],
-      "why": "KLA delivered Q1 top- and bottom-line beats supported by steady demand for process control and yield management tooling in advanced chip manufacturing nodes. Strong equipment utilization signals durable capital spending requirements across major foundry and logic customers.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQmUyRjRmX00tcHAwa0NyeWRUaW9QZHZNclhwNlpjWmZmTmRITHZyQVNoMFhvdWhUUEVBdkVybFhtaWpPTGIydWtsblFHWHBhdEJRTmM3MTFQc09VZzJkczNUREFiZVJ2MnA0dVlYUTRLa3d2dmVZUTlEQTMzMFNkOWhtMUlmU0RLMjhYdGh1YVd0S1dVRlowR0s1MA?oc=5",
       "alerted": false
     }
   ]
