@@ -1,7 +1,96 @@
 {
-  "generated_at": "2026-11-08T13:47:07Z",
+  "generated_at": "2026-11-08T22:21:29Z",
   "session_date": "2026-11-08",
   "items": [
+    {
+      "id": "20261108-nvda-board-statement-ceo-backing",
+      "time": "2026-11-08T13:00:00Z",
+      "headline": "NVIDIA board of directors issues formal statement amid scrutiny of CEO Jensen Huang",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET",
+        "AMD"
+      ],
+      "why": "A board-level statement converts press allegations into a matter the company must formally address, which is the step that precedes special committees, document preservation and disclosure obligations \u2014 all of which raise the discount rate investors apply to NVDA even if earnings are untouched. The offsetting mechanism is that an explicit board endorsement caps the tail risk of a founder-CEO departure, which is the single largest multiple input for this name given Huang's role in customer allocation and roadmap credibility. Until the scope is defined, the stock carries a governance discount that bleeds into the whole AI supply chain that underwrites its order book.",
+      "source": "Quantisnow",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMWhfQmxwT1JlRUpyRlhMZ285ZVNLeTU3dlVIYUNacXBuMDBzWnFiNS10ZWRFZ3RLZ0ZlZ1VfcXFFN3lnUVlGMEpzNDY5UUNMT2dweXRCcDJvcHlMX2M3b1dDVUZwSlR0UlZOMXdzTlVkRTU5WnB1SnByZFd4UnRGV0NOemo1WW5rRDlN?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-amd-su-2027-revenue-growth-outlook",
+      "time": "2026-11-08T11:30:00Z",
+      "headline": "AMD CEO Lisa Su points to roughly 80% revenue growth in 2027",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "MU",
+        "TSM",
+        "AVGO",
+        "MRVL",
+        "SMCI"
+      ],
+      "why": "A CEO-sourced growth number for a year beyond the current guidance window resets the out-year revenue base that sell-side models anchor to, which matters more for the multiple than any single quarter because it implies operating leverage on a largely fixed R&D base. The risk is symmetrical: that growth rate is underwritten by rack-scale AI deployments that depend on foundry and HBM allocation AMD does not control, so any slippage converts a premium multiple into a de-rating. Read-through is positive for memory and foundry suppliers whose capacity AMD must pre-book to hit it.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMWVpdG9YU3VBZG93QVllVi1VQTVFWEE1MmdlWGFVWHFjeDhBVl9obGVsdTZnSWxoWDhtc2Y5VVBBOGhlTmFoWEx3RExUSEtTVDRwNFVjVWs0STdCOEhodGZpaF9oQTF6Wk1jMU5JUUo5YmhyZHhTdEN5SWZlY3dLX1FfNkNPZlNQSzlVLXlUTGlDRUVrSU9FYnFIYV85dUs5dURzQ0lhMTdrZjdJNGZKbU5QazhyLTR1WmZUa0ZYWjA2YTY5RF9sQWZudHpidDgyMXQtT1RITjhvSlBXR2FHNVJQV2NNdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-cpi-print-hot-fed-hike-sealed",
+      "time": "2026-11-08T09:00:00Z",
+      "headline": "Hot CPI print hardens the case for a Fed rate hike while equities hold up",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "AMD",
+        "PLTR",
+        "JPM",
+        "GS"
+      ],
+      "why": "An inflation print that tightens rather than loosens policy expectations raises the discount rate on the longest-duration cash flows, which is precisely where AI and megacap tech valuations sit \u2014 the hit comes through the multiple, not through earnings. It also removes the implicit put investors had assumed, meaning drawdowns in crowded semiconductor positions no longer get cushioned by expected easing. Banks are the partial offset, since a higher-for-longer front end supports net interest margin even as credit and capital-markets activity slow.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV01fUFdFOC1EcHVvU2VlNVVzSERudGlIcDFvZnRVbTVwOW9iZFV1TTdnVk40MmtWVDBYbDlOT2pBZVB1M3YwempNajNkQ2JBRGNjUjdaaGZqbnlIOVVnWEprazFnQ3ZjZnh5MFc5d1BDc0hzQ3hPTHBaRUN5eHJCWHU4V2VJRmRfOGVPNlRFX3BZSTNVX3ppcw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-orcl-analyst-upgrade-support-test",
+      "time": "2026-11-08T08:00:00Z",
+      "headline": "Oracle draws an analyst upgrade as momentum softens into a technical support test",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AMD",
+        "MSFT",
+        "SMCI"
+      ],
+      "why": "An upgrade into weakness matters for Oracle specifically because the bear case is funding risk on its AI capacity buildout, so a sell-side endorsement of the backlog-to-revenue conversion directly addresses the variable suppressing the multiple. If Oracle's AI datacenter spend is validated rather than questioned, that supports the order visibility of its accelerator and server suppliers. The caveat is that the source does not identify a bulge-bracket house, so the sponsorship value is limited until a top-tier desk follows.",
+      "source": "Blockchain News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUjByS00yVWpUYWphMG5DVjE5dTA4cmxiSlNRWjhZRF9vT3kzbzdTVnNOTVFqOW5pcFZJdUptN2xPVTdhTThxR2wtWXNHSHRDZUl4NGxTZHExZnItMUh1NEYxVlhfZm5pV3ZMdnVrb1pvV1EwTmZ4TGF4b3pTVTVRZjNNQzVnemIyZkIxMjFQWFNSV1ZPV1dlQVE0TQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261108-nvda-huang-espionage-memo-governance-risk",
       "time": "2026-11-08T06:00:00Z",
@@ -673,79 +762,6 @@
       "why": "South Korea's monthly export volume reached a record $115.3 billion in October, propelled by historic chip sales for global AI infrastructure buildouts. The trade data serves as a strong leading indicator of sustained end-market demand for high-bandwidth memory (HBM) and advanced logic silicon, supporting near-term revenue estimates across semiconductor suppliers.",
       "source": "The Korea Times",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGJOeHlLeDRWTDBvaEpWTUF4MjhyM2N0QjBVRHN5LTRjdFlSaXMtc3hQVGtocWV3S1BUNXlWOEYxYmp5OEwwYndvTXUyeERMeGVkYm5IMTI4YlJxTTE4WWVUa1JScFZJZVI2RkRyR29TZXVDYkp3Qm52QnZZeGFMWGVldFQ4Qm1mbWpNLXhKdHZTY3hSUkVvUzF4aFVFSlpqbzRBWXF3T2FCTVhIU085mUlCaw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261101-china-regulators-banks-market-stabilization-meeting",
-      "time": "2026-11-01T00:00:00Z",
-      "headline": "China\u2019s banks, regulators to meet on measures to arrest stock slide",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "FXI",
-        "KWEB",
-        "BABA",
-        "BIDU",
-        "PDD"
-      ],
-      "why": "Chinese regulatory agencies and major state-backed lenders are convening emergency talks to coordinate potential stabilization interventions following recent domestic market weakness. Direct government intervention and policy support expectations often trigger short covering and boost liquidity across Chinese equity benchmarks and US-listed ADRs.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbnVpR3RTV0xFNGdDTV9DaWFoY2ZBQXo2eWJhVVBVdEdrQVB0eXlZT2xLSTkwRGZYMVNsdk9STU1XRWVyamR1YmllRVZWVnl3MW5MaGdnWVNSYjlxWlFVUXhQdkRKcE5LQUNHMmZaZW13bWVmVVlCdHlCVmYzazQxSTRzOXozSHQyeVBpeXdJb1VqNlhrdzV0QUZxMFFxNDRfVnhQakpXbHA2ek1GbmJ1d0ttM0lGYTIw0gG4AUFVX3lxTE92VlhfX3NVOHJhSWowSl9rZXdqSE1KRHRSOHA2Mm1WVldPVFBtWURxZ0liRGFvRVRWMTYtRmpwaU1IM1RKN2p3Q04yd2g0akRCYmpTS0sydmszX25mSktxRjhMSXhEZDdRcHRTMVYyblJDbjZOZ3pDSTNoVXNFRnhtaDlXV0FfWnpnTmxmY1Nfb013RnpRSkowM243MTZyOHJ5Z2VqUTc3d0w3aTE5dWxYMXBEdUxld00?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261031-nvda-megaspeed-export-control-scrutiny",
-      "time": "2026-10-31T00:00:00Z",
-      "headline": "Nvidia\u2019s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "U.S. regulators are increasing scrutiny on Nvidia's shipments to Megaspeed, a Singapore-based data center operator, over concerns that advanced AI processors are being leased to Chinese entities. Expanded Commerce Department enforcement targeting third-party hubs in Southeast Asia could force stricter export licensing rules and restrict sales volumes to intermediary operators.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOclh4d1VCTjRJSHVjZFZQbU8tX3c5Mi1uVmNMaWJ6WFo4VUI4aERWaG8zLU0ydWxVeFVqOFEtZmxKR0biWWp4dEZzcWE0a2lrdjBZeWR3R0FDbU9zbU9rd1pjTGd3aVQxdGszeWZBOWxkUXJEZkZwczV5blNrU2MwZ1NxMGtSYndyRVAwSWxZQWtjZnNzRGVJOV9DdnFKYjRob1VLalVwSDFVS09pWjZhQTRMdEtMcnFVd0VKdlNrcFpwSnFiUWtqOENtaE4tVWVBZE9IaUM2R1N3OGtfRDNndFhTTUVOR1FuUlZB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261030-amd-pc-market-spillover-intel",
-      "time": "2026-10-30T10:00:00Z",
-      "headline": "AMD Shares Fall 6.5% as Intel\u2019s Weak PC Market Forecast Raises Semiconductor Demand Concerns",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA",
-        "DELL"
-      ],
-      "why": "Intel's cautious Q4 guidance and warnings of a persistent PC client market slump triggered a sector-wide selloff, dragging rival AMD down 6.5%. The market is pricing in structural x86 desktop and laptop demand softness that could weigh on AMD's upcoming earnings and margin trajectory.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUoycS1rbkxSeHhVdV9DR3ZpQkhGem5HUGJNQ3pqM0ctRkE4a0tHdjl4Zi1mZG51dGpQTEdvN0RSTmFVUDJwZ0hYbkpGS2pRVnJIYzBRWWx2S29VajhNeEhZRmJuZmhWeVhzWXdjRFliQ0lybnpVbkd4UFBsUm1NWEFTV1ExbUxBZ0ZNNw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261030-japan-chip-exports-surge",
-      "time": "2026-10-30T07:30:00Z",
-      "headline": "AI boom, soaring memory prices lift Japan's chip exports 41%",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Japan reported a 41% year-over-year surge in semiconductor exports, propelled by memory price recovery and heavy AI infrastructure capex across Asia. The data reinforces strong multi-quarter demand visibility for silicon wafer processing equipment and memory fabricators.",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHE1V2o4SERfSUE1X3I1X3BrN1NGbE90UnhUTEc5UFNlUFBmTGtEUmFjYldvWkloM0FfVmJnYzZ3OUpSSnRWMVJRb2Q4aldHM1ZZZTZqUmtkd0ZNb0JyYlpobEptRy1vWHRDalBZTWFLLXpjMXFHM2pwZkdYT2xXZ2tVeFVINEhZdkMxTXh1dWlMMXFWeUVUZjFXMWNuZnZGeUxRdmc2eWJNbVFQX0xURw?oc=5",
       "alerted": false
     }
   ]
