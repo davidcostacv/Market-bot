@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:32:30Z",
+  "generated_at": "2026-11-08T13:47:07Z",
   "session_date": "2026-11-08",
   "items": [
     {
@@ -56,6 +56,31 @@
       "why": "If licensed buyers turn out to be fronts, the policy response is not a fine but a tightening of the licensing regime itself \u2014 slower approvals, stricter end-user verification and potential retroactive revocations across the whole accelerator supply chain. That converts a revenue line investors had begun re-underwriting into an option with regulatory delta, and it pulls in the server and memory names that ship into the same channel. The near-term earnings hit is smaller than the multiple hit from reopened political risk.",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-korea-chip-exports-us-datacenter-curb-risk",
+      "time": "2026-11-08T00:00:00Z",
+      "headline": "Korea flags export and growth hit if US restricts AI data center construction; roughly 45% of planned capacity seen at risk",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "SMCI",
+        "ANET",
+        "MRVL",
+        "LRCX",
+        "AMAT",
+        "KLAC"
+      ],
+      "why": "The transmission channel is permitting: if new AI data center approvals are slowed, the bottleneck shifts from chip supply to physical siting and power, which caps the unit volume that accelerator, memory, networking and server vendors can ship regardless of order books. That turns sold-out backlogs into delivery-date risk rather than revenue certainty, which is what de-rates the group's multiple. Korean export data is the cleanest high-frequency read on AI hardware demand, so a visible rollover there would validate the demand-side bear case rather than the current positioning-driven selloff.",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNWJydUlhRjFJVUNsWkZpRDBHSVRMenhpa3Fjcy1vS0RobFdPRm0wUndpNExXejFpTzFFVEFTVmxVNGpKSDRwY2xxUmZiVEZud2xIcXZ1TURpWGNBa25JbE9yLWQ3RHNJX3NTTmRaWWU4dDJZdUJZVHVMdDBubThkZ2oyVklRQmwxTVVpeGw1cmhCc0pSLVlPQ1BrWnA3WWV5ZFM1b1NxWHRLWk15WXkwRGdadkt0d2VuZEFNVXYwNHLSAcABQVVfeXFMUDVicnVJYUYxSVVDbFpGaUQwR0lUTHp4aWtxY3Mtb0tEaGxXT0ZtMFJ3aTRMV3oxaU8xRVRBU1ZsVTRqSkg0cGNscVJmYlRGbndsSHF2dU1EaVhjQWtuSWxPci1kN0RzSV9zU05kWlllOHQyWXVCWVR1THQwbm04ZGdqMlZJUUJsMU1VaXhsNXJoQnNKUi1ZT0NQa1pwN1lleWRTNW9TcVh0S1pNeVl5MERnWnZLdHdlbmRBTVV2MDRy?oc=5",
       "alerted": false
     },
     {
@@ -141,6 +166,28 @@
       "why": "The divergence matters more than the beat rate: delivered earnings are holding while prices fall, which means the drawdown is pure multiple compression driven by rates and AI-capex scepticism rather than deteriorating fundamentals. That distinction sets the floor for how far the index can fall before valuation support re-engages, and it argues the next leg is decided by the CPI print and Fed path rather than by company results.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOamhxUngtVnZZMlNFR3hOZHVjSzRwYkRLOVRKV2Q3N2o3bVNMSEhIdTR6Nkh0akl0WkxGSFNfZU11dVJ4MHh1UEZmUFExbE1IT0dVQkJOUVlBc2NTel9SQnVMTXNJLWxtR08xY1dYeE9zUzFiN21PN2s4RDc4MTdSRzgtazR4aEtZdlBuRWktd3BaODZiSm5YYmN4NVZCeDR0WlVLNDBfbDVwMDhJYVBEOEtyZkFzbldZT0VVRjMwTkJkNDV2VmtSaHhuNWpyRHhYaHdqYTdUaVdhVFVPTkhIU1ZockFBUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261107-tsm-3d-dram-nvidia-request",
+      "time": "2026-11-07T15:13:00Z",
+      "headline": "TSMC drafting plans to enter 3D DRAM at Nvidia's request, pushing the foundry into AI memory",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "MU",
+        "AMD",
+        "AVGO",
+        "LRCX",
+        "AMAT",
+        "KLAC"
+      ],
+      "why": "An entry into advanced DRAM would widen TSMC's addressable content per AI accelerator beyond logic, adding a second high-margin leg to revenue but also a capex line on top of an already elevated 2026 budget, with no commentary from management on the October earnings call to anchor the spend. For Nvidia the mechanism is input-cost and supply security: a second qualified memory source weakens the pricing power of the three incumbents that currently set its HBM/DRAM bill. For Micron the threat is to the terminal-value assumption of a permanent three-player oligopoly, which is the core of the current memory multiple, even though any production is years out. Front-end equipment names gain from an incremental greenfield memory capacity builder.",
+      "source": "24/7 Wall St. / The Information",
+      "url": "https://247wallst.com/investing/2026/11/07/tsmc-jumped-6-on-a-report-it-could-make-memory-chips-for-nvidia/",
       "alerted": false
     },
     {
@@ -699,38 +746,6 @@
       "why": "Japan reported a 41% year-over-year surge in semiconductor exports, propelled by memory price recovery and heavy AI infrastructure capex across Asia. The data reinforces strong multi-quarter demand visibility for silicon wafer processing equipment and memory fabricators.",
       "source": "Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHE1V2o4SERfSUE1X3I1X3BrN1NGbE90UnhUTEc5UFNlUFBmTGtEUmFjYldvWkloM0FfVmJnYzZ3OUpSSnRWMVJRb2Q4aldHM1ZZZTZqUmtkd0ZNb0JyYlpobEptRy1vWHRDalBZTWFLLXpjMXFHM2pwZkdYT2xXZ2tVeFVINEhZdkMxTXh1dWlMMXFWeUVUZjFXMWNuZnZGeUxRdmc2eWJNbVFQX0xURw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261030-nvda-chinese-intelligence-diversion-report",
-      "time": "2026-10-30T04:00:00Z",
-      "headline": "Nvidia CEO Jensen Huang Target of Suspected Chinese Intelligence Asset Over AI Chip Diversion Concerns",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "Reports alleging that Nvidia's leadership was targeted by suspected Chinese intelligence assets increase geopolitical and regulatory scrutiny regarding illicit advanced AI GPU diversion into China. Heightened compliance monitoring or prospective enforcement actions by the US Bureau of Industry and Security could slow international enterprise shipments and raise oversight costs.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPTlhQMU5zQ3dvX1YyWlByVVNTaGdkWFJudkREcUsyX3U2NHI4ZzlSZzhmanh5RTQ1TjJhcG41NTZhaEc5LTRzc0Ixc1N6aEN6a25XbEhJNmdKUWZOZmhUcm1WM1dqemZ3ZTh5SHVwTUFVNHJibUN4U2piRUVWT0txeWdQcU1WWUZQaEU5Xy1ZVDRQTFpidURiRW1XWERtd3dydWRJekxkWGh5dzNrcU0xekE0WTdFUDFjbVBxYzBYQms3eXVQSjg0X0VZZmFiTkFyVHVQRUhITVFwcGw4ZlAxM3daaHZXVUwzSzljeTFOU2xsWHd4WkRXZkw4bUMyclRKVTNhbDZUWklTaGVkejNyVUk3UVRqODRBVXZr?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261030-taiwan-ai-chip-smuggling-criminalization",
-      "time": "2026-10-30T03:30:00Z",
-      "headline": "Taiwan Moves to Make AI Chip Smuggling to China a Crime",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "Taiwan's legislative push to criminalize unauthorized AI chip transfers to China creates direct legal sanctions for illicit intermediate routing of advanced silicon. While this protects key foundry IP and strengthens alignment with US sanctions enforcement, it increases compliance burdens and operational risks for semiconductor foundries and design customers operating across East Asian supply chains.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT3BqNTFma1VNRDVINm5jUWF4TjNRY0NOaEl5ZjBUUk1ldTNCQ3FTQkF3TWUwMHBDcjNpRzVPcVVXMENYVVRzV0hPVkItVURzclZ6VkdtckdRb252ZFdmb1ZtY2NZX1F3VkxwUk5JNDlKZ3RNRG5XU3JxVmVFYlRUUVh4RWtRR3ZZdGRz?oc=5",
       "alerted": false
     }
   ]
