@@ -1,7 +1,148 @@
 {
-  "generated_at": "2026-11-07T13:26:25Z",
-  "session_date": "2026-11-07",
+  "generated_at": "2026-11-08T06:32:30Z",
+  "session_date": "2026-11-08",
   "items": [
+    {
+      "id": "20261108-nvda-huang-espionage-memo-governance-risk",
+      "time": "2026-11-08T06:00:00Z",
+      "headline": "Reported US intelligence memo alleges Chinese intelligence targeting of Nvidia's CEO",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA"
+      ],
+      "why": "Nvidia's valuation carries an unusual key-man component because Huang personally brokers the hyperscaler roadmap and the Washington relationship that keeps export licences alive. An intelligence-tinged story attaches governance and headline risk to that relationship at the exact moment Congress is drafting export legislation, raising the odds of hostile hearings and disclosure demands. Nothing here changes current quarter revenue; it widens the risk premium.",
+      "source": "Security Boulevard",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOU0EtYkt5UHlqMnUtYVFDY1hIM0hrc3FVLWtvOG5fdVo2WUdQLWhzQ1ZjeXo4MkxiLXJROHlBS21CcVZwN0VwTE1ZQUUyWC0zanRvbzNLckk4Zllpby01SmNLaURNd3ZuTU9xUENqZ1M1aTFpNXpOYnhrb1ZhRTUwNkZzdDRQUFRDM2lfdF9aRlliZWg3QTZZeDJNMWRyYV9sS2h6VGg1bzF3RHQ0Vy1haUxOaEZqcUNLcGZqR1pWMjlJS2lTUEE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-nvda-h200-hong-kong-customs-backlog",
+      "time": "2026-11-08T04:00:00Z",
+      "headline": "Roughly 600,000 Nvidia H200s reported stranded in Hong Kong as Beijing withholds mass customs clearance",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MU",
+        "SMCI",
+        "AVGO",
+        "AMD"
+      ],
+      "why": "This quantifies the clearance freeze as physical inventory already built and shipped but unable to convert to recognised revenue, so it is a working-capital and timing problem that pressures near-term gross margin and inventory days rather than just a demand headline. If Beijing is using customs as industrial policy to seed domestic accelerators, the units may need redirection at a discount or sit as reserve risk. HBM and foundry suppliers carry the same volume exposure one tier up.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkeXJFVDQzbExFWkpZTGVFdHpINWpIM2piX2VKVHk4d1Q3RUZvdXVpYXh2NEs0M0ZYOXBDbkNjNXVPZ2ZpZzNsbWZuUnFGYThSdlcxYTBSZVVfc0U5X0ZvNERTb1JQVzdmYS03R2lLaUVfYW5uNmc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-nvda-export-licenses-shell-companies",
+      "time": "2026-11-08T02:00:00Z",
+      "headline": "NYT: Commerce cleared Nvidia chip sales to Chinese-linked buyers with empty offices and troubling ownership ties",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI",
+        "TSM",
+        "MU",
+        "MRVL"
+      ],
+      "why": "If licensed buyers turn out to be fronts, the policy response is not a fine but a tightening of the licensing regime itself \u2014 slower approvals, stricter end-user verification and potential retroactive revocations across the whole accelerator supply chain. That converts a revenue line investors had begun re-underwriting into an option with regulatory delta, and it pulls in the server and memory names that ship into the same channel. The near-term earnings hit is smaller than the multiple hit from reopened political risk.",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-nvda-channel-smuggling-ultimatum",
+      "time": "2026-11-07T22:00:00Z",
+      "headline": "Nvidia issues new compliance ultimatum to partners to choke off China chip smuggling",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AVGO",
+        "AMD"
+      ],
+      "why": "Self-policing the distribution channel is a pre-emptive move to protect licence standing with Washington, but it trims grey-market volume that has quietly supported shipment numbers and resellers' order books. The cost is near-term units; the benefit is lower odds of a punitive enforcement action that would be worth far more in multiple terms. Server integrators that sell through the same partner network absorb the volume friction first.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdW45bVRpaDVhMGpLbU5paU44WkRtUEU3T1hwd2xuNkVscFRZTzhsclA4VEthTnhvS2FNR0JibG9idmg1NmRiQl91VURZTjU2TXBKdW9QUV8zVGpoNk5ERHNaRlc5S2ZibUVoeXZEOHEwV2hyQXhBSzRUc0JTaWFvaGhqdkVzREdEdE9iS291MzNkWGtLdk9KRHRHSU1CM0twa3Y2NUpoQVoySWJTMmFpZ05ZaXV6TklK?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-fed-december-hike-repricing",
+      "time": "2026-11-07T21:30:00Z",
+      "headline": "December Fed hike odds jump toward 77% after jobs surprise, with AI selloff bleeding into credit markets",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "PLTR",
+        "TSLA",
+        "MSFT",
+        "AMZN",
+        "META",
+        "JPM",
+        "GS"
+      ],
+      "why": "The market has flipped from pricing cuts to pricing an actual hike, which lifts the discount rate applied to the longest-duration cash flows \u2014 exactly the AI/semi complex that already carries peak multiples. A higher front-end also raises the hurdle for the debt-funded datacenter buildout, and the move into credit spreads means hyperscaler and neocloud capex financing gets more expensive at the margin, hitting both the E and the P/E. Banks are the partial offset via net interest margin, which is why JPM and GS trade differently from QQQ here.",
+      "source": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTFpmZWItVkk3b2w3LTNUVUU2MHZqS0Q2NXFsRWdFS0xmdEF0QURJTXJMc2ptOHlDQzBSM1JlTEx3ekdJeWc5Mnd2WEc3Q3J6OUJsWDNjZGxEYmZ1Qk1lVVlEOUg4WEZrXzk5bGV0cWxxcGZselQtTmUybGU0WVhSYnVwNlhGRzBvQ2tBaGo5OEdzMnJQY3JUMFVRek5QNFJ3M3FMcEh3ZUVoQzBzZzJDX1dOYXViejJCOXRYdA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-nvda-democratic-congress-export-target",
+      "time": "2026-11-07T19:00:00Z",
+      "headline": "Nvidia's AI chip exports emerge as a legislative target for the incoming Democratic Congress",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QCOM"
+      ],
+      "why": "Statutory export limits are stickier than executive-branch licensing because they cannot be traded away in a bilateral deal, so this shifts China accelerator revenue from a negotiable swing factor to a structural zero in out-year models. It also raises the probability of chip-level performance caps that catch AMD's MI line and custom silicon programs, not just Nvidia. Equipment names are read-through because tighter end-market rules eventually feed back into China tool demand and licence conditions.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261108-q3-earnings-breadth-vs-derating",
+      "time": "2026-11-07T18:00:00Z",
+      "headline": "Earnings scoreboard: 86% of reporters beat EPS and 78% show year-on-year growth even as the tape de-rates",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "The divergence matters more than the beat rate: delivered earnings are holding while prices fall, which means the drawdown is pure multiple compression driven by rates and AI-capex scepticism rather than deteriorating fundamentals. That distinction sets the floor for how far the index can fall before valuation support re-engages, and it argues the next leg is decided by the CPI print and Fed path rather than by company results.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOamhxUngtVnZZMlNFR3hOZHVjSzRwYkRLOVRKV2Q3N2o3bVNMSEhIdTR6Nkh0akl0WkxGSFNfZU11dVJ4MHh1UEZmUFExbE1IT0dVQkJOUVlBc2NTel9SQnVMTXNJLWxtR08xY1dYeE9zUzFiN21PN2s4RDc4MTdSRzgtazR4aEtZdlBuRWktd3BaODZiSm5YYmN4NVZCeDR0WlVLNDBfbDVwMDhJYVBEOEtyZkFzbldZT0VVRjMwTkJkNDV2VmtSaHhuNWpyRHhYaHdqYTdUaVdhVFVPTkhIU1ZockFBUQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261107-barclays-sp500-target-upgrade",
       "time": "2026-11-07T07:15:00Z",
@@ -590,135 +731,6 @@
       "why": "Taiwan's legislative push to criminalize unauthorized AI chip transfers to China creates direct legal sanctions for illicit intermediate routing of advanced silicon. While this protects key foundry IP and strengthens alignment with US sanctions enforcement, it increases compliance burdens and operational risks for semiconductor foundries and design customers operating across East Asian supply chains.",
       "source": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT3BqNTFma1VNRDVINm5jUWF4TjNRY0NOaEl5ZjBUUk1ldTNCQ3FTQkF3TWUwMHBDcjNpRzVPcVVXMENYVVRzV0hPVkItVURzclZ6VkdtckdRb252ZFdmb1ZtY2NZX1F3VkxwUk5JNDlKZ3RNRG5XU3JxVmVFYlRUUVh4RWtRR3ZZdGRz?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261029-samsung-earnings-memory-selloff",
-      "time": "2026-10-29T06:00:00Z",
-      "headline": "Samsung Stock Plunges After Earnings, Dragging Micron, SanDisk, and Western Digital Down Over 3% Pre-Market as Market Focuses on SanDisk Earnings - TradingKey",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "WDC",
-        "SSNLF"
-      ],
-      "why": "Samsung's post-earnings stock plunge signals broader pricing and demand headwinds across the semiconductor memory market. The disappointment creates a direct negative read-through for peer memory chipmakers, compressing valuation multiples and lowering near-term earnings expectations for pure-play memory suppliers.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNakRJaWlSeUc3b3V6MTVnYTFNdEw3VTAwQko1UHI2RXBoUW94MGFhYkRaY1_lMzl6WjZ6MC02ZW82Uk56UUxSWFZkX0xkdl_oV3p0Wk1BbmptRFNPMEszMW10Y25YMi1YMEJTNEVRbmFaV2lqdzlaVGtWWnJVQjBEX0diaVRJN3dZX0tBdVBZTTZmWU9YMS1rSHFHdlNXbzJXbk5RWTJZaUs3SFFuaGRIQjUwZFNjV05lYkppUHJkUXI2T2NMOW1Ka1I3bjU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261029-intc-q3-earnings-q4-guidance-cut",
-      "time": "2026-10-29T06:00:00Z",
-      "headline": "Intel plunges 20% as weak Q4 forecast overshadows earnings beat",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
-      "why": "Intel reported mixed Q3 financial results but issued a significantly lower-than-expected fourth-quarter outlook, citing persistent PC market weakness and supply bottlenecks. The outlook downgrade dims near-term margin recovery prospects and signals sluggish consumer PC demand, pressuring market earnings expectations for x86 processor competitors like AMD.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlczFWcC1WVTdsdENmNVdsNnJpczI0SzZqRkZuel9NLTdsUG85UlJDVEV4NllwUmRUXy1QZGV6ci1BamdFQTVtQ2hlelhiR21LNzJsQ2dCSzdTc1JCQUdDVU90bGY2a3hIeldPa043TnYtelgtZFh2b04xblrSAYIBQVVfeXFMT0lPRHpDdlR4ZlpnZWc1SS1mTHNjZGE3VVItSnA5bndoU3ByQVFPa2Rzakx2QlFoWW52ZVM1dF9aWjdlczFEby05eHhwaEQ5YllseUJlbjkwRzNva0VWdkM0Tkp3a2tZcTZydktHUXdmZEZwamdwMTBuUUNwY3hDZHRDZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261029-googl-q3-earnings-selloff",
-      "time": "2026-10-29T05:30:00Z",
-      "headline": "Alphabet sinks 11.8% following quarterly earnings fumble and cloud growth concerns",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "GOOGL",
-        "MSFT",
-        "AMZN",
-        "META"
-      ],
-      "why": "Alphabet shares tumbled after quarterly financial results highlighted slowing growth in cloud operations alongside sharply higher capital expenditures dedicated to AI infrastructure buildouts. The margin compression and elevated expenditure plan triggered a selloff across hyper-scaler software and digital advertising peers.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRXZiTHlKd3N6MWVLSlRvTks5WTJuUmRkQk1DelN3SEUwT0VRZnNKaGhHcjRPRHNKMFl0RjNaclhJN0ZRNTJSRUl2dHRCdkMtTGs2dXJiZFllUmxXNG9pdVNjTVlfeUpReTdDUHRaMk5BX3pTZFNnSS1yamEtV2RkMWtJSlRzY2g1OFJpSkxscjVxcnYzdFhJdDVRcG1wWldXTnBLYmJUREwxQ3UweUZFZXFQbXJselBDTkFIN2QxMldNam1oY3FTa1dkNUV4RWxr?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261029-us-gdp-inflation-snapshot",
-      "time": "2026-10-29T04:00:00Z",
-      "headline": "U.S. economy shows stronger GDP growth alongside sticky inflation ahead of midterms",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "The final economic print prior to midterms indicated solid GDP growth alongside persistent underlying inflation. While resilient consumer spending supports corporate revenue bases, sticky inflation caps broad equity valuation multiples by limiting the Fed's room for aggressive interest rate cuts.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CcHgwbVpMWEZWTm5kOVlEdWVjaXU3c1VHVzNpaXRsdGVOYUkzMjlOamtjbXRIZUF0SEtCTF9SYnllaDRKMjBIelJGRm5JN1BwWXBKUzBKUHAxblpDSHZDaThBVVdvV0tnRUYyWkVaeEtELWF1UEE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261029-nvda-malaysia-chip-seizure",
-      "time": "2026-10-29T00:00:00Z",
-      "headline": "Malaysia Seizes $12 Million in Advanced AI Chips Hidden in Servers Amid Export Control Crackdown",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "SMCI"
-      ],
-      "why": "Malaysian customs intercepted $12 million of server hardware containing restricted AI processors, targeting an illicit transshipment network using Southeast Asia to bypass U.S. export controls. The crackdown signals stricter enforcement on regional proxy channels, raising compliance friction and curtailing unauthorized sales volume for top AI chipmakers and server assemblers.",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQYm5lT0dvV3hLY1BycjB4eUFwUjVPem5WWkt4UmNyV2dFZno4V1I4dU5ocVE4U25Mb0h0b2tVWDRzS2QyZndWZnozYi1meGM1S2RsUWplZ2JVZDRMbjJETUU2dzdZaWxxdkd1TEtrMkI3X3hsT3pXdE9Qc09uSFdyOXB4eGZVX0FMcnBPQXNFMXp3OXVGU2ZJYzRkVUhac1_SKZnEnXdXOHVoTTN5Z1dvV3Y3eFBrdTllZ3ZLQlNlbVJ6MDMyRHRzUTZreTJ3cWNlOW1FbjJ5LUMxaURHUHplcnpfcEJFOGh0ZWpkMmZibDJFSVNqWGZxQm9ScjRVY3daT19RLTJFdXV2MDZ2X0FMSTg4M3N0Q0hyNzFpUkU1XzlsSVNVdjdydDhONXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261028-fed-fomc-holds-rates-steady",
-      "time": "2026-10-28T18:00:00Z",
-      "headline": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings - Reuters",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "GOOGL",
-        "AMZN"
-      ],
-      "why": "The Federal Reserve opted to maintain its benchmark interest rate, removing short-term policy rate uncertainty across broad equity markets. Holding borrowing costs stable preserves capital access and valuation multiples for mega-cap technology growth stocks, allowing equity markets to re-anchor on enterprise earnings performance.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261028-nvda-doj-huggingface-probe",
-      "time": "2026-10-28T15:30:00Z",
-      "headline": "NVDA Stock Edges Down On DOJ Interest In $12.9 Billion Hugging Face Acquisition - Stocktwits",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN"
-      ],
-      "why": "Department of Justice antitrust scrutiny into Nvidia's proposed $12.9 billion acquisition of Hugging Face creates regulatory execution obstacles for Nvidia's software stack strategy. Regulatory pushback risks slowing Nvidia's vertical integration into open-source AI platform infrastructure and developer workflows.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3BPemE4ZmVhMkhtWTBnRW5hZXp1SW5xSDhlUWJHR2padGpzcEdUUVZrcWkwZWZyR21hSzVDYWcwZ203OVlrTlE1am1kS0Y1aDVYUjZzamF4U2dGWE1yejJsLVczNVZIaFh4Mzl2R0o0V3Z3SktuSHlqYjZyczQ1X1Blb3p1a0ZQM2ozY3dQbTJLWDVhdFBHcDdOVW9ncUxIREdmb0NmY215QXpmRWswNHh2STR0R255bHlXd29mS05DN3RybHlRcWNXLVMyRllBQjlSSDNYQXNiUQ?oc=5",
       "alerted": false
     }
   ]
