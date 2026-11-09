@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentbreaker"
+version = "0.1.0"
+description = "Measure how resistant tool-using LLM agents are to indirect prompt injection, with canary oracles and mock tools."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["PyYAML>=6.0"]
+
+[project.optional-dependencies]
+# Only needed for --target anthropic (paid). The mock and ollama targets need nothing extra.
+anthropic = ["anthropic>=1.0"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+agentbreaker = "agentbreaker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agentbreaker = ["data/scenarios/*.yaml", "data/corpus/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
