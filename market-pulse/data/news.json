@@ -1,7 +1,118 @@
 {
-  "generated_at": "2026-11-08T22:21:29Z",
-  "session_date": "2026-11-08",
+  "generated_at": "2026-11-09T07:01:52Z",
+  "session_date": "2026-11-09",
   "items": [
+    {
+      "id": "20261109-intc-pc-capacity-diversion-mix-shift",
+      "time": "2026-11-09T12:00:00Z",
+      "headline": "Intel's PC supply warning reframed: capacity and substrate diverted toward AI/Xeon leaves client CPUs short",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "MSFT",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Starving the client line to feed server silicon is a mix shift, not a demand loss: it lifts blended ASPs and gross margin at Intel while capping client unit revenue, so the earnings effect is ambiguous rather than uniformly negative. The read-through to AMD is the one the market mispriced last week \u2014 a constrained x86 client supply backdrop is a share-gain window, not a demand warning, which is why the sympathy selloff looks disconnected from the mechanism. It also implies substrate and packaging remain the binding constraint across the industry, which supports back-end equipment spend.",
+      "source": "TIKR.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHdSM3dWX1U2Q0JyNWNNY3YtRnpsZi1RX2QzNzRZVk15QTRBNC0xQkc5YTFrc0U4ZW9SdkV2ODNzTGZqdTdjVnVSa3pISVdOOEtQZllETkJDd3NPX0k4dVptRGNTR0RjZDR0bEFtQkU1dkUySzdxS0t1ckNhc0Y4VFBxRWNOeUU1ak9WQnBkbGdCVmNxczdrVHVR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-china-extends-24pct-tariff-suspension",
+      "time": "2026-11-09T07:00:00Z",
+      "headline": "China extends suspension of the additional 24% tariff on US goods for two months from Nov 10, keeping the 10% rate",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "AAPL",
+        "TSLA",
+        "NVDA",
+        "AMD",
+        "QCOM",
+        "CAT"
+      ],
+      "why": "Rolling the suspension forward removes a cost shock that would have hit landed input prices and margins for US multinationals with China-linked bills of materials, and it signals both sides still want a negotiated path rather than escalation. For the chip complex specifically, a cooperative trade track lowers the odds that Beijing retaliates against US semis via customs or procurement rules at the same moment Washington is tightening export policy. It is a two-month reprieve, not a settlement, so it supports multiples rather than raising estimates.",
+      "source": "CGTN",
+      "url": "https://news.cgtn.com/news/2026-11-09/China-extends-suspension-of-additional-24-tariff-on-US-goods-1KZKZKZKZKY/index.html",
+      "alerted": false
+    },
+    {
+      "id": "20261109-oil-iran-restraint-energy-derating",
+      "time": "2026-11-09T06:00:00Z",
+      "headline": "Oil steadies after Washington signals restraint toward Iran, though Hormuz supply risk is unresolved",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "why": "The geopolitical risk premium is the swing factor in integrated-oil earnings right now, and a de-escalation signal compresses the forward curve that underwrites upstream cash flow and buyback capacity at XOM and CVX. The same move works the other way for the index: lower crude feeds directly into headline inflation ahead of Tuesday's CPI, easing the rate path that has been the second leg of the equity selloff alongside AI. Note sources conflict on the weekly direction of crude \u2014 some wire recaps describe oil soaring on the week while Monday coverage describes it steadying/easing on Iran diplomacy.",
+      "source": "Business Recorder / Reuters",
+      "url": "https://www.brecorder.com/news/40448086/oil-steadies-after-trump-signals-restraint-on-iran-hormuz-risks-persist",
+      "alerted": false
+    },
+    {
+      "id": "20261109-nvda-independent-board-investigation-opened",
+      "time": "2026-11-09T04:00:00Z",
+      "headline": "Nvidia board opens independent investigation into whether CEO Jensen Huang was targeted by a foreign intelligence effort",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "MU",
+        "AMD",
+        "ANET",
+        "SMCI",
+        "MRVL",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "A formal independent probe converts a tabloid-style story into a governance process with discovery, legal exposure and a defined outcome date, which forces risk committees and index-sensitive holders to price key-man risk into the multiple rather than the earnings line. Huang personally fronts Nvidia's China licensing strategy and its largest customer relationships, so any constraint on his authority slows decisions on H200/China allocation and sovereign deals. Because Nvidia is the single largest index weight and the demand anchor for the whole AI supply chain, the de-rating travels to foundry, memory, networking and systems names even with no change to current orders.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1BJNjAwTmc1dWhNWkFEblREai1hbkhYZFBjT2MxaWV1b283RXNKTnk1emdfY2p5LWlXOEo5M0hLWWhjTG1UVmdVV2xvS09sb0tlelBpalV1Z1lTdUZ1VWJ5Uzl4cFJqeXV2ZUF5WVpTSWFGeGU4eldfdHpScTMySHpZQk9fWGc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-korea-confirms-nvidia-gpu-supply-contracts-intact",
+      "time": "2026-11-09T02:30:00Z",
+      "headline": "South Korea says contracted Nvidia GPU deliveries are unaffected by the probe; Asian AI supply chain rebounds",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MU",
+        "SMCI",
+        "AVGO",
+        "ANET",
+        "AMAT",
+        "LRCX"
+      ],
+      "why": "The main bear case from the Huang investigation is that counterparties pause or renegotiate deliveries; a sovereign buyer publicly confirming contracted GPU volumes are intact caps that tail risk and keeps near-term shipment and foundry/memory loadings on plan. That matters more for TSMC, SK Hynix/Micron and server assemblers than for Nvidia itself, because their revenue is booked off committed allocation rather than headline sentiment. It separates a governance event from an order-book event, which is what determines the next two quarters of earnings.",
+      "source": "Yahoo Finance / Reuters",
+      "url": "https://finance.yahoo.com/technology/articles/south-korea-says-nvidia-issues-022650481.html",
+      "alerted": false
+    },
     {
       "id": "20261108-nvda-board-statement-ceo-backing",
       "time": "2026-11-08T13:00:00Z",
@@ -671,97 +782,6 @@
       "why": "A cautious demand outlook from Japanese flash memory manufacturer Kioxia reignited concerns over non-AI NAND and DRAM inventory digestion. The commentary dragged down peer valuations as markets reprice near-term average selling prices and profit margins across storage providers.",
       "source": "24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd24xZ3lROHBoV1M2WWN3VmlMUjNjZ1ZfZnNNNGFmWnhZZ2d5Qnl4TjZMd3FPSm44N0VIRFhVM2s2RkNpVmdvMWJYeUZnRWR5YWhIdmtKdUpiQndZV1_vaFlFRU1hZ1FfTk9GRzJ4M3lXLVJHclZ0cmpzYW9CbkJvb1BYNGNDYmpJTkJhWkRmMklmN3EtM2ZYc2V2bzEzdGZCVTJtZmVvVVk1SjhTQUQtNzZ2MDlQaXQ3T3NSaVBjQ0FCRm53Mkc3UEtzOGNWaUc2XzhVb0NNS3Ryc1JsZkVN?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261102-pboc-relending-facility-expansion",
-      "time": "2026-11-02T04:00:00Z",
-      "headline": "Chinese stocks rebound on optimism PBOC set to expand US$45b relending facility - South China Morning Post",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "BABA",
-        "JD",
-        "PDD",
-        "BIDU",
-        "FXI"
-      ],
-      "why": "The People's Bank of China is preparing to expand its $45 billion (300 billion yuan) re-lending facility designed to fund share buybacks and institutional equity investments. This targeted central bank liquidity reduces financing costs for listed companies and provides a direct backstop for Chinese tech equities.",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZzZYVjdfVTBqdHM0SEtrMFJ4cDAtdG4zMkkteTR4eEZwZXVsUXpMQTVIOTZYVUdypE54Q09ZUFNSZllNVVF4c0JpRzY3RFpfZkIwekZtdldNN0NDV3NHNG5wVk9lWklxNVBqcERsVF9qOEhxbDRKUTdtU21raC1jbE92bmNpRF9zY29naWpHTHZMU21CSWZYMi1SWTFSX2J4QnNDRUx2Y1FEUWpJY2xYWFc0SXpIcXRKUUFNNTFJOWxMdG1yWklvaEk1dllOV0xONlHSAdIBQVVfeXFMTWVPSm9tS1ltQVllRzhmSGltcDZBSFVRdGxmeU9Xc0RITzJMa3hZV1N3pEppTEdLc29aRXpmZVJ4MFNteTdQRUVLTDJZcVdhY1ZoNEJ4dmtQY3dTRXF1d3hrTEs0S0dYY0thSV9kZkwzald5bjhVbmsyNU5nbTh0OU9PbFIwbGdpS2ViZFlqUWY3aG5Bcm9YdTBlYjViZFpiUUxKLUxHN19nRXM2eXFTMVZ5MHVjYWNudS1wSDJ2R1JaZW1ldlJlMUJDbERFRy1ua0p3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261102-china-nexperia-chip-export-exemption",
-      "time": "2026-11-02T02:00:00Z",
-      "headline": "China grants export exemption easing Nexperia chip crisis for automakers - Startup Fortune",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSLA",
-        "ON",
-        "NXPI"
-      ],
-      "why": "Chinese regulators issued export exemptions for Nexperia automotive microchips, averting critical assembly line disruptions across global carmakers. The regulatory carve-out protects vehicle build rates by restoring shipments of basic power discretes essential for automotive electronics.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTE5aREFwY0JQeDNCcUhpREI0ZmNVejVaeDRJN3NjNkF4Tk1xcnJOQXzafi...?",
-      "alerted": false
-    },
-    {
-      "id": "20261101-amzn-q3-earnings-miss",
-      "time": "2026-11-01T12:00:00Z",
-      "headline": "Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "AMZN",
-        "MSFT",
-        "GOOGL",
-        "NVDA"
-      ],
-      "why": "Amazon reported third-quarter results where both earnings per share and top-line revenue missed Wall Street consensus estimates, pushing shares lower. The dual miss raises concerns over potential growth deceleration in AWS cloud services and retail segment margins, pressuring multi-quarter earnings models and valuation multiples for major cloud and AI infrastructure peers.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMkRXbWJ6Z1Q4VFZHek93U0htb1drVWtuSHVTQnFYRTd4NUptTnozdDFMYVd2Q3gxd3kzMFR2RFNCenZNSTBWOXEtTlMwNm8zUnF4NE1DTFFIVG5yZi1BR01FWDdfNWlBYUowc2lqdmhxQXlNTTJMcDBpbkVJZWdISkFPaw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261101-openai-ipo-valuation-target-cut",
-      "time": "2026-11-01T10:00:00Z",
-      "headline": "OpenAI IPO Valuation Target Reportedly Trimmed By $150B After Nasdaq 100 Registers Worst Month Since March 2025 Following Brutal Tech Sell-Off",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MSFT",
-        "NVDA",
-        "GOOGL",
-        "PLTR"
-      ],
-      "why": "Reports indicate that target valuation expectations for OpenAI's eventual public offering were cut by $150 billion following macro weakness and a sharp tech market pullback. The downward re-rating in private generative AI market caps compresses forward earnings multiples for major software platforms and primary strategic investors like Microsoft.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOEtJV1h1b1BodkhIN1ByZnZNVFhoU29HRGt5Z1dzNGIyMkZiTlg4ek5VOUxORmx6Q0xuRGt5UnVtemYwOGs5MXFITElwUUI0OTR3YmY3Q3JwUzFHMHhHTnhxbXcyTUl6T0UzUzgyVDJ5V0wyYkx1ck5maUE0THE5ZEE3cFRLQXBlYzlrTElHQmhfc1RaU05HNVV1LVNlVGVZcnpnSkVR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261101-skorea-october-chip-exports-record",
-      "time": "2026-11-01T08:00:00Z",
-      "headline": "Korea's monthly exports hit $115.3 bil. in Oct. on record chip sales",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "South Korea's monthly export volume reached a record $115.3 billion in October, propelled by historic chip sales for global AI infrastructure buildouts. The trade data serves as a strong leading indicator of sustained end-market demand for high-bandwidth memory (HBM) and advanced logic silicon, supporting near-term revenue estimates across semiconductor suppliers.",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGJOeHlLeDRWTDBvaEpWTUF4MjhyM2N0QjBVRHN5LTRjdFlSaXMtc3hQVGtocWV3S1BUNXlWOEYxYmp5OEwwYndvTXUyeERMeGVkYm5IMTI4YlJxTTE4WWVUa1JScFZJZVI2RkRyR29TZXVDYkp3Qm52QnZZeGFMWGVldFQ4Qm1mbWpNLXhKdHZTY3hSUkVvUzF4aFVFSlpqbzRBWXF3T2FCTVhIU085mUlCaw?oc=5",
       "alerted": false
     }
   ]
