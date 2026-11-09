@@ -1,7 +1,66 @@
 {
-  "generated_at": "2026-11-09T07:01:52Z",
+  "generated_at": "2026-11-09T22:38:05Z",
   "session_date": "2026-11-09",
   "items": [
+    {
+      "id": "20261109-match-act-export-bill-momentum",
+      "time": "2026-11-09T14:00:00Z",
+      "headline": "Raymond James: espionage headlines raise odds of MATCH Act-style chip export legislation passing",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "MU",
+        "INTC",
+        "QCOM"
+      ],
+      "why": "Statutory export limits are far stickier than executive-branch licensing: once written into law, China revenue cannot be restored by a policy reversal or a trade deal, so analysts must haircut the China line permanently rather than treat it as optional upside. The bill's scope reportedly extends to semiconductor manufacturing equipment, which puts AMAT, LRCX, KLAC and ASML service and tool revenue from Chinese fabs at risk \u2014 that is a higher-margin, recurring stream than merchant chip sales. The political cover created by the espionage allegations is what changes the probability weighting, and it also raises the chance Washington restricts offshore data-centre access as a workaround channel.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVzZfVVQyWkJxOHFScXZCYUdMd3RqZ2pzQURXYmR1S0p6aGxRRHlnTzZPenpDWWxEMXhnRlVVaFk2Yk93YmZfdXJ4TnVIVVR0bXlUMkw4UTk5YmpRRWdOVjRiU21mQkcyVlY0bkdXaUczaXliNFI0Y25WS00zWWlUQnFGUGRWMlBJeFg5Tldtd00yLXZvMWxXdC03MVdYVFlSMkxvZUdpRHBLdllHcHh1VzBmSFpEbUdtOS12bm03RE1NLWxtWUlrWVRn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-amd-google-cloud-epyc-tpu-win",
+      "time": "2026-11-09T13:00:00Z",
+      "headline": "AMD expands Google Cloud partnership: 5th Gen EPYC to host Google's TPU 8tx confidential-computing systems",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "GOOGL",
+        "AVGO",
+        "INTC",
+        "TSM",
+        "NVDA"
+      ],
+      "why": "Every accelerator rack needs host CPUs, so designing EPYC into Google's newest TPU pods attaches AMD server-CPU volume directly to hyperscaler AI capex rather than to the stagnant enterprise refresh cycle \u2014 a recurring, multi-year unit stream at data-center gross margins. It also entrenches AMD share against Intel in the one x86 segment where Intel still carries meaningful ASPs, so the revenue is largely zero-sum against INTC. Read-through is positive for AVGO and TSM since it implies Google is scaling TPU 8tx deployments, and mildly negative for NVDA as it validates custom-silicon buildouts as an alternative compute path.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdHBqYVo0b05fX1ZMN245NlZzNVZsaFhjR2FpWGhnTkpVdm9rQzFBU1ZNSHQzSWF1OGJ2TkVvWmNkdnBTM2h4ZWdPUjBNbGJoMm42Z0taMHVEZm9vME5yTmNHd0ZCMzJnM0F0Ny10X2FFd1VFa2lKSWRfTTFnSUVCZ3gyT2RMMFpSX3ppUDIxSWxBTUVnTUs2R3RxWWdoNzY1RGRSSUM1MEhtdnEyQ2FlalVB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-lly-orforglipron-osa-phase3",
+      "time": "2026-11-09T12:30:00Z",
+      "headline": "Lilly's oral orforglipron (Foundayo) hits in Phase 3 sleep-apnea trial; FDA submission planned by end of 2026",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "LLY",
+        "JNJ"
+      ],
+      "why": "An OSA indication converts an oral incretin from a cash-pay obesity product into a treatment for a diagnosed, coded condition, which is the mechanism that unlocks commercial and Medicare reimbursement and therefore raises realised net price and persistence per patient. Because the asset is a pill rather than an injectable, incremental demand is capped by formulation capacity far less than the Zepbound franchise, so approved-label expansion flows through to volume quickly. The same session carried positive late-stage psoriatic-arthritis data from J&J's icotrokinra, supporting an oral alternative to injectable biologics in an immunology market where J&J faces Stelara erosion.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV1VXUkxRdTdLZXItTkV0MVZxZXBid0kxU0ZVaE1fQVJ5Yk5vMGdtbFkyNl9qa1BHVjJ3MkZJX0VpazJOcjY2WGZnckliQWxqeTI4Vk13cDhCZnZfZkFsdWZlMzV6OUg5bXRQU2phajhSV3pZWUdpb3A0LWlZZGxEX3RWTWJCU1IxeU04Z3E2akFHYWRvaThPREZFSHJJUTJxSlZFTXlaY1Ffa2JscDMycHJxSFUydTRDMkwxdmtKdEdEeGVzekM3cE9Ecmk?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261109-intc-pc-capacity-diversion-mix-shift",
       "time": "2026-11-09T12:00:00Z",
@@ -20,6 +79,51 @@
       "why": "Starving the client line to feed server silicon is a mix shift, not a demand loss: it lifts blended ASPs and gross margin at Intel while capping client unit revenue, so the earnings effect is ambiguous rather than uniformly negative. The read-through to AMD is the one the market mispriced last week \u2014 a constrained x86 client supply backdrop is a share-gain window, not a demand warning, which is why the sympathy selloff looks disconnected from the mechanism. It also implies substrate and packaging remain the binding constraint across the industry, which supports back-end equipment spend.",
       "source": "TIKR.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHdSM3dWX1U2Q0JyNWNNY3YtRnpsZi1RX2QzNzRZVk15QTRBNC0xQkc5YTFrc0U4ZW9SdkV2ODNzTGZqdTdjVnVSa3pISVdOOEtQZllETkJDd3NPX0k4dVptRGNTR0RjZDR0bEFtQkU1dkUySzdxS0t1ckNhc0Y4VFBxRWNOeUU1ak9WQnBkbGdCVmNxczdrVHVR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-amd-oppenheimer-upgrade-outperform",
+      "time": "2026-11-09T12:00:00Z",
+      "headline": "Oppenheimer upgrades AMD to Outperform, $600 target, on durable AI compute franchise and Helios ramp",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "TSM",
+        "MU",
+        "AVGO",
+        "ANET"
+      ],
+      "why": "The upgrade follows raised revenue and EPS estimates after last week's print, with the firm modelling data-center as the overwhelming majority of AMD sales by 2027 (135% DC growth), which resets the earnings base the market is capitalising rather than just the sentiment. A sell-side house moving off the sidelines with a target well above spot gives index and long-only buyers cover to re-enter a name that had de-rated hard, compressing the discount AMD trades at versus its own forward growth. The call also argues rack-scale Helios and an annual Instinct cadence make AMD a second structural supplier of AI compute, which supports multiple expansion for AMD's supply chain (TSM, MU HBM, networking) even as it chips at NVDA's scarcity premium.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CYmI5cjRwNEFyb0VzcTdZb3Fic0Jkck9Cd1RLNURuYVdTWEpDSzktSER6TjBCNlplV3VyRkc1NmZnOThHYnBoZTRibUYwWkNkbktuUGE5d2JLM2pQNW9VdnJ5Rl92WjZ5Z0dobmdTLWdySUFSUDl1REVKdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-ai-debt-financing-window-tightens",
+      "time": "2026-11-09T11:04:00Z",
+      "headline": "Banks and credit investors pull back on AI data-centre debt after the selloff; some balk even on Anthropic- and Google-backstopped paper",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "SMCI",
+        "ANET",
+        "META",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "A large share of 2027 accelerator orders is funded by leveraged neocloud and hyperscaler debt rather than operating cash flow, so a wider spread or a pulled deal translates directly into delayed or cancelled GPU and memory purchase orders \u2014 this is the funding channel, not sentiment. Goldman Sachs Research sees hyperscaler debt issuance at roughly $420bn in 2027 versus about $250bn in fiscal 2026, so even a modest step-up in required yield materially raises the hurdle rate on data-centre projects and lengthens build timelines. Lenders are also stress-testing contract terms including termination and offtake conditions, which weakens the credibility of the multi-year backlogs that underpin current multiples at ORCL and the AI hardware chain.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUktuREpUZjNlTWxZaER3aXVBUlJvazI5Q2d6STdNekNFVjk0UDYydFNlYS1zQzBlOFdzdk9waFZOeFBvLUhKUG5YOURmWE1xTkFvcFhqTmdTa3dvZ2NFTW12VW15XzA0MW9LWmlDb3BCTGc3ZllkWS1FMU9lbS1JbllDV0FhVGs3elh3azhtYWx0WkVpYnk2eDVSU1NtU2hZQXc4UUJJdkdELXNuVW1mZWJDLWFtZw?oc=5",
       "alerted": false
     },
     {
@@ -691,97 +795,6 @@
       "why": "TD Cowen downgraded Marvell Technology and cut its price target by 50%, citing severe integration risks and margin headwinds following its acquisition deal involving Lumentum. The steep target reduction highlights institutional concern over gross margin dilution and potentially slower growth in high-speed optical interconnect demand.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY3J6WnNoRXlzT3F3Y2NIaFFDakhtQ1gtRms2R0dhM2ExbVNja0ZPNm9FLUZzVXNSOUYwU3pNMGt4Q0hoajBNZTVJUTF3bDdjRzhGalJ6TTRkUTBLRmdDRWRKLUdteEczTUl5SVQtSUkzYzBkekhkS25nSmQxY0E3a04tSzVXTzJnbmhYenZhcXpmMWhUOVJKNHRTYVI?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261103-sk-hynix-us-expansion-snag",
-      "time": "2026-11-03T00:00:00Z",
-      "headline": "SK Hynix's New York chip plans hit snag over US restrictions on China, sources say",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "why": "Regulatory complications tied to U.S. export control rules on Chinese fab operations have stalled SK Hynix's planned semiconductor packaging investments in New York. Because SK Hynix is Nvidia's primary High Bandwidth Memory (HBM) supplier, delays in its U.S. capacity expansion threaten next-generation AI supply chains while providing market share opportunities for domestic competitors like Micron.",
-      "source": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOcXRQTVNBWGpPNnpmUkNMUFdfZHNTZmNSVUd0ZDlNa3ZIUWVmaGd3dmlkakxVOTU4alRiclNfWVdWeVVzSHNsQUY5SDNOOXNnSVhsdFJNSjJTSXZlcHp1a1FIajZha0B4QXlpUFBlYVBFNVRPZmZuM2RDenBkYzMyT0xWeXBnZkZQOVR1RnY1cll3Sm03c1VaZHd2ZGNqdVhDVWtybE1zN09hZHd3UVNUYXZfbFV4V05STkRGMmdUSzhFM3JTOEMzQlJvRWtWN1RvQjNuUXMwdXlZRWpGdXlVT01rNUcyNkVuY2ZYSzJlYkI1NV_s0gH6AUFVX3lxTE9teE9hQ1NWbTNKT2hHMkR4dTRDM1dCWnZ0cHpFU2EtT0tKTWR5emNyU1JfN0tWTnFEN3E2MzgxN2NKV3BtcVZXeS0zS013ZERnaFZLbWFnZjE4RVQ5bWFiYmI0d1ZCZU80THhuMGU1Tkh6azFDRi1sQVBFSzFfSlFkaFQyRGo2NDlLeF_APFw1ZEFUY1J3dVl4azVlakpOQTJhOTFXTTJrZTNMNkhXaWJKM0JjTUhwZmZJNEw4NzViU1RPMlYwLXlqNVNMa1c1MC1BRUNqa2pKczRkSGNyZElZZmUzQ3ktdFd6N2tPelptRTZQS3YwSFFndUE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261103-amd-samsung-manufacturing-breakthrough",
-      "time": "2026-11-03T00:00:00Z",
-      "headline": "AMD Stock Jumps on Major Samsung Chip Manufacturing Breakthrough",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "TSM",
-        "NVDA"
-      ],
-      "why": "AMD's manufacturing integration breakthrough with Samsung Foundry provides critical alternative advanced node and packaging capacity outside of TSMC. Securing secondary foundry supply mitigates capacity allocation bottlenecks for AMD's enterprise server CPUs and Instinct AI accelerators, supporting multi-quarter revenue ramp-up.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZkYtdXhzWS13WDJoUkJGY2prRGItWE9QTENVSnBsNV94UXhqNTNVYnM1bjY2a0VMYVZVeEV0WHBtZUktYkg5TU40cVlvMjQ4Y3Bha003LW9tclBtVXhzOVBBWWxLcDAtNDJiTEs2TC1UM1Z4bXNfRkphZFBGbUVwaFNQbjNfS284aDlQMGd6d3FyaGlS?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261102-melius-cuts-ai-semiconductor-price-targets",
-      "time": "2026-11-02T09:00:00Z",
-      "headline": "Nvidia, AMD, Marvell Targets Cut: Melius Pulls Back on AI Stocks as Big Tech Lines Up to Raise Cash",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MRVL",
-        "MSFT",
-        "GOOGL",
-        "AMZN"
-      ],
-      "why": "Melius Research lowered target prices on premier AI chipmakers, citing near-term multiple compression risks as hyperscale customers prepare cash-raising efforts to fund massive capital expenditures. The firm noted that heavy capital requirements among Cloud Service Providers could temporize stock multiples despite robust baseline hardware demand.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmFVNG00aDdBdENWS1RKQmJYMzdKaUpwVGEzS05BbzZEdGY1cDV1MFplNWROcFpXQ0gtMEN0d2hCUmEwclFucHJaTDd4NmlGbTNxWTdFTmxzekJSTG9zWVA4VE5mRDlpMFpuMFc4UEpUbGl5S1NsV1RzR01JdnVMeE9nR3llVHFWUnVuY09iTGZzdkg4R0lLWnJIc0ZMSmVVYjVNX0ZZODJpNW54Q1B5ZzVYajVYVHJnRk1uUFAxbzI?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261102-mrvl-lite-acquisition-announcement",
-      "time": "2026-11-02T08:00:00Z",
-      "headline": "Marvell announces $115B all-stock deal for Lumentum (MRVL:NASDAQ)",
-      "impact": 9,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MRVL",
-        "LITE",
-        "CIEN",
-        "AVGO",
-        "NVDA"
-      ],
-      "why": "Marvell announced an all-stock transaction to acquire optical technology leader Lumentum, aiming to expand its high-speed optical interconnect portfolio for AI data centers. The deal accelerates consolidation in optical transceiver architecture as hyperscalers scale up next-generation AI cluster bandwidth.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWkQwSUpsZG0yNVlsSGNQb0QzMi1HcUZib3NuN0kxeVdLRWtVUTJDaUl1QnZqeVJPdzFZUk5xYU5tdWdsTGFWdVloZUh6MkRmZ3RmLUptZWZDQlI5NnVKcXQtaE80ajhvYTNDWGxQemRTazhFLXpJSDdJc0lyNzA0a1BsNTJ1Y25HVmx4OUtONmx2Zw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261102-kioxia-guidance-memory-selloff-mu-wdc",
-      "time": "2026-11-02T07:30:00Z",
-      "headline": "Micron Falls 4% as Kioxia's Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "WDC",
-        "STX",
-        "NVDA",
-        "TSM"
-      ],
-      "why": "A cautious demand outlook from Japanese flash memory manufacturer Kioxia reignited concerns over non-AI NAND and DRAM inventory digestion. The commentary dragged down peer valuations as markets reprice near-term average selling prices and profit margins across storage providers.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd24xZ3lROHBoV1M2WWN3VmlMUjNjZ1ZfZnNNNGFmWnhZZ2d5Qnl4TjZMd3FPSm44N0VIRFhVM2s2RkNpVmdvMWJYeUZnRWR5YWhIdmtKdUpiQndZV1_vaFlFRU1hZ1FfTk9GRzJ4M3lXLVJHclZ0cmpzYW9CbkJvb1BYNGNDYmpJTkJhWkRmMklmN3EtM2ZYc2V2bzEzdGZCVTJtZmVvVVk1SjhTQUQtNzZ2MDlQaXQ3T3NSaVBjQ0FCRm53Mkc3UEtzOGNWaUc2XzhVb0NNS3Ryc1JsZkVN?oc=5",
       "alerted": false
     }
   ]
