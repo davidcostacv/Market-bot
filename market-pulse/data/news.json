@@ -1,7 +1,80 @@
 {
-  "generated_at": "2026-11-09T22:38:05Z",
-  "session_date": "2026-11-09",
+  "generated_at": "2026-11-10T07:38:28Z",
+  "session_date": "2026-11-10",
   "items": [
+    {
+      "id": "20261110-tsm-october-revenue-ai-demand",
+      "time": "2026-11-10T06:30:00Z",
+      "headline": "TSMC October revenue hits 2026 high of NT$586.89B, up 59.7% year over year on AI chip demand",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MRVL",
+        "MU",
+        "ANET",
+        "SMCI",
+        "QCOM"
+      ],
+      "why": "TSMC's monthly sales are the cleanest real-time read on AI accelerator wafer starts, and a 59.7% year-on-year and 14.7% month-on-month print says leading-edge and CoWoS output is still being fully absorbed rather than digested. That contradicts the 'AI capex is cracking' narrative that drove last week's semi de-rating and supports Q4 consensus for every customer and tool vendor feeding those fabs. Foundry upside also flows directly into WFE order books at ASML, AMAT, LRCX and KLAC, whose multiples compress fastest when leading-edge utilization is questioned.",
+      "source": "DigiTimes",
+      "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+      "alerted": false
+    },
+    {
+      "id": "20261109-nvda-succession-vacuum-into-earnings",
+      "time": "2026-11-09T22:00:00Z",
+      "headline": "Nvidia heads into its Nov. 17 earnings call with no disclosed CEO succession plan as scrutiny of Huang intensifies",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "MU",
+        "ANET",
+        "SMCI",
+        "MRVL"
+      ],
+      "why": "Key-man risk is normally an unpriced footnote at Nvidia; an open board inquiry converts it into a live discount-rate input because the architect of the customer and roadmap relationships now has a non-zero probability of departure. With no named internal successor, investors cannot model a transition path, so the equity carries a governance premium into a print that would otherwise be a pure fundamentals event. The question will dominate the call and can move the stock independently of the guide, with read-through to suppliers whose order visibility rests on Nvidia's roadmap cadence.",
+      "source": "shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanNzREphOEZ0S0pzX1dnWDRoX0xkYzREdzFhNXQ2a0RUYTRrN1VLbXZGcU5wM0hnZkRtdER0RUdxTHQ1WV80ckp5QzRrU2Y4dFZpUEFGWE9sc3o3bFJYNnBQRkpaLTc0S04wdFhKdHYxcTlwTzF3OHFnelR0LXg2OFBJQXhmLUtVXy14cmhWMVdMNVhpOFdmOGtneTgxTGdJVFE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-raymond-james-export-bill-probability-raised",
+      "time": "2026-11-09T15:00:00Z",
+      "headline": "Raymond James raises odds that espionage reporting pushes the chip export bill into law",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "MRVL",
+        "QCOM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "ASML"
+      ],
+      "why": "A sell-side probability upgrade on legislation matters because statutory controls, unlike executive-branch licensing, cannot be unwound by a single administration and would lock in the loss of China datacenter revenue for several years rather than several quarters. It also raises the risk that compliance scope widens from accelerators to the equipment and networking layer, which is where tool vendors still earn meaningful China service revenue. The mechanism is a permanently smaller TAM plus a political-risk discount on the China line in every semi model.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVzZfVVQyWkJxOHFScXZCYUdMd3RqZ2pzQURXYmR1S0p6aGxRRHlnTzZPenpDWWxEMXhnRlVVaFk2Yk93YmZfdXJ4TnVIVVR0bXlUMkw4UTk5YmpRRWdOVjRiU21mQkcyVlY0bkdXaUczaXliNFI0Y25WS00zWWlUQnFGUGRWMlBJeFg5Tldtd00yLXZvMWxXdC03MVdYVFlSMkxvZUdpRHBLdllHcHh1VzBmSFpEbUdtOS12bm03RE1NLWxtWUlrWVRn?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261109-match-act-export-bill-momentum",
       "time": "2026-11-09T14:00:00Z",
@@ -23,6 +96,33 @@
       "why": "Statutory export limits are far stickier than executive-branch licensing: once written into law, China revenue cannot be restored by a policy reversal or a trade deal, so analysts must haircut the China line permanently rather than treat it as optional upside. The bill's scope reportedly extends to semiconductor manufacturing equipment, which puts AMAT, LRCX, KLAC and ASML service and tool revenue from Chinese fabs at risk \u2014 that is a higher-margin, recurring stream than merchant chip sales. The political cover created by the espionage allegations is what changes the probability weighting, and it also raises the chance Washington restricts offshore data-centre access as a workaround channel.",
       "source": "Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVzZfVVQyWkJxOHFScXZCYUdMd3RqZ2pzQURXYmR1S0p6aGxRRHlnTzZPenpDWWxEMXhnRlVVaFk2Yk93YmZfdXJ4TnVIVVR0bXlUMkw4UTk5YmpRRWdOVjRiU21mQkcyVlY0bkdXaUczaXliNFI0Y25WS00zWWlUQnFGUGRWMlBJeFg5Tldtd00yLXZvMWxXdC03MVdYVFlSMkxvZUdpRHBLdllHcHh1VzBmSFpEbUdtOS12bm03RE1NLWxtWUlrWVRn?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261109-semis-cantor-hsbc-buy-the-dip-call",
+      "time": "2026-11-09T14:00:00Z",
+      "headline": "Cantor Fitzgerald and HSBC call the semiconductor selloff a mid-cycle correction, flag SOX at 9x 2028 earnings",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "TSM",
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "MRVL",
+        "QCOM",
+        "INTC",
+        "SMCI"
+      ],
+      "why": "Two sell-side houses publicly re-anchoring the group on out-year earnings rather than spot momentum gives institutional cover to re-risk after a drawdown that left most of the SOXX constituents in bear-market territory. The argument is multiple, not estimates: if 2028 numbers hold, the de-rating was positioning-driven and mean-reverts, which is why the whole complex rallied in sympathy while Nvidia fell on idiosyncratic news. Watch for follow-on target reiterations, which typically arrive within days of a group-level 'buy the dip' note.",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fit",
       "alerted": false
     },
     {
@@ -727,74 +827,6 @@
       "why": "AMD reported third-quarter revenue and earnings that topped consensus estimates, driven by data center revenue nearly doubling year-over-year. Robust guidance for fourth-quarter growth reaffirmed sustained hyperscaler investment in AI accelerators, easing broader market concerns regarding near-term AI infrastructure spending.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbGNWalV5bFpTYUN0WGhMV1pRcVJyQ0d1RkdmRHQ0WXNhcFY5T011ZTJIbXI0dEF2ZDlCeksxVm54YmhXR1VRMTJFSS1OdTNiTi1zOGktQUFXSmQ4cmJqbUYzMHVCQ1pDNUJTMlcwWmFLb0V1ajRXWFdQdXBMdFdteDlOTTY1MlRxczBjSzJWMXh1Y3ox?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261104-hbm-chip-smuggling-export-control-evasion",
-      "time": "2026-11-04T06:00:00Z",
-      "headline": "Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "TSM"
-      ],
-      "why": "Reports detailing sophisticated evasion methods to deliver advanced High Bandwidth Memory into China via server packaging assemblies increase the likelihood of secondary Commerce Department trade sanctions. Heightened enforcement could impose stricter audit compliance burdens and restrict sales channels for memory manufacturers and foundry partners.",
-      "source": "Wccftech",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObk9vTDhwNFNSblVDay15eFVQeDV4TjhkbkFPR1VycVVudlJLaVprSEF5Um1MbGxYcXFIbnBTOXlPTXJHdzg3NEc5LU5YQTIxMmR5SDh2b05mUnhxRnprbVctTVhrQ2xvcnNfQ0p6a29tcDFNQ19HWGpxMWdfSWQ5QjRIVTBIS3NXZk9GWXN1S2o0SXZVYnJ0TXBVY3Y2bDlTSW5udjdYQdIBrAFBVV95cUxNRHljOV93M3ZHZ2Nka0RXTkd2ODUxWEI4RTdPYldZdFNGVVA1cU1mMXFhMzFpaUctTGpJZy1KQXNzVDdodzZXN1JWS1VCN0xGbDZWbXZDUVY4WWxQLW4tTktmQ1c5VDJPT3FMN2kwYnhIRzg4blJ2anhmc2xLdHB3QVFaalVlNGE2LU9YeEdTWmFQNVVObjVRTld1bDJKZTQzWi1mR0p1YUttdnhx?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261103-taiwan-china-chip-export-controls-tightened",
-      "time": "2026-11-03T00:00:00Z",
-      "headline": "Taiwan Tightens China Chip Export Controls, Adds Penalties and Closes Transshipment Loopholes",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "ASML"
-      ],
-      "why": "Taiwan regulatory authorities have introduced stricter export controls and enhanced criminal penalties targeting unauthorized advanced chip transfers and sub-7nm process node access for Chinese entities. The tightening closes legal loopholes used by gray-market intermediaries to circumvent export restrictions, increasing compliance overhead for TSMC and constraining secondary revenue channels for US fabless chipmakers targeting mainland hardware developers.",
-      "source": "Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeHZFWjZ4WXJFNUhWZHNxTGdpR21LMVdYMlRSY3dJd1BnV2Q2ZFZtT3dtZTlFWGY1QXBKZ1E4NUFDSnRPMnlmZEJRVU5taXkyQ21BX0NVM2pQVktGbnVJYUNMN2l4QWNDNU1SaVEtbWdIV0VCZVFUMVVhSTVrTERpQVBNcXA1dmlxWHBydGpCdERjS2hya2c4TmkwaVPSAZwBQVVfeXFMT3h2RVo2eFlyRTVIVmRzcUxnaUdtSzFXWDJUUmN3SXdQZ1dkNmRWbU93bWU5RVhmNUFwSmdRODVBQ0p0TzJ5ZmRCUVVObWl5MkNtQV9DVTNqUFZLRm51SVFDTDdpeEFjQzVNUmlRLW1nSFdFQmVRVDFVYUk1a0xEaUFQTXFwNXZpcVhwcnRqQnREY0tocmtnOE5pMGlT?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261103-synopsys-job-cuts-ansys-integration",
-      "time": "2026-11-03T00:00:00Z",
-      "headline": "Synopsys to Cut 2,000 Jobs Following Closing of $35 Billion Ansys Acquisition",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "SNPS",
-        "CDNS"
-      ],
-      "why": "Synopsys is cutting approximately 2,000 positions to eliminate duplicate organizational roles following the integration of software firm Ansys. Workforce restructuring accelerates post-merger cost synergies and margin expansion, boosting free cash flow expectations across the EDA design software market.",
-      "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcHplYTd4NFgwcjJwbFJNN2JVa01BTWRWaEgtN3FPRzFkTlZfT0YzejJUYnBteEYtNXRKeUVjcnB6MVdobUZ0WEFXQUdBb3VndGY0ajdQaGlGbzBlVko5dnd5SVlxVzUxZkI2X0RSdENabUsybXlqbVFuRDNScmh6Vkx0Z1VUMU1UVGRGdUplMmZsU01NSmFKdldR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261103-mrvl-td-cowen-downgrade",
-      "time": "2026-11-03T00:00:00Z",
-      "headline": "MRVL Stock Price Target Slashed In Half: \u2018Material Headwinds\u2019 After Lumentum Deal, TD Cowen Says In Downgrade",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MRVL",
-        "AVGO",
-        "CIEN"
-      ],
-      "why": "TD Cowen downgraded Marvell Technology and cut its price target by 50%, citing severe integration risks and margin headwinds following its acquisition deal involving Lumentum. The steep target reduction highlights institutional concern over gross margin dilution and potentially slower growth in high-speed optical interconnect demand.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY3J6WnNoRXlzT3F3Y2NIaFFDakhtQ1gtRms2R0dhM2ExbVNja0ZPNm9FLUZzVXNSOUYwU3pNMGt4Q0hoajBNZTVJUTF3bDdjRzhGalJ6TTRkUTBLRmdDRWRKLUdteEczTUl5SVQtSUkzYzBkekhkS25nSmQxY0E3a04tSzVXTzJnbmhYenZhcXpmMWhUOVJKNHRTYVI?oc=5",
       "alerted": false
     }
   ]
