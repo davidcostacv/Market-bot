@@ -1,7 +1,113 @@
 {
-  "generated_at": "2026-11-10T07:38:28Z",
+  "generated_at": "2026-11-10T19:55:31Z",
   "session_date": "2026-11-10",
   "items": [
+    {
+      "id": "20261110-ust10y-reclaims-5pct-post-cpi",
+      "time": "2026-11-10T16:20:00Z",
+      "headline": "10-year Treasury yield pushes back above 5% as hot inflation print hardens December hike odds",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "TSLA",
+        "PLTR",
+        "AMD",
+        "JPM",
+        "GS"
+      ],
+      "why": "A 5-handle on the long end raises the discount rate applied to the entire long-duration growth complex and reprices the equity risk premium directly, independent of any change to company fundamentals. It also raises the cost of the debt financing now funding AI datacenter capex, which pressures the return math on hyperscaler buildouts and the credit spreads of the neocloud borrowers. Note the wires conflict on the tape: some recaps show indices slipping on the print while others show stocks rising through it, so the yield move is the cleaner signal than the index direction.",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdWxxNHUtVm9iTEJTMXpJSmJyRFc3aC1jZC1qNnNxVURCYVhSUHRXQlVLVDctY003RTFhUzVZTkZ2dUNXaVZRUEZ2UXdtYk5HVGJkZEh0RmNnNkllS2JmY2pPM2l6YkVacEdtdmM0UGNNMUZtTE4tWUNBUzV4X2ZBUlZEbGJtcWlMSEtiTUFDc0xmcEp2aGp4WXVrdXJkZmF3QXZ5OXl6cF85UTRKQ19hMWhMVGZwR1lORFF4TzNxaHpxUXpoU0U5Rzg0QXVRUy1NbHhVMUI2LWY?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-jpm-top-internet-picks-meta-amzn",
+      "time": "2026-11-10T15:00:00Z",
+      "headline": "JPMorgan installs Meta and Amazon as top internet picks, displacing Alphabet",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "META",
+        "AMZN",
+        "GOOGL",
+        "NVDA",
+        "AVGO"
+      ],
+      "why": "A top-pick reshuffle at a major bank redirects institutional flow within megacap tech without changing aggregate exposure, so the pair trade matters more than the absolute call. The constructive framing on Meta implies the street is beginning to underwrite its capex cycle as earnings-accretive rather than margin-destructive, which is the key swing variable for its multiple. For Amazon the read is on AWS reacceleration, which also supports the custom-silicon and accelerator supply chain.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOVp3bm5xUjBCSVRnZDlvZzNhOExzYWxpakkxMG9CM0JJMS1TeDh0TGM4Q202U1M3bWdSXzZnTzFhZDBtMHFYT2k4UUpDREtmUUNGdXNJR3pVZzJXLWg0ZFBZYUhDN3dsbThfYVpEVmIwSlpxY1FfM2J1YnYwejJLOE5CSmtpSmRPWUk4RDZHcFo0eXJMbXVIREE0UjI0TEhwY0tDendxVzlqMzAycVNQVHBKVjB2QkxiZmZOQjY0N21ZV0FaTlUybk1sVm1HRFkwaG5TdEUxb2l0TTFHaGxmbjR3MA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-nvda-spy-linked-75bn-china-shipments",
+      "time": "2026-11-10T14:45:00Z",
+      "headline": "Report ties alleged Chinese agent connected to Nvidia CEO to $7.5 billion of China chip shipments",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "Quantifying the implicated shipment volume turns a reputational story into a measurable legal and revenue exposure: shipments of that scale invite retroactive license review, potential penalties, and forced restatement of how China-adjacent revenue was booked through intermediaries. It also hands export hawks a concrete number to legislate against, raising the probability that the remaining compliant China channel is closed. Server partners that shipped systems into the same channel carry secondary customs and compliance risk.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaTMzXy1sdW5VeFphNTFTbjYzWUZmdHJLNmhXMTE3cVBybWQ1NFhBUU5lUEZqcWUzNnBMN0J2RmdoYWtidXBQc1pPbFNhZV8zcGVJX2VxX3pzU01JZTV1cFpKanZVWHhSVE5IbWUyaVo5bXoxaUdkQ2Jwd0poWXNrX1VrOGI4SlBNOVExdUMyT0NDeS15dHY3N3FRZ1YyMHpZWmRtOC1MTXFhVEFvMm1xREZmb0xBSWpJTUt1aHdMVTl4NHY5TFY3QjZPSWFqNDNCM2xfeFJDM1FLN18zbmZfMG5OeS1lQ25jWUs1R3hIVkc5amVmMHBIS3kyQl8wS3B3T0d5bjFqM2lYQkt1UDk5Rm9kdlMtZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-nvda-citi-wells-pt-cuts-pre-earnings",
+      "time": "2026-11-10T13:10:00Z",
+      "headline": "Citi and Wells Fargo trim Nvidia price targets into the print",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MU",
+        "TSM",
+        "SMCI",
+        "AMD",
+        "ANET",
+        "MRVL"
+      ],
+      "why": "Two major banks cutting targets days before the quarter signals they are marking down the China contribution and the governance discount in their models rather than their core datacenter demand assumptions, which lowers the consensus bar but also caps the upside case. Sell-side target cuts ahead of a catalyst typically shrink the buy-side's willingness to add risk into the event, thinning the bid. Because Nvidia's guide anchors the whole AI supply chain's order book, the markdown bleeds into memory, foundry, optics and networking estimates.",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-nvda-keyman-discount-quantified",
+      "time": "2026-11-10T12:00:00Z",
+      "headline": "Street begins quantifying Nvidia's key-man discount at roughly 30% of market value",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "SMCI"
+      ],
+      "why": "Putting a number on the founder premium gives the market an explicit framework to price the probability-weighted outcome of the board review, which mechanically introduces a persistent valuation haircut until succession clarity arrives. The effect is on the multiple, not near-term earnings, since customer roadmaps and the order book are unchanged. Direction is two-sided: a clean exoneration releases the discount, while any forced transition crystallises it.",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYkN6WGxYM244X2FUTHpZbUZFWTk3bTlJTG9jTDFWZ1l0ODJhMjN2eGc5RXRoNmR6elhKYmJsbG1VOUM1Nk41RHRvcC0tM3pXM0kyVWlXTHVqVXVPQzBScnl5RlF6MlpWOU4xVnY5VFk1QjYwLWswMXR4OUhHMlQ1U3dyTHdYTTJOdkhSakI3cVF2Vmo5SkZyMnVaSGRmQ21B?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261110-tsm-october-revenue-ai-demand",
       "time": "2026-11-10T06:30:00Z",
@@ -27,6 +133,51 @@
       "why": "TSMC's monthly sales are the cleanest real-time read on AI accelerator wafer starts, and a 59.7% year-on-year and 14.7% month-on-month print says leading-edge and CoWoS output is still being fully absorbed rather than digested. That contradicts the 'AI capex is cracking' narrative that drove last week's semi de-rating and supports Q4 consensus for every customer and tool vendor feeding those fabs. Foundry upside also flows directly into WFE order books at ASML, AMAT, LRCX and KLAC, whose multiples compress fastest when leading-edge utilization is questioned.",
       "source": "DigiTimes",
       "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+      "alerted": false
+    },
+    {
+      "id": "20261110-us-tightens-china-chip-export-controls",
+      "time": "2026-11-10T06:30:00Z",
+      "headline": "White House moves to tighten semiconductor export controls on China as Nvidia scandal escalates",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "MU",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "QCOM",
+        "SMCI",
+        "ANET"
+      ],
+      "why": "An administration-level tightening converts what had been a congressional proposal with uncertain odds into an executable rule, which removes the China datacenter revenue line from forward models rather than just discounting it. For Nvidia the mechanism is direct lost unit volume plus inventory/reserve risk on product already built for that channel; for the equipment names it is a second-order hit as China fab customers lose access to tooling demand tied to AI buildouts. The multiple compresses too, because policy-driven revenue is now treated as non-durable even where current bookings look strong.",
+      "source": "\uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlhYX3k3Q0xuandfc2tSMHlpTzluTzZQYnhxQmhYUnpSZDg2bng0WDM0RFhEV21JclhnTGc4Y0ZzRTBsR0M1NXBudnVQUUZmM3ZQbkpTc0NnSms4NFFwT193aGh0RnVoRVZ4WXlOb3kzMEZQVy1YODVJR3g1TkJhSEdqajRUVE5T?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-moonshot-rents-nvidia-chips-in-china",
+      "time": "2026-11-10T04:00:00Z",
+      "headline": "Documents show Moonshot renting top-end Nvidia AI chips inside China",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "Evidence that restricted silicon is being accessed via rental arrangements rather than outright purchase shows the current rule set is leaky, which is precisely the argument used to justify extending controls to compute access and cloud services. If rentals and offshore capacity get captured by the next rule, Nvidia loses not only direct China sales but also the grey-market demand that has been quietly absorbing supply. It also increases the odds of enforcement actions against distributors and the systems vendors in that chain.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXFQdXM5NGdadXhNSnRhalRtOE9aSHdPYUNyeWtIam9xZ3JjMEI5cGxyUGpZbXBQamZlY2hxZFdTRC1NbllidG1MdDNpb193bGdmMEpwdGhLMmxLQjVQekZGNEpRY181RkVick94WHlDMTMtblVBaTNWT0tRSkVmNXhlSEZYcFFRTV96WVAzLURWcEo3MGx1RDZFdk1KQ1plTldWdHlxbkdHVlVsX1k0bw?oc=5",
       "alerted": false
     },
     {
@@ -701,132 +852,6 @@
       "why": "Escalating investor skepticism around near-term return on investment for massive artificial intelligence infrastructure spending triggered a sharp contraction in mega-cap technology valuation multiples. The S&P 500 dropped 4.4% in its largest single-day loss since April 2025, wiping out over $2.5 trillion in market equity as semiconductor and cloud leaders faced broad-based institutional liquidation.",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta1_OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261105-anet-q3-earnings-rally",
-      "time": "2026-11-05T00:00:00Z",
-      "headline": "Arista Networks (ANET) Stock Price Rallies After Q3 Earnings Shock",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "ANET",
-        "CSCO",
-        "NVDA",
-        "AVGO",
-        "MRVL"
-      ],
-      "why": "Arista Networks reported strong Q3 earnings beating Wall Street expectations, driven by accelerating enterprise and cloud hyperscaler demand for AI data center switching hardware. Robust adoption of high-speed Ethernet backbones in AI cluster deployments expands Arista's addressable market and improves multi-quarter revenue visibility across cloud networking hardware providers.",
-      "source": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdk5waTd5dkFDWTBVcXV1Tnl5dkNGZVV0Q2hBUHJTbnRxV3pkZ2QyY0l3N0FFajByMnZ5UWVWZ2hxQTlHLUNhOGNIVEtFSl9HX2FqamFtWWJ1RXhscWFfdUpYNWc4czhLQ1lOa1hSdm9nbjlIb2dwdHlGSzIyM3VZRktiVFg2UTct?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261105-orcl-tencent-ai-leasing-deal-canceled",
-      "time": "2026-11-05T00:00:00Z",
-      "headline": "Oracle Drops Rs 66,000 Crore AI Chip Leasing Agreement With Tencent Under US Pressure",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "ORCL",
-        "NVDA"
-      ],
-      "why": "Oracle terminated a multi-billion dollar AI compute leasing contract with Tencent following US regulatory pressure intended to close foreign cloud access loopholes to advanced silicon. The cancellation directly reduces Oracle Cloud Infrastructure's forward revenue pipeline and diminishes enterprise GPU order backlogs for Nvidia.",
-      "source": "The 420.in",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc3dGTWoyUVFvMEFQd0Y2dk9OMzRKODF0UEI5ZDVfRjJrYkxub0lkMzl2WE5ia0xsZ2RZekh4Zmg2cnFMNUFTTWRQTVBvNFU2VmQzZ21wYVhQME1vQWVIWWpVRzNYVVE2X1ROMy1aNVdNSHQzZ21CeFpSZnlTcHNZTW9ZZTFmY0FJR1gyZ3JhajJoYXNjb0czaHRQdW9OME82bU5TY1pR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261105-nvda-china-import-clearance-delay",
-      "time": "2026-11-05T00:00:00Z",
-      "headline": "Nvidia chips pile up in Hong Kong as China withholds import approval",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AMD"
-      ],
-      "why": "Chinese regulatory authorities are withholding import clearance for Nvidia hardware, resulting in inventory build-ups across Hong Kong transit hubs. The administrative bottleneck presents near-term revenue recognition risks for Nvidia's China-tailored product lines and threatens demand visibility for foundry partners.",
-      "source": "ET Manufacturing",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZDZmR0x2YnRxWW1SckJzUmtPMjA5NmdySGpTbUZpdldfaXhaQU05NzVYYVYyZGpYekJHRm9UR05tZTlWRXdWQWgyR2NTV3Z1ZzJSeXJWOVlvaHpsdlZRd0lDWXZ5a2lPdmozbnJVOEFtM1htVkxDYzVTX2tNakZNYURfc3pfcklOUjgydlh1Q3hKenBIVlhtb0pJblZOdkZDUlJUaW4yeUNtOXd6QThjeXdKQkE3Mm90TXJKVTJCd1FJckk2VDYtWkdsOFRtSXluZjg2Ml_QM2VDN1lhV2p1WnZpZ2ptTGdBVEo3c283eGl4ODB6TdIB3gFBVV95cUxNZUxwM294VkFjdDN0d2k5V1kwM2p3RldlMXYyd1N6M1N5VkpBU3FJLV9YY196N0EwbFdKNmh1d2NYSFdWYnpPalpEVmF1RGJ2a0JQc2htVXZpZnU4MnVKdGstMlpXczJHR2pOWXE0bnRkLXBrVWFlWnFaQ1EtcW9WbjJ6VVR4ekI5VXlZVUZNSE4wYnUyN21QWWFiLU8zSV9yUGo1N25PdGVmVlp3OW5Vb20tcS1tTVpZcnJMSzVTRHZ5NWROX0g4UWxFLWlhMmsxbkZEMG9XSnQ5LWxvUVE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261105-eu-chip-design-investment",
-      "time": "2026-11-05T00:00:00Z",
-      "headline": "EU Launches \u20ac525m Chip Design Investment to Challenge US and China",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "ASML",
-        "NVDA",
-        "AMD"
-      ],
-      "why": "The European Union allocated \u20ac525 million in public funding targeting sovereign semiconductor design and software infrastructure. While modest relative to total industry capex, the initiative provides long-term structural tailwinds for regional semiconductor IP and design tool adoption.",
-      "source": "EU Today",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMDMxRW9Xb0lCZFB0djZWMy1INjRaUEV4UzlsUXk3LXNqci14ZzFUMHdRVlpUNVoyZlBSUHI3Vk9NdHVNNllkeWZpQThNTFJEUFBkVTdEWVpXYXdocmZPY3pQSEhkcEVpSUVrMGRIUzBZSTJEM1E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261104-us-midterms-democratic-sweep-ai-stocks",
-      "time": "2026-11-04T12:00:00Z",
-      "headline": "AI data-center stocks slide, renewables rally after Democratic US midterm sweep",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN"
-      ],
-      "why": "Democratic gains in the U.S. midterm elections prompted sector rotation across U.S. equities. While broad indices rallied, AI semiconductor and data center stocks faced downward pressure due to investor anticipation of increased regulatory oversight and antitrust scrutiny on artificial intelligence tech giants.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcW5CTURXaGFocTExc3NDZk9feEYwc1dTaDVuTkVqUEZxejUwS1ZkZkhaMlNZUnh0UkY5VFo5ZXczeFBPMDFzMVBvUTc0SEUxREtORkRSTE5maGlaZWVMREY5ZXduYlZRQUFPNGNnUFhqNlpiQUhKYWhKeVNscEF2ZGNSaG5ha19TZ3ZkYXJxbVpPZ0RId1g3VXBCM0RfTzdqWnBxbEFqanIxS1NYUGJKOTNPcUlNOEhzM0xvMkt0RlhPcDB1aWF6MnRUaktaQ0R0YWRJ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261104-smci-earnings-margin-compression-concern",
-      "time": "2026-11-04T10:00:00Z",
-      "headline": "SMCI Stock Near 3-Month Low: Super Micro\u2019s Earnings Beat Fails To Ease Analyst Concerns Over Margins",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA"
-      ],
-      "why": "Super Micro Computer's stock sank toward multi-month lows despite beating quarterly top-line earnings, as persistent gross margin compression troubled analysts. Elevated component input costs and competitive pricing pressures on liquid-cooled AI server racks continue to weigh on net profitability.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ0pNOS1rQUh4R01BRHBteHBvaTh3NjM0WFRXWkw5TEd3Wms1bXBFbXFXRGsxbGlSR1Npb3RqRmROWWJ3eVlXeFNmUG4yTnhOdmxXazIwZm96Ynhsb04wT1FFX2hPNDZ2TXhfQnlHeWJuNjItR01rREtqRlNRNER0Z2NVLUV3NjBaZWgtbW5ERngwSnFIRGhCYkRyU2htaXV3SFd0Wm96ZVN0TERNVmJHNC1DM3V5QWhaUzVJVWJoWGE4LS14MWhDREtUOTZrcTNFQm5MR3A0N0JqOC10N0V6VW1pTjVsbXpBdlowYm1YWTNEUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261104-amd-q3-earnings-q4-guidance-beat",
-      "time": "2026-11-04T08:00:00Z",
-      "headline": "AMD Shares Surge Nearly 8% as Q3 Earnings Beat Forecasts and Revenue Outlook Exceeds Expectations",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "INTC",
-        "MU",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "AMD reported third-quarter revenue and earnings that topped consensus estimates, driven by data center revenue nearly doubling year-over-year. Robust guidance for fourth-quarter growth reaffirmed sustained hyperscaler investment in AI accelerators, easing broader market concerns regarding near-term AI infrastructure spending.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbGNWalV5bFpTYUN0WGhMV1pRcVJyQ0d1RkdmRHQ0WXNhcFY5T011ZTJIbXI0dEF2ZDlCeksxVm54YmhXR1VRMTJFSS1OdTNiTi1zOGktQUFXSmQ4cmJqbUYzMHVCQ1pDNUJTMlcwWmFLb0V1ajRXWFdQdXBMdFdteDlOTTY1MlRxczBjSzJWMXh1Y3ox?oc=5",
       "alerted": false
     }
   ]
