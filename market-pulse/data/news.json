@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-11-11T06:57:21Z",
+  "generated_at": "2026-11-11T19:47:44Z",
   "session_date": "2026-11-11",
   "items": [
+    {
+      "id": "20261111-mu-goldman-relative-memory-preference",
+      "time": "2026-11-11T16:38:00Z",
+      "headline": "Goldman says Micron is more attractive after the selloff but sees better value in rival memory and storage names",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "WDC",
+        "STX",
+        "NVDA",
+        "AVGO"
+      ],
+      "why": "This is a relative-value reallocation inside a tight memory cycle rather than a call on the cycle ending, so it redistributes flows within the group rather than lifting it: a Neutral-stance bank steering money to NAND and storage peers caps Micron's re-rating even as HBM pricing stays firm. The underlying tension is that supply discipline that supports 2027-28 pricing also invites capacity additions that compress out-year margins, which is why the bank prefers names with less embedded expectation. For the AI complex it matters because memory cost is a direct input to accelerator and server bill-of-materials.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261111-nvda-baird-downgrade-neutral",
+      "time": "2026-11-11T13:30:00Z",
+      "headline": "Baird downgrades Nvidia to Neutral and cuts target to $200 from $500 on 2027 data-center visibility and CEO uncertainty; Morgan Stanley pulls NVDA from Top Picks",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET",
+        "MRVL",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "Two sell-side desks moved on the same day six days before the Q3 print, and the mechanism is multiple, not estimates: the cut rests on reduced confidence in 2027 data-center forecasts plus an un-hedgeable key-man/governance discount, which is exactly the input that supports a 30x-plus forward multiple on the AI complex. A 60% target cut from the former bull case resets the anchor range the whole sell-side marks against, and Morgan Stanley's stop-loss removal signals positioning capitulation rather than fundamental downgrade. Because NVDA order flow sets the revenue path for foundry, memory, networking and ODM suppliers, a visibility-based derating travels straight through to TSM, MU, AVGO, ANET and SMCI even with no change to current-quarter numbers.",
+      "source": "Yahoo Finance / Quantisnow",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkgwN3diRWtuWWpxMjBhMEtyblJOTGJzclZ0N0JfVExQaWpkLTVzQ0tJTHpVMkFOcHdNVlE4RlV3Z2N5ckI2V0dLM2ItM3l6a1hMRzVXQk5VWlZsb2JneVVFY1NnRmh4bEgya2tyTXFZeEpScDJVX2VoMm1QZWkzSTFiU3JzOHVjdFVyLW8yUm5IQQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261111-ter-jefferies-ai-test-initiation",
+      "time": "2026-11-11T12:30:00Z",
+      "headline": "Jefferies initiates Teradyne at Buy, sizing a $2bn-plus Nvidia and hyperscaler AI test revenue stream versus roughly $50m in 2026",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TER",
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "The call monetises a structural change in test intensity: advanced AI accelerators and custom silicon need far more automated test time per die, and dual-sourcing at Nvidia lifts share of a system-on-chip market Jefferies models growing several-fold by 2030. That converts a cyclical ATE franchise into a secular AI attach, which is a multiple story as much as an estimate story. It is also a third-party demand confirmation for the Rubin-generation ramp, so it reads across positively to the broader semicap group on the same day sentiment on NVDA itself is being cut.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNXzgtMGRIazV0X0Vlb2NTRmZCUHZNb2tEU2s5c0tINVJHcEZET2JXXzBiVVdRNDRGdjZNUVNTaG9jYUJxVmhVSlNVSENjRldsMWN5VnQ5THhlR1Jnd3N6MmJJZ1Uyc1RBSDBlaXVGQS0zNEJob2pLcUdfbU1nU0liZjN3?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261111-nvda-pla-university-h200-procurement",
+      "time": "2026-11-11T10:00:00Z",
+      "headline": "Procurement records show PLA-linked Chinese university acquired Nvidia H200 chips while on the US export blacklist",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "MU"
+      ],
+      "why": "Documented diversion to a defence-linked, blacklisted buyer gives the lawmakers already drafting tighter curbs a concrete enforcement failure to legislate against, raising the probability that statutory restrictions replace discretionary licensing. The commercial mechanism is a tighter channel: more end-user verification, slower licence throughput and a higher risk of the grey-market China volumes that currently sit in consensus being permanently zeroed. Equipment names are exposed on the same vector because a legislated regime typically extends to tooling and servicing of Chinese fabs.",
+      "source": "Hindustan Times / Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxORVc3U1pFUWRPc21aRlg3ckh4NmhtQjBRZVBmTEFiQm40cmVGMnRyZnEtOUt6TW9IUW9RSExrNE1XYlhYRWtsWnBHZ2VlWTJnTGNzZkRKd1Jycnk5c1dIYmVNdGJlQ1JteS0wTkJKcDg1TzZVQTc1clU5V1ZMcDdMT3lkMGliYlcyLWxuQzhnNTJQS2ZOZTJSTWo2ZkVnNUNLSHpJWlZpbjg2d3lGaHNGLTZ2NnhISEFQYjVyRUpoYWF0M1VSTURiOWlnbEhybHgwV0o2aXNnSmgwYWlzQlJ2amdPRmlLZGZEYWlINmp6TGpUZFdNbndn0gH8AUFVX3lxTE1NUDZLLU5hWGRSLUcxcl9kMEw0MkF0UUp3WmxBamtNSkNvMHFBaHBBVXVpcmp3b2g0LTZtdjZZTjFRMmdpNl9iWUJlX2FDZlRnLUg0V3hXSFR0eEdRWkdnMWlOT2JzNWhmcG53UDVydEtndUhhdmNmQl96YVh1SVE2MHItSy00TWhBSzVEelJEbmVId21nY3FLNHk3eXptUDlYNTlRQ21SdUlEWFRONWpFaXV3Nk5VX0tXTEJ1eFpwV2w0QXhndE53TjhsX1M5S3I5Z2p1THpwUVdRZkhHa1pfeXZqRTBHYVRfd21wUHdMQnF4a1JLNGxFY1lENA?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261110-gop-senators-join-china-chip-export-push-ndaa",
       "time": "2026-11-10T22:00:00Z",
@@ -809,79 +899,6 @@
       "why": "Statutory export limits are stickier than executive-branch licensing because they cannot be traded away in a bilateral deal, so this shifts China accelerator revenue from a negotiable swing factor to a structural zero in out-year models. It also raises the probability of chip-level performance caps that catch AMD's MI line and custom silicon programs, not just Nvidia. Equipment names are read-through because tighter end-market rules eventually feed back into China tool demand and licence conditions.",
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1hFMFZLZ3NScUN5R1drUjBFWFZGSXA5a1JjYW9TTkp0UE5nYWNxekFRNlBQcG00X3NpRmZHVVJ4X25HM3pnaHYtMVgxSENsT0RrTmg4OURDNk12dmhyVDFZbHN6V2g3Y0hWY05HaWxKaVdoMXFxVlBEdUwteWEtVjB5YTdyNTBORnQ1azRXQnFFeVFWcFZfRzFpQTVVSkI3dXFUcFJYWjIwT3JRckcwRzVmdklOdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261108-q3-earnings-breadth-vs-derating",
-      "time": "2026-11-07T18:00:00Z",
-      "headline": "Earnings scoreboard: 86% of reporters beat EPS and 78% show year-on-year growth even as the tape de-rates",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "The divergence matters more than the beat rate: delivered earnings are holding while prices fall, which means the drawdown is pure multiple compression driven by rates and AI-capex scepticism rather than deteriorating fundamentals. That distinction sets the floor for how far the index can fall before valuation support re-engages, and it argues the next leg is decided by the CPI print and Fed path rather than by company results.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOamhxUngtVnZZMlNFR3hOZHVjSzRwYkRLOVRKV2Q3N2o3bVNMSEhIdTR6Nkh0akl0WkxGSFNfZU11dVJ4MHh1UEZmUFExbE1IT0dVQkJOUVlBc2NTel9SQnVMTXNJLWxtR08xY1dYeE9zUzFiN21PN2s4RDc4MTdSRzgtazR4aEtZdlBuRWktd3BaODZiSm5YYmN4NVZCeDR0WlVLNDBfbDVwMDhJYVBEOEtyZkFzbldZT0VVRjMwTkJkNDV2VmtSaHhuNWpyRHhYaHdqYTdUaVdhVFVPTkhIU1ZockFBUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261107-tsm-3d-dram-nvidia-request",
-      "time": "2026-11-07T15:13:00Z",
-      "headline": "TSMC drafting plans to enter 3D DRAM at Nvidia's request, pushing the foundry into AI memory",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "MU",
-        "AMD",
-        "AVGO",
-        "LRCX",
-        "AMAT",
-        "KLAC"
-      ],
-      "why": "An entry into advanced DRAM would widen TSMC's addressable content per AI accelerator beyond logic, adding a second high-margin leg to revenue but also a capex line on top of an already elevated 2026 budget, with no commentary from management on the October earnings call to anchor the spend. For Nvidia the mechanism is input-cost and supply security: a second qualified memory source weakens the pricing power of the three incumbents that currently set its HBM/DRAM bill. For Micron the threat is to the terminal-value assumption of a permanent three-player oligopoly, which is the core of the current memory multiple, even though any production is years out. Front-end equipment names gain from an incremental greenfield memory capacity builder.",
-      "source": "24/7 Wall St. / The Information",
-      "url": "https://247wallst.com/investing/2026/11/07/tsmc-jumped-6-on-a-report-it-could-make-memory-chips-for-nvidia/",
-      "alerted": false
-    },
-    {
-      "id": "20261107-barclays-sp500-target-upgrade",
-      "time": "2026-11-07T07:15:00Z",
-      "headline": "S&P 500 Forecast: Barclays Raises Year-End Target to 7,950",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IVV"
-      ],
-      "why": "Barclays raised its year-end benchmark price target for the S&P 500 to 7,950, pointing to resilient enterprise earnings power and durable macroeconomic conditions. Higher Wall Street institutional targets improve broad equities positioning and lift index valuation floors following tech-led market pullbacks.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261107-moonshot-ai-europe-neocloud-chip-bypass",
-      "time": "2026-11-07T06:30:00Z",
-      "headline": "Moonshot AI Bypasses U.S. Chip Curbs Via Europe Neocloud Deal",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM"
-      ],
-      "why": "Chinese AI entity Moonshot AI reportedly accessed high-performance GPU clusters by leasing capacity from European neocloud providers, circumventing direct physical hardware export controls on Nvidia compute. This loophole increases legislative and BIS pressure to expand U.S. export restrictions to remote cloud compute and IaaS licensing models.",
-      "source": "The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ6aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
       "alerted": false
     }
   ]
