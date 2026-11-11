@@ -1,7 +1,89 @@
 {
-  "generated_at": "2026-11-10T19:55:31Z",
-  "session_date": "2026-11-10",
+  "generated_at": "2026-11-11T06:57:21Z",
+  "session_date": "2026-11-11",
   "items": [
+    {
+      "id": "20261110-gop-senators-join-china-chip-export-push-ndaa",
+      "time": "2026-11-10T22:00:00Z",
+      "headline": "Republican senators join the push for statutory China chip-export limits, making the restriction effort bipartisan via the defense-bill vehicle",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "QCOM",
+        "MU"
+      ],
+      "why": "Export limits imposed by statute rather than by executive licensing cannot be unwound by a trade deal or a presidential waiver, so the earnings risk changes from a timing question to a permanent addressable-market reduction for China-bound accelerators and the equipment used to serve them. GOP participation removes the partisan blockage that previously made such bills unlikely to clear, and attaching them to must-pass defense legislation raises the probability of enactment materially. That lifts the regulatory discount applied to the whole China revenue line across the complex, not just Nvidia.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LVFZnaWZJaHhteVV2dkdiQnRnX1Zua2Jnd0N3VVBxSzBtOWhETm92Mk9EY0JMbEZMNV9ibThnaWhjd1Y5RTZfMEoxYkk0TTF4Zlk4cmd2RnV2bV85VExSZmswbEJFNmZuZGNBMHYwUklvTjNmdDR1cEIteDdzSlJDc2ZVT3FrS0lZaUVJb1J2MDBvdWtNR0l5NllodU1WUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261111-crwv-q3-beat-raises-ai-capex-signal",
+      "time": "2026-11-10T21:30:00Z",
+      "headline": "CoreWeave Q3 revenue beats and 2026 guidance raised, reviving AI-infrastructure demand signal into Nvidia's Nov. 17 print",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MU",
+        "AMD",
+        "ANET",
+        "MRVL",
+        "SMCI",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MSFT",
+        "ORCL",
+        "QQQ"
+      ],
+      "why": "Neocloud revenue is a near-real-time proxy for GPU sell-through and rack-level deployment velocity, so a sequential revenue step-up plus a raised full-year outlook directly contradicts the 'AI digestion' thesis that has been compressing semi multiples. It also signals CoreWeave's contracted backlog is still being funded despite higher rates, which de-risks the order book of its suppliers and the memory/networking content attached to each rack. The read-through matters most for NVDA ahead of Nov. 17 earnings, where the debate is demand durability rather than current-quarter supply.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-fed-officials-open-door-50bp-december-hike",
+      "time": "2026-11-10T21:00:00Z",
+      "headline": "Fed speakers open the door to a larger December hike after hot October CPI, hardening the discount-rate shock",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AAPL",
+        "TSLA",
+        "PLTR",
+        "CRM",
+        "NFLX",
+        "ORCL",
+        "AMD"
+      ],
+      "why": "The market had already priced a December move after CPI; the incremental news is officials publicly discussing a step-up in increment size, which widens the terminal-rate distribution rather than just shifting its midpoint. A higher and less certain discount rate compresses the multiple on long-duration cash flows hardest, which is why megacap tech and unprofitable AI-adjacent names underperform defensives on this repricing. It also raises the funding cost for the debt-financed datacenter buildout that underwrites current semi order books.",
+      "source": "Reuters via Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcDdSR2JEV3JnaGdSRDlzeEdYQVpFODhCUE4xZWhwX0p4V2NjWXhlOWNhVGY2NW1jMTRHRjFjdjVEc0ZKeVBXTWR3aFlzbUE2VHJ4NXpvQS1GRWtxZ1lUZjhIXzF2ZzlWd1BoOEo0MUpXRzZudFExR2tnMlhRUzBOOGE5M2MzZ0xLSTFSZjF6SFBkUQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261110-ust10y-reclaims-5pct-post-cpi",
       "time": "2026-11-10T16:20:00Z",
@@ -28,6 +110,29 @@
       "why": "A 5-handle on the long end raises the discount rate applied to the entire long-duration growth complex and reprices the equity risk premium directly, independent of any change to company fundamentals. It also raises the cost of the debt financing now funding AI datacenter capex, which pressures the return math on hyperscaler buildouts and the credit spreads of the neocloud borrowers. Note the wires conflict on the tape: some recaps show indices slipping on the print while others show stocks rising through it, so the yield move is the cleaner signal than the index direction.",
       "source": "MarketWatch",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdWxxNHUtVm9iTEJTMXpJSmJyRFc3aC1jZC1qNnNxVURCYVhSUHRXQlVLVDctY003RTFhUzVZTkZ2dUNXaVZRUEZ2UXdtYk5HVGJkZEh0RmNnNkllS2JmY2pPM2l6YkVacEdtdmM0UGNNMUZtTE4tWUNBUzV4X2ZBUlZEbGJtcWlMSEtiTUFDc0xmcEp2aGp4WXVrdXJkZmF3QXZ5OXl6cF85UTRKQ19hMWhMVGZwR1lORFF4TzNxaHpxUXpoU0U5Rzg0QXVRUy1NbHhVMUI2LWY?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261110-semis-dispersion-call-tsm-mu-over-sox",
+      "time": "2026-11-10T15:59:00Z",
+      "headline": "Raymond James strategist favors TSM and MU over broad semiconductor index exposure, flagging 'haves and have-nots' dispersion",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "MU",
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The call reframes the post-selloff trade from beta to selection, arguing capital should concentrate in names with accelerating earnings growth rather than in index-level exposure. If large allocators follow, flows rotate toward foundry and memory, where pricing power and utilization are currently inflecting, and away from logic names whose multiples still embed uninterrupted China access. Practically it supports relative outperformance of TSM/MU versus the SOX rather than a directional sector view.",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUnlNLTNVV1U2VHJGTDJua3FJeXhHSnFuRWRQclZLN3hDV2lOYXZYQ1dSYk1RM3pWR0NINlk3eUhxM3JIaHVnNzN6TFZkOV9VNWhQdWRnOEd0dm94MURNVmxwTzlMYWg5dWVfdmRXd1Z2Q3BVXzBzNGlpTEJnVjIwV2VGcGxaM0RoLWEzWFZ6bEd0MHJfV3FNZnVwSEhTaVMwRGVmWjRnQ1FvV0NudGw0M2VOcllMYkVBODBlMW4wR1k?oc=5",
       "alerted": false
     },
     {
@@ -777,81 +882,6 @@
       "why": "Chinese AI entity Moonshot AI reportedly accessed high-performance GPU clusters by leasing capacity from European neocloud providers, circumventing direct physical hardware export controls on Nvidia compute. This loophole increases legislative and BIS pressure to expand U.S. export restrictions to remote cloud compute and IaaS licensing models.",
       "source": "The Tech Buzz",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ6aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261106-nvda-1gw-datacenter-retrofitting-project",
-      "time": "2026-11-06T14:00:00Z",
-      "headline": "NVIDIA Surges Over 6% as It Plans Data Center Retrofitting Projects with Capacity Reaching 1 Gigawatt",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "AMD",
-        "VRT"
-      ],
-      "why": "Nvidia unveiled plans to execute data center retrofitting initiatives reaching up to 1 gigawatt of power capacity to accommodate next-generation AI accelerators. The massive infrastructure buildout reinforces long-term demand visibility for high-performance AI chips and data center power management suppliers.",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGs5d3lFcWd5WEVwZlBvelNFUWdkUFpJeEgwNGhxckJ1aVdHTmlEVHpmbnZyUEZFMHJnbnZ3c1JVUE1zZmx6eXFhUG04dnp4RzBrRF9Xa3RjVjA3ektfYmZhb0NEaFR3MVFMOUU2QTJDeGZuR2owUTJoYTVYWWdOTnZJRmkzaHhqYlBJMWlHTlZfWWpXTng2V3BzSWFPa2kzWlE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261106-us-october-jobs-report",
-      "time": "2026-11-06T12:30:00Z",
-      "headline": "The US economy added 165,000 jobs in October and the unemployment rate fell",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "Nonfarm payrolls expanded by 165,000 in October alongside a decline in the unemployment rate, demonstrating robust economic fundamentals despite high interest rates. The strong labor market print alleviates immediate recession concerns while maintaining monetary policy flexibility for the Federal Reserve, supporting broader equity valuations.",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qWk8wMEdtNmQzcFpkelNRdjNtZjJYRkJNWkpKM2xBenpzMnRxeUVKdkUzTFlPZkNmTTE5dmNlN0lzaWJZck5ENmNEc054d280UGNkdEo4MXVUYUVEMjM4RmV5T1ZrV0VWMzRxdDhR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261106-intc-ceo-insider-stock-purchase",
-      "time": "2026-11-06T11:00:00Z",
-      "headline": "Intel CEO buys $9.7M stock after shares plunge nearly 50% in a month",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC"
-      ],
-      "why": "Intel's Chief Executive Officer executed a open-market purchase of $9.7 million in company stock following a nearly 50% month-over-month decline. Significant insider buying provides institutional investors with a positive signal regarding management's confidence in Intel's long-term restructuring and foundry turnaround.",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZEJuV08xSUZqdmk3V29PM2hiMVJ6RFJVdWJETmxLdG1tVEJrd1VabzVENVl3bVBHN01Fa1FJM29OeHdnbWlpV2d3X3ZVXzJpZ3VNdTVzbUIzZXNVU2JMTlVOSjQ1UmhIdklpb3JpXzBkNjVtaEhqU2RrbkRmOFUtc1puNkxCRkRsc0R6OUlIMHFGdnFjUzJz?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261105-sp500-tech-ai-selloff",
-      "time": "2026-11-05T21:00:00Z",
-      "headline": "S&P 500 Tumbles 4.4% in Worst Single-Day Drop Since April 2025 as AI Chip Selloff Deepens",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA"
-      ],
-      "why": "Escalating investor skepticism around near-term return on investment for massive artificial intelligence infrastructure spending triggered a sharp contraction in mega-cap technology valuation multiples. The S&P 500 dropped 4.4% in its largest single-day loss since April 2025, wiping out over $2.5 trillion in market equity as semiconductor and cloud leaders faced broad-based institutional liquidation.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta1_OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
       "alerted": false
     }
   ]
