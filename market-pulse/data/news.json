@@ -1,7 +1,92 @@
 {
-  "generated_at": "2026-11-12T20:17:32Z",
-  "session_date": "2026-11-12",
+  "generated_at": "2026-11-13T07:04:34Z",
+  "session_date": "2026-11-13",
   "items": [
+    {
+      "id": "20261113-macro-risk-off-dollar-19month-high",
+      "time": "2026-11-13T04:34:00Z",
+      "headline": "Bitcoin breaks below $70,000 with roughly $1.2bn of crypto liquidations as the Dollar Index holds a 19-month high",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "PLTR",
+        "AMD"
+      ],
+      "why": "Forced deleveraging in the most liquid 24-hour risk asset plus a dollar at multi-month highs is a tightening of financial conditions that mechanically raises the discount rate applied to long-duration equity, which is where AI and high-multiple software names sit. A crowded-leverage unwind also removes a marginal buyer from the same retail/momentum pool that owns the AI complex, so the equity beta to crypto drawdowns is higher than usual right now. Liquidation totals differ across sources ($622m in a four-hour window versus $1.2-1.3bn for the full move), so treat the magnitude as approximate.",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUFvUmV4NkRTR3k0bnVVUjBYQTh5Z1BNX3NsTE1YWE9YUEpRMTJ4TEF5NFJfVmxPaUZQWl9CZEJpNGQtOTRMNmtYRHV0N3NUM2FtOUp1dWNaSV9OSlVYMFRwNld4ZWI4bUV4a251VjdzeUVnTW1EbFBuUndERzNjTWg1cDZ4Y1d1aXFPbzZYUXFoT2NJcnVBcXFXdFo?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-oil-iran-no-deal-yields-up",
+      "time": "2026-11-13T01:00:00Z",
+      "headline": "Oil jumps after Trump says no deal with Iran is needed; Treasury selloff deepens and the dollar strengthens",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "Removing the prospect of a negotiated settlement keeps Iranian barrels sanctioned and restores a geopolitical risk premium that had been bleeding out of crude, lifting the realised-price assumption in integrated-producer cash flow models. The second-order effect is the bigger market problem: firmer energy feeds breakeven inflation just as the Fed debate has shifted hawkish, which is pushing long yields higher and compressing the multiple on duration-heavy equity. Energy therefore outperforms while the index-level impulse is negative.",
+      "source": "Saxo",
+      "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--13-november-2026-13112026",
+      "alerted": false
+    },
+    {
+      "id": "20261112-csco-q1fy27-beat-raise-ai-infra",
+      "time": "2026-11-12T21:30:00Z",
+      "headline": "Cisco posts record Q1 FY27 (revenue $18.5B, +24% y/y; non-GAAP EPS $1.40), raises FY27 guidance to $74.8-75.8B revenue and $5.47-5.53 non-GAAP EPS, and lifts hyperscaler AI infrastructure revenue outlook to ~$9B",
+      "impact": 8,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "CSCO",
+        "ANET",
+        "AVGO",
+        "MRVL",
+        "NVDA",
+        "SMCI",
+        "TSM",
+        "MU"
+      ],
+      "why": "Networking revenue up 43% to $11.13B and a doubling of the hyperscaler AI order outlook is hard order-book evidence that data-center capex is still being spent, not just announced \u2014 the exact question the market is re-underwriting after the Nvidia leadership shock. A raised full-year EPS range resets the base-case earnings path for Cisco itself and removes one bear argument (that AI orders are concentrated in GPUs and will not convert into networking/optics revenue), which flows directly into ANET, AVGO and MRVL numbers. It also provides an independent, non-Nvidia datapoint on 2027 AI build rates ahead of NVDA's own print.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-delivers-record-q1-232900099.html",
+      "alerted": false
+    },
+    {
+      "id": "20261112-china-chip-curbs-ndaa-leadership-consensus",
+      "time": "2026-11-12T21:04:00Z",
+      "headline": "Senate Majority Leader Thune sees 'high probability' of new China chip export restrictions; Speaker Johnson and Minority Leader Jeffries back adding curbs to the year-end NDAA",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "INTC",
+        "QCOM",
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Statutory export limits attached to a must-pass defense bill are far harder to unwind than licence-level Commerce policy, so this converts a discretionary, negotiable restriction into a structural cap on the China-addressable market for accelerators and possibly for memory and tooling. Explicit support from both chamber leaderships plus the Senate majority leader raises the probability a vendor must permanently write China out of its forward model rather than treat it as a timing issue. Equipment names are exposed because prior rounds of legislation have swept in tool and sub-system shipments alongside finished chips.",
+      "source": "Semafor",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS2VDTEpkZ2dyLUVta1BCVkNiOGNSRFpsN1lpQUptanRKdENtcmRjYWhWOGxWdWU0SjU1NVB2dWZvNkQ3cUJGcm9rLVY2TmVjMTVFTUJmaHVYa2VRLU44N0xvVkpVaFBSdFE4TklyeTFuSWVqWnNqbU43LUUxd3FqaUNFUlRJVHBFMnh1cUF0M0o1dHphSmVSa3djbkMyU0VMdzhWU09ib2RIeE1GQ283YllYNjBIZXhTa012MU5oT0FkMzBU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261112-nvda-craig-hallum-downgrade",
       "time": "2026-11-12T17:16:00Z",
@@ -128,6 +213,25 @@
       "why": "Export controls to date policed hardware shipments; a remote-access rule closes the cloud-rental loophole that has absorbed a meaningful slice of Gulf, Southeast Asian and other third-country GPU deployments whose end demand is Chinese. That removes a real source of incremental order flow for accelerator and HBM vendors and forces offshore neocloud and hyperscaler operators to re-underwrite tenant mix on already-financed capacity. It also raises compliance and know-your-customer costs on capacity that was sold on the assumption of fungible global demand.",
       "source": "The Information",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDhiSnYyNXlKQkZBVVh4MVRIbjhYOHNGR05fOGtVTTJ2cW5NYVN1T3FMcnpnNUNVSHI5Z0pVaDVYcHphOV96T2tSR29PaEEweTNNbnozX1JXa0JXY29fMUVzcDlKY29HQnNOYjFuLVNIQWZWaEJSTS1SQnJNeWpERnpRWEhWQVlBclZaM3Z6RXQ5VjhHeEw1MW56N3ZRd2VteDFkVzU2dnQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261112-amd-nvda-william-blair-pair-action",
+      "time": "2026-11-12T10:26:00Z",
+      "headline": "William Blair upgrades AMD to Outperform and cuts Nvidia to Market Perform, modelling 80%+ AMD revenue growth next year on Nvidia's 'leadership vacuum'",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "TSM"
+      ],
+      "why": "This is a simultaneous two-sided rating change, so it is a forecast of accelerator share transfer rather than a sentiment call: the firm argues AMD data-center AI revenue overtakes its server CPU franchise and that Helios rack-scale ramps through 2027, while Nvidia's governance disruption slows customer commitment at the margin. Share-shift assumptions of that size change the 2027 revenue base for AMD and the terminal share assumption embedded in Nvidia's multiple. Foundry and custom-silicon beneficiaries (TSM, AVGO, MRVL) are economically indifferent to which accelerator wins, so the read-through is mainly a de-rating of Nvidia's exclusivity premium.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhXYllGX18xWDVaQV84dXBzeDRMYU9XRFJhYXpHa3Y1blVUVnZkTUlTZ2Z3dlk3ZDhXaHZJX3VLaXQ3bGtlOG43cWRjR2F3WVVxaE9nMUpZTlhvNl9TTl94TVBSMFJ2c3ZoQjU2MHhtOC1aMVZxeXlkdjYzbjh6aDNnaUlydDJlMk9HdnNBNGVNVUppU3J6cmRWVndKNkZVWEdtN1dLZw?oc=5",
       "alerted": false
     },
     {
@@ -774,120 +878,6 @@
       "why": "Starving the client line to feed server silicon is a mix shift, not a demand loss: it lifts blended ASPs and gross margin at Intel while capping client unit revenue, so the earnings effect is ambiguous rather than uniformly negative. The read-through to AMD is the one the market mispriced last week \u2014 a constrained x86 client supply backdrop is a share-gain window, not a demand warning, which is why the sympathy selloff looks disconnected from the mechanism. It also implies substrate and packaging remain the binding constraint across the industry, which supports back-end equipment spend.",
       "source": "TIKR.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHdSM3dWX1U2Q0JyNWNNY3YtRnpsZi1RX2QzNzRZVk15QTRBNC0xQkc5YTFrc0U4ZW9SdkV2ODNzTGZqdTdjVnVSa3pISVdOOEtQZllETkJDd3NPX0k4dVptRGNTR0RjZDR0bEFtQkU1dkUySzdxS0t1ckNhc0Y4VFBxRWNOeUU1ak9WQnBkbGdCVmNxczdrVHVR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-amd-oppenheimer-upgrade-outperform",
-      "time": "2026-11-09T12:00:00Z",
-      "headline": "Oppenheimer upgrades AMD to Outperform, $600 target, on durable AI compute franchise and Helios ramp",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "MU",
-        "AVGO",
-        "ANET"
-      ],
-      "why": "The upgrade follows raised revenue and EPS estimates after last week's print, with the firm modelling data-center as the overwhelming majority of AMD sales by 2027 (135% DC growth), which resets the earnings base the market is capitalising rather than just the sentiment. A sell-side house moving off the sidelines with a target well above spot gives index and long-only buyers cover to re-enter a name that had de-rated hard, compressing the discount AMD trades at versus its own forward growth. The call also argues rack-scale Helios and an annual Instinct cadence make AMD a second structural supplier of AI compute, which supports multiple expansion for AMD's supply chain (TSM, MU HBM, networking) even as it chips at NVDA's scarcity premium.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CYmI5cjRwNEFyb0VzcTdZb3Fic0Jkck9Cd1RLNURuYVdTWEpDSzktSER6TjBCNlplV3VyRkc1NmZnOThHYnBoZTRibUYwWkNkbktuUGE5d2JLM2pQNW9VdnJ5Rl92WjZ5Z0dobmdTLWdySUFSUDl1REVKdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-ai-debt-financing-window-tightens",
-      "time": "2026-11-09T11:04:00Z",
-      "headline": "Banks and credit investors pull back on AI data-centre debt after the selloff; some balk even on Anthropic- and Google-backstopped paper",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "ORCL",
-        "NVDA",
-        "AMD",
-        "MU",
-        "AVGO",
-        "SMCI",
-        "ANET",
-        "META",
-        "MSFT",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "A large share of 2027 accelerator orders is funded by leveraged neocloud and hyperscaler debt rather than operating cash flow, so a wider spread or a pulled deal translates directly into delayed or cancelled GPU and memory purchase orders \u2014 this is the funding channel, not sentiment. Goldman Sachs Research sees hyperscaler debt issuance at roughly $420bn in 2027 versus about $250bn in fiscal 2026, so even a modest step-up in required yield materially raises the hurdle rate on data-centre projects and lengthens build timelines. Lenders are also stress-testing contract terms including termination and offtake conditions, which weakens the credibility of the multi-year backlogs that underpin current multiples at ORCL and the AI hardware chain.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUktuREpUZjNlTWxZaER3aXVBUlJvazI5Q2d6STdNekNFVjk0UDYydFNlYS1zQzBlOFdzdk9waFZOeFBvLUhKUG5YOURmWE1xTkFvcFhqTmdTa3dvZ2NFTW12VW15XzA0MW9LWmlDb3BCTGc3ZllkWS1FMU9lbS1JbllDV0FhVGs3elh3azhtYWx0WkVpYnk2eDVSU1NtU2hZQXc4UUJJdkdELXNuVW1mZWJDLWFtZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-china-extends-24pct-tariff-suspension",
-      "time": "2026-11-09T07:00:00Z",
-      "headline": "China extends suspension of the additional 24% tariff on US goods for two months from Nov 10, keeping the 10% rate",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "AAPL",
-        "TSLA",
-        "NVDA",
-        "AMD",
-        "QCOM",
-        "CAT"
-      ],
-      "why": "Rolling the suspension forward removes a cost shock that would have hit landed input prices and margins for US multinationals with China-linked bills of materials, and it signals both sides still want a negotiated path rather than escalation. For the chip complex specifically, a cooperative trade track lowers the odds that Beijing retaliates against US semis via customs or procurement rules at the same moment Washington is tightening export policy. It is a two-month reprieve, not a settlement, so it supports multiples rather than raising estimates.",
-      "source": "CGTN",
-      "url": "https://news.cgtn.com/news/2026-11-09/China-extends-suspension-of-additional-24-tariff-on-US-goods-1KZKZKZKZKY/index.html",
-      "alerted": false
-    },
-    {
-      "id": "20261109-oil-iran-restraint-energy-derating",
-      "time": "2026-11-09T06:00:00Z",
-      "headline": "Oil steadies after Washington signals restraint toward Iran, though Hormuz supply risk is unresolved",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "XOM",
-        "CVX",
-        "SPY",
-        "QQQ",
-        "IWM"
-      ],
-      "why": "The geopolitical risk premium is the swing factor in integrated-oil earnings right now, and a de-escalation signal compresses the forward curve that underwrites upstream cash flow and buyback capacity at XOM and CVX. The same move works the other way for the index: lower crude feeds directly into headline inflation ahead of Tuesday's CPI, easing the rate path that has been the second leg of the equity selloff alongside AI. Note sources conflict on the weekly direction of crude \u2014 some wire recaps describe oil soaring on the week while Monday coverage describes it steadying/easing on Iran diplomacy.",
-      "source": "Business Recorder / Reuters",
-      "url": "https://www.brecorder.com/news/40448086/oil-steadies-after-trump-signals-restraint-on-iran-hormuz-risks-persist",
-      "alerted": false
-    },
-    {
-      "id": "20261109-nvda-independent-board-investigation-opened",
-      "time": "2026-11-09T04:00:00Z",
-      "headline": "Nvidia board opens independent investigation into whether CEO Jensen Huang was targeted by a foreign intelligence effort",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MU",
-        "AMD",
-        "ANET",
-        "SMCI",
-        "MRVL",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "A formal independent probe converts a tabloid-style story into a governance process with discovery, legal exposure and a defined outcome date, which forces risk committees and index-sensitive holders to price key-man risk into the multiple rather than the earnings line. Huang personally fronts Nvidia's China licensing strategy and its largest customer relationships, so any constraint on his authority slows decisions on H200/China allocation and sovereign deals. Because Nvidia is the single largest index weight and the demand anchor for the whole AI supply chain, the de-rating travels to foundry, memory, networking and systems names even with no change to current orders.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1BJNjAwTmc1dWhNWkFEblREai1hbkhYZFBjT2MxaWV1b283RXNKTnk1emdfY2p5LWlXOEo5M0hLWWhjTG1UVmdVV2xvS09sb0tlelBpalV1Z1lTdUZ1VWJ5Uzl4cFJqeXV2ZUF5WVpTSWFGeGU4eldfdHpScTMySHpZQk9fWGc?oc=5",
       "alerted": false
     }
   ]
