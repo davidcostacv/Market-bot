@@ -1,7 +1,120 @@
 {
-  "generated_at": "2026-11-13T07:04:34Z",
+  "generated_at": "2026-11-13T19:57:03Z",
   "session_date": "2026-11-13",
   "items": [
+    {
+      "id": "20261113-bessent-commerce-nvda-china-leakage",
+      "time": "2026-11-13T14:00:00Z",
+      "headline": "Treasury Secretary Bessent publicly faults Commerce over Nvidia chip 'leakage' to China",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "SMCI",
+        "MU"
+      ],
+      "why": "An open split inside the administration over who allowed advanced accelerators to reach China shifts the policy equilibrium toward enforcement rather than licensed sales, raising the odds that remaining China-compliant SKUs are restricted or that licence approvals stall. For Nvidia and AMD that threatens a revenue line analysts had partially re-added to 2026 estimates, and it raises compliance and end-use-verification costs for server builders and foundry customers across the chain. Cabinet-level blame-shifting also removes the bureaucratic cover that had previously slowed new restrictions.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTIzZHZCSGlfZTAwY0VGY1hwZ0stMC1fblpqQ1N1eC1tWHRFazYxeDMxcVIzdEs0NXNUMVRhVWdJTVhOc2ZQcmQwaUFkOVJMZDVJTG5kUlE2aWtNYnljaHlqU05HWjFIUzl0MTJ1UzZGYk11SU5mXzJuTmxwOWFqbHo1TnkwTXZpMFA00gGQAUFVX3lxTE9QZHhGMjFUYWFSaGRxQ2lrQXpWYkdUTzJ6QmRUNFcxV092Q2MzbzZyMm9paGp2eGpEVEVXUzhsdkRZZy1GOFYycFVXYXFTVmlfZmlvM1EzUGh0TkMtU1dlZlVyd0xYemFaeDNYR0RYc2lhdTk4UTNsVjNJM2hXS2hod3dBTzBfYlNnT0dmLUk5dw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-macro-ppi-october-6p5pct",
+      "time": "2026-11-13T13:30:00Z",
+      "headline": "October wholesale prices rose 0.3% m/m, lifting the annual PPI rate to 6.5% \u2014 the highest in nearly four years",
+      "impact": 9,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "PLTR",
+        "AMD",
+        "AVGO",
+        "MU"
+      ],
+      "why": "Producer-price inflation at a near-four-year high removes the disinflation assumption underpinning the terminal-rate path, and with Fed officials already floating a December tightening this pushes the discount rate on long-duration cash flows higher \u2014 a direct multiple compression for the megacap/AI complex regardless of earnings. It also squeezes gross margins for hardware assemblers who cannot pass through input costs quickly. Note sources conflict on the day's inflation narrative: one wire framed the session as occurring 'despite inflation relief' while the PPI prints are described as the hottest in nearly four years.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4X1hoQmRtbDM0TllqRXgydjN2cE9Gb2w4cmRDOWhBT2Z3SEhHOTMySDJrSDdVaU9HVFZhcWJRNm1tZS1kN25SQzRtU3JSdGpTMXh4MWFuaFBYbllQMGpGYUxHV2s3RVhFc2drd1NGWllJRWFqenVrREdB0gF_QVVfeXFMTUd3LWpmaHJxMWdUOWVSSmJrTFNqN0Y2UU8tRFJCcUIzelRvdTNKOFJNaDRkNGhYaThoMVBqR2dCalRkdDFxTXA1SWloZ2FxV2NxTTV4RnZ6Y0dxT0t5UWVvUUprOU9wSUd1bUtCaTdEcFA5UEhSQXBJRkdxcm9lUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-nvda-wedbush-pt-cut-275",
+      "time": "2026-11-13T12:15:00Z",
+      "headline": "Wedbush lowers Nvidia price target to $275 while keeping a bullish rating",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ANET"
+      ],
+      "why": "A target cut from a vocal bull that leaves the rating intact signals the sell-side is lowering the multiple it will pay for unchanged AI demand, rather than cutting numbers \u2014 a key-man and policy discount applied to the valuation rather than the earnings line. Because Nvidia's multiple anchors the rest of the AI complex, a bull capitulating on target price pulls down the peer-group valuation frame ahead of next week's print.",
+      "source": "Yahoo Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbG5nSFJPR1d4NjQyRVI2SDJFRWNIZFRiczUtMlRLZjlTcm53UU9QQ3pCREVNY3laOVJXV3pSeExRR0RZRnBOVmxZU095dVcwTjhCdVAtd0NuSTQtRENTdGdNbGVBZUo4NG01b3JIeWh0bTRqekZWR20xMGJQNmo0VFNmLXpmZVE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-nbis-2026-revenue-guide-cut-capacity",
+      "time": "2026-11-13T11:00:00Z",
+      "headline": "Nebius trims 2026 revenue outlook, citing data-center capacity delays",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "ANET",
+        "MU",
+        "AVGO",
+        "AMD",
+        "ORCL",
+        "MSFT"
+      ],
+      "why": "A neocloud cutting forward revenue because it cannot energize capacity on schedule \u2014 not because demand softened \u2014 means GPU deliveries and the associated memory, networking and server content slip out of 2026 into later periods, deferring revenue recognition across the supply chain. It validates the bear case that power, shells and grid interconnects, rather than chip supply, are now the binding constraint on AI buildout, which caps the pace at which hyperscaler capex converts into semiconductor revenue. Coming days after the company raised capex plans, it also widens the cash-burn-to-revenue gap that funds the buildout.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLVRoTHBBUU1FdUNaczFGcWo3MVRBRGZaWndRSXQ3NG45WG03cW1YM1dqRzQ3N3Z6VHNQMjZjRmEzV3MwOU9PckpOM25TYWZMTDNNTXZSNjBidE4yaUFYMjhWOTlEUzZLdjJvZjZUN0I0cDYwbThQMS1CdjViaEdsVUwwZDcyMHhCWHVQUVliaEZ6N1lacFdPT29DeU9qemY2OWg1Qm1wdw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-chip-export-curbs-ndaa-vehicle-odds",
+      "time": "2026-11-13T10:30:00Z",
+      "headline": "Congressional chip-export restrictions gain a legislative vehicle; House Foreign Affairs chair calls inclusion in the defense bill 'very likely'",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "Attaching export curbs to must-pass defense authorization converts a low-probability standalone bill into a statutory restriction that Commerce cannot waive, hard-coding the loss of China accelerator revenue into forward models rather than leaving it to licence discretion. Statutory curbs also capture remote-access and rental workarounds, which closes the offshore-cloud channel that had preserved some demand. Equipment vendors face the second-order hit as Chinese fab and AI datacenter spend is redirected to domestic alternatives.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT1pTcUpqa2tEdEV0QWRybENzel9tU3hIQVhmTngyY3VGRGZZeGtCWDhEWm1oRXBzVWlGRnhwRzJrd0Z5bGZhUi1STHFLdFdLVnhoRUxMOW42MkNSSjNZX3JQR0o3OVpBSE10bE1kekw3OVVXYXVub0NzekN5NE4zb1JpRzB6Zjl2V1pTWFEteUQ1Q0hxd2lhLV9JLXloLVJqbWhUQ1pmN21H?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261113-macro-risk-off-dollar-19month-high",
       "time": "2026-11-13T04:34:00Z",
@@ -772,112 +885,6 @@
       "why": "A sell-side probability upgrade on legislation matters because statutory controls, unlike executive-branch licensing, cannot be unwound by a single administration and would lock in the loss of China datacenter revenue for several years rather than several quarters. It also raises the risk that compliance scope widens from accelerators to the equipment and networking layer, which is where tool vendors still earn meaningful China service revenue. The mechanism is a permanently smaller TAM plus a political-risk discount on the China line in every semi model.",
       "source": "Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVzZfVVQyWkJxOHFScXZCYUdMd3RqZ2pzQURXYmR1S0p6aGxRRHlnTzZPenpDWWxEMXhnRlVVaFk2Yk93YmZfdXJ4TnVIVVR0bXlUMkw4UTk5YmpRRWdOVjRiU21mQkcyVlY0bkdXaUczaXliNFI0Y25WS00zWWlUQnFGUGRWMlBJeFg5Tldtd00yLXZvMWxXdC03MVdYVFlSMkxvZUdpRHBLdllHcHh1VzBmSFpEbUdtOS12bm03RE1NLWxtWUlrWVRn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-match-act-export-bill-momentum",
-      "time": "2026-11-09T14:00:00Z",
-      "headline": "Raymond James: espionage headlines raise odds of MATCH Act-style chip export legislation passing",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "MU",
-        "INTC",
-        "QCOM"
-      ],
-      "why": "Statutory export limits are far stickier than executive-branch licensing: once written into law, China revenue cannot be restored by a policy reversal or a trade deal, so analysts must haircut the China line permanently rather than treat it as optional upside. The bill's scope reportedly extends to semiconductor manufacturing equipment, which puts AMAT, LRCX, KLAC and ASML service and tool revenue from Chinese fabs at risk \u2014 that is a higher-margin, recurring stream than merchant chip sales. The political cover created by the espionage allegations is what changes the probability weighting, and it also raises the chance Washington restricts offshore data-centre access as a workaround channel.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVzZfVVQyWkJxOHFScXZCYUdMd3RqZ2pzQURXYmR1S0p6aGxRRHlnTzZPenpDWWxEMXhnRlVVaFk2Yk93YmZfdXJ4TnVIVVR0bXlUMkw4UTk5YmpRRWdOVjRiU21mQkcyVlY0bkdXaUczaXliNFI0Y25WS00zWWlUQnFGUGRWMlBJeFg5Tldtd00yLXZvMWxXdC03MVdYVFlSMkxvZUdpRHBLdllHcHh1VzBmSFpEbUdtOS12bm03RE1NLWxtWUlrWVRn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-semis-cantor-hsbc-buy-the-dip-call",
-      "time": "2026-11-09T14:00:00Z",
-      "headline": "Cantor Fitzgerald and HSBC call the semiconductor selloff a mid-cycle correction, flag SOX at 9x 2028 earnings",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "AVGO",
-        "TSM",
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "MRVL",
-        "QCOM",
-        "INTC",
-        "SMCI"
-      ],
-      "why": "Two sell-side houses publicly re-anchoring the group on out-year earnings rather than spot momentum gives institutional cover to re-risk after a drawdown that left most of the SOXX constituents in bear-market territory. The argument is multiple, not estimates: if 2028 numbers hold, the de-rating was positioning-driven and mean-reverts, which is why the whole complex rallied in sympathy while Nvidia fell on idiosyncratic news. Watch for follow-on target reiterations, which typically arrive within days of a group-level 'buy the dip' note.",
-      "source": "Benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fit",
-      "alerted": false
-    },
-    {
-      "id": "20261109-amd-google-cloud-epyc-tpu-win",
-      "time": "2026-11-09T13:00:00Z",
-      "headline": "AMD expands Google Cloud partnership: 5th Gen EPYC to host Google's TPU 8tx confidential-computing systems",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "GOOGL",
-        "AVGO",
-        "INTC",
-        "TSM",
-        "NVDA"
-      ],
-      "why": "Every accelerator rack needs host CPUs, so designing EPYC into Google's newest TPU pods attaches AMD server-CPU volume directly to hyperscaler AI capex rather than to the stagnant enterprise refresh cycle \u2014 a recurring, multi-year unit stream at data-center gross margins. It also entrenches AMD share against Intel in the one x86 segment where Intel still carries meaningful ASPs, so the revenue is largely zero-sum against INTC. Read-through is positive for AVGO and TSM since it implies Google is scaling TPU 8tx deployments, and mildly negative for NVDA as it validates custom-silicon buildouts as an alternative compute path.",
-      "source": "Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdHBqYVo0b05fX1ZMN245NlZzNVZsaFhjR2FpWGhnTkpVdm9rQzFBU1ZNSHQzSWF1OGJ2TkVvWmNkdnBTM2h4ZWdPUjBNbGJoMm42Z0taMHVEZm9vME5yTmNHd0ZCMzJnM0F0Ny10X2FFd1VFa2lKSWRfTTFnSUVCZ3gyT2RMMFpSX3ppUDIxSWxBTUVnTUs2R3RxWWdoNzY1RGRSSUM1MEhtdnEyQ2FlalVB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-lly-orforglipron-osa-phase3",
-      "time": "2026-11-09T12:30:00Z",
-      "headline": "Lilly's oral orforglipron (Foundayo) hits in Phase 3 sleep-apnea trial; FDA submission planned by end of 2026",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "LLY",
-        "JNJ"
-      ],
-      "why": "An OSA indication converts an oral incretin from a cash-pay obesity product into a treatment for a diagnosed, coded condition, which is the mechanism that unlocks commercial and Medicare reimbursement and therefore raises realised net price and persistence per patient. Because the asset is a pill rather than an injectable, incremental demand is capped by formulation capacity far less than the Zepbound franchise, so approved-label expansion flows through to volume quickly. The same session carried positive late-stage psoriatic-arthritis data from J&J's icotrokinra, supporting an oral alternative to injectable biologics in an immunology market where J&J faces Stelara erosion.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV1VXUkxRdTdLZXItTkV0MVZxZXBid0kxU0ZVaE1fQVJ5Yk5vMGdtbFkyNl9qa1BHVjJ3MkZJX0VpazJOcjY2WGZnckliQWxqeTI4Vk13cDhCZnZfZkFsdWZlMzV6OUg5bXRQU2phajhSV3pZWUdpb3A0LWlZZGxEX3RWTWJCU1IxeU04Z3E2akFHYWRvaThPREZFSHJJUTJxSlZFTXlaY1Ffa2JscDMycHJxSFUydTRDMkwxdmtKdEdEeGVzekM3cE9Ecmk?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-intc-pc-capacity-diversion-mix-shift",
-      "time": "2026-11-09T12:00:00Z",
-      "headline": "Intel's PC supply warning reframed: capacity and substrate diverted toward AI/Xeon leaves client CPUs short",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "MSFT",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "Starving the client line to feed server silicon is a mix shift, not a demand loss: it lifts blended ASPs and gross margin at Intel while capping client unit revenue, so the earnings effect is ambiguous rather than uniformly negative. The read-through to AMD is the one the market mispriced last week \u2014 a constrained x86 client supply backdrop is a share-gain window, not a demand warning, which is why the sympathy selloff looks disconnected from the mechanism. It also implies substrate and packaging remain the binding constraint across the industry, which supports back-end equipment spend.",
-      "source": "TIKR.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHdSM3dWX1U2Q0JyNWNNY3YtRnpsZi1RX2QzNzRZVk15QTRBNC0xQkc5YTFrc0U4ZW9SdkV2ODNzTGZqdTdjVnVSa3pISVdOOEtQZllETkJDd3NPX0k4dVptRGNTR0RjZDR0bEFtQkU1dkUySzdxS0t1ckNhc0Y4VFBxRWNOeUU1ak9WQnBkbGdCVmNxczdrVHVR?oc=5",
       "alerted": false
     }
   ]
