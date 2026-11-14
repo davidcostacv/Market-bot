@@ -1,7 +1,94 @@
 {
-  "generated_at": "2026-11-14T06:54:01Z",
+  "generated_at": "2026-11-14T18:24:40Z",
   "session_date": "2026-11-14",
   "items": [
+    {
+      "id": "20261114-macro-december-hike-near-fully-priced-ai-derating",
+      "time": "2026-11-14T14:00:00Z",
+      "headline": "December tightening moves from debate to near-fully priced, stripping the discount-rate support from long-duration AI equities",
+      "impact": 7,
+      "direction": "bearish",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "PLTR",
+        "MSFT",
+        "ORCL",
+        "TSLA"
+      ],
+      "scope": "macro",
+      "why": "The AI complex has been valued off cash flows weighted far into the future, so the shift in the front end from cuts to an imminent hike raises the discount rate applied to those terminal values and mechanically compresses multiples even with earnings estimates unchanged. It also raises the funding cost of the debt-financed datacentre buildout, which is the demand source for accelerators, memory and networking, so the rate move hits both the numerator and the denominator for semis. Leveraged and systematic positioning amplified the unwind, with AMD down roughly 10.5% and the Nasdaq 100 off 1.7% in the session that set this up.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2RfTnNBMmdzMVZyOFFSTDM3YjZXOVRmRWVCdGtQTFpGT1ZnbDdZTW1Sb3JnNnYwNjhobE0za3RlY2EwVjhZd2t3YkhSakRwRXZaV1hNbFdxLVJrOWtJWlk2YzJieTJUSnNtWjdyNy1sS1NhNmZKTEllQlpneUhWTE5ZelBaMnhSOXhBMmE2THRra3lxVWx0SnNoMF8yNFRzYlhKZnVrdGF6SmlXTDdkVDVvaW9SZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261114-intc-amd-desktop-share-reversal",
+      "time": "2026-11-14T13:00:00Z",
+      "headline": "Mercury Research Q3 data show Intel reclaiming desktop x86 share from AMD, reversing AMD's record client run",
+      "impact": 6,
+      "direction": "uncertain",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "TSM"
+      ],
+      "scope": "company",
+      "why": "Client CPU share is one of the few AMD revenue lines not levered to AI accelerators, and a five-point quarterly reversal (Intel 70.1% vs AMD 29.9% of desktop shipments, AMD down from 34.9%) removes a mix-driven ASP and gross-margin tailwind that had been supporting AMD's non-datacenter earnings. For Intel it is the first tangible evidence that its new client parts are converting into volume, which supports fab loadings and utilisation-driven gross margin, the single biggest swing factor in Intel's model. Note the share gain came in a contracting desktop unit market, so the revenue dollars attached are smaller than the percentage implies, and AMD's foundry wafer demand at TSMC shifts rather than disappears.",
+      "source": "PC Gamer",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPX0pXMDd5SEFrR2ZUbWRJcGtZNnhvWVVHQUw0YmxXNXcwVWFfOEZoZDRDR3E0c3lMSmt1Z0tnMk1pLW5LS1Vhelkwc2ozZm5TT3Z6N1dZMmJ6aVhucUVWdGk5Zkx5d0U4TnROeFlVT1dhMGYzcEh6OXFxOUZGdFJyQ0tQb3Y2ZUlSWDJ6bVZmeUU1QjhnYjZoSU50Ym1FMVhZVkVMTlR4WkZKdXRVZjZNV2pQMXduMDVsMDhnSVgyTUNiWHhhOG9DcjhwaUZpdWI1UFhuQzZ6c01zRHRNUHVwa1daNlJEYi1QZmI3QjRTeEFPMmFDbjdRcHhfZGEwRmEzQ0YtUzR2bVRGY0FBMFgyUzVPUkJfSVFhNGJQR2l4TQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261114-anthropic-ipo-ai-capital-reallocation",
+      "time": "2026-11-14T11:30:00Z",
+      "headline": "Anthropic's Nasdaq listing lands the same week as Nvidia's print, creating a new pure-play AI equity for capital now expressed through semis",
+      "impact": 7,
+      "direction": "uncertain",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "AVGO",
+        "AMD",
+        "MU",
+        "QQQ"
+      ],
+      "scope": "sector",
+      "why": "A listing of this size absorbs a large block of AI-dedicated capital at a single clearing price, and because investors have until now owned the AI theme largely through accelerator and memory suppliers, a liquid model-layer alternative can pull marginal flow out of the semis complex and compress their relative multiple. The pricing also externally marks the value of frontier-model equity that strategic backers including Nvidia and Alphabet hold, so a weak break repriced against the earlier private marks would challenge the terminal-demand assumption embedded in 2027 capex forecasts, while a strong break validates it. Sources conflict on the date, with pricing reported for Nov. 18 and first trade variously given as Nov. 18 or Nov. 19.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ib21XdzE2NHJoRG1SazMzTVl0SzVZVFhHcnh4V3ZPalpzZEszX25lYVZiQ3BnTDBDZk9NY3FJd1VjWFcta2FKWHFqUkprRU50U1pKMFc5dEM5bTZpTWF4bzJVLTh6ZjFiNUlPRGwxb1BmQUJDNnc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261114-ai-sector-loses-washington-advocate",
+      "time": "2026-11-14T10:00:00Z",
+      "headline": "AI hardware lobby loses its most effective Washington interlocutor just as export-control language is being drafted into the defense bill",
+      "impact": 6,
+      "direction": "bearish",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "QCOM",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML",
+        "TSM"
+      ],
+      "scope": "sector",
+      "why": "The China-facing revenue that remained accessible to US accelerator and equipment vendors survived on case-by-case licensing and direct executive-branch access rather than on statute, and the removal of the industry's principal advocate raises the probability that restrictions get codified in legislation where they cannot be reversed administratively. That converts a reversible policy risk into a structural cap on the served available market for datacentre GPUs and, through the equipment chain, on China-destined fab tool orders. The earnings effect is not in the current quarter but in the out-year revenue base analysts still carry for the region.",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZWw0MUNzRXdSYktGVGo3bk1POGk2aW0yUlVTdjlpcEh6UzlGbmtwRmhwRVhRRVRtNjB3QzRpYllHb1FlaWVfdjU5RUpqZk5CeTI0Q0EtSFQtNkswZXNfbFU5bmxqTG1VSlB3SXVBOHFhNFdtQjNpd2ctSmlzbFZKN2ZZaw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261113-mu-bernstein-dram-shortage-thesis",
       "time": "2026-11-13T21:30:00Z",
@@ -790,94 +877,6 @@
       "why": "The market had already priced a December move after CPI; the incremental news is officials publicly discussing a step-up in increment size, which widens the terminal-rate distribution rather than just shifting its midpoint. A higher and less certain discount rate compresses the multiple on long-duration cash flows hardest, which is why megacap tech and unprofitable AI-adjacent names underperform defensives on this repricing. It also raises the funding cost for the debt-financed datacenter buildout that underwrites current semi order books.",
       "source": "Reuters via Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcDdSR2JEV3JnaGdSRDlzeEdYQVpFODhCUE4xZWhwX0p4V2NjWXhlOWNhVGY2NW1jMTRHRjFjdjVEc0ZKeVBXTWR3aFlzbUE2VHJ4NXpvQS1GRWtxZ1lUZjhIXzF2ZzlWd1BoOEo0MUpXRzZudFExR2tnMlhRUzBOOGE5M2MzZ0xLSTFSZjF6SFBkUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-ust10y-reclaims-5pct-post-cpi",
-      "time": "2026-11-10T16:20:00Z",
-      "headline": "10-year Treasury yield pushes back above 5% as hot inflation print hardens December hike odds",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "AMZN",
-        "META",
-        "GOOGL",
-        "TSLA",
-        "PLTR",
-        "AMD",
-        "JPM",
-        "GS"
-      ],
-      "why": "A 5-handle on the long end raises the discount rate applied to the entire long-duration growth complex and reprices the equity risk premium directly, independent of any change to company fundamentals. It also raises the cost of the debt financing now funding AI datacenter capex, which pressures the return math on hyperscaler buildouts and the credit spreads of the neocloud borrowers. Note the wires conflict on the tape: some recaps show indices slipping on the print while others show stocks rising through it, so the yield move is the cleaner signal than the index direction.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdWxxNHUtVm9iTEJTMXpJSmJyRFc3aC1jZC1qNnNxVURCYVhSUHRXQlVLVDctY003RTFhUzVZTkZ2dUNXaVZRUEZ2UXdtYk5HVGJkZEh0RmNnNkllS2JmY2pPM2l6YkVacEdtdmM0UGNNMUZtTE4tWUNBUzV4X2ZBUlZEbGJtcWlMSEtiTUFDc0xmcEp2aGp4WXVrdXJkZmF3QXZ5OXl6cF85UTRKQ19hMWhMVGZwR1lORFF4TzNxaHpxUXpoU0U5Rzg0QXVRUy1NbHhVMUI2LWY?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-semis-dispersion-call-tsm-mu-over-sox",
-      "time": "2026-11-10T15:59:00Z",
-      "headline": "Raymond James strategist favors TSM and MU over broad semiconductor index exposure, flagging 'haves and have-nots' dispersion",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "MU",
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "The call reframes the post-selloff trade from beta to selection, arguing capital should concentrate in names with accelerating earnings growth rather than in index-level exposure. If large allocators follow, flows rotate toward foundry and memory, where pricing power and utilization are currently inflecting, and away from logic names whose multiples still embed uninterrupted China access. Practically it supports relative outperformance of TSM/MU versus the SOX rather than a directional sector view.",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUnlNLTNVV1U2VHJGTDJua3FJeXhHSnFuRWRQclZLN3hDV2lOYXZYQ1dSYk1RM3pWR0NINlk3eUhxM3JIaHVnNzN6TFZkOV9VNWhQdWRnOEd0dm94MURNVmxwTzlMYWg5dWVfdmRXd1Z2Q3BVXzBzNGlpTEJnVjIwV2VGcGxaM0RoLWEzWFZ6bEd0MHJfV3FNZnVwSEhTaVMwRGVmWjRnQ1FvV0NudGw0M2VOcllMYkVBODBlMW4wR1k?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-jpm-top-internet-picks-meta-amzn",
-      "time": "2026-11-10T15:00:00Z",
-      "headline": "JPMorgan installs Meta and Amazon as top internet picks, displacing Alphabet",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "META",
-        "AMZN",
-        "GOOGL",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "A top-pick reshuffle at a major bank redirects institutional flow within megacap tech without changing aggregate exposure, so the pair trade matters more than the absolute call. The constructive framing on Meta implies the street is beginning to underwrite its capex cycle as earnings-accretive rather than margin-destructive, which is the key swing variable for its multiple. For Amazon the read is on AWS reacceleration, which also supports the custom-silicon and accelerator supply chain.",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOVp3bm5xUjBCSVRnZDlvZzNhOExzYWxpakkxMG9CM0JJMS1TeDh0TGM4Q202U1M3bWdSXzZnTzFhZDBtMHFYT2k4UUpDREtmUUNGdXNJR3pVZzJXLWg0ZFBZYUhDN3dsbThfYVpEVmIwSlpxY1FfM2J1YnYwejJLOE5CSmtpSmRPWUk4RDZHcFo0eXJMbXVIREE0UjI0TEhwY0tDendxVzlqMzAycVNQVHBKVjB2QkxiZmZOQjY0N21ZV0FaTlUybk1sVm1HRFkwaG5TdEUxb2l0TTFHaGxmbjR3MA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-nvda-spy-linked-75bn-china-shipments",
-      "time": "2026-11-10T14:45:00Z",
-      "headline": "Report ties alleged Chinese agent connected to Nvidia CEO to $7.5 billion of China chip shipments",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "AVGO",
-        "TSM"
-      ],
-      "why": "Quantifying the implicated shipment volume turns a reputational story into a measurable legal and revenue exposure: shipments of that scale invite retroactive license review, potential penalties, and forced restatement of how China-adjacent revenue was booked through intermediaries. It also hands export hawks a concrete number to legislate against, raising the probability that the remaining compliant China channel is closed. Server partners that shipped systems into the same channel carry secondary customs and compliance risk.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaTMzXy1sdW5VeFphNTFTbjYzWUZmdHJLNmhXMTE3cVBybWQ1NFhBUU5lUEZqcWUzNnBMN0J2RmdoYWtidXBQc1pPbFNhZV8zcGVJX2VxX3pzU01JZTV1cFpKanZVWHhSVE5IbWUyaVo5bXoxaUdkQ2Jwd0poWXNrX1VrOGI4SlBNOVExdUMyT0NDeS15dHY3N3FRZ1YyMHpZWmRtOC1MTXFhVEFvMm1xREZmb0xBSWpJTUt1aHdMVTl4NHY5TFY3QjZPSWFqNDNCM2xfeFJDM1FLN18zbmZfMG5OeS1lQ25jWUs1R3hIVkc5amVmMHBIS3kyQl8wS3B3T0d5bjFqM2lYQkt1UDk5Rm9kdlMtZw?oc=5",
       "alerted": false
     }
   ]
