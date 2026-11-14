@@ -1,7 +1,96 @@
 {
-  "generated_at": "2026-11-13T19:57:03Z",
-  "session_date": "2026-11-13",
+  "generated_at": "2026-11-14T06:54:01Z",
+  "session_date": "2026-11-14",
   "items": [
+    {
+      "id": "20261113-mu-bernstein-dram-shortage-thesis",
+      "time": "2026-11-13T21:30:00Z",
+      "headline": "Bernstein's Buy case on Micron re-circulated into the memory drawdown: DRAM shortage deeper and longer than consensus",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "NVDA",
+        "AVGO"
+      ],
+      "why": "The argument is about contract pricing, not sentiment: if DRAM/HBM supply stays short, pricing is locked in by multi-quarter contracts and the earnings path is visible through the cycle rather than mean-reverting with the AI trade. That decouples Micron's estimate trajectory from the GPU-demand scare that drove the selloff, and supports memory-levered equipment spend. Note this is a reiteration of a Buy and $1,300 target dated to early November being republished, not a fresh rating change, which caps its impact.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUdkNlU1SG9TdmdNNU9IQW1tZl9lLVBFR1QzNUdUQVl4TzVxY3NfY3VLQW1BWmhpWDNlTjlTUC1rUTlXbEFXYUdmS0dMWHJkOUR0NTR1RXc0X3pGb1VPY0FJSjc5ZU5XbFRTMEJQQXFHaFpPMHZ3a2t0Vmo5c2w1a0FDc2JXZ3RqZlVid1pELVJ3T09OVERoOUhJUnQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-fed-fsr-ai-top-stability-risk",
+      "time": "2026-11-13T21:00:00Z",
+      "headline": "Fed Financial Stability Report names AI the top systemic risk; flags AI-linked debt and data-center build-out",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "META",
+        "GOOGL",
+        "AMZN",
+        "ORCL",
+        "AVGO",
+        "AMD",
+        "MU",
+        "SMCI",
+        "PLTR",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "The Fed explicitly tying elevated equity valuations to AI enthusiasm, and quantifying the credit channel (roughly $680bn of advanced-computing debt issued by October, about 31% of IG issuance, plus multi-trillion off-balance-sheet obligations at the largest tech buyers), raises the cost and scrutiny of the debt that funds the compute order book. That is a financing-availability constraint on the capex stream that becomes NVDA/AVGO/MU revenue, not a sentiment story. It also hands regulators and ratings committees a template for tightening terms on neocloud and vendor-financed deals, which compresses the multiple investors pay for AI-levered earnings.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd1luSGcydUl6NE15cEcydlNhSnRuNjNjVHdMQldrQjRYcXpLZ3FfbnNrWndndDNTaUowRWJ6NDg0dUdaN084LW00YU4tNEhPTXh6Ymx3WVFpZk5MQTgwVFpMX1o4cFdXT2lCQi1xSzlncG9mUkpDa0xTUF9BY2E3cXVnS2fSAYoBQVVfeXFMTmZFcVNQMElxVkdHNTFNMVBOYTg0SGVKNm5ISHM5N3pGUUxKSE5Za2ZuMmZNb3RnY0FpVWxNbWtIdXFIdm0wOWVIa3FXWVJJaVhhTHBzOVpJbzVnY2VGZk04WE5aRHVBdjdkRlVpSm1VQXo1ckRPRTV4aDNjNGJNeGlhSXZ4ZEhIa1dR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-nvda-q3-print-event-risk-kress",
+      "time": "2026-11-13T18:00:00Z",
+      "headline": "Options market sets an unusually wide expected move into Nvidia's quarter, the first delivered by interim CEO Kress",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "SMCI",
+        "ANET",
+        "MRVL",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "The report is proceeding on schedule with the CFO now also acting CEO, so the guide carries less credibility premium than usual and dealers are pricing a wider distribution than a normal print. That matters mechanically for the index: hedging flow around an outsized expected move in the largest weight amplifies QQQ and SPY realised volatility into and out of the event. Whatever the data-center guide implies also resets the order-book assumption embedded in memory, networking and foundry estimates.",
+      "source": "Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVhIYXNZbFpjNVdYNUQ1VUdubkR5WmNvRlIxZGg0X1V2dWpiS1JBMXRxU1ZlRzVkaVNfZXZMV1Uza2o1SlFlRGdWMkt0dU9ia3VxNmNXb2RzM0NocHhReHlQVTJPbFBHYXpEc0NLcGRJQ2JjSjFEei1XRHdkc1ZfZ2dsQkxIZ2VFMG1WTnZvZGZ6Xzh3SnNOUmdOdjJSRUtqRWlYNEdOU1UtNUlqLXc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-nvda-trump-disclosure-conflict-policy-risk",
+      "time": "2026-11-13T15:00:00Z",
+      "headline": "Disclosures showing presidential Nvidia purchases around the export-rule reversal put the China licence framework under conflict-of-interest scrutiny",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI"
+      ],
+      "why": "The value of Nvidia's China access depends on the durability of an executive-branch decision; evidence that the decision is politically contaminated makes it far easier for Congress to statutorily override it rather than negotiate around it. That shortens the expected life of China-derived data-center revenue and increases the chance restrictions get attached to must-pass legislation. Source reporting describes purchases of between $1m and $5m ahead of the rule change; the market-relevant variable is the legislative response, not the position size.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQZk5RU2VXQjlMZWRUMXBHY0N1bWhHYmNLN01UQUJHczZEQVpIclc5NUtwX0paVmpQZkVkTm5hUzc3TDdRaFpEM2Nxb0xBMkx3cURfV2RGNDlQTmE0d0ZhOGwzTUM0RlMyR3FTQUY5emFJODZnckE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261113-bessent-commerce-nvda-china-leakage",
       "time": "2026-11-13T14:00:00Z",
@@ -20,6 +109,24 @@
       "why": "An open split inside the administration over who allowed advanced accelerators to reach China shifts the policy equilibrium toward enforcement rather than licensed sales, raising the odds that remaining China-compliant SKUs are restricted or that licence approvals stall. For Nvidia and AMD that threatens a revenue line analysts had partially re-added to 2026 estimates, and it raises compliance and end-use-verification costs for server builders and foundry customers across the chain. Cabinet-level blame-shifting also removes the bureaucratic cover that had previously slowed new restrictions.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTIzZHZCSGlfZTAwY0VGY1hwZ0stMC1fblpqQ1N1eC1tWHRFazYxeDMxcVIzdEs0NXNUMVRhVWdJTVhOc2ZQcmQwaUFkOVJMZDVJTG5kUlE2aWtNYnljaHlqU05HWjFIUzl0MTJ1UzZGYk11SU5mXzJuTmxwOWFqbHo1TnkwTXZpMFA00gGQAUFVX3lxTE9QZHhGMjFUYWFSaGRxQ2lrQXpWYkdUTzJ6QmRUNFcxV092Q2MzbzZyMm9paGp2eGpEVEVXUzhsdkRZZy1GOFYycFVXYXFTVmlfZmlvM1EzUGh0TkMtU1dlZlVyd0xYemFaeDNYR0RYc2lhdTk4UTNsVjNJM2hXS2hod3dBTzBfYlNnT0dmLUk5dw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-smci-multijurisdiction-inquiries",
+      "time": "2026-11-13T14:00:00Z",
+      "headline": "Super Micro pressured again as inquiries widen beyond the US; company says it is cooperating and denies Megaspeed business ties",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "why": "An enforcement matter that now spans US, Taiwan and Singapore authorities is no longer a single-jurisdiction headline risk: it threatens export privileges and the hyperscaler qualification status that drives Super Micro's order flow, and it forces legal and compliance costs into an already thin server margin. Customers de-risk vendor choice while such probes are open, which is a share loss to Dell and Taiwanese ODMs regardless of outcome. Read-through to GPU vendors is modest but real, since Super Micro is a meaningful channel for rack-scale systems.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORTJCMlV0YlhNZDBtM28zX3BHUGEtOXotdHNwa0VicFRxSUN4RUllUHRHbV9rUEEzMjZnMWdmbmhmQWdKM1F5NHkyYVZQejZVT1otdFlHTERxRzRVdjV1OE8wNGJpRURrZ2NqNEY5eFR2c3R3THRqRUptWFo0LUpWM1NYOGVNdUhSM0psaFBOTE5VYV8takFzekFsTQ?oc=5",
       "alerted": false
     },
     {
@@ -71,6 +178,31 @@
       "alerted": false
     },
     {
+      "id": "20261113-nvda-china-curbs-push-trump-xi-summit",
+      "time": "2026-11-13T12:00:00Z",
+      "headline": "Huang scandal revives Washington push to tighten China AI-chip curbs just ahead of the Trump-Xi meeting",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "SMCI",
+        "INTC"
+      ],
+      "why": "The China licence regime was a personally brokered arrangement; with its chief advocate gone and the circumstances of his exit politicised, the probability that approved SKUs are re-restricted before or at the summit rises materially. For Nvidia that is a direct revenue-line risk on already-booked China shipments, and the gross-margin mix is worse without them. Read-through is negative for every name whose wafer, HBM, substrate and server content rides those same units, and for the equipment makers whose China licence exposure is the next target.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbEZQd1VKRnhGOXdpSDNHeGtxVzBDdEN3a0VnV3hyZG9YZXhscndPSk92N291WE5CTkYwU190dWNSVHFYUnFtWDUyaGtXLTNxWDZzT0oweU9wdTBFS0x1RzJtR0hvbks1TGFCQ0J5QnN3Q01vd0V6bVdtaWZxMGdTY1VoUU9aQm1uRFVVOC1qM0fSAZYBQVVfeXFMUEFLaXQwYzN4NDZ6dzJ0Y3E4XzR1Q3VmSEh4S2pZbVo1V01hZnlrN3YySEtyUjB6VTNPR2ZKNkZnT1lRcHo3bHdWaERzM25JWDFCR3VTTnd1aGZjZU4xbVFjcXpyNVlUSng1MS1jM3VZMWdjaHJWUWVZQTk0Qk9McUxmRnNtQ01obDM1VENMNWcydFdYVFB3?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261113-nbis-2026-revenue-guide-cut-capacity",
       "time": "2026-11-13T11:00:00Z",
       "headline": "Nebius trims 2026 revenue outlook, citing data-center capacity delays",
@@ -113,6 +245,26 @@
       "why": "Attaching export curbs to must-pass defense authorization converts a low-probability standalone bill into a statutory restriction that Commerce cannot waive, hard-coding the loss of China accelerator revenue into forward models rather than leaving it to licence discretion. Statutory curbs also capture remote-access and rental workarounds, which closes the offshore-cloud channel that had preserved some demand. Equipment vendors face the second-order hit as Chinese fab and AI datacenter spend is redirected to domestic alternatives.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT1pTcUpqa2tEdEV0QWRybENzel9tU3hIQVhmTngyY3VGRGZZeGtCWDhEWm1oRXBzVWlGRnhwRzJrd0Z5bGZhUi1STHFLdFdLVnhoRUxMOW42MkNSSjNZX3JQR0o3OVpBSE10bE1kekw3OVVXYXVub0NzekN5NE4zb1JpRzB6Zjl2V1pTWFEteUQ1Q0hxd2lhLV9JLXloLVJqbWhUQ1pmN21H?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261113-bis-enforcement-scrutiny-chip-licences",
+      "time": "2026-11-13T09:00:00Z",
+      "headline": "Export-control agency itself comes under scrutiny after the Nvidia affair, pointing to tighter licence administration",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "AVGO",
+        "MU",
+        "INTC"
+      ],
+      "why": "When the licensing bureau is the subject of oversight rather than the licence applicants, approvals slow and conditions harden even without new rules being written. That lengthens the lag between booked orders and shippable revenue for anything China- or Southeast-Asia-destined, and raises diversion-liability risk for OEMs and resellers in the chain. It is a working-capital and revenue-timing effect rather than a demand effect, which is why it scores notable rather than material.",
+      "source": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRTd6bG52bUM3dUtmR3pVY1hUMldfajdYdWxnNkNtSkRXMjFSdnJRbzZNRjE3NXJzUUFQbkNYRFFJMklRZENpQWJwOFdUOG1VVXY0Q3BoVEw2N2NHTS1YUFVHQTE2S0dKUGE3R3d2ZGtQVUdYd0JKQ3o5WF95bWNnbW11OXJWRG83QWp4VTRpZ2hTNkNVOW51Vm8yckxaTUJ4Q0NrWWpubW9ONEdGWm1ObGNCSERYdw?oc=5",
       "alerted": false
     },
     {
@@ -726,165 +878,6 @@
       "why": "Quantifying the implicated shipment volume turns a reputational story into a measurable legal and revenue exposure: shipments of that scale invite retroactive license review, potential penalties, and forced restatement of how China-adjacent revenue was booked through intermediaries. It also hands export hawks a concrete number to legislate against, raising the probability that the remaining compliant China channel is closed. Server partners that shipped systems into the same channel carry secondary customs and compliance risk.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaTMzXy1sdW5VeFphNTFTbjYzWUZmdHJLNmhXMTE3cVBybWQ1NFhBUU5lUEZqcWUzNnBMN0J2RmdoYWtidXBQc1pPbFNhZV8zcGVJX2VxX3pzU01JZTV1cFpKanZVWHhSVE5IbWUyaVo5bXoxaUdkQ2Jwd0poWXNrX1VrOGI4SlBNOVExdUMyT0NDeS15dHY3N3FRZ1YyMHpZWmRtOC1MTXFhVEFvMm1xREZmb0xBSWpJTUt1aHdMVTl4NHY5TFY3QjZPSWFqNDNCM2xfeFJDM1FLN18zbmZfMG5OeS1lQ25jWUs1R3hIVkc5amVmMHBIS3kyQl8wS3B3T0d5bjFqM2lYQkt1UDk5Rm9kdlMtZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-nvda-citi-wells-pt-cuts-pre-earnings",
-      "time": "2026-11-10T13:10:00Z",
-      "headline": "Citi and Wells Fargo trim Nvidia price targets into the print",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "MU",
-        "TSM",
-        "SMCI",
-        "AMD",
-        "ANET",
-        "MRVL"
-      ],
-      "why": "Two major banks cutting targets days before the quarter signals they are marking down the China contribution and the governance discount in their models rather than their core datacenter demand assumptions, which lowers the consensus bar but also caps the upside case. Sell-side target cuts ahead of a catalyst typically shrink the buy-side's willingness to add risk into the event, thinning the bid. Because Nvidia's guide anchors the whole AI supply chain's order book, the markdown bleeds into memory, foundry, optics and networking estimates.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-nvda-keyman-discount-quantified",
-      "time": "2026-11-10T12:00:00Z",
-      "headline": "Street begins quantifying Nvidia's key-man discount at roughly 30% of market value",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "SMCI"
-      ],
-      "why": "Putting a number on the founder premium gives the market an explicit framework to price the probability-weighted outcome of the board review, which mechanically introduces a persistent valuation haircut until succession clarity arrives. The effect is on the multiple, not near-term earnings, since customer roadmaps and the order book are unchanged. Direction is two-sided: a clean exoneration releases the discount, while any forced transition crystallises it.",
-      "source": "Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYkN6WGxYM244X2FUTHpZbUZFWTk3bTlJTG9jTDFWZ1l0ODJhMjN2eGc5RXRoNmR6elhKYmJsbG1VOUM1Nk41RHRvcC0tM3pXM0kyVWlXTHVqVXVPQzBScnl5RlF6MlpWOU4xVnY5VFk1QjYwLWswMXR4OUhHMlQ1U3dyTHdYTTJOdkhSakI3cVF2Vmo5SkZyMnVaSGRmQ21B?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-tsm-october-revenue-ai-demand",
-      "time": "2026-11-10T06:30:00Z",
-      "headline": "TSMC October revenue hits 2026 high of NT$586.89B, up 59.7% year over year on AI chip demand",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MRVL",
-        "MU",
-        "ANET",
-        "SMCI",
-        "QCOM"
-      ],
-      "why": "TSMC's monthly sales are the cleanest real-time read on AI accelerator wafer starts, and a 59.7% year-on-year and 14.7% month-on-month print says leading-edge and CoWoS output is still being fully absorbed rather than digested. That contradicts the 'AI capex is cracking' narrative that drove last week's semi de-rating and supports Q4 consensus for every customer and tool vendor feeding those fabs. Foundry upside also flows directly into WFE order books at ASML, AMAT, LRCX and KLAC, whose multiples compress fastest when leading-edge utilization is questioned.",
-      "source": "DigiTimes",
-      "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
-      "alerted": false
-    },
-    {
-      "id": "20261110-us-tightens-china-chip-export-controls",
-      "time": "2026-11-10T06:30:00Z",
-      "headline": "White House moves to tighten semiconductor export controls on China as Nvidia scandal escalates",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MRVL",
-        "MU",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML",
-        "QCOM",
-        "SMCI",
-        "ANET"
-      ],
-      "why": "An administration-level tightening converts what had been a congressional proposal with uncertain odds into an executable rule, which removes the China datacenter revenue line from forward models rather than just discounting it. For Nvidia the mechanism is direct lost unit volume plus inventory/reserve risk on product already built for that channel; for the equipment names it is a second-order hit as China fab customers lose access to tooling demand tied to AI buildouts. The multiple compresses too, because policy-driven revenue is now treated as non-durable even where current bookings look strong.",
-      "source": "\uc870\uc120\uc77c\ubcf4",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlhYX3k3Q0xuandfc2tSMHlpTzluTzZQYnhxQmhYUnpSZDg2bng0WDM0RFhEV21JclhnTGc4Y0ZzRTBsR0M1NXBudnVQUUZmM3ZQbkpTc0NnSms4NFFwT193aGh0RnVoRVZ4WXlOb3kzMEZQVy1YODVJR3g1TkJhSEdqajRUVE5T?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261110-moonshot-rents-nvidia-chips-in-china",
-      "time": "2026-11-10T04:00:00Z",
-      "headline": "Documents show Moonshot renting top-end Nvidia AI chips inside China",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "Evidence that restricted silicon is being accessed via rental arrangements rather than outright purchase shows the current rule set is leaky, which is precisely the argument used to justify extending controls to compute access and cloud services. If rentals and offshore capacity get captured by the next rule, Nvidia loses not only direct China sales but also the grey-market demand that has been quietly absorbing supply. It also increases the odds of enforcement actions against distributors and the systems vendors in that chain.",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXFQdXM5NGdadXhNSnRhalRtOE9aSHdPYUNyeWtIam9xZ3JjMEI5cGxyUGpZbXBQamZlY2hxZFdTRC1NbllidG1MdDNpb193bGdmMEpwdGhLMmxLQjVQekZGNEpRY181RkVick94WHlDMTMtblVBaTNWT0tRSkVmNXhlSEZYcFFRTV96WVAzLURWcEo3MGx1RDZFdk1KQ1plTldWdHlxbkdHVlVsX1k0bw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-nvda-succession-vacuum-into-earnings",
-      "time": "2026-11-09T22:00:00Z",
-      "headline": "Nvidia heads into its Nov. 17 earnings call with no disclosed CEO succession plan as scrutiny of Huang intensifies",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MU",
-        "ANET",
-        "SMCI",
-        "MRVL"
-      ],
-      "why": "Key-man risk is normally an unpriced footnote at Nvidia; an open board inquiry converts it into a live discount-rate input because the architect of the customer and roadmap relationships now has a non-zero probability of departure. With no named internal successor, investors cannot model a transition path, so the equity carries a governance premium into a print that would otherwise be a pure fundamentals event. The question will dominate the call and can move the stock independently of the guide, with read-through to suppliers whose order visibility rests on Nvidia's roadmap cadence.",
-      "source": "shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanNzREphOEZ0S0pzX1dnWDRoX0xkYzREdzFhNXQ2a0RUYTRrN1VLbXZGcU5wM0hnZkRtdER0RUdxTHQ1WV80ckp5QzRrU2Y4dFZpUEFGWE9sc3o3bFJYNnBQRkpaLTc0S04wdFhKdHYxcTlwTzF3OHFnelR0LXg2OFBJQXhmLUtVXy14cmhWMVdMNVhpOFdmOGtneTgxTGdJVFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261109-raymond-james-export-bill-probability-raised",
-      "time": "2026-11-09T15:00:00Z",
-      "headline": "Raymond James raises odds that espionage reporting pushes the chip export bill into law",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "MRVL",
-        "QCOM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "TSM",
-        "ASML"
-      ],
-      "why": "A sell-side probability upgrade on legislation matters because statutory controls, unlike executive-branch licensing, cannot be unwound by a single administration and would lock in the loss of China datacenter revenue for several years rather than several quarters. It also raises the risk that compliance scope widens from accelerators to the equipment and networking layer, which is where tool vendors still earn meaningful China service revenue. The mechanism is a permanently smaller TAM plus a political-risk discount on the China line in every semi model.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVzZfVVQyWkJxOHFScXZCYUdMd3RqZ2pzQURXYmR1S0p6aGxRRHlnTzZPenpDWWxEMXhnRlVVaFk2Yk93YmZfdXJ4TnVIVVR0bXlUMkw4UTk5YmpRRWdOVjRiU21mQkcyVlY0bkdXaUczaXliNFI0Y25WS00zWWlUQnFGUGRWMlBJeFg5Tldtd00yLXZvMWxXdC03MVdYVFlSMkxvZUdpRHBLdllHcHh1VzBmSFpEbUdtOS12bm03RE1NLWxtWUlrWVRn?oc=5",
       "alerted": false
     }
   ]
