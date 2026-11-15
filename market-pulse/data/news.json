@@ -1,7 +1,125 @@
 {
-  "generated_at": "2026-11-15T06:59:41Z",
+  "generated_at": "2026-11-15T19:01:52Z",
   "session_date": "2026-11-15",
   "items": [
+    {
+      "id": "20261115-macro-nov25-data-cluster-fed-repricing",
+      "time": "2026-11-15T13:00:00Z",
+      "headline": "Nov. 25 shapes up as the binding macro date for December Fed pricing",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "JPM",
+        "GS",
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ],
+      "why": "With the backlogged post-shutdown data calendar compressed, a single release date now carries the weight that is normally spread across a month, so positioning into it is forced rather than discretionary. Long-duration AI and megacap growth names are the most rate-sensitive part of the index right now because their valuations rest on terminal-value cash flows, so a hawkish surprise transmits straight into the semis complex. Banks sit on the other side of the trade via net-interest-margin and capital-markets beta.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTllkcjRJaG0xa0tiRWtvelg0RFFCalVBNEZqU29iVHdJeDdGZFVIQlZWMjUzX1J3SC12U0xDblkzTzlGMER0WnZCNHRNN3FFRWlYbGo3SkkxODJiNmdDVHhva1h1bVJ3NW5DUldOZ1Rud3daVmhzVmNZT1MycnkxU1Q5cy1jVlk2b0JqREd0N3plQWxjcmRSdFNrYjgwNUk?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-nvda-sellside-sentiment-turns-post-huang",
+      "time": "2026-11-15T12:00:00Z",
+      "headline": "Sell-side tone on Nvidia turns cautious into the print as succession risk gets written into models",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "MU",
+        "ANET",
+        "MRVL",
+        "SMCI",
+        "QQQ"
+      ],
+      "why": "Analyst caution here is about governance premium, not near-term units: Nvidia's roadmap cadence, hyperscaler allocation decisions and China negotiating posture were personally intermediated by the departing CEO, so the sell-side is lowering the multiple it will pay for the same forward EPS. With an interim leader fronting the quarter, the market discounts the credibility of any long-dated capex commentary, which caps upside even on a beat. The read-through is a relative bid for merchant and custom-silicon alternatives that benefit from any perceived loss of Nvidia's strategic grip.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUhad2VoUnU5VjNDX3N6UW5WX1FFaFA1eUU2V1kxX3BTQlpVX2twdVVaUHEtTWozYWZBRzRwbHZ6NE1OdHpQWXV2cml5b2R5bGY0bVk1Y19qM0pFcjk1V1NWUFNuX2lHOUlVLXVpeVRJam9mSjdiMTI2OG1KS3FvcmVQVGV0Uzh0TldXa2NLUmhNeTQtZS1oS3dydFJHTWNDcHdDLUtpakNCcV85eDdKTG15M3hqNnZOUko5RVB3aHhvbEJuVVE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-amd-anthropic-compute-diversification",
+      "time": "2026-11-15T10:30:00Z",
+      "headline": "Anthropic's compute mix shifts work toward AMD accelerators, trimming Nvidia's lock on frontier-lab training spend",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "why": "A top-tier frontier lab qualifying a second accelerator vendor is the single hardest gate in AI hardware \u2014 once a model stack runs on ROCm at scale, the switching cost that protects Nvidia's gross margin weakens for every other buyer watching. For AMD the incremental dollars land on a far smaller revenue base, so the data-centre GPU mix shift is more earnings-accretive per dollar than it is dilutive to Nvidia. It also supports pricing power at TSMC and HBM suppliers regardless of which vendor wins the socket.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOXFLdmRZbnlVUFpPYVduNHEzNm1oRlM5ZWZPSVFhUTJsdUZvdWtyd292Snd6TGJablgxSmRNRldtbUFuNDVXc2VKSGswT3VKUGZmZzBSRklEdUN2Z2FudWwxdlVzZTdRc1hWNG5RN21IemU1WkhYSFVaVTB4OUhIOXVIOFRfa2FYdWxfd3cwWkluOFphOUF0OFZVdGVIRmxiVmlFNHZya2RjUzZEQ3hGb1hEV0ZEcjB6bGlKQw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-nvda-taiwan-smuggling-employee-defense",
+      "time": "2026-11-15T09:00:00Z",
+      "headline": "Nvidia publicly backs employee caught in Taiwan AI-chip diversion case",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "The legal exposure is small, but the case feeds the live Washington argument that advanced accelerators leak to restricted end-users through Asian channel partners \u2014 the exact premise being used to justify tighter licensing and remote-access rules. Each documented diversion raises the odds that Commerce narrows the licence regime Nvidia needs for its remaining China-adjacent revenue, and increases compliance friction for server integrators in the same channel. Direction is uncertain because an exoneration would equally blunt the enforcement narrative.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVjFXa2dTR2VaTzFEUWo5RW1ESnNOcWJ6ODlDWm1oVlB2WGo0dHZ5dkhIY2V3dVFNaG1ERFU2bU9xbUMxM3JHd3Q0dFA4R3B3bjhSd2N6WEItYVJZWV9iOEZpT3BrVTBYTVFCR0dLZS1WaEtEdTRrOGdCM2RIMmdlRC1VOTlfVWROT1VxbE1MMVUxQ2hsNFAydUlCNmtnRlBCMXNTMVRIVUJaLWIzdUtXeHlZbi1YRXo5RXBj?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-ai-infra-datacentre-capex-derating",
+      "time": "2026-11-15T07:00:00Z",
+      "headline": "Data centre construction and AI infrastructure complex sheds $4.2tn as the AI build-out trade unwinds",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MU",
+        "AMD",
+        "ANET",
+        "MRVL",
+        "SMCI",
+        "TSM",
+        "ASML",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "ORCL",
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "The move is not a sentiment wobble but a change in the discount rate applied to multi-year hyperscaler capex: investors are re-underwriting how much of announced data-centre spend is actually contracted, financed and depreciable at current returns. If the market stops capitalising 2027-28 capex at prior multiples, every link in the chain \u2014 accelerators, custom ASICs, optics, HBM, WFE, power and build contractors \u2014 loses multiple before any order is cancelled. Second-order risk is that debt-funded neocloud and colo buyers slow order placement, which would eventually hit the backlog that supports semi-cap and memory pricing.",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOczFJMEhqM3AwdHNCUF9ZU3QyNkUtbWtuLVF5dUxHSkpuR0Y2VWx6WXNxQUJ1Vm5iTDN6V0c0YUR4QUpXZl9ubklZVHlDbGlDREVoM3N1a1pMNWlZdmpfTDNWZG5RSXVuU2o3M3Z5Yld2VEtpSDE0NjZ6Y1NZekd1NUxLUGw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261115-amd-nvda-record-dispersion-reversal",
       "time": "2026-11-14T20:06:00Z",
@@ -749,116 +867,6 @@
       "why": "Hyperscalers have been second-sourcing slowly because Nvidia's execution risk was perceived as near zero; a leadership vacuum raises the expected value of dual-sourcing MI-series parts and custom ASIC programs, which is the mechanism that converts into real 2027-28 unit volume for AMD and Broadcom rather than sentiment. Broadcom's XPU business in particular monetizes any customer decision to hedge Nvidia dependency, and AMD gains pricing room it never had while Nvidia dictated allocation. Foundry and packaging suppliers are indifferent to who wins the socket, so TSM and HBM supplier MU capture the same wafer demand either way \u2014 reported moves cluster around 6-7% for both AMD and AVGO.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkIxWkJDaHpKZmg4emJ3RW9FVWRleFBqSU9fckJzb1JCN3FBY25PblRkTmg4UG53VWRJSERhMHp5eUlqNmphQkh5cXRJcE1oWjVxUUNuVkZIOWpGLWw2YS1JQ0JGV0FYS3JwWHVKcU9CeHFLX3JJelVIZXI3cWRNcWhOZ2Z0TkRZYk0yX281dVlPX2d5b2hnblIxdnRwdjRSZDhYZ3FHMFg0UTJpMXhvdUFYWFZPbmM?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-smci-doj-smuggling-probe",
-      "time": "2026-11-12T15:30:00Z",
-      "headline": "Super Micro slides as DOJ is reported to be examining whether entities linked to Alice Huang helped divert its servers to China",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "DELL",
-        "HPE"
-      ],
-      "why": "A federal export-diversion inquiry is a balance-sheet and access risk, not a news cycle: it can trigger supplier allocation caps, government-customer disqualification and renewed auditor/controls scrutiny at a company that already carries a compliance discount, which compresses the multiple independently of AI server demand. It also raises the odds that end-customers delay orders until the legal perimeter is known, pushing revenue right. Read-through is negative for the broader AI server channel if the probe widens into how GPU-bearing systems reach restricted end users.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdE5yTXkxdmNLb3QzbzdkbGZSRFZCQTBoRmxFLUFtbjByS0VObEtBUWlwbmIwYjE1bHVtUEhvNFJiRFFPM2dLb1IyTFJ5RmlDeVZLbGZWNTc3Vl9jU1l6WS1sSHJJWDNJQzE4ZzhURHMxN25JNTVtckZ6Vml1MU9nbl85LUlCb0pIaS1udU9jcENhYXExVTk5TlhVNk80X3dxbGxJZUdvSUNQN0w3ZklZ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-nvda-huang-resignation-kress-interim",
-      "time": "2026-11-12T14:10:00Z",
-      "headline": "Nvidia board announces Jensen Huang resignation effective immediately; CFO Colette Kress named interim CEO, Harvey Jones becomes first board chair",
-      "impact": 10,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "ORCL",
-        "MSFT",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "An abrupt, scandal-driven founder exit with no permanent successor and the CFO doing two jobs removes the single person who set roadmap cadence, allocated scarce supply to favored customers, and personally negotiated hyperscaler and sovereign deals \u2014 that is a durable discount to the multiple rather than a one-day headline, because customers can now credibly delay or re-tender orders. It also lands days before the company's own quarterly report, so the usual reassurance mechanism (guidance from a credible CEO) is impaired, and any conservatism from an interim leader resets the whole AI capex chain's revenue assumptions. Because Nvidia is the index's largest weight and the anchor of the AI trade, the de-rating propagates mechanically into SOX, QQQ and S&P earnings-revision breadth.",
-      "source": "NVIDIA Newsroom",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZNXBiTEpIYWNHT2hlMWVfSXJ1UWd6eEVKUW1URllFTkpERzVyRWpBOEgyaU90Sk5KVm9VZXRseUlXSEswU1JSNHhzeVhRN2lxQXRUbVk1cTBLZXRjSHFNWTNQRWNXb2FrQno3TzNzQTg2UXA1?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-nbis-q3-guidance-capex-raise",
-      "time": "2026-11-12T12:30:00Z",
-      "headline": "Nebius raises 2026 capex to roughly $27bn from a $20-25bn range while trimming the revenue outlook toward the low end",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NBIS",
-        "CRWV",
-        "IREN",
-        "NVDA",
-        "MU",
-        "AVGO"
-      ],
-      "why": "Spending up and revenue guidance down is the combination that forces the neocloud cohort's free-cash-flow breakeven further out and increases the amount of external debt and equity needed at a moment when AI credit spreads have already widened \u2014 that is a cost-of-capital hit, which drives the valuation rather than the reported revenue beat. The same datapoint is ambiguous for the supply chain: higher capex is incremental GPU and HBM demand for Nvidia, Micron and the networking vendors, but only if the financing actually clears. Reported share declines conflict across outlets, ranging from roughly 14% to 17%.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83ZXJVYWtlckdZSFQtN1YzNmgtenEyNVl6RnNEYjVYNDFqcS1rS2hmTjF5MGFBM1pLTkpCa1k3SXZiQTVqc3kwbVlCLVE5YXBBOGg0aXE4Wmc0ZmpPNDZfYUZkVjBJRjNsSTJDTlB4Qm1URlhmLXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-commerce-ai-remote-access-rule-final",
-      "time": "2026-11-12T11:00:00Z",
-      "headline": "Commerce Department finalizing rule to block Chinese firms' remote access to advanced AI chips in offshore data centers",
-      "impact": 8,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ORCL",
-        "MSFT",
-        "AMZN",
-        "GOOGL"
-      ],
-      "why": "Export controls to date policed hardware shipments; a remote-access rule closes the cloud-rental loophole that has absorbed a meaningful slice of Gulf, Southeast Asian and other third-country GPU deployments whose end demand is Chinese. That removes a real source of incremental order flow for accelerator and HBM vendors and forces offshore neocloud and hyperscaler operators to re-underwrite tenant mix on already-financed capacity. It also raises compliance and know-your-customer costs on capacity that was sold on the assumption of fungible global demand.",
-      "source": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDhiSnYyNXlKQkZBVVh4MVRIbjhYOHNGR05fOGtVTTJ2cW5NYVN1T3FMcnpnNUNVSHI5Z0pVaDVYcHphOV96T2tSR29PaEEweTNNbnozX1JXa0JXY29fMUVzcDlKY29HQnNOYjFuLVNIQWZWaEJSTS1SQnJNeWpERnpRWEhWQVlBclZaM3Z6RXQ5VjhHeEw1MW56N3ZRd2VteDFkVzU2dnQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-amd-nvda-william-blair-pair-action",
-      "time": "2026-11-12T10:26:00Z",
-      "headline": "William Blair upgrades AMD to Outperform and cuts Nvidia to Market Perform, modelling 80%+ AMD revenue growth next year on Nvidia's 'leadership vacuum'",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "AVGO",
-        "MRVL",
-        "TSM"
-      ],
-      "why": "This is a simultaneous two-sided rating change, so it is a forecast of accelerator share transfer rather than a sentiment call: the firm argues AMD data-center AI revenue overtakes its server CPU franchise and that Helios rack-scale ramps through 2027, while Nvidia's governance disruption slows customer commitment at the margin. Share-shift assumptions of that size change the 2027 revenue base for AMD and the terminal share assumption embedded in Nvidia's multiple. Foundry and custom-silicon beneficiaries (TSM, AVGO, MRVL) are economically indifferent to which accelerator wins, so the read-through is mainly a de-rating of Nvidia's exclusivity premium.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhXYllGX18xWDVaQV84dXBzeDRMYU9XRFJhYXpHa3Y1blVUVnZkTUlTZ2Z3dlk3ZDhXaHZJX3VLaXQ3bGtlOG43cWRjR2F3WVVxaE9nMUpZTlhvNl9TTl94TVBSMFJ2c3ZoQjU2MHhtOC1aMVZxeXlkdjYzbjh6aDNnaUlydDJlMk9HdnNBNGVNVUppU3J6cmRWVndKNkZVWEdtN1dLZw?oc=5",
       "alerted": false
     }
   ]
