@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-11-14T22:40:15Z",
-  "session_date": "2026-11-14",
+  "generated_at": "2026-11-15T06:59:41Z",
+  "session_date": "2026-11-15",
   "items": [
+    {
+      "id": "20261115-amd-nvda-record-dispersion-reversal",
+      "time": "2026-11-14T20:06:00Z",
+      "headline": "AMD's record five-day outperformance versus Nvidia partially unwinds into Nvidia's print",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "TSM",
+        "SMCI",
+        "MU"
+      ],
+      "why": "The market has moved from pricing AI accelerators as a single Nvidia-indexed trade to pricing an explicit share-shift probability: a 53.2 percentage-point five-day spread (AMD +44.7%, NVDA -8.5% per The Kobeissi Letter) is a re-rating of AMD's 2027 attach assumptions, not a sentiment swing. That bet is unfunded until Nvidia's call either confirms or denies order migration by cloud buyers, so AMD's multiple now carries binary event risk from another company's guidance. Friday's sharp give-back shows positioning is crowded and reflexive; sources differ on the size of the reversal (roughly 8.75% in article text versus about 11% on the quote line).",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFljaWVtdURHQzgxcERTYjY3V1c0cnI2ZkRJLTBsc0tZbnBBY292UV82dk1JM0dXLWxfMnJDUnRGUG5EZkNVdzh6S0gyU3pGdXFxUjA1bmg1ZmpzbzFBWG9UQ0Q3T2VIMEJxYldFUTQ0TTRxRU1fRmtVWXJkd1ZoMGVRLWp6M2R1REVoWDVzdTNMQ1U?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-crypto-liquidation-risk-appetite",
+      "time": "2026-11-14T17:28:00Z",
+      "headline": "Crypto liquidation cascade pushes sentiment gauges to extreme fear",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "QQQ",
+        "IWM",
+        "SPY",
+        "PLTR",
+        "TSLA",
+        "SMCI"
+      ],
+      "why": "Crypto is the most leveraged expression of the same retail and systematic risk appetite that funds high-multiple AI equities, so forced liquidations there typically precede margin reduction in high-beta Nasdaq names rather than staying contained. The move drains collateral value and lowers gross exposure limits for multi-strategy books heading into a heavy event week. Sources disagree on the level \u2014 one puts Bitcoin near $66,500 and another below $65,000 \u2014 but the direction and the liquidation scale are consistent.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTG56RENCMERuRWRkLVR3a2RwdV9ubTV5X3N4RThjWTQtX3hNZ0stQ2k1WGRaMmF6TU9WTk1qQWpzdlFCTEFWUzZyU3VzOV9leHlNWklFRVNvNDFSSVdYWUFQMTlKRkxubFpvVWpBcHAxNHludnRSRlhIVHk0M2xHSnBsWU5vcTF1ZzRPQXdONnBOTnhiZmc1ajdZbUxUZUp1cFc1ZWVySWhQZlRuU0RmNE5ZUUZyNWd1WlA3bUhTX2pHSWxDd256XzlzbEJOaGhMRXMyUnpSc2JDLWdHWkxlUkxZT1BxQU5ualE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261114-macro-december-hike-near-fully-priced-ai-derating",
       "time": "2026-11-14T14:00:00Z",
@@ -28,6 +69,25 @@
       "alerted": false
     },
     {
+      "id": "20261115-amd-venice-helios-2027-ramp",
+      "time": "2026-11-14T14:00:00Z",
+      "headline": "IO Fund says AMD's Venice CPU and Helios rack-scale ramp are tracking ahead of plan for 2027",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "MRVL",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "The investable claim is that AMD moves from selling discrete accelerators to selling full racks combining MI400-series GPUs, Venice server CPUs and networking, which raises dollar content per deployment and gross margin mix rather than just unit share. If hyperscalers are pulling in that platform, AMD's 2027 revenue base re-rates on content, and Nvidia loses pricing power at the system level where its margin is richest. This is third-party research rather than a major-bank action, so it informs the narrative more than consensus estimates.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVTBYb0F0NFVybko5LWwxX3N3VDVRc3BMRVdXWnA1T2JrNlFBcW9xYVVtaWF2dHJySFpXbjQ2R3BnX3VQQjVkTWt3cnVJUm1rSFFzLTdaeDM4aW1IQVZzdmhfMFJfcHNrc2llNTN0eFhNeG0wTUduQ0tqYVFILU5KZ2szckZGR3BleS1YM1NWVjM1T1NTN3dN?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261114-intc-amd-desktop-share-reversal",
       "time": "2026-11-14T13:00:00Z",
       "headline": "Mercury Research Q3 data show Intel reclaiming desktop x86 share from AMD, reversing AMD's record client run",
@@ -42,6 +102,27 @@
       "why": "Client CPU share is one of the few AMD revenue lines not levered to AI accelerators, and a five-point quarterly reversal (Intel 70.1% vs AMD 29.9% of desktop shipments, AMD down from 34.9%) removes a mix-driven ASP and gross-margin tailwind that had been supporting AMD's non-datacenter earnings. For Intel it is the first tangible evidence that its new client parts are converting into volume, which supports fab loadings and utilisation-driven gross margin, the single biggest swing factor in Intel's model. Note the share gain came in a contracting desktop unit market, so the revenue dollars attached are smaller than the percentage implies, and AMD's foundry wafer demand at TSMC shifts rather than disappears.",
       "source": "PC Gamer",
       "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPX0pXMDd5SEFrR2ZUbWRJcGtZNnhvWVVHQUw0YmxXNXcwVWFfOEZoZDRDR3E0c3lMSmt1Z0tnMk1pLW5LS1Vhelkwc2ozZm5TT3Z6N1dZMmJ6aVhucUVWdGk5Zkx5d0U4TnROeFlVT1dhMGYzcEh6OXFxOUZGdFJyQ0tQb3Y2ZUlSWDJ6bVZmeUU1QjhnYjZoSU50Ym1FMVhZVkVMTlR4WkZKdXRVZjZNV2pQMXduMDVsMDhnSVgyTUNiWHhhOG9DcjhwaUZpdWI1UFhuQzZ6c01zRHRNUHVwa1daNlJEYi1QZmI3QjRTeEFPMmFDbjdRcHhfZGEwRmEzQ0YtUzR2bVRGY0FBMFgyUzVPUkJfSVFhNGJQR2l4TQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-macro-retail-sales-fomc-minutes-week",
+      "time": "2026-11-14T12:00:00Z",
+      "headline": "October retail sales, October FOMC minutes and Walmart results land alongside Nvidia's quarter",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "WMT",
+        "HD",
+        "NVDA",
+        "AMZN"
+      ],
+      "why": "With the Fed having paused in October against hotter-than-expected inflation, the minutes are the cleanest read on how close the committee is to resuming tightening, which sets the discount rate applied to long-duration AI earnings. Retail sales plus Walmart's guide test the consumer leg that has been carrying nominal GDP; a soft print cuts cyclical earnings but eases policy risk, so the index reaction is two-sided rather than directional. Clustering these with Nvidia's report concentrates macro and AI-fundamental risk into a single session set, which mechanically widens implied moves across the complex.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNUpqSU4ya1ZSYkNPUFB0X3p4c1p2OFlQWDVaSFBLZ2JWOFAzRGU1MWdFNHk1cXg4MC1PbFBNSnIwV3FELUppMmJPb1d5NzBnWjFTdWdTTTU5T3dwR3VVd0NKUW5xSG1jWWV0REE2WGZLSWFvbmlDa1dvZXJqQ3RTOXFnbXFaV2prUGJlMlhUMzAwdlF4VVIxdjRTNFVMRjlfdVNRcEliTklrRmQ1QzlGRzJ0ME1laFJnODJpaGpSMFU1UU1SYjRXcEk1b0d6RklrX3pkWWVObFF6bVVHbUZvZlB3?oc=5",
       "alerted": false
     },
     {
@@ -180,6 +261,28 @@
       "alerted": false
     },
     {
+      "id": "20261115-taiwan-supply-chain-orders-intact",
+      "time": "2026-11-14T00:00:00Z",
+      "headline": "Taiwan AI supply chain reports no order changes after Nvidia leadership upheaval",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SMCI"
+      ],
+      "why": "Foundry and ODM order books are the hard evidence on whether the CEO exit changed 2027 build plans; executives pointing to multi-quarter supplier qualification cycles and CUDA lock-in means allocated wafer and CoWoS capacity is not being reshuffled, which protects near-term revenue recognition across the Taiwanese chain. That caps the downside read-through from Nvidia's governance problem to equipment and packaging names. The residual risk flagged is US export rules on China, a policy variable rather than a demand variable.",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1USzRxckEzZnlyc01ueEszeV82T2xmdmQ1UHljSnVoV2tVc01GSDhzOU9IekVsT3E4S2lRcGZudk9lZHZHVzEwa0JEaEZPQlY0dk9iSjVwWDU5V2xrMlBkanFQZXFSRXl3VklUMnU4WmZZVXZKMVE?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261114-goldman-fed-path-after-hot-inflation",
       "time": "2026-11-13T22:00:00Z",
       "headline": "Goldman Sachs reassesses Fed reaction function after hotter-than-expected inflation data",
@@ -268,6 +371,26 @@
       "why": "The Fed explicitly tying elevated equity valuations to AI enthusiasm, and quantifying the credit channel (roughly $680bn of advanced-computing debt issued by October, about 31% of IG issuance, plus multi-trillion off-balance-sheet obligations at the largest tech buyers), raises the cost and scrutiny of the debt that funds the compute order book. That is a financing-availability constraint on the capex stream that becomes NVDA/AVGO/MU revenue, not a sentiment story. It also hands regulators and ratings committees a template for tightening terms on neocloud and vendor-financed deals, which compresses the multiple investors pay for AI-levered earnings.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd1luSGcydUl6NE15cEcydlNhSnRuNjNjVHdMQldrQjRYcXpLZ3FfbnNrWndndDNTaUowRWJ6NDg0dUdaN084LW00YU4tNEhPTXh6Ymx3WVFpZk5MQTgwVFpMX1o4cFdXT2lCQi1xSzlncG9mUkpDa0xTUF9BY2E3cXVnS2fSAYoBQVVfeXFMTmZFcVNQMElxVkdHNTFNMVBOYTg0SGVKNm5ISHM5N3pGUUxKSE5Za2ZuMmZNb3RnY0FpVWxNbWtIdXFIdm0wOWVIa3FXWVJJaVhhTHBzOVpJbzVnY2VGZk04WE5aRHVBdjdkRlVpSm1VQXo1ckRPRTV4aDNjNGJNeGlhSXZ4ZEhIa1dR?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261115-nvda-ceo-search-not-yet-engaged",
+      "time": "2026-11-13T21:00:00Z",
+      "headline": "Nvidia board says no search firm retained and no candidates formally engaged for permanent CEO",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "SMCI",
+        "MRVL"
+      ],
+      "why": "A search that has not formally started implies an interim-CEO window measured in quarters, not weeks, which keeps a governance discount on the multiple through at least two reporting cycles and weakens Nvidia's hand in customer roadmap commitments and Washington negotiations. It also contradicts prior shortlist reporting, so the probability of a fast, credible internal succession should be marked down. Hyperscalers making 2027 allocation decisions now have a rational reason to dual-source, which is the transmission channel to AMD and custom-ASIC suppliers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
       "alerted": false
     },
     {
@@ -736,129 +859,6 @@
       "why": "This is a simultaneous two-sided rating change, so it is a forecast of accelerator share transfer rather than a sentiment call: the firm argues AMD data-center AI revenue overtakes its server CPU franchise and that Helios rack-scale ramps through 2027, while Nvidia's governance disruption slows customer commitment at the margin. Share-shift assumptions of that size change the 2027 revenue base for AMD and the terminal share assumption embedded in Nvidia's multiple. Foundry and custom-silicon beneficiaries (TSM, AVGO, MRVL) are economically indifferent to which accelerator wins, so the read-through is mainly a de-rating of Nvidia's exclusivity premium.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhXYllGX18xWDVaQV84dXBzeDRMYU9XRFJhYXpHa3Y1blVUVnZkTUlTZ2Z3dlk3ZDhXaHZJX3VLaXQ3bGtlOG43cWRjR2F3WVVxaE9nMUpZTlhvNl9TTl94TVBSMFJ2c3ZoQjU2MHhtOC1aMVZxeXlkdjYzbjh6aDNnaUlydDJlMk9HdnNBNGVNVUppU3J6cmRWVndKNkZVWEdtN1dLZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-nvda-successor-shortlist-amd-arm-readthrough",
-      "time": "2026-11-12T08:00:00Z",
-      "headline": "Nvidia successor shortlist circulates: CFO Colette Kress, Ian Buck, Bryan Catanzaro internally, Arm's Rene Haas and AMD's Lisa Su externally",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "ARM"
-      ],
-      "why": "Naming external candidates creates a two-sided read-through: an internal continuity pick (Kress as interim, Buck or Catanzaro longer term) would cap the key-man discount quickly, while poaching a sitting chip CEO transfers the governance problem to AMD or Arm, whose own strategy premia are tied to their current leadership. Until the board resolves it, Nvidia's roadmap commitments and customer allocation talks sit under a question mark that discounts the forward multiple. The length of the vacancy, not the identity of the successor, is what determines how much of the discount persists.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUZrb00yb3NfUUNvNmhwSmpmX2xWMDhZS0VTYS1xVjRxRFNqUzBjQkRPTU5Qelc1akhTU1RFdUIxZ1N6MU1TSlltZ1VnS3VPR3BRMk0zZzdVWGlhMWVtZnNQYzhIUjU3cjA2ZXYtWWd0NHNqU0VTRXFWTE5rRHc3ZFJkOWY4WHFyaXRHNV9aeHRLVl9YNHc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-nvda-congress-resignation-demands",
-      "time": "2026-11-12T06:00:00Z",
-      "headline": "Members of Congress publicly demand Huang's resignation over Nvidia's China posture",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "INTC"
-      ],
-      "why": "Direct political pressure raises the probability the board acts quickly rather than waiting for its own investigation, shortening the timeline on the CEO decision. It also hardens Nvidia's negotiating position with Washington on any future China licence relief, since the company's chief lobbyist for engagement is now the subject of the complaint. Domestic-leaning alternatives such as Intel and rival accelerator vendors face less of this political overhang.",
-      "source": "The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWlZ0U256MmFTNlZmTHY1SVJYVzR4RTIyaXk3dTN3aFpLeDNkYjU4dWxkSlMzOFdzdk9EZ3M3X210bUVjMU5QM093clF0Q2gtNXhVZ1Q5LTkzZnlkcHRGUElEbGRPbVZBQlJhSTA3VGxDdS1FX0pXamU1VUxKWWpoTS1iM2ZHWng1SlVBNVlR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-crwv-4b-investment-grade-loan",
-      "time": "2026-11-12T00:26:00Z",
-      "headline": "CoreWeave to raise at least $4B via investment-grade loan backed by chips and customer contracts",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "SMCI",
-        "AVGO",
-        "ANET",
-        "MRVL",
-        "TSM"
-      ],
-      "why": "The binding constraint on 2027 AI capex is financing availability, not demand, and a GPU-and-contract-collateralised investment-grade facility clearing at scale proves the debt window for neoclouds is still open after weeks of credit-spread anxiety. That underwrites the forward order book for accelerators, memory, networking and systems vendors rather than just CoreWeave's own balance sheet. The structure also sets a reference template other AI borrowers can replicate, lowering perceived funding risk across the buildout chain.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcnFZc3I2MkljRGt5LWNXc0hvb0p6QThMNGhxZXU0RDdGNEl6UmgzdUdVeU9zMmpzaXduWmFMX296ZG1LNWRCZjZibHJ4WVRxM1F1aEJpN3pyM1hucEYxb1RPSGh5eFpSZUJYcnkxbGJla0Fmc0FneUJKZl9fZENNZU1SQnJ4YXZNTUQyTWxaTDNKY2ZvZlhkS0QxMUFBQ194QUtuX1hYc21TT2FSaDI5aHJwTkh4aDFIZWpIaVBDcWs1MVZXY2xBc0YtZ1N2d1BDODhpUzJmUC1Od0dwMy0xYm93UDkyRnpvc2Jtb0RMOEY1cGhnT0k0c3RNcV9BUGFGOU9pamZvNVAtQ1p6UkMxYmRCOXJjZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-nvda-board-prepares-huang-removal",
-      "time": "2026-11-11T22:51:00Z",
-      "headline": "WSJ: Nvidia board preparing to remove Jensen Huang after second affair report; shares drop ~8% after hours",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "This moves the story from an open board investigation to an imminent forced exit, which converts a headline risk into a discrete governance event days before the Nov 17 print. Huang personally anchors Nvidia's roadmap cadence, hyperscaler allocation negotiations and the China lobbying effort, so removal injects a key-man discount into the multiple rather than into near-term EPS, and raises the odds guidance is delivered defensively. Because Nvidia is the largest index weight and the clearing price for AI capex sentiment, the de-rating transmits to the whole supply chain even where unit demand is unchanged.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZHlaTGY4SGtwcU5ubTlUalpjZW42UDVnd2hGTlFMTUMxSm80MjNILUZ5SXd1ZXNaRzdqeGg1X3R1YzloUnhHZXZvTl9zRm9RNF9DUlQyU3JlN3hKMjVTZGVCc1FIYklaOEVia0k3Z2Zncy01TmpyOW1fRkhaZW85VTJMQzdFMlpsM0xJN2RvdHdYV1dFSHFxU3dQNzNTU3JVdUdreG45bFFkaHJWV3IxdzJBM19DSk1CekEzNkMyVVBsYjd1UkNiR2plVEtWNWZYZEozVmczOWVsTThz?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261112-sp500-2027-eps-revisions-fourth-week-cut",
-      "time": "2026-11-11T21:00:00Z",
-      "headline": "S&P 500 2027 earnings forecasts trimmed for a fourth consecutive week on AI spending and post-midterm policy risk",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "ORCL"
-      ],
-      "why": "A four-week run of negative revisions breaks the pattern where strong Q3 prints kept forward estimates drifting higher, and the denominator of index valuation is now falling while rate expectations are also moving the wrong way. Sources frame 2027 growth decelerating to roughly 20% from this year's ~30%, with AI depreciation and post-midterm data-centre scrutiny the named drivers. That compresses the room for multiple expansion and shifts the burden onto megacap capex discipline rather than revenue growth.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPcl9oU2c5TFJEcjFLY1dzZ3Z4Q2lzdS1sa21hclJLZ2htZGYxc3hHaUtRNHpHMVRFZFNvUUFrdC1OdHZiVTJOd29CZ291TnV6blNvZXVSYW9YekE1U0NIZk1xOUxMOF84OG44NGkzcHQ4c2ZBWFE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261111-mu-goldman-relative-memory-preference",
-      "time": "2026-11-11T16:38:00Z",
-      "headline": "Goldman says Micron is more attractive after the selloff but sees better value in rival memory and storage names",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "WDC",
-        "STX",
-        "NVDA",
-        "AVGO"
-      ],
-      "why": "This is a relative-value reallocation inside a tight memory cycle rather than a call on the cycle ending, so it redistributes flows within the group rather than lifting it: a Neutral-stance bank steering money to NAND and storage peers caps Micron's re-rating even as HBM pricing stays firm. The underlying tension is that supply discipline that supports 2027-28 pricing also invites capacity additions that compress out-year margins, which is why the bank prefers names with less embedded expectation. For the AI complex it matters because memory cost is a direct input to accelerator and server bill-of-materials.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5",
       "alerted": false
     }
   ]
