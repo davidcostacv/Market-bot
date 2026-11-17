@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-11-16T22:26:16Z",
-  "session_date": "2026-11-16",
+  "generated_at": "2026-11-17T08:20:09Z",
+  "session_date": "2026-11-17",
   "items": [
+    {
+      "id": "20261117-bis-five-country-licence-asean-brazil",
+      "time": "2026-11-17T03:00:00Z",
+      "headline": "BIS rule adds licence requirement for advanced chip exports, re-exports and in-country transfers to Malaysia, Singapore, Indonesia, Thailand and Brazil",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMCI",
+        "MU",
+        "ANET",
+        "TSM",
+        "MRVL"
+      ],
+      "why": "Beyond the remote-access provisions, the rule puts case-by-case licensing on physical shipments into the Southeast Asian build-out corridor that has absorbed a large share of non-US accelerator and AI-server volume, so revenue recognition now depends on BIS approval timing rather than customer readiness. That injects quarter-to-quarter shipment slippage risk into backlog conversion for GPU, custom-ASIC, memory and server-OEM vendors, and raises working capital tied up in undelivered systems. Singapore's trade ministry has said it is still assessing the scope, so the affected revenue base is not yet quantifiable.",
+      "source": "The Edge Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HbWVneXd0OHl3ZF9QX0pZWE10VVpyTW53SjlpTkNrS3drcFpwLVFkZXhobFlIRDVvVVBtNFVJSE5haF9vQktRWC1FZGdDRW9C?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261117-nvda-board-rejects-huang-reinstatement",
+      "time": "2026-11-17T01:30:00Z",
+      "headline": "Nvidia board is not considering Huang's return and is focused on the Wachtell-led conduct investigation, despite Trump's public backing",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "MU",
+        "SMCI",
+        "ANET",
+        "MRVL",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "The reinstatement campaign had been functioning as a floor under the stock by implying the leadership vacuum was temporary and reversible; an explicit board rejection converts that into a multi-quarter succession and investigation overhang priced into the terminal multiple, not the near-term EPS. An ongoing national-security probe of the founder also keeps customer and sovereign-deal signing risk elevated, with key-person attrition risk below the CEO line. Because Nvidia's order book sets the capex signal for the whole AI supply chain, the de-rating transmits to memory, foundry, networking and server names.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "alerted": false
+    },
+    {
+      "id": "20261116-nvda-trims-intc-stake-13f",
+      "time": "2026-11-16T22:15:00Z",
+      "headline": "Nvidia 13F shows 25% cut to Intel stake, to 161.1M shares, sending INTC lower after hours",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "INTC",
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "why": "The Nvidia equity position was the anchor of the strategic x86/accelerator co-development narrative that underpins Intel's foundry-and-partner re-rating; a quarter-sized trim signals the partner is monetising rather than deepening commitment, which removes a key non-fundamental support for the multiple. It also raises the perceived probability that co-designed product revenue slips out of the 2027-28 model, and creates a visible overhang of remaining shares that can be sold. Read-through is mildly positive for AMD and TSMC, which gain if Intel's partner-led server roadmap loses credibility.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmlzcVRDWDhOYUlXa3htU0hKa3JKMGh4NkZpV1hoTXY3YzBVLUlWSVk4Q3Y5My15VFBxbEZyQVBqRmR0Z1ozaWtEZnEzdlZycHdkXzIzMDJtOHppbzdzamU0MjJyR0FENk9vU3pWNlNsZld3eTE4Z09Mc2U3d290bWp6b29vRjlXdl9IRmpGa0pTbVJvZ2h4eVR2czBMaWlTMER3cEh6UThxMXlIUWNKQ2ZXYw?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261116-smci-doj-probe-server-oem-contagion",
       "time": "2026-11-16T19:00:00Z",
@@ -790,70 +854,6 @@
       "why": "An open split inside the administration over who allowed advanced accelerators to reach China shifts the policy equilibrium toward enforcement rather than licensed sales, raising the odds that remaining China-compliant SKUs are restricted or that licence approvals stall. For Nvidia and AMD that threatens a revenue line analysts had partially re-added to 2026 estimates, and it raises compliance and end-use-verification costs for server builders and foundry customers across the chain. Cabinet-level blame-shifting also removes the bureaucratic cover that had previously slowed new restrictions.",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTIzZHZCSGlfZTAwY0VGY1hwZ0stMC1fblpqQ1N1eC1tWHRFazYxeDMxcVIzdEs0NXNUMVRhVWdJTVhOc2ZQcmQwaUFkOVJMZDVJTG5kUlE2aWtNYnljaHlqU05HWjFIUzl0MTJ1UzZGYk11SU5mXzJuTmxwOWFqbHo1TnkwTXZpMFA00gGQAUFVX3lxTE9QZHhGMjFUYWFSaGRxQ2lrQXpWYkdUTzJ6QmRUNFcxV092Q2MzbzZyMm9paGp2eGpEVEVXUzhsdkRZZy1GOFYycFVXYXFTVmlfZmlvM1EzUGh0TkMtU1dlZlVyd0xYemFaeDNYR0RYc2lhdTk4UTNsVjNJM2hXS2hod3dBTzBfYlNnT0dmLUk5dw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261113-smci-multijurisdiction-inquiries",
-      "time": "2026-11-13T14:00:00Z",
-      "headline": "Super Micro pressured again as inquiries widen beyond the US; company says it is cooperating and denies Megaspeed business ties",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "SMCI",
-        "NVDA",
-        "AMD",
-        "AVGO"
-      ],
-      "why": "An enforcement matter that now spans US, Taiwan and Singapore authorities is no longer a single-jurisdiction headline risk: it threatens export privileges and the hyperscaler qualification status that drives Super Micro's order flow, and it forces legal and compliance costs into an already thin server margin. Customers de-risk vendor choice while such probes are open, which is a share loss to Dell and Taiwanese ODMs regardless of outcome. Read-through to GPU vendors is modest but real, since Super Micro is a meaningful channel for rack-scale systems.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORTJCMlV0YlhNZDBtM28zX3BHUGEtOXotdHNwa0VicFRxSUN4RUllUHRHbV9rUEEzMjZnMWdmbmhmQWdKM1F5NHkyYVZQejZVT1otdFlHTERxRzRVdjV1OE8wNGJpRURrZ2NqNEY5eFR2c3R3THRqRUptWFo0LUpWM1NYOGVNdUhSM0psaFBOTE5VYV8takFzekFsTQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261114-msft-global-outlook-outage",
-      "time": "2026-11-13T14:00:00Z",
-      "headline": "Global Outlook outage hits Microsoft while cloud rivals catch a bid",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "CRM"
-      ],
-      "why": "The direct P&L cost is small, limited to SLA service credits, but repeated availability failures weaken Microsoft's pricing power in enterprise renewals where uptime is the core justification for the premium bundle. It also gives competing productivity and cloud suites a concrete talking point in multi-year contract negotiations. The effect shows up in net revenue retention over several quarters rather than in the current period.",
-      "source": "Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261113-macro-ppi-october-6p5pct",
-      "time": "2026-11-13T13:30:00Z",
-      "headline": "October wholesale prices rose 0.3% m/m, lifting the annual PPI rate to 6.5% \u2014 the highest in nearly four years",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "TSLA",
-        "PLTR",
-        "AMD",
-        "AVGO",
-        "MU"
-      ],
-      "why": "Producer-price inflation at a near-four-year high removes the disinflation assumption underpinning the terminal-rate path, and with Fed officials already floating a December tightening this pushes the discount rate on long-duration cash flows higher \u2014 a direct multiple compression for the megacap/AI complex regardless of earnings. It also squeezes gross margins for hardware assemblers who cannot pass through input costs quickly. Note sources conflict on the day's inflation narrative: one wire framed the session as occurring 'despite inflation relief' while the PPI prints are described as the hottest in nearly four years.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4X1hoQmRtbDM0TllqRXgydjN2cE9Gb2w4cmRDOWhBT2Z3SEhHOTMySDJrSDdVaU9HVFZhcWJRNm1tZS1kN25SQzRtU3JSdGpTMXh4MWFuaFBYbllQMGpGYUxHV2s3RVhFc2drd1NGWllJRWFqenVrREdB0gF_QVVfeXFMTUd3LWpmaHJxMWdUOWVSSmJrTFNqN0Y2UU8tRFJCcUIzelRvdTNKOFJNaDRkNGhYaThoMVBqR2dCalRkdDFxTXA1SWloZ2FxV2NxTTV4RnZ6Y0dxT0t5UWVvUUprOU9wSUd1bUtCaTdEcFA5UEhSQXBJRkdxcm9lUQ?oc=5",
       "alerted": false
     }
   ]
