@@ -1,7 +1,81 @@
 {
-  "generated_at": "2026-11-17T08:20:09Z",
+  "generated_at": "2026-11-17T21:14:26Z",
   "session_date": "2026-11-17",
   "items": [
+    {
+      "id": "20261117-nvda-wolfe-cut-already-discounted",
+      "time": "2026-11-17T14:00:00Z",
+      "headline": "Wolfe Research argues NVDA's price already discounts a guidance cut; holders escalate succession-planning concerns",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ANET",
+        "SMCI"
+      ],
+      "why": "If the current quote embeds a cut, the asymmetry flips: a soft guide is absorbed rather than re-sold, and the stock's downside is capped by positioning rather than fundamentals. That reframes tonight's print as a clearing event that could reset the 2027 entry point for the whole accelerator supply chain. The offsetting risk flagged is governance \u2014 an unresolved succession process keeps a persistent discount on the multiple even if numbers land fine.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGx0bGQ5WjgxYUZibjFaZTgyV1VwZWdxQ3RDSVN5cm15Sl9oZEtuV1dnUDlYRHZ5U25rTmxHMlhPaE95YWcxWmhRWTRoZG5NWVdLRGl2NnZVUVZuVnNSLXJQSWs1YnpoV0pub1FVbG9oNGswMVhNVEx1OHFCMHRfb1RqQ0JrblExU1VneS13NTd6ZE85VnlXb3JUSmQtNU5LNUE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261117-nvda-bofa-reiterates-buy-280",
+      "time": "2026-11-17T13:03:00Z",
+      "headline": "Bank of America reiterates Buy on Nvidia at a $280 target, calling the current multiple a multi-decade low",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "MU"
+      ],
+      "why": "A major bank publicly refusing to follow the downgrade wave puts a floor under the de-rating narrative and gives institutional holders cover to add into the print. The argument is valuation-mechanical: the target is built on 18x the firm's 2027 estimate, inside a historical 15x-56x forward range, with even a flat-growth downside case leaving the stock near 10-11x forward earnings \u2014 and a roughly 36% discount to Broadcom, which is itself an implicit relative-value call on AVGO.",
+      "source": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOURxZUtEa3lQXzdJajFESUtkdG5EcmY2NVhFbElZT0xnR3hyVlBjbmZEckt2alp2Q0h6MEJkZTdudXlkRzduQ1Qwdk1UNDdmZDE2Z2k4VmlCUjBza1dheHBOUWRJU0pLSmx2T0JhaFhuQmtCa1JBVjJPTE9MVlRUWmV4TnJrdVM5?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261117-cost-stifel-initiation-buy",
+      "time": "2026-11-17T12:44:00Z",
+      "headline": "Stifel starts Costco at Buy with a $1,220 target on membership-fee economics",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "COST",
+        "WMT"
+      ],
+      "why": "The call rests on membership income \u2014 a high-margin, recurring, inflation-indexed revenue line that converts almost entirely to operating profit, which is why the bull case survives a premium headline multiple. A fresh Buy initiation above the consensus target drags the mean target higher and gives defensive-rotation money a destination as AI-levered tech de-rates.",
+      "source": "Quantisnow",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVGtkdV9qZndGOUNwYzZJOWJJUWVUQWxVZk1qRXI5MmwxQWRxVzltWENtaWV4UDlrNUVialp4RlJDZHRMQ2lYbWJEcDVmTTBXSGFtNkdwMEFVeVR4TU5tNm9YcVlWODE4WGFuOEM5MEd3UzNFQnJoME5UdGtwWFR3ZHhFSmNHVF9LN09RcUx1VDUyUjdHbGN6QUR6RWVmdjZ5TEM4OA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261117-vix-short-covering-positioning",
+      "time": "2026-11-17T12:00:00Z",
+      "headline": "Short-volatility positioning unwinds as traders reprice equity risk into the Nvidia print",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA"
+      ],
+      "why": "Covering of short VIX exposure mechanically reduces the systematic vol-selling flow that has been suppressing realised volatility, so dealers hedge more aggressively and index moves get amplified in both directions. For a market where a single stock's guidance is the dominant risk factor, thinner short-vol supply means the post-earnings gap transmits to the broad index rather than staying contained in semis.",
+      "source": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZsV3ZlVFFXbnFzdldudTNBdW9KZl95aFNldTk5ZTFUcTlmekdhdGtNWlpMcU9GWWZOcHJWLVhxdUktZWlILTczOGFvc3pOSllRaDBYTXdiTlpna1llQWpHWFdDN0hENEREaHY1TDFqN0cyMTlDelFqcS1PdmdURFpzUDh1UGhTX0RsSVgzUXZncE5TVmZQQTl3NXhkUEVLOFZ1a0lxU0k3cmNjcWx2RnpiYlhnTldoZUlXUnVpOA?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261117-bis-five-country-licence-asean-brazil",
       "time": "2026-11-17T03:00:00Z",
@@ -67,6 +141,33 @@
       "alerted": false
     },
     {
+      "id": "20261116-ai-hardware-target-cut-cascade",
+      "time": "2026-11-16T21:10:00Z",
+      "headline": "Nvidia price-target cuts cascade across AI hardware as S&P 500 logs a third consecutive decline",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "ANET",
+        "SMCI",
+        "MRVL",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "Sell-side targets across the AI-hardware chain are being rebased on a lower terminal multiple rather than lower unit demand, which means the de-rating propagates mechanically to every name whose valuation is anchored to Nvidia's forward P/E. Because the cuts cite leadership instability and export-rule uncertainty rather than order cancellations, estimates stay intact while the multiple falls \u2014 a pure valuation shock that hits the highest-beta suppliers hardest. Nvidia closed at $156.14 on 16 November with the S&P 500 down 1.92% and the Nasdaq down 2.49%.",
+      "source": "Quantisnow",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jUVgzWXN6V196RHhxbmJrcml3UzhpWDQtNVd2UWY2SlNaaWFJb0tQbXlmbDNVRGtEZW5paXdROENsOWFxRUMwR0lYc3IzalFma3pVTjVFYVIxV2syc3E5NnhPLURPUlMt?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261116-smci-doj-probe-server-oem-contagion",
       "time": "2026-11-16T19:00:00Z",
       "headline": "Reported DOJ smuggling probe into Super Micro weighs a third session, dragging Dell and HPE lower",
@@ -83,6 +184,32 @@
       "why": "A criminal-channel investigation into where AI servers physically end up forces every GPU-system integrator to tighten know-your-customer checks, which slows shipment recognition and raises the odds of licence suspensions at the margin. The spread to Dell and HPE, neither named in the reports, shows the market is repricing channel risk across the whole AI-server layer rather than just Super Micro's own order book. For SMCI specifically it compounds an existing audit-and-disclosure discount, keeping its multiple capped regardless of backlog.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWkN1dERaUmlja09pZmNNZmhVTHRqYlZyVWp3ZkMtd3hNUUwxam1PRFlDa3Q2RXEyWDIwQk5ZZTRSWHM2aldhZVJSYVJpTXZWblF0dEVPQUxoZS1CYXVOenFNZDNuNGtGWU5PVk9SbW9oVGJEeW93MzFyR3Z4cW81MDB0SW96ckJIRUladjQ0SkxSS0NuejZ2LQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261116-nvda-guidance-withdrawal-scenario-tree",
+      "time": "2026-11-16T18:30:00Z",
+      "headline": "Sell-side scenario tree ahead of NVDA Q3 puts 10-15% odds on guidance being withdrawn until a new CEO is named",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ANET",
+        "SMCI",
+        "MRVL",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "QQQ"
+      ],
+      "why": "The binary tonight is no longer beat-vs-miss but whether an interim CFO-CEO is willing to underwrite a Q4 number at all. A withdrawal of guidance removes the single anchor the entire AI-hardware complex uses to model 2027 data-centre revenue, forcing multiple compression on AVGO, MU, TSM and the equipment names regardless of the printed quarter. The scenario set assigns roughly 60% to a clean beat-and-raise, 25-30% to a beat accompanied by a 10-15% cut to calendar-2027 forward expectations, and the remainder to no guide.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbTVhQ2NQOHZJcGlxSWYwRGkwempvVDZOMXJZSzNVZTU1OFFUZkVwVlVhLUJKVnFDZzNFcVJDTHJTRzU1RVlxN2lWbW4zX2hSaGN1RFRYRXBzS2p5Mk9abzRHa3FudndHT1JtZDhqbHlpMVRETS1xbXVQX3RaQk9WeXVlTHNLRjlUMzlQWkQzaTB6dGNoai1MaUxLN0d4SXQ5SXhFMWswMmcyc2Nlb0VHTFEzMHA4Y1NjdHFtOXN3SnA1bm43RGl4aXhhMHl4bGNjcGVJWU9MbklhZzQxOGszVEpSMXlEekg4M2xUbmhDUmRtdEtSdFNlRWpPbw?oc=5",
       "alerted": false
     },
     {
@@ -722,138 +849,6 @@
       "why": "The argument is about contract pricing, not sentiment: if DRAM/HBM supply stays short, pricing is locked in by multi-quarter contracts and the earnings path is visible through the cycle rather than mean-reverting with the AI trade. That decouples Micron's estimate trajectory from the GPU-demand scare that drove the selloff, and supports memory-levered equipment spend. Note this is a reiteration of a Buy and $1,300 target dated to early November being republished, not a fresh rating change, which caps its impact.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUdkNlU1SG9TdmdNNU9IQW1tZl9lLVBFR1QzNUdUQVl4TzVxY3NfY3VLQW1BWmhpWDNlTjlTUC1rUTlXbEFXYUdmS0dMWHJkOUR0NTR1RXc0X3pGb1VPY0FJSjc5ZU5XbFRTMEJQQXFHaFpPMHZ3a2t0Vmo5c2w1a0FDc2JXZ3RqZlVid1pELVJ3T09OVERoOUhJUnQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261114-nvda-options-implied-move-q3",
-      "time": "2026-11-13T21:30:00Z",
-      "headline": "Options market prices an outsized move around Nvidia's quarterly print",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "TSM",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "QQQ"
-      ],
-      "why": "The implied move is the cleanest read on how much uncertainty the leadership vacuum has injected, since dealers are charging for gap risk in both directions rather than the usual skew to upside. An elevated straddle price means hedging costs rise across the whole AI complex, because correlated names are used as proxies and dealer gamma positioning spills into them. The print now functions as a sector-wide volatility event rather than a single-name earnings release.",
-      "source": "Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVhIYXNZbFpjNVdYNUQ1VUdubkR5WmNvRlIxZGg0X1V2dWpiS1JBMXRxU1ZlRzVkaVNfZXZMV1Uza2o1SlFlRGdWMkt0dU9ia3VxNmNXb2RzM0NocHhReHlQVTJPbFBHYXpEc0NLcGRJQ2JjSjFEei1XRHdkc1ZfZ2dsQkxIZ2VFMG1WTnZvZGZ6Xzh3SnNOUmdOdjJSRUtqRWlYNEdOU1UtNUlqLXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261113-fed-fsr-ai-top-stability-risk",
-      "time": "2026-11-13T21:00:00Z",
-      "headline": "Fed Financial Stability Report names AI the top systemic risk; flags AI-linked debt and data-center build-out",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "META",
-        "GOOGL",
-        "AMZN",
-        "ORCL",
-        "AVGO",
-        "AMD",
-        "MU",
-        "SMCI",
-        "PLTR",
-        "SPY",
-        "QQQ"
-      ],
-      "why": "The Fed explicitly tying elevated equity valuations to AI enthusiasm, and quantifying the credit channel (roughly $680bn of advanced-computing debt issued by October, about 31% of IG issuance, plus multi-trillion off-balance-sheet obligations at the largest tech buyers), raises the cost and scrutiny of the debt that funds the compute order book. That is a financing-availability constraint on the capex stream that becomes NVDA/AVGO/MU revenue, not a sentiment story. It also hands regulators and ratings committees a template for tightening terms on neocloud and vendor-financed deals, which compresses the multiple investors pay for AI-levered earnings.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd1luSGcydUl6NE15cEcydlNhSnRuNjNjVHdMQldrQjRYcXpLZ3FfbnNrWndndDNTaUowRWJ6NDg0dUdaN084LW00YU4tNEhPTXh6Ymx3WVFpZk5MQTgwVFpMX1o4cFdXT2lCQi1xSzlncG9mUkpDa0xTUF9BY2E3cXVnS2fSAYoBQVVfeXFMTmZFcVNQMElxVkdHNTFNMVBOYTg0SGVKNm5ISHM5N3pGUUxKSE5Za2ZuMmZNb3RnY0FpVWxNbWtIdXFIdm0wOWVIa3FXWVJJaVhhTHBzOVpJbzVnY2VGZk04WE5aRHVBdjdkRlVpSm1VQXo1ckRPRTV4aDNjNGJNeGlhSXZ4ZEhIa1dR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261115-nvda-ceo-search-not-yet-engaged",
-      "time": "2026-11-13T21:00:00Z",
-      "headline": "Nvidia board says no search firm retained and no candidates formally engaged for permanent CEO",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "MRVL"
-      ],
-      "why": "A search that has not formally started implies an interim-CEO window measured in quarters, not weeks, which keeps a governance discount on the multiple through at least two reporting cycles and weakens Nvidia's hand in customer roadmap commitments and Washington negotiations. It also contradicts prior shortlist reporting, so the probability of a fast, credible internal succession should be marked down. Hyperscalers making 2027 allocation decisions now have a rational reason to dual-source, which is the transmission channel to AMD and custom-ASIC suppliers.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-      "alerted": false
-    },
-    {
-      "id": "20261113-nvda-q3-print-event-risk-kress",
-      "time": "2026-11-13T18:00:00Z",
-      "headline": "Options market sets an unusually wide expected move into Nvidia's quarter, the first delivered by interim CEO Kress",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MU",
-        "TSM",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "The report is proceeding on schedule with the CFO now also acting CEO, so the guide carries less credibility premium than usual and dealers are pricing a wider distribution than a normal print. That matters mechanically for the index: hedging flow around an outsized expected move in the largest weight amplifies QQQ and SPY realised volatility into and out of the event. Whatever the data-center guide implies also resets the order-book assumption embedded in memory, networking and foundry estimates.",
-      "source": "Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVhIYXNZbFpjNVdYNUQ1VUdubkR5WmNvRlIxZGg0X1V2dWpiS1JBMXRxU1ZlRzVkaVNfZXZMV1Uza2o1SlFlRGdWMkt0dU9ia3VxNmNXb2RzM0NocHhReHlQVTJPbFBHYXpEc0NLcGRJQ2JjSjFEei1XRHdkc1ZfZ2dsQkxIZ2VFMG1WTnZvZGZ6Xzh3SnNOUmdOdjJSRUtqRWlYNEdOU1UtNUlqLXc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261113-nvda-trump-disclosure-conflict-policy-risk",
-      "time": "2026-11-13T15:00:00Z",
-      "headline": "Disclosures showing presidential Nvidia purchases around the export-rule reversal put the China licence framework under conflict-of-interest scrutiny",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI"
-      ],
-      "why": "The value of Nvidia's China access depends on the durability of an executive-branch decision; evidence that the decision is politically contaminated makes it far easier for Congress to statutorily override it rather than negotiate around it. That shortens the expected life of China-derived data-center revenue and increases the chance restrictions get attached to must-pass legislation. Source reporting describes purchases of between $1m and $5m ahead of the rule change; the market-relevant variable is the legislative response, not the position size.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQZk5RU2VXQjlMZWRUMXBHY0N1bWhHYmNLN01UQUJHczZEQVpIclc5NUtwX0paVmpQZkVkTm5hUzc3TDdRaFpEM2Nxb0xBMkx3cURfV2RGNDlQTmE0d0ZhOGwzTUM0RlMyR3FTQUY5emFJODZnckE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261113-bessent-commerce-nvda-china-leakage",
-      "time": "2026-11-13T14:00:00Z",
-      "headline": "Treasury Secretary Bessent publicly faults Commerce over Nvidia chip 'leakage' to China",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "MU"
-      ],
-      "why": "An open split inside the administration over who allowed advanced accelerators to reach China shifts the policy equilibrium toward enforcement rather than licensed sales, raising the odds that remaining China-compliant SKUs are restricted or that licence approvals stall. For Nvidia and AMD that threatens a revenue line analysts had partially re-added to 2026 estimates, and it raises compliance and end-use-verification costs for server builders and foundry customers across the chain. Cabinet-level blame-shifting also removes the bureaucratic cover that had previously slowed new restrictions.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTIzZHZCSGlfZTAwY0VGY1hwZ0stMC1fblpqQ1N1eC1tWHRFazYxeDMxcVIzdEs0NXNUMVRhVWdJTVhOc2ZQcmQwaUFkOVJMZDVJTG5kUlE2aWtNYnljaHlqU05HWjFIUzl0MTJ1UzZGYk11SU5mXzJuTmxwOWFqbHo1TnkwTXZpMFA00gGQAUFVX3lxTE9QZHhGMjFUYWFSaGRxQ2lrQXpWYkdUTzJ6QmRUNFcxV092Q2MzbzZyMm9paGp2eGpEVEVXUzhsdkRZZy1GOFYycFVXYXFTVmlfZmlvM1EzUGh0TkMtU1dlZlVyd0xYemFaeDNYR0RYc2lhdTk4UTNsVjNJM2hXS2hod3dBTzBfYlNnT0dmLUk5dw?oc=5",
       "alerted": false
     }
   ]
