@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T20:53:48Z",
-  "session_date": "2026-11-19",
+  "generated_at": "2026-11-20T07:39:02Z",
+  "session_date": "2026-11-20",
   "items": [
     {
       "id": "20261119-house-committee-discloses-nvda-amd-china-licences",
@@ -58,6 +58,96 @@
       "why": "The split decision \u2014 higher EPS, lower target \u2014 is an explicit statement that the sell side is cutting the multiple it will apply to Nvidia faster than fundamentals are improving, which is the core bear mechanism post-leadership change rather than any demand problem. That de-rating logic travels to the rest of the AI hardware complex, whose valuations are anchored to Nvidia's forward multiple. It caps upside from the beat without changing the earnings path.",
       "source": "Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbGhseFNyaUpUcWVXMHU4dmI1VUVFV3hYTnVocVVMVU1CS2V0QkFnWURMQmd3aTJLZ19aXy10c01KVUhJejNrZ3M2MVAyOEJpVS1kRnFRWE1TVDVucGFVNlpKLTgzbTlRMVUySTl6Nmc3YVBoRHhUcE5qTjRrOGZuLUcxWnJTZ1dXVGRz?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261119-macro-waller-50bp-december-hike",
+      "time": "2026-11-19T14:00:00Z",
+      "headline": "Fed's Waller publicly argues for a 50bp December hike, saying inflation is worsening",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "PLTR",
+        "TSLA",
+        "MSFT",
+        "JPM",
+        "GS"
+      ],
+      "why": "A sitting governor arguing for double the expected increment moves the debate from whether the Fed hikes to how fast, and futures are already at effectively full odds of a December move. A faster tightening path lifts the discount rate applied to the longest-duration cash flows, which is where AI/mega-cap multiples live, and raises the hurdle rate on debt-funded data-center capex. For banks it cuts both ways: wider short-end NIM against a higher probability of credit and duration marks.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-waller-warns-inflation-worsening-133638284.html",
+      "alerted": false
+    },
+    {
+      "id": "20261119-macro-goldman-2027-equity-outlook-8700",
+      "time": "2026-11-19T13:00:00Z",
+      "headline": "Goldman Sachs sets a 2027 S&P 500 target of 8,700, with earnings rather than multiple expansion driving returns",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "why": "The call matters less for its index level than for its composition: it assumes no further multiple expansion and roughly 11% earnings growth, meaning the house view now requires AI capex to convert into delivered profits rather than sentiment. That framing is the bull case most exposed to the current hawkish Fed repricing, since an earnings-only return path has no valuation cushion if the discount rate rises. It also sets the benchmark against which allocators judge a market that has just given back a large part of its post-earnings AI gains.",
+      "source": "Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXJSam1KZ1d3Z2dsQlhYa19WRE9PWURGWEg4TDhsUXc4dmRmYzRPUTd1ZXZ6ZFA4dWVpMWxqSnBIOGZuRjVmOGY0VVk5a0xjVkgyVkRwWUtxbkdLRWhMTksxNW40VUp5aHdmNVlDN0hUWEFrQnJrRXZNSHVLazAzQTlmT0JqTmIzTndlNXhUYXJSSzFKZHZKQUFtU1FsNDBqYWZqMzQzVHEwUTNuOWc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261119-wmt-q3-fy27-raise-comp-shortfall",
+      "time": "2026-11-19T12:00:00Z",
+      "headline": "Walmart lifts full-year FY27 sales and adjusted EPS guidance to $2.84-$2.89 while US comps run below buyside expectations",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "WMT",
+        "COST",
+        "HD",
+        "PG",
+        "KO",
+        "AMZN"
+      ],
+      "why": "The guidance raise (constant-currency net sales now 4.9%-5.2% versus 4.0%-5.0% in August) resets the FY27 earnings base higher, so the multi-quarter EPS path is genuinely up, not just a beat on a stale bar. The offset is mix: growth is increasingly coming from e-commerce, advertising and membership rather than traffic-driven US comps, which is what the stock discounts most. Read-through is a live consumer-spending datapoint for staples and discretionary retail into the holiday quarter and a demand marker for Amazon's retail segment.",
+      "source": "Walmart 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000104169/000010416926000168/earningsreleasefy27q3.htm",
+      "alerted": false
+    },
+    {
+      "id": "20261119-tsm-samsung-china-shipment-pause-licence-queue",
+      "time": "2026-11-19T10:00:00Z",
+      "headline": "Samsung joins TSMC in pausing shipments to Chinese customers, extending suspensions to consumer-electronics accounts while licences are filed",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "MU",
+        "NVDA",
+        "AMD",
+        "QCOM",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The incremental news is breadth, not the AI-accelerator ban itself: two foundries/memory makers are halting mainstream consumer-electronics parts, so the revenue at risk extends past leading-edge AI silicon into volume logic and memory. Near term that is lost China revenue and a licence-queue timing gap with no defined clearance window; medium term it tightens non-China supply and is price-supportive for memory and mature-node capacity. Equipment names face the second-order risk that Chinese customers accelerate domestic substitution rather than wait for licences.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakUyZjVxbWZNMW1wQW0tb0tMYjRGZ2l5TldQb1dzZkJ3MkcxSUgxcjdsTlltSkJFdXRTMDBJMG4zQ3ZSc3R3QmtoLWFMdkhibU9rUmk1QWJkeEtmZ25RUm5UUlMtZk5lbGN3MWJvWmM4UmhDQWM3TEZndk14RERDUEpaamQ5Z3BoVWNDUkpsNEh6NDFaWDM3dGdoZHhLUQ?oc=5",
       "alerted": false
     },
     {
@@ -122,6 +212,24 @@
       "why": "Broadcom currently passes memory through its custom-ASIC programmes, so pulling HBM out of its scope removes a meaningful slice of reported dollar content per accelerator even though the gross-margin mix improves \u2014 the risk is to the headline AI revenue trajectory the stock is valued on, and to Broadcom's negotiating hold over the account. For Google it is a direct unit-cost reduction on its fastest-growing capex line at a moment when memory is the binding constraint on TPU builds. Micron and the other HBM vendors gain a large new direct buyer with volume visibility, strengthening their pricing position into contract renewals.",
       "source": "DigiTimes",
       "url": "https://www.digitimes.com/news/a20261119VL217/google-hbm-broadcom-mediatek-2027.html",
+      "alerted": false
+    },
+    {
+      "id": "20261119-nvda-moodys-outlook-stable-governance",
+      "time": "2026-11-18T22:33:00Z",
+      "headline": "Moody's cuts Nvidia's outlook to stable from positive, affirms Aa1, calling the CEO exit credit negative",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "ORCL",
+        "SMCI"
+      ],
+      "why": "The rating itself is affirmed, so Nvidia's own funding cost is essentially unchanged; what matters is that an agency has formally priced governance and succession uncertainty, closing the upgrade door for 12-18 months. That is a constraint on how aggressively Nvidia can keep extending vendor financing, backstops and equity stakes to AI buildout customers, which has been a hidden support under the demand curve for the whole ecosystem. Equity impact is second-order and mostly expresses itself through the leadership discount already in the multiple rather than through estimates.",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQmI0cjQ4cUVpYjVTeXNuNFdNRmE4bHFJTDBsbDBNLS1LZGEzeFhsUVRvYzltRjA0YUU4RnYzS1htMkNHTDRDcHdfQXk4QjdRYloyQVRJWGtlLXhHNmJiMmVQMVhJNTduQXNZdld6ald5SmN0bUVHWUJpbmRBR2RIN2tVdEI2cG9hcXNMeExDd1JWNFBtS0JLQlkzWERheDhVSWZVZ3Z1RUNsc21zRjVQNWg4cw?oc=5",
       "alerted": false
     },
     {
@@ -725,101 +833,6 @@
       "why": "The suit itself is a modest financial liability, but discovery keeps channel-inventory and sell-through disclosure in the public record, which constrains how aggressively management can frame the client-CPU recovery on upcoming calls. That raises the risk that guidance is set conservatively just as Intel needs a credible demand narrative to fund its foundry build. Legal overhang also widens the discount investors apply to any turnaround milestones.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV3h6RTBxcmh0Z3NRamd4RDE5TGstaEdFUzczYWhUazBDT2xxZjEyVHpYWGg2RllOTGtxcXZmN2kzWnJxdm5peDR3bDlaZG9CLTBZR2tFWnRvcGFlb3QzV2pxNzVWdlFNRktGcWNHM1djNmlqM0hWdE05WTFqSHFURUtmb1k5Ykh3ck4wRE1PcElBUWY4UU10Mk1OeWlhS2s4S2hTd2ZTaGNoQU9pZEhtMnVxZmVWRGVrZHA5MGIwcjVDSnppbWxaUk9teWM2X3hFSzVNMUdMZDFmb0E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261116-nvda-huang-return-campaign",
-      "time": "2026-11-16T12:30:00Z",
-      "headline": "Jensen Huang reportedly weighs Nvidia CEO comeback as Musk and tech leaders back a reinstatement push",
-      "impact": 8,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "QCOM"
-      ],
-      "why": "The founder-premium embedded in Nvidia's multiple was written down when Huang left; a credible path back restores the roadmap-execution and customer-allocation credibility that underpins the Rubin/Vera cycle, which is why the campaign is being read as a partial re-rating catalyst rather than gossip. But a return under a cloud of export-control and governance scrutiny raises the odds of a prolonged leadership fight and a board split, and Washington is pushing the opposite way, so the distribution of outcomes is unusually wide 24 hours before the Q3 print. Read-through is two-sided for merchant-silicon rivals: an Nvidia leadership vacuum was the core bull case for AMD and Broadcom share gains, and that case weakens if Huang returns.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVzVrZl9udUdNTVdUdnNoUG1meHJncG1HUVN6WXlXQ3JkTGNSOE9HQU1pcHJ5RFhEZ01STzQ0ZHFlNUh4YVV6eVNpN3NHNXR0eUpoT2l6bTY2QW5hT05yaXMzaGtZcVBrUWdOa25YeWNkckJ6SW80U3Q1VFhsUUJjUjV1dzNyM0EtUlR5OWh6T1paRnVjeUIzSjVqS0hIaDA1REVkMGMxM3lzMDhYdG1wOFZCLVdxRjRleXNDNTdYc2pQSDVmZVhzZ1ZTUThfWUgwdkRnUzhQOGc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261116-amd-world-labs-deal-close-fei-fei-li",
-      "time": "2026-11-16T12:00:00Z",
-      "headline": "AMD closes $8.2B all-stock World Labs acquisition, installs Fei-Fei Li as EVP and chief scientist",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "Completion converts an announced all-stock deal into actual share issuance, so near-term EPS is diluted against a research asset that generates no revenue today. The strategic logic is that owning spatial/world-model research gives AMD a software-and-systems co-design story to attack the part of Nvidia's moat that is not silicon, which is where its valuation gap has been hardest to close. Whether the multiple rises depends on AMD converting model expertise into Instinct attach rates rather than on the deal itself.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcEFtWnZIUFh6bWd3Smx4RzAwc0pKcTlJTTRyNnR5MWY2dllWWFJrQlZxVG5GTEU3ZkY1TE1IREpJWXZyNS0zV3lhN3JCUGJHd3RnREs1WXMtQnRJdnFEZzNQUk1GV1hRcndrSlNCS3FUOHN4ZzR5dWJoQzBIdTdieEJQWUw4T1A5SUJxM0VJZjYwUXFqY29BbzhVMXZaejg1YnZkU0pBckFoaGZjQzJONm05aWR3THhPLVVrTmlraFZoRS1ZRThJRmhqMTJZOURCVHc5VWN3STN2NEhGaHNUVm5fX0czRXNnc2hF?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261116-nvda-burry-china-revenue-questions",
-      "time": "2026-11-16T11:00:00Z",
-      "headline": "Michael Burry alleges 'mild manipulation' in Nvidia's China sales disclosure ahead of Q3",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA"
-      ],
-      "why": "The claim targets how China-destined revenue is geographically attributed, which matters now because it intersects with the Megaspeed diversion records and the Treasury inquiry \u2014 a disclosure question becomes an audit and restatement question. Even without merit, it raises the bar for what management must address on the call, increasing the chance of guidance framed conservatively around China contribution. The mechanism is multiple compression via disclosure risk, not a change to underlying AI demand.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUpiZUVERkM4STZrc285dWFDVkUyYkdna3dyNzFvS3hlZHZsNkVON1ZqY1pfeURDZ2tEa3J6RU9rU2pNdTc4RE9sU2RIZFp2YnpnRnMxYU54Zm1tZVdpRDQwQlhHYTA0NHdFNkhjWE02YVZsM2RpZHo2b0pWTDRmVTlEQTRvUE1BMFJuVkVNZ2NhS3hZMVIw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261116-mu-dram-price-inversion",
-      "time": "2026-11-16T09:00:00Z",
-      "headline": "Conventional DRAM pricing inverts above AI memory, reshaping Micron's mix economics",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "SMCI",
-        "NVDA",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "If commodity DRAM clears above HBM on a like-for-like basis, Micron earns incremental margin on the non-AI bits it was treating as filler, so blended ASPs rise without needing extra HBM qualification wins \u2014 the earnings leverage is in mix, not volume. The same dynamic is a cost headwind for server OEMs and accelerator vendors that buy DRAM content per box, compressing hardware gross margin downstream. Sustained tightness also supports wafer-fab equipment orders as memory makers pull capacity forward.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWFVdTN3S2tEZzRVbHFTckQwdU1CSkg4VmtkcV9GM2F6UWE5RENEYVlFTmh0M1BscUV1emV0eVNZbmhQdjYyV0JGUGF6OXAydldtakpxdUd1dFdFTndvMkVZY0pTcVNMVjZWVkRHN2R2VXZEVWl1OGdQOFFmandKOXBNeXc5emthSDFITnZ2RU9EN2N1T1Jzeg?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261116-nvda-megaspeed-china-order-channel",
-      "time": "2026-11-16T04:00:00Z",
-      "headline": "WSJ records show Megaspeed arranged nearly $12bn of Nvidia chip orders for Chinese firms; company disputes the account",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "TSM",
-        "AVGO",
-        "AMD"
-      ],
-      "why": "The dollar size matters because it implies a material slice of prior-period shipments was routed to end-customers that may not have been licensable, which creates both restatement/clawback risk on past revenue and a forward air pocket if that channel is shut. It also hands Commerce and Congress a concrete fact pattern to justify harder end-use verification, raising compliance cost and lengthening sales cycles across the whole accelerator supply chain. Nvidia and Megaspeed dispute elements of the reporting, so the quantum of affected revenue is unresolved.",
-      "source": "CEO Magazyn",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6X0FjUnR4YVdDM2swWHpsV2ZOLWFMclhwZjI2dmNUMklzaEJiQjMxTlFGUGQ3M3RVSDFnaG9ZX2FTU1hUc0JjVWdNVTA1bktvci1jdllnNEN6Wk9GZXNfeGVzanJ5TmY0UmY0YXR0WWk?oc=5",
       "alerted": false
     }
   ]
