@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T07:36:10Z",
+  "generated_at": "2026-11-21T19:40:00Z",
   "session_date": "2026-11-21",
   "items": [
     {
@@ -38,6 +38,29 @@
       "why": "The binding question for China-exposed silicon is not what is already banned but whether the perimeter keeps ratcheting; an explicit statement from the administration that the current threshold is sufficient caps the tail risk of another tranche of licence revocations that would force further revenue de-risking. That stabilises the China line in forward models even though it adds nothing to it, and it lowers the probability investors must assign to a retaliatory Chinese response hitting the wider supply chain. It partially offsets the week's foundry-side tightening, so the net effect is to narrow the distribution of outcomes rather than lift estimates.",
       "source": "The Washington Post / AP",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVUcyVzRTZjNwdXZiRjlNMzJXdHdzdC13ZWpFVHY3aEFaX0xLWDlkRkVLamJBd1dGcGpaa0VPV204Rm5Ga3ljWGd5d011UjVhTkxKN2oxTWxpMTNyWEQzY2lkRmd0dkR0QTJuZXROVE5SUU9hZzB5SG8xblltU2s1cVZMN1lRNHJNSWVaNk1HNDFHS0dkUktaWmlCOWVYdFdaOEJORThaYnM1RW9xTEdycW0tbE1WRGFHOXN5ZWJ4SzV4ZnJOUUlJM0hpUk1NNDRMU0hSc2xGdXB5c0FwcjZrcEt1ZGxCbEU?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261120-macro-goldman-panic-index-9",
+      "time": "2026-11-20T21:20:00Z",
+      "headline": "Goldman trading desk says selloff has further to run as its Panic Index reaches 9 out of 10 and systematic/momentum books de-risk",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "PLTR",
+        "TSLA",
+        "MU"
+      ],
+      "why": "This is a flow-mechanics call rather than a fundamental one: when the desk's gauge pins near maximum, it signals vol-target and CTA programs are still mid-unwind, so supply is mechanical and price-insensitive for days after the headline shock. That matters for high-beta AI and momentum leadership because those names carry the largest systematic length and are sold first regardless of earnings. It argues the multiple compression in semis and retail-favourite baskets is not yet finished, independent of any new company news.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaU1jaG5wWHRDVVE3anRoZWtQUlpsTDhnbHVfRDNMSWVidGlNS0RNY2o4QmV4NnNSVThSRnc0VkVfcmx3SVhUMVF2RWtKalBYWERvUDdLd29yT0VXMEx3enNzeGNUTk1uVkhoaDVMZ25URDd4ZVkyVVhnZjhJMlI4UlBGOFV0UGc4NGN0Ulp0UnlXT0dUMk5XV01DYTEzMlBNaHRPX0Z5bnIyeGk0cktoYmxObE1WUQ?oc=5",
       "alerted": false
     },
     {
@@ -187,6 +210,31 @@
       "why": "Licensed volume of this size converts China from a zeroed-out line in consensus models back into a quantifiable revenue contributor, which changes the multi-quarter earnings path rather than sentiment \u2014 units already excluded from guidance would be incremental, high-margin upside for NVDA and AMD and pull-through for foundry, HBM and WFE suppliers. It also resets the implied policy baseline: the ceiling is now a licence queue, not a prohibition. Note that same-day wires conflict in direction, with TSMC tightening China production curbs and Treasury vowing stricter enforcement, so the net policy stance is unresolved and the approvals may be narrower in composition than the headline unit count implies.",
       "source": "DongA Science",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42VmVPZEZzWjNNcElLWF9qWTRQRXdmcjBvZVhERzhxWUl3NVZtbUR1NUV2X2JNS3lnNGwtdi1NeG5qNWc3dWJYa3JaY2NhcDMyUWxidg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261120-semis-export-control-breadth-consumer-chips",
+      "time": "2026-11-20T05:10:00Z",
+      "headline": "Chip supply chain warns new US export controls hit far wider than AI silicon, reaching mobile and consumer parts and non-Chinese customers",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "QCOM",
+        "AVGO",
+        "MRVL",
+        "NVDA",
+        "AMD",
+        "MU",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ],
+      "why": "The read-through is scope, not the already-known TSMC pause: foundry and supply-chain participants say the rule as written captures everyday mobile and consumer-grade silicon and even non-Chinese, non-AI designers, which converts a targeted AI-accelerator restriction into a broad licensing tax on mainstream wafer volume. That pulls revenue at risk beyond the small China AI line into high-volume handset and consumer SKUs where Qualcomm, Broadcom and Marvell carry real exposure, and it lengthens order-to-ship cycles while licences queue. Equipment names re-rate lower because sustained end-demand uncertainty at the foundry customer slows capex commitments even if no shipment is formally banned.",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQTRObUJuVWtPRnhiLTlKSERpb2c5X0lHdXZBYkFCbzMtRmdybENXeG5Qc0RhS0ZUbGJFSlo0YTF1UmlrcWFZRE5nRjM3dUNodUdVaXRZTTVJVTQ4T3NVT3IzZ0MwQzJZNDdWOEtIaVRNakdINmVVX0lnMURMOWQ2LUtWR3NrM0FWQmxNaWZ1VE02UU92clE0SmNpWExqbWsydktHRW83TlRkMkdxWXhlY1p6UzlUVTVD?oc=5",
       "alerted": false
     },
     {
@@ -782,40 +830,6 @@
       "why": "Handing the top job to the finance chief mid-downturn signals the board is prioritising cost control, capital allocation and margin defence over top-line expansion in a soft housing-turnover environment \u2014 a change in the capital-return and investment path, not just a personnel item. The simultaneous CFO handover to Broggi removes the steady forecasting voice investors had anchored on, which is why the market reads the reshuffle as execution risk despite Decker staying as chair. Read-through to LOW on competitive pricing and pro-segment strategy.",
       "source": "TheStreet",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGxVaEJNakRBQVIzMHJBY0V2OThzaG9QU191dEdicWFFMFAxSThGVG4xRmlHUXNOSHlCTU1oNG5uMWtKWThOWGFaMkZldGJJOGZuSEtxNmxiMjNaRXJMbkl2Y1dJeWJ3dVFvZDVZNHNTZzA4QXJ2VTBncHBJQ2xwdUFUSkNXOU0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261117-cost-stifel-initiation-buy",
-      "time": "2026-11-17T12:44:00Z",
-      "headline": "Stifel starts Costco at Buy with a $1,220 target on membership-fee economics",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "COST",
-        "WMT"
-      ],
-      "why": "The call rests on membership income \u2014 a high-margin, recurring, inflation-indexed revenue line that converts almost entirely to operating profit, which is why the bull case survives a premium headline multiple. A fresh Buy initiation above the consensus target drags the mean target higher and gives defensive-rotation money a destination as AI-levered tech de-rates.",
-      "source": "Quantisnow",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVGtkdV9qZndGOUNwYzZJOWJJUWVUQWxVZk1qRXI5MmwxQWRxVzltWENtaWV4UDlrNUVialp4RlJDZHRMQ2lYbWJEcDVmTTBXSGFtNkdwMEFVeVR4TU5tNm9YcVlWODE4WGFuOEM5MEd3UzNFQnJoME5UdGtwWFR3ZHhFSmNHVF9LN09RcUx1VDUyUjdHbGN6QUR6RWVmdjZ5TEM4OA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261117-vix-short-covering-positioning",
-      "time": "2026-11-17T12:00:00Z",
-      "headline": "Short-volatility positioning unwinds as traders reprice equity risk into the Nvidia print",
-      "impact": 5,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA"
-      ],
-      "why": "Covering of short VIX exposure mechanically reduces the systematic vol-selling flow that has been suppressing realised volatility, so dealers hedge more aggressively and index moves get amplified in both directions. For a market where a single stock's guidance is the dominant risk factor, thinner short-vol supply means the post-earnings gap transmits to the broad index rather than staying contained in semis.",
-      "source": "StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZsV3ZlVFFXbnFzdldudTNBdW9KZl95aFNldTk5ZTFUcTlmekdhdGtNWlpMcU9GWWZOcHJWLVhxdUktZWlILTczOGFvc3pOSllRaDBYTXdiTlpna1llQWpHWFdDN0hENEREaHY1TDFqN0cyMTlDelFqcS1PdmdURFpzUDh1UGhTX0RsSVgzUXZncE5TVmZQQTl3NXhkUEVLOFZ1a0lxU0k3cmNjcWx2RnpiYlhnTldoZUlXUnVpOA?oc=5",
       "alerted": false
     }
   ]
