@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-11-20T20:38:55Z",
-  "session_date": "2026-11-20",
+  "generated_at": "2026-11-21T07:36:10Z",
+  "session_date": "2026-11-21",
   "items": [
+    {
+      "id": "20261121-nvda-california-ag-subpoena",
+      "time": "2026-11-21T01:25:00Z",
+      "headline": "California AG serves investigative subpoena on Nvidia over alleged chip diversion to China and investor disclosure, adding a second-jurisdiction probe alongside the SEC",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "A state-level investigation running in parallel to the federal SEC accounting inquiry widens legal exposure beyond securities disclosure into state consumer/securities statutes, and it compels document production about China channel sales that could surface license or end-user problems management has not disclosed. The mechanism is multiple compression, not near-term EPS: discovery risk plus a leadership vacuum after the CEO change raises the equity risk premium and delays the point at which long-only holders will re-underwrite the name. Read-through to AMD, SMCI and the China-exposed supply chain is that channel scrutiny becomes an industry-wide compliance cost and a drag on gray-market China revenue.",
+      "source": "Yahoo Finance / The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW1CMk1XTHhHT0lSUXppY2dQTk5mQjIya210cVc5T0hHcWpnamxVT0YycF9EZU9YeEZ4bG0yQWZxVXhsbDlVMVI3ekZCY01LR0JKeW5qNnQ4dFJURl9jS09HVFRnYkRsaVdWaHBIcWlUS3dnRGlYMWJsTmNxMWgxMUNlUjNGbUVIU0NBNm5sRHZGSTFjVTYyaGllZw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261120-nvda-bessent-no-further-china-curbs",
+      "time": "2026-11-20T22:36:00Z",
+      "headline": "Treasury's Bessent says no further restrictions are needed on older Nvidia chips to China after the remote-access loophole was closed; policy unchanged post Trump-Xi talks",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "MU",
+        "AVGO"
+      ],
+      "why": "The binding question for China-exposed silicon is not what is already banned but whether the perimeter keeps ratcheting; an explicit statement from the administration that the current threshold is sufficient caps the tail risk of another tranche of licence revocations that would force further revenue de-risking. That stabilises the China line in forward models even though it adds nothing to it, and it lowers the probability investors must assign to a retaliatory Chinese response hitting the wider supply chain. It partially offsets the week's foundry-side tightening, so the net effect is to narrow the distribution of outcomes rather than lift estimates.",
+      "source": "The Washington Post / AP",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVUcyVzRTZjNwdXZiRjlNMzJXdHdzdC13ZWpFVHY3aEFaX0xLWDlkRkVLamJBd1dGcGpaa0VPV204Rm5Ga3ljWGd5d011UjVhTkxKN2oxTWxpMTNyWEQzY2lkRmd0dkR0QTJuZXROVE5SUU9hZzB5SG8xblltU2s1cVZMN1lRNHJNSWVaNk1HNDFHS0dkUktaWmlCOWVYdFdaOEJORThaYnM1RW9xTEdycW0tbE1WRGFHOXN5ZWJ4SzV4ZnJOUUlJM0hpUk1NNDRMU0hSc2xGdXB5c0FwcjZrcEt1ZGxCbEU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261120-anthropic-first-full-session-break",
       "time": "2026-11-20T21:15:00Z",
@@ -44,6 +82,23 @@
       "why": "Confirmation of a 10% drawdown in both major indices is a mechanical trigger, not a narrative one: vol-target, risk-parity and CTA books cut gross exposure as realized volatility rises, producing price-insensitive selling that is heaviest in the highest-beta, most-crowded AI longs. Layered on hawkish December Fed pricing, the discount rate on long-duration growth rises at the same moment the flow impulse turns negative, so multiple compression and de-grossing compound. Reuters and Bloomberg frame the streak differently (correction confirmation vs. longest losing run since 2020) but describe the same de-risking episode.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0VmbDFSZy1pMm1jZlE3SG1PMDdjcHdmZnp3WWFQbTBSSHBndDktSEhpRFB4MkRYZUhTQXFhNm9YY0pwNlczMkxtOF9ZMVA2R1VHN2k1MmE3VkN6d292amFiX1JKUUxVcmN4NmxFTGYwbkhlakpkeTZ4eE5yRkxxTTlubE9PUU1jWmtrZVF6RjhiMWhhYmp2Q29Ucy1aMm13T0F0WTMwSGRBZWdQV3pyRjlZRm9pUEVnV0EzQQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261120-intu-mailchimp-divestiture-fy27-guide-cut",
+      "time": "2026-11-20T14:40:00Z",
+      "headline": "Intuit agrees to sell Mailchimp for $3.68B and cuts its forward revenue outlook; brokers trim targets citing Credit Karma deceleration and AI disruption",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "INTU",
+        "CRM",
+        "MSFT"
+      ],
+      "why": "Divesting an acquired growth asset at a fraction of what was paid for it, while simultaneously taking down the revenue line, converts a story about AI-driven attach-rate expansion into one about portfolio shrinkage, so the growth multiple the market pays for application software has to reset even with adjusted EPS guidance intact. Reported numbers differ across outlets on the size of the drop (roughly 9% to 11%), but the direction of the guidance revision is consistent. The read-through matters beyond the company: it is the clearest evidence this week that seat- and SMB-based SaaS revenue is being cannibalised rather than amplified by AI, which pressures the multiple on CRM and other application names at the same time the AI capex complex is already derating.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb2pBNmJtbkh3WExZU2h6ZzR0aUYzbng3VlR1UTAtaTlPN0N1U1VHZC00SVp5QjBLR3RhaGxCazgtQ3FVSUFrZjVqVXhaYkFSMHpiU2JwM0Q0aG5wekZObHc0ZzQ5YzVwN3N0bFdiSGJLRmtydjY1THZhTHJXS1U3dEV3MU1FZTQ1R01IcVdhVDlMQ0xPRzJ3am1tZkttSHZXV2c?oc=5",
       "alerted": false
     },
     {
@@ -761,70 +816,6 @@
       "why": "Covering of short VIX exposure mechanically reduces the systematic vol-selling flow that has been suppressing realised volatility, so dealers hedge more aggressively and index moves get amplified in both directions. For a market where a single stock's guidance is the dominant risk factor, thinner short-vol supply means the post-earnings gap transmits to the broad index rather than staying contained in semis.",
       "source": "StoneX",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZsV3ZlVFFXbnFzdldudTNBdW9KZl95aFNldTk5ZTFUcTlmekdhdGtNWlpMcU9GWWZOcHJWLVhxdUktZWlILTczOGFvc3pOSllRaDBYTXdiTlpna1llQWpHWFdDN0hENEREaHY1TDFqN0cyMTlDelFqcS1PdmdURFpzUDh1UGhTX0RsSVgzUXZncE5TVmZQQTl3NXhkUEVLOFZ1a0lxU0k3cmNjcWx2RnpiYlhnTldoZUlXUnVpOA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261117-bis-five-country-licence-asean-brazil",
-      "time": "2026-11-17T03:00:00Z",
-      "headline": "BIS rule adds licence requirement for advanced chip exports, re-exports and in-country transfers to Malaysia, Singapore, Indonesia, Thailand and Brazil",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI",
-        "MU",
-        "ANET",
-        "TSM",
-        "MRVL"
-      ],
-      "why": "Beyond the remote-access provisions, the rule puts case-by-case licensing on physical shipments into the Southeast Asian build-out corridor that has absorbed a large share of non-US accelerator and AI-server volume, so revenue recognition now depends on BIS approval timing rather than customer readiness. That injects quarter-to-quarter shipment slippage risk into backlog conversion for GPU, custom-ASIC, memory and server-OEM vendors, and raises working capital tied up in undelivered systems. Singapore's trade ministry has said it is still assessing the scope, so the affected revenue base is not yet quantifiable.",
-      "source": "The Edge Malaysia",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HbWVneXd0OHl3ZF9QX0pZWE10VVpyTW53SjlpTkNrS3drcFpwLVFkZXhobFlIRDVvVVBtNFVJSE5haF9vQktRWC1FZGdDRW9C?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261117-nvda-board-rejects-huang-reinstatement",
-      "time": "2026-11-17T01:30:00Z",
-      "headline": "Nvidia board is not considering Huang's return and is focused on the Wachtell-led conduct investigation, despite Trump's public backing",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "The reinstatement campaign had been functioning as a floor under the stock by implying the leadership vacuum was temporary and reversible; an explicit board rejection converts that into a multi-quarter succession and investigation overhang priced into the terminal multiple, not the near-term EPS. An ongoing national-security probe of the founder also keeps customer and sovereign-deal signing risk elevated, with key-person attrition risk below the CEO line. Because Nvidia's order book sets the capex signal for the whole AI supply chain, the de-rating transmits to memory, foundry, networking and server names.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
-      "alerted": false
-    },
-    {
-      "id": "20261116-nvda-trims-intc-stake-13f",
-      "time": "2026-11-16T22:15:00Z",
-      "headline": "Nvidia 13F shows 25% cut to Intel stake, to 161.1M shares, sending INTC lower after hours",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "NVDA",
-        "AMD",
-        "TSM"
-      ],
-      "why": "The Nvidia equity position was the anchor of the strategic x86/accelerator co-development narrative that underpins Intel's foundry-and-partner re-rating; a quarter-sized trim signals the partner is monetising rather than deepening commitment, which removes a key non-fundamental support for the multiple. It also raises the perceived probability that co-designed product revenue slips out of the 2027-28 model, and creates a visible overhang of remaining shares that can be sold. Read-through is mildly positive for AMD and TSMC, which gain if Intel's partner-led server roadmap loses credibility.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmlzcVRDWDhOYUlXa3htU0hKa3JKMGh4NkZpV1hoTXY3YzBVLUlWSVk4Q3Y5My15VFBxbEZyQVBqRmR0Z1ozaWtEZnEzdlZycHdkXzIzMDJtOHppbzdzamU0MjJyR0FENk9vU3pWNlNsZld3eTE4Z09Mc2U3d290bWp6b29vRjlXdl9IRmpGa0pTbVJvZ2h4eVR2czBMaWlTMER3cEh6UThxMXlIUWNKQ2ZXYw?oc=5",
       "alerted": false
     }
   ]
