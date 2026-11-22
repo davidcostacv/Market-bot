@@ -1,7 +1,78 @@
 {
-  "generated_at": "2026-11-21T19:40:00Z",
-  "session_date": "2026-11-21",
+  "generated_at": "2026-11-22T07:18:03Z",
+  "session_date": "2026-11-22",
   "items": [
+    {
+      "id": "20261121-nvda-trump-xi-huang-discussion",
+      "time": "2026-11-21T14:30:00Z",
+      "headline": "Trump says Jensen Huang came up in his talks with Xi, as Bessent reiterates the China chip export framework is unchanged",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QCOM"
+      ],
+      "why": "Elevating a single vendor's leadership into head-of-state discussions signals that accelerator licensing is being traded as diplomatic currency rather than set by a stable rules-based regime, which keeps the China revenue line in US accelerator models unforecastable and caps the multiple investors will pay for it. The accompanying confirmation that no incremental curbs are coming removes an immediate downside tail for shipped volumes, but the earnings path still hinges on political discretion rather than on contracted backlog. Read-through runs to foundry and memory suppliers whose wafer and HBM loadings are set off the same accelerator units.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZY0VGNGFCdGNHVmYycjVUbzFUR0FXcEJrMndDTnJLVDR5Z0VmMHVwS2dTbE5WZTdudnJLNzZJbXdXdXpqUUxCSmR6cUVFeHN4SDV2Ykk1MHlhWGRpNnBoeEpsNnRTempqSzhmdGduNmRQRjFRRExuTdIBfkFVX3lxTE56cjI2TnhQdVVjLVdxdXFYN044dU1UNlZjTFN3eEFYaWsxOERGMmF2S0FsRERhQnBhdWJQekd1dl9tYzFSM1lhVFRPLTVPdlBQdmZfRGppT3lfVFRoZUd2Y29selZXVkRUcUt3bEhMZW53dUlSSlJiLTFWY3FQUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261121-macro-barclays-spx-target-raise-7950",
+      "time": "2026-11-21T12:00:00Z",
+      "headline": "Barclays lifts its S&P 500 year-end target to 7,950 into the correction",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "why": "A major-bank strategist raising the index target while the tape is in drawdown argues the selloff is multiple compression rather than an earnings downgrade, which matters because the sell-side earnings base is what allocators anchor rebalancing to. If the aggregate EPS path is left intact, mechanical de-risking into year-end gets treated as a buyable dislocation rather than the start of an estimate-cut cycle. The index-level call flows straight through to mega-cap tech, which carries the bulk of the benchmark weight and drove the derating.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261121-semis-congress-tougher-ai-chip-rules",
+      "time": "2026-11-21T09:00:00Z",
+      "headline": "Lawmakers press for statutory tightening of AI chip export rules as the China crackdown widens",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MU",
+        "QCOM",
+        "MRVL"
+      ],
+      "why": "Codifying export limits in legislation would strip the executive branch of the licensing discretion that has so far let approved shipments continue, converting a negotiable policy into a hard revenue ceiling that cannot be reversed by a single administration decision. That shifts the risk from timing to permanence for the China portion of accelerator, foundry and equipment backlogs, and forces a wider discount on out-year estimates. Equipment names carry extra exposure because service and spare-part revenue from installed Chinese capacity is recurring and would be stranded.",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVXZHdlYtQnFTY3k3TmNsR0JUZUxubmk5X2tkaFVxUTAwZkVIQTdwVWJudFdkcGQyRHlPTjRXUGNpelJ6eWs4ZmdVR0VwYlJSUFpuakZoVjlHRUNRN2ZJZElGUEg3YjZobVJvcFlJUXFBZ3QtOWk5OFZ4Qzd4YjZRZzZ3cUQ4SlYzaHU3THI0eF95TGVLYmJXSmdrME81dVFnVEpaSWZscThXVm9CNDNIYmxmZmZlZTTSAbwBQVVfeXFMTnBNanFqR2o1aFlhRVZHZDhObk5HbGNTQ3docVRMeTd5ZEczcHYzSVM0bDdFS2VuRC0yTUtZaFdQWlQxb2xfMTh1YllfV2VKeWpWdDBYcF9BSVVyTkR1X1JtU3ExY3JTdzFJMkF4MmNnWEsxRW00ZEdmdzQtMm41d0hHcU9WdUZ3WVNFQTFHbGxkS2F3TW9sNXBFcnVOci1QRmdVMHE0NWVOS0JmWmxEM05SSEM2aWtXUnB6cjc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261121-nvda-california-ag-subpoena",
       "time": "2026-11-21T01:25:00Z",
@@ -774,62 +845,6 @@
       "why": "A triple-digit revenue growth print with an upward Q4 guide resets the forward revenue base for the entire accelerator supply chain: foundry wafer starts at TSM, HBM/DRAM allocation at MU, switching/optics attach at ANET and MRVL, and WFE orders at LRCX/AMAT/KLAC/ASML all key off Nvidia's shipment plan, so the guide raise is a volume signal, not just an NVDA event. It also removes the near-term 'AI demand air pocket' tail risk that had been compressing multiples across AI hardware. Consensus figures differ slightly across sources ($108.85B vs $108.96B vs $109.08B), but the beat is consistent at roughly $7B.",
       "source": "Reuters / Morningstar",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaWVjeHRTNkRreHFmNVBsYkdQeFJjc1htLXA4enJfTEV5clpxOHZRRGdGZXNkZGFzY2FPWUtTMkdCSGZYZXFHMmE5OVFzUDJuc2ZjRGJybkF2MG1pTkxhMFBRam5wdjFNdG5sRGJaaEN5bE1keENqTkJGb2lPeFJQM2Y2NDAtQ3JvSG9pRXExTFpwSE9iandZTFMtcEEtX21xUXM0?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261117-nvda-wolfe-cut-already-discounted",
-      "time": "2026-11-17T14:00:00Z",
-      "headline": "Wolfe Research argues NVDA's price already discounts a guidance cut; holders escalate succession-planning concerns",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "ANET",
-        "SMCI"
-      ],
-      "why": "If the current quote embeds a cut, the asymmetry flips: a soft guide is absorbed rather than re-sold, and the stock's downside is capped by positioning rather than fundamentals. That reframes tonight's print as a clearing event that could reset the 2027 entry point for the whole accelerator supply chain. The offsetting risk flagged is governance \u2014 an unresolved succession process keeps a persistent discount on the multiple even if numbers land fine.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGx0bGQ5WjgxYUZibjFaZTgyV1VwZWdxQ3RDSVN5cm15Sl9oZEtuV1dnUDlYRHZ5U25rTmxHMlhPaE95YWcxWmhRWTRoZG5NWVdLRGl2NnZVUVZuVnNSLXJQSWs1YnpoV0pub1FVbG9oNGswMVhNVEx1OHFCMHRfb1RqQ0JrblExU1VneS13NTd6ZE85VnlXb3JUSmQtNU5LNUE?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261117-nvda-bofa-reiterates-buy-280",
-      "time": "2026-11-17T13:03:00Z",
-      "headline": "Bank of America reiterates Buy on Nvidia at a $280 target, calling the current multiple a multi-decade low",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD",
-        "TSM",
-        "MU"
-      ],
-      "why": "A major bank publicly refusing to follow the downgrade wave puts a floor under the de-rating narrative and gives institutional holders cover to add into the print. The argument is valuation-mechanical: the target is built on 18x the firm's 2027 estimate, inside a historical 15x-56x forward range, with even a flat-growth downside case leaving the stock near 10-11x forward earnings \u2014 and a roughly 36% discount to Broadcom, which is itself an implicit relative-value call on AVGO.",
-      "source": "Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOURxZUtEa3lQXzdJajFESUtkdG5EcmY2NVhFbElZT0xnR3hyVlBjbmZEckt2alp2Q0h6MEJkZTdudXlkRzduQ1Qwdk1UNDdmZDE2Z2k4VmlCUjBza1dheHBOUWRJU0pLSmx2T0JhaFhuQmtCa1JBVjJPTE9MVlRUWmV4TnJrdVM5?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261118-hd-mcphail-ceo-succession",
-      "time": "2026-11-17T13:00:00Z",
-      "headline": "Home Depot elevates CFO Richard McPhail to CEO effective November 23, with Campbell to President/COO and Broggi to CFO",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "HD",
-        "LOW"
-      ],
-      "why": "Handing the top job to the finance chief mid-downturn signals the board is prioritising cost control, capital allocation and margin defence over top-line expansion in a soft housing-turnover environment \u2014 a change in the capital-return and investment path, not just a personnel item. The simultaneous CFO handover to Broggi removes the steady forecasting voice investors had anchored on, which is why the market reads the reshuffle as execution risk despite Decker staying as chair. Read-through to LOW on competitive pricing and pro-segment strategy.",
-      "source": "TheStreet",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGxVaEJNakRBQVIzMHJBY0V2OThzaG9QU191dEdicWFFMFAxSThGVG4xRmlHUXNOSHlCTU1oNG5uMWtKWThOWGFaMkZldGJJOGZuSEtxNmxiMjNaRXJMbkl2Y1dJeWJ3dVFvZDVZNHNTZzA4QXJ2VTBncHBJQ2xwdUFUSkNXOU0?oc=5",
       "alerted": false
     }
   ]
