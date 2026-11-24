@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-11-24T00:12:59Z",
+  "generated_at": "2026-11-24T10:16:10Z",
   "session_date": "2026-11-24",
   "items": [
+    {
+      "id": "20261124-us-morocco-ai-chip-export-easing",
+      "time": "2026-11-24T06:00:00Z",
+      "headline": "US eases AI accelerator export restrictions for Morocco",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "SMCI",
+        "ANET"
+      ],
+      "view_note": null,
+      "why": "Each country moved out of the restricted tier opens a sovereign-AI buyer that can sign multi-year datacentre build contracts, adding incremental TAM that does not depend on US hyperscaler capex cycles. The volume from a single mid-size market is small, but the policy direction matters more than the unit count: it signals the administration is using tiered approvals as leverage rather than blanket denial, lowering the tail risk investors price into accelerator and AI-infrastructure revenue outside China.",
+      "source": "Barlaman Today",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX1RkalZVb1pjRHhUbk5VVDhjNEgzSTRWSWNwcVByNjVYNk1VMi1vQzdkX1J2UFhvWVo0clNTeGxIM0poYkY3bmxxWEFkRERQQlVhOHgwc0RTYVRIVHJrbzVjRnVNTTREWTN2OUswOEpjLTR1QVlnUFRLYWZJV0lQNE5WY0JuNHJRSFBWVUhB?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261124-amd-s3-337m-warrant-share-registration",
+      "time": "2026-11-24T05:30:00Z",
+      "headline": "AMD files S-3 registering up to 337M shares for resale tied to OpenAI and Meta warrants; stock slips overnight",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "META",
+        "AVGO",
+        "TSM",
+        "MU"
+      ],
+      "why": "Registering ~337M shares formalises a float expansion of roughly a fifth of shares outstanding, so every future EPS line for AMD must be modelled on a materially larger diluted count even though the warrants only vest against GPU purchase milestones and high share-price strikes. The near-term effect is a persistent supply overhang that caps the multiple, while the economic offset \u2014 multi-gigawatt accelerator commitments from two of the largest AI buyers \u2014 only shows up in revenue later. Read-through is positive for the AI compute complex: it re-evidences that hyperscaler and lab capex is being locked in with a second merchant GPU vendor, which pressures NVDA's pricing but supports foundry and HBM demand at TSM and MU.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEJEc3NMNGhjTHlKR2tiMTFLWHZrYjBTUmdsMjZseVRCWVpCdDVKUmxCV0kzYnE4MFhPQno1cHZIQzBOWGhzQ0FvNXdsN1dRcnd5RDY2VG13UnlqU1V5Yi1EZGdvTGxTdGc2XzM2RHRzbE01NGFOaThXMlhqTjVuVUlWN1RuM3FHME9kdEFEMUdud1hYVG5tRGNhRk0?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261124-tsm-mature-node-16nm-14nm-control-scope",
+      "time": "2026-11-24T04:00:00Z",
+      "headline": "New BIS rules pull decade-old 16nm/14nm nodes into scope, freezing TSMC orders for affected smartphone, TV and automotive chip designers",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "TSM",
+        "QCOM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "AVGO",
+        "MRVL"
+      ],
+      "why": "Extending licence requirements down to mature logic nodes converts an AI-specific control regime into a volume-business problem: 16nm and 14nm underpin high-unit, low-ASP smartphone, display and automotive parts, so a licence queue there idles capacity that TSMC had been running full and pushes affected designers back to 28/40nm. The earnings mechanism is utilisation and mix at the foundry plus deferred tool pull-through for the equipment names, since China mature-node fabs lose the incentive to upgrade. It also raises the probability that Chinese customers accelerate qualification of domestic foundries, a permanent share loss rather than a timing shift.",
+      "source": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOdGtOVnNvTVh4Z2R4dkZnUVlXTThveFFlT0dxVjFuQnB1Rjd1X3RzRDJtRDd2SEF1WkR0ZDBWQi1fT3A3anBLUmJwbVBSSUd1UFY3ZXdOZllwTURpTzVxTjYwM1dlYm1CcE5pMFhGeTJ4b0VLNTRTeG1EaHRwQ3hCX3hHTGFhME0wX2ozZTM5bmNHcXBucVdfVG1QQmVDS3VVRWtwQkkybTFiSWtUNTZmZGF4SWh0SjlzdEVqWHlNS2cyM3hrVmZoNDRKdEF0aGhtZVpOcURQTE8wTWdRbkg3UGd0UmtDbERwTmNtb1NDWnh3YjhvQ3JUVWdHVk15QjZKamRIMUhNMmpGeEFfbElCRUZhTmdsZWkxdy1Lc2NtSldKeXc5eVVFYjA0X2liR20xMVo0RWV4ZERtd1h6M194ZjZCZVR0QQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261124-hpe-fq4-beat-raise-buyback",
+      "time": "2026-11-24T01:00:00Z",
+      "headline": "HPE beats on FQ4 earnings and guides above consensus with a new $5B buyback; shares give back part of a huge session gain after hours",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "HPE",
+        "SMCI",
+        "DELL",
+        "NVDA",
+        "ANET",
+        "AVGO",
+        "MRVL"
+      ],
+      "why": "A forward guide above consensus from an AI-server and networking vendor is a demand datapoint, not a cost story: it implies the backlog conversion and GPU-system supply that drive the whole rack-scale chain are still accelerating, which supports unit assumptions at SMCI, DELL and the Nvidia/Broadcom/Marvell silicon behind them. The buyback authorisation shrinks the share count and signals management confidence that AI-server gross margin has stopped deteriorating, which is the main bear case on the box builders. The after-hours fade reflects positioning after an outsized regular-session move in the tech complex rather than anything in the numbers.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYmxDdWFnb1hPakdlQUJvbGkwak1fZ0dQOF9NTUZHcnNJc2FaRlRqLXo0bl9PVFBaeXlSNHVRNTNNdzBQNDZlemVtTG8xY1FMNWFqYjhDdGxhaTF5QkxIYjdvUHRzMjBCMnBYVjFzNXE1MFZBQVFzdmZFdVVZT3hZY0c1RzllcHlqRDBCSUt1Z3Y0NG8?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261123-semis-democrats-ai-eval-export-bill-push",
       "time": "2026-11-23T22:00:00Z",
@@ -789,94 +873,6 @@
       "why": "A sitting governor arguing for double the expected increment moves the debate from whether the Fed hikes to how fast, and futures are already at effectively full odds of a December move. A faster tightening path lifts the discount rate applied to the longest-duration cash flows, which is where AI/mega-cap multiples live, and raises the hurdle rate on debt-funded data-center capex. For banks it cuts both ways: wider short-end NIM against a higher probability of credit and duration marks.",
       "source": "Yahoo Finance",
       "url": "https://finance.yahoo.com/economy/policy/articles/fed-waller-warns-inflation-worsening-133638284.html",
-      "alerted": false
-    },
-    {
-      "id": "20261119-macro-goldman-2027-equity-outlook-8700",
-      "time": "2026-11-19T13:00:00Z",
-      "headline": "Goldman Sachs sets a 2027 S&P 500 target of 8,700, with earnings rather than multiple expansion driving returns",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META"
-      ],
-      "why": "The call matters less for its index level than for its composition: it assumes no further multiple expansion and roughly 11% earnings growth, meaning the house view now requires AI capex to convert into delivered profits rather than sentiment. That framing is the bull case most exposed to the current hawkish Fed repricing, since an earnings-only return path has no valuation cushion if the discount rate rises. It also sets the benchmark against which allocators judge a market that has just given back a large part of its post-earnings AI gains.",
-      "source": "Goldman Sachs",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXJSam1KZ1d3Z2dsQlhYa19WRE9PWURGWEg4TDhsUXc4dmRmYzRPUTd1ZXZ6ZFA4dWVpMWxqSnBIOGZuRjVmOGY0VVk5a0xjVkgyVkRwWUtxbkdLRWhMTksxNW40VUp5aHdmNVlDN0hUWEFrQnJrRXZNSHVLazAzQTlmT0JqTmIzTndlNXhUYXJSSzFKZHZKQUFtU1FsNDBqYWZqMzQzVHEwUTNuOWc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261119-wmt-q3-fy27-raise-comp-shortfall",
-      "time": "2026-11-19T12:00:00Z",
-      "headline": "Walmart lifts full-year FY27 sales and adjusted EPS guidance to $2.84-$2.89 while US comps run below buyside expectations",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "WMT",
-        "COST",
-        "HD",
-        "PG",
-        "KO",
-        "AMZN"
-      ],
-      "why": "The guidance raise (constant-currency net sales now 4.9%-5.2% versus 4.0%-5.0% in August) resets the FY27 earnings base higher, so the multi-quarter EPS path is genuinely up, not just a beat on a stale bar. The offset is mix: growth is increasingly coming from e-commerce, advertising and membership rather than traffic-driven US comps, which is what the stock discounts most. Read-through is a live consumer-spending datapoint for staples and discretionary retail into the holiday quarter and a demand marker for Amazon's retail segment.",
-      "source": "Walmart 8-K (SEC)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0000104169/000010416926000168/earningsreleasefy27q3.htm",
-      "alerted": false
-    },
-    {
-      "id": "20261119-tsm-samsung-china-shipment-pause-licence-queue",
-      "time": "2026-11-19T10:00:00Z",
-      "headline": "Samsung joins TSMC in pausing shipments to Chinese customers, extending suspensions to consumer-electronics accounts while licences are filed",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "TSM",
-        "MU",
-        "NVDA",
-        "AMD",
-        "QCOM",
-        "AVGO",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC"
-      ],
-      "why": "The incremental news is breadth, not the AI-accelerator ban itself: two foundries/memory makers are halting mainstream consumer-electronics parts, so the revenue at risk extends past leading-edge AI silicon into volume logic and memory. Near term that is lost China revenue and a licence-queue timing gap with no defined clearance window; medium term it tightens non-China supply and is price-supportive for memory and mature-node capacity. Equipment names face the second-order risk that Chinese customers accelerate domestic substitution rather than wait for licences.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakUyZjVxbWZNMW1wQW0tb0tMYjRGZ2l5TldQb1dzZkJ3MkcxSUgxcjdsTlltSkJFdXRTMDBJMG4zQ3ZSc3R3QmtoLWFMdkhibU9rUmk1QWJkeEtmZ25RUm5UUlMtZk5lbGN3MWJvWmM4UmhDQWM3TEZndk14RERDUEpaamQ5Z3BoVWNDUkpsNEh6NDFaWDM3dGdoZHhLUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261119-anthropic-ipo-debut-ai-pureplay-mark",
-      "time": "2026-11-19T07:00:00Z",
-      "headline": "Anthropic prices record IPO at $83 for 980M shares, raising $81.3B ahead of Nasdaq debut",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "GOOGL",
-        "AMZN",
-        "MSFT",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "A raise of this size withdrawals a large block of equity capital from the market in a single session and forces funds to sell existing AI exposure to fund allocations, which is a mechanical source of pressure on the incumbent AI complex regardless of how the deal trades. More durably, the first-day print creates a public comparable for a frontier-model pure play, and that mark will be used to re-rate the carrying value of Alphabet's and Amazon's stakes and to benchmark Microsoft's model-partner exposure. It also converts Anthropic's compute commitments into a publicly scrutinised, funded capex line for its chip suppliers rather than a private promise.",
-      "source": "CNN Business",
-      "url": "https://www.cnn.com/2026/11/19/business/video/anthropic-ipo-amodei-hill-live-tsi-111912aseg1-cnni-business-fast",
       "alerted": false
     }
   ]
