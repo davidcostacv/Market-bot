@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-11-24T22:40:52Z",
-  "session_date": "2026-11-24",
+  "generated_at": "2026-11-25T08:59:16Z",
+  "session_date": "2026-11-25",
   "items": [
+    {
+      "id": "20261125-nvda-government-equity-stake-pardon-floated",
+      "time": "2026-11-25T03:00:00Z",
+      "headline": "Trump says a federal equity stake in Nvidia is 'probably not too late' and leaves a Huang pardon on the table",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU"
+      ],
+      "why": "A government equity position on the Intel template would be issued below market and dilute existing holders, while also embedding political objectives into capital allocation, product roadmaps and China licensing decisions \u2014 a structural reason for investors to pay a lower multiple on the same earnings. The pardon talk signals the export-control investigations around the CEO remain live into next week's congressional testimony, keeping headline risk and a possible restriction on China shipments unresolved. Peers trade on the same read: a state-equity precedent extending across US chipmakers would reprice sector governance risk, not just Nvidia's.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1pxUXlOYnQzSVRGaGRVLWxzNXdsV0ZQS18tLTk4NEk5VTBlUmVUb0VTT2tLaGFYa01wOVFBUHhBRkx5XzdPV1hDYkxtcE1mU1VCOXNYNWZ3S0pLZEJkbnBOUExWaXJwWFpwWTBncGxpb2JtQkh1RnJjVGdSalBtU2NGT1VrQjNxV3RQb3FTVmYxenJvYUpsLVF5WVNoZGRPdk1jSWtQdHk5ZVFpQTZyakdnQXNrQl8xYWs0N2g2eEQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-asml-match-act-ndaa-dutch-pushback",
+      "time": "2026-11-24T21:21:00Z",
+      "headline": "Dutch lawmakers press government to block US MATCH Act as Congress weighs attaching it to the NDAA",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TSM",
+        "INTC"
+      ],
+      "why": "The MATCH Act would force the Netherlands and Japan to mirror US controls and reaches older DUV tools, not just EUV, putting at risk the China business ASML expects to be roughly a fifth of this year's sales plus the high-margin installed-base service annuity that follows those tools. Attaching it to the must-pass defense bill converts a slow diplomatic process into a dated legislative event, so the risk is no longer theoretical and compresses the multiple on 2027 bookings visibility. Read-through is direct to US deposition and metrology vendors, whose China mature-node revenue would be hit by the same unilateral-extension mechanism, and indirectly supportive of non-China capacity owners.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQzVHX3hnSlM5Wlc1cnprdlZlZ2tEUi1TNkJHYTRzMjUzbnVtek5JSVVFNjZLdXZmeXlUT2lGRFFRaHdZd2pwMWY0MkI3M0tZRVI1d3NmRmotalRHQXdOd3NzUi1ocmJFZU9CY3ByUmZZN3pBSTc3V2NkS0V6d2Jfbzg4V2hJZF81ZHp4djVOU2RJTExUOG1fUlNmYXk3Uy1GWlYxbnR1NmFYcWxjSTRLblNzMmU4UQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261124-semis-huang-return-premium-unwinds",
       "time": "2026-11-24T17:00:00Z",
@@ -100,6 +140,28 @@
       "why": "A new duty layer on imported components and finished goods raises landed cost of hardware bills of materials just as memory and substrate inflation is already compressing hardware gross margins, and it reopens retaliation risk for US firms with large China revenue exposure. Equally important for the multiple: tariffs are a supply-side price shock arriving the day before the Fed's preferred inflation gauge, so they cut against any dovish repricing into the December meeting and keep the discount rate on long-duration tech elevated. Megacap importers and semis cannot pass this through quickly because AI system pricing is largely contracted.",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-semis-china-critical-mineral-suspension-extended",
+      "time": "2026-11-24T12:00:00Z",
+      "headline": "Beijing extends suspension of gallium, germanium, antimony and superhard material curbs on US buyers to 27 January 2027",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "TSM",
+        "QCOM",
+        "MRVL"
+      ],
+      "why": "Gallium and germanium are feedstock for RF, power and optical components and for the compound-semiconductor and packaging layers that sit around AI accelerators, so a lapse would have raised input costs and introduced build-schedule risk into 2027 bills of materials. Extending the pause removes a near-term cost and allocation shock from consensus gross-margin assumptions, but the deliberately short two-month window means it is a reprieve rather than a settlement and leaves a fresh binary date in late January. Procurement teams will likely keep paying up to pre-build inventory, which is a modest working-capital drag rather than an earnings cut.",
+      "source": "International Business Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb0EzMGstN3I2a3NtWC1FdkhJckRHSHo5b3o4aE1LaHE4UmZZS2tSVnlxSUx3LWNnOVhnUk9jMm1DSTZuclNjYTVRVjY0VldkUllqYU5yX0ZDWHhJeExnZG5XSl9jYnBrbjhRTWJHWk5fN2FWd3kzbjQtdlltX2hMZDlDRzhOelZyNUxv?oc=5",
       "alerted": false
     },
     {
@@ -814,71 +876,6 @@
       "why": "Divesting an acquired growth asset at a fraction of what was paid for it, while simultaneously taking down the revenue line, converts a story about AI-driven attach-rate expansion into one about portfolio shrinkage, so the growth multiple the market pays for application software has to reset even with adjusted EPS guidance intact. Reported numbers differ across outlets on the size of the drop (roughly 9% to 11%), but the direction of the guidance revision is consistent. The read-through matters beyond the company: it is the clearest evidence this week that seat- and SMB-based SaaS revenue is being cannibalised rather than amplified by AI, which pressures the multiple on CRM and other application names at the same time the AI capex complex is already derating.",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb2pBNmJtbkh3WExZU2h6ZzR0aUYzbng3VlR1UTAtaTlPN0N1U1VHZC00SVp5QjBLR3RhaGxCazgtQ3FVSUFrZjVqVXhaYkFSMHpiU2JwM0Q0aG5wekZObHc0ZzQ5YzVwN3N0bFdiSGJLRmtydjY1THZhTHJXS1U3dEV3MU1FZTQ1R01IcVdhVDlMQ0xPRzJ3am1tZkttSHZXV2c?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-nvda-sec-accounting-probe",
-      "time": "2026-11-20T14:10:00Z",
-      "headline": "SEC reportedly probing Nvidia's accounting as the stock's rout extends to ~$2.5 trillion of market value",
-      "impact": 9,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "SMCI",
-        "ANET",
-        "MRVL",
-        "ORCL",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "An accounting inquiry attacks the quality of reported revenue rather than the level of demand, so it de-rates the multiple even if the earnings path is unchanged: disclosure risk, potential restatement, and the cost of management time all widen the risk premium on the single largest index weight. The read-through is sector-wide because supplier backlogs at AVGO, TSM, MU, SMCI and ANET are validated by Nvidia's reported order book \u2014 if that reporting is questioned, every downstream order-coverage assumption carries a haircut. Until scope is defined, this is an open-ended overhang that caps any post-earnings re-rating.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-intc-18a-first-external-customer",
-      "time": "2026-11-20T11:45:00Z",
-      "headline": "Intel signs its first external customer for 18A, giving Intel Foundry a third-party anchor",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ASML"
-      ],
-      "why": "Intel Foundry's problem has never been capacity, it is absorption \u2014 fab depreciation is fixed, so the swing factor on operating losses is external wafer volume that carries no internal transfer-price offset. A named outside commitment on 18A is third-party validation of yield and PDK maturity, which is the specific gate that has kept prospective customers from committing and that underwrites the foundry breakeven timeline. At the margin it chips at TSM's leading-edge pricing power, and it supports equipment pull if the ramp expands; the customer and volume are not disclosed in the report, so the size of the earnings delta is not yet quantifiable.",
-      "source": "FXLeaders",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNclMtOWhXRXMxdUEzbHQtVW5nVmZzbVJBMlB1c0gzUWpYWmQ3VVA3RVR0ZFRGcUFaYU1lSGxLa3VzNF8zQXJ4TU0zVDRTRThZWTZSVEJxZUc3YTEwWFNKenRUZVo3QXZkX2dleUs3QmVtOXZqWGZTSmNBR21FTzNleU9vUlBELWtmSm9HYU1ZdUR2RHhMMFdGalBYTy00UTZfYjlnckRKeUxVTlkyOUgtVHFwT3ZsckRsT3VsWWdNNG1TX0pCOTMwRkZseUJhS1c2?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-bessent-remote-access-enforcement-pledge",
-      "time": "2026-11-20T09:20:00Z",
-      "headline": "Bessent pledges active enforcement of AI chip export rules and closure of remote-access gaps",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MSFT",
-        "AMZN",
-        "GOOGL",
-        "ORCL"
-      ],
-      "why": "The remote-access channel \u2014 Chinese entities renting restricted compute from offshore clouds \u2014 is the one leg of China AI demand that survived hardware controls, so formal enforcement removes demand that currently clears through hyperscaler capacity rather than through direct chip sales. For the cloud names it adds customer-screening and compliance obligations on an existing revenue base, and for the chipmakers it narrows the addressable pool outside the licence regime. Cabinet-level commitment also raises the odds that the interim rule is applied strictly rather than being softened in implementation, which cuts against the licence-approval headlines running the same day.",
-      "source": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NUk5qcTZVaGlaSGpUVnJYSm5UcVNVTG9WNXJNeGtJd2hOTERtZ296OTZTNl9QNWF4QWJQSVVxSFRKQ1VVd0lXbENvRjd3bmxFcGJWUEVmYTZmbFVrUmhwR3RMYXhZNjgxdGNCbHBQZlBfY0Fwb2FoNTB6SQ?oc=5",
       "alerted": false
     }
   ]
