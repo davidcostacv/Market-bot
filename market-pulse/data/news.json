@@ -1,7 +1,216 @@
 {
-  "generated_at": "2026-11-25T08:59:16Z",
+  "generated_at": "2026-11-25T21:55:29Z",
   "session_date": "2026-11-25",
   "items": [
+    {
+      "id": "20261125-mu-dram-outlook-cut-memory-tariffs",
+      "time": "2026-11-25T14:30:00Z",
+      "headline": "Weaker DRAM outlook plus new tariffs hit the memory complex; Micron and SanDisk both down about 7%",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "WDC",
+        "STX",
+        "SMCI",
+        "DELL",
+        "HPQ",
+        "AAPL",
+        "NVDA"
+      ],
+      "why": "Memory is a pure price-times-volume business, so any downward revision to the DRAM contract price curve flows straight to Micron's gross margin with almost no cost offset \u2014 this is the single variable that sets the December-quarter print. Tariffs layered onto memory imports raise the landed cost of every server and PC bill of materials, squeezing OEM margins or forcing price increases that dampen unit demand. Note the two wire reports give slightly different declines for Micron (7% vs 6.63%), reflecting premarket versus session quotes.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdVJsOHU0U19rQXoydF81cTI2LXFGMGpnblRtTHdCMFpiZnpnZEZHRW0taEQyOXFKdXNmby1VYVVic0RTby00NThyaW8zYzNjRGJXeHZLVEQzWkIxUFYzeGZFTlRqdDItQl83X2UxeFZXVm9IYW9Hc0tmellMZFktb2hDbVhLZmlDZmg2OExSMHhKNklzanc?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-sp-global-credit-downgrade-warning",
+      "time": "2026-11-25T14:00:00Z",
+      "headline": "S&P Global flags possible Nvidia credit rating downgrade on governance risk",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "ORCL",
+        "SMCI",
+        "AMD"
+      ],
+      "why": "A ratings agency putting governance \u2014 not demand \u2014 at the centre of a downgrade path attaches a permanent risk premium to Nvidia's cost of capital at exactly the moment it is underwriting customer financing, equity stakes and prepay arrangements across the AI buildout. Higher funding costs at the apex vendor transmit to the neocloud and OEM customers that rely on Nvidia-backed credit support. It also legitimises the governance discount applied to the multiple after the leadership turmoil, which is a de-rating rather than an earnings event.",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdG5FX1hUSEdYa0toMWVMb29pN2RoeE5naGJESnE1Q1pzcU15M1FkX3NKOVVwa01ESm9ZM2hKa21xZHBzUkxLLWVvNEJ6VF9VNFRTYTBvT1k2T2V5QldBdVF0N2gtQWlGT0FzM3ZwT2dJeUk3WFl0dkJHa3ZOckRSempHLW9zRUVDTEdJNUJaYVVXbFFlMWFLNkV1UXJZUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-macro-pce-hot-december-hike-priced",
+      "time": "2026-11-25T13:30:00Z",
+      "headline": "Fed's preferred inflation gauge accelerates, with a December rate increase now the base case",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "PLTR",
+        "AVGO",
+        "JPM",
+        "GS"
+      ],
+      "why": "A hot PCE print that locks in a hike rather than a cut flips the discount-rate input for the entire long-duration complex: every dollar of 2028-2030 AI earnings gets discounted harder, which compresses multiples fastest on the highest-P/E names (PLTR, NVDA, TSLA) regardless of their order books. It also raises the hurdle rate on debt-funded data-center construction, directly slowing the capex that semis earnings depend on. Banks are the partial offset, since a steeper policy path widens net interest margins.",
+      "source": "MarketWatch / Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXEwWmxfQlloLXRNcENFN0UwSmFNV0Z1VW9aMzNSeGU3ajdlUVlVNUdKMGNDZTk1a3RjNVJ3ZkNyWXQ3YUN1dEZCMmV5allEUDNVd2FoSnBINFRiYTdXTFh4ajFtNm5HUjVBVmJIT3YwYnlzS3lnMUFycDdwSlpRRlRqV01ZMlpmRGZZb0xVOEF2Y2FrdVlMeGVuNWxJZjlaQWZMV2YzTlVmTkpZQmJCRFRfSlU5azVt?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-semis-congress-export-bill-momentum-post-huang",
+      "time": "2026-11-25T13:00:00Z",
+      "headline": "Huang's reinstatement revives congressional push for statutory China chip restrictions",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "TSM"
+      ],
+      "why": "Legislated export limits are far stickier than executive-branch licensing because they cannot be traded away in a summit or reversed by the next administration, so they would permanently remove China from the addressable market rather than defer it. The mechanism that matters is optionality: current valuations still embed some probability of a China reopening, and a statutory ban prices that option at zero. Domestic accelerator peers are caught by the same product-performance thresholds.",
+      "source": "The Hill",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLU1qclh6d0MzVTgtQUpCYW11SldmTWt2b0JCRnhOYmxlQ0ROSjFpVktxVi1Ta2wtVE1xYUpRa29mc3JRdjNVSXB5NThYQXQzcDNaVUZGajc1SkIwNkhPU2hIa2plTXVGbFNkTGZwREVOaU9LVjR5ZzJBcnA1WTNORzFZSmVCbkI5bnk0d09n?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-white-house-backs-huang-over-hawks",
+      "time": "2026-11-25T12:30:00Z",
+      "headline": "White House support for Huang marks a setback for the administration's China hawks",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ],
+      "why": "Export licensing is still an executive-discretion regime, so who holds the president's ear determines whether compliant China-spec parts get approved or slow-walked \u2014 a political power shift is therefore a direct input to a revenue line, not atmospherics. A hawk-weakened policy process raises the odds of licence grants that would restore a market analysts have largely written to zero. This directly contradicts the legislative momentum story and the two will not both be right.",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcmJ6ZEs2YmJNVWgtVTAwMXIycHFWYWdGNlhfLUl6dThuMlY2ODFFZm9LVTlwaThWSWZodUpPbUMxR1pMSEVybEN2MEJ0bUlHV0xyeFpDLVVVZXp1UWtBVnBUUzVMSWlIMFpNQUhvRjlnbXpLaF91NWNFRExIejhjRUZuSmNuS2owVHVqdC1UYVVfSlFzdGtkUDJfY1ZvSG42OEVpYkI3MFNfU3c?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-avgo-anthropic-ipo-stake-strategic-exposure",
+      "time": "2026-11-25T12:00:00Z",
+      "headline": "Broadcom took $1 billion of Anthropic's IPO on top of tens of billions in commercial exposure",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "AVGO",
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "TSM",
+        "MRVL"
+      ],
+      "why": "Buying equity in a custom-silicon customer converts a backlog relationship into an entrenched one, lowering the probability that Anthropic's next training cluster reverts to merchant GPUs and lengthening the visibility on Broadcom's XPU revenue. It also means Broadcom's income statement and balance sheet now share the same single-counterparty risk, so an Anthropic funding stumble would hit twice. Negative read-through to Nvidia at the margin, since every custom ASIC socket is a displaced accelerator.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUXRCdVZpWEpOWmFoY01TWW5faGI4SHlSTHc2SFEzMEhfdS1ucjltcUpzejRzTlNIakFvMEotbEpxYTlMLWxSbjRQaHhBOGM3a0dBdW0zRWdDLWJSS1lZTjJxcXI2aHJPNEVDYmFVcjVPWEwtanRrSVNfQ1ZCYjJIMDVRaDRaSlBqRk5YaC10VFZ6eTc3bU9wZVlVWG1UN1JhUWFYRUJnSVM1QlhsdTdJMXZ4eXRzcVFvcktqYW9TZnpsZnQ4MUtOSk8yUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-vera-rubin-revenue-per-gigawatt",
+      "time": "2026-11-25T11:30:00Z",
+      "headline": "Nvidia frames Vera Rubin at $40 billion of revenue per gigawatt versus $25 billion for Grace Blackwell",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MU",
+        "AVGO",
+        "ANET",
+        "MRVL",
+        "VRT"
+      ],
+      "why": "Power, not capital, is now the binding constraint on AI buildouts, so revenue per gigawatt is the metric that converts a fixed grid-interconnect pipeline into a revenue ceiling \u2014 raising it roughly 60% expands Nvidia's addressable dollars without needing a single extra megawatt approved. It also implies higher content per rack for HBM, optics and networking partners on the same site footprint. Offsetting this, higher dollar content per gigawatt tightens customer ROI maths if token prices keep falling.",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0hIaVZJVEZvZ2FMR3NpLU9DV3BYUHJzRDlsMUdtZ21BTTBRNFR2a1pVZVZlM2hZeTZsZ1kzdDV2a1l2Q3dWWEJ5SzI5NzFsSVJyRUxTTzhGdzZkYXhPdlVXemE4R29JaU95Yld6Nk1UU2l2UjBQbnY0S2RTOU1EeHdINmRsdXhiLUQtOGhINThVQVVFVUlGNg?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-semis-bank-datacenter-chip-collateral-scrutiny",
+      "time": "2026-11-25T11:00:00Z",
+      "headline": "Banks tighten diligence on data-center borrowers over AI chip collateral",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "ORCL",
+        "DELL",
+        "AVGO",
+        "MU",
+        "JPM",
+        "GS"
+      ],
+      "why": "Most of the marginal GPU order book is financed, with accelerators pledged as collateral against useful-life assumptions of five years or more; if lenders shorten that assumed depreciation schedule, advance rates fall and the same equity cheque buys fewer chips. That tightens the credit channel feeding Nvidia and AMD order flow without any change in stated end-demand, and it hits the thin-margin integrators hardest. For the banks it is a defensive margin story \u2014 better underwriting, smaller book.",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORUJzZHdsdUt1VDhNT2xRY1VSX3VQZFpET1NKVHlyNlF3V0FvbENTYkt4akxXbElMOENpZ0xwNEtJTkIyTnIxV0MzU2xjVWUwRm5qVUJvbE1Gc25rRk1fOWtCX1NtYU5qZ1VVdTF1c2hlbmwzWDgwQ0RrMUlJR0sxTEJleU1Gd3JtOXNOWHd2UkZBUV83RkwybnhLWlpjQzdhOTNxY2xqdk9lR2paWTVZRVF6YkZoYWxVV0dSaFB0OA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-china-resellers-seek-new-buyers",
+      "time": "2026-11-25T10:00:00Z",
+      "headline": "Nvidia channel partners hunt for replacement buyers as Washington closes China export loopholes",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "Grey-channel and third-country reselling has quietly absorbed a slice of accelerator supply that never shows up as China revenue in the filings; shutting those routes removes real demand units rather than merely redirecting paperwork. Inventory that has to be re-placed with new customers typically clears at a discount, which pressures blended ASPs in the quarter it happens. Foundry and substrate suppliers feel it one quarter later through order trimming.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR0FFc0dNY1lQRTdKdnJMNnRFYlBhYU9hVkhJOXlQYlJfbGN4QUpaN0NYMTJfdU1UV01LcTl6WndpQWxHNkV4cVl4M25ZNmtZbkZNZ29aUlBsUV9wNFVXU1FkY3hNSW00TWtuMVBuRjJmcXlPTHpRMjlhcHFYeGFhQzZEX0hmdkQxZzNYaUdLbU54VmJTcU5KVG1xZEFSX1lHSTRUSlBlcmc3ZC1xOVFnakJBX2czZVdKSzEwNURIOTZnQzBjZVBMY003eTFQS0NvR3Q0TTJKckcxUnhFY3hzZ01sb0NoV2pp?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-citi-pt-raise-240",
+      "time": "2026-11-25T09:30:00Z",
+      "headline": "Citi raises Nvidia price target to $240, calling the leadership overhang resolved",
+      "impact": 7,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "AMD",
+        "ANET",
+        "MRVL"
+      ],
+      "why": "A bulge-bracket target increase that rests on removing a governance discount rather than raising estimates tells you the sell side is re-underwriting the multiple, which is what institutional allocators need before re-adding size after a forced de-risking. Because Nvidia's valuation anchors the whole accelerator complex, a restored key-man premium lifts the comparable multiples applied to its foundry, memory and networking suppliers. The risk is that it collides with the S&P Global governance warning pointing the other way.",
+      "source": "TechFlow",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYjNmZUpWVDlPcmZsVzVRUXRSblYwUDEzODB2QzdFaTVDamdFWTBQZkxQbnpLY1FHWGdZNm1taC1YclBNcHNjRFpKaV9XTG5LeTdpODFsdlIyZzJ1LUJBXzM5aHZCQk83dmxOV2N1b01vdnJ3X19aWWJzREk5TVRxM25vcU50SGc?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261125-nvda-government-equity-stake-pardon-floated",
       "time": "2026-11-25T03:00:00Z",
@@ -663,219 +872,6 @@
       "why": "A presidential-level restatement sets the ceiling on what can be licensed: top-bin accelerators stay off the table, so the China line in NVDA/AMD datacenter models cannot be re-underwritten at prior run-rates, while leading-edge capacity stays allocated to US hyperscalers. The offsetting leg is that explicit permission for trailing-edge parts caps the downside for mature-node foundry and equipment revenue that the latest BIS node-flagging had put in doubt. Net effect is to narrow the policy distribution rather than shift the mean, which compresses the option value investors had been paying for a China re-opening.",
       "source": "SBS News",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqSUJleERkNTJIcDhSQjU0MTB3NzBsRHlCbEFiYUxIcnI5Z1lGUjhaMHpDbUhUUWNBUFpMWjNXRndvelhzdjk2WUhhTHN2cHI0eHBWM1FPdXZ4cUtKLXJiMEwyS3k5UHJ6MlJBVkRn?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261122-semis-bessent-export-enforcement-accountability",
-      "time": "2026-11-21T20:00:00Z",
-      "headline": "Bessent calls for officials to be named over chip export-control enforcement failures",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "MRVL"
-      ],
-      "why": "An accountability hunt inside the administration is how enforcement tightens without any new rule being written: licence processing slows, shipment diligence lengthens and resellers/system integrators face retroactive scrutiny, which pushes revenue recognition to the right. It also sits awkwardly against the Treasury line that no further restrictions are needed, so the two signals conflict and investors should treat the 'policy is settled' framing as unstable. Server assemblers with China-adjacent channels carry the most working-capital risk from licence delay.",
-      "source": "Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wODN1TVVUUy1YdnNLTHFQV1lKSFI0c3oySnBmSmF3V1JMaFg4Z19vcGZvSXJUcjRFQktiNzFFWkx3TUpENmkwUjVKM3hqeExoZkdNOG9Ud1pTazlpc2liSnAwQ0tWbE45aXR1TEFzODBkWVNBR3BLQjJ2OA?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261121-nvda-trump-xi-huang-discussion",
-      "time": "2026-11-21T14:30:00Z",
-      "headline": "Trump says Jensen Huang came up in his talks with Xi, as Bessent reiterates the China chip export framework is unchanged",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "QCOM"
-      ],
-      "why": "Elevating a single vendor's leadership into head-of-state discussions signals that accelerator licensing is being traded as diplomatic currency rather than set by a stable rules-based regime, which keeps the China revenue line in US accelerator models unforecastable and caps the multiple investors will pay for it. The accompanying confirmation that no incremental curbs are coming removes an immediate downside tail for shipped volumes, but the earnings path still hinges on political discretion rather than on contracted backlog. Read-through runs to foundry and memory suppliers whose wafer and HBM loadings are set off the same accelerator units.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZY0VGNGFCdGNHVmYycjVUbzFUR0FXcEJrMndDTnJLVDR5Z0VmMHVwS2dTbE5WZTdudnJLNzZJbXdXdXpqUUxCSmR6cUVFeHN4SDV2Ykk1MHlhWGRpNnBoeEpsNnRTempqSzhmdGduNmRQRjFRRExuTdIBfkFVX3lxTE56cjI2TnhQdVVjLVdxdXFYN044dU1UNlZjTFN3eEFYaWsxOERGMmF2S0FsRERhQnBhdWJQekd1dl9tYzFSM1lhVFRPLTVPdlBQdmZfRGppT3lfVFRoZUd2Y29selZXVkRUcUt3bEhMZW53dUlSSlJiLTFWY3FQUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261121-macro-barclays-spx-target-raise-7950",
-      "time": "2026-11-21T12:00:00Z",
-      "headline": "Barclays lifts its S&P 500 year-end target to 7,950 into the correction",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "AAPL",
-        "GOOGL",
-        "AMZN",
-        "META"
-      ],
-      "why": "A major-bank strategist raising the index target while the tape is in drawdown argues the selloff is multiple compression rather than an earnings downgrade, which matters because the sell-side earnings base is what allocators anchor rebalancing to. If the aggregate EPS path is left intact, mechanical de-risking into year-end gets treated as a buyable dislocation rather than the start of an estimate-cut cycle. The index-level call flows straight through to mega-cap tech, which carries the bulk of the benchmark weight and drove the derating.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaGdsNEc0dTRPYXdrMlViWmd6WnRoQmd2ZVY0ZC1xQ0ZpbVdCa2s1WnYxS1Yzdkx4b2RhX3lBY09KZHE3Z19SNlpGU1pydmJHTWJvMExiWE9pYjlQVDlIMXBLTTZnX05BUlNkS2Z0NkgxS3d3ZFNWTEd2YzJDbmZGdVpwNms5cGFwQjB4REJQd3RMamd6Yms5NXdNS1hadU01TDdtcTRmZDdETmZ1dlpkVUV2ek9GOEljMkd1Q0ZtbUhOQmZGTVNDRENOVll3YTFqVHV5N3B1Y0U0a2VtUTZtNkprRQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261121-semis-congress-tougher-ai-chip-rules",
-      "time": "2026-11-21T09:00:00Z",
-      "headline": "Lawmakers press for statutory tightening of AI chip export rules as the China crackdown widens",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MU",
-        "QCOM",
-        "MRVL"
-      ],
-      "why": "Codifying export limits in legislation would strip the executive branch of the licensing discretion that has so far let approved shipments continue, converting a negotiable policy into a hard revenue ceiling that cannot be reversed by a single administration decision. That shifts the risk from timing to permanence for the China portion of accelerator, foundry and equipment backlogs, and forces a wider discount on out-year estimates. Equipment names carry extra exposure because service and spare-part revenue from installed Chinese capacity is recurring and would be stranded.",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVXZHdlYtQnFTY3k3TmNsR0JUZUxubmk5X2tkaFVxUTAwZkVIQTdwVWJudFdkcGQyRHlPTjRXUGNpelJ6eWs4ZmdVR0VwYlJSUFpuakZoVjlHRUNRN2ZJZElGUEg3YjZobVJvcFlJUXFBZ3QtOWk5OFZ4Qzd4YjZRZzZ3cUQ4SlYzaHU3THI0eF95TGVLYmJXSmdrME81dVFnVEpaSWZscThXVm9CNDNIYmxmZmZlZTTSAbwBQVVfeXFMTnBNanFqR2o1aFlhRVZHZDhObk5HbGNTQ3docVRMeTd5ZEczcHYzSVM0bDdFS2VuRC0yTUtZaFdQWlQxb2xfMTh1YllfV2VKeWpWdDBYcF9BSVVyTkR1X1JtU3ExY3JTdzFJMkF4MmNnWEsxRW00ZEdmdzQtMm41d0hHcU9WdUZ3WVNFQTFHbGxkS2F3TW9sNXBFcnVOci1QRmdVMHE0NWVOS0JmWmxEM05SSEM2aWtXUnB6cjc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261121-nvda-california-ag-subpoena",
-      "time": "2026-11-21T01:25:00Z",
-      "headline": "California AG serves investigative subpoena on Nvidia over alleged chip diversion to China and investor disclosure, adding a second-jurisdiction probe alongside the SEC",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "SMCI",
-        "TSM",
-        "AVGO"
-      ],
-      "why": "A state-level investigation running in parallel to the federal SEC accounting inquiry widens legal exposure beyond securities disclosure into state consumer/securities statutes, and it compels document production about China channel sales that could surface license or end-user problems management has not disclosed. The mechanism is multiple compression, not near-term EPS: discovery risk plus a leadership vacuum after the CEO change raises the equity risk premium and delays the point at which long-only holders will re-underwrite the name. Read-through to AMD, SMCI and the China-exposed supply chain is that channel scrutiny becomes an industry-wide compliance cost and a drag on gray-market China revenue.",
-      "source": "Yahoo Finance / The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW1CMk1XTHhHT0lSUXppY2dQTk5mQjIya210cVc5T0hHcWpnamxVT0YycF9EZU9YeEZ4bG0yQWZxVXhsbDlVMVI3ekZCY01LR0JKeW5qNnQ4dFJURl9jS09HVFRnYkRsaVdWaHBIcWlUS3dnRGlYMWJsTmNxMWgxMUNlUjNGbUVIU0NBNm5sRHZGSTFjVTYyaGllZw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-nvda-bessent-no-further-china-curbs",
-      "time": "2026-11-20T22:36:00Z",
-      "headline": "Treasury's Bessent says no further restrictions are needed on older Nvidia chips to China after the remote-access loophole was closed; policy unchanged post Trump-Xi talks",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "MU",
-        "AVGO"
-      ],
-      "why": "The binding question for China-exposed silicon is not what is already banned but whether the perimeter keeps ratcheting; an explicit statement from the administration that the current threshold is sufficient caps the tail risk of another tranche of licence revocations that would force further revenue de-risking. That stabilises the China line in forward models even though it adds nothing to it, and it lowers the probability investors must assign to a retaliatory Chinese response hitting the wider supply chain. It partially offsets the week's foundry-side tightening, so the net effect is to narrow the distribution of outcomes rather than lift estimates.",
-      "source": "The Washington Post / AP",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVUcyVzRTZjNwdXZiRjlNMzJXdHdzdC13ZWpFVHY3aEFaX0xLWDlkRkVLamJBd1dGcGpaa0VPV204Rm5Ga3ljWGd5d011UjVhTkxKN2oxTWxpMTNyWEQzY2lkRmd0dkR0QTJuZXROVE5SUU9hZzB5SG8xblltU2s1cVZMN1lRNHJNSWVaNk1HNDFHS0dkUktaWmlCOWVYdFdaOEJORThaYnM1RW9xTEdycW0tbE1WRGFHOXN5ZWJ4SzV4ZnJOUUlJM0hpUk1NNDRMU0hSc2xGdXB5c0FwcjZrcEt1ZGxCbEU?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-macro-goldman-panic-index-9",
-      "time": "2026-11-20T21:20:00Z",
-      "headline": "Goldman trading desk says selloff has further to run as its Panic Index reaches 9 out of 10 and systematic/momentum books de-risk",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "PLTR",
-        "TSLA",
-        "MU"
-      ],
-      "why": "This is a flow-mechanics call rather than a fundamental one: when the desk's gauge pins near maximum, it signals vol-target and CTA programs are still mid-unwind, so supply is mechanical and price-insensitive for days after the headline shock. That matters for high-beta AI and momentum leadership because those names carry the largest systematic length and are sold first regardless of earnings. It argues the multiple compression in semis and retail-favourite baskets is not yet finished, independent of any new company news.",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaU1jaG5wWHRDVVE3anRoZWtQUlpsTDhnbHVfRDNMSWVidGlNS0RNY2o4QmV4NnNSVThSRnc0VkVfcmx3SVhUMVF2RWtKalBYWERvUDdLd29yT0VXMEx3enNzeGNUTk1uVkhoaDVMZ25URDd4ZVkyVVhnZjhJMlI4UlBGOFV0UGc4NGN0Ulp0UnlXT0dUMk5XV01DYTEzMlBNaHRPX0Z5bnIyeGk0cktoYmxObE1WUQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-anthropic-first-full-session-break",
-      "time": "2026-11-20T21:15:00Z",
-      "headline": "Anthropic falls 14% in its first full session, breaking the debut mark for the only listed frontier-model pure play",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "SMCI",
-        "QQQ"
-      ],
-      "why": "The listing created the first public price for frontier-model economics, and the market is now using that print as the discount rate applied to every compute contract and lease structure that underwrites GPU backlog. A break below the debut level raises the implied cost of capital for model labs, which is the funding source for the multi-year commitments embedded in semiconductor and AI-server order books \u2014 the transmission is through customer financing capacity, not sentiment. It also hands bears a daily mark-to-market reference for the AI trade that did not previously exist.",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50RzRKZlFQNVc5QjdpUWRtYjlWSWVfSm0xeTY5WjFxWkJ3bUFzVzF2RExQNkgwa0ZpUHBvb0gzVG1uRkkwMFpmVU1ET0ozZVJEcWZwSFNLZmZsM0xKOUNHNVg1TUsxZmpGRlpzYVFYOXFYdVkt0gF6QVVfeXFMTWNYWWtkSnZJbkpvWFNBSmVKNTM3aFlCakNSb1BlMWVRMF8tTUlidTdNbWZoSUNyQ2hGNHEwckNsa3VGWUFuYldEc2MweXJsdXc3Yzd0OENTNGlBa1JRYmJZMVEwbmVncmJuVnRvQU9OamlpaDNaU3FVbHc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-macro-spx-dow-confirm-correction",
-      "time": "2026-11-20T20:45:00Z",
-      "headline": "S&P 500 and Dow set to confirm corrections as the index heads for its longest losing run since 2020",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "PLTR",
-        "TSLA"
-      ],
-      "why": "Confirmation of a 10% drawdown in both major indices is a mechanical trigger, not a narrative one: vol-target, risk-parity and CTA books cut gross exposure as realized volatility rises, producing price-insensitive selling that is heaviest in the highest-beta, most-crowded AI longs. Layered on hawkish December Fed pricing, the discount rate on long-duration growth rises at the same moment the flow impulse turns negative, so multiple compression and de-grossing compound. Reuters and Bloomberg frame the streak differently (correction confirmation vs. longest losing run since 2020) but describe the same de-risking episode.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0VmbDFSZy1pMm1jZlE3SG1PMDdjcHdmZnp3WWFQbTBSSHBndDktSEhpRFB4MkRYZUhTQXFhNm9YY0pwNlczMkxtOF9ZMVA2R1VHN2k1MmE3VkN6d292amFiX1JKUUxVcmN4NmxFTGYwbkhlakpkeTZ4eE5yRkxxTTlubE9PUU1jWmtrZVF6RjhiMWhhYmp2Q29Ucy1aMm13T0F0WTMwSGRBZWdQV3pyRjlZRm9pUEVnV0EzQQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261120-intu-mailchimp-divestiture-fy27-guide-cut",
-      "time": "2026-11-20T14:40:00Z",
-      "headline": "Intuit agrees to sell Mailchimp for $3.68B and cuts its forward revenue outlook; brokers trim targets citing Credit Karma deceleration and AI disruption",
-      "impact": 7,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "INTU",
-        "CRM",
-        "MSFT"
-      ],
-      "why": "Divesting an acquired growth asset at a fraction of what was paid for it, while simultaneously taking down the revenue line, converts a story about AI-driven attach-rate expansion into one about portfolio shrinkage, so the growth multiple the market pays for application software has to reset even with adjusted EPS guidance intact. Reported numbers differ across outlets on the size of the drop (roughly 9% to 11%), but the direction of the guidance revision is consistent. The read-through matters beyond the company: it is the clearest evidence this week that seat- and SMB-based SaaS revenue is being cannibalised rather than amplified by AI, which pressures the multiple on CRM and other application names at the same time the AI capex complex is already derating.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb2pBNmJtbkh3WExZU2h6ZzR0aUYzbng3VlR1UTAtaTlPN0N1U1VHZC00SVp5QjBLR3RhaGxCazgtQ3FVSUFrZjVqVXhaYkFSMHpiU2JwM0Q0aG5wekZObHc0ZzQ5YzVwN3N0bFdiSGJLRmtydjY1THZhTHJXS1U3dEV3MU1FZTQ1R01IcVdhVDlMQ0xPRzJ3am1tZkttSHZXV2c?oc=5",
       "alerted": false
     }
   ]
