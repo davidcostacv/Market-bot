@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-11-25T21:55:29Z",
-  "session_date": "2026-11-25",
+  "generated_at": "2026-11-26T08:46:01Z",
+  "session_date": "2026-11-26",
   "items": [
+    {
+      "id": "20261126-nvda-southeast-asia-server-shipment-halt",
+      "time": "2026-11-26T03:30:00Z",
+      "headline": "Nvidia tells manufacturing partners to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia under new US curbs",
+      "impact": 8,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "TSM",
+        "AVGO",
+        "ANET",
+        "MRVL",
+        "MU",
+        "AMD",
+        "QQQ"
+      ],
+      "why": "Southeast Asia has become one of the fastest-growing destinations for GPU-server deployments, so a self-imposed shipment stop pending licences converts booked backlog into deferred or cancelled revenue rather than shifting it to another geography. The hit lands on the whole system stack \u2014 ODM/OEM integrators, networking, HBM and foundry wafer starts \u2014 because servers cannot ship without every component, and licence timelines are unknown, which widens the error bars on next-quarter datacenter revenue and compresses the multiple investors pay for that backlog. Reuters/FT and Nikkei describe overlapping but not identical scope (Nvidia instructing partners vs. at least two partners suspending on their own), so the breadth of the halt is not fully settled.",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Kak1ad1FRdWRqVGVON1hqem85Sjk3R0tBR29JbzRRUUltM1lFemJ2bDZJb2JGR1pSLWItalRwbFYydFFfTGVSRjc0VlpISVVWNzZ6OVlkRENsRXNnVXVXd0NFYnlueTZsOEpwdmx4WUF4VDRDbGdhd1hB0gGOAUFVX3lxTE5iYm5qOC1rUlVxb3J5UGRzTlpVZzNEUE80dHltc25SZUFKWHBJT2FPdDZXZ1d0a3NNcVprd09tenlfYXNEOHpyQzhHZGpKbG04WUM2SjdoTnM0LTZQVDVwMWw1QnF2dTVHSzdUTlMybGd1ZVBFUVh3NUh5UkRLdnBXMWRQSVgwdnlFajBCeUE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-crypto-disclosure-class-action-settlement",
+      "time": "2026-11-25T22:00:00Z",
+      "headline": "Nvidia agrees to cash settlement of eight-year securities class action over crypto-mining GPU demand disclosures",
+      "impact": 5,
+      "direction": "bullish",
+      "scope": "company",
+      "tickers": [
+        "NVDA"
+      ],
+      "why": "The cash outlay is trivial against Nvidia's quarterly free cash flow, so the earnings effect is a rounding error; what changes is the removal of a disclosure-liability tail that had survived to the Supreme Court and would otherwise hang over the stock through discovery into management's revenue attribution practices. Clearing it matters more than usual right now because governance and disclosure risk are already live issues around the CEO situation, and settled litigation narrows that discount. Reported settlement figures conflict across outlets \u2014 the headline cites $300 million while court-filing accounts say $290 million.",
+      "source": "\u6df1\u6f6eTechFlow",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNmZaVTQxaEtSTGRBM2VXdU1aZ2t3SzBJdjc0M3hISldjaFdJMjZVUE1WMGZXVXRHX0hJU0FUM2RSWHJicmlaVC1ZQ3Y2NTZYUThIdDNDUVU0MEFzc3pJZHVMWm5uYmprdlVQc2MzTlJZVXpsQ2RUdjRGYTBTN2hSMnR5OVc2MmZsRUtMZjJMYTU?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261125-mu-dram-outlook-cut-memory-tariffs",
       "time": "2026-11-25T14:30:00Z",
@@ -41,6 +79,26 @@
       "why": "A ratings agency putting governance \u2014 not demand \u2014 at the centre of a downgrade path attaches a permanent risk premium to Nvidia's cost of capital at exactly the moment it is underwriting customer financing, equity stakes and prepay arrangements across the AI buildout. Higher funding costs at the apex vendor transmit to the neocloud and OEM customers that rely on Nvidia-backed credit support. It also legitimises the governance discount applied to the multiple after the leadership turmoil, which is a de-rating rather than an earnings event.",
       "source": "Business Insider",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdG5FX1hUSEdYa0toMWVMb29pN2RoeE5naGJESnE1Q1pzcU15M1FkX3NKOVVwa01ESm9ZM2hKa21xZHBzUkxLLWVvNEJ6VF9VNFRTYTBvT1k2T2V5QldBdVF0N2gtQWlGT0FzM3ZwT2dJeUk3WFl0dkJHa3ZOckRSempHLW9zRUVDTEdJNUJaYVVXbFFlMWFLNkV1UXJZUQ?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-crossasset-bitcoin-risk-appetite-breakdown",
+      "time": "2026-11-25T14:00:00Z",
+      "headline": "Bitcoin breaks lower into the PCE print, on track for its worst month in over three years",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "PLTR",
+        "TSLA"
+      ],
+      "why": "Crypto is the highest-beta expression of liquidity expectations, so a sustained breakdown while a December hike is being priced signals that leveraged risk books are de-grossing rather than rotating. That matters for the watchlist because the same multiple-expansion trade funds long-duration AI and retail-momentum equities, and forced deleveraging there typically shows up as correlated drawdowns in high-beta tech regardless of company fundamentals.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUDBZOHNQQ1V2M2l0VjY0dXEwYlNRT2ZZbU15RzhaNkVzd1lCOWpLTERHTXVlNkN5NGU2czhwMlVqOW9UOXUtQnB1ZERnS2tMXy0tNlpvUXpxMm9NTUJZRUdZQTU3elFLbEhoWW9NN211VHRPamowdEJtaUpaNmpyMDVONHA4QzRGTWlVN3hzOXhNdGlWcW1FWHBzZnV2RExTbEYxZEc3WXpMaXBXaExISzBNckdIR0RXajdHN2dJTURJcDIzZDMxUzVRWEhHeEw2czhFYkd4TDd1TVRmRjhHVFBENEc2aHBuTENHSjRETUxld1k?oc=5",
       "alerted": false
     },
     {
@@ -129,6 +187,32 @@
       "alerted": false
     },
     {
+      "id": "20261125-semis-asia-datacenter-financing-paused",
+      "time": "2026-11-25T12:00:00Z",
+      "headline": "Lenders pause billions in data-centre financing tied to Chinese hyperscalers as new export rules hit Asian AI buildout",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "MU",
+        "AMD",
+        "MRVL",
+        "ANET",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "QQQ"
+      ],
+      "why": "AI capex is debt-financed at the margin, so a credit pause is a demand shock that arrives faster than any licence denial: projects that cannot close funding do not place orders, and the order book for GPUs, HBM, optics and WFE thins out two to three quarters ahead. It also reprices the perceived durability of the buildout outside the US hyperscalers, which is the part of the AI revenue base investors have been assigning the most generous out-year multiple to.",
+      "source": "Semafor",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZklOc3I0a2k3MjM3ZzduMUlROG5WVFlhWWZ1ZWhrTVRFclRZT0ppcnNpRGk2RGJIeGFEWFJtQk9vOU5hMVNEa29KTmhoMHo5aGhyWlJIdnNFaWlnenBVVmtjWXVERkJuRmFYQTRaSXduYVJpTkJDZkU0UGlIU2ZZOWN3RU96WXY5cHBfQWN4TThzM3c?oc=5",
+      "alerted": false
+    },
+    {
       "id": "20261125-nvda-vera-rubin-revenue-per-gigawatt",
       "time": "2026-11-25T11:30:00Z",
       "headline": "Nvidia frames Vera Rubin at $40 billion of revenue per gigawatt versus $25 billion for Grace Blackwell",
@@ -170,6 +254,25 @@
       "why": "Most of the marginal GPU order book is financed, with accelerators pledged as collateral against useful-life assumptions of five years or more; if lenders shorten that assumed depreciation schedule, advance rates fall and the same equity cheque buys fewer chips. That tightens the credit channel feeding Nvidia and AMD order flow without any change in stated end-demand, and it hits the thin-margin integrators hardest. For the banks it is a defensive margin story \u2014 better underwriting, smaller book.",
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORUJzZHdsdUt1VDhNT2xRY1VSX3VQZFpET1NKVHlyNlF3V0FvbENTYkt4akxXbElMOENpZ0xwNEtJTkIyTnIxV0MzU2xjVWUwRm5qVUJvbE1Gc25rRk1fOWtCX1NtYU5qZ1VVdTF1c2hlbmwzWDgwQ0RrMUlJR0sxTEJleU1Gd3JtOXNOWHd2UkZBUV83RkwybnhLWlpjQzdhOTNxY2xqdk9lR2paWTVZRVF6YkZoYWxVV0dSaFB0OA?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261125-nvda-china-diversion-reuters-investigation",
+      "time": "2026-11-25T11:00:00Z",
+      "headline": "Reuters investigation details the channels through which Chinese buyers obtained restricted Nvidia accelerators",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "TSM",
+        "AVGO"
+      ],
+      "why": "Documented diversion routes give Commerce and Congress the evidentiary basis to extend licensing from named end-users to intermediaries, resellers and rented offshore capacity, which raises compliance cost and lengthens the sales cycle in every tier-2 geography. The second-order risk is retroactive enforcement against partners already in the channel, which makes distributors and integrators tighten credit and order terms even where shipments remain legal.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM3p3aTZQaS1CdktCWEZsSnk0TmVWREE1a0tmVW5kVnBxdG5VNU1TX2FmWnZ1aTc1UEQyblFkSklCZ3NlcU1XQUZQVDUwTXZ6R3BoVjlRb1RPY0pTNGdmUUdNZkw0Zi1oanJOcXFieGlBdzRTN05pa3FsaVhUWVk0UWpzc0hkN2kySGF6bGRpU1Y1a2IyNi1iaUFQZThLNVZON0E?oc=5",
       "alerted": false
     },
     {
@@ -752,126 +855,6 @@
       "why": "Dell sits downstream of GPU allocation, so its backlog-to-revenue conversion and AI server gross margin are the cleanest independent check on whether hyperscaler commitments are real orders or placeholder bookings. Weak conversion would imply Nvidia's backlog is being recognised slower than assumed, hitting the whole supply chain's revenue timing; strong conversion with thin margins would instead confirm demand but compress the integrator layer. Either outcome moves SMCI and the optics/networking names more than it moves Dell.",
       "source": "Stocks Down Under",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE00NEg0SUlPaGhhdmEtV2xpek9JZk14M0VEMEE5b28wRnljakZLMDA0WkRmQUpFLXhOV3JWMWZZQzZJSXRpQVN3SnFTUWVYajY5OU9NZFFDemFvUXVOZzQ5UTUyN2FVUE5tLVp2azBRaU1JX0tnY2sxZHBZcw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-crossasset-futures-rally-havens-sold",
-      "time": "2026-11-23T06:00:00Z",
-      "headline": "Equity futures rally hard off the AI rout while haven assets are sold",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "MU",
-        "AVGO",
-        "PLTR"
-      ],
-      "why": "The tell is the simultaneous decline in havens: this is risk being re-added rather than a short-covering bounce inside a defensive regime, which is what distinguishes a tradeable low from a bear rally. It matters mechanically because the drawdown had pushed the Nasdaq into correction and systematic/vol-target funds into de-grossing; a stabilising tape halts that mechanical supply. Fundamentals are unchanged, so the move is entirely positioning and discount rate.",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFVRM2J2cTZ6eU02Qzk1TF83UmhsSEN3SlpHYjJuc2lDeXBVM0h6WkN2bEJCUlk5RnZNOFMta05FOXFqeTZQQWZnbFl2RG1WTWVNSXYwVWhZRFZxRkx6SDlhTWtUWk92UVBJa2FGWVk3ak9rOUVJYjZ6RDBqcUZCOEpiWmFVWGxvVmM1Y2prdDk2N19EZG0xWjU3aFV5QkJ6MjF4eExGSkd3TWxaWGRBVzhB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261122-macro-gdp-pce-same-day-ai-server-earnings",
-      "time": "2026-11-22T06:00:00Z",
-      "headline": "Week ahead: Q3 GDP and October PCE land on the same day alongside Dell and HPE AI-server results",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "AMD",
-        "MU",
-        "SMCI",
-        "AVGO",
-        "ANET",
-        "MSFT",
-        "AMZN",
-        "GOOGL",
-        "META"
-      ],
-      "why": "Stacking growth and the Fed's preferred inflation gauge into one print concentrates the December rate decision into a single repricing window, so rate-sensitive long-duration tech carries two-sided gap risk rather than a drift. The same week delivers the first independent read on whether AI server orders are still converting into backlog after the semis drawdown, which is the cleanest external check on hyperscaler capex guidance. Thin Thanksgiving liquidity amplifies whatever direction the data sets, making index-level moves larger than the surprise itself justifies.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMFNoY3ZxSEc4alo3eGs1azFJRzgxYlJlUVFyZ3BKdmYwejJBLU1RZEhkb1Awdy1nM2ctRDdROXFtT1R0RnZmczNnUzRJcDFpWlFsXzhXakx3UGhzcloxOEZwdW1scjBScEV0ZUg5a3Rpc1NydmMxVDVvTGxCV0ZmTXVYblBlOGJFTkF1Ukp5Q2RiSVlFVTBXMWxIZldReDhlRUFuQ0c4N2kwb2ZQSm1OdG9YZ18tVDhhX3lFdHR3?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261122-crossasset-bitcoin-forced-selling-eases",
-      "time": "2026-11-22T04:00:00Z",
-      "headline": "Bitcoin rebounds 9% off a two-year low as forced liquidations subside",
-      "impact": 5,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "QQQ",
-        "SPY",
-        "IWM",
-        "NVDA",
-        "PLTR",
-        "SMCI",
-        "TSLA"
-      ],
-      "why": "Crypto has been the margin-call release valve for the same leveraged accounts holding high-beta AI names, so an end to forced liquidation removes a mechanical, non-fundamental seller from the tape. That matters for the most crowded Nasdaq positions, where the drawdown has been driven by deleveraging rather than earnings revisions. It is a positioning signal, not a valuation one, and it reverses quickly if funding stress returns.",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPazQwdWlpUGFEeW94QjNwc09ZYzFHblczcTFvUEI3SzdwMTE4cWw4T0RlcFhJcE50cWhhcWVaWnVxekgzVWJDWjNpWTJoZnEwcDBmVHA4NUZyVi1rNUU0dkRFZkpOMkZrYlBseEN4WWFFenlSbFJZVXp3REFlaUZ1UjNGTjdELVhDalhvd1lFNGJMUHktUlpDOWtCajF3TmZKYy1XOURObVAySU9yRS1Oclc2QTZaR2J5WGhpcXpoRWowaFJEUnpwUEFXYXNtYWs?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261122-semis-china-ai-capex-demand-destruction",
-      "time": "2026-11-22T02:00:00Z",
-      "headline": "Chinese tech firms warn of AI build-out damage from US curbs following Nvidia fallout",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "MU",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "ANET",
-        "MRVL"
-      ],
-      "why": "This is the demand-side mirror of the export rules: if Chinese buyers scale back or re-architect AI build-outs, the lost orders do not reappear later as pent-up demand, they get redirected to domestic silicon that permanently shrinks the addressable market. That matters for HBM, foundry wafer starts and networking content attached to each accelerator, not just the GPU line. It also raises the odds of retaliatory friction on rare earths and assembly, which widens the cost-side risk for the whole supply chain.",
-      "source": "WHEC.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1B6bklfQVJsbEZ4OFJNbDhXV3ZKOXh1SnViNHdJdVBPZklsWnUxQnpuOTV4VVhzMlJCVmdzQUJKYzZZa1RZMjJkb1RvTnpQSU02Y0wzVzh0REQ0cDZ3bmhRSnJFWjZJUUVLNkc4MHpWeDY4SnZtOTlYTVR4VldDOVhYejNxY3VXRksyRTZwVFRVX3NPakh6ZThwQlJWMEtEY1E?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261122-semis-trump-legacy-only-china-policy",
-      "time": "2026-11-21T23:00:00Z",
-      "headline": "Trump reaffirms only older-generation chips may be sold to China, citing self-sufficiency risk",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "QCOM",
-        "MU"
-      ],
-      "why": "A presidential-level restatement sets the ceiling on what can be licensed: top-bin accelerators stay off the table, so the China line in NVDA/AMD datacenter models cannot be re-underwritten at prior run-rates, while leading-edge capacity stays allocated to US hyperscalers. The offsetting leg is that explicit permission for trailing-edge parts caps the downside for mature-node foundry and equipment revenue that the latest BIS node-flagging had put in doubt. Net effect is to narrow the policy distribution rather than shift the mean, which compresses the option value investors had been paying for a China re-opening.",
-      "source": "SBS News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqSUJleERkNTJIcDhSQjU0MTB3NzBsRHlCbEFiYUxIcnI5Z1lGUjhaMHpDbUhUUWNBUFpMWjNXRndvelhzdjk2WUhhTHN2cHI0eHBWM1FPdXZ4cUtKLXJiMEwyS3k5UHJ6MlJBVkRn?oc=5",
       "alerted": false
     }
   ]
