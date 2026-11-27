@@ -1,7 +1,99 @@
 {
-  "generated_at": "2026-11-27T08:56:52Z",
+  "generated_at": "2026-11-27T21:33:13Z",
   "session_date": "2026-11-27",
   "items": [
+    {
+      "id": "20261127-nvda-huang-congressional-testimony-dec-1-3",
+      "time": "2026-11-27T13:00:00Z",
+      "headline": "Huang testimony before Congress on Dec 1 and Dec 3 becomes the next binary event for the AI complex",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TSM",
+        "ANET",
+        "QQQ"
+      ],
+      "why": "Live questioning on export-control compliance and chip diversion creates headline risk that feeds directly into pending legislation and licensing policy, which is the variable that sets Nvidia's addressable market in China and Southeast Asia. Any admission or new disclosure raises the probability of statutory restrictions that would cap out-quarter unit volumes for the whole accelerator and memory chain; a clean appearance removes a discount currently embedded in the multiple. It lands the same week as Marvell earnings and payrolls, concentrating event risk.",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMTAzQ1N2QWlMSk5RNmdzMlpQQVA4ZTFvcl9tNVo0V3F6cWkxYW41WDB5Rk4xZVhSRmVmN25hUW00blJhZ0RPTkUyMm85MFJhcWtFZVJvaFBuMkpONnItLXF5c01iMHBwXzBzSzdTUGRXTGppeHNsSnlRRkF2ekltN0N1RFdjYmJNVGxqck92ekk3NHI5Z08ybjFiazBHY0pSM2JUOFRIcXdockhaUlQzMkhVcU1zOXJkYTZZZlROV19jakxaYk9J?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261127-mrvl-q3-fy27-print-dec-1-custom-silicon-read",
+      "time": "2026-11-27T12:00:00Z",
+      "headline": "Marvell reports Q3 FY2027 after the close on Dec 1 against its own $3.15bn +/-5% guide",
+      "impact": 5,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "NVDA",
+        "TSM",
+        "ANET",
+        "AMD"
+      ],
+      "why": "Marvell is the cleanest near-term read on whether hyperscaler custom-ASIC and optical-interconnect budgets are still expanding after the export-control shock froze Asian data centre projects, so the guide matters more than the quarter. An upside January guide validates the merchant-plus-custom silicon spend assumption embedded in Broadcom and Arista multiples; a soft guide would be read as the first evidence that AI capex is being redirected rather than growing. Foundry and networking names take the read-through either way.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeDhGR1RySEJmODh2RVkxMHJOUFNvQXhqNWUyekFMQWlmaFhjUlM4TE1GMWlETVdBQ0JhRnJEQkJkb1JZRkcxUWRHMkllaU5LcFFHbGNaTnE1NkFPekdJVGZ1RFhTS0wtcXEyRzc3a0tKRkpFdVV3NWxfNUpFTTNtWkIwb1NYbllNeGFHR19jSlNNSVgyT1E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261127-macro-november-payrolls-dec-fomc-setup",
+      "time": "2026-11-27T11:02:00Z",
+      "headline": "November payrolls on deck as next test for battered equities ahead of Dec 8-9 FOMC; economists see +90k jobs, 4.1% unemployment",
+      "impact": 7,
+      "direction": "uncertain",
+      "scope": "macro",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "TSM",
+        "PLTR",
+        "TSLA",
+        "JPM",
+        "GS",
+        "MSFT",
+        "AAPL"
+      ],
+      "why": "With a quarter-point December hike effectively fully discounted after hot core PCE, the payroll print is now the only data that can change the policy path before the Dec 8-9 meeting: a hot labor print pushes the terminal rate higher and compresses the discount-rate-sensitive multiple on long-duration AI and small-cap names, while a sharp miss is the one outcome that can stay the hike. Direction is genuinely two-sided because a weak print also undercuts the earnings growth leg supporting cyclicals and banks. The repricing channel here is the multiple, not near-term EPS.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQWRTQ0tlUW54X0tjS2R6bWdzblVkUnZ5VnBCa2NjWkd5Q2xIWUh0MUFWVW4weVlRTTBpbDhFWTFsbmYwc2NqOERDdGxTZmpHTzdHRVk2b2o5U0RZYm1WMXZhaEJMRXFrQmxKaUViQXNNdE1XZ3RTT05VbmxqX3BYOXNONGFkMVFTU1VLVVRjTzdfUTloYnhJaVpsWS1YMV9FVGlmeUdYRmk0clkzM3FhQjZuUnRfYXdZRnVHdTE2Smo1V2M?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261127-sea-singapore-us-chip-access-negotiation",
+      "time": "2026-11-27T06:00:00Z",
+      "headline": "Singapore says it is negotiating with Washington to preserve advanced AI chip access under the new licensing regime",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AMD",
+        "AVGO",
+        "TSM",
+        "MU",
+        "ANET",
+        "MRVL"
+      ],
+      "why": "The new licence requirement covering Singapore, Malaysia, Thailand, Indonesia and Brazil has frozen a region that had become a major destination for AI server bill-of-materials, so an intergovernmental carve-out or trusted-buyer framework would restore deferred revenue rather than destroy it. A negotiated outcome converts the current shipment halt from a demand loss into a timing shift across quarters for accelerators, HBM, networking and the ODM/server chain; failure makes the pause structural. Singapore also flagged its Megaspeed probe is still open, which keeps compliance overhang on approvals.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQbFNScEczWGhSdTFsTmlGV3RqSlgtN0V3QTlXUHl3MEpGU1RFRVRuczFtcW41Y2psR1ktWXZiRUQtR3Z4dS1GWHZpYUpjRHhySmpQR3FEQVdzLTZWelliUUVKR0otR2dqYjNFQkZMRUgwMGwtVktGaGUySHU0SHliOENSR3dBb1d0emhOTzdlQy1tTTBmNHRxc2F1SjB2RUpJalNLQ21MWG5jb08yS1BXN25MaUxZaDJqOE0tWVFDRXRpeU5pVHNhYzZVR2xDSXNWdk9sNmQzbXJoSTg1c0g2bGpvYm50ZnpEaHNyVVVkdG1oUkIydVVpM1FWNWxjQTYwcjJaS3R3?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261127-macro-china-state-council-market-support-pledge",
       "time": "2026-11-27T01:43:00Z",
@@ -764,88 +856,6 @@
       "why": "Codifying the current BIS interim rule into statute would strip the executive branch of the discretion Nvidia has been using to win case-by-case China licences, turning a negotiable revenue line into a legislated zero for multiple years. Mandatory pre-deployment model evaluations would also add compliance cost and launch latency at the hyperscalers that buy the accelerators, slowing the capex cadence at the margin. Probability-weighted this is low given the current administration's posture, hence a modest score, but it caps how much China optionality can be re-added to 2027 estimates.",
       "source": "Roll Call",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU2wzWWlFZmp0LWpWcHY0RDNscEdSYWNRWkRMX3hYNlZqREFBSnJzbkZqZ2g0ZU1MMWJtTmp1cjVDZXpvZnNoQVZ1TVQ5RFg3bzRoZ3lnMml6T200NUM5bERMeVRNNUYzX2JQbl80Y1BPdFlPQUNVazJzZlZvZEV4dlJDSU4tNG9NcnlZY3h4end5ckRUQUVqSXhWZ18?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-macro-ai-complex-relief-rally-correction-exit",
-      "time": "2026-11-23T21:00:00Z",
-      "headline": "Equities post their best session of the year as the AI complex rebounds and indices climb out of correction",
-      "impact": 6,
-      "direction": "bullish",
-      "scope": "macro",
-      "tickers": [
-        "SPY",
-        "QQQ",
-        "IWM",
-        "NVDA",
-        "MSFT",
-        "META",
-        "GOOGL",
-        "AMZN",
-        "AAPL",
-        "TSLA",
-        "PLTR"
-      ],
-      "why": "Index-level correction status had forced systematic and vol-target funds to cut gross exposure into last week's lows; a single idiosyncratic catalyst flipping the tape reverses that mechanical selling and restores the dealer gamma profile, which is why the move was broad rather than confined to semis. For the megacap complex the relevant change is that AI capex plans are no longer being discounted at distressed terminal-value assumptions. This is a positioning repair, not a change in earnings, so it leaves the market vulnerable to the next data print.",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTWR5WHAwZmExU2UyZkd2d0w4UWxCcXh0X1hJajU4alplUUVUdGM5bk52dDRoazNfamJfbWdQRGhEVExVeFAtZldhcmxYOTlaMmJKTkNQN2Yza1dNS0dfZkhQZTRTTGZudGI1d0JNbWR3SWJzN1hRYWxxWktYS2hNaFR3ajgzQ3FRUlJLVjE5d0cwVnc?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261124-bis-entity-list-seven-sea-firms-alibaba-unit",
-      "time": "2026-11-23T21:00:00Z",
-      "headline": "Commerce adds seven Singapore, Malaysia and Thailand firms including an Alibaba subsidiary to the Entity List over AI chip diversion",
-      "impact": 6,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "SMCI",
-        "TSM"
-      ],
-      "why": "Naming a Chinese cloud group's Singapore entity alongside the Megaspeed cluster extends enforcement from shipment destination to beneficial ownership, which puts every Southeast Asian colocation and neocloud customer under fresh diligence and slows order flow from a channel that absorbed real accelerator volume this year. US suppliers now need licences to serve these accounts, so revenue recognised in the region carries both timing and cancellation risk. Alibaba contesting the designation signals litigation and possible retaliation, keeping a regulatory overhang on the China-adjacent demand bucket.",
-      "source": "US Muslims",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeUpFZUlfY0tiYUVDY0JDbVUwVkdvbW9VRThabHB1NGdNS3BSdlRyclBSYmRXbkJHelhpZWNHZVE2WF92SWRWXzUzNkgweXpYb0czUmFBdmJIaHRlUUZOMmpSUlU4Mk5OUGdsY3dHem9vY3E4SEZvV3BaVU53Wnp5OHJzYU1TNTU5SUpfSkd6SFFCY0I2N1RqQVg2V1RQOS1mU3dUNlZWQlRISlkwQ3FQQ1UyM3FpZ3lrUjNCdNIBzAFBVV95cUxQRUs5S052d2FWcTBmR01JN3dQRUx1WUdhYWVCRm4xT1RXMGUzaDBDN0c4eG04V3hoZ2NvUkJESWtoa2tCeDdzYmo3RFM2M2dFZ09BUGtwX05jd1c5TERZMUtKb21sYWpkcGJYV2hNemdVSnRvMVlZQ1RTdzlPWWdGdTlmbHBjaE10THpNVG1mbXlEeDNiVVoyVFVrazdIODdyd01VZUpCNjB2X2dDcXFxU0lWS254ZzRncU9mbzhLakVYaGlJb19IUjZ0d18?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-bis-megaspeed-entity-list-designation",
-      "time": "2026-11-23T20:30:00Z",
-      "headline": "Commerce/BIS moves to add Singapore-based Megaspeed to the Entity List over diverted Nvidia chips",
-      "impact": 6,
-      "direction": "uncertain",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "SMCI",
-        "AVGO",
-        "MU"
-      ],
-      "why": "Formal Entity List designation converts Nvidia's voluntary no-sell posture into a licensing bar, which closes the specific diversion channel at the centre of the scandal and caps the tail risk of a company-level enforcement penalty \u2014 that is the de-risking leg. The cost is that BIS is now willing to blacklist intermediaries and cloud/colocation resellers in third countries, so GPU demand booked through Southeast Asian shell buyers becomes a known-bad revenue pool that sell-side models must haircut across Nvidia, AMD and the server OEMs that ship to them. A criminal export-control probe remaining open keeps the headline risk live.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT1J6dzBaQU90dTBwdm1wWktJQmdlVXRiR2pSZEQ3aUJBekRsYzNhUmRtSmxZUVlhOXRORmtZVURORXpEX0ZDWjhNWGluNFJpanQzTlJzdFRfaHFFOHAtUkFVMzFGb3VQU2JTOG5teVJOYkk3cEQyYnJzSG0zRTI2aXlFRjhnaWVSdkdFb0hHUkVCVG4xbXpmdDhUVEtWUXB5Si15LWZyTDJiZVNQVFNTaFBUWnJpVG5WUDdMMVJlZUFJaUhYQWtDSWxR?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-nvda-trump-board-intervention-governance",
-      "time": "2026-11-23T14:22:00Z",
-      "headline": "Trump reverses stance on Huang and says he intervened with Nvidia's board over the reinstatement",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "TSM",
-        "AVGO",
-        "INTC"
-      ],
-      "why": "The White House moving from wanting Huang out to lobbying the board to bring him back signals the administration will not use Nvidia's leadership as leverage, which materially raises the odds that pending China export licences and any further curbs are negotiated rather than imposed \u2014 a direct revenue-path variable. The offset is a new governance discount: a board that reverses a CEO decision under presidential pressure is harder for institutional holders to underwrite, and it invites the Democratic legislative pushback now forming. Net effect on earnings is positive via policy access, negative on the multiple via political dependency.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRXVUaE5oREVIRVpXeWxtcDNPVzl2aklWQXhtQkFCdlUxdDBiNEtjN3hoRFZlRVdENWp2cHFvWnpSOVJtcTN3bjlKYzZPOXhzMUZkVmRqLVlrOHVWTGYzSFA2alhrdFFnRnVEdHZoYnRkTGRzaGRKSWtYMUZZamkwbzdOdDY4R0FNaFhYY0RkMUowX1Y3eEZsRHhsakpzY01KVjZ6eU1nR0I2STVsd2pNMXJhSkFIcmJCU0diemtINklXaFdOd3R6Y3N2WHBKNWxmLW50QTlYOGtVRmxQY1MzRlFB?oc=5",
       "alerted": false
     }
   ]
