@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-26T21:49:59Z",
-  "session_date": "2026-11-26",
+  "generated_at": "2026-11-27T08:56:52Z",
+  "session_date": "2026-11-27",
   "items": [
+    {
+      "id": "20261127-macro-china-state-council-market-support-pledge",
+      "time": "2026-11-27T01:43:00Z",
+      "headline": "Beijing pledges stronger market support at State Council meeting; China benchmarks and yuan reverse losses, Kospi jumps",
+      "impact": 6,
+      "direction": "bullish",
+      "scope": "macro",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO",
+        "QCOM",
+        "AAPL",
+        "TSLA",
+        "SPY",
+        "QQQ"
+      ],
+      "why": "An explicit state-level backstop for equities and the currency during trading hours is a liquidity put that stabilises Asian risk assets and, more importantly for US semis, reduces the odds that Beijing answers US export legislation with immediate retaliation on rare earths or US-brand demand. A firmer yuan also lowers imported-input costs for Asian OEMs and supports the dollar revenue translation for Apple and Tesla's China units. Read-through is sentiment and multiple, not near-term earnings, which caps the score.",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLWxqTUV2X2RZam8zVGVSY2ZFTzRLQkxKYjdBUVJvR1dIOVlaczllTWRmay1FM3pMOHk5SlBjYkhxaDZ4YmJXbWM3NFpSRDBuWWs3T05QS2hZU2FoVzluTzJTMVFjQmhVS3B3a3ZQSXlOc0JKLV92RHZiNFZoNUlXUW5MMk1ncnpDXzVsMnhpTGx4OWpOVnpCNjlWRlJCa1Bp?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261126-crwv-cds-default-probability-70pct",
+      "time": "2026-11-26T18:00:00Z",
+      "headline": "CoreWeave five-year implied default probability tops 70% as Nvidia, Oracle and SpaceX credit protection costs hit record highs",
+      "impact": 7,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "NVDA",
+        "ORCL",
+        "AVGO",
+        "MU",
+        "AMD",
+        "SMCI",
+        "META",
+        "GOOGL",
+        "MSFT",
+        "QQQ",
+        "SPY"
+      ],
+      "why": "The marginal buyer of AI compute is debt-financed: neoclouds fund GPU purchases with asset-backed and high-yield paper, so a credit market that prices a >70% five-year default probability on the largest of them raises the cost of capital for the entire order book sitting behind Nvidia, Broadcom and Micron backlog. Record CDS levels on Nvidia and Oracle themselves signal that lenders are now underwriting vendor financing and multi-year offtake guarantees as real balance-sheet risk, not accounting footnotes. If the next CoreWeave facility prices wide or fails, backlog converts to revenue more slowly and the whole complex de-rates on order quality, not demand.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWh4SUdUZHlPd2w3VkhhUXU2RTVURDM1TFFST2lfMDNzNUxYUmtjWklrUE5CNEdvXzRMTE05MEQtaW5QaGFoaTdrdHB2QjFOUHlvN0Qtb082Nk5VZGNDRE1PanVfeVpoanpEdGNtSmZpSWQzeFlwTTNzNUs4eW96TmJIRU9JUWNBMjJpZEtPQVNBdENkZDVBS1RvZG5HQkNpSzFBYV9lV3JKd0lkR0V4TnJkNzVUdWVIRzJIMEVlbDlYR0o1SkE?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261126-asml-dutch-government-formal-match-act-objection",
+      "time": "2026-11-26T14:00:00Z",
+      "headline": "Dutch trade minister says The Hague will formally ask Washington not to enforce MATCH Act curbs; ASML CEO warns a full China tool ban backfires",
+      "impact": 6,
+      "direction": "uncertain",
+      "scope": "sector",
+      "tickers": [
+        "ASML",
+        "LRCX",
+        "KLAC",
+        "AMAT",
+        "TSM",
+        "NVDA",
+        "INTC"
+      ],
+      "why": "The MATCH Act would extend US extraterritorial control to Dutch and Japanese toolmakers, converting roughly a quarter of ASML's installed-base and service revenue into a policy variable rather than a demand variable; an allied government formally contesting enforcement lowers the probability the harshest version survives NDAA conference. The mechanism that matters for earnings is service and upgrade revenue on tools already in China, which is high-margin and recurring, plus the risk China retaliates on rare earths and mature-node supply used by every fab customer. Direction is genuinely two-sided: Dutch resistance caps the downside tail but prolongs the uncertainty window that is compressing the sector multiple.",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNbnY5aGU0UGIzS0U0LS1HSnlsRGFxZ2thb1JBN3BSa0tMM1VuMVhIcWtwMUZZSG8wVk5DOVlmOFA4UHRBbU1pbFNCTXlJU21Ua3hpbjM1by1jTEFfdEljZVNjb2hRRzRIZG5ZUjZMNnZDRVh4SHF5YXJnODRmTFNsdXh4cEpNamkzTWw5STdrQWE4MjlmckhVZzJzRmc1SUpPeFgyaFJHR3ljQ0RCQ0tVVVJZd1liUEpsajUyNEJhOElPRjNJa0NXa3B5ZXFELVBLVHFtV3RnT1FPbG9iZDRlSjk4QWx3SzAza0U3U0lwTGwxd3drNmNFZ3o0c1RkWlR4X0dBSUgxc1Utd2pLbmdQemZSUQ?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261126-nvda-munster-penalty-box-2027-growth",
       "time": "2026-11-26T13:00:00Z",
@@ -776,80 +846,6 @@
       "why": "The White House moving from wanting Huang out to lobbying the board to bring him back signals the administration will not use Nvidia's leadership as leverage, which materially raises the odds that pending China export licences and any further curbs are negotiated rather than imposed \u2014 a direct revenue-path variable. The offset is a new governance discount: a board that reverses a CEO decision under presidential pressure is harder for institutional holders to underwrite, and it invites the Democratic legislative pushback now forming. Net effect on earnings is positive via policy access, negative on the multiple via political dependency.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRXVUaE5oREVIRVpXeWxtcDNPVzl2aklWQXhtQkFCdlUxdDBiNEtjN3hoRFZlRVdENWp2cHFvWnpSOVJtcTN3bjlKYzZPOXhzMUZkVmRqLVlrOHVWTGYzSFA2alhrdFFnRnVEdHZoYnRkTGRzaGRKSWtYMUZZamkwbzdOdDY4R0FNaFhYY0RkMUowX1Y3eEZsRHhsakpzY01KVjZ6eU1nR0I2STVsd2pNMXJhSkFIcmJCU0diemtINklXaFdOd3R6Y3N2WHBKNWxmLW50QTlYOGtVRmxQY1MzRlFB?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-nvda-huang-reinstated-ceo",
-      "time": "2026-11-23T14:00:00Z",
-      "headline": "Nvidia board reinstates Jensen Huang as president, CEO and director, effective immediately",
-      "impact": 9,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "MU",
-        "AMD",
-        "ANET",
-        "ASML",
-        "LRCX",
-        "KLAC",
-        "AMAT",
-        "MRVL",
-        "SMCI",
-        "INTC",
-        "QQQ",
-        "SPY"
-      ],
-      "why": "The founder-CEO discount that opened when Huang resigned two weeks ago is removed: Huang personally owns the hyperscaler relationships, the annual-cadence roadmap commitment and the Washington negotiating channel on China licences, so succession risk was being priced as both a multiple de-rate and a risk to the multi-quarter order book. Restoring him restores the demand-visibility narrative the entire AI capex chain discounts off, which is why memory, foundry, lithography and networking suppliers re-rate with it rather than just NVDA. Note the WSJ wire item still carrying 'Huang won't return as CEO' is stale and conflicts with the board's Monday announcement.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZllDMTMtZUpUWGpHV05FSGlaN3JQeE5lNU9LUldOTVR1ZFJaclFvMU5QUzc2MkJVNjdKRzZMbkdWU1JmSC1hR1ZyMUhVbFFvbUNvUFBmWWVXb0o4ckZZQmQ0OFF3U0J1a25JaFdteXhRYUpRZ1N1OUE5WHlPNTFYQTlNMHJqQWdPNTB4T2MxSzhZLWE5dTIxZU9MYzRGeUhlZVNKRVZUZHNvM1NlWVYw?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-mu-fy-revenue-guide-50b",
-      "time": "2026-11-23T12:30:00Z",
-      "headline": "Micron guides to roughly $50bn annual revenue on AI memory demand after record quarter",
-      "impact": 8,
-      "direction": "bullish",
-      "scope": "sector",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "TSM",
-        "SMCI",
-        "LRCX",
-        "KLAC",
-        "AMAT"
-      ],
-      "why": "A company-set revenue envelope of this size is the cleanest hard datapoint that HBM/DRAM contract pricing and bit demand are still being pulled by accelerator builds, not by inventory restocking. Memory is sold forward on long-term agreements, so the guide locks in gross-margin mix for several quarters and makes the AI capex digestion narrative harder to sustain. It also validates wafer-fab equipment order books (LRCX/KLAC/AMAT) because HBM capacity adds are equipment-intensive per bit.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVW44UW9zZ0wyM0k4VzA1ZTJDaTBDWnZUSjl5dWdfSl9Na1p5bzBQdUstYk5nUlRsZDRsbnZDb0o5UWhaTlVJV2hRUUpQZnZ6b1dGRGxxOUVQbGZpekRyaG85T3FqNkNKdVplX3RPaTF3eGRXNEJJRUtLbGxmdEt4eEFERjRHbXA0MXdEdUdZdXZpV3dBY0lad1pHUXZzOU1URWE2aTgtRkFLVTdEeW5JQmhWR24?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-intc-q2-fy26-datacenter-beat",
-      "time": "2026-11-23T11:00:00Z",
-      "headline": "Intel posts 25% revenue growth with data-center segment up 59%; initial stock pop fades",
-      "impact": 7,
-      "direction": "uncertain",
-      "scope": "company",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "MU",
-        "AMAT",
-        "LRCX"
-      ],
-      "why": "A data-center segment growing at that rate implies Intel is finally holding or regaining server CPU socket share rather than buying it with price, which changes the incremental-margin math on a fixed, capital-heavy cost base. The fade from the intraday high signals the market is discounting the growth as cyclical memory/server pull-through rather than durable foundry traction, so the multiple does not re-rate with the revenue. For AMD it is a share-of-wallet negative at the margin even as it confirms server unit demand is strong.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSTRQZEVBYzJNekhNS2NEYThtTnBoNEJCcWRZTS1SSFVXYnVfNjdpNndfd2xrWklfM2JvakdWTUdQNjdWaVFDaHl3bEo5WnpwUWZZQWlwdUpfUTZqbUR4R1hHdDhhLVowZU5IYnllc3ZkVTBHcDhGbzg0SERudlh6TVlNc3JPb2FjdkNjNFo1SmkzMFZHcmk0d1A5OERwMlFFeVhrQ1RuSVJVMmd1U3E1Z0toZWN6RWE2c1NkeU9ZejM5cGhJV0pxSg?oc=5",
       "alerted": false
     }
   ]
