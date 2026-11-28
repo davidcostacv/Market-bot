@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-27T21:33:13Z",
-  "session_date": "2026-11-27",
+  "generated_at": "2026-11-28T08:17:35Z",
+  "session_date": "2026-11-28",
   "items": [
+    {
+      "id": "20261127-amd-erste-downgrade-buy-to-hold",
+      "time": "2026-11-27T14:30:00Z",
+      "headline": "Erste Group cuts AMD to Hold from Buy on valuation as chip names rebound",
+      "impact": 5,
+      "direction": "bearish",
+      "scope": "company",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "MRVL"
+      ],
+      "why": "The downgrade is purely multiple-driven rather than estimate-driven, which matters because AMD's re-rating this year has come almost entirely from the MI-series/OpenAI-linked accelerator narrative rather than delivered data-center cash flow, leaving the share price unusually sensitive to any sell-side willingness to defend the valuation. Coming while the Hunterbrook China-exposure allegations and the resale registration of roughly 337 million warrant-linked shares are still unresolved, it removes a buy-side support point at exactly the moment the float and disclosure overhangs need one. Erste is a mid-tier house, so the earnings path is unchanged and the practical effect is sentiment and incremental flow, not numbers.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFY2lwdUxPbWU2THNDNlh6enpGdlFVLVMxX2gwSWtyLUJxOWpzRlA1OERWMUtCU2VGVVJ1YXFheERIVnVsYi1JWVBIQVFfZmJyRkhhMHVpZElyc3NlVjA5emZZMThyRXFLSFhJcWFGR0FYdGV0bkE?oc=5",
+      "alerted": false
+    },
     {
       "id": "20261127-nvda-huang-congressional-testimony-dec-1-3",
       "time": "2026-11-27T13:00:00Z",
@@ -42,6 +60,27 @@
       "why": "Marvell is the cleanest near-term read on whether hyperscaler custom-ASIC and optical-interconnect budgets are still expanding after the export-control shock froze Asian data centre projects, so the guide matters more than the quarter. An upside January guide validates the merchant-plus-custom silicon spend assumption embedded in Broadcom and Arista multiples; a soft guide would be read as the first evidence that AI capex is being redirected rather than growing. Foundry and networking names take the read-through either way.",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeDhGR1RySEJmODh2RVkxMHJOUFNvQXhqNWUyekFMQWlmaFhjUlM4TE1GMWlETVdBQ0JhRnJEQkJkb1JZRkcxUWRHMkllaU5LcFFHbGNaTnE1NkFPekdJVGZ1RFhTS0wtcXEyRzc3a0tKRkpFdVV3NWxfNUpFTTNtWkIwb1NYbllNeGFHR19jSlNNSVgyT1E?oc=5",
+      "alerted": false
+    },
+    {
+      "id": "20261127-mu-trendforce-dram-2028-price-decline-risk",
+      "time": "2026-11-27T12:00:00Z",
+      "headline": "TrendForce flags rising risk of conventional DRAM contract price declines starting 2028 as bit supply builds and demand visibility fades",
+      "impact": 6,
+      "direction": "bearish",
+      "scope": "sector",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "NVDA",
+        "AMD",
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "why": "Memory is a price-driven P&L: the entire earnings uplift in the current cycle comes from contract price escalation, not volume, so a credible research call that prices plateau in 2H27 and decline across all categories from 1Q28 caps the terminal-year earnings investors are willing to capitalize \u2014 it compresses the multiple more than the near-term estimates. The base case (slower price increases through 2027, declines in 2028) collides with the bull framing that 75% of 2027 supply is pre-sold under take-or-pay contracts with $32B of customer cash, because those contracts reset prices annually inside bands rather than locking them, so the committed volume does not insulate realized ASPs. For server OEMs and hyperscalers the read-through is the mirror image: a 2028 DRAM/HBM cost roll-over relieves the memory BOM inflation that has been squeezing AI server gross margins.",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10NFRvRDJQTW9iRS1hYURNV1QteVVjTVZuNnIwUU9WNmVHSkp2QWdTa0NHMnRhUlpJZGltTV9YSk1ONURBdlQzNnpKdFVsNXE0dnkzenBVOEloUHEtUFpmTEphcFpBYnJScmNKV1BHbVdZd0NUWHR1ag?oc=5",
       "alerted": false
     },
     {
@@ -814,48 +853,6 @@
       "why": "Extending licence requirements down to mature logic nodes converts an AI-specific control regime into a volume-business problem: 16nm and 14nm underpin high-unit, low-ASP smartphone, display and automotive parts, so a licence queue there idles capacity that TSMC had been running full and pushes affected designers back to 28/40nm. The earnings mechanism is utilisation and mix at the foundry plus deferred tool pull-through for the equipment names, since China mature-node fabs lose the incentive to upgrade. It also raises the probability that Chinese customers accelerate qualification of domestic foundries, a permanent share loss rather than a timing shift.",
       "source": "Tom's Hardware",
       "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOdGtOVnNvTVh4Z2R4dkZnUVlXTThveFFlT0dxVjFuQnB1Rjd1X3RzRDJtRDd2SEF1WkR0ZDBWQi1fT3A3anBLUmJwbVBSSUd1UFY3ZXdOZllwTURpTzVxTjYwM1dlYm1CcE5pMFhGeTJ4b0VLNTRTeG1EaHRwQ3hCX3hHTGFhME0wX2ozZTM5bmNHcXBucVdfVG1QQmVDS3VVRWtwQkkybTFiSWtUNTZmZGF4SWh0SjlzdEVqWHlNS2cyM3hrVmZoNDRKdEF0aGhtZVpOcURQTE8wTWdRbkg3UGd0UmtDbERwTmNtb1NDWnh3YjhvQ3JUVWdHVk15QjZKamRIMUhNMmpGeEFfbElCRUZhTmdsZWkxdy1Lc2NtSldKeXc5eVVFYjA0X2liR20xMVo0RWV4ZERtd1h6M194ZjZCZVR0QQ?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261124-hpe-fq4-beat-raise-buyback",
-      "time": "2026-11-24T01:00:00Z",
-      "headline": "HPE beats on FQ4 earnings and guides above consensus with a new $5B buyback; shares give back part of a huge session gain after hours",
-      "impact": 7,
-      "direction": "bullish",
-      "scope": "company",
-      "tickers": [
-        "HPE",
-        "SMCI",
-        "DELL",
-        "NVDA",
-        "ANET",
-        "AVGO",
-        "MRVL"
-      ],
-      "why": "A forward guide above consensus from an AI-server and networking vendor is a demand datapoint, not a cost story: it implies the backlog conversion and GPU-system supply that drive the whole rack-scale chain are still accelerating, which supports unit assumptions at SMCI, DELL and the Nvidia/Broadcom/Marvell silicon behind them. The buyback authorisation shrinks the share count and signals management confidence that AI-server gross margin has stopped deteriorating, which is the main bear case on the box builders. The after-hours fade reflects positioning after an outsized regular-session move in the tech complex rather than anything in the numbers.",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYmxDdWFnb1hPakdlQUJvbGkwak1fZ0dQOF9NTUZHcnNJc2FaRlRqLXo0bl9PVFBaeXlSNHVRNTNNdzBQNDZlemVtTG8xY1FMNWFqYjhDdGxhaTF5QkxIYjdvUHRzMjBCMnBYVjFzNXE1MFZBQVFzdmZFdVVZT3hZY0c1RzllcHlqRDBCSUt1Z3Y0NG8?oc=5",
-      "alerted": false
-    },
-    {
-      "id": "20261123-semis-democrats-ai-eval-export-bill-push",
-      "time": "2026-11-23T22:00:00Z",
-      "headline": "Senate Democrats press for mandatory AI model evaluations and statutory chip-export limits in response to Huang's return",
-      "impact": 5,
-      "direction": "bearish",
-      "scope": "sector",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "MSFT",
-        "GOOGL",
-        "META"
-      ],
-      "why": "Codifying the current BIS interim rule into statute would strip the executive branch of the discretion Nvidia has been using to win case-by-case China licences, turning a negotiable revenue line into a legislated zero for multiple years. Mandatory pre-deployment model evaluations would also add compliance cost and launch latency at the hyperscalers that buy the accelerators, slowing the capex cadence at the margin. Probability-weighted this is low given the current administration's posture, hence a modest score, but it caps how much China optionality can be re-added to 2027 estimates.",
-      "source": "Roll Call",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU2wzWWlFZmp0LWpWcHY0RDNscEdSYWNRWkRMX3hYNlZqREFBSnJzbkZqZ2g0ZU1MMWJtTmp1cjVDZXpvZnNoQVZ1TVQ5RFg3bzRoZ3lnMml6T200NUM5bERMeVRNNUYzX2JQbl80Y1BPdFlPQUNVazJzZlZvZEV4dlJDSU4tNG9NcnlZY3h4end5ckRUQUVqSXhWZ18?oc=5",
       "alerted": false
     }
   ]
